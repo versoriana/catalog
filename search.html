@@ -1,0 +1,534 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<title>Search Results - Bibliotheca Manuscripta Versoriana</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Search results for Versoris manuscript collection">
+	<meta name="author" content="José Luis Losada Palenzuela">
+
+	<!-- Stater template modified -->
+	<link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/starter-template/">
+	<!-- CETEIan scripts and css -->
+	<script type="text/javascript" src="js/CETEI.js"></script>
+	<!-- MiniSearch for full-text search -->
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/minisearch@7.1.0/dist/umd/index.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/CETEIcean.css" />
+	<!-- Own CSS It may overlap with CETEIcean.css -->
+	<link rel="stylesheet" type="text/css" href="css/versoris.css" />
+	<!-- Bootstrap core CSS -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+	<style>
+		.bd-placeholder-img {
+			font-size: 1.125rem;
+			text-anchor: middle;
+			-webkit-user-select: none;
+			-moz-user-select: none;
+			user-select: none;
+		}
+
+		@media (min-width: 768px) {
+			.bd-placeholder-img-lg {
+				font-size: 3.5rem;
+			}
+		}
+
+		/* Custom styles for this template */
+		/* Custom be added in any css */
+		body {
+			padding-top: 5rem;
+		}
+
+		/* Search results styling */
+		.search-result {
+			border: 1px solid #dee2e6;
+			border-radius: 8px;
+			padding: 20px;
+			margin-bottom: 20px;
+			background: white;
+			box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+			transition: box-shadow 0.2s ease;
+		}
+
+		.search-result:hover {
+			box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+		}
+
+		.result-title {
+			color: #0d6efd;
+			text-decoration: none;
+			font-size: 1.25rem;
+			font-weight: 600;
+			margin-bottom: 8px;
+			display: block;
+		}
+
+		.result-title:hover {
+			color: #0a58ca;
+			text-decoration: underline;
+		}
+
+		.result-type {
+			display: inline-block;
+			padding: 4px 8px;
+			background-color: #e9ecef;
+			color: #495057;
+			font-size: 0.8rem;
+			font-weight: 500;
+			text-transform: uppercase;
+			border-radius: 4px;
+			margin-bottom: 8px;
+		}
+
+		.result-type.manuscript {
+			background-color: #d1ecf1;
+			color: #0c5460;
+		}
+
+		.result-type.person {
+			background-color: #d4edda;
+			color: #155724;
+		}
+
+		.result-meta {
+			color: #6c757d;
+			font-size: 0.9rem;
+			margin-bottom: 8px;
+		}
+
+		.result-score {
+			color: #868e96;
+			font-size: 0.8rem;
+		}
+
+		.search-summary {
+			background-color: #f8f9fa;
+			border-left: 4px solid #0d6efd;
+			padding: 15px;
+			margin-bottom: 25px;
+		}
+
+		.no-results {
+			text-align: center;
+			padding: 60px 20px;
+			color: #6c757d;
+		}
+
+		.no-results h3 {
+			color: #495057;
+			margin-bottom: 15px;
+		}
+
+		.search-filters {
+			background-color: #f8f9fa;
+			padding: 15px;
+			border-radius: 8px;
+			margin-bottom: 20px;
+		}
+
+		.highlight {
+			background-color: #fff3cd;
+			padding: 1px 2px;
+			border-radius: 2px;
+		}
+
+		.advanced-search {
+			background-color: white;
+			border: 1px solid #dee2e6;
+			border-radius: 8px;
+			padding: 20px;
+			margin-bottom: 20px;
+		}
+
+		.search-input-large {
+			font-size: 1.1rem;
+			padding: 12px;
+		}
+	</style>
+
+</head>
+
+<body>
+
+	<!-- navigation -->
+
+	<nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+		<div class="container-fluid">
+			<a class="navbar-brand" href="index.html">Bibliotheca Manuscripta Versoriana</a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+				data-bs-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false"
+				aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarsExampleDefault">
+				<ul class="navbar-nav me-auto mb-2 mb-md-0">
+					<li class="nav-item dropdown">
+						<a class="nav-link" href="manuscripts.html">Manuscripts</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="persons.html">Persons</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="index.html">About</a>
+					</li>
+				</ul>
+				<form class="d-flex" id="search-form">
+					<input class="form-control me-2" type="search" placeholder="Search manuscripts and persons..." aria-label="Search" id="search-input">
+					<button class="btn btn-outline-light" type="submit">Search</button>
+				</form>
+			</div>
+		</div>
+	</nav>
+
+	<!-- Container -->
+
+	<main class="container">
+		<div class="starter-template py-5 px-3">
+
+			<!-- Search interface -->
+			<div class="advanced-search">
+				<h2>Search the Versoris Collection</h2>
+				<form id="advanced-search-form">
+					<div class="row">
+						<div class="col-md-8">
+							<input class="form-control search-input-large" type="search" placeholder="Enter your search terms..." id="main-search-input">
+						</div>
+						<div class="col-md-4">
+							<select class="form-select search-input-large" id="search-type">
+								<option value="">All content</option>
+								<option value="manuscript">Manuscripts only</option>
+								<option value="person">Persons only</option>
+							</select>
+						</div>
+					</div>
+					<div class="row mt-3">
+						<div class="col-md-12">
+							<button class="btn btn-primary btn-lg" type="submit">Search</button>
+							<button class="btn btn-outline-secondary btn-lg ms-2" type="button" id="clear-search">Clear</button>
+						</div>
+					</div>
+				</form>
+			</div>
+
+			<!-- Search results -->
+			<div id="search-results-container" style="display: none;">
+				<!-- Search summary -->
+				<div class="search-summary" id="search-summary">
+				</div>
+
+				<!-- Filters -->
+				<div class="search-filters" id="search-filters" style="display: none;">
+					<h6>Filter by type:</h6>
+					<div class="btn-group" role="group">
+						<input type="radio" class="btn-check" name="filter-type" id="filter-all" value="" checked>
+						<label class="btn btn-outline-primary btn-sm" for="filter-all">All</label>
+
+						<input type="radio" class="btn-check" name="filter-type" id="filter-manuscript" value="manuscript">
+						<label class="btn btn-outline-primary btn-sm" for="filter-manuscript">Manuscripts</label>
+
+						<input type="radio" class="btn-check" name="filter-type" id="filter-person" value="person">
+						<label class="btn btn-outline-primary btn-sm" for="filter-person">Persons</label>
+					</div>
+				</div>
+
+				<!-- Results list -->
+				<div id="search-results">
+				</div>
+			</div>
+
+			<!-- No results message -->
+			<div class="no-results" id="no-results" style="display: none;">
+				<h3>No results found</h3>
+				<p>Try adjusting your search terms or search in all content types.</p>
+			</div>
+
+			<!-- Initial state -->
+			<div id="initial-state">
+				<div class="row mt-5">
+					<div class="col-md-6">
+						<h3>Search Tips</h3>
+						<ul>
+							<li>Use keywords from manuscript titles, authors, or content</li>
+							<li>Search for person names, roles, or occupations</li>
+							<li>Try partial words - the search will find matches</li>
+							<li>Search by date ranges (e.g., "1400", "15th century")</li>
+							<li>Look for places (e.g., "Paris", "Bologna")</li>
+						</ul>
+					</div>
+					<div class="col-md-6">
+						<h3>Quick Links</h3>
+						<p><a href="manuscripts.html" class="btn btn-outline-primary">Browse all manuscripts</a></p>
+						<p><a href="persons.html" class="btn btn-outline-primary">Browse all persons</a></p>
+						<p><a href="index.html" class="btn btn-outline-secondary">About this collection</a></p>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</main>
+
+	<!-- /.container -->
+
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+		crossorigin="anonymous"></script>
+
+	<!-- Search functionality -->
+	<script type="text/javascript" src="js/search.js"></script>
+
+	<script>
+		class SearchResultsPage {
+			constructor() {
+				this.currentResults = [];
+				this.currentQuery = '';
+				// Auto-detect base path from VersorisSearch instance
+				this.basePath = window.versorisSearch ? window.versorisSearch.basePath :
+					window.location.pathname.substring(0, window.location.pathname.lastIndexOf('/') + 1);
+				this.setupEventHandlers();
+				this.loadResults();
+			}
+
+			setupEventHandlers() {
+				// Main search form
+				document.getElementById('advanced-search-form').addEventListener('submit', (e) => {
+					e.preventDefault();
+					this.performNewSearch();
+				});
+
+				// Clear search
+				document.getElementById('clear-search').addEventListener('click', () => {
+					this.clearSearch();
+				});
+
+				// Filter handlers
+				const filterInputs = document.querySelectorAll('input[name="filter-type"]');
+				filterInputs.forEach(input => {
+					input.addEventListener('change', () => {
+						this.applyFilters();
+					});
+				});
+
+				// Handle main search input from URL or session
+				const urlParams = new URLSearchParams(window.location.search);
+				const query = urlParams.get('q');
+				if (query) {
+					document.getElementById('main-search-input').value = query;
+					document.getElementById('search-input').value = query; // Nav search too
+				}
+			}
+
+			loadResults() {
+				// Check for results from session storage first
+				const storedResults = sessionStorage.getItem('searchResults');
+				if (storedResults) {
+					const data = JSON.parse(storedResults);
+					// Use stored results if they're recent (within 1 minute)
+					if (Date.now() - data.timestamp < 60000) {
+						this.displayResults(data.results, data.query);
+						return;
+					}
+				}
+
+				// Otherwise perform search from URL parameter
+				const urlParams = new URLSearchParams(window.location.search);
+				const query = urlParams.get('q');
+				if (query && window.versorisSearch && window.versorisSearch.isInitialized) {
+					this.performSearch(query);
+				} else if (query) {
+					// Wait for search to initialize
+					const checkInit = setInterval(() => {
+						if (window.versorisSearch && window.versorisSearch.isInitialized) {
+							clearInterval(checkInit);
+							this.performSearch(query);
+						}
+					}, 100);
+				}
+			}
+
+			performNewSearch() {
+				const query = document.getElementById('main-search-input').value.trim();
+				if (!query) return;
+
+				const searchType = document.getElementById('search-type').value;
+
+				// Update URL
+				const url = new URL(window.location);
+				url.searchParams.set('q', query);
+				if (searchType) {
+					url.searchParams.set('type', searchType);
+				} else {
+					url.searchParams.delete('type');
+				}
+				window.history.replaceState({}, '', url);
+
+				this.performSearch(query, searchType);
+			}
+
+			performSearch(query, type = '') {
+				if (!window.versorisSearch || !window.versorisSearch.isInitialized) {
+					console.error('Search not initialized');
+					return;
+				}
+
+				const options = {};
+				if (type) {
+					options.type = type;
+				}
+
+				const results = window.versorisSearch.search(query, options);
+				this.displayResults(results, query);
+			}
+
+			displayResults(results, query) {
+				this.currentResults = results;
+				this.currentQuery = query;
+
+				// Hide initial state
+				document.getElementById('initial-state').style.display = 'none';
+
+				if (results.length === 0) {
+					this.showNoResults(query);
+					return;
+				}
+
+				// Show results container
+				document.getElementById('search-results-container').style.display = 'block';
+				document.getElementById('no-results').style.display = 'none';
+
+				// Update search summary
+				this.updateSearchSummary(results, query);
+
+				// Show filters if we have multiple types
+				const types = [...new Set(results.map(r => r.type))];
+				if (types.length > 1) {
+					document.getElementById('search-filters').style.display = 'block';
+				}
+
+				// Display results
+				this.renderResults(results);
+			}
+
+			updateSearchSummary(results, query) {
+				const summary = document.getElementById('search-summary');
+				const manuscriptCount = results.filter(r => r.type === 'manuscript').length;
+				const personCount = results.filter(r => r.type === 'person').length;
+
+				let summaryText = `Found ${results.length} result${results.length !== 1 ? 's' : ''} for "<strong>${query}</strong>"`;
+
+				if (manuscriptCount > 0 && personCount > 0) {
+					summaryText += ` (${manuscriptCount} manuscript${manuscriptCount !== 1 ? 's' : ''}, ${personCount} person${personCount !== 1 ? 's' : ''})`;
+				}
+
+				summary.innerHTML = summaryText;
+			}
+
+			renderResults(results) {
+				const container = document.getElementById('search-results');
+				container.innerHTML = '';
+
+				results.forEach(result => {
+					const resultDiv = document.createElement('div');
+					resultDiv.className = 'search-result';
+
+					const typeClass = result.type === 'manuscript' ? 'manuscript' : 'person';
+					const title = result.name || result.title || result.id;
+					const displayTitle = this.highlightQuery(title, this.currentQuery);
+
+					let metaInfo = '';
+					if (result.type === 'manuscript') {
+						metaInfo = [result.repository, result.settlement, result.origDate].filter(Boolean).join(' • ');
+					} else if (result.type === 'person') {
+						metaInfo = [result.birth, result.death, result.occupation, result.affiliation].filter(Boolean).join(' • ');
+					}
+
+					// Add search terms to URL for highlighting
+					// Get base path (works for both local and GitHub Pages)
+					const basePath = window.location.pathname.substring(0, window.location.pathname.lastIndexOf('/') + 1);
+					const fullUrl = basePath + result.url;
+					const urlWithSearch = new URL(fullUrl, window.location.origin);
+					urlWithSearch.searchParams.set('highlight', this.currentQuery);
+
+					resultDiv.innerHTML = `
+						<span class="result-type ${typeClass}">${result.type}</span>
+						<a href="${urlWithSearch.toString()}" class="result-title">${displayTitle}</a>
+						${metaInfo ? `<div class="result-meta">${metaInfo}</div>` : ''}
+						<div class="result-score">Relevance: ${Math.round(result.score * 100) / 100}</div>
+					`;
+
+					container.appendChild(resultDiv);
+				});
+			}
+
+			highlightQuery(text, query) {
+				if (!query || !text) return text;
+
+				const words = query.toLowerCase().split(/\s+/);
+				let highlightedText = text;
+
+				words.forEach(word => {
+					if (word.length > 2) {
+						const regex = new RegExp(`(${word})`, 'gi');
+						highlightedText = highlightedText.replace(regex, '<span class="highlight">$1</span>');
+					}
+				});
+
+				return highlightedText;
+			}
+
+			applyFilters() {
+				const checkedFilter = document.querySelector('input[name="filter-type"]:checked');
+				const filterType = checkedFilter ? checkedFilter.value : '';
+
+				let filteredResults = this.currentResults;
+				if (filterType) {
+					filteredResults = this.currentResults.filter(result => result.type === filterType);
+				}
+
+				this.renderResults(filteredResults);
+
+				// Update summary for filtered results
+				const summary = document.getElementById('search-summary');
+				const currentSummary = summary.innerHTML;
+				const filterInfo = filterType ? ` (filtered by ${filterType})` : '';
+				summary.innerHTML = currentSummary.replace(/ \(filtered by \w+\)/, '') + filterInfo;
+			}
+
+			showNoResults(query) {
+				document.getElementById('search-results-container').style.display = 'none';
+				const noResults = document.getElementById('no-results');
+				noResults.style.display = 'block';
+				noResults.querySelector('h3').textContent = `No results found for "${query}"`;
+			}
+
+			clearSearch() {
+				document.getElementById('main-search-input').value = '';
+				document.getElementById('search-input').value = '';
+				document.getElementById('search-type').value = '';
+
+				// Clear URL parameters
+				const url = new URL(window.location);
+				url.searchParams.delete('q');
+				url.searchParams.delete('type');
+				window.history.replaceState({}, '', url);
+
+				// Reset display
+				document.getElementById('search-results-container').style.display = 'none';
+				document.getElementById('no-results').style.display = 'none';
+				document.getElementById('initial-state').style.display = 'block';
+
+				// Clear session storage
+				sessionStorage.removeItem('searchResults');
+			}
+		}
+
+		// Initialize search results page when DOM is loaded
+		document.addEventListener('DOMContentLoaded', () => {
+			new SearchResultsPage();
+		});
+	</script>
+
+</body>
+
+</html>

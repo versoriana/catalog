@@ -1,0 +1,350 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<title>Versoris Catalog</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="">
+	<meta name="author" content="José Luis Losada Palenzuela">
+
+	<!-- Stater template modified -->
+	<link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/starter-template/">
+	<!-- CETEIan scripts and css -->
+	<script type="text/javascript" src="js/CETEI.js"></script>
+	<!-- MiniSearch for full-text search -->
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/minisearch@7.1.0/dist/umd/index.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/CETEIcean.css" />
+	<!-- Own VErsoris CSS. It may overlap with CETEIcean.css -->
+	<link rel="stylesheet" type="text/css" href="css/versoris.css" />
+	<!-- Bootstrap core CSS -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+	<style>
+		.bd-placeholder-img {
+			font-size: 1.125rem;
+			text-anchor: middle;
+			-webkit-user-select: none;
+			-moz-user-select: none;
+			user-select: none;
+		}
+
+		@media (min-width: 768px) {
+			.bd-placeholder-img-lg {
+				font-size: 3.5rem;
+			}
+		}
+
+		/* Custom styles for this template */
+		/* Custom be added in any css */
+		body {
+			padding-top: 5rem;
+		}
+		
+		/* Person link styling */
+		.person-link {
+			color: #0d6efd;
+			text-decoration: underline;
+			cursor: pointer;
+		}
+		
+		.person-link:hover {
+			color: #0a58ca;
+		}
+
+		/* Search highlighting styles */
+		.search-highlight {
+			background-color: #fff3cd;
+			color: #856404;
+			padding: 2px 4px;
+			border-radius: 3px;
+			font-weight: 500;
+			box-shadow: 0 0 0 1px rgba(255, 193, 7, 0.3);
+		}
+
+		/* Animation for highlighted terms */
+		@keyframes highlight-pulse {
+			0% { background-color: #fff3cd; }
+			50% { background-color: #ffeaa7; }
+			100% { background-color: #fff3cd; }
+		}
+
+		.search-highlight:first-of-type {
+			animation: highlight-pulse 2s ease-in-out 3;
+		}
+
+	</style>
+
+</head>
+
+<body>
+
+	<!-- navigation -->
+
+	<nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+		<div class="container-fluid">
+			<a class="navbar-brand" href="index.html">Bibliotheca Manuscripta Versoriana</a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+				data-bs-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false"
+				aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarsExampleDefault">
+				<ul class="navbar-nav me-auto mb-2 mb-md-0">
+					<li class="nav-item dropdown active">
+						<a class="nav-link dropdown-toggle" href="manuscripts.html" id="dropdown01" data-bs-toggle="dropdown" aria-expanded="false">Manuscripts</a>
+						<ul class="dropdown-menu scrollable-menu" id="Versoris-dropdown">
+							<li><a class="dropdown-item" href="manuscripts.html">View All Manuscripts</a></li>
+							<li><hr class="dropdown-divider"></li>
+							<!-- Individual manuscript items will be added here dynamically -->
+						</ul>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="persons.html">Persons</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="index.html">About</a>
+					</li>
+				</ul>
+				<form class="d-flex" id="search-form">
+					<input class="form-control me-2" type="search" placeholder="Search manuscripts and persons..." aria-label="Search" id="search-input">
+					<button class="btn btn-outline-light" type="submit">Search</button>
+				</form>
+			</div>
+		</div>
+	</nav>
+
+	<!-- Container -->
+
+	<main class="container">
+		<div class="starter-template py-5 px-3">
+			<!-- <h1>TEI documents</h1> -->
+
+
+			<section id="Versoris">
+			</section>
+
+		</div>
+	</main>
+
+	<!-- /.container -->
+
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+		crossorigin="anonymous"></script>
+
+	<!-- Search functionality -->
+	<script type="text/javascript" src="js/search.js"></script>
+
+	<!-- Script CETEI -->
+
+	<script>
+		var CETEIcean = new CETEI();
+	  
+		// Define global behaviors for all TEI elements
+		let behaviors = {
+          "tei": {
+			 // "teiHeader": null, // No specific behavior for teiHeader
+                "note": function(e) {
+					// Return the note content without parentheses
+					let container = document.createElement('span');
+					container.className = 'note-content';
+					container.innerHTML = e.innerHTML;
+					return container;
+				},
+				"persName": function(e) {
+					const ref = e.getAttribute('ref');
+					if (ref && ref.startsWith('#')) {
+						const personId = ref.replace('#', '');
+						const container = document.createElement('span');
+						container.className = 'person-link';
+						container.textContent = e.textContent;
+						container.onclick = function() {
+							window.location.href = `persons.html#${personId}`;
+						};
+						return container;
+					}
+					// Return default behavior if no ref or not starting with #
+					return null;
+				},
+				"idno": function(e) {
+					const type = e.getAttribute('type');
+					if (type === 'URI') {
+						const url = e.textContent.trim();
+						
+						// Create a complete new structure
+						const container = document.createElement('div');
+						container.className = 'uri-link-container';
+						
+						// Create label
+						const label = document.createElement('span');
+						label.className = 'uri-link-label';
+						label.textContent = 'See at: ';
+						
+						// Create clickable link
+						const link = document.createElement('a');
+						link.className = 'uri-link-url';
+						link.href = url;
+						link.target = '_blank';
+						link.textContent = url;
+						
+						container.appendChild(label);
+						container.appendChild(link);
+						
+						return container;
+					}
+					// Return default behavior for other idno types
+					return null;
+				},
+				"origDate": function(e) {
+					const when = e.getAttribute('when');
+					const from = e.getAttribute('from');
+					const to = e.getAttribute('to');
+					const notBefore = e.getAttribute('notBefore');
+					const notAfter = e.getAttribute('notAfter');
+					
+					let container = document.createElement('span');
+					container.className = 'origDate-info';
+					
+					if (when) {
+						container.textContent = when;
+					} else if (from && to) {
+						container.textContent = from === to ? from : `${from}-${to}`;
+					} else if (from) {
+						container.textContent = `from ${from}`;
+					} else if (to) {
+						container.textContent = `to ${to}`;
+					} else if (notBefore && notAfter) {
+						container.textContent = `${notBefore}-${notAfter}`;
+					} else if (notBefore) {
+						container.textContent = `after ${notBefore}`;
+					} else if (notAfter) {
+						container.textContent = `before ${notAfter}`;
+					} else {
+						container.textContent = e.textContent;
+					}
+					
+					return container;
+				},
+                "msItem": function(e) {
+        // Create a new container
+        let container = document.createElement("div");
+        container.className = "msitem-container";
+
+        // Get the elements we want to reorder
+        let title = e.querySelector("tei-title");
+        let locusGrp = e.querySelector("tei-locusgrp");
+        let locus = e.querySelector("tei-locus");
+        let otherElements = Array.from(e.childNodes).filter(node =>
+          node.nodeName !== "TEI-TITLE" && 
+          node.nodeName !== "TEI-LOCUS" && 
+          node.nodeName !== "TEI-LOCUSGRP"
+        );
+
+        // Add elements in the desired order: title first, then locus/locusGrp, then others
+        if (title) {
+          container.appendChild(title.cloneNode(true));
+        }
+        if (locusGrp) {
+          // Handle locusGrp with custom formatting
+          let locusContainer = document.createElement("div");
+          locusContainer.className = "locusGrp-container";
+          
+          let boundLocus = locusGrp.querySelector('tei-locus[scheme="#bound"]');
+          let unboundLocus = locusGrp.querySelector('tei-locus[scheme="#unbound"]');
+          
+          let locusText = "";
+          if (boundLocus) {
+            let from = boundLocus.getAttribute('from');
+            let to = boundLocus.getAttribute('to');
+            if (from && to) {
+              locusText = `${from}-${to}`;
+            }
+          }
+          
+          if (unboundLocus) {
+            let from = unboundLocus.getAttribute('from');
+            let to = unboundLocus.getAttribute('to');
+            if (from && to) {
+              locusText += ` [${from}-${to}]`;
+            }
+          }
+          
+          locusContainer.textContent = locusText;
+          container.appendChild(locusContainer);
+        } else if (locus) {
+          container.appendChild(locus.cloneNode(true));
+        }
+        otherElements.forEach(el => {
+          container.appendChild(el.cloneNode(true));
+        });
+
+        return container;
+      }
+    }
+  }
+	  
+		// Add the behaviors globally
+		CETEIcean.addBehaviors(behaviors);
+
+	  </script>
+
+
+<script>
+// Load Versoris manuscripts
+document.addEventListener("DOMContentLoaded", () => {
+  // Versoris loading
+  CETEIcean.getHTML5("data/mss.xml", function (data) {
+    const VersorisSection = document.getElementById("Versoris");
+    VersorisSection.appendChild(data);
+
+    // Populate the manuscript dropdown
+    const VersorisDropdown = document.getElementById("Versoris-dropdown");
+    const teiElements = VersorisSection.querySelectorAll("tei-msdesc");
+
+    teiElements.forEach((tei) => {
+      const id = tei.id;
+      if (id) {
+        tei.style.scrollMarginTop = "80px";
+
+        const listItem = document.createElement("li");
+        listItem.className = "dropdown-item";
+
+        const subItem = document.createElement("a");
+        subItem.className = "dropdown-item";
+        subItem.href = `#${(id)}`;
+        subItem.textContent = id;
+
+        listItem.appendChild(subItem);
+        VersorisDropdown.appendChild(listItem);
+      }
+    });
+
+    // Handle anchor navigation after content is loaded
+    if (window.location.hash) {
+      const targetId = window.location.hash.substring(1);
+      const targetElement = document.getElementById(targetId);
+      if (targetElement) {
+        setTimeout(() => {
+          targetElement.scrollIntoView({ behavior: 'smooth' });
+        }, 100);
+      }
+    }
+
+    // Check for search highlighting after TEI content is loaded
+    if (window.textHighlighter) {
+      const urlParams = new URLSearchParams(window.location.search);
+      const highlightTerms = urlParams.get('highlight');
+      if (highlightTerms) {
+        setTimeout(() => {
+          window.textHighlighter.highlightSearchTerms(highlightTerms);
+        }, 200);
+      }
+    }
+  });
+});
+</script>
+
+</body>
+
+</html>

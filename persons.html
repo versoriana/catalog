@@ -1,0 +1,372 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<title>Persons - Bibliotheca Manuscripta Versoriana</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Person register for Versoris manuscript collection">
+	<meta name="author" content="José Luis Losada Palenzuela">
+
+	<!-- Stater template modified -->
+	<link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/starter-template/">
+	<!-- CETEIan scripts and css -->
+	<script type="text/javascript" src="js/CETEI.js"></script>
+	<!-- MiniSearch for full-text search -->
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/minisearch@7.1.0/dist/umd/index.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/CETEIcean.css" />
+	<!-- Own CSS It may overlap with CETEIcean.css -->
+	<link rel="stylesheet" type="text/css" href="css/versoris.css" />
+	<!-- Bootstrap core CSS -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+	<style>
+		.bd-placeholder-img {
+			font-size: 1.125rem;
+			text-anchor: middle;
+			-webkit-user-select: none;
+			-moz-user-select: none;
+			user-select: none;
+		}
+
+		@media (min-width: 768px) {
+			.bd-placeholder-img-lg {
+				font-size: 3.5rem;
+			}
+		}
+
+		/* Custom styles for this template */
+		/* Custom be added in any css */
+		body {
+			padding-top: 5rem;
+		}
+
+		/* Search highlighting styles */
+		.search-highlight {
+			background-color: #fff3cd;
+			color: #856404;
+			padding: 2px 4px;
+			border-radius: 3px;
+			font-weight: 500;
+			box-shadow: 0 0 0 1px rgba(255, 193, 7, 0.3);
+		}
+
+		/* Animation for highlighted terms */
+		@keyframes highlight-pulse {
+			0% { background-color: #fff3cd; }
+			50% { background-color: #ffeaa7; }
+			100% { background-color: #fff3cd; }
+		}
+
+		.search-highlight:first-of-type {
+			animation: highlight-pulse 2s ease-in-out 3;
+		}
+
+	</style>
+
+</head>
+
+<body>
+
+	<!-- navigation -->
+
+	<nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+		<div class="container-fluid">
+			<a class="navbar-brand" href="index.html">Bibliotheca Manuscripta Versoriana</a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+				data-bs-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false"
+				aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarsExampleDefault">
+				<ul class="navbar-nav me-auto mb-2 mb-md-0">
+					<li class="nav-item dropdown">
+						<a class="nav-link" href="manuscripts.html">Manuscripts</a>
+					</li>
+					<li class="nav-item active">
+						<a class="nav-link" aria-current="page" href="persons.html">Persons</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="index.html">About</a>
+					</li>
+				</ul>
+				<form class="d-flex" id="search-form">
+					<input class="form-control me-2" type="search" placeholder="Search manuscripts and persons..." aria-label="Search" id="search-input">
+					<button class="btn btn-outline-light" type="submit">Search</button>
+				</form>
+			</div>
+		</div>
+	</nav>
+
+	<!-- Container -->
+
+	<main class="container">
+		<div class="starter-template py-5 px-3">
+			<h1>Person Register</h1>
+			<p class="lead">Individuals associated with the Versoris manuscript collection</p>
+			<section id="PersonRegister">
+			</section>
+
+		</div>
+	</main>
+
+	<!-- /.container -->
+
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+		crossorigin="anonymous"></script>
+
+	<!-- Search functionality -->
+	<script type="text/javascript" src="js/search.js"></script>
+
+	<!-- Script CETEI -->
+	<script>
+		var CETEIcean = new CETEI();
+	  
+		// Role mapping for Library of Congress relator vocabulary
+		const roleMapping = {
+			'fmo': 'Former owner',
+			'scr': 'Scribe',
+			'ann': 'Annotator',
+			'aut': 'Author',
+            'tch': 'Master', // actully "teacher" in the relator vocabulary,
+            'sh85129296': 'Student', // LC relator vocabulary does not have a specific term for students, so we use LC Subject Headings
+            'sh87002712': 'School principal' // LC relator vocabulary does not have a specific term for students, so we use LC Subject Headings
+
+		};
+	  
+		// Define global behaviors for TEI elements
+		let behaviors = {
+			"tei": {
+				// "teiHeader": null,
+				"note": function(e) {
+					// Return the note content without parentheses
+					let container = document.createElement('span');
+					container.className = 'note-content';
+					container.innerHTML = e.innerHTML;
+					return container;
+				},
+				"birth": function(e) {
+					const when = e.getAttribute('when');
+					const notBefore = e.getAttribute('notBefore');
+					const notAfter = e.getAttribute('notAfter');
+					
+					let container = document.createElement('span');
+					container.className = 'birth-info';
+					
+					if (when) {
+						container.textContent = when;
+					} else if (notBefore && notAfter) {
+						container.textContent = `${notBefore}-${notAfter}`;
+					} else if (notBefore) {
+						container.textContent = `not Before ${notBefore}`;
+					} else if (notAfter) {
+						container.textContent = `not After ${notAfter}`;
+					}
+					
+					return container;
+				},
+				"death": function(e) {
+					const when = e.getAttribute('when');
+					const notBefore = e.getAttribute('notBefore');
+					const notAfter = e.getAttribute('notAfter');
+					
+					let container = document.createElement('span');
+					container.className = 'death-info';
+					
+					if (when) {
+						container.textContent = when;
+					} else if (notBefore && notAfter) {
+						container.textContent = `${notBefore}-${notAfter}`;
+					} else if (notBefore) {
+						container.textContent = `not Before ${notBefore}`;
+					} else if (notAfter) {
+						container.textContent = `not After ${notAfter}`;
+					}
+					
+					return container;
+				},
+				"occupation": function(e) {
+					// Check if we've already processed occupations for this person
+					const personElement = e.closest('tei-person') || e.parentElement;
+					if (personElement._occupationProcessed) {
+						return null; // Don't render subsequent occupation elements
+					}
+					
+					// Mark this person as processed
+					personElement._occupationProcessed = true;
+					
+					// Get all occupation elements for this person
+					const allOccupations = Array.from(personElement.querySelectorAll('tei-occupation') || 
+													  personElement.children).filter(child => 
+													  child.tagName && child.tagName.toLowerCase().includes('occupation'));
+					
+					// Group occupations by role and collect notes
+					const roleGroups = {};
+					const occupationNotes = [];
+					
+					allOccupations.forEach(occupation => {
+						const role = occupation.getAttribute('role');
+						const ref = occupation.getAttribute('ref');
+						
+						// Extract notes from this occupation element
+						const notes = occupation.querySelectorAll('tei-note') || occupation.querySelectorAll('note');
+						notes.forEach(note => {
+							occupationNotes.push(note);
+						});
+						
+						if (role) {
+							const roles = role.split(' ').map(r => r.trim());
+							roles.forEach(singleRole => {
+								if (!roleGroups[singleRole]) {
+									roleGroups[singleRole] = [];
+								}
+								if (ref) {
+									const msId = ref.replace('#', '');
+									roleGroups[singleRole].push(msId);
+								}
+							});
+						}
+					});
+					
+					// Create new element with consolidated role information
+					const container = document.createElement('div');
+					container.className = 'tei-occupation'; // Use same class as CETEIcean would create
+					
+					// Create role display
+					const roleParts = [];
+					Object.keys(roleGroups).forEach(role => {
+						const refs = roleGroups[role];
+						const roleLabel = roleMapping[role] || role;
+						
+						if (refs.length > 0) {
+							const roleSpan = document.createElement('span');
+							roleSpan.textContent = `${roleLabel} related to mss. `;
+							
+							refs.forEach((msId, index) => {
+								const link = document.createElement('span');
+								link.className = 'ms-link';
+								link.textContent = `${msId}`;
+								link.onclick = function() {
+									window.location.href = `manuscripts.html#${msId}`;
+								};
+								roleSpan.appendChild(link);
+								
+								// Add comma separator if not the last item
+								if (index < refs.length - 1) {
+									roleSpan.appendChild(document.createTextNode(', '));
+								}
+							});
+							
+							roleParts.push(roleSpan);
+						} else {
+							const roleSpan = document.createElement('span');
+							roleSpan.textContent = roleLabel;
+							roleParts.push(roleSpan);
+						}
+					});
+					
+					if (roleParts.length > 0) {
+						roleParts.forEach((part, index) => {
+							container.appendChild(part);
+							// Add semicolon separator if not the last item
+							if (index < roleParts.length - 1) {
+								container.appendChild(document.createTextNode('; '));
+							}
+						});
+					}
+					
+					// Add notes if they exist
+					if (occupationNotes.length > 0) {
+						occupationNotes.forEach(noteElement => {
+							const noteContainer = document.createElement('tei-note');
+							// Copy the type attribute if it exists
+							if (noteElement.hasAttribute('type')) {
+								noteContainer.setAttribute('type', noteElement.getAttribute('type'));
+							}
+							noteContainer.innerHTML = noteElement.innerHTML;
+							container.appendChild(noteContainer);
+						});
+					}
+					
+					return container;
+				},
+				"idno": function(e) {
+					const type = e.getAttribute('type');
+					const idno = e.textContent.trim();
+					
+					let url = '';
+					
+					switch(type) {
+						case 'VIAF':
+							url = `http://viaf.org/viaf/${idno}`;
+							break;
+						case 'GND':
+							url = `https://d-nb.info/gnd/${idno}`;
+							break;
+						case 'CERL':
+							url = `http://data.cerl.org/thesaurus/${idno}`;
+							break;
+						default:
+							return null; // Use default behavior for other types
+					}
+					
+					const link = document.createElement('a');
+					link.href = url;
+					link.target = '_blank';
+					link.textContent = idno;
+					link.className = 'external-link';
+					
+					return link;
+				}
+			}
+		};
+	  
+		// Add the behaviors globally
+		CETEIcean.addBehaviors(behaviors);
+	</script>
+
+	<script>
+	// Load PersonRegister content
+	document.addEventListener("DOMContentLoaded", () => {
+		CETEIcean.getHTML5("data/PersonRegister.xml", function (data) {
+			const PersonRegisterSection = document.getElementById("PersonRegister");
+			PersonRegisterSection.appendChild(data);
+			
+			// Set scroll margin for person elements
+			const teiElements = PersonRegisterSection.querySelectorAll("tei-person");
+			teiElements.forEach((tei) => {
+				const id = tei.id;
+				if (id) {
+					tei.style.scrollMarginTop = "80px";
+				}
+			});
+			
+			// Handle anchor navigation after content is loaded
+			if (window.location.hash) {
+				const targetId = window.location.hash.substring(1);
+				const targetElement = document.getElementById(targetId);
+				if (targetElement) {
+					setTimeout(() => {
+						targetElement.scrollIntoView({ behavior: 'smooth' });
+					}, 100);
+				}
+			}
+
+			// Check for search highlighting after TEI content is loaded
+			if (window.textHighlighter) {
+				const urlParams = new URLSearchParams(window.location.search);
+				const highlightTerms = urlParams.get('highlight');
+				if (highlightTerms) {
+					setTimeout(() => {
+						window.textHighlighter.highlightSearchTerms(highlightTerms);
+					}, 200);
+				}
+			}
+		});
+	});
+	</script>
+
+</body>
+
+</html>

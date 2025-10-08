@@ -1,0 +1,721 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- both are needed, because the RNG contains schematron instructions -->
+<?xml-model href="../schema/out/VersorisMss.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/out/VersorisMss.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title ref="ID">Versoris manuscript inventory</title>
+            <editor>Aurora Panzica</editor>
+            <respStmt>
+               <resp>TEI modelling and encoding</resp>
+               <persName ref="ID">Elena Spadini</persName>
+               <persName ref="ID">José Luis Losada</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>University of Basel</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Bibliography and direct anaylsis of the manuscripts</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+
+      <!-- It is possible to decide which tags will be published in the inventory (web or print) and which not. 
+         For example, the element <adminInfo> can be used to take notes for internal use about the opening hours of the library 
+         or the documents needed to access the manuscripts-->
+      <body>
+         <listPerson>
+
+            <!-- Albertus Scriptoris de Doesborch († 1466) issue#39 -->
+
+            <person xml:id="AlbertusScriptorisDeDoesborch">
+               <name xml:lang="lat">Albertus Scriptoris de Doesborch</name>
+               <birth notAfter="1432"/>
+               <death when="1466"/>
+               <note>From the diocese of Utrecht, he obtained the degree of Bachelor at the Paris
+                  Faculty of Arts in 1432 and the degree of Master in 1436. He studied theology and
+                  received the Bachelor of Theology in 1444. He served several times as procurator
+                  and receptor of the German Nation between 1440 and 1446, and as Rector of the
+                  University in 1444, 1447–1448, and 1450. In 1444, he was appointed ambassador of
+                  the University to King Charles VII, and in 1450, ambassador to the Council of the
+                  Gallican Church in Rouen. In 1451, he was active at the University of Orléans. In
+                  1464, he returned to Paris</note>
+               <occupation role="sh87002712" ref="#Praha_NK_XH21"/>
+               <occupation role="sh87002712" ref="#Stuttgart_WürttembergischeLandesbibliothek_HBX2"/>
+               <note type="role">Mentioned in ms. Praha, NK, X H 21 as the head of the school in
+                  which Stanislaus de Welwara copied the texts; head of the school in which Clemens
+                  de Melnyk copied the texts transmitted in ms. Stuttgart, Württembergische
+                  Landesbibliothek, HB X 2.</note>
+               <listBibl>
+                  <bibl>CUP IV, nr. 2586, 2591, 2604, 2626, 2653, 2667</bibl>
+                  <bibl>Auctarium II, coll. 468–979, passim; III, col. 5, l. 19, n. 1; V, col. 51 n.
+                     1; col. 54 l. 2; col. 55 l. 19; col. 56 l. 3, l. 9; col. 193 l. 12; col. 232 l.
+                     42; col. 233 l. 20, l. 24, l. 29, l. 40; col. 240 l. 27; col. 269 l. 21; col.
+                     349 l. 33, l. 36, l. 41; col. 350 l. 2, l. 18, l. 43, l. 48; col. 352 l. 27, l.
+                     39; col. 353 l. 19; col. 354 l. 14, l. 32, l. 47; col. 355 l. 8; col. 357 l.
+                     33, l. 36; VI, passim</bibl>
+                  <bibl>Gabriel, "The House of Poor German Students", 185</bibl>
+                  <bibl>Šmahel, "Paris und Prag", 450</bibl>
+                  <bibl>S. Lusignan, 'Vérité garde le roy'. La construction d'une identité
+                     universitaire en France (XIIIe–XVe siècles), Paris 1999, 81</bibl>
+                  <bibl>L. Tournier, Notices biographiques des ambassadeurs, porte-parole et députés
+                     de l'université de Paris au XVe siècle. 2000. <note type="biblio"><ref
+                           target="https://shs.hal.science/halshs-00009385v1/document"
+                           >https://shs.hal.science/halshs-00009385v1/document</ref>, The present
+                        article is based on the entries from the author's doctoral dissertation
+                        entitled L'Université de Paris dans les événements politiques du royaume de
+                        France (1405–1452), vol. 3, Annexes, p. 485–546, defended in January
+                        2000</note>
+                  </bibl>
+               </listBibl>
+            </person>
+
+
+            <!-- Clemens de Melnik (Klemens von Mîlník) issue#37 -->
+
+            <person xml:id="ClemensDeMelnik">
+               <name xml:lang="lat">Clemens de Melnik</name>
+               <name xml:lang="de">Klemens von Mîlník</name>
+               <birth notAfter="1449"/>
+               <death notBefore="1449"/>
+               <note>He studied at the Faculty of Arts in Paris, at the school of Albertus
+                  Scriptoris in 1449, where he copied the commentaries on logic attributed to
+                  Versoris. He identifies himself as originally from Mělník, Bohemia. I could not
+                  find any record of him in volumes II and VI of the Auctarium, which concern the
+                  Anglo-German Nation, nor in the other volumes of the Auctarium. Astrik Gabriel,
+                  the editor of volume VI of the Auctarium, also mentions Clemens de Melnik only in
+                  connection with the copy of Versoris's commentary and provides no further
+                  information about his career. František Šmahel writes: <quote source="447">Es sei
+                     aber gleich bemerkt, daß dies die einzige Erwähnung über Klemens von Melnik ist
+                     und wir also nicht einmal wissen, ob er von Paris wiederum nach Prag
+                     zurückkehrte</quote>. For this reason, it cannot be ruled out that he may have
+                  died shortly after completing the copy.</note>
+               <occupation role="scr" ref="#Stuttgart_WürttembergischeLandesbibliothek_HBX2"/>
+               <listBibl>
+                  <bibl>Šmahel, "Paris und Prag", 447</bibl>
+                  <bibl>Gabriel, "The House of the Poor German Students", 185</bibl>
+               </listBibl>
+            </person>
+
+
+            <!-- Ambrosius Allantsee issue#32-->
+            <person xml:id="AmbrosiusAllantsee">
+               <idno type="GND">11960289X</idno>
+               <idno type="VIAF">72206754</idno>
+               <idno type="CERL">cnp01120126</idno>
+               <name xml:lang="lat">Ambrosius Allantsee</name>               
+               <death when="1505"/>
+               <note>He studied at Basel University. He entered the Clunian monastery of St. Alban and
+                  later the chartustians in Christgarten, Nördlingen and Kleinbasel. Prior of St.
+                  Mang in Füssen. He brought the manuscripts he had copied at Basel University in
+                  Füssen (II.lat.1. folio.8, II.lat.1.folio.93, II.lat.1.folio.94,
+                  II.lat.1.folio.103, II.lat.1.folio.128, II.lat.1. quarto.33). He died in
+                  1505.</note>
+               <affiliation subtype="OCart" type="religiousOrder">Carthusian</affiliation>
+               <occupation role="fmo" ref="#Augsburg_UniversitätsbibliothekAugsburg_CodII12220"/>               
+               <listBibl>
+                  <bibl>Scarpatetti, Datierte I, 252</bibl>
+                  <bibl>Hilg, Lateinische mittelalterliche Handschriften, 13-14</bibl>
+               </listBibl>
+            </person>
+
+            <!-- Clemens Parmentarii (Clémens Parmentier) issue#19  -->
+
+            <person xml:id="ClemensParmentarii">
+               <name xml:lang="lat">Clemens Parmentarii</name>
+               <name xml:lang="fra">Clémens Parmentier</name>
+               <birth notAfter="1440"/>
+               <death notBefore="1466"/>
+               <note>Clémens Parmentier, a member of the Norman nation, taught at the Faculty of
+                  Arts in Paris from the 1440s onward and was appointed rector of the University in
+                  October 1451. He studied theology under the direction of Petrus Richeri and
+                  obtained his license in 1460. In April 1466, he competed for the position of
+                  lector Ethicorum alongside Guillelmus de Curis and Guillelmus Vimon, the latter of
+                  whom ultimately received the appointment.</note>
+               <occupation role="tch"
+                  ref="#SaintOmer_BibliothèquedAgglomérationduPaysdeSaintOmer_586"/>
+               <occupation role="tch" ref="#Oxford_BodleianLibrary_CanonMisc211"/>
+               <note type="role">Master to which the commentaries are ascribed</note>
+               <listBibl>
+                  <bibl>Auctarium II, col. 797, l. 24-25; III, 3, l. 4-5; V, col. 31, l. 9-11, 14;
+                     456, l. 1-2, col. 461, l. 35-36; VI, 212, l. 20</bibl>
+                  <bibl>Kałuza, "Cours communs", 174</bibl>
+                  <bibl>Sullivan, Parisian Licentiates, II 32, 410</bibl>
+               </listBibl>
+            </person>
+
+
+            <person xml:id="CruxDeTelcz">
+               <!-- readable identifiers, names. If we found a better way to integrate the registers in the editing of the mss, the ids can be changed to numbers (001, 002, 003). -->
+               <idno type="VIAF">57438140</idno>
+               <idno type="CERL">cnp00409088</idno>
+               <name xml:lang="lat">Crux de Telcz</name>
+               <name xml:lang="cz">Kříž z Telče</name>
+               <!-- check lang code -->
+               <birth when="1434"/>
+               <!-- place never -->
+               <death when="1504"/>
+               <!-- place never -->
+               <note>Crux’s studies at King Wenceslas College at Prague University between April and
+                  November 1459 are well documented by the large number of colophons he left. He did
+                  not obtain any degree, which is not surprising, given that he was Catholic and the
+                  situation at Prague University in the 1450s did not favor Catholics. He
+                  subsequently worked for the Catholic Church administration, first at St. Vitus
+                  Cathedral in Prague (1463–1466), and later in Plzeň (1468–1472). He was ordained
+                  in 1463 and joined the Augustinian canonry in Třeboň (Wittingau in German).</note>
+               <!-- no links inside biography -->
+               <affiliation subtype="OESA" type="religiousOrder">Augustinian</affiliation>
+               <!-- Religious order: aggiungere nel XSLT -->
+               <!-- type: religious, secular -->
+               <occupation role="scr fmo" ref="#Praha-NK-I-E-38"/>
+               <occupation role="scr fmo" ref="#IF25"/>
+               <listBibl>
+                  <bibl>dsa</bibl>
+                  <!-- empty with link -->
+               </listBibl>
+            </person>
+
+
+            <!--  Folpardus de Ameronghen (Fohardus Hameronge) issue#22 -->
+
+            <person xml:id="FolpardusDeAmeronghen">
+               <name xml:lang="lat">Folpardus de Ameronghen</name>
+               <name xml:lang="lat">Folpardus de Hameronghen</name>
+               <name xml:lang="lat">Folpardus Hameronge</name>
+               <name xml:lang="lat">Fohardus Hameronge</name>
+               <birth notAfter="1448"/>
+               <death notBefore="1459"/>
+               <note>Native from the diocese of Utrecht. As a member of the German nation at the
+                  University of Paris, he obtained the degree of bachelor of Arts in 1448 and the
+                  degree of master of Arts in 1449. He later obtained a degree in civil law. He was
+                  and procurator of the German Nation in 1451. By 1459, we find him as of the bishop
+                  David de Bourgogne </note>
+               <note type="attribution"><ref target="biblID" type="bibl">Weijers</ref> (and <ref
+                     target="biblID" type="bibl">Lohr</ref>?) ascribe to him the commentaries on the
+                  logical corpus</note>
+               <occupation role="tch"/>
+               <note type="role">Master supervising the copy of the commentaries</note>
+               <listBibl>
+                  <bibl>Auctarium II, col. 712, l. 43; col. 763, l. 10; col. 764, l. 22; col.
+                     859-862; Auctarium VI, col. 154, l. 30, n. 14; col. 177, l. 28; col. 179, l. 7;
+                     col. 198, l. 6, n. 2; col. 208, l. 47, n. 2; col. 209, l. 32; col. 210, l. 2;
+                     col. 211, n. 1, n. 3; col. 214, l. 32; col. 215, l. 3</bibl>
+                  <bibl>Weijers, Le travail intellectuel à la faculté des arts de Paris. Textes et
+                     maîtres (ca. 1200–1500), II, Turnhout. 1996, p. 90–91.</bibl>
+               </listBibl>
+            </person>
+
+            <!--  Galcerandus Benedicti (or Garcerandus Benedicti) issue#7 -->
+
+            <person xml:id="GalcerandusBenedicti">
+               <name xml:lang="lat">Galcerandus Benedicti</name>
+               <name xml:lang="lat">Garcerandus Benedicti</name>
+               <birth notAfter="1447"/>
+               <death notBefore="1450"/>
+               <note>From the diocese of Lerida (diocesis Ilerdensis or Hilardensis), belonged to
+                  the French Nation. He studied under Clémens Parmentier, obtained his bachelor
+                  degree in 1447 and licensed in 1448 under the master Petrus Caroz. His activity at
+                  the Arts Faculty is attested until 1450.</note>
+               <occupation role="scr" ref="#Oxford_BodleianLibrary_CanonMisc211"/>
+               <listBibl>
+                  <bibl>Auctarium V, col. 196, l. 3; col. 254, l. 18-19; col. 255, l. 16; col. 262,
+                     l. 30; col. 277, l. 38; 293, l. 13; col. 332, l. 34; col. 373, l. 37</bibl>
+                  <bibl>Rouse &amp; Rouse, Illiterati et uxorati, 31</bibl>
+                  <bibl>Sullivan, Parisian Licentiates, II, 410.</bibl>
+               </listBibl>
+            </person>
+            
+            <!-- Galtherus de Walma issue#13-->
+            <person xml:id="GaltherusDeWalma">
+               <name xml:lang="lat">Galtherus de Walma</name>
+               <name xml:lang="lat">Galtherus de Wervia</name>
+               <name xml:lang="lat">Galtherus de Warnia</name>
+               <name xml:lang="lat">Galtherus de Varnia</name>
+               <name xml:lang="lat">Galtherus de Vernia</name>
+               <name xml:lang="lat">Galtherus de Werfia</name>
+               <name xml:lang="lat">Galtherus de Veruia</name>
+               <birth notAfter="1442"/>
+               <death notBefore="1480"/>
+               <note><p>The colophon of manuscript Paris, BnF, latin 6691 informs us that Galtherus
+                  de Walma was a regent master at the Collège de Bourgogne in 1463. According to
+                  Paul Bakker, it is probable that this master should be identified with
+                  Galtherus de Wervia (also spelled Warnia, Varnia, Vernia, Werfia, Veruia), the
+                  author of a commentary on the Isagoge and another on De anima. Bakker argues
+                  this identification is plausible due to the various attested spellings of the
+                  name and because Galtherus de Wervia was also active at the Collège de
+                  Bourgogne during the same period, as evidenced by the colophons of the Isagoge
+                  and De anima commentaries.</p>
+                  <p>If this identification is correct, Bakker further argues, then Galtherus de
+                     Wervia would also be the author of the commentary on the Ethics transmitted in
+                     the Parisian manuscript. While I agree that the identification of Galtherus de
+                     Walma with Galtherus de Wervia is plausible, I find Bakker's conclusions
+                     regarding the Ethics commentary problematic. First of all, Bakker does not
+                     distinguish between the two commentaries transmitted in the Parisian manuscript
+                     (the first one covering ff. 2ra–151vb; the second one, ff. 152ra–215v),
+                     treating them as if they constituted a single work covering ff. 1r–215v. In
+                     reality, these two commentaries – both addressing Books I–IV of the Nicomachean
+                     Ethics – have distinct incipits and explicits, as well as different sets of
+                     questions. Only the first commentary is anonymous, while the second is
+                     explicitly ascribed to Versoris by the scribe. Galtherus de Walma is mentioned
+                     only in the colophon of the second commentary, not the first. In this colophon,
+                     he is identified as the master under whose supervision the text was copied (sub
+                     magistro), which merely indicates that Galtherus de Walma used this commentary
+                     in his teaching. It does not, in any way, prove that he authored it.</p>
+                  <p>Galtherus de Wervia – who, if Bakker's hypothesis holds, is to be identified
+                     with Galtherus de Walma – originated from the diocese of Utrecht. He began his
+                     university studies in 1442 at the University of Cologne. By 1445, he had moved
+                     to the University of Paris, where he is recorded as a baccalareus artium
+                     affiliated with the German nation. That same year, he incepted under the master
+                     Albertus Scriptoris, also from the diocese of Utrecht. In 1457, he enrolled in
+                     theological studies. His name appears for the last time in Parisian records in
+                     1472. During this period, he likely licensed in theology, as he is listed in
+                     the records of the University of Heidelberg in 1475 as having received his
+                     license in theology from Paris. After his time in Heidelberg, he moved to
+                     Tübingen, where he earned the title of Doctor of Theology in 1480.</p></note>               
+               <occupation role="tch" ref="#Paris_BnF_latin6691"/>               
+               <note type="role">Master supervising the copy</note>
+               <listBibl>
+                  <bibl>Weijers, Le travail intellectuel, vol. 3, p. 63–64</bibl>
+                  <bibl>Lohr I, 163</bibl>
+                  <bibl>P.J.J.M. Bakker, F.J. Kok, Secundum intentionem Doctoris Subtilis: The
+                     Commentaries on Porphyry's Isagoge and Aristotle's De anima by Walter of Wervia
+                     (ca. 1425–1497), Bulletin de Philosophie Médiévale 56 (2014), 263-279</bibl>
+               </listBibl>
+            </person>
+
+            <person xml:id="GeorgSchwarz">
+               <!-- ELE: missing identifier. Create GND and Wikidata. JL: Check CERL! bc its there -->
+               <idno type="CERL">cnp01342125</idno>
+               <name xml:lang="lat">Georg Nigri</name>
+               <!-- mandatory -->
+               <name xml:lang="de">Georg Schwarz</name>
+               <!-- mandatory birth, death or floruit -->
+               <birth when="1434"/>
+               <death notBefore="1484"/>
+               <!-- mandatory -->
+               <note>Originally from Kaaden (Bohemia), he entered the Dominican Order in Brux in
+                  1452. He studied at the Dominican convent in Leipzig (1456–1458) and Bologna
+                  (1459–1461). He lectured as cursor sententiarum in Eichstätt (1461) and was active
+                  as a preacher there and in Buchenhüll (1464–1465). He pursued his theological
+                  studies at the University of Cologne (1465–1466) and served as lector and preacher
+                  at the Dominican convents in Ulm and Eichstätt (1467–1474). He taught theology at
+                  the Dominican convent in Regensburg (1478) and continued his theological studies
+                  at the University of Ingolstadt (1478–1479). In 1482, he became the general vicar
+                  of the Dominican Order in Bohemia. In this capacity, he participated in the
+                  General Chapter of the Order in Rome in 1484.</note>
+               <affiliation subtype="OP" type="religiousOrder">Dominican</affiliation>
+               <!-- mandatory -->
+               <!-- add closed list of values in ODD -->
+               <occupation role="fmo scr" ref="#Eichstätt_UB_Cod-686"/>
+               <!-- mandatory -->
+               <listBibl>
+                  <!-- mandatory -->
+                  <bibl/>
+               </listBibl>
+            </person>
+
+
+            <!-- Georgius de Brabantia OSB (1448–1505) issue#10-->
+            <person xml:id="GeorgiusDeBrabantia">
+               <name xml:lang="lat">Georgius de Brabantia</name>
+               <birth when="1448"/>
+               <death when="1505"/>
+               <note>Born in 1448 in Bourbourg, he was tonsured in 1456 under Bishop Henri de
+                  Lorraine-Vaudémont. He became a monk at the Abbey of Saint-Bertin and, from 1493
+                  onwards, served there as archivist and prior. He studied at the Faculty of Arts in
+                  Paris in 1471, as attested by his colophon in manuscript Saint-Omer, 597. Likely
+                  during the same period, he copied another manuscript now preserved in the same
+                  library (Saint-Omer, MS 600), which also belonged to the Abbey of Saint-Bertin.
+                  This manuscript contains anonymous commentaries on the logical corpus —distinct
+                  from those attributed to Versoris— and features the same kind of rich decoration
+                  found in MS 597.</note>
+               <affiliation subtype="OSB" type="religiousOrder">Benedictine</affiliation>
+               <occupation role="scr fmo"
+                  ref="#SaintOmer_BibliothèquedAgglomérationduPaysdeSaintOmerBibliothèquemunicipale_597"/>                
+               <listBibl>
+                  <bibl>Gil, Saint-Omer gothique, 379</bibl>
+                  <bibl>T. Sullivan, Benedictine Monks at the University of Paris: A.D. 1229–1500: A
+                     Biographical Register, Leiden, 1995, 77, no. 114</bibl>
+                  <bibl>Livesey, Science in the Monastery, 210–212 (MS 597); 216–218 (MS 600)</bibl>
+               </listBibl>
+            </person>
+            
+            
+            <!-- Georgius Erber de Aibling issue#24 -->
+
+            <person xml:id="GeorgiusErberDeAibling">
+               <name xml:lang="lat">Georgius Erber de Aibling</name>
+               <death notBefore="1463"/>
+               <note>After studying at the universities of Erfurt (1452) and Vienna (1455), Georgius
+                  Erber moved to Paris, where he was affiliated with the Anglo-German Nation and was
+                  a member of the Collège de la Marche (1460–1463). He obtained the degree of
+                  Bachelor of Arts in 1461 and the degree of Master in 1463. During this period, he
+                  acquired two volumes containing commentaries attributed to Versoris – one on
+                  natural philosophy and the other on logic – which he brought with him when,
+                  shortly after completing his studies, he moved to Coburg</note>
+               <affiliation type="none"/>
+               <occupation role="fmo" ref="#Berlin_SB-PK_latfol402"/>
+               <occupation role="fmo" ref="#Berlin_SB-PK_Hdschr435"/>
+               <listBibl>
+                  <bibl>Auctarium II, col. 948, l. 19; VI, col. 360, l. 24; col. 375, l. 5; col.
+                     377, l. 2</bibl>
+                  <bibl>C. Meyer, "La compilation sur la musique de Georgius Erber (Paris,
+                     1460-1462)". Innsbruck, Universitatsbibliothek, Cod. 962, f. 128r-163r <note
+                        type="biblio">Introduction, commentary and text edition (uploaded in HAL 18
+                        mai 2017): <ref target="https://shs.hal.science/halshs-00009385v1/document"
+                           >https://hal.archives-ouvertes.fr/hal-01522251</ref>, 2, n.
+                     4-5</note></bibl>
+                  <bibl>K. HEYDECK, Die mittelalterlichen Handschriften der Universitätsbibliothek
+                     Rostock, Wiesbaden, 2001, 33–36</bibl>
+                  <bibl>A. Panzica, Entre musique et philosophie: Nouvelles sources sur Georgius
+                     Erber (Paris, 1460-1463).</bibl>
+               </listBibl>
+            </person>
+
+            <!-- Gilbertus d’Auvergnat (Alvergnat, Alverniaci, Auvergnaci, Auverniaci) issue#18 -->
+
+            <person xml:id="GilbertusdAuvergnat">
+               <name xml:lang="lat">Gilbertus d'Auvergnat</name>
+               <name xml:lang="lat">Gilbertus Alvergnat</name>
+               <name xml:lang="lat">Gilbertus Alverniaci</name>
+               <name xml:lang="lat">Gilbertus Auvergnaci</name>
+               <name xml:lang="lat">Gilbertus Auverniaci</name>
+               <birth notAfter="1477"/>
+               <death notBefore="1456"/>               
+               <note>From the diocese of Bourges (diocesis Bituricensis), bachelor in 1477, licensed
+                  in 1448 under the master Petrus Caroz. After some years of absence, he was elected
+                  procurator of the French nation from 1454 to 1456.</note>
+               <occupation role="scr" ref="#Oxford_BodleianLibrary_CanonMisc211"/>
+               
+               <listBibl>
+                  <bibl>Auctarium, V, col. 197, l. 11; col. 254, l. 22; col. 255, l. 22; col. 262,
+                     l. 31; col. 617, l. 18, l. 40; col. 618, l. 5, l. 24, l. 35; col. 619, l. 4, l.
+                     12, l. 31, l. 34, l. 35; col. 620, l. 16, l. 22; col. 621, l. 32; col. 624, l.
+                     33; col. 625, l. 5; col. 629, l. 24, l. 36, l. 39; col. 630, l. 14; col. 631,
+                     l. 25, l. 39, l. 42, l. 47; col. 633, l. 20, l. 36; col. 634, l. 15, l. 18, l.
+                     28, l. 29, l. 31, l. 33-36; col. 634, l. 15, l. 18, l. 28-31; col. 636, l. 8,
+                     l. 14; col. 638, l. 12, l. 29-36, l. 44; col. 717, l. 35</bibl>
+                  <bibl>Rouse &amp; Rouse, Illiterati et uxorati, 34</bibl>
+               </listBibl>
+            </person>
+
+            <person xml:id="IacobusLouber">
+               <idno type="VIAF">44463016</idno>
+               <!-- in html, together in a field "Identifier"  -->
+               <idno type="GND">1024501442</idno>
+               <idno type="CERL">cnp02056146</idno>
+               <name>Iacobus Louber</name>
+               <birth when="1440"/>
+               <death when="1513"/>
+               <note>He studied in Basel in 1476–1477 and served as rector of Basel University. He
+                  subsequently entered the Carthusian order and became prior in 1480. Under his
+                  direction, the convent and the library were built.</note>
+               <affiliation subtype="OCart" type="religiousOrder">Carthusian</affiliation>
+               <occupation role="fmo" ref="#msBasel_UB_F-I-13"/>
+               <occupation role="fmo" ref="#msBasel_UB_F-V-9"/>
+               <listBibl>
+                  <bibl>M. Burckhardt, “Aus dem Umkreis der ersten Basler Universitätsbibliothek”,
+                     Basler Zeitschrift für Geschichte und Altertumskunde 58/59 (1959), 155-191, at
+                     176-179</bibl>
+               </listBibl>
+            </person>
+
+            <!-- Iacobus Pol, OSB issue#9 -->
+
+            <person xml:id="IacobusPol">
+               <name xml:lang="lat">Iacobus Pol</name>
+               <birth notAfter="1447"/>
+               <death when="1500"/>
+               <note>Iacobus Pol studied at the universities of Paris and Cologne, as attested by
+                  manuscripts Saint-Omer, Bibliothèque d'Agglomération du Pays de Saint-Omer, Ms 586
+                  (copied in Paris), Ms 162 and Boulogne-sur-Mer, Bibliothèque Municipale, Ms. 28
+                  (both of them copied in Cologne). The first manuscript, which contains Versoris's
+                  commentary on the natural philosophical corpus, bears the following possession
+                  mark: <quote source="2v, marg. sup.">Hunc librum acquisivit frater Jacobus Pol,
+                     tempore quo fuit scolaris Parisiensis</quote>. The second manuscript,
+                  containing Iohannes Tinctoris's commentary on the first and third parts of Thomas
+                  Aquinas's Summa theologiae, includes two relevant notes. The first reads: <quote
+                     source="1r, marg. sup.">pro fratre Iacobo Pol, monacho sancti Bertini in sancto
+                     Audomaro</quote>. The second, partially damaged by water, appears as follows:
+                     <quote source="2v, marg. sup.">Incipit quedam lectura <damage agent="water"
+                           ><supplied resp="#AP">super primam et secundam</supplied></damage><note
+                        type="editorial">my conjecture; the text is unreadable due to water
+                        damage</note> partem beati Thome de Aquino, ad pennam pronunciata ab egregio
+                     viro, magistro Iohanne Tinctoris, artium magistro ac sacre theologie doctore
+                     famosissimo eiusdemque divine cultore precipuo</quote> to which another hand
+                  (the same as in the first ownership mark) adds: <quote source="2v, marg. sup."
+                     >quam fecit scribi frater Iacobus, religiosus sancti Bertini, tempore quo
+                     mansit Colonie</quote>. The third manuscript, containing Iohannes de
+                  Mechelinis's Commentary on De divinis nominibus, contains the following ex-libris:
+                     <quote source="217, marg. inf.">Hunc librum fecit scribi fr. Jacobus Pol
+                     Colonie, pro monasterio Sancti Bertini, et fuit compositus per magistrum
+                     Iohannem de Mechelinia, professorem in theologia, tunc temporis in ipsa
+                     facultate regentem atque legente</quote>. Iacobus Pol entered the Benedictine
+                  monastery of Saint-Bertin before 1447. He served as prior twice: first between
+                  1450 and 1473, and again from 1474 to 1481. He died in 1500.</note>
+               <occupation role="fmo"
+                  ref="#SaintOmer_BibliothèquedAgglomérationduPaysdeSaintOmer_586"/>
+               <listBibl>
+                  <bibl>Grabmann, "Der belgische Thomist", 432-433</bibl>
+                  <bibl>Livesey, Science in the monastery, 189-192</bibl>
+               </listBibl>
+            </person>
+
+            <!-- Iohannes Abbatis (Jean l'Abbé) issue#33 -->
+            <person xml:id="IohannesAbbatis">
+               <name xml:lang="lat">Iohannes Abbatis</name>
+               <name xml:lang="fr">Jean l'Abbé</name>
+               <birth notAfter="1450"/>
+               <death notBefore="1453"/>
+               <note>From the diocese of Reims, he studied at the Faculty of Arts in Paris as a
+                  member of the French Nation. Between 1450 and 1452, he studied at the Collège de
+                  la Marche, as attested by manuscript Reims, Bibliothèque Carnegie (Bibliothèque
+                  municipale), 897 (I. 678). He was promoted baccalarius in 1452, and master in
+                  1453. He later served as provost of the chapter of Reims Cathedral and as general
+                  vicar of the Archbishop of Reims. He owned other manuscripts now kept in Reims:
+                  58, 562, 97, 705.</note>
+               <affiliation type="none"/>
+               <occupation role="scr"
+                  ref="#Reims_BibliothèqueCarnegieBibliothèquemunicipale_897I678"/>               
+               <listBibl>
+                  <bibl>Auctarium V, col. 478, l. 17; col. 526, l. 23; col. 529, l. 3</bibl>
+                  <bibl>Riou, "Alfarabi, Aristote, Platon" <note type="biblio">who considers
+                     Iohannes Abbatis as the author of the commentaries</note></bibl>
+               </listBibl>
+            </person>
+
+
+            <!--  Iohannes Coromines (Colomines, Cormines) issue#16 -->
+
+            <person xml:id="IohannesCoromines">
+               <name xml:lang="lat">Iohannes Coromines</name>
+               <name xml:lang="lat">Iohannes Colomines</name>
+               <name xml:lang="lat">Iohannes Cormines</name>
+               <birth notAfter="1444"/>
+               <death notBefore="1447"/>
+               <note>Originally from the Diocese of Barcelona (Dioecesis Barchinonensis), he was a
+                  member of the French Nation at the Faculty of Arts in Paris. He incepted in the
+                  Arts in 1444; studied theology under Robertus Ciboule and obtained his licentiate
+                  in 1458. He served as procurator of the French Nation from August 1447.</note>
+               <affiliation type="none"/>
+               <occupation role="sh85129296" ref="#Oxford_BodleianLibrary_CanonMisc211"/>
+               <note type="role">Student for whom Johannes Run copied the texts</note>
+               <listBibl>
+                  <bibl>Auctarium V, col. 42, l. 38; col. 47, l. 23; col. 113, l. 22; col. 151, l.
+                     4; col. 216, l. 45; col. 217, l. 5; col. 218, l. 17, l. 24, l. 40, l. 41; col.
+                     219, l. 8, l. 15, l. 24, l. 36, l. 45; col. 220, l. 6, l. 14, l. 29, l. 38, l.
+                     41, l. 44; col. 221, l. 24, l. 47; col. 222, l. 18; col. 223, l. 2, l. 12, l.
+                     30, l. 35; col. 224, l. 2, l. 5, l. 6, l. 10; col. 236, l. 49; col. 237, l. 34;
+                     col. 277, l. 22, l. 41; col. 300, l. 35, l. 42; col. 304, l. 43; col. 321, l.
+                     45; col. 329, l. 16, l. 37, l. 44; col. 330, l. 2, l. 49; col. 331, l. 31, l.
+                     39; col. 332, l. 22; col. 333, l. 47; col. 334, l. 10, l. 39; col. 366; col.
+                     466, l. 10; col. 497, l. 20; col. 522, l. 3; col. 542, l. 7, l. 20; col. 552,
+                     l. 24; col. 631, l. 7, l. 18; l. 722, l. 12</bibl>
+                  <bibl>Sullivan, Parisian Licentiates II, 32, 140, 159, 172-173.</bibl>
+               </listBibl>
+            </person>
+
+            <!--  Iohannes Run issue#15 -->
+
+            <person xml:id="IohannesRun">
+               <name xml:lang="lat">Iohannes Run</name>
+               <birth notAfter="1444"/>
+               <death notBefore="1444"/>
+               <note>Originally from the diocesis of Tréguier (Trecorensis) in Bretagne, he licensed
+                  and incepted at the Arts Faculty of the University of Paris in Mai 1444.</note>
+               <occupation role="scr" ref="#Oxford_BodleianLibrary_CanonMisc211"/>
+               <occupation role="scr" ref="#Oxford_BodleianLibrary_CanonMisc486"/>
+               <note type="role">in <ref target="#Oxford_BodleianLibrary_Canon.Misc.211" type="ms"
+                     >ms. Canon.Misc.211</ref> he wrote for Iohannes de Colomines</note>
+               <listBibl>
+                  <bibl>Auctarium V, col. 44, l. 15; col. 48, l. 30</bibl>
+                  <bibl>Deuffic, "Copistes Bretons", 181, 182</bibl>
+                  <bibl>Rouse &amp; Rouse, Illiterati et uxorati, 85</bibl>
+                  <bibl>Sullivan, Parisian Licentiates, II, 173</bibl>
+               </listBibl>
+            </person>
+
+            <person xml:id="NicolausUnbehuen">
+               <name xml:lang="lat">Nicolaus Unbehuen</name>
+               <name xml:lang="lat">Nicolaus Umbehauen</name>
+               <birth notBefore="1400"/>
+               <death notAfter="1500"/>
+               <note>Active in Ulm, probably at the Dominican convent, in the third quarter of the
+                  fifteenth century.</note>
+               <affiliation subtype="OP" type="religiousOrder">Dominican</affiliation>
+               <occupation role="scr" ref="#Bamberg_StaatsbibliothekBamberg_MscPatr150"/>
+               <listBibl>
+                  <!-- mandatory -->
+                  <bibl>Leitschuh, I.1, 532-533.</bibl>
+               </listBibl>
+            </person>
+
+
+            <!-- Hilarius Litomericensis (von Leitmeritz; de Litomericz; z Litoměřic; Litoměřický, 1412–1468, Pilsen) issue#35-->
+
+            <person xml:id="HilariusLitomericensis">
+               <idno type="GND">119001985</idno>
+               <idno type="VIAF">316410061</idno>
+               <idno type="CERL">cnp00973696</idno>
+               <name xml:lang="lat">Hilarius Litomericensis</name>
+               <name xml:lang="de">Hilarius von Leitmeritz</name>
+               <name xml:lang="cz">Hilarius de Litomericz</name>
+               <name xml:lang="cz">Hilarius z Litoměřic</name>
+               <name xml:lang="cz">Hilarius Litoměřický</name>
+               <birth when="1412"/>
+               <death when="1468"/>
+               <note>He studied philosophy at Prague University, where he obtained the bachelor's
+                  degree in 1447 and the master's degree in 1451. At that time, he supported the
+                  Hussite movement. His position changed after Jan Rokycana, the head of the Hussite
+                  clergy, sent him to study in Padua. Hilarius was promoted in canon law at the
+                  University of Bologna and converted to Catholicism. As a consequence, when he
+                  returned to Bohemia, he could not find a position at the Hussite-majority Prague
+                  University. From 1462 to his death, in 1468, he served as administrator of the
+                  Prague Chapter. He defended the authority of the pope against the Bohemian king
+                  Georg Podiebrad and, when tensions escalated, moved with the Chapter to Pilsen,
+                  where he coordinated the Catholic liga.</note>
+               <affiliation type="none"/>
+               <occupation role="aut" ref="#Praha_KMK_B49"/>
+               <occupation role="scr" ref="#Praha_KMK_L37"/>
+               <note type="role">Author of a disputatio in ms. B 49; copyist of Versoris’s texts in
+                  ms. L 37</note>
+               <listBibl>
+                  <bibl>Z. Kalista, "Die katholische Reform von Hilarius von Leitmeritz bis zum
+                     Weissen Berg", in F. Seibt (ed.), Bohemia Sacra. Das Christentum in Böhmen,
+                     973–1973, Düsseldorf 1974, 110–144.</bibl>
+                  <bibl>S. Sousedík, Philosophie der frühen Neuzeit in den böhmischen Ländern.
+                     Stuttgart/Bad Connstatt, 2009, 30–43.</bibl>
+                  <bibl>F. Šmahel, "Paris und Prag", 446, 452, 460.</bibl>
+                  <bibl>K. Solcová, S. Sousedík, "Hilarius of Leitmeritz", in M. Sgarbi (ed.),
+                     Encyclopedia of Renaissance Philosophy, Cham 2022, 1526–1527.</bibl>
+               </listBibl>
+            </person>
+
+            <person xml:id="HenricusErlbach">
+               <name xml:lang="lat">Henricus Erlbach</name>
+               <name xml:lang="de">Heinrich Erlbach</name>
+               <death when="1525"/>
+               <note>After studying in Ingolstadt, he entered the Benedictine monastery of Saint
+                  Emmeram.</note>
+               <affiliation subtype="OSB" type="religiousOrder">Benedictine</affiliation>
+               <occupation role="scr fmo" ref="#München_BSB_Clm14518"/>
+               <listBibl>
+                  <bibl>D. Sheffler, Schools and Schooling in Late Medieval Germany: Regensburg,
+                     1250-1500, Leiden/Boston 2008, 35, 224, 267.</bibl>
+               </listBibl>
+            </person>
+
+            <person xml:id="IacobusBorkemanMariaeburgo">
+               <name xml:lang="lat">Iacobus Borkeman de Mariaeburgo</name>
+               <!-- Copernicus enrolled in 1491 -->
+               <birth notBefore="1497"/>
+               <death notAfter="1504"/>
+               <note>He enrolled at the <orgName>University of Cracow</orgName> in 1497 and obtained
+                  the degree of baccalarius in 1504.</note>
+               <affiliation type="secular"/>
+               <occupation role="fmo" ref="#Kraków_BJ_908"/>
+               <listBibl>
+                  <bibl>Album studiosorum II, 41.</bibl>
+                  <bibl>Liber prom. 139.</bibl>
+               </listBibl>
+            </person>
+
+            <person xml:id="PhilippeGoupil">
+               <name xml:lang="fr">Philippe Goupil</name>
+               <birth notAfter="1442"/>
+               <death when="1503"/>
+               <note>Originally from Rouen (Rothomagentis dyocesis), he studied at the Faculty of
+                  Arts in Paris under the Norman master Clément Parmentier in the years 1442–1444.
+                  He was appointed abbot of Saint Eve in Toul in 1480 and died in 1503.</note>
+               <affiliation subtype="OSB" type="religiousOrder">Benedictine</affiliation>
+               <occupation role="scr"
+                  ref="#SaintOmer_BibliothèquedAgglomérationduPaysdeSaintOmer_586"/>
+               <listBibl>
+                  <bibl>Monaci sancti Mauri ordinis sancti Benedicti, Gallia Christiana in
+                     provincias ecclesiasticas distributa, qua series et historia archiepiscoporum,
+                     episcoporum et abbatum regionum omnium quas vetus Gallia complecte et abbatum
+                     origine ecclesiarum ad nostra tempora deducitur et probatur ex authenticis
+                     instrumentis ad calcem appositis. Tomus decimus-tertius, ubi de provinciis
+                     Tolosana et Trevirensi agitur, Paris 1785, col. 1109</bibl>
+                  <bibl>Livesey, Science in the Monastery, 189-192</bibl>
+               </listBibl>
+            </person>
+
+            <!-- Stanislaus de Velvary (Stanislaus de Welwara; Stanislav von Velvary) issue#41 -->
+
+            <person xml:id="StanislausDeVelvary">
+               <name xml:lang="lat">Stanislaus de Velvary</name>
+               <name xml:lang="lat">Stanislaus de Welwara</name>
+               <name xml:lang="de">Stanislav von Velvary</name>
+               <birth notAfter="1445"/>
+               <death notBefore="1457"/>
+               <note>He obtained a Bachelor of Arts degree from Prague University in 1445. He later
+                  traveled to Paris, where he received minor orders from the Bishop of Paris and
+                  studied under Albertus Scriptoris at the House of the Poor German Students. Likely
+                  because his Prague degree was not recognized in Paris, he retook the bachelor
+                  examination and obtained a Bachelor of Arts degree from the University of Paris in
+                  1450. The following year, he earned a Master of Arts degree. He subsequently
+                  returned to Prague, where he had a distinguished academic and ecclesiastical
+                  career: he was elected Dean of the Faculty of Arts in 1455 and served as Rector
+                  from 1456 to 1457. He was also appointed canon of Saint Apollinar and scholasticus
+                  of the Cathedral Chapter.</note>
+               <affiliation type="none"/>
+               <occupation role="scr" ref="#Praha_KMK_M402"/>
+               <occupation role="tch" ref="#Praha_KMK_M81"/>
+               <occupation role="scr" ref="#Praha_NK_XH21"/>
+               <occupation role="tch" ref="#Wien_Dominikanerkonvent_Cod149119"/>
+               <note type="biblio">Mentioned in mss. Praha, KMK, M 40/2 and Praha, NK, X H 21 as the
+                  copyist who brought Versoris’s logical corpus from Paris to Prague; mentioned in
+                  ms. Wien, Dominikanerkonvent, Cod. 149/119 as the master under whom the copyist
+                  obtained his bachelor degree; using Versoris’s Ethics for teaching in ms. Praha,
+                  KMK, M 81</note>
+               <listBibl>
+                  <bibl>Auctarium VI, col. 189, l. 28, n. 10</bibl>
+                  <bibl>E. Gregorovičová, "Knihovna mistra Stanislava z Velvar" [The Library of
+                     master Stanislav von Velvary], Acta Universitatis Carolinae – Historia
+                     Universitatis Carolinae Pragensis 18/1 (1978), 110–113</bibl>
+                  <bibl>Šmahel, "Paris und Prag", 444, 447-449</bibl>
+                  <bibl>Gabriel, "The House of Poor German Students", 185–186</bibl>
+               </listBibl>
+            </person>
+
+            <person xml:id="WenceslausDeWrben">
+               <name xml:lang="lat">Wenceslaus de Wrben</name>
+               <name xml:lang="cz">Václav z Vrbna</name>
+               <name xml:lang="de">Wenzel von Vrbno</name>
+               <birth notAfter="1445"/>
+               <death when="1493"/>
+               <note>Originally from Bohemia, he traveled to Paris and studied at the College of the
+                  German Nation in 1445. Shortly thereafter, he went to Prague, where he became a
+                  Bachelor of Arts in November of the same year. He subsequently returned to Paris,
+                  this time accompanied by two colleagues, Clemens de Melnik and Stanislaus de
+                  Welwara, to complete the copy of the corpus attributed to Versoris. He returned to
+                  Prague in 1450 and was promoted to Master of Arts in 1451, under the mentorship of
+                  Jan Rokycana. That same year, he was elected Dean of the Faculty of Arts. He later
+                  served as Rector of the University in 1459–1460 and again in 1466. From 1462, he
+                  served as Dean of Saint Apollinar, and in the same year, he was sent on a
+                  diplomatic mission to Pope Pius II by King George of Poděbrady.</note>
+               <affiliation type="none"/>
+               <occupation role="scr" ref="#Praha_NK_IVE25"/>
+               <occupation role="scr" ref="#Praha_KMK_L37"/>
+               <occupation role="scr" ref="#Praha_NK_IE38"/>
+               <occupation role="scr" ref="#Wien_Dominikanerkonvent_Cod149119"/>
+               <note type="role">Copyist in ms. Praha, NK, IV E 25; mentioned in mss. Praha, KMK, L
+                  37 and Praha, NK, I E 38 as the copyist of the natural philosophical corpus;
+                  mentioned in ms. Wien, Dominikanerkonvent, Cod. 149/119 as the copyist of the
+                  logical corpus.</note>
+               <listBibl>
+                  <bibl>Šmahel, "Paris und Prag", 443, 445–447, 451, fn. 34</bibl>
+                  <bibl>Gabriel, "The House of Poor German Students", 184–185</bibl>
+               </listBibl>
+            </person>
+
+
+         </listPerson>
+      </body>
+   </text>
+</TEI>
