@@ -1091,12 +1091,10 @@
             <!--München, BSB, Clm 14518* issue#4-->
 
             <msDesc xml:id="München_BSB_Clm14518">
-               <!--Check how to create the string for xml:id. No documentation for now-->
                <msIdentifier>
                   <settlement>München</settlement>
                   <repository>BSB</repository>
-                  <idno>Clm 14518</idno>
-                  <!--asterisk ?-->
+                  <idno>Clm 14518</idno>                  
                   <idno type="URI">https://www.digitale-sammlungen.de/de/view/bsb00109490</idno>
                </msIdentifier>
                <msContents>
