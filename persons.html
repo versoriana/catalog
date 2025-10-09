@@ -185,6 +185,27 @@
 					
 					return container;
 				},
+                "floruit": function(e) {
+                    const when = e.getAttribute('when');
+                    const from = e.getAttribute('from');
+                    const to = e.getAttribute('to');
+
+                    let container = document.createElement('span');
+                    container.className = 'floruit-info';
+
+                    if (when) {
+                        container.textContent = when;
+                    } else if (from && to) {
+                        container.textContent = `${from}-${to}`;
+                    } else if (from) {
+                        container.textContent = `from ${from}`;
+                    } else if (to) {
+                        container.textContent = `to ${to}`;
+                    }
+
+                    return container;
+                },
+
 				"occupation": function(e) {
 					// Check if we've already processed occupations for this person
 					const personElement = e.closest('tei-person') || e.parentElement;

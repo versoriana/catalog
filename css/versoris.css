@@ -422,7 +422,7 @@ tei-colophon[n]::after {
 			color: #6c757d;
 		}
 
-		tei-birth, tei-death {
+		tei-birth, tei-death, tei-floruit {
 			display: inline;
 		}
 
@@ -435,6 +435,12 @@ tei-colophon[n]::after {
 			content: "Died: ";
 			font-weight: bold;
 		}
+
+        tei-floruit::before {
+                content: "Floruit: ";
+                font-weight: bold;
+            }
+
 
 		tei-affiliation {
 			display: inline-block;
@@ -626,7 +632,7 @@ tei-colophon[n]::after {
         }
 
         tei-metamark[function="signum"]::before {
-            content: "(signum)"
+            content: "[signum]"
         }
 
         tei-hi[rend="superscript"] {
