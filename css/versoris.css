@@ -303,14 +303,21 @@ tei-ref {
     text-decoration: underline;
 }
 
-/* Bibliography */
+/* ADDITIONAL */
+
 tei-additional {
     display: block;
     margin-top: 20px;
     margin-left: 20px;
 }
 
-tei-additional::before {
+tei-recordHist > source[cert="high"]
+{
+    font-weight: bold;
+}
+
+
+tei-listBibl::before {
     content: "Bibliography";
     display: block;
     font-weight: bold;
@@ -432,17 +439,6 @@ tei-colophon[n]::after {
 			margin: 5px 0;
 		}
 
-		tei-affiliation[type="secular"] {
-			background-color: #FF8C00;
-		}
-
-        	tei-affiliation[type="none"] {
-			display: none;
-		}
-
-		tei-affiliation[type="secular"]::before {
-			content: "secular";
-		}
 
 		#PersonRegister tei-note {
 			display: block;
