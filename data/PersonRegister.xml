@@ -356,8 +356,7 @@
                   Bachelor of Arts in 1461 and the degree of Master in 1463. During this period, he
                   acquired two volumes containing commentaries attributed to Versoris – one on
                   natural philosophy and the other on logic – which he brought with him when,
-                  shortly after completing his studies, he moved to Coburg</note>
-               <affiliation type="none"/>
+                  shortly after completing his studies, he moved to Coburg</note>               
                <occupation role="fmo" ref="#Berlin_SB-PK_latfol402"/>
                <occupation role="fmo" ref="#Berlin_SB-PK_Hdschr435"/>
                <listBibl>
@@ -477,8 +476,7 @@
                   municipale), 897 (I. 678). He was promoted baccalarius in 1452, and master in
                   1453. He later served as provost of the chapter of Reims Cathedral and as general
                   vicar of the Archbishop of Reims. He owned other manuscripts now kept in Reims:
-                  58, 562, 97, 705.</note>
-               <affiliation type="none"/>
+                  58, 562, 97, 705.</note>               
                <occupation role="scr"
                   ref="#Reims_BibliothèqueCarnegieBibliothèquemunicipale_897I678"/>               
                <listBibl>
@@ -500,9 +498,8 @@
                <note>Originally from the Diocese of Barcelona (Dioecesis Barchinonensis), he was a
                   member of the French Nation at the Faculty of Arts in Paris. He incepted in the
                   Arts in 1444; studied theology under Robertus Ciboule and obtained his licentiate
-                  in 1458. He served as procurator of the French Nation from August 1447.</note>
-               <affiliation type="none"/>
-               <occupation role="sh85129296" ref="#Oxford_BodleianLibrary_CanonMisc211"/>
+                  in 1458. He served as procurator of the French Nation from August 1447.</note>               
+               <occupation role="pat" ref="#Oxford_BodleianLibrary_CanonMisc211"/>
                <note type="role">Student for whom Johannes Run copied the texts</note>
                <listBibl>
                   <bibl>Auctarium V, col. 42, l. 38; col. 47, l. 23; col. 113, l. 22; col. 151, l.
@@ -577,8 +574,7 @@
                   University. From 1462 to his death, in 1468, he served as administrator of the
                   Prague Chapter. He defended the authority of the pope against the Bohemian king
                   Georg Podiebrad and, when tensions escalated, moved with the Chapter to Pilsen,
-                  where he coordinated the Catholic liga.</note>
-               <affiliation type="none"/>
+                  where he coordinated the Catholic liga.</note>              
                <occupation role="aut" ref="#Praha_KMK_B49"/>
                <occupation role="scr" ref="#Praha_KMK_L37"/>
                <note type="role">Author of a disputatio in ms. B 49; copyist of Versoris’s texts in
@@ -616,7 +612,7 @@
                <death notAfter="1504"/>
                <note>He enrolled at the <orgName>University of Cracow</orgName> in 1497 and obtained
                   the degree of baccalarius in 1504.</note>
-               <affiliation type="secular"/>
+               
                <occupation role="fmo" ref="#Kraków_BJ_908"/>
                <listBibl>
                   <bibl>Album studiosorum II, 41.</bibl>
@@ -662,8 +658,7 @@
                   returned to Prague, where he had a distinguished academic and ecclesiastical
                   career: he was elected Dean of the Faculty of Arts in 1455 and served as Rector
                   from 1456 to 1457. He was also appointed canon of Saint Apollinar and scholasticus
-                  of the Cathedral Chapter.</note>
-               <affiliation type="none"/>
+                  of the Cathedral Chapter.</note>              
                <occupation role="scr" ref="#Praha_KMK_M402"/>
                <occupation role="tch" ref="#Praha_KMK_M81"/>
                <occupation role="scr" ref="#Praha_NK_XH21"/>
@@ -698,8 +693,7 @@
                   Jan Rokycana. That same year, he was elected Dean of the Faculty of Arts. He later
                   served as Rector of the University in 1459–1460 and again in 1466. From 1462, he
                   served as Dean of Saint Apollinar, and in the same year, he was sent on a
-                  diplomatic mission to Pope Pius II by King George of Poděbrady.</note>
-               <affiliation type="none"/>
+                  diplomatic mission to Pope Pius II by King George of Poděbrady.</note>               
                <occupation role="scr" ref="#Praha_NK_IVE25"/>
                <occupation role="scr" ref="#Praha_KMK_L37"/>
                <occupation role="scr" ref="#Praha_NK_IE38"/>

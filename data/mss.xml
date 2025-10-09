@@ -187,7 +187,7 @@
                <msIdentifier>
                   <settlement>Amiens</settlement>
                   <repository>Bibliothèque Louis Aragon (Bibliothèque municipale)</repository>
-                  <idno>402*</idno>
+                  <idno>402</idno>
                   <idno type="URI">https://arca.irht.cnrs.fr/ark:/63955/md65v692t912</idno>
                </msIdentifier>
                <msContents>
@@ -248,6 +248,13 @@
                   </provenance>
                </history>
                <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source cert="high" resp="#">
+                           <p>Mss directly examined</p>
+                        </source>                                                   
+                     </recordHist>
+                  </adminInfo>
                   <listBibl>
                      <bibl>Catalogue général des manuscrits des bibliothèques publiques de France.
                         Départements – tome XIX : Amiens, 191-192.</bibl>
@@ -298,12 +305,13 @@
                         Augsburg.</p>
                   </provenance>
                </history>
-               <additional>
+               <additional>                               
                   <listBibl>
                      <bibl>H. Hilg, Lateinische mittelalterliche Handschriften in Folio der
                         Universitätsbibliothek Augsburg: Cod. II. 1.2o 91–226, Wiesbaden, 1999, p.
                         375–377</bibl>
                   </listBibl>
+                  
                </additional>
             </msDesc>
 
@@ -313,7 +321,7 @@
                <msIdentifier>
                   <settlement>Bamberg</settlement>
                   <repository>Staatsbibliothek Bamberg</repository>
-                  <idno>class 58/4 (HJ.IC.29)*</idno>
+                  <idno>class 58/4 (HJ.IC.29)</idno>
                </msIdentifier>
                <msContents>
                   <summary>None</summary>
@@ -341,6 +349,13 @@
                         library</orgName></provenance>
                </history>
                <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source cert="high" resp="#">
+                           <p>Mss directly examined</p>
+                        </source>                                                   
+                     </recordHist>
+                  </adminInfo>
                   <listBibl>
                      <bibl>Leitschuh, I.2, 69-71</bibl>
                      <bibl>Kristeller, Iter III, 462a</bibl>
@@ -356,7 +371,7 @@
                <msIdentifier>
                   <settlement>Bamberg</settlement>
                   <repository>Staatsbibliothek Bamberg</repository>
-                  <idno>Msc.Patr.150*</idno>
+                  <idno>Msc.Patr.150</idno>
                   <idno type="URI"
                      >https://resolver.staatsbibliothek-berlin.de/HSP0004E85D00000000</idno>
                </msIdentifier>
@@ -410,6 +425,13 @@
                      as indicated on f. 1r: <q>ordinis predicatorum</q>.</provenance>
                </history>
                <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source cert="high" resp="#">
+                           <p>Mss directly examined</p>
+                        </source>                                                   
+                     </recordHist>
+                  </adminInfo>
                   <listBibl>
                      <bibl>Leitschuh, I.1, 532-533</bibl>
                      <bibl>S. Włodek, “Thomas Sutton, De productione formae substantialis”, AHDLMA
@@ -556,9 +578,7 @@
                      <title ref="workID">QsP</title>
                      <colophon source="78vb">Et sic est finis huius quinti Phisicorum in VIa
                         Palmarum, <date when="1458">anno Domini M° CCCC° LVIII°</date></colophon>
-                     <colophon source="90v">Et sic est finis sexti Phisicorum die secunda May <note
-                           type="editorial"> [con due punti sulla ï - y ]</note>
-                        <!-- cannot transcribe that?. Yes, added JLL. U+00EF -->, <date when="1459"
+                     <colophon source="90v">Et sic est finis sexti Phisicorum die secunda Maï <date when="1459"
                            >anno etc. LVIIII</date></colophon>
                   </msItem>
 
@@ -778,7 +798,7 @@
                <msIdentifier>
                   <settlement>Colmar</settlement>
                   <repository>Bibliothèque des dominicains (Bibliothèque municipale)</repository>
-                  <idno>223*</idno>
+                  <idno>223</idno>
                </msIdentifier>
                <msContents>
                   <summary>All the texts in this codex are transmitted anonymously and copied by
@@ -855,6 +875,13 @@
 
                </history>
                <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source cert="high" resp="#">
+                           <p>Mss directly examined</p>
+                        </source>                                                   
+                     </recordHist>
+                  </adminInfo>
                   <listBibl>
                      <bibl>Bibliography: Catalogue général des manuscrits des bibliothèques
                         publiques de France. Départements. Tome 56. Bibliothèque de Colmar, Paris
@@ -870,7 +897,7 @@
                <msIdentifier>
                   <settlement>Kraków</settlement>
                   <repository>BJ</repository>
-                  <idno>908*</idno>
+                  <idno>908</idno>
                   <idno type="URI">https://jbc.bj.uj.edu.pl/publication/638126</idno>
                </msIdentifier>
                <msPart>
@@ -898,6 +925,13 @@
                      </msItem>
                   </msContents>
                   <additional>
+                     <adminInfo>
+                        <recordHist>
+                           <source cert="high" resp="#">
+                              <p>Mss directly examined</p>
+                           </source>                                                   
+                        </recordHist>
+                     </adminInfo>
                      <listBibl>
                         <bibl>Hain 16029</bibl>
                         <bibl>GW M50240</bibl>
@@ -990,7 +1024,7 @@
                <msIdentifier>
                   <settlement>Mainz</settlement>
                   <repository>Wissenschaftliche Stadtbibliothek Mainz</repository>
-                  <idno>Hs. I 541*</idno>
+                  <idno>Hs. I 541</idno>
                   <idno type="URI"
                      >https://digi.ub.uni-heidelberg.de/diglit/mzstb_hs_i_541/0530</idno>
                </msIdentifier>
@@ -1031,6 +1065,13 @@
                         <orgName>library of the Mainz Carthusians</orgName>.</provenance>
                </history>
                <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source cert="high" resp="#">
+                           <p>Mss directly examined</p>
+                        </source>                                                   
+                     </recordHist>
+                  </adminInfo>
                   <listBibl>
                      <bibl>Schreiber, Kartause, 45, 63 n. 6, 64</bibl>
                      <bibl>Krämer, Handschriftenerbe der Kartäuser im Spiegel ausgewählter
@@ -1054,7 +1095,7 @@
                <msIdentifier>
                   <settlement>München</settlement>
                   <repository>BSB</repository>
-                  <idno>Clm 14518*</idno>
+                  <idno>Clm 14518</idno>
                   <!--asterisk ?-->
                   <idno type="URI">https://www.digitale-sammlungen.de/de/view/bsb00109490</idno>
                </msIdentifier>
@@ -1091,6 +1132,13 @@
                   </origin>
                </history>
                <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source cert="high" resp="#">
+                           <p>Mss directly examined</p>
+                        </source>                                                   
+                     </recordHist>
+                  </adminInfo>
                   <listBibl>
                      <bibl>Halm/Laubmann 2.2, 196</bibl>
                      <bibl>Merinhos, 271-272</bibl>
@@ -1107,7 +1155,7 @@
                <msIdentifier>
                   <settlement>Nürnberg</settlement>
                   <repository>Stadtbibliothek im Bildungscampus Nürnberg</repository>
-                  <idno>Cent. V 47*</idno>
+                  <idno>Cent. V 47</idno>
                </msIdentifier>
                <msContents>
                   <summary>None</summary>
@@ -1213,6 +1261,13 @@
                   <provenance>The codex belonged to the Augustinian convent.</provenance>
                </history>
                <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source cert="high" resp="#">
+                           <p>Mss directly examined</p>
+                        </source>                                                   
+                     </recordHist>
+                  </adminInfo>
                   <listBibl>
                      <bibl>Neske, Nürnberg, 75-78</bibl>
                   </listBibl>
@@ -1225,7 +1280,7 @@
                <msIdentifier>
                   <settlement>Nürnberg</settlement>
                   <repository>Stadtbibliothek im Bildungscampus Nürnberg</repository>
-                  <idno>Cent VII 86*</idno>
+                  <idno>Cent VII 86</idno>
                </msIdentifier>
                <msContents>
                   <summary>None</summary>
@@ -1251,6 +1306,13 @@
                   </origin>
                </history>
                <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source cert="high" resp="#">
+                           <p>Mss directly examined</p>
+                        </source>                                                   
+                     </recordHist>
+                  </adminInfo>
                   <listBibl>
                      <bibl>Neske, Nürnberg, 188.</bibl>
                      <bibl>Merinhos, 296-297.</bibl>
@@ -1438,7 +1500,7 @@
                <msIdentifier>
                   <settlement>Reims</settlement>
                   <repository>Bibliothèque Carnegie (Bibliothèque municipale)</repository>
-                  <idno>897 (I. 678)*</idno>
+                  <idno>897 (I. 678)</idno>
                   <idno type="URI">https://arca.irht.cnrs.fr/ark:/63955/md021c18gd4p</idno>
                </msIdentifier>
                <msContents>
@@ -1522,6 +1584,13 @@
                   </provenance>
                </history>
                <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source cert="high" resp="#">
+                           <p>Mss directly examined</p>
+                        </source>                                                   
+                     </recordHist>
+                  </adminInfo>
                   <listBibl>
                      <bibl>Catalogue général des manuscrits des bibliothèques publiques de France.
                         Départements. Tome XXXIX. Reims, vol. II.1, Paris 1904, 210–211</bibl>
