@@ -311,9 +311,17 @@ tei-additional {
     margin-left: 20px;
 }
 
-tei-recordHist > source[cert="high"]
+tei-adminInfo {
+    display: block;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+
+tei-recordHist > tei-source[cert="high"] > tei-p::after
 {
+    content: " ✓";
     font-weight: bold;
+    color: green;
 }
 
 
@@ -328,7 +336,6 @@ tei-listBibl::before {
 tei-listBibl {
     display: block;
     margin-top: 10px;
-    margin-left: 20px;
 }
 
 tei-listBibl > tei-bibl {
