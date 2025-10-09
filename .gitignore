@@ -54,5 +54,4 @@ env/
 env.bak/
 venv.bak/
 
-# Data files synced from other repo via GitHub Actions
-data/
+
