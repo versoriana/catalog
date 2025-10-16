@@ -74,6 +74,41 @@
                </listBibl>
             </person>
 
+            <person xml:id="AndreaDeGambyn">
+               <name xml:lang="lat">Andrea de Gambyn</name>
+               <name xml:lang="pol">Andrzej z Gąbina</name>               
+               <floruit from="1465" to="1474"/>
+               <note>Matriculated at Krakow in 1465; received a Bachelor’s degree in 1468;
+                  obtained a Master’s degree in 1474. He received the degree of Bachelor at
+                  the University of Kraków in 1468 and obtained the Master’s degree there in
+                  1470. </note>
+               <occupation role="fmo scr" ref="#Kraków_BibliotekaJagiellońska_cod2016"/>                    
+               <listBibl>
+                  <bibl>Catalogus 2, 314</bibl>
+                  <bibl>Metryka, 315</bibl>
+                  <bibl>Andrzej z Gąbina, syn Alberta/Wojciecha (Id: 2015096), in: Corpus
+                     Academicum Cracoviense (CAC), URL: <ref
+                        target="http://cac.historia.uj.edu.pl/osoba/2015096_Andrzej_z_G%C4%85bina_syn_Alberta_Wojciecha"
+                        >http://cac.historia.uj.edu.pl/osoba/2015096_Andrzej_z_G%C4%85bina_syn_Alberta_Wojciecha</ref>
+                     (accessed: 04.09.2025).</bibl>                      
+               </listBibl>
+            </person>
+
+            <person xml:id="AndreasDeParadiso">
+               <name xml:lang="lat">Andreas de Paradiso</name>
+               <name xml:lang="pol">Andrzej z Paradyża</name>
+               <floruit from="1468" to="1470"/>
+               <note>He received the degree of Bachelor at the University of Kraków in 1468 and
+                  obtained the Master’s degree there in 1470.</note>
+               <occupation role="fmo" ref="#Kraków_BibliotekaJagiellońska_cod2018"/>                   
+               <listBibl>
+                  <bibl>Andrzej z Paradyża, cysters (Id: 2016015), in: Corpus Academicum
+                     Cracoviense (CAC), URL: <ref
+                        target="http://cac.historia.uj.edu.pl/osoba/2016015_Andrzej_z_Parady%C5%BCa_cysters"
+                        >http://cac.historia.uj.edu.pl/osoba/2016015_Andrzej_z_Parady%C5%BCa_cysters</ref>
+                     (Dostęp: 31.08.2025).</bibl>
+               </listBibl>
+            </person>
 
             <!-- Clemens de Melnik (Klemens von Mîlník) issue#37 -->
 
@@ -126,7 +161,7 @@
 
             <person xml:id="ClemensParmentarii">
                <name xml:lang="lat">Clemens Parmentarii</name>
-               <name xml:lang="fra">Clémens Parmentier</name>               
+               <name xml:lang="fr">Clémens Parmentier</name>               
                <floruit from="1440" to="1466"/>
                <note>Clémens Parmentier, a member of the Norman nation, taught at the Faculty of
                   Arts in Paris from the 1440s onward and was appointed rector of the University in
@@ -145,7 +180,6 @@
                   <bibl>Sullivan, Parisian Licentiates, II 32, 410</bibl>
                </listBibl>
             </person>
-
 
             <person xml:id="CruxDeTelcz">
                <!-- readable identifiers, names. If we found a better way to integrate the registers in the editing of the mss, the ids can be changed to numbers (001, 002, 003). -->
@@ -455,6 +489,42 @@
                </listBibl>
             </person>
 
+            <person xml:id="IacobusUngelinkDeStendal">
+               <name xml:lang="lat">Iacobus Ungelink de Stendal</name>
+               <name xml:lang="lat">Iacobus Unghelinghe de Stendal</name>
+               <name xml:lang="lat">Iacobus Ungelink de Stendel</name>
+               <affiliation type="religiousOrder" subtype="OP">Dominican</affiliation>
+               <note>From the Diocese of Halberstadt, he studied at the Faculty of Arts in
+                  Paris as a member of the Anglo-German nation, obtaining the bachelor’s
+                  degree in 1465 and the master’s degree in 1467. He subsequently moved to
+                  Magdeburg, where he is attested at the Dominican convent between 1472 and
+                  1486. In 1472 he lectured on natural philosophy based on the commentaries of
+                  Petrus de Rivo, as attested in the manuscript Berlin, Staatsbibliothek
+                  Preußischer Kulturbesitz, Magdeburg 220, f. 503va: <quote source="503va">Finitur lectura subtilis
+                     eximii sacre theologie professoris, magistri Petri de Rivo, Universitatis
+                     Lovaniensis ducatus Brabantini, super libros philosophie speculative
+                     Aristotelis, philosophi ingeniosissimi, quam ego, frater Dominicus de
+                     Zuuollis, scripsi et audivi in conventu nostro Magdeburgensi Ordinis
+                     Praedicatorum sub fratre Iacobo de Stendel, artium magistro preclaro
+                     Parisiensi, sub anno domini 1472. Eandem autem legi in conventu nostro alme
+                     Universitatis Rostochiensis sub anno domini 1476 [1486 add. alia
+                     manu].</quote></note>
+               <occupation role="scr" ref="#Basel_UB_FII14"/>                    
+               <listBibl>
+                  <bibl>Auctarium II, col. 955, l. 36; VI, col. 397, l. 16; col. 429, l. 21;
+                     col. 440, l. 24</bibl>
+                  <bibl>U. Winter, K. Heydeck, Die Manuscripta Magdeburgica der
+                     Staatsbibliothek zu Berlin Preußischer Kulturbesitz, Teil 3: Ms. Magdeb.
+                     170–286, Wiesbaden 2007, 33–36, 189 (with indication of other
+                     manuscripts copied by him)</bibl>
+                  <bibl>S. Masolini, “Two Commentaries on the De sensu et sensato from
+                     Fifteenth-Century Louvain,” in M. Mantovani, R. Zambiasi, and G.
+                     Zuccolin (eds.), Aristotle’s De sensu in the Latin Tradition, 1250–1650,
+                     Firenze 2023, 227–269, at 239–240.</bibl>
+               </listBibl>
+            </person>
+
+
             <!-- Iohannes Abbatis (Jean l'Abbé) issue#33 -->
             <person xml:id="IohannesAbbatis">
                <name xml:lang="lat">Iohannes Abbatis</name>
@@ -524,6 +594,53 @@
                   <bibl>Deuffic, "Copistes Bretons", 181, 182</bibl>
                   <bibl>Rouse &amp; Rouse, Illiterati et uxorati, 85</bibl>
                   <bibl>Sullivan, Parisian Licentiates, II, 173</bibl>
+               </listBibl>
+            </person>
+
+            <person xml:id="MichaelDeTurobin">
+               <name xml:lang="lat">Michael de Turobin</name>
+               <name xml:lang="pol">Michał z Lublina i Turobina</name>                    
+               <death when="1528"/>                    
+               <note>Michael de Turobin studied at the University of Krakow, where he obtained
+                  the degree of Bachelor of Arts in 1477 and subsequently that of Doctor of
+                  Law. In 1527, he founded the Collegiate Church of Saint Anna in
+                  Krakow.</note>
+               <occupation role="fmo" ref="#Krakow_BJ_2007"/>
+               <occupation role="fmo" ref="#Krakow_BJ_2085"/>                    
+               <listBibl>
+                  <bibl>Polski Słownik Biograficzny, vol. 20, Wrocław, 1975, 624–625</bibl>
+                  <bibl>Michał z Lublina i Turobina (Id: 2020390), in: Corpus Academicum
+                     Cracoviense (CAC), URL: <ref
+                        target="http://cac.historia.uj.edu.pl/osoba/2020390_Micha%C5%82_z_Lublina_i_Turobina"
+                        >http://cac.historia.uj.edu.pl/osoba/2020390_Micha%C5%82_z_Lublina_i_Turobina</ref>
+                     (Dostęp: 31.08.2025).</bibl>
+               </listBibl>
+            </person>
+
+            <person xml:id="MichaelFalknerDeWratislavia">
+               <name xml:lang="lat">Michael Falkner de Wratislavia</name>
+               <name xml:lang="pol">Michał Falkener z Wrocławia</name>
+               <idno type="GND">121223841</idno>
+               <idno type="VIAF">37768088</idno>
+               <idno type="CERL">cnp00888506</idno>
+               <death when="1534"/>
+               <note>Matriculated at Cracow University in 1478 and obtained the degree of
+                  Master of Arts in 1488. He lectured at the Faculty of Arts until 1512 while
+                  studying theology; he became Doctor of Theology in 1517.</note>
+               <occupation role="fmo" ref="#Kraków_BibliotekaJagiellońska_Cod740"/>
+               <listBibl>
+                  <bibl>Polski Słownik Biograficzny (PSB), vol. 6, 357</bibl>
+                  <bibl>Filozofia w Polsce. Słownik Pisarzy, 140–143</bibl>
+                  <bibl>J. Domański, Michała Falkenera z Wrocławia (ok. 1460–1534) prolog do
+                     “Wykładu hymnów kościelnych”, Przegląd tomistyczny 15 (2009),
+                     223–246</bibl>
+                  <bibl>Knoll, A Pearl of Powerful Learning, 214, 318, 336, 361, 400, 528,
+                     630, 632</bibl>
+                  <bibl>Michał Falkener z Wrocławia (Id: 2022187), in: Corpus Academicum
+                     Cracoviense (CAC), URL: <ref
+                        target="http://cac.historia.uj.edu.pl/osoba/2022187_Micha%C5%82_Falkener_z_Wroc%C5%82awia"
+                        >http://cac.historia.uj.edu.pl/osoba/2022187_Micha%C5%82_Falkener_z_Wroc%C5%82awia</ref>
+                     (accessed 14.09.2025).</bibl>
                </listBibl>
             </person>
 
@@ -602,12 +719,58 @@
                <birth notBefore="1497"/>
                <death notAfter="1504"/>
                <note>He enrolled at the <orgName>University of Cracow</orgName> in 1497 and obtained
-                  the degree of baccalarius in 1504.</note>
-               
+                  the degree of baccalarius in 1504.</note>              
                <occupation role="fmo" ref="#Kraków_BJ_908"/>
                <listBibl>
                   <bibl>Album studiosorum II, 41.</bibl>
                   <bibl>Liber prom. 139.</bibl>
+               </listBibl>
+            </person>
+            
+            <person xml:id="PaulusDeWarszawa">
+               <name xml:lang="lat">Paulus de Warszawa</name>
+               <name xml:lang="pol">Paweł z Warszawy</name>
+               <note>matriculated in Krakow in 1473 (if he is to be identified with Paul, son
+                  of Stanislaus) or 1474 (if he is to be identified with Paul, son of Ludwig).
+                  Both obtained the degree of Arts bachelor in 1476.</note>
+               <occupation role="fmo" ref="#Krakow_BJ_2118"/>                    
+               <listBibl>
+                  <bibl>Metryka, 368</bibl>
+                  <bibl>Paweł z Warszawy, syn Ludwika (Id: 2009679), w: Corpus Academicum
+                     Cracoviense (CAC), URL: <ref
+                        target="http://cac.historia.uj.edu.pl/osoba/2009679_Pawe%C5%82_z_Warszawy_syn_Ludwika"
+                        >http://cac.historia.uj.edu.pl/osoba/2009679_Pawe%C5%82_z_Warszawy_syn_Ludwika</ref>
+                     (Dostęp: 21.09.2025)</bibl>
+                  <bibl>Metryka, 360</bibl>
+                  <bibl>Paweł z Warszawy, syn Stanisława (Id: 2009626), w: Corpus Academicum
+                     Cracoviense (CAC), URL: <ref
+                        target="http://cac.historia.uj.edu.pl/osoba/2009626_Pawe%C5%82_z_Warszawy_syn_Stanis%C5%82awa"
+                        >http://cac.historia.uj.edu.pl/osoba/2009626_Pawe%C5%82_z_Warszawy_syn_Stanis%C5%82awa</ref>
+                     (Dostęp: 21.09.2025).</bibl>
+               </listBibl>
+            </person>
+            
+            <person xml:id="PetrusŚwiętopełkDeZambrzeczAliasDeNieznanowice">
+               <name xml:lang="lat">Petrus Świętopełk de Zambrzecz alias de Nieznanowice</name>
+               <name xml:lang="lat">Petrus Świętopełk de Rząbiec alias de Nieznanowice</name>
+               <death when="1497"/>
+               <note>He was enrolled at the University in 1446, became Master of Arts in 1460,
+                  was Provost of the Collegium Maius in 1479, Doctor of Theology in 1494,
+                  Canon of St. Florian; he died on 14 June 1497. He donated many books to the
+                  University.</note>
+               <occupation role="fmo" ref="#Kraków_BibliotekaJagiellońska_cod2018"/>                    
+               <listBibl>
+                  <bibl>Metryka, 211</bibl>
+                  <bibl>S. Włodek, G. Zathey, M. Zwiercan, Catalogus codicum manuscriptorum
+                     medii aevi Latinorum, qui in Bibliotheca Jagellonica Cracoviae
+                     asservantur, Vol. 1: Numeros continens inde ab 8 usque ad 331,
+                     composuerunt, 1980, cod. BJ 126, 115</bibl>
+                  <bibl>Knoll, A Pearl of Powerful Learning, 628–629</bibl>
+                  <bibl>Piotr Świętopełk z Nieznanowic i Rząbca, zw. także z Mstyczowa (Id:
+                     2001033), w: Corpus Academicum Cracoviense (CAC), URL: <ref
+                        target="http://cac.historia.uj.edu.pl/osoba/2001033_Piotr_%C5%9Awi%C4%99tope%C5%82k_z_Nieznanowic_i_Rz%C4%85bca_zw_tak%C5%BCe_z_Mstyczowa"
+                        >http://cac.historia.uj.edu.pl/osoba/2001033_Piotr_%C5%9Awi%C4%99tope%C5%82k_z_Nieznanowic_i_Rz%C4%85bca_zw_tak%C5%BCe_z_Mstyczowa</ref>
+                     (accessed: 19.09.2025).</bibl>
                </listBibl>
             </person>
 
@@ -631,9 +794,9 @@
                   <bibl>Livesey, Science in the Monastery, 189-192</bibl>
                </listBibl>
             </person>
-
+            
             <!-- Stanislaus de Velvary (Stanislaus de Welwara; Stanislav von Velvary) issue#41 -->
-
+            
             <person xml:id="StanislausDeVelvary">
                <name xml:lang="lat">Stanislaus de Velvary</name>
                <name xml:lang="lat">Stanislaus de Welwara</name>
@@ -669,6 +832,35 @@
                </listBibl>
             </person>
 
+            <person xml:id="StanislausPetriDeByalkowicze">
+               <name xml:lang="lat">Stanislaus Petri de Byalkowicze</name>
+               <death when="1527"/>
+               <note>Matriculated at the University of Kraków in 1488; obtained the degree of
+                  bachelor in 1491. He served as magister regens between 1511 and 1524.</note>
+               <occupation role="fmo" ref="#Kraków_BibliotekaJagiellońska_cod2018"/>                    
+               <listBibl>
+                  <bibl>Metryka, 474</bibl>
+                  <bibl>Stanisław Białkowski z Białkowic (Id: 2032053), w: Corpus Academicum
+                     Cracoviense (CAC), URL: <ref
+                        target="http://cac.historia.uj.edu.pl/osoba/2032053_Stanis%C5%82aw_Bia%C5%82kowski_z_Bia%C5%82kowic"
+                        >http://cac.historia.uj.edu.pl/osoba/2032053_Stanis%C5%82aw_Bia%C5%82kowski_z_Bia%C5%82kowic</ref>
+                     (accessed: 29.09.2025).</bibl>
+               </listBibl>
+            </person>
+            
+            <person xml:id="StanisławZCzchowaSynMacieja">
+               <name xml:lang="lat">Stanisław z Czchowa, syn Macieja</name>
+               <note>matriculated at Cracow University in 1467.</note>
+               <occupation role="scr" ref="#Kraków_BibliotekaJagiellońska_cod2002"/>                    
+               <listBibl>
+                  <bibl>Metryka, 321</bibl>
+                  <bibl>Stanisław z Czchowa, syn Macieja (Id: 2007042), w: Corpus Academicum
+                     Cracoviense (CAC), URL: <ref
+                        target="http://cac.historia.uj.edu.pl/osoba/2007042_Stanis%C5%82aw_z_Czchowa_syn_Macieja"
+                        >http://cac.historia.uj.edu.pl/osoba/2007042_Stanis%C5%82aw_z_Czchowa_syn_Macieja</ref>
+                     (Accessed: 26.09.2025).</bibl>
+               </listBibl>
+            </person>
             <person xml:id="WenceslausDeWrben">
                <name xml:lang="lat">Wenceslaus de Wrben</name>
                <name xml:lang="cz">Václav z Vrbna</name>
