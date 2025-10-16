@@ -373,8 +373,7 @@
             <!-- Georgius Erber de Aibling issue#24 -->
 
             <person xml:id="GeorgiusErberDeAibling">
-               <name xml:lang="lat">Georgius Erber de Aibling</name>
-               <death notBefore="1463"/>
+               <name xml:lang="lat">Georgius Erber de Aibling</name>               
                <note>After studying at the universities of Erfurt (1452) and Vienna (1455), Georgius
                   Erber moved to Paris, where he was affiliated with the Anglo-German Nation and was
                   a member of the Collège de la Marche (1460–1463). He obtained the degree of
@@ -407,9 +406,7 @@
                <name xml:lang="lat">Gilbertus Alvergnat</name>
                <name xml:lang="lat">Gilbertus Alverniaci</name>
                <name xml:lang="lat">Gilbertus Auvergnaci</name>
-               <name xml:lang="lat">Gilbertus Auverniaci</name>
-               <birth notAfter="1477"/>
-               <death notBefore="1456"/>               
+               <name xml:lang="lat">Gilbertus Auverniaci</name>                          
                <note>From the diocese of Bourges (diocesis Bituricensis), bachelor in 1477, licensed
                   in 1448 under the master Petrus Caroz. After some years of absence, he was elected
                   procurator of the French nation from 1454 to 1456.</note>
@@ -451,8 +448,7 @@
             <!-- Iacobus Pol, OSB issue#9 -->
 
             <person xml:id="IacobusPol">
-               <name xml:lang="lat">Iacobus Pol</name>
-               <birth notAfter="1447"/>
+               <name xml:lang="lat">Iacobus Pol</name>               
                <death when="1500"/>
                <note>Iacobus Pol studied at the universities of Paris and Cologne, as attested by
                   manuscripts Saint-Omer, Bibliothèque d'Agglomération du Pays de Saint-Omer, Ms 586
@@ -528,9 +524,7 @@
             <!-- Iohannes Abbatis (Jean l'Abbé) issue#33 -->
             <person xml:id="IohannesAbbatis">
                <name xml:lang="lat">Iohannes Abbatis</name>
-               <name xml:lang="fr">Jean l'Abbé</name>
-               <birth notAfter="1450"/>
-               <death notBefore="1453"/>
+               <name xml:lang="fr">Jean l'Abbé</name>               
                <note>From the diocese of Reims, he studied at the Faculty of Arts in Paris as a
                   member of the French Nation. Between 1450 and 1452, he studied at the Collège de
                   la Marche, as attested by manuscript Reims, Bibliothèque Carnegie (Bibliothèque
@@ -553,9 +547,7 @@
             <person xml:id="IohannesCoromines">
                <name xml:lang="lat">Iohannes Coromines</name>
                <name xml:lang="lat">Iohannes Colomines</name>
-               <name xml:lang="lat">Iohannes Cormines</name>
-               <birth notAfter="1444"/>
-               <death notBefore="1447"/>
+               <name xml:lang="lat">Iohannes Cormines</name>               
                <note>Originally from the Diocese of Barcelona (Dioecesis Barchinonensis), he was a
                   member of the French Nation at the Faculty of Arts in Paris. He incepted in the
                   Arts in 1444; studied theology under Robertus Ciboule and obtained his licentiate
@@ -580,9 +572,7 @@
             <!--  Iohannes Run issue#15 -->
 
             <person xml:id="IohannesRun">
-               <name xml:lang="lat">Iohannes Run</name>
-               <birth notAfter="1444"/>
-               <death notBefore="1444"/>
+               <name xml:lang="lat">Iohannes Run</name>               
                <note>Originally from the diocesis of Tréguier (Trecorensis) in Bretagne, he licensed
                   and incepted at the Arts Faculty of the University of Paris in Mai 1444.</note>
                <occupation role="scr" ref="#Oxford_BodleianLibrary_CanonMisc211"/>
@@ -617,12 +607,12 @@
                </listBibl>
             </person>
 
-            <person xml:id="MichaelFalknerDeWratislavia">
-               <name xml:lang="lat">Michael Falkner de Wratislavia</name>
-               <name xml:lang="pol">Michał Falkener z Wrocławia</name>
+            <person xml:id="MichaelFalknerDeWratislavia">               
                <idno type="GND">121223841</idno>
                <idno type="VIAF">37768088</idno>
                <idno type="CERL">cnp00888506</idno>
+               <name xml:lang="lat">Michael Falkner de Wratislavia</name>
+               <name xml:lang="pol">Michał Falkener z Wrocławia</name>
                <death when="1534"/>
                <note>Matriculated at Cracow University in 1478 and obtained the degree of
                   Master of Arts in 1488. He lectured at the Faculty of Arts until 1512 while
@@ -646,9 +636,7 @@
 
             <person xml:id="NicolausUnbehuen">
                <name xml:lang="lat">Nicolaus Unbehuen</name>
-               <name xml:lang="lat">Nicolaus Umbehauen</name>
-               <birth notBefore="1400"/>
-               <death notAfter="1500"/>
+               <name xml:lang="lat">Nicolaus Umbehauen</name>               
                <note>Active in Ulm, probably at the Dominican convent, in the third quarter of the
                   fifteenth century.</note>
                <affiliation subtype="OP" type="religiousOrder">Dominican</affiliation>
@@ -715,9 +703,7 @@
 
             <person xml:id="IacobusBorkemanMariaeburgo">
                <name xml:lang="lat">Iacobus Borkeman de Mariaeburgo</name>
-               <!-- Copernicus enrolled in 1491 -->
-               <birth notBefore="1497"/>
-               <death notAfter="1504"/>
+               <!-- Copernicus enrolled in 1491 -->               
                <note>He enrolled at the <orgName>University of Cracow</orgName> in 1497 and obtained
                   the degree of baccalarius in 1504.</note>              
                <occupation role="fmo" ref="#Kraków_BJ_908"/>
@@ -775,8 +761,7 @@
             </person>
 
             <person xml:id="PhilippeGoupil">
-               <name xml:lang="fr">Philippe Goupil</name>
-               <birth notAfter="1442"/>
+               <name xml:lang="fr">Philippe Goupil</name>               
                <death when="1503"/>
                <note>Originally from Rouen (Rothomagentis dyocesis), he studied at the Faculty of
                   Arts in Paris under the Norman master Clément Parmentier in the years 1442–1444.
@@ -801,8 +786,6 @@
                <name xml:lang="lat">Stanislaus de Velvary</name>
                <name xml:lang="lat">Stanislaus de Welwara</name>
                <name xml:lang="de">Stanislav von Velvary</name>
-               <birth notAfter="1445"/>
-               <death notBefore="1457"/>
                <note>He obtained a Bachelor of Arts degree from Prague University in 1445. He later
                   traveled to Paris, where he received minor orders from the Bishop of Paris and
                   studied under Albertus Scriptoris at the House of the Poor German Students. Likely
@@ -864,8 +847,7 @@
             <person xml:id="WenceslausDeWrben">
                <name xml:lang="lat">Wenceslaus de Wrben</name>
                <name xml:lang="cz">Václav z Vrbna</name>
-               <name xml:lang="de">Wenzel von Vrbno</name>
-               <birth notAfter="1445"/>
+               <name xml:lang="de">Wenzel von Vrbno</name>               
                <death when="1493"/>
                <note>Originally from Bohemia, he traveled to Paris and studied at the College of the
                   German Nation in 1445. Shortly thereafter, he went to Prague, where he became a
