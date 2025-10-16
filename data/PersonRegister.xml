@@ -488,8 +488,7 @@
             <person xml:id="IacobusUngelinkDeStendal">
                <name xml:lang="lat">Iacobus Ungelink de Stendal</name>
                <name xml:lang="lat">Iacobus Unghelinghe de Stendal</name>
-               <name xml:lang="lat">Iacobus Ungelink de Stendel</name>
-               <affiliation type="religiousOrder" subtype="OP">Dominican</affiliation>
+               <name xml:lang="lat">Iacobus Ungelink de Stendel</name>               
                <note>From the Diocese of Halberstadt, he studied at the Faculty of Arts in
                   Paris as a member of the Anglo-German nation, obtaining the bachelor’s
                   degree in 1465 and the master’s degree in 1467. He subsequently moved to
@@ -505,6 +504,7 @@
                      Parisiensi, sub anno domini 1472. Eandem autem legi in conventu nostro alme
                      Universitatis Rostochiensis sub anno domini 1476 [1486 add. alia
                      manu].</quote></note>
+               <affiliation type="religiousOrder" subtype="OP">Dominican</affiliation>
                <occupation role="scr" ref="#Basel_UB_FII14"/>                    
                <listBibl>
                   <bibl>Auctarium II, col. 955, l. 36; VI, col. 397, l. 16; col. 429, l. 21;
