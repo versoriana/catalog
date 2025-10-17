@@ -74,6 +74,30 @@
                </listBibl>
             </person>
             
+            
+            <person xml:id="AlbertusDeSzurkowo">
+               <name xml:lang="lat">Albertus de Szurkowo</name>
+               <name xml:lang="pol">Albert/Wojciech z Szurkowa</name>                    
+               <note>From the Diocese of Poznań. He obtained the title of Baccalaureus at the
+                  Faculty of Arts in Prague in 1457 under the master Wenceslaus de Krzizanow.
+                  In 1461, he received the license and degree of Magister Artium in Paris. The
+                  same year he left Paris for Cracow, where, from 1462, he taught at the
+                  Faculty of Arts.</note>
+               <occupation role="fmo" ref="#Kraków_BibliotekaJagiellońska_cod2599"/>                    
+               <listBibl>
+                  <bibl>Liber decanorum facultatis philosophicae Universitatis Pragensis,
+                     59</bibl>
+                  <bibl>Auctarium II, col. 917, l. 45, col. 941, l. 9-10</bibl>
+                  <bibl>Auctarium VI, col. 351, l. 13-14; col. 353, l. 48-49</bibl>
+                  <bibl>Liber promotionum, 57</bibl>
+                  <bibl>Albert/Wojciech z Szurkowa, syn Alberta/Wojciecha (Id: 819743), w:
+                     Corpus Academicum Cracoviense (CAC), URL: <ref
+                        target="http://cac.historia.uj.edu.pl/osoba/819743_Albert_Wojciech_z_Szurkowa_syn_Alberta_Wojciecha"
+                        >http://cac.historia.uj.edu.pl/osoba/819743_Albert_Wojciech_z_Szurkowa_syn_Alberta_Wojciecha</ref>
+                     (accessed: 03.09.2025).</bibl>
+               </listBibl>
+            </person>
+            
             <!-- Ambrosius Allantsee issue#32-->
             <person xml:id="AmbrosiusAllantsee">
                <idno type="GND">11960289X</idno>

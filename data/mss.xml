@@ -1081,6 +1081,80 @@
 
             </msDesc>
 
+
+            <msDesc xml:id="Kraków_BibliotekaJagiellońska_cod2599">
+               <msIdentifier>
+                  <settlement>Kraków</settlement>
+                  <repository>Biblioteka Jagiellońska</repository>
+                  <idno>cod. 2599</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>none</summary>
+                  <msItem xml:id="Kraków_BibliotekaJagiellońska_cod2599_QdA">
+                     <locus from="6r" to="67v"/>
+                     <title ref="workID">QdA</title>
+                  </msItem>
+                  <msItem xml:id="Kraków_BibliotekaJagiellońska_cod2599_QdSens">
+                     <locus from="73r" to="88v"/>
+                     <title ref="workID">QdSens</title>
+                  </msItem>
+                  <msItem xml:id="Kraków_BibliotekaJagiellońska_cod2599_QdMem">
+                     <locus from="88v" to="92r"/>
+                     <title ref="workID">QdMem</title>
+                  </msItem>
+                  <msItem xml:id="Kraków_BibliotekaJagiellońska_cod2599_QdSom">
+                     <locus from="92v" to="98r"/>
+                     <title ref="workID">QdSom</title>
+                  </msItem>
+                  <msItem xml:id="Kraków_BibliotekaJagiellońska_cod2599_QdLon">
+                     <locus>98r</locus>
+                     <title ref="workID">QdLon</title>
+                     <note type="desc">only the beginning of q. 1; ends interrupted after the
+                        oppositum, with the words: <quote source="98r">Pro responsione est primo sciendum
+                           quod</quote></note>
+                  </msItem>
+                  <msItem xml:id="Kraków_BibliotekaJagiellońska_cod2599_Qdente">
+                     <locus from="104r" to="121v"/>
+                     <title ref="workID">Qdente</title>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate from="1447" to="1457"/>
+                     <p>The watermarks were attested in the years 1447–1457 <note
+                        type="editorial">I am referring to the typescript description
+                        prepared by Marian Zwiercan in 1961, which was kindly made
+                        available to me by the librarians of the manuscript
+                        department.</note></p>
+                  </origin>
+                  <provenance>
+                     <p>The manuscript belonged to Albert de Szurkowo, who studied in Paris
+                        and donated the codex to his heirs (f. 67rb: <quote source="67rb"
+                           >Liber reverendi magistri Alberti inclite Universitatis
+                           Parisiensis, heredibus de Szurkovo, multum pauperis, etc., ille
+                           legat comissa, deosque precetur et oret, ut redeat miseris,
+                           abeat fortuna superbis</quote>). It subsequently came into the
+                        possession of the Master Iohannes de Iuniwladislavia (f. 1r: <quote
+                           source="1r">Questiones cum lectura De anima, De ente et essentia
+                           et alia magistri Iohannis de Iuniwladislavia</quote>).</p>
+                  </provenance>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source cert="high" resp="#">
+                           <p>Mss directly examined</p>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+                  <listBibl>
+                     <bibl>Wysłocki, Katalog II, 618</bibl>
+                     <bibl>Senko, De ente, 17</bibl>                                
+                     <bibl>Markowski/Włodek,Aristotelica Cracoviensia, 124</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+
             <!-- Mainz, Wissenschaftliche Stadtbibliothek Mainz, Hs. I 541* issue#5-->
 
             <msDesc xml:id="Mainz_WissenschaftlicheStadtbibliothekMainz_HsI541">
