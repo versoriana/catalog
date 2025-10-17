@@ -1081,6 +1081,87 @@
 
             </msDesc>
 
+            <msDesc xml:id="Kraków_BibliotekaJagiellońska_cod2524">
+               <msIdentifier>
+                  <settlement>Kraków</settlement>
+                  <repository>Biblioteka Jagiellońska</repository>
+                  <idno>cod. 2524</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>none</summary>
+                  <msItem xml:id="Kraków_BibliotekaJagiellońska_cod2524_QsMetaAntoniusAndreae">
+                     <locus from="4r" to="103r"/>
+                     <title ref="workId">QsMeta</title>
+                     <author>Antonius Andreae</author>
+                     <colophon source="103r">Expliciunt
+                        questiones Anthonii Andree, ordinis minorum, correpte ac
+                        emendate per excellentissimum magistrum Franciscum de Nerithono,
+                        ordinis predicatorum, reportate in studio Cracoviensi per
+                        Martinum de Tarnoviecz, finite die Saturni immediate ante Galli
+                        in Maiori collegio, anno reparationis nostre 1489</colophon>
+                  </msItem>
+                  <msItem xml:id="Kraków_BibliotekaJagiellońska_cod2524_QsMetaAnon">
+                     <locus from="110r" to="185v"/>
+                     <title ref="workId">QsMeta</title>
+                     <author>Anonymus</author>
+                  </msItem>
+                  <msItem xml:id="Kraków_BibliotekaJagiellońska_cod2524_Qdente">
+                     <locus from="201r" to="221r"/>
+                     <title ref="workID">Qdente</title>
+                     <note type="desc">The text is preceded by Antonius Andreae’s QsMeta (ff.
+                        4r–103r), followed by anonymous QsMeta (ff. 110r–185v) with marginal
+                        glosses, and then by Giles of Rome’s Questions on De ente et
+                        essentia (ff. 221v–243v).</note>
+                     <colophon source="243r">terminate sunt hee questiones, propositiones
+                        Egidii Romani sub annis Domini tunc currentibus 1479</colophon>
+                  </msItem>
+                  <msItem
+                     xml:id="Kraków_BibliotekaJagiellońska_cod2524_QuestionsonDeenteetessentia">
+                     <locus from="221v" to="243v"/>
+                     <title ref="workId">Questions on De ente et essentia</title>
+                     <author>Giles of Rome</author>
+                     <colophon source="221r">Martinus de Tarnoviecz
+                        scripsit, clericus Cracovie, infra caniculam</colophon>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate from="1479" to="1489"/>
+                     <p>The texts in this manuscript were copied between 1479 and 1489, as
+                        indicated by the colophons: <quote source="103r">Expliciunt
+                           questiones Anthonii Andree, ordinis minorum, correpte ac
+                           emendate per excellentissimum magistrum Franciscum de Nerithono,
+                           ordinis predicatorum, reportate in studio Cracoviensi per
+                           Martinum de Tarnoviecz, finite die Saturni immediate ante Galli
+                           in Maiori collegio, anno reparationis nostre 1489</quote> (f.
+                        103r); <quote source="199r">1480</quote> (f. 199r); <quote
+                           source="243r">terminate sunt hee questiones, propositiones
+                           Egidii Romani sub annis Domini tunc currentibus 1479</quote> (f.
+                        243r).</p>
+                     <origPlace ref="#place_cracow">Cracow</origPlace>
+                     <p>Versoris’s text was copied in Cracow by Martinus de Tarnowiecz, as
+                        stated in the colophon: <quote source="221r">Martinus de Tarnoviecz
+                           scripsit, clericus Cracovie, infra caniculam</quote> (f. 221r).
+                        Martinus later owned the volume, as attested by a note on f. 1r,
+                        written when he had already attained the title of master: <quote
+                           source="1r">ego magister Martinus, 1501</quote>.</p>
+                  </origin>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source cert="high" resp="#">
+                           <p>Mss directly examined</p>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+                  <listBibl>
+                     <bibl>Wysłocki, Katalog II, 601</bibl>
+                     <bibl>Senko, De ente, 17</bibl>
+                     <bibl>Markowski/Włodek, Aristotelica Cracoviensia, 123–124</bibl>                            
+                  </listBibl>
+               </additional>
+            </msDesc>
 
             <msDesc xml:id="Kraków_BibliotekaJagiellońska_cod2599">
                <msIdentifier>
@@ -1107,7 +1188,7 @@
                      <title ref="workID">QdSom</title>
                   </msItem>
                   <msItem xml:id="Kraków_BibliotekaJagiellońska_cod2599_QdLon">
-                     <locus>98r</locus>
+                     <locus from="98r"></locus>
                      <title ref="workID">QdLon</title>
                      <note type="desc">only the beginning of q. 1; ends interrupted after the
                         oppositum, with the words: <quote source="98r">Pro responsione est primo sciendum
