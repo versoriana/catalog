@@ -191,7 +191,7 @@
                   <idno type="URI">https://arca.irht.cnrs.fr/ark:/63955/md65v692t912</idno>
                </msIdentifier>
                <msContents>
-                  <summary>none</summary>
+                  <summary>None</summary>
                   <msItem xml:id="AmiensBibliothèqueLouisAragonBibliothèquemunicipale_402_QsP">
                      <locus from="1ra" to="112va"/>
                      <title ref="QsP">QsP</title>
@@ -252,7 +252,7 @@
                      <recordHist>
                         <source cert="high" resp="#">
                            <p>Mss directly examined</p>
-                        </source>                                                   
+                        </source>
                      </recordHist>
                   </adminInfo>
                   <listBibl>
@@ -305,13 +305,13 @@
                         Augsburg.</p>
                   </provenance>
                </history>
-               <additional>                               
+               <additional>
                   <listBibl>
                      <bibl>H. Hilg, Lateinische mittelalterliche Handschriften in Folio der
                         Universitätsbibliothek Augsburg: Cod. II. 1.2o 91–226, Wiesbaden, 1999, p.
                         375–377</bibl>
                   </listBibl>
-                  
+
                </additional>
             </msDesc>
 
@@ -353,7 +353,7 @@
                      <recordHist>
                         <source cert="high" resp="#">
                            <p>Mss directly examined</p>
-                        </source>                                                   
+                        </source>
                      </recordHist>
                   </adminInfo>
                   <listBibl>
@@ -429,7 +429,7 @@
                      <recordHist>
                         <source cert="high" resp="#">
                            <p>Mss directly examined</p>
-                        </source>                                                   
+                        </source>
                      </recordHist>
                   </adminInfo>
                   <listBibl>
@@ -578,8 +578,8 @@
                      <title ref="workID">QsP</title>
                      <colophon source="78vb">Et sic est finis huius quinti Phisicorum in VIa
                         Palmarum, <date when="1458">anno Domini M° CCCC° LVIII°</date></colophon>
-                     <colophon source="90v">Et sic est finis sexti Phisicorum die secunda Maï <date when="1459"
-                           >anno etc. LVIIII</date></colophon>
+                     <colophon source="90v">Et sic est finis sexti Phisicorum die secunda Maï <date
+                           when="1459">anno etc. LVIIII</date></colophon>
                   </msItem>
 
                   <msItem xml:id="Basel_UB_F-III-10_QdC">
@@ -699,6 +699,69 @@
                </additional>
             </msDesc>
 
+            <msDesc xml:id="Berlin_StaatsbibliotheekPreußischerKulturbesitz_Mslatqu87">
+               <msIdentifier>
+                  <settlement>Berlin</settlement>
+                  <repository>Staatsbibliotheek, Preußischer Kulturbesitz</repository>
+                  <idno>Ms. lat. qu. 87</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>none</summary>
+                  <msItem
+                     xml:id="Berlin_StaatsbibliotheekPreußischerKulturbesitz_Mslatqu87_Summulelogicales">
+                     <locus from="1r" to="63r"/>
+                     <title ref="workid">Summule logicales</title>
+                     <colophon source="63r">Et sic est finis textus Summularum magistri Petri
+                        Hispani ordinis Predicatorum, qui quidem completus est Parisius in collegio
+                        Tornacensi, anno incarnationis Domini 1463, per me, Christianum Lupi, magno
+                        cum labore</colophon>
+                  </msItem>
+                  <msItem xml:id="Berlin_StaatsbibliotheekPreußischerKulturbesitz_Mslatqu87_CsPH">
+                     <locus from="65r" to="292v"/>
+                     <title ref="workID">CsPH</title>
+                     <note type="desc">Versoris’s commentary is preceded by the text of the Summule
+                        logicales (ff. 1r–63r).</note>
+                     <colophon source="292v">finitius est liber Parisius, anno Domini incarnationis
+                        1463, per me, Christianum Lupi</colophon>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origPlace ref="#place_paris">Paris</origPlace>
+                     <p>Paris, as stated in the colophons: <quote source="63r">Et sic est finis
+                           textus Summularum magistri Petri Hispani ordinis Predicatorum, qui quidem
+                           completus est Parisius in collegio Tornacensi, anno incarnationis Domini
+                           1463, per me, Christianum Lupi, magno cum labore</quote>, f. 63r; <quote
+                           source="292v">finitius est liber Parisius, anno Domini incarnationis
+                           1463, per me, Christianum Lupi</quote>, f. 292v. Christianus Lupi later
+                        entered the franciscain convent in Brandeburg, which explains the presence
+                        of this codex in Berlin.</p>
+                     <origDate from="1463" to="1463"/>
+                  </origin>
+                  <provenance>
+                     <p>On f. 294v, we find the following ex libris: <quote source="294v">Iste liber
+                           spectat ad conventum Branderbugensis</quote>.</p>
+                  </provenance>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source cert="high" resp="#">
+                           <p>Mss directly examined</p>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+                  <listBibl>
+                     <bibl>V. Rose, Verzeichniss der Lateinischen Handschriften der Königlichen
+                        Bibliothek zu Berlin. Zweiter Band: Die Handschriften der Kurfürstlichen
+                        Bibliothek und der Kurfürstlichen Lande. Dritte Abteilung, Berlin, 1905,
+                        1246, n. 981</bibl>
+                     <bibl>Meirinhos, Bibliotheca manuscripta Petri Hispani, 61 <note type="biblio"
+                           >ascribing the commentary to Versoris with doubts</note></bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+
 
             <!-- Bonn, Universitäts- und Landesbibliothek, S 67 IV -->
             <msDesc xml:id="Bonn_ULB_S-67-IV">
@@ -802,7 +865,7 @@
                </msIdentifier>
                <msContents>
                   <summary>All the texts in this codex are transmitted anonymously and copied by
-                     different hands. </summary>
+                     different hands.</summary>
                   <msItem xml:id="Colmar_BM_223_guardLeaf">
                      <locus>First paper guard-leaf</locus>
                      <quote source="guard-leaf">De libris † … † ordinis predicatorum † … † 1491.
@@ -879,7 +942,7 @@
                      <recordHist>
                         <source cert="high" resp="#">
                            <p>Mss directly examined</p>
-                        </source>                                                   
+                        </source>
                      </recordHist>
                   </adminInfo>
                   <listBibl>
@@ -929,7 +992,7 @@
                         <recordHist>
                            <source cert="high" resp="#">
                               <p>Mss directly examined</p>
-                           </source>                                                   
+                           </source>
                         </recordHist>
                      </adminInfo>
                      <listBibl>
@@ -1069,7 +1132,7 @@
                      <recordHist>
                         <source cert="high" resp="#">
                            <p>Mss directly examined</p>
-                        </source>                                                   
+                        </source>
                      </recordHist>
                   </adminInfo>
                   <listBibl>
@@ -1094,7 +1157,7 @@
                <msIdentifier>
                   <settlement>München</settlement>
                   <repository>BSB</repository>
-                  <idno>Clm 14518</idno>                  
+                  <idno>Clm 14518</idno>
                   <idno type="URI">https://www.digitale-sammlungen.de/de/view/bsb00109490</idno>
                </msIdentifier>
                <msContents>
@@ -1134,7 +1197,7 @@
                      <recordHist>
                         <source cert="high" resp="#">
                            <p>Mss directly examined</p>
-                        </source>                                                   
+                        </source>
                      </recordHist>
                   </adminInfo>
                   <listBibl>
@@ -1263,7 +1326,7 @@
                      <recordHist>
                         <source cert="high" resp="#">
                            <p>Mss directly examined</p>
-                        </source>                                                   
+                        </source>
                      </recordHist>
                   </adminInfo>
                   <listBibl>
@@ -1308,7 +1371,7 @@
                      <recordHist>
                         <source cert="high" resp="#">
                            <p>Mss directly examined</p>
-                        </source>                                                   
+                        </source>
                      </recordHist>
                   </adminInfo>
                   <listBibl>
@@ -1586,7 +1649,7 @@
                      <recordHist>
                         <source cert="high" resp="#">
                            <p>Mss directly examined</p>
-                        </source>                                                   
+                        </source>
                      </recordHist>
                   </adminInfo>
                   <listBibl>
@@ -2184,11 +2247,11 @@
                   <msItem xml:id="Wien_DK_149-119_Elenchi">
                      <locus from="194ra" to="210vb"/>
                      <title ref="ID">Elenchi</title>
-                     <colophon source="210vb">Et in hoc terminantur Parisiensia puncta in se continentia
-                        superficialiter cuncta que Aristoteles in suis libris oculte tradidit eosque
-                        ad legendum et non intelligendum edidit. … Terminantur puncta parisiensia
-                        super nova et veteri logica, comparata per Martinum de Glathovia anno etc.
-                        LII</colophon>
+                     <colophon source="210vb">Et in hoc terminantur Parisiensia puncta in se
+                        continentia superficialiter cuncta que Aristoteles in suis libris oculte
+                        tradidit eosque ad legendum et non intelligendum edidit. … Terminantur
+                        puncta parisiensia super nova et veteri logica, comparata per Martinum de
+                        Glathovia anno etc. LII</colophon>
                   </msItem>
                </msContents>
                <history>

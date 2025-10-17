@@ -73,6 +73,27 @@
                   </bibl>
                </listBibl>
             </person>
+            
+            <!-- Ambrosius Allantsee issue#32-->
+            <person xml:id="AmbrosiusAllantsee">
+               <idno type="GND">11960289X</idno>
+               <idno type="VIAF">72206754</idno>
+               <idno type="CERL">cnp01120126</idno>
+               <name xml:lang="lat">Ambrosius Allantsee</name>               
+               <death when="1505"/>
+               <note>He studied at Basel University. He entered the Clunian monastery of St. Alban and
+                  later the chartustians in Christgarten, Nördlingen and Kleinbasel. Prior of St.
+                  Mang in Füssen. He brought the manuscripts he had copied at Basel University in
+                  Füssen (II.lat.1. folio.8, II.lat.1.folio.93, II.lat.1.folio.94,
+                  II.lat.1.folio.103, II.lat.1.folio.128, II.lat.1. quarto.33). He died in
+                  1505.</note>
+               <affiliation subtype="OCart" type="religiousOrder">Carthusian</affiliation>
+               <occupation role="fmo" ref="#Augsburg_UniversitätsbibliothekAugsburg_CodII12220"/>               
+               <listBibl>
+                  <bibl>Scarpatetti, Datierte I, 252</bibl>
+                  <bibl>Hilg, Lateinische mittelalterliche Handschriften, 13-14</bibl>
+               </listBibl>
+            </person>
 
             <person xml:id="AndreaDeGambyn">
                <name xml:lang="lat">Andrea de Gambyn</name>
@@ -134,26 +155,7 @@
             </person>
 
 
-            <!-- Ambrosius Allantsee issue#32-->
-            <person xml:id="AmbrosiusAllantsee">
-               <idno type="GND">11960289X</idno>
-               <idno type="VIAF">72206754</idno>
-               <idno type="CERL">cnp01120126</idno>
-               <name xml:lang="lat">Ambrosius Allantsee</name>               
-               <death when="1505"/>
-               <note>He studied at Basel University. He entered the Clunian monastery of St. Alban and
-                  later the chartustians in Christgarten, Nördlingen and Kleinbasel. Prior of St.
-                  Mang in Füssen. He brought the manuscripts he had copied at Basel University in
-                  Füssen (II.lat.1. folio.8, II.lat.1.folio.93, II.lat.1.folio.94,
-                  II.lat.1.folio.103, II.lat.1.folio.128, II.lat.1. quarto.33). He died in
-                  1505.</note>
-               <affiliation subtype="OCart" type="religiousOrder">Carthusian</affiliation>
-               <occupation role="fmo" ref="#Augsburg_UniversitätsbibliothekAugsburg_CodII12220"/>               
-               <listBibl>
-                  <bibl>Scarpatetti, Datierte I, 252</bibl>
-                  <bibl>Hilg, Lateinische mittelalterliche Handschriften, 13-14</bibl>
-               </listBibl>
-            </person>
+
 
             <!-- Clemens Parmentarii (Clémens Parmentier) issue#19  -->
 
@@ -178,6 +180,35 @@
                   <bibl>Sullivan, Parisian Licentiates, II 32, 410</bibl>
                </listBibl>
             </person>
+
+            <person xml:id="ChristianusLupi">
+               <name xml:lang="lat">Christianus Lupi</name>                    
+               <note>Studied at the Collège de Tournai of Paris University as a member of the
+                  Anglo-German Nation and obtained the degree of bachelor in 1465. His studies
+                  are attested also in ms. Berlin, Staatsbibliotheek Preußischer Kulturbesitz,
+                  Ms. theol. qu. 26. He later entered the franciscain convent in
+                  Brandeburg.</note>
+               <affiliation type="religiousOrder" subtype="OFM">Franciscan</affiliation>
+               <occupation role="scr"
+                  ref="#Berlin_StaatsbibliotheekPreußischerKulturbesitz_Mslatqu87"/>                    
+               <listBibl>
+                  <bibl>Auctarium II, col. 955, l. 35; VI, col. 397, l. 15</bibl>
+                  <bibl>G. Abb, G. Wentz, Das Bistum Brandenburg 1 (Germania Sacra A. F. Abt.
+                     1: Die Bistümer der Kirchenprovinz Magdeburg), Berlin 1929, reprint
+                     Berlin 1963, 369</bibl>
+                  <bibl>Rebmeister-Klein, Les livres des petits collèges, 1149-1157</bibl>
+                  <bibl>
+                     <ref
+                        target="http://studium-parisiense.univ-paris1.fr/individus/1628-christianuslupi"
+                        >http://studium-parisiense.univ-paris1.fr/individus/1628-christianuslupi</ref>
+                     (accessed 04.10.2025)</bibl>
+                  <bibl>“Christianus Lupi” (GSN: 002-04366-002), in: Germania Sacra, <ref
+                     target="https://personendatenbank.germania-sacra.de/index/gsn/002-04366-002"
+                     >https://personendatenbank.germania-sacra.de/index/gsn/002-04366-002</ref>
+                     (accessed 04.10.2025).</bibl>
+               </listBibl>
+            </person>
+
 
             <person xml:id="CruxDeTelcz">
                <!-- readable identifiers, names. If we found a better way to integrate the registers in the editing of the mss, the ids can be changed to numbers (001, 002, 003). -->
