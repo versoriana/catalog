@@ -640,6 +640,31 @@
                </listBibl>
             </person>
 
+            <person xml:id="MartinusDeTarnowiecz">
+               <name xml:lang="lat">Martinus de Tarnowiecz</name>
+               <name xml:lang="pol">Marcin Kułab of Tarnowiec</name>
+               <birth when="1460" cert="medium"/>
+               <death when="1538"/>
+               <note>Matriculated at Cracow University in 1477. He obtained the master’s
+                  degree at the Faculty of Arts of the University of Kraków in 1489. He was
+                  active as magister regens from 1490 to 1536. He also studied theology and
+                  obtained the title of doctor in 1519. He remained active at the University
+                  until his death in Kraków in 1538. He served as canon of the Church of St.
+                  Florian in 1530 and as provost of the Collegium Maius in 1506. </note>
+               <occupation role="scr" ref="#Kraków_BibliotekaJagiellońska_cod2524"/>
+               <listBibl>
+                  <bibl>PSB 19, 574</bibl>
+                  <bibl>21 [to be checked]</bibl>
+                  <bibl>Metryka, 292</bibl>
+                  <bibl>Knoll, A Pearl of Powerful Learning, 218–219</bibl>
+                  <bibl>Marcin Kułab z Tarnowca, syn Mikołaja (Id: 2019376), in: Corpus
+                     Academicum Cracoviense (CAC), URL: <ref
+                        target="http://cac.historia.uj.edu.pl/osoba/2019376_Marcin_Ku%C5%82ab_z_Tarnowca_syn_Miko%C5%82aja"
+                        >http://cac.historia.uj.edu.pl/osoba/2019376_Marcin_Ku%C5%82ab_z_Tarnowca_syn_Miko%C5%82aja</ref>
+                     (accessed: 02.09.2025).</bibl>
+               </listBibl>
+            </person>
+
             <person xml:id="MichaelDeTurobin">
                <name xml:lang="lat">Michael de Turobin</name>
                <name xml:lang="pol">Michał z Lublina i Turobina</name>                    
