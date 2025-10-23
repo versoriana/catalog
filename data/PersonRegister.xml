@@ -102,7 +102,7 @@
             <person xml:id="AmbrosiusAllantsee">
                <idno type="GND">11960289X</idno>
                <idno type="VIAF">72206754</idno>
-               <idno type="CERL">cnp01120126</idno>
+               <idno type="CERL">cnp01120126</idno>                      
                <name xml:lang="lat">Ambrosius Allantsee</name>               
                <death when="1505"/>
                <note>He studied at Basel University. He entered the Clunian monastery of St. Alban and
@@ -120,6 +120,7 @@
             </person>
 
             <person xml:id="AndreaDeGambyn">
+               <idno type="CAC">2015096</idno>          
                <name xml:lang="lat">Andrea de Gambyn</name>
                <name xml:lang="pol">Andrzej z Gąbina</name>               
                <floruit from="1465" to="1474"/>
