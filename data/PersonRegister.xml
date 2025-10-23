@@ -76,6 +76,7 @@
             
             
             <person xml:id="AlbertusDeSzurkowo">
+               <idno type="CAC">819743</idno>
                <name xml:lang="lat">Albertus de Szurkowo</name>
                <name xml:lang="pol">Albert/Wojciech z Szurkowa</name>                    
                <note>From the Diocese of Poznań. He obtained the title of Baccalaureus at the
@@ -139,6 +140,7 @@
             </person>
 
             <person xml:id="AndreasDeParadiso">
+               <idno type="CAC">2016015</idno>
                <name xml:lang="lat">Andreas de Paradiso</name>
                <name xml:lang="pol">Andrzej z Paradyża</name>
                <floruit from="1468" to="1470"/>
@@ -667,6 +669,7 @@
             </person>
 
             <person xml:id="MichaelDeTurobin">
+               <idno type="CAC">2020390</idno>
                <name xml:lang="lat">Michael de Turobin</name>
                <name xml:lang="pol">Michał z Lublina i Turobina</name>                    
                <death when="1528"/>                    
@@ -690,6 +693,7 @@
                <idno type="GND">121223841</idno>
                <idno type="VIAF">37768088</idno>
                <idno type="CERL">cnp00888506</idno>
+               <idno type="CAC">2022187</idno>
                <name xml:lang="lat">Michael Falkner de Wratislavia</name>
                <name xml:lang="pol">Michał Falkener z Wrocławia</name>
                <death when="1534"/>
@@ -793,6 +797,7 @@
             </person>
             
             <person xml:id="PaulusDeWarszawa">
+               <idno type="CAC">2009626</idno>
                <name xml:lang="lat">Paulus de Warszawa</name>
                <name xml:lang="pol">Paweł z Warszawy</name>
                <note>matriculated in Krakow in 1473 (if he is to be identified with Paul, son
@@ -816,6 +821,7 @@
             </person>
             
             <person xml:id="PetrusŚwiętopełkDeZambrzeczAliasDeNieznanowice">
+               <idno type="CAC">2001033</idno>
                <name xml:lang="lat">Petrus Świętopełk de Zambrzecz alias de Nieznanowice</name>
                <name xml:lang="lat">Petrus Świętopełk de Rząbiec alias de Nieznanowice</name>
                <death when="1497"/>
@@ -911,6 +917,7 @@
             </person>
             
             <person xml:id="StanisławZCzchowaSynMacieja">
+               <idno type="CAC">2007042</idno>
                <name xml:lang="lat">Stanisław z Czchowa, syn Macieja</name>
                <note>matriculated at Cracow University in 1467.</note>
                <occupation role="scr" ref="#Kraków_BibliotekaJagiellońska_cod2002"/>                    
