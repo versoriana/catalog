@@ -168,7 +168,7 @@
                </msContents>
                <history>
                   <origin>
-                     <origPlace ref="#place_cologne">Cologne</origPlace>
+                     
                      <origDate from="1486" to="1486">1486</origDate>
                      <p>The <watermark>watermark P</watermark> is similar to <ref type="bibl"
                            target="biblID">Piccard XII 81 and 155</ref>, both used in Cologne in
@@ -177,6 +177,7 @@
                         ms. contains, above Versoris’s text, <ref type="work" target="workID"
                            >Lambertus de Monte’s Questions on De anima</ref>, a thomistic commentary
                         used in Cologne. </p>
+                     <origPlace ref="#place_cologne">Cologne</origPlace>
                   </origin>
                </history>
                <!-- add bibl -->
@@ -286,14 +287,15 @@
                </msContents>
                <history>
                   <origin>
+                     <origDate from="1471" to="1471"/>
+                     <p>Dating stated in the colophon of the first book: <quote source="14r"
+                           >Expliciunt questiones super primo Ethicorum, 1471</quote>, f. 14r.</p>
                      <origPlace ref="#place_basel">Basel</origPlace>
                      <p>The first part of this manuscript, containing Versoris's commentary, was
                         copied in Basel. The manuscript was bound in Basel together with an
                         incunable printed in 1475, as attested by the binder's stamp of Pancratius
                         Hochberg of Basel.</p>
-                     <origDate from="1471" to="1471"/>
-                     <p>Dating stated in the colophon of the first book: <quote source="14r"
-                           >Expliciunt questiones super primo Ethicorum, 1471</quote>, f. 14r.</p>
+                     
                   </origin>
                   <provenance>
                      <p>The codex belonged to <persName ref="#AmbrosiusAllantsee">Ambrosius
@@ -727,16 +729,16 @@
                </msContents>
                <history>
                   <origin>
+                     <origDate from="1463" to="1463"/>
                      <origPlace ref="#place_paris">Paris</origPlace>
                      <p>Paris, as stated in the colophons: <quote source="63r">Et sic est finis
-                           textus Summularum magistri Petri Hispani ordinis Predicatorum, qui quidem
-                           completus est Parisius in collegio Tornacensi, anno incarnationis Domini
-                           1463, per me, Christianum Lupi, magno cum labore</quote>, f. 63r; <quote
+                        textus Summularum magistri Petri Hispani ordinis Predicatorum, qui quidem
+                        completus est Parisius in collegio Tornacensi, anno incarnationis Domini
+                        1463, per me, Christianum Lupi, magno cum labore</quote>, f. 63r; <quote
                            source="292v">finitius est liber Parisius, anno Domini incarnationis
                            1463, per me, Christianum Lupi</quote>, f. 292v. Christianus Lupi later
                         entered the franciscain convent in Brandeburg, which explains the presence
-                        of this codex in Berlin.</p>
-                     <origDate from="1463" to="1463"/>
+                        of this codex in Berlin.</p>                     
                   </origin>
                   <provenance>
                      <p>On f. 294v, we find the following ex libris: <quote source="294v">Iste liber
@@ -1460,18 +1462,18 @@
                </msContents>
                <history>
                   <origin>
-                     <origPlace ref="#place_heidelberg">Heidelberg</origPlace>
-                     <p>Heidelberg, as stated in the colophon on f. 72va: <quote source="72va"
-                           >Aratus autem hic est libellus per maystrum Petrum Lutcz de Schweyern,
-                           anno millesimo quadrigentesimo septuagesimo sexto, finitusque eodem in
-                           die Thome Cantuariensis martii altera, quod est in die Innocentium, in
-                           alma universitate Heidelbergensi</quote>.</p>
                      <origDate from="1468" to="1477">1468-1477</origDate>
                      <p>The texts were copied by <persName ref="ID">Petrus Lutcz de
                            Schweygern</persName> and <persName ref="ID">Johannes
                         Ceyll</persName>.</p>
                      <p>The colophons inform us that the text were copied in 1468 (QsP and QdA),
                         1471 (QsMeta) and 1477 (QdLong).</p>
+                     <origPlace ref="#place_heidelberg">Heidelberg</origPlace>
+                     <p>Heidelberg, as stated in the colophon on f. 72va: <quote source="72va"
+                        >Aratus autem hic est libellus per maystrum Petrum Lutcz de Schweyern,
+                        anno millesimo quadrigentesimo septuagesimo sexto, finitusque eodem in
+                        die Thome Cantuariensis martii altera, quod est in die Innocentium, in
+                        alma universitate Heidelbergensi</quote>.</p>
                      <!-- ADD refs to QsP questions -->
                   </origin>
                   <provenance>The codex belonged to the Augustinian convent.</provenance>
@@ -1592,8 +1594,7 @@
                   </msItem>
                </msContents>
                <history>
-                  <origin>
-                     <origPlace ref="#place_paris">Paris</origPlace>
+                  <origin>                     
                      <origDate from="1463" to="1463"/>
                      <p>The colophon of the second set of questions on the Ethics informs us that it
                         was copied by Claudius Vernet under the supervision of <persName
@@ -1604,6 +1605,7 @@
                            regente in collegio Burgundie, in die Iovis penitentiali, hora quasi
                            decima post prandium, anno Domini millesimo quadragentesimo sexagesimo
                            tertio</quote>, f. 215v.</p>
+                     <origPlace ref="#place_paris">Paris</origPlace>
                   </origin>
                </history>
                <additional>
@@ -1956,8 +1958,6 @@
                </msContents>
                <history>
                   <origin>
-                     <origPlace>Milan, Dominican convent</origPlace>
-                     <origPlace>Pavia, Dominican convent</origPlace>
                      <origDate from="1458" to="1458">1458</origDate>
                      <p>Composite manuscript, copied in the Dominican convents of Pavia and Milan,
                         as evident from the colophons of the friars <persName ref="persID">Petrus
@@ -1990,6 +1990,8 @@
                         1458</q>.</p>
                      <p>The <watermark>watermark</watermark>, a flower, is similar to <ref
                            target="biblID" type="bibl">Piccard XII, II 967</ref> (Pavia, 1448).</p>
+                     <origPlace>Milan, Dominican convent</origPlace>
+                     <origPlace>Pavia, Dominican convent</origPlace>                     
                   </origin>
                </history>
                <additional>
@@ -2300,27 +2302,7 @@
 
                </msContents>
                <history>
-                  <origin>
-                     <origPlace ref="#place_paris">Paris</origPlace>
-                     <p>The manuscript was copied by the benedictine monk <persName
-                           ref="#GeorgiusDeBrabantia">Georgius de Brabantia</persName>, student at
-                        Paris Arts Faculty, as evident from the several signatures at the end of the
-                        texts (for instance, f. 11va, <quote source="11va">Frater Georgius de
-                           Brabantia</quote>; f. 56vb <quote source="56vb">Georgius</quote>; f.
-                        72vb, <quote source="72vb">Georgius de Brabantia</quote>), colophons of the
-                        QsP the QdA (<quote source="109va">Et sic est finis tertii De anima, finiti
-                           per me, fratrem Georgium de Brabantia, actu studentem Parisius in
-                           facultate artium. Frater Georgius de Brabantia</quote>, f. 109va), the
-                        QdSom (<quote source="114rb">Georgius de Brabantia</quote>, f. 114rb), the
-                        final colophon (transcribed below), as well as from the initium of the QdSom
-                           (<quote source="113ra">Frater Georgius de Brabantia</quote>, f. 113ra).
-                        The name of Georgius de Brabantia also appears in the philaters of the
-                        illustrations found in several places of the manuscript, particularly at the
-                        beginning of the books. QsP, book II, f. 18ra: <quote source="18ra">Et sic
-                           est finis secundi Phisicorum Aristotelis, finitus per manum Georgii
-                           Brabantie. Frater Georgius de Brabantia</quote></p>
-                     <p>At the end of book I QsP, definitions (Incipiunt diffinitiones et
-                        auctoritates primi Phisicorum)</p>
+                  <origin>                     
                      <origDate from="1471" to="1471"/>
                      <p>Dating attested in the final colophon: <quote source="115ra">Et sic est
                            finis libri De longitudine et brevitate vite, et per consequens de tota
@@ -2330,6 +2312,26 @@
                            altera die festivitatis beati Pauli apostoli, hora fere prima post
                            prandium. Deo laus. Tu qui suxisti de Virgine virgineum lac, regni
                            celestis scriptorem participem fac</quote>, f. 115ra</p>
+                     <origPlace ref="#place_paris">Paris</origPlace>
+                     <p>The manuscript was copied by the benedictine monk <persName
+                        ref="#GeorgiusDeBrabantia">Georgius de Brabantia</persName>, student at
+                        Paris Arts Faculty, as evident from the several signatures at the end of the
+                        texts (for instance, f. 11va, <quote source="11va">Frater Georgius de
+                           Brabantia</quote>; f. 56vb <quote source="56vb">Georgius</quote>; f.
+                        72vb, <quote source="72vb">Georgius de Brabantia</quote>), colophons of the
+                        QsP the QdA (<quote source="109va">Et sic est finis tertii De anima, finiti
+                           per me, fratrem Georgium de Brabantia, actu studentem Parisius in
+                           facultate artium. Frater Georgius de Brabantia</quote>, f. 109va), the
+                        QdSom (<quote source="114rb">Georgius de Brabantia</quote>, f. 114rb), the
+                        final colophon (transcribed below), as well as from the initium of the QdSom
+                        (<quote source="113ra">Frater Georgius de Brabantia</quote>, f. 113ra).
+                        The name of Georgius de Brabantia also appears in the philaters of the
+                        illustrations found in several places of the manuscript, particularly at the
+                        beginning of the books. QsP, book II, f. 18ra: <quote source="18ra">Et sic
+                           est finis secundi Phisicorum Aristotelis, finitus per manum Georgii
+                           Brabantie. Frater Georgius de Brabantia</quote></p>
+                     <p>At the end of book I QsP, definitions (Incipiunt diffinitiones et
+                        auctoritates primi Phisicorum)</p>
                   </origin>
                   <provenance>
                      <p>The codex belonged to <persName ref="ID">Carolus de Miraumont</persName>
