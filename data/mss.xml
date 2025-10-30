@@ -956,6 +956,141 @@
                </additional>
             </msDesc>
 
+
+            <msDesc xml:id="Innsbruck_UniversitätsundLandesbibliothekTirol_Cod220">
+               <msIdentifier>
+                  <settlement>Innsbruck</settlement>
+                  <repository>Universitäts- und Landesbibliothek Tirol</repository>
+                  <idno>Cod. 220</idno>
+                  <idno type="URI">https://resolver.obvsg.at/urn:nbn:at:at-ubi:5-5021</idno>
+               </msIdentifier>
+               <msContents>                        
+                  <summary>The commentaries are ascribed to Versoris in the note on the inner
+                     front cover and in the table of contents on the first guard leaf: <quote
+                        source="first
+                        guard leaf">in isto libro
+                        continentur primo questions magistri Versoris super Porphirium, item
+                        Predicamente Aristotelis…</quote>. </summary>
+                  <msItem xml:id="Innsbruck_UniversitätsundLandesbibliothekTirol_Cod220_QPor">
+                     <locus from="1r" to="30r"/>
+                     <title ref="workID">QPor</title>
+                  </msItem>
+                  <msItem xml:id="Innsbruck_UniversitätsundLandesbibliothekTirol_Cod220_QsPre">
+                     <locus from="31r" to="61v"/>
+                     <title ref="workID">QsPre</title>
+                  </msItem>
+                  <msItem xml:id="Innsbruck_UniversitätsundLandesbibliothekTirol_Cod220_QsSex">
+                     <locus from="62r" to="74v"/>
+                     <title ref="workID">QsSex</title>
+                  </msItem>
+                  <msItem xml:id="Innsbruck_UniversitätsundLandesbibliothekTirol_Cod220_QsInt">
+                     <locus from="75r" to="108v"/>
+                     <title ref="workID">QsInt</title>
+                  </msItem>
+                  <msItem xml:id="Innsbruck_UniversitätsundLandesbibliothekTirol_Cod220_QsPri">
+                     <locus from="109r" to="140r"/>
+                     <title ref="workID">QsPri</title>
+                  </msItem>
+                  <msItem xml:id="Innsbruck_UniversitätsundLandesbibliothekTirol_Cod220_QPost">
+                     <locus from="140v" to="184r"/>
+                     <title ref="workID">QPost</title>
+                  </msItem>
+                  <msItem xml:id="Innsbruck_UniversitätsundLandesbibliothekTirol_Cod220_QsTop">
+                     <locus from="191r" to="221v"/>
+                     <title ref="workID">QsTop I-IV</title>
+                  </msItem>
+                  <msItem xml:id="Innsbruck_UniversitätsundLandesbibliothekTirol_Cod220_QsSE">
+                     <locus from="222r" to="243r"/>
+                     <title ref="workID">QsSE</title>
+                  </msItem>
+                  <msItem xml:id="Innsbruck_UniversitätsundLandesbibliothekTirol_Cod220_QsDiv">
+                     <locus from="245r" to="252r"/>
+                     <title ref="workID">QsDiv</title>
+                  </msItem>
+                  <msItem
+                     xml:id="Innsbruck_UniversitätsundLandesbibliothekTirol_Cod220_Qdente">
+                     <locus from="252v" to="263r"/>
+                     <title ref="workID">Qdente</title>
+                  </msItem>
+                  <msItemStruct corresp="#Innsbruck_UniversitätsundLandesbibliothekTirol_Cod220">
+                     <filiation>
+                        <list>
+                           <item><ref target="#München_BSB_Clm6694"/>Presents similar
+                              watermarks, possibly indicating a common origin.</item>
+                           <item><ref target="#München_UB_2Codms557"/>Presents similar
+                              watermarks, possibly indicating a common origin.</item>
+                        </list>
+                     </filiation>
+                  </msItemStruct>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate from="1470" to="1470" cert="medium"/>
+                     <origPlace ref="#">Heidelberg</origPlace>
+                     <p>After the suppression of the monastery in 1808, the codex arrived at
+                        the Tirol University Library. On the inner front cover we read:
+                        <quote source="Inner front cover">Dicta Versoris super totam
+                           loycam. Liber virginis gloriose in Stams, comparatus per me,
+                           fratrem Melchior de Ymbst, per iii florenos, in alma
+                           universitate Heidelbergensi, anno Domini MCCCCLXXII, tunc
+                           temporis occupantem studium. [a.m.:] Frater Balthazar de Ymbst,
+                           venerabilis fratris Melchior confrater carnalis necnon
+                           spiritualis, qui docti fuerunt et ad iustitiam erudiverunt
+                           multos, fulgebunt quasi stelle in perpetuas eternitates</quote>.
+                        This information also appears in other places of the codex, such as
+                        in the first guard leaf: <quote source="first guard leaf">frater
+                           Melchior de Stans, anno Domini etc. LXXII occupavit studium alme
+                           universitatis Haidelbergensis</quote>, and on ff. 264v: <quote
+                              source="264v">Stams me possidet liber dicit iste. Melchior de
+                              Stams me comparavit. Melchior me emit</quote>. On the back
+                        guard-leaves students at Heidelberg University in 1472 and 1488 are
+                        listed (<quote source="back guard-leaves">Anno Domini MCCCCLXXII
+                           studentes apud sanctum Iacobum extra muros alme universitatis
+                           Heidelbergensis</quote>; <quote source="back guard-leaves">Anno
+                              nostre salutis autore millesimo CCCCmo 88vo fuere studentes apud
+                              sanctum Iacobum extra muros Haydelberge</quote>; the list of the
+                        students can be consulted in the modern catalogue description).</p>
+                  </origin>
+                  <provenance>
+                     <p>The codex belonged to Melchior Bosch from Imst, who studied at
+                        Heidelberg University and later entered the Cistercensian monastery
+                        of Stams. It later came into the possession of Balthasar Bosch, from
+                        the same family as Melchior, who also studied at Heidelberg
+                        University and entered the Cistercensian monastery of Stams.</p>
+                  </provenance>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source cert="high" resp="#">
+                           <p>Mss directly examined</p>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+                  <listBibl>                     
+                     <bibl>K. Walsh, “Zwei Stamser Zisterzienser an der Universität
+                        Heidelberg: Melchior und Balthasar Bosch aus Imst als Besitzer von
+                        Innsbruck, Universitätsbibliothek Cod. 220, und ihr Freundeskreis”,
+                        in Kulturerbe und Bibliotheksmanagement. Festschrift für Walter
+                        Neuhauser (Biblos-Schriften 170), Innsbruck 1998, 89–122</bibl>
+                     <bibl>G. Kompatscher, Katalog der Handschriften der
+                        Universitätsbibliothek Innsbruck, Teil 3: Cod. 201–300. Unter
+                        Mitarbeit von Walter Neuhauser, Sieglinde Sepp, Eva Ramminger.
+                        Katalog- und Registerband, Wien 1999, 71–78, Abb. 4 (1r), Abb. 30,
+                        74–75</bibl>
+                     <bibl>C. Schretter-Picker, “Libri Stamsenses. Anfang und Werden der
+                        mittelalterlichen Büchersammlung des Zisterzienserstiftes Stams”, in
+                        J. Hörmann-Thurn und Taxis, T. Pamer, J. Schwarz (edd.), Anfang und
+                        Werden –– Stift Stams im Mittelalter. Vorträge der
+                        wissenschaftlichen Tagung anlässlich des 750-Jahr-Jubiläums des
+                        Zisterzienserstiftes Stams 1273–2023. Stift Stams, 22.–24. September
+                        2024 (Schlern-Schriften 376), Innsbruck 2023, 273–29, at 288</bibl>
+                     
+                  </listBibl>
+               </additional>
+            </msDesc>
+
+
             <!-- Kraków, BJ 908*-->
 
             <msDesc xml:id="Kraków_BJ_908">
