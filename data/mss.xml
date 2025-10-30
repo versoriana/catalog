@@ -1011,17 +1011,19 @@
                      xml:id="Innsbruck_UniversitätsundLandesbibliothekTirol_Cod220_Qdente">
                      <locus from="252v" to="263r"/>
                      <title ref="workID">Qdente</title>
+                     
                   </msItem>
-                  <msItemStruct corresp="#Innsbruck_UniversitätsundLandesbibliothekTirol_Cod220">
-                     <filiation>
-                        <list>
-                           <item><ref target="#München_BSB_Clm6694"/>Presents similar
-                              watermarks, possibly indicating a common origin.</item>
-                           <item><ref target="#München_UB_2Codms557"/>Presents similar
-                              watermarks, possibly indicating a common origin.</item>
-                        </list>
-                     </filiation>
-                  </msItemStruct>
+                       
+<msItemStruct corresp="#Innsbruck_UniversitätsundLandesbibliothekTirol_Cod220">
+<filiation>
+   <list>
+      <item><ref target="#München_BSB_Clm6694"/>Presents similar
+         watermarks, possibly indicating a common origin.</item>
+      <item><ref target="#München_UB_2Codms557"/>Presents similar
+         watermarks, possibly indicating a common origin.</item>
+   </list>
+</filiation>
+</msItemStruct>
                </msContents>
                <history>
                   <origin>
@@ -1052,7 +1054,7 @@
                         students can be consulted in the modern catalogue description).</p>
                   </origin>
                   <provenance>
-                     <p>The codex belonged to Melchior Bosch from Imst, who studied at
+                     <p>The codex belonged to <persName ref="#MelchiorBosch">Melchior Bosch</persName> from Imst, who studied at
                         Heidelberg University and later entered the Cistercensian monastery
                         of Stams. It later came into the possession of Balthasar Bosch, from
                         the same family as Melchior, who also studied at Heidelberg
