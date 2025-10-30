@@ -156,6 +156,28 @@
                </listBibl>
             </person>
 
+            <person xml:id="BalthasarBosch">                    
+               <idno type="GND">1075152763</idno>
+               <idno type="VIAF">317058879</idno>
+               <idno type="CERL">cnp02127865</idno>
+               <name xml:lang="lat">Balthasar Bosch</name>
+               <note>Originally from Imst, Tirol, he studied at Heidelberg University around
+                  1485 and entered the Cistercian monastery of Stams, Tirol.</note>
+               <occupation role="fmo"
+                  ref="#Innsbruck_UniversitätsundLandesbibliothekTirol_Cod220"/>               
+               <listBibl>
+                  <bibl>Pirmin (A.) Lindner, Album Stamsense seu Catalogus Religiosorum sacri
+                     et exempti Ordinis Cisterciensis archiducalis Monasterii B. V. Mariae et
+                     S. Joann. Bapt. in Stams 1272–1898. Salisburgi 1898, 22, Nr. 261</bibl>
+                  <bibl>Toepke, Matrikel, I, 379 [1485]</bibl>
+                  <bibl>K. Walsh, “Zwei Stamser Zisterzienser an der Universität Heidelberg:
+                     Melchior und Balthasar Bosch aus Imst als Besitzer von Innsbruck,
+                     Universitätsbibliothek Cod. 220, und ihr Freundeskreis”, in Kulturerbe
+                     und Bibliotheksmanagement. Festschrift für Walter Neuhauser
+                     (Biblos-Schriften 170). Innsbruck 1998, 89–122.</bibl>
+               </listBibl>
+            </person>
+
             <!-- Clemens de Melnik (Klemens von Mîlník) issue#37 -->
 
             <person xml:id="ClemensDeMelnik">
@@ -665,6 +687,27 @@
                         target="http://cac.historia.uj.edu.pl/osoba/2019376_Marcin_Ku%C5%82ab_z_Tarnowca_syn_Miko%C5%82aja"
                         >http://cac.historia.uj.edu.pl/osoba/2019376_Marcin_Ku%C5%82ab_z_Tarnowca_syn_Miko%C5%82aja</ref>
                      (accessed: 02.09.2025).</bibl>
+               </listBibl>
+            </person>
+
+
+            <person xml:id="MelchiorBosch">
+               <idno type="GND">317058878</idno>
+               <idno type="VIAF">1075152739</idno>
+               <idno type="CERL">cnp02127864</idno>
+               <name xml:lang="lat">Melchior Bosch</name>
+               <note>Originally from Imst, Tirol, he studied at Heidelberg University around
+                  1472 and entered the Cistercian monastery of Stams, Tirol.</note>
+               <occupation role="fmo"
+                  ref="#Innsbruck_UniversitätsundLandesbibliothekTirol_Cod220"/>               
+               <listBibl>
+                  <bibl>Pirmin (A.) Lindner, Album Stamsense, 22, Nr. 261</bibl>
+                  <bibl>Toepke, Matrikel, I, 336 [1472]</bibl>
+                  <bibl>K. Walsh, Zwei Stamser Zisterzienser an der Universität Heidelberg:
+                     Melchior und Balthasar Bosch aus Imst als Besitzer von Innsbruck,
+                     Universitätsbibliothek Cod. 220, und ihr Freundeskreis, in: Kulturerbe
+                     und Bibliotheksmanagement. Festschrift für Walter Neuhauser
+                     (Biblos-Schriften 170). Innsbruck 1998, 89–122.</bibl>
                </listBibl>
             </person>
 
