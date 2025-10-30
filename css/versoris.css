@@ -97,6 +97,10 @@ tei-msItem > tei-title::before {
     font-style: normal;
 }
 
+
+
+
+
 /* Authors */
 tei-author {
     display: block;
@@ -300,6 +304,19 @@ tei-orgName {
 /* References */
 tei-ref {
     color: #337ab7;
+    text-decoration: underline;
+}
+
+/* Styling for anchor tags inside ref elements */
+tei-ref a {
+    color: #0d6efd;
+    text-decoration: underline;
+    cursor: pointer;
+    margin-right: 4px;
+}
+
+tei-ref a:hover {
+    color: #0a58ca;
     text-decoration: underline;
 }
 
@@ -653,3 +670,16 @@ tei-colophon[n]::after {
           vertical-align: super;
           font-size: smaller;
         }
+
+
+           tei-filiation::before {
+            content: "Related Mss.: ";
+            font-weight: bold;
+        }
+
+/* Default bullet points for all lists */
+  tei-item {
+      display: list-item;
+      list-style-type: disc;
+      margin-left: 2em;
+  }

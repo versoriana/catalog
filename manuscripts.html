@@ -47,7 +47,7 @@
 			text-decoration: underline;
 			cursor: pointer;
 		}
-		
+
 		.person-link:hover {
 			color: #0a58ca;
 		}
@@ -165,6 +165,22 @@
 						return container;
 					}
 					// Return default behavior if no ref or not starting with #
+					return null;
+				},
+				"ref": function(e) {
+					const target = e.getAttribute('target');
+					if (target && target.startsWith('#')) {
+						// Check if ref element is empty
+						if (!e.textContent || e.textContent.trim() === '') {
+							// Use target value as link text (without the #)
+							const linkText = target.replace('#', '');
+							const link = document.createElement('a');
+							link.href = target;
+							link.textContent = linkText;
+							return link;
+						}
+					}
+					// Return default behavior for non-empty refs or refs without # target
 					return null;
 				},
 				"idno": function(e) {
