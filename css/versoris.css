@@ -52,7 +52,7 @@ tei-summary {
 }
 
 tei-summary::before {
-    content: "Attribution: ";
+    content: "Explicit Attribution: ";
     font-weight: bold;
 }
 
