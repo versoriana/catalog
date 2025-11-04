@@ -342,7 +342,7 @@ tei-recordHist > tei-source[cert="high"] > tei-p::after
 }
 
 
-tei-listBibl::before {
+tei-listBibl > tei-msDesc > tei-additional > tei-listBibl::before {
     content: "Bibliography";
     display: block;
     font-weight: bold;
@@ -350,7 +350,7 @@ tei-listBibl::before {
     margin-bottom: 10px;
 }
 
-tei-listBibl {
+tei-listBibl > tei-msDesc > tei-additional >  tei-listBibl {
     display: block;
     margin-top: 10px;
 }
