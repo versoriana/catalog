@@ -64,15 +64,13 @@ tei-msItem {
     margin-left: 20px;
     padding: 10px;
     border: 1px solid #e0e0e0;
-    border-left: 3px solid #ccc;
     background-color: #fafafa;
 }
 
 /* Nested msItems - indent more */
 tei-msItem tei-msItem {
     margin-left: 20px;
-    background-color: #f0f8ff;
-    border-left-color: #5bc0de;
+    background-color: #f7f8fa;
 }
 
 tei-msItem tei-msItem tei-msItem {
