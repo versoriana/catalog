@@ -177,6 +177,31 @@
                      (Biblos-Schriften 170). Innsbruck 1998, 89–122.</bibl>
                </listBibl>
             </person>
+            
+            <person xml:id="ClaudiusVerneti">
+               <name xml:lang="lat">Claudius Verneti</name>
+               <note>
+                  <p>From the diocese of Besançon (dyocesis Bisuntiensis), he studied as a
+                     member of the French Nation at the Paris Faculty of Arts. In 1463, he
+                     was under the supervision of Master Galterus de Walma at the Collège de
+                     Bourgogne. He later served as regent master at the University of Dole,
+                     as attested by the possession mark on the lower margin of the back cover
+                     of manuscript Paris, BnF, latin 604: <quote source="lower margin of the back cover">Iste libellus emptus a domino
+                        Petro, herede reverendi magistri nostri Vincentii Sarraseni, sacre
+                        theologie professoris (cuius anima pace fruatur), per magistrum Claudium
+                        Verneti, artium regentem Doli, eidem emptori pertinet. Ista est per me,
+                        Verneti</quote>.</p>
+                  <p>He is not mentioned in volume V oft he Auctarium, which only reaches the
+                     year 1456.</p>
+               </note>
+               <occupation role="scr" ref="#Paris_BnF_latin6691"/>                    
+               <listBibl>
+                  <bibl>Ouy, “Un catalogue d’un type nouveau”, 288</bibl>
+                  <bibl>K. Rebmeister-Klein, Les livres des petits collèges à Paris aux XIVe
+                     et XVe siècles, Doct. Paris 1, 2005, III, 834-835</bibl>
+                  <bibl>Bakker, Kok, Secundum intentionem Doctoris Subtilis, 264, n. 3</bibl>
+               </listBibl>
+            </person>
 
             <!-- Clemens de Melnik (Klemens von Mîlník) issue#37 -->
 
