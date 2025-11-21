@@ -171,7 +171,7 @@
                      
                      <origDate from="1486" to="1486">1486</origDate>
                      <p>The <watermark>watermark P</watermark> is similar to <ref type="bibl"
-                           target="biblID">Piccard XII 81 and 155</ref>, both used in Cologne in
+                        target="biblID">Piccard</ref> XII 81 and 155, both used in Cologne in
                         1486. This dating and origin could be confirmed a) by the date of the
                         editions inserted in the codex, all printed in 1485; b) by the fact that the
                         ms. contains, above Versoris’s text, <ref type="work" target="workID"
@@ -238,8 +238,8 @@
                      <p><watermark>The watermark, a shield with three lilia couroned with flowers
                            (particularly visible in the first guard leafs and at ff. 39, 87, 95,
                            116-117, 139, 188, 202, 204-205, 207, 256, 270, 295)</watermark>, is very
-                        similar to <ref type="bibl" target="ID">Briquet 1680</ref>, a variant of
-                        which was used in Paris in 1451. From 215-217, 221-222 variant with hook</p>
+                        similar to <ref type="bibl" target="ID">Briquet</ref> 1680, a variant of
+                        which was used in Paris in 1451. From 215-217, 221-222 variant with hook.</p>
                      <origPlace cert="medium">Paris</origPlace>
                   </origin>
                   <provenance>Just like <ref type="ms" target="id">ms. Amiens 405</ref>, it belonged
@@ -390,10 +390,9 @@
                         manuscript also contains a literal commentary on Thomas’s text (137r-170r;
                         inc.: <q>insignis perypatetice veritatis interpres Doctor sanctus nedum
                            adultos provehi, verum in novitios afficiens erudire uberiores</q>;
-                        expl.: i<q>psa lux non eclipsalis, sed lucens eternaliter</q>.) </note>
+                        expl.: i<q>psa lux non eclipsalis, sed lucens eternaliter</q>). </note>
                      <!-- JLL I'll add new msItem(s) and incipit/explicit althoug those are not "questions"-->
-                     <note type="attribution">The commentary is ascribed to Versoris in the first
-                        colophon: “Explicit scriptum Versoris super De ente et essentia sancti Thome
+                     <note type="attribution">The commentary is ascribed to Versoris in the colophon: “Explicit scriptum Versoris super De ente et essentia sancti Thome
                         doctoris”.</note>
                      <colophon source="">Explicit scriptum Versoris super De ente et essentia sancti
                         Thome doctoris</colophon>
@@ -435,7 +434,7 @@
                      </recordHist>
                   </adminInfo>
                   <listBibl>
-                     <bibl>Leitschuh, I.1, 532-533</bibl>
+                     <bibl >Leitschuh, I.1, 532-533</bibl>
                      <bibl>S. Włodek, “Thomas Sutton, De productione formae substantialis”, AHDLMA
                         46 (1979), 127- 175, at 129.</bibl>
                   </listBibl>
@@ -463,7 +462,7 @@
                            libros Ethicorum Aristotelis</ref>; libri Ethicorum Aristotelis; <ref
                            target="workID">libpri Yconomicorum eiusdem</ref>
                         <add resp="editor">[not transmitted]</add>; <ref target="workID">liber de
-                           cotrina tradenti et loquendi Albertani</ref>
+                           doctrina tradendi et loquendi Albertani</ref>
                         <add resp="editor">[not transmitted]</add></quote>
                   </msItem>
                   <msItem xml:id="Basel_UB_F-II-14_QsM">
@@ -881,7 +880,7 @@
                   <msItem xml:id="Colmar_BM_223_QsP">
                      <locus from="103r" to="220r"/>
                      <title ref="ID">QsP</title>
-                     <colophon source="220r">criptus per me Eberhardum Saltzmann de valle masonis,
+                     <colophon source="220r">scriptus per me Eberhardum Saltzmann de valle masonis,
                         anno M° CCCC° quinquagesimo nono, feria quarta ante Simonis et Iude festum
                         beatorum apostolorum</colophon>
                   </msItem>
@@ -933,7 +932,7 @@
                      <note type="msRelationship">The <ref target="#Colmar_BM_223_QsP">section
                            transmitting the QsP</ref> contains the same watermark (Frucht similar to
                            <bibl corresp="ID">Piccard I 393-398</bibl>) of <ref
-                           target="#Basel_UB_F-VI-4">ms. Basel, UB F VI 4</ref> (Ba6)</note>
+                           target="#Basel_UB_F-VI-4">ms. Basel, UB F VI 4</ref></note>
                   </origin>
                   <provenance>The manuscript belonged to the <orgName>convent of the
                         Dominicans</orgName> of <placeName>Guebwiller</placeName>.</provenance>
@@ -969,7 +968,7 @@
                      front cover and in the table of contents on the first guard leaf: <quote
                         source="first
                         guard leaf">in isto libro
-                        continentur primo questions magistri Versoris super Porphirium, item
+                        continentur primo questiones magistri Versoris super Porphirium, item
                         Predicamente Aristotelis…</quote>. </summary>
                   <msItem xml:id="Innsbruck_UniversitätsundLandesbibliothekTirol_Cod220_QPor">
                      <locus from="1r" to="30r"/>
