@@ -263,18 +263,15 @@ tei-history {
     margin-left: 20px;
 }
 
-tei-history::before {
-    content: "History";
-    display: block;
-    font-weight: bold;
-    font-size: 1.1em;
-    margin-bottom: 10px;
-}
-
 tei-origin {
     display: block;
     margin-bottom: 10px;
     margin-left: 20px;
+}
+
+tei-origDate:before {
+  font-weight: bold;
+  content: "Date: ";
 }
 
 /* Dates and places */
@@ -284,6 +281,11 @@ tei-origDate {
 tei-origPlace {
     display: block;
     margin-top: 10px;
+}
+
+tei-origPlace:before {
+  font-weight: bold;
+  content: "Origin: ";
 }
 
 /* Person names */

@@ -1085,18 +1085,11 @@ tei-orgName {
 tei-origDate {
   /* Empty Rule Set */
 }
-tei-origDate:before {
-  font-weight: bold;
-  content: "Origin Date: ";
-}
 
 tei-origPlace {
 
 }
-tei-origPlace:before {
-  font-weight: bold;
-  content: "Place of Origin: ";
-}
+
 tei-origin {
   /* Empty Rule Set */
 }
