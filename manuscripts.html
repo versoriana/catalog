@@ -252,8 +252,8 @@
         let locusGrp = e.querySelector("tei-locusgrp");
         let locus = e.querySelector("tei-locus");
         let otherElements = Array.from(e.childNodes).filter(node =>
-          node.nodeName !== "TEI-TITLE" && 
-          node.nodeName !== "TEI-LOCUS" && 
+          node.nodeName !== "TEI-TITLE" &&
+          node.nodeName !== "TEI-LOCUS" &&
           node.nodeName !== "TEI-LOCUSGRP"
         );
 
@@ -265,10 +265,10 @@
           // Handle locusGrp with custom formatting
           let locusContainer = document.createElement("div");
           locusContainer.className = "locusGrp-container";
-          
+
           let boundLocus = locusGrp.querySelector('tei-locus[scheme="#bound"]');
           let unboundLocus = locusGrp.querySelector('tei-locus[scheme="#unbound"]');
-          
+
           let locusText = "";
           if (boundLocus) {
             let from = boundLocus.getAttribute('from');
@@ -277,7 +277,7 @@
               locusText = `${from}-${to}`;
             }
           }
-          
+
           if (unboundLocus) {
             let from = unboundLocus.getAttribute('from');
             let to = unboundLocus.getAttribute('to');
@@ -285,7 +285,7 @@
               locusText += ` [${from}-${to}]`;
             }
           }
-          
+
           locusContainer.textContent = locusText;
           container.appendChild(locusContainer);
         } else if (locus) {
@@ -296,6 +296,40 @@
         });
 
         return container;
+      },
+      "msDesc": function(e) {
+        // Create Related Manuscripts section
+        const filiations = Array.from(e.querySelectorAll('tei-filiation'));
+        const msRelationshipNotes = Array.from(e.querySelectorAll('tei-note[type="msRelationship"]'));
+
+        if (filiations.length > 0 || msRelationshipNotes.length > 0) {
+          // Create wrapper div for Related Manuscripts section
+          const relatedMssSection = document.createElement('div');
+          relatedMssSection.className = 'related-manuscripts-section';
+
+          // Move filiation elements to the section
+          filiations.forEach(filiation => {
+            relatedMssSection.appendChild(filiation.cloneNode(true));
+            filiation.remove();
+          });
+
+          // Move note[type="msRelationship"] elements to the section
+          msRelationshipNotes.forEach(note => {
+            relatedMssSection.appendChild(note.cloneNode(true));
+            note.remove();
+          });
+
+          // Insert the section before tei-additional (which contains Bibliography)
+          const additionalSection = e.querySelector('tei-additional');
+          if (additionalSection) {
+            e.insertBefore(relatedMssSection, additionalSection);
+          } else {
+            e.appendChild(relatedMssSection);
+          }
+        }
+
+        // Return undefined to use default rendering for msDesc itself
+        return undefined;
       }
     }
   }

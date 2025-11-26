@@ -682,10 +682,33 @@ tei-colophon[n]::after {
         }
 
 
-           tei-filiation::before {
-            content: "Related Mss.: ";
-            font-weight: bold;
-        }
+/* Create wrapper for Related Manuscripts section */
+.related-manuscripts-section {
+    display: block;
+    margin: 20px 0;
+    margin-left: 20px;
+}
+
+.related-manuscripts-section::before {
+    content: "Related Manuscripts";
+    display: block;
+    font-weight: bold;
+    font-size: 1.1em;
+    margin-bottom: 10px;
+}
+
+/* Style filiation and note elements within the section */
+.related-manuscripts-section tei-filiation,
+.related-manuscripts-section tei-note[type="msRelationship"] {
+    display: block;
+    margin: 10px 0;
+}
+
+.related-manuscripts-section tei-filiation::before,
+.related-manuscripts-section tei-note[type="msRelationship"]::before {
+    content: "";
+    font-weight: normal;
+}
 
 /* Default bullet points for all lists */
   tei-item {
