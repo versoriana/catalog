@@ -71,8 +71,15 @@
                   <msItem xml:id="Aarau_AKB_MsWettF42_QsP">
                      <locus from="1ra" to="99va"/>
                      <title ref="workID">QsP</title>
-                     <note type="msRelationship">QsP Is particularly close to <ref type="msItem"
-                           target="#msBa4_QsP">Basel F III 10</ref></note>
+                     <filiation>
+                        <list>
+                           <item>
+                              <ref target="Aarau_AKB_MsWettF42_QsP">QsP</ref> is particularly close
+                              to <ref type="msItem" target="#Basel_UB_FIII10_QsP">Basel F III
+                                 10</ref>
+                           </item>
+                        </list>
+                     </filiation>
                   </msItem>
 
                   <msItem xml:id="Aarau_AKB_MsWettF42_DC">
@@ -127,10 +134,14 @@
                            difficiliorum</title>
                         <note type="content">Incomplete</note>
                      </msItem>
-                     <note type="msRelationship">Very similar to the <ref target="workID"
-                           type="work">DA</ref> commentary transmitted in <ref type="ms"
-                           target="msID">ms. Basel F I 13</ref>: the questions transmitted are the
-                        same; the structure is the same; it could be a copy of this text.</note>
+                     <filiation>
+                        <list>
+                           <item>Very similar to the <ref target="workID" type="work">DA</ref>
+                              commentary transmitted in <ref type="ms" target="msID">ms. Basel F I
+                                 13</ref>: the questions transmitted are the same; the structure is
+                              the same; it could be a copy of this text.</item>
+                        </list>
+                     </filiation>
                      <note type="paleo">Copied by a different hand than <ref type="msItem"
                            target="#Aarau_AKB_MsWettF42_QdA">following text</ref>.</note>
                   </msItem>
@@ -168,10 +179,9 @@
                </msContents>
                <history>
                   <origin>
-                     
                      <origDate from="1486" to="1486">1486</origDate>
                      <p>The <watermark>watermark P</watermark> is similar to <ref type="bibl"
-                        target="biblID">Piccard</ref> XII 81 and 155, both used in Cologne in
+                           target="biblID">Piccard</ref> XII 81 and 155, both used in Cologne in
                         1486. This dating and origin could be confirmed a) by the date of the
                         editions inserted in the codex, all printed in 1485; b) by the fact that the
                         ms. contains, above Versoris’s text, <ref type="work" target="workID"
@@ -179,6 +189,7 @@
                         used in Cologne. </p>
                      <origPlace ref="#place_cologne">Cologne</origPlace>
                   </origin>
+
                </history>
                <!-- add bibl -->
             </msDesc>
@@ -239,7 +250,8 @@
                            (particularly visible in the first guard leafs and at ff. 39, 87, 95,
                            116-117, 139, 188, 202, 204-205, 207, 256, 270, 295)</watermark>, is very
                         similar to <ref type="bibl" target="ID">Briquet</ref> 1680, a variant of
-                        which was used in Paris in 1451. From 215-217, 221-222 variant with hook.</p>
+                        which was used in Paris in 1451. From 215-217, 221-222 variant with
+                        hook.</p>
                      <origPlace cert="medium">Paris</origPlace>
                   </origin>
                   <provenance>Just like <ref type="ms" target="id">ms. Amiens 405</ref>, it belonged
@@ -295,7 +307,6 @@
                         copied in Basel. The manuscript was bound in Basel together with an
                         incunable printed in 1475, as attested by the binder's stamp of Pancratius
                         Hochberg of Basel.</p>
-                     
                   </origin>
                   <provenance>
                      <p>The codex belonged to <persName ref="#AmbrosiusAllantsee">Ambrosius
@@ -392,7 +403,8 @@
                            adultos provehi, verum in novitios afficiens erudire uberiores</q>;
                         expl.: i<q>psa lux non eclipsalis, sed lucens eternaliter</q>). </note>
                      <!-- JLL I'll add new msItem(s) and incipit/explicit althoug those are not "questions"-->
-                     <note type="attribution">The commentary is ascribed to Versoris in the colophon: “Explicit scriptum Versoris super De ente et essentia sancti Thome
+                     <note type="attribution">The commentary is ascribed to Versoris in the
+                        colophon: “Explicit scriptum Versoris super De ente et essentia sancti Thome
                         doctoris”.</note>
                      <colophon source="">Explicit scriptum Versoris super De ente et essentia sancti
                         Thome doctoris</colophon>
@@ -434,7 +446,7 @@
                      </recordHist>
                   </adminInfo>
                   <listBibl>
-                     <bibl >Leitschuh, I.1, 532-533</bibl>
+                     <bibl>Leitschuh, I.1, 532-533</bibl>
                      <bibl>S. Włodek, “Thomas Sutton, De productione formae substantialis”, AHDLMA
                         46 (1979), 127- 175, at 129.</bibl>
                   </listBibl>
@@ -731,13 +743,13 @@
                      <origDate from="1463" to="1463"/>
                      <origPlace ref="#place_paris">Paris</origPlace>
                      <p>Paris, as stated in the colophons: <quote source="63r">Et sic est finis
-                        textus Summularum magistri Petri Hispani ordinis Predicatorum, qui quidem
-                        completus est Parisius in collegio Tornacensi, anno incarnationis Domini
-                        1463, per me, Christianum Lupi, magno cum labore</quote>, f. 63r; <quote
+                           textus Summularum magistri Petri Hispani ordinis Predicatorum, qui quidem
+                           completus est Parisius in collegio Tornacensi, anno incarnationis Domini
+                           1463, per me, Christianum Lupi, magno cum labore</quote>, f. 63r; <quote
                            source="292v">finitius est liber Parisius, anno Domini incarnationis
                            1463, per me, Christianum Lupi</quote>, f. 292v. Christianus Lupi later
                         entered the franciscain convent in Brandeburg, which explains the presence
-                        of this codex in Berlin.</p>                     
+                        of this codex in Berlin.</p>
                   </origin>
                   <provenance>
                      <p>On f. 294v, we find the following ex libris: <quote source="294v">Iste liber
@@ -963,13 +975,13 @@
                   <idno>Cod. 220</idno>
                   <idno type="URI">https://resolver.obvsg.at/urn:nbn:at:at-ubi:5-5021</idno>
                </msIdentifier>
-               <msContents>                        
-                  <summary>The commentaries are ascribed to Versoris in the note on the inner
-                     front cover and in the table of contents on the first guard leaf: <quote
+               <msContents>
+                  <summary>The commentaries are ascribed to Versoris in the note on the inner front
+                     cover and in the table of contents on the first guard leaf: <quote
                         source="first
-                        guard leaf">in isto libro
-                        continentur primo questiones magistri Versoris super Porphirium, item
-                        Predicamente Aristotelis…</quote>. </summary>
+                        guard leaf">in isto libro continentur primo
+                        questiones magistri Versoris super Porphirium, item Predicamente
+                        Aristotelis…</quote>. </summary>
                   <msItem xml:id="Innsbruck_UniversitätsundLandesbibliothekTirol_Cod220_QPor">
                      <locus from="1r" to="30r"/>
                      <title ref="workID">QPor</title>
@@ -1006,58 +1018,48 @@
                      <locus from="245r" to="252r"/>
                      <title ref="workID">QsDiv</title>
                   </msItem>
-                  <msItem
-                     xml:id="Innsbruck_UniversitätsundLandesbibliothekTirol_Cod220_Qdente">
+                  <msItem xml:id="Innsbruck_UniversitätsundLandesbibliothekTirol_Cod220_Qdente">
                      <locus from="252v" to="263r"/>
                      <title ref="workID">Qdente</title>
-                     
+
                   </msItem>
-                       
-<msItemStruct corresp="#Innsbruck_UniversitätsundLandesbibliothekTirol_Cod220">
-<filiation>
-   <list>
-      <item><ref target="#München_BSB_Clm6694"/>Presents similar
-         watermarks, possibly indicating a common origin.</item>
-      <item><ref target="#München_UB_2Codms557"/>Presents similar
-         watermarks, possibly indicating a common origin.</item>
-   </list>
-</filiation>
-</msItemStruct>
                </msContents>
                <history>
                   <origin>
                      <origDate from="1470" to="1470" cert="medium"/>
                      <origPlace ref="#">Heidelberg</origPlace>
-                     <p>After the suppression of the monastery in 1808, the codex arrived at
-                        the Tirol University Library. On the inner front cover we read:
-                        <quote source="Inner front cover">Dicta Versoris super totam
-                           loycam. Liber virginis gloriose in Stams, comparatus per me,
-                           fratrem Melchior de Ymbst, per iii florenos, in alma
-                           universitate Heidelbergensi, anno Domini MCCCCLXXII, tunc
-                           temporis occupantem studium. [a.m.:] Frater Balthazar de Ymbst,
-                           venerabilis fratris Melchior confrater carnalis necnon
-                           spiritualis, qui docti fuerunt et ad iustitiam erudiverunt
-                           multos, fulgebunt quasi stelle in perpetuas eternitates</quote>.
-                        This information also appears in other places of the codex, such as
-                        in the first guard leaf: <quote source="first guard leaf">frater
-                           Melchior de Stans, anno Domini etc. LXXII occupavit studium alme
-                           universitatis Haidelbergensis</quote>, and on ff. 264v: <quote
-                              source="264v">Stams me possidet liber dicit iste. Melchior de
-                              Stams me comparavit. Melchior me emit</quote>. On the back
-                        guard-leaves students at Heidelberg University in 1472 and 1488 are
-                        listed (<quote source="back guard-leaves">Anno Domini MCCCCLXXII
-                           studentes apud sanctum Iacobum extra muros alme universitatis
-                           Heidelbergensis</quote>; <quote source="back guard-leaves">Anno
-                              nostre salutis autore millesimo CCCCmo 88vo fuere studentes apud
-                              sanctum Iacobum extra muros Haydelberge</quote>; the list of the
-                        students can be consulted in the modern catalogue description).</p>
+                     <p>After the suppression of the monastery in 1808, the codex arrived at the
+                        Tirol University Library. On the inner front cover we read: <quote
+                           source="Inner front cover">Dicta Versoris super totam loycam. Liber
+                           virginis gloriose in Stams, comparatus per me, fratrem Melchior de Ymbst,
+                           per iii florenos, in alma universitate Heidelbergensi, anno Domini
+                           MCCCCLXXII, tunc temporis occupantem studium. [a.m.:] Frater Balthazar de
+                           Ymbst, venerabilis fratris Melchior confrater carnalis necnon
+                           spiritualis, qui docti fuerunt et ad iustitiam erudiverunt multos,
+                           fulgebunt quasi stelle in perpetuas eternitates</quote>. This information
+                        also appears in other places of the codex, such as in the first guard leaf:
+                           <quote source="first guard leaf">frater Melchior de Stans, anno Domini
+                           etc. LXXII occupavit studium alme universitatis Haidelbergensis</quote>,
+                        and on ff. 264v: <quote source="264v">Stams me possidet liber dicit iste.
+                           Melchior de Stams me comparavit. Melchior me emit</quote>. On the back
+                        guard-leaves students at Heidelberg University in 1472 and 1488 are listed
+                           (<quote source="back guard-leaves">Anno Domini MCCCCLXXII studentes apud
+                           sanctum Iacobum extra muros alme universitatis Heidelbergensis</quote>;
+                           <quote source="back guard-leaves">Anno nostre salutis autore millesimo
+                           CCCCmo 88vo fuere studentes apud sanctum Iacobum extra muros
+                           Haydelberge</quote>; the list of the students can be consulted in the
+                        modern catalogue description).</p>
+                     <note type="msRelationship">
+                        <ref target="#München_BSB_Clm6694"/> and <ref target="#München_UB_2Codms557"
+                        /> present similar watermarks, possibly indicating a common origin. </note>
                   </origin>
                   <provenance>
-                     <p>The codex belonged to <persName ref="#MelchiorBosch">Melchior Bosch</persName> from Imst, who studied at
-                        Heidelberg University and later entered the Cistercensian monastery
-                        of Stams. It later came into the possession of Balthasar Bosch, from
-                        the same family as Melchior, who also studied at Heidelberg
-                        University and entered the Cistercensian monastery of Stams.</p>
+                     <p>The codex belonged to <persName ref="#MelchiorBosch">Melchior
+                           Bosch</persName> from Imst, who studied at Heidelberg University and
+                        later entered the Cistercensian monastery of Stams. It later came into the
+                        possession of Balthasar Bosch, from the same family as Melchior, who also
+                        studied at Heidelberg University and entered the Cistercensian monastery of
+                        Stams.</p>
                   </provenance>
                </history>
                <additional>
@@ -1068,25 +1070,24 @@
                         </source>
                      </recordHist>
                   </adminInfo>
-                  <listBibl>                     
-                     <bibl>K. Walsh, “Zwei Stamser Zisterzienser an der Universität
-                        Heidelberg: Melchior und Balthasar Bosch aus Imst als Besitzer von
-                        Innsbruck, Universitätsbibliothek Cod. 220, und ihr Freundeskreis”,
-                        in Kulturerbe und Bibliotheksmanagement. Festschrift für Walter
-                        Neuhauser (Biblos-Schriften 170), Innsbruck 1998, 89–122</bibl>
-                     <bibl>G. Kompatscher, Katalog der Handschriften der
-                        Universitätsbibliothek Innsbruck, Teil 3: Cod. 201–300. Unter
-                        Mitarbeit von Walter Neuhauser, Sieglinde Sepp, Eva Ramminger.
-                        Katalog- und Registerband, Wien 1999, 71–78, Abb. 4 (1r), Abb. 30,
-                        74–75</bibl>
+                  <listBibl>
+                     <bibl>K. Walsh, “Zwei Stamser Zisterzienser an der Universität Heidelberg:
+                        Melchior und Balthasar Bosch aus Imst als Besitzer von Innsbruck,
+                        Universitätsbibliothek Cod. 220, und ihr Freundeskreis”, in Kulturerbe und
+                        Bibliotheksmanagement. Festschrift für Walter Neuhauser (Biblos-Schriften
+                        170), Innsbruck 1998, 89–122</bibl>
+                     <bibl>G. Kompatscher, Katalog der Handschriften der Universitätsbibliothek
+                        Innsbruck, Teil 3: Cod. 201–300. Unter Mitarbeit von Walter Neuhauser,
+                        Sieglinde Sepp, Eva Ramminger. Katalog- und Registerband, Wien 1999, 71–78,
+                        Abb. 4 (1r), Abb. 30, 74–75</bibl>
                      <bibl>C. Schretter-Picker, “Libri Stamsenses. Anfang und Werden der
-                        mittelalterlichen Büchersammlung des Zisterzienserstiftes Stams”, in
-                        J. Hörmann-Thurn und Taxis, T. Pamer, J. Schwarz (edd.), Anfang und
-                        Werden –– Stift Stams im Mittelalter. Vorträge der
-                        wissenschaftlichen Tagung anlässlich des 750-Jahr-Jubiläums des
-                        Zisterzienserstiftes Stams 1273–2023. Stift Stams, 22.–24. September
-                        2024 (Schlern-Schriften 376), Innsbruck 2023, 273–29, at 288</bibl>
-                     
+                        mittelalterlichen Büchersammlung des Zisterzienserstiftes Stams”, in J.
+                        Hörmann-Thurn und Taxis, T. Pamer, J. Schwarz (edd.), Anfang und Werden ––
+                        Stift Stams im Mittelalter. Vorträge der wissenschaftlichen Tagung
+                        anlässlich des 750-Jahr-Jubiläums des Zisterzienserstiftes Stams 1273–2023.
+                        Stift Stams, 22.–24. September 2024 (Schlern-Schriften 376), Innsbruck 2023,
+                        273–29, at 288</bibl>
+
                   </listBibl>
                </additional>
             </msDesc>
@@ -1231,12 +1232,11 @@
                      <locus from="4r" to="103r"/>
                      <title ref="workId">QsMeta</title>
                      <author>Antonius Andreae</author>
-                     <colophon source="103r">Expliciunt
-                        questiones Anthonii Andree, ordinis minorum, correpte ac
-                        emendate per excellentissimum magistrum Franciscum de Nerithono,
-                        ordinis predicatorum, reportate in studio Cracoviensi per
-                        Martinum de Tarnoviecz, finite die Saturni immediate ante Galli
-                        in Maiori collegio, anno reparationis nostre 1489</colophon>
+                     <colophon source="103r">Expliciunt questiones Anthonii Andree, ordinis minorum,
+                        correpte ac emendate per excellentissimum magistrum Franciscum de Nerithono,
+                        ordinis predicatorum, reportate in studio Cracoviensi per Martinum de
+                        Tarnoviecz, finite die Saturni immediate ante Galli in Maiori collegio, anno
+                        reparationis nostre 1489</colophon>
                   </msItem>
                   <msItem xml:id="Kraków_BibliotekaJagiellońska_cod2524_QsMetaAnon">
                      <locus from="110r" to="185v"/>
@@ -1248,41 +1248,38 @@
                      <title ref="workID">Qdente</title>
                      <note type="desc">The text is preceded by Antonius Andreae’s QsMeta (ff.
                         4r–103r), followed by anonymous QsMeta (ff. 110r–185v) with marginal
-                        glosses, and then by Giles of Rome’s Questions on De ente et
-                        essentia (ff. 221v–243v).</note>
-                     <colophon source="243r">terminate sunt hee questiones, propositiones
-                        Egidii Romani sub annis Domini tunc currentibus 1479</colophon>
+                        glosses, and then by Giles of Rome’s Questions on De ente et essentia (ff.
+                        221v–243v).</note>
+                     <colophon source="243r">terminate sunt hee questiones, propositiones Egidii
+                        Romani sub annis Domini tunc currentibus 1479</colophon>
                   </msItem>
-                  <msItem
-                     xml:id="Kraków_BibliotekaJagiellońska_cod2524_QuestionsonDeenteetessentia">
+                  <msItem xml:id="Kraków_BibliotekaJagiellońska_cod2524_QuestionsonDeenteetessentia">
                      <locus from="221v" to="243v"/>
                      <title ref="workId">Questions on De ente et essentia</title>
                      <author>Giles of Rome</author>
-                     <colophon source="221r">Martinus de Tarnoviecz
-                        scripsit, clericus Cracovie, infra caniculam</colophon>
+                     <colophon source="221r">Martinus de Tarnoviecz scripsit, clericus Cracovie,
+                        infra caniculam</colophon>
                   </msItem>
                </msContents>
                <history>
                   <origin>
                      <origDate from="1479" to="1489"/>
-                     <p>The texts in this manuscript were copied between 1479 and 1489, as
-                        indicated by the colophons: <quote source="103r">Expliciunt
-                           questiones Anthonii Andree, ordinis minorum, correpte ac
-                           emendate per excellentissimum magistrum Franciscum de Nerithono,
-                           ordinis predicatorum, reportate in studio Cracoviensi per
-                           Martinum de Tarnoviecz, finite die Saturni immediate ante Galli
-                           in Maiori collegio, anno reparationis nostre 1489</quote> (f.
-                        103r); <quote source="199r">1480</quote> (f. 199r); <quote
-                           source="243r">terminate sunt hee questiones, propositiones
-                           Egidii Romani sub annis Domini tunc currentibus 1479</quote> (f.
-                        243r).</p>
+                     <p>The texts in this manuscript were copied between 1479 and 1489, as indicated
+                        by the colophons: <quote source="103r">Expliciunt questiones Anthonii
+                           Andree, ordinis minorum, correpte ac emendate per excellentissimum
+                           magistrum Franciscum de Nerithono, ordinis predicatorum, reportate in
+                           studio Cracoviensi per Martinum de Tarnoviecz, finite die Saturni
+                           immediate ante Galli in Maiori collegio, anno reparationis nostre
+                           1489</quote> (f. 103r); <quote source="199r">1480</quote> (f. 199r);
+                           <quote source="243r">terminate sunt hee questiones, propositiones Egidii
+                           Romani sub annis Domini tunc currentibus 1479</quote> (f. 243r).</p>
                      <origPlace ref="#place_cracow">Cracow</origPlace>
-                     <p>Versoris’s text was copied in Cracow by Martinus de Tarnowiecz, as
-                        stated in the colophon: <quote source="221r">Martinus de Tarnoviecz
-                           scripsit, clericus Cracovie, infra caniculam</quote> (f. 221r).
-                        Martinus later owned the volume, as attested by a note on f. 1r,
-                        written when he had already attained the title of master: <quote
-                           source="1r">ego magister Martinus, 1501</quote>.</p>
+                     <p>Versoris’s text was copied in Cracow by Martinus de Tarnowiecz, as stated in
+                        the colophon: <quote source="221r">Martinus de Tarnoviecz scripsit, clericus
+                           Cracovie, infra caniculam</quote> (f. 221r). Martinus later owned the
+                        volume, as attested by a note on f. 1r, written when he had already attained
+                        the title of master: <quote source="1r">ego magister Martinus,
+                        1501</quote>.</p>
                   </origin>
                </history>
                <additional>
@@ -1296,7 +1293,7 @@
                   <listBibl>
                      <bibl>Wysłocki, Katalog II, 601</bibl>
                      <bibl>Senko, De ente, 17</bibl>
-                     <bibl>Markowski/Włodek, Aristotelica Cracoviensia, 123–124</bibl>                            
+                     <bibl>Markowski/Włodek, Aristotelica Cracoviensia, 123–124</bibl>
                   </listBibl>
                </additional>
             </msDesc>
@@ -1326,11 +1323,11 @@
                      <title ref="workID">QdSom</title>
                   </msItem>
                   <msItem xml:id="Kraków_BibliotekaJagiellońska_cod2599_QdLon">
-                     <locus from="98r"></locus>
+                     <locus from="98r"/>
                      <title ref="workID">QdLon</title>
                      <note type="desc">only the beginning of q. 1; ends interrupted after the
-                        oppositum, with the words: <quote source="98r">Pro responsione est primo sciendum
-                           quod</quote></note>
+                        oppositum, with the words: <quote source="98r">Pro responsione est primo
+                           sciendum quod</quote></note>
                   </msItem>
                   <msItem xml:id="Kraków_BibliotekaJagiellońska_cod2599_Qdente">
                      <locus from="104r" to="121v"/>
@@ -1340,22 +1337,21 @@
                <history>
                   <origin>
                      <origDate from="1447" to="1457"/>
-                     <p>The watermarks were attested in the years 1447–1457 <note
-                        type="editorial">I am referring to the typescript description
-                        prepared by Marian Zwiercan in 1961, which was kindly made
-                        available to me by the librarians of the manuscript
-                        department.</note></p>
+                     <p>The watermarks were attested in the years 1447–1457 <note type="editorial">I
+                           am referring to the typescript description prepared by Marian Zwiercan in
+                           1961, which was kindly made available to me by the librarians of the
+                           manuscript department.</note></p>
                   </origin>
                   <provenance>
-                     <p>The manuscript belonged to Albert de Szurkowo, who studied in Paris
-                        and donated the codex to his heirs (f. 67rb: <quote source="67rb"
-                           >Liber reverendi magistri Alberti inclite Universitatis
-                           Parisiensis, heredibus de Szurkovo, multum pauperis, etc., ille
-                           legat comissa, deosque precetur et oret, ut redeat miseris,
-                           abeat fortuna superbis</quote>). It subsequently came into the
-                        possession of the Master Iohannes de Iuniwladislavia (f. 1r: <quote
-                           source="1r">Questiones cum lectura De anima, De ente et essentia
-                           et alia magistri Iohannis de Iuniwladislavia</quote>).</p>
+                     <p>The manuscript belonged to Albert de Szurkowo, who studied in Paris and
+                        donated the codex to his heirs (f. 67rb: <quote source="67rb">Liber
+                           reverendi magistri Alberti inclite Universitatis Parisiensis, heredibus
+                           de Szurkovo, multum pauperis, etc., ille legat comissa, deosque precetur
+                           et oret, ut redeat miseris, abeat fortuna superbis</quote>). It
+                        subsequently came into the possession of the Master Iohannes de
+                        Iuniwladislavia (f. 1r: <quote source="1r">Questiones cum lectura De anima,
+                           De ente et essentia et alia magistri Iohannis de
+                        Iuniwladislavia</quote>).</p>
                   </provenance>
                </history>
                <additional>
@@ -1368,7 +1364,7 @@
                   </adminInfo>
                   <listBibl>
                      <bibl>Wysłocki, Katalog II, 618</bibl>
-                     <bibl>Senko, De ente, 17</bibl>                                
+                     <bibl>Senko, De ente, 17</bibl>
                      <bibl>Markowski/Włodek,Aristotelica Cracoviensia, 124</bibl>
                   </listBibl>
                </additional>
@@ -1606,10 +1602,10 @@
                         1471 (QsMeta) and 1477 (QdLong).</p>
                      <origPlace ref="#place_heidelberg">Heidelberg</origPlace>
                      <p>Heidelberg, as stated in the colophon on f. 72va: <quote source="72va"
-                        >Aratus autem hic est libellus per maystrum Petrum Lutcz de Schweyern,
-                        anno millesimo quadrigentesimo septuagesimo sexto, finitusque eodem in
-                        die Thome Cantuariensis martii altera, quod est in die Innocentium, in
-                        alma universitate Heidelbergensi</quote>.</p>
+                           >Aratus autem hic est libellus per maystrum Petrum Lutcz de Schweyern,
+                           anno millesimo quadrigentesimo septuagesimo sexto, finitusque eodem in
+                           die Thome Cantuariensis martii altera, quod est in die Innocentium, in
+                           alma universitate Heidelbergensi</quote>.</p>
                      <!-- ADD refs to QsP questions -->
                   </origin>
                   <provenance>The codex belonged to the Augustinian convent.</provenance>
@@ -1730,7 +1726,7 @@
                   </msItem>
                </msContents>
                <history>
-                  <origin>                     
+                  <origin>
                      <origDate from="1463" to="1463"/>
                      <p>The colophon of the second set of questions on the Ethics informs us that it
                         was copied by Claudius Vernet under the supervision of <persName
@@ -2127,7 +2123,7 @@
                      <p>The <watermark>watermark</watermark>, a flower, is similar to <ref
                            target="biblID" type="bibl">Piccard XII, II 967</ref> (Pavia, 1448).</p>
                      <origPlace>Milan, Dominican convent</origPlace>
-                     <origPlace>Pavia, Dominican convent</origPlace>                     
+                     <origPlace>Pavia, Dominican convent</origPlace>
                   </origin>
                </history>
                <additional>
@@ -2438,7 +2434,7 @@
 
                </msContents>
                <history>
-                  <origin>                     
+                  <origin>
                      <origDate from="1471" to="1471"/>
                      <p>Dating attested in the final colophon: <quote source="115ra">Et sic est
                            finis libri De longitudine et brevitate vite, et per consequens de tota
@@ -2450,7 +2446,7 @@
                            celestis scriptorem participem fac</quote>, f. 115ra</p>
                      <origPlace ref="#place_paris">Paris</origPlace>
                      <p>The manuscript was copied by the benedictine monk <persName
-                        ref="#GeorgiusDeBrabantia">Georgius de Brabantia</persName>, student at
+                           ref="#GeorgiusDeBrabantia">Georgius de Brabantia</persName>, student at
                         Paris Arts Faculty, as evident from the several signatures at the end of the
                         texts (for instance, f. 11va, <quote source="11va">Frater Georgius de
                            Brabantia</quote>; f. 56vb <quote source="56vb">Georgius</quote>; f.
@@ -2460,7 +2456,7 @@
                            facultate artium. Frater Georgius de Brabantia</quote>, f. 109va), the
                         QdSom (<quote source="114rb">Georgius de Brabantia</quote>, f. 114rb), the
                         final colophon (transcribed below), as well as from the initium of the QdSom
-                        (<quote source="113ra">Frater Georgius de Brabantia</quote>, f. 113ra).
+                           (<quote source="113ra">Frater Georgius de Brabantia</quote>, f. 113ra).
                         The name of Georgius de Brabantia also appears in the philaters of the
                         illustrations found in several places of the manuscript, particularly at the
                         beginning of the books. QsP, book II, f. 18ra: <quote source="18ra">Et sic
