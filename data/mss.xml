@@ -1127,13 +1127,6 @@
                      </msItem>
                   </msContents>
                   <additional>
-                     <adminInfo>
-                        <recordHist>
-                           <source cert="high" resp="#">
-                              <p>Ms directly examined</p>
-                           </source>
-                        </recordHist>
-                     </adminInfo>
                      <listBibl>
                         <bibl>Hain 16029</bibl>
                         <bibl>GW M50240</bibl>
@@ -1213,6 +1206,13 @@
                         Mariaenburgensis sum</quote>.</provenance>
                </history>
                <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source cert="high" resp="#">
+                           <p>Ms directly examined</p>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
                   <listBibl>
                      <bibl>Markowski/Włodek, Cracoviensia, 67, 181</bibl>
                   </listBibl>
