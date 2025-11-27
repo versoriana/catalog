@@ -1116,6 +1116,24 @@
                   <bibl>Livesey, Science in the Monastery, 189-192</bibl>
                </listBibl>
             </person>
+            
+            <person xml:id="ReginaldusDeBrule">
+               <name xml:lang="lat">Reginaldus de Brule</name>
+               <note>A member of the Picard Nation at the Faculty of Arts in Paris, he was
+                  admitted to the Collège de Sorbonne in 1452. He served as rector in 1454 and
+                  obtained his licentiate in theology in 1464.</note>
+               <occupation role="fmo" ref="#Paris_BnF_latin16136"/>                   
+               <listBibl>
+                  <bibl>Auctarium II, col. 905, n. 1; V, col. 633, l. 39 n. 1; col. 634, l. 7;
+                     col. 637, l. 4, l. 12; col. 640, l. 7; col. 641, l. 6; col. 643, l. 27,
+                     l. 38; VI, xxiii, col. 257, n. 3</bibl>
+                  <bibl>Vielliard, Registre de prêt, 403–406, 675–76</bibl>
+                  <bibl>Marichal, Le livre des prieurs, 119, 154, 227</bibl>
+                  <bibl>Kałuza, “Débuts,” 281</bibl>
+                  <bibl>Kałuza, “Crise,” 312</bibl>
+                  <bibl>Sullivan, Parisian Licentiates II, 119-121.</bibl>
+               </listBibl>
+            </person>
 
             <!-- Stanislaus de Velvary (Stanislaus de Welwara; Stanislav von Velvary) issue#41 -->
 
