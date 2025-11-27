@@ -33,7 +33,7 @@
             <!-- Albertus Scriptoris de Doesborch († 1466) issue#39 -->
 
             <person xml:id="AlbertusScriptorisDeDoesborch">
-               <name xml:lang="lat">Albertus Scriptoris de Doesborch</name>               
+               <name xml:lang="lat">Albertus Scriptoris de Doesborch</name>
                <death when="1466"/>
                <floruit from="1432" to="1464"/>
                <note>From the diocese of Utrecht, he obtained the degree of Bachelor at the Paris
@@ -73,47 +73,46 @@
                   </bibl>
                </listBibl>
             </person>
-            
-            
+
+
             <person xml:id="AlbertusDeSzurkowo">
                <idno type="CAC">819743</idno>
                <name xml:lang="lat">Albertus de Szurkowo</name>
-               <name xml:lang="pol">Albert/Wojciech z Szurkowa</name>                    
+               <name xml:lang="pol">Albert/Wojciech z Szurkowa</name>
                <note>From the Diocese of Poznań. He obtained the title of Baccalaureus at the
-                  Faculty of Arts in Prague in 1457 under the master Wenceslaus de Krzizanow.
-                  In 1461, he received the license and degree of Magister Artium in Paris. The
-                  same year he left Paris for Cracow, where, from 1462, he taught at the
-                  Faculty of Arts.</note>
-               <occupation role="fmo" ref="#Kraków_BibliotekaJagiellońska_cod2599"/>                    
+                  Faculty of Arts in Prague in 1457 under the master Wenceslaus de Krzizanow. In
+                  1461, he received the license and degree of Magister Artium in Paris. The same
+                  year he left Paris for Cracow, where, from 1462, he taught at the Faculty of
+                  Arts.</note>
+               <occupation role="fmo" ref="#Kraków_BibliotekaJagiellońska_cod2599"/>
                <listBibl>
-                  <bibl>Liber decanorum facultatis philosophicae Universitatis Pragensis,
-                     59</bibl>
+                  <bibl>Liber decanorum facultatis philosophicae Universitatis Pragensis, 59</bibl>
                   <bibl>Auctarium II, col. 917, l. 45, col. 941, l. 9-10</bibl>
                   <bibl>Auctarium VI, col. 351, l. 13-14; col. 353, l. 48-49</bibl>
                   <bibl>Liber promotionum, 57</bibl>
-                  <bibl>Albert/Wojciech z Szurkowa, syn Alberta/Wojciecha (Id: 819743), w:
-                     Corpus Academicum Cracoviense (CAC), URL: <ref
+                  <bibl>Albert/Wojciech z Szurkowa, syn Alberta/Wojciecha (Id: 819743), w: Corpus
+                     Academicum Cracoviense (CAC), URL: <ref
                         target="http://cac.historia.uj.edu.pl/osoba/819743_Albert_Wojciech_z_Szurkowa_syn_Alberta_Wojciecha"
                         >http://cac.historia.uj.edu.pl/osoba/819743_Albert_Wojciech_z_Szurkowa_syn_Alberta_Wojciecha</ref>
                      (accessed: 03.09.2025).</bibl>
                </listBibl>
             </person>
-            
+
             <!-- Ambrosius Allantsee issue#32-->
             <person xml:id="AmbrosiusAllantsee">
                <idno type="GND">11960289X</idno>
                <idno type="VIAF">72206754</idno>
-               <idno type="CERL">cnp01120126</idno>                      
-               <name xml:lang="lat">Ambrosius Allantsee</name>               
+               <idno type="CERL">cnp01120126</idno>
+               <name xml:lang="lat">Ambrosius Allantsee</name>
                <death when="1505"/>
-               <note>He studied at Basel University. He entered the Clunian monastery of St. Alban and
-                  later the chartustians in Christgarten, Nördlingen and Kleinbasel. Prior of St.
-                  Mang in Füssen. He brought the manuscripts he had copied at Basel University in
-                  Füssen (II.lat.1. folio.8, II.lat.1.folio.93, II.lat.1.folio.94,
+               <note>He studied at Basel University. He entered the Clunian monastery of St. Alban
+                  and later the chartustians in Christgarten, Nördlingen and Kleinbasel. Prior of
+                  St. Mang in Füssen. He brought the manuscripts he had copied at Basel University
+                  in Füssen (II.lat.1. folio.8, II.lat.1.folio.93, II.lat.1.folio.94,
                   II.lat.1.folio.103, II.lat.1.folio.128, II.lat.1. quarto.33). He died in
                   1505.</note>
                <affiliation subtype="OCart" type="religiousOrder">Carthusian</affiliation>
-               <occupation role="fmo" ref="#Augsburg_UniversitätsbibliothekAugsburg_CodII12220"/>               
+               <occupation role="fmo" ref="#Augsburg_UniversitätsbibliothekAugsburg_CodII12220"/>
                <listBibl>
                   <bibl>Scarpatetti, Datierte I, 252</bibl>
                   <bibl>Hilg, Lateinische mittelalterliche Handschriften, 13-14</bibl>
@@ -121,21 +120,21 @@
             </person>
 
             <person xml:id="AndreaDeGambyn">
-               <idno type="CAC">2015096</idno>          
+               <idno type="CAC">2015096</idno>
                <name xml:lang="lat">Andrea de Gambyn</name>
-               <name xml:lang="pol">Andrzej z Gąbina</name>               
+               <name xml:lang="pol">Andrzej z Gąbina</name>
                <floruit from="1465" to="1474"/>
-               <note>Matriculated at Krakow in 1465; received a Bachelor’s degree in 1468;
-                  obtained a Master’s degree in 1474.</note>
-               <occupation role="fmo scr" ref="#Kraków_BibliotekaJagiellońska_cod2016"/>                    
+               <note>Matriculated at Krakow in 1465; received a Bachelor’s degree in 1468; obtained
+                  a Master’s degree in 1474.</note>
+               <occupation role="fmo scr" ref="#Kraków_BibliotekaJagiellońska_cod2016"/>
                <listBibl>
                   <bibl>Catalogus 2, 314</bibl>
                   <bibl>Metryka, 315</bibl>
-                  <bibl>Andrzej z Gąbina, syn Alberta/Wojciecha (Id: 2015096), in: Corpus
-                     Academicum Cracoviense (CAC), URL: <ref
+                  <bibl>Andrzej z Gąbina, syn Alberta/Wojciecha (Id: 2015096), in: Corpus Academicum
+                     Cracoviense (CAC), URL: <ref
                         target="http://cac.historia.uj.edu.pl/osoba/2015096_Andrzej_z_G%C4%85bina_syn_Alberta_Wojciecha"
                         >http://cac.historia.uj.edu.pl/osoba/2015096_Andrzej_z_G%C4%85bina_syn_Alberta_Wojciecha</ref>
-                     (accessed: 04.09.2025).</bibl>                      
+                     (accessed: 04.09.2025).</bibl>
                </listBibl>
             </person>
 
@@ -146,59 +145,58 @@
                <floruit from="1468" to="1470"/>
                <note>He received the degree of Bachelor at the University of Kraków in 1468 and
                   obtained the Master’s degree there in 1470.</note>
-               <occupation role="fmo" ref="#Kraków_BibliotekaJagiellońska_cod2018"/>                   
+               <occupation role="fmo" ref="#Kraków_BibliotekaJagiellońska_cod2018"/>
                <listBibl>
-                  <bibl>Andrzej z Paradyża, cysters (Id: 2016015), in: Corpus Academicum
-                     Cracoviense (CAC), URL: <ref
+                  <bibl>Andrzej z Paradyża, cysters (Id: 2016015), in: Corpus Academicum Cracoviense
+                     (CAC), URL: <ref
                         target="http://cac.historia.uj.edu.pl/osoba/2016015_Andrzej_z_Parady%C5%BCa_cysters"
                         >http://cac.historia.uj.edu.pl/osoba/2016015_Andrzej_z_Parady%C5%BCa_cysters</ref>
                      (Dostęp: 31.08.2025).</bibl>
                </listBibl>
             </person>
 
-            <person xml:id="BalthasarBosch">                    
+            <person xml:id="BalthasarBosch">
                <idno type="GND">1075152763</idno>
                <idno type="VIAF">317058879</idno>
                <idno type="CERL">cnp02127865</idno>
                <name xml:lang="lat">Balthasar Bosch</name>
-               <note>Originally from Imst, Tirol, he studied at Heidelberg University around
-                  1485 and entered the Cistercian monastery of Stams, Tirol.</note>
-               <occupation role="fmo"
-                  ref="#Innsbruck_UniversitätsundLandesbibliothekTirol_Cod220"/>               
+               <note>Originally from Imst, Tirol, he studied at Heidelberg University around 1485
+                  and entered the Cistercian monastery of Stams, Tirol.</note>
+               <occupation role="fmo" ref="#Innsbruck_UniversitätsundLandesbibliothekTirol_Cod220"/>
                <listBibl>
-                  <bibl>Pirmin (A.) Lindner, Album Stamsense seu Catalogus Religiosorum sacri
-                     et exempti Ordinis Cisterciensis archiducalis Monasterii B. V. Mariae et
-                     S. Joann. Bapt. in Stams 1272–1898. Salisburgi 1898, 22, Nr. 261</bibl>
+                  <bibl>Pirmin (A.) Lindner, Album Stamsense seu Catalogus Religiosorum sacri et
+                     exempti Ordinis Cisterciensis archiducalis Monasterii B. V. Mariae et S. Joann.
+                     Bapt. in Stams 1272–1898. Salisburgi 1898, 22, Nr. 261</bibl>
                   <bibl>Toepke, Matrikel, I, 379 [1485]</bibl>
                   <bibl>K. Walsh, “Zwei Stamser Zisterzienser an der Universität Heidelberg:
                      Melchior und Balthasar Bosch aus Imst als Besitzer von Innsbruck,
-                     Universitätsbibliothek Cod. 220, und ihr Freundeskreis”, in Kulturerbe
-                     und Bibliotheksmanagement. Festschrift für Walter Neuhauser
-                     (Biblos-Schriften 170). Innsbruck 1998, 89–122.</bibl>
+                     Universitätsbibliothek Cod. 220, und ihr Freundeskreis”, in Kulturerbe und
+                     Bibliotheksmanagement. Festschrift für Walter Neuhauser (Biblos-Schriften 170).
+                     Innsbruck 1998, 89–122.</bibl>
                </listBibl>
             </person>
-            
+
             <person xml:id="ClaudiusVerneti">
                <name xml:lang="lat">Claudius Verneti</name>
                <note>
-                  <p>From the diocese of Besançon (dyocesis Bisuntiensis), he studied as a
-                     member of the French Nation at the Paris Faculty of Arts. In 1463, he
-                     was under the supervision of Master Galterus de Walma at the Collège de
-                     Bourgogne. He later served as regent master at the University of Dole,
-                     as attested by the possession mark on the lower margin of the back cover
-                     of manuscript Paris, BnF, latin 604: <quote source="lower margin of the back cover">Iste libellus emptus a domino
-                        Petro, herede reverendi magistri nostri Vincentii Sarraseni, sacre
+                  <p>From the diocese of Besançon (dyocesis Bisuntiensis), he studied as a member of
+                     the French Nation at the Paris Faculty of Arts. In 1463, he was under the
+                     supervision of Master Galterus de Walma at the Collège de Bourgogne. He later
+                     served as regent master at the University of Dole, as attested by the
+                     possession mark on the lower margin of the back cover of manuscript Paris, BnF,
+                     latin 604: <quote source="lower margin of the back cover">Iste libellus emptus
+                        a domino Petro, herede reverendi magistri nostri Vincentii Sarraseni, sacre
                         theologie professoris (cuius anima pace fruatur), per magistrum Claudium
                         Verneti, artium regentem Doli, eidem emptori pertinet. Ista est per me,
                         Verneti</quote>.</p>
-                  <p>He is not mentioned in volume V oft he Auctarium, which only reaches the
-                     year 1456.</p>
+                  <p>He is not mentioned in volume V oft he Auctarium, which only reaches the year
+                     1456.</p>
                </note>
-               <occupation role="scr" ref="#Paris_BnF_latin6691"/>                    
+               <occupation role="scr" ref="#Paris_BnF_latin6691"/>
                <listBibl>
                   <bibl>Ouy, “Un catalogue d’un type nouveau”, 288</bibl>
-                  <bibl>K. Rebmeister-Klein, Les livres des petits collèges à Paris aux XIVe
-                     et XVe siècles, Doct. Paris 1, 2005, III, 834-835</bibl>
+                  <bibl>K. Rebmeister-Klein, Les livres des petits collèges à Paris aux XIVe et XVe
+                     siècles, Doct. Paris 1, 2005, III, 834-835</bibl>
                   <bibl>Bakker, Kok, Secundum intentionem Doctoris Subtilis, 264, n. 3</bibl>
                </listBibl>
             </person>
@@ -235,7 +233,7 @@
 
             <person xml:id="ClemensParmentarii">
                <name xml:lang="lat">Clemens Parmentarii</name>
-               <name xml:lang="fr">Clémens Parmentier</name>               
+               <name xml:lang="fr">Clémens Parmentier</name>
                <floruit from="1440" to="1466"/>
                <note>Clémens Parmentier, a member of the Norman nation, taught at the Faculty of
                   Arts in Paris from the 1440s onward and was appointed rector of the University in
@@ -256,20 +254,19 @@
             </person>
 
             <person xml:id="ChristianusLupi">
-               <name xml:lang="lat">Christianus Lupi</name>                    
+               <name xml:lang="lat">Christianus Lupi</name>
                <note>Studied at the Collège de Tournai of Paris University as a member of the
-                  Anglo-German Nation and obtained the degree of bachelor in 1465. His studies
-                  are attested also in ms. Berlin, Staatsbibliotheek Preußischer Kulturbesitz,
-                  Ms. theol. qu. 26. He later entered the franciscain convent in
-                  Brandeburg.</note>
+                  Anglo-German Nation and obtained the degree of bachelor in 1465. His studies are
+                  attested also in ms. Berlin, Staatsbibliotheek Preußischer Kulturbesitz, Ms.
+                  theol. qu. 26. He later entered the franciscain convent in Brandeburg.</note>
                <affiliation type="religiousOrder" subtype="OFM">Franciscan</affiliation>
                <occupation role="scr"
-                  ref="#Berlin_StaatsbibliotheekPreußischerKulturbesitz_Mslatqu87"/>                    
+                  ref="#Berlin_StaatsbibliotheekPreußischerKulturbesitz_Mslatqu87"/>
                <listBibl>
                   <bibl>Auctarium II, col. 955, l. 35; VI, col. 397, l. 15</bibl>
-                  <bibl>G. Abb, G. Wentz, Das Bistum Brandenburg 1 (Germania Sacra A. F. Abt.
-                     1: Die Bistümer der Kirchenprovinz Magdeburg), Berlin 1929, reprint
-                     Berlin 1963, 369</bibl>
+                  <bibl>G. Abb, G. Wentz, Das Bistum Brandenburg 1 (Germania Sacra A. F. Abt. 1: Die
+                     Bistümer der Kirchenprovinz Magdeburg), Berlin 1929, reprint Berlin 1963,
+                     369</bibl>
                   <bibl>Rebmeister-Klein, Les livres des petits collèges, 1149-1157</bibl>
                   <bibl>
                      <ref
@@ -277,8 +274,8 @@
                         >http://studium-parisiense.univ-paris1.fr/individus/1628-christianuslupi</ref>
                      (accessed 04.10.2025)</bibl>
                   <bibl>“Christianus Lupi” (GSN: 002-04366-002), in: Germania Sacra, <ref
-                     target="https://personendatenbank.germania-sacra.de/index/gsn/002-04366-002"
-                     >https://personendatenbank.germania-sacra.de/index/gsn/002-04366-002</ref>
+                        target="https://personendatenbank.germania-sacra.de/index/gsn/002-04366-002"
+                        >https://personendatenbank.germania-sacra.de/index/gsn/002-04366-002</ref>
                      (accessed 04.10.2025).</bibl>
                </listBibl>
             </person>
@@ -290,8 +287,8 @@
                <idno type="CERL">cnp00409088</idno>
                <name xml:lang="lat">Crux de Telcz</name>
                <name xml:lang="cz">Kříž z Telče</name>
-               <birth when="1434"/>               
-               <death when="1504"/>         
+               <birth when="1434"/>
+               <death when="1504"/>
                <floruit from="1459" to="1472"/>
                <note>Crux’s studies at King Wenceslas College at Prague University between April and
                   November 1459 are well documented by the large number of colophons he left. He did
@@ -301,7 +298,7 @@
                   Cathedral in Prague (1463–1466), and later in Plzeň (1468–1472). He was ordained
                   in 1463 and joined the Augustinian canonry in Třeboň (Wittingau in German).</note>
                <!-- no links inside biography -->
-               <affiliation subtype="OESA" type="religiousOrder">Augustinian</affiliation>                             
+               <affiliation subtype="OESA" type="religiousOrder">Augustinian</affiliation>
                <occupation role="scr fmo" ref="#Praha-NK-I-E-38"/>
                <occupation role="scr fmo" ref="#IF25"/>
                <listBibl>
@@ -317,7 +314,7 @@
                <name xml:lang="lat">Folpardus de Ameronghen</name>
                <name xml:lang="lat">Folpardus de Hameronghen</name>
                <name xml:lang="lat">Folpardus Hameronge</name>
-               <name xml:lang="lat">Fohardus Hameronge</name>               
+               <name xml:lang="lat">Fohardus Hameronge</name>
                <floruit from="1448" to="1459"/>
                <note>Native from the diocese of Utrecht. As a member of the German nation at the
                   University of Paris, he obtained the degree of bachelor of Arts in 1448 and the
@@ -357,7 +354,7 @@
                   <bibl>Sullivan, Parisian Licentiates, II, 410.</bibl>
                </listBibl>
             </person>
-            
+
             <!-- Galtherus de Walma issue#13-->
             <person xml:id="GaltherusDeWalma">
                <name xml:lang="lat">Galtherus de Walma</name>
@@ -366,17 +363,17 @@
                <name xml:lang="lat">Galtherus de Varnia</name>
                <name xml:lang="lat">Galtherus de Vernia</name>
                <name xml:lang="lat">Galtherus de Werfia</name>
-               <name xml:lang="lat">Galtherus de Veruia</name>               
+               <name xml:lang="lat">Galtherus de Veruia</name>
                <floruit from="1442" to="1480"/>
                <note><p>The colophon of manuscript Paris, BnF, latin 6691 informs us that Galtherus
-                  de Walma was a regent master at the Collège de Bourgogne in 1463. According to
-                  Paul Bakker, it is probable that this master should be identified with
-                  Galtherus de Wervia (also spelled Warnia, Varnia, Vernia, Werfia, Veruia), the
-                  author of a commentary on the Isagoge and another on De anima. Bakker argues
-                  this identification is plausible due to the various attested spellings of the
-                  name and because Galtherus de Wervia was also active at the Collège de
-                  Bourgogne during the same period, as evidenced by the colophons of the Isagoge
-                  and De anima commentaries.</p>
+                     de Walma was a regent master at the Collège de Bourgogne in 1463. According to
+                     Paul Bakker, it is probable that this master should be identified with
+                     Galtherus de Wervia (also spelled Warnia, Varnia, Vernia, Werfia, Veruia), the
+                     author of a commentary on the Isagoge and another on De anima. Bakker argues
+                     this identification is plausible due to the various attested spellings of the
+                     name and because Galtherus de Wervia was also active at the Collège de
+                     Bourgogne during the same period, as evidenced by the colophons of the Isagoge
+                     and De anima commentaries.</p>
                   <p>If this identification is correct, Bakker further argues, then Galtherus de
                      Wervia would also be the author of the commentary on the Ethics transmitted in
                      the Parisian manuscript. While I agree that the identification of Galtherus de
@@ -403,8 +400,8 @@
                      1472. During this period, he likely licensed in theology, as he is listed in
                      the records of the University of Heidelberg in 1475 as having received his
                      license in theology from Paris. After his time in Heidelberg, he moved to
-                     Tübingen, where he earned the title of Doctor of Theology in 1480.</p></note>               
-               <occupation role="tch" ref="#Paris_BnF_latin6691"/>               
+                     Tübingen, where he earned the title of Doctor of Theology in 1480.</p></note>
+               <occupation role="tch" ref="#Paris_BnF_latin6691"/>
                <note type="role">Master supervising the copy</note>
                <listBibl>
                   <bibl>Weijers, Le travail intellectuel, vol. 3, p. 63–64</bibl>
@@ -463,7 +460,7 @@
                   found in MS 597.</note>
                <affiliation subtype="OSB" type="religiousOrder">Benedictine</affiliation>
                <occupation role="scr fmo"
-                  ref="#SaintOmer_BibliothèquedAgglomérationduPaysdeSaintOmerBibliothèquemunicipale_597"/>                
+                  ref="#SaintOmer_BibliothèquedAgglomérationduPaysdeSaintOmerBibliothèquemunicipale_597"/>
                <listBibl>
                   <bibl>Gil, Saint-Omer gothique, 379</bibl>
                   <bibl>T. Sullivan, Benedictine Monks at the University of Paris: A.D. 1229–1500: A
@@ -471,19 +468,19 @@
                   <bibl>Livesey, Science in the Monastery, 210–212 (MS 597); 216–218 (MS 600)</bibl>
                </listBibl>
             </person>
-            
-            
+
+
             <!-- Georgius Erber de Aibling issue#24 -->
 
             <person xml:id="GeorgiusErberDeAibling">
-               <name xml:lang="lat">Georgius Erber de Aibling</name>               
+               <name xml:lang="lat">Georgius Erber de Aibling</name>
                <note>After studying at the universities of Erfurt (1452) and Vienna (1455), Georgius
                   Erber moved to Paris, where he was affiliated with the Anglo-German Nation and was
                   a member of the Collège de la Marche (1460–1463). He obtained the degree of
                   Bachelor of Arts in 1461 and the degree of Master in 1463. During this period, he
                   acquired two volumes containing commentaries attributed to Versoris – one on
                   natural philosophy and the other on logic – which he brought with him when,
-                  shortly after completing his studies, he moved to Coburg</note>               
+                  shortly after completing his studies, he moved to Coburg</note>
                <occupation role="fmo" ref="#Berlin_SB-PK_latfol402"/>
                <occupation role="fmo" ref="#Berlin_SB-PK_Hdschr435"/>
                <listBibl>
@@ -509,12 +506,12 @@
                <name xml:lang="lat">Gilbertus Alvergnat</name>
                <name xml:lang="lat">Gilbertus Alverniaci</name>
                <name xml:lang="lat">Gilbertus Auvergnaci</name>
-               <name xml:lang="lat">Gilbertus Auverniaci</name>                          
+               <name xml:lang="lat">Gilbertus Auverniaci</name>
                <note>From the diocese of Bourges (diocesis Bituricensis), bachelor in 1477, licensed
                   in 1448 under the master Petrus Caroz. After some years of absence, he was elected
                   procurator of the French nation from 1454 to 1456.</note>
                <occupation role="scr" ref="#Oxford_BodleianLibrary_CanonMisc211"/>
-               
+
                <listBibl>
                   <bibl>Auctarium, V, col. 197, l. 11; col. 254, l. 22; col. 255, l. 22; col. 262,
                      l. 31; col. 617, l. 18, l. 40; col. 618, l. 5, l. 24, l. 35; col. 619, l. 4, l.
@@ -551,7 +548,7 @@
             <!-- Iacobus Pol, OSB issue#9 -->
 
             <person xml:id="IacobusPol">
-               <name xml:lang="lat">Iacobus Pol</name>               
+               <name xml:lang="lat">Iacobus Pol</name>
                <death when="1500"/>
                <note>Iacobus Pol studied at the universities of Paris and Cologne, as attested by
                   manuscripts Saint-Omer, Bibliothèque d'Agglomération du Pays de Saint-Omer, Ms 586
@@ -591,35 +588,33 @@
             <person xml:id="IacobusUngelinkDeStendal">
                <name xml:lang="lat">Iacobus Ungelink de Stendal</name>
                <name xml:lang="lat">Iacobus Unghelinghe de Stendal</name>
-               <name xml:lang="lat">Iacobus Ungelink de Stendel</name>               
-               <note>From the Diocese of Halberstadt, he studied at the Faculty of Arts in
-                  Paris as a member of the Anglo-German nation, obtaining the bachelor’s
-                  degree in 1465 and the master’s degree in 1467. He subsequently moved to
-                  Magdeburg, where he is attested at the Dominican convent between 1472 and
-                  1486. In 1472 he lectured on natural philosophy based on the commentaries of
-                  Petrus de Rivo, as attested in the manuscript Berlin, Staatsbibliothek
-                  Preußischer Kulturbesitz, Magdeburg 220, f. 503va: <quote source="503va">Finitur lectura subtilis
-                     eximii sacre theologie professoris, magistri Petri de Rivo, Universitatis
-                     Lovaniensis ducatus Brabantini, super libros philosophie speculative
-                     Aristotelis, philosophi ingeniosissimi, quam ego, frater Dominicus de
-                     Zuuollis, scripsi et audivi in conventu nostro Magdeburgensi Ordinis
-                     Praedicatorum sub fratre Iacobo de Stendel, artium magistro preclaro
-                     Parisiensi, sub anno domini 1472. Eandem autem legi in conventu nostro alme
-                     Universitatis Rostochiensis sub anno domini 1476 [1486 add. alia
-                     manu].</quote></note>
+               <name xml:lang="lat">Iacobus Ungelink de Stendel</name>
+               <note>From the Diocese of Halberstadt, he studied at the Faculty of Arts in Paris as
+                  a member of the Anglo-German nation, obtaining the bachelor’s degree in 1465 and
+                  the master’s degree in 1467. He subsequently moved to Magdeburg, where he is
+                  attested at the Dominican convent between 1472 and 1486. In 1472 he lectured on
+                  natural philosophy based on the commentaries of Petrus de Rivo, as attested in the
+                  manuscript Berlin, Staatsbibliothek Preußischer Kulturbesitz, Magdeburg 220, f.
+                  503va: <quote source="503va">Finitur lectura subtilis eximii sacre theologie
+                     professoris, magistri Petri de Rivo, Universitatis Lovaniensis ducatus
+                     Brabantini, super libros philosophie speculative Aristotelis, philosophi
+                     ingeniosissimi, quam ego, frater Dominicus de Zuuollis, scripsi et audivi in
+                     conventu nostro Magdeburgensi Ordinis Praedicatorum sub fratre Iacobo de
+                     Stendel, artium magistro preclaro Parisiensi, sub anno domini 1472. Eandem
+                     autem legi in conventu nostro alme Universitatis Rostochiensis sub anno domini
+                     1476 [1486 add. alia manu].</quote></note>
                <affiliation type="religiousOrder" subtype="OP">Dominican</affiliation>
-               <occupation role="scr" ref="#Basel_UB_FII14"/>                    
+               <occupation role="scr" ref="#Basel_UB_FII14"/>
                <listBibl>
-                  <bibl>Auctarium II, col. 955, l. 36; VI, col. 397, l. 16; col. 429, l. 21;
-                     col. 440, l. 24</bibl>
-                  <bibl>U. Winter, K. Heydeck, Die Manuscripta Magdeburgica der
-                     Staatsbibliothek zu Berlin Preußischer Kulturbesitz, Teil 3: Ms. Magdeb.
-                     170–286, Wiesbaden 2007, 33–36, 189 (with indication of other
-                     manuscripts copied by him)</bibl>
+                  <bibl>Auctarium II, col. 955, l. 36; VI, col. 397, l. 16; col. 429, l. 21; col.
+                     440, l. 24</bibl>
+                  <bibl>U. Winter, K. Heydeck, Die Manuscripta Magdeburgica der Staatsbibliothek zu
+                     Berlin Preußischer Kulturbesitz, Teil 3: Ms. Magdeb. 170–286, Wiesbaden 2007,
+                     33–36, 189 (with indication of other manuscripts copied by him)</bibl>
                   <bibl>S. Masolini, “Two Commentaries on the De sensu et sensato from
-                     Fifteenth-Century Louvain,” in M. Mantovani, R. Zambiasi, and G.
-                     Zuccolin (eds.), Aristotle’s De sensu in the Latin Tradition, 1250–1650,
-                     Firenze 2023, 227–269, at 239–240.</bibl>
+                     Fifteenth-Century Louvain,” in M. Mantovani, R. Zambiasi, and G. Zuccolin
+                     (eds.), Aristotle’s De sensu in the Latin Tradition, 1250–1650, Firenze 2023,
+                     227–269, at 239–240.</bibl>
                </listBibl>
             </person>
 
@@ -627,20 +622,20 @@
             <!-- Iohannes Abbatis (Jean l'Abbé) issue#33 -->
             <person xml:id="IohannesAbbatis">
                <name xml:lang="lat">Iohannes Abbatis</name>
-               <name xml:lang="fr">Jean l'Abbé</name>               
+               <name xml:lang="fr">Jean l'Abbé</name>
                <note>From the diocese of Reims, he studied at the Faculty of Arts in Paris as a
                   member of the French Nation. Between 1450 and 1452, he studied at the Collège de
                   la Marche, as attested by manuscript Reims, Bibliothèque Carnegie (Bibliothèque
                   municipale), 897 (I. 678). He was promoted baccalarius in 1452, and master in
                   1453. He later served as provost of the chapter of Reims Cathedral and as general
                   vicar of the Archbishop of Reims. He owned other manuscripts now kept in Reims:
-                  58, 562, 97, 705.</note>               
+                  58, 562, 97, 705.</note>
                <occupation role="scr"
-                  ref="#Reims_BibliothèqueCarnegieBibliothèquemunicipale_897I678"/>               
+                  ref="#Reims_BibliothèqueCarnegieBibliothèquemunicipale_897I678"/>
                <listBibl>
                   <bibl>Auctarium V, col. 478, l. 17; col. 526, l. 23; col. 529, l. 3</bibl>
                   <bibl>Riou, "Alfarabi, Aristote, Platon" <note type="biblio">who considers
-                     Iohannes Abbatis as the author of the commentaries</note></bibl>
+                        Iohannes Abbatis as the author of the commentaries</note></bibl>
                </listBibl>
             </person>
 
@@ -650,11 +645,11 @@
             <person xml:id="IohannesCoromines">
                <name xml:lang="lat">Iohannes Coromines</name>
                <name xml:lang="lat">Iohannes Colomines</name>
-               <name xml:lang="lat">Iohannes Cormines</name>               
+               <name xml:lang="lat">Iohannes Cormines</name>
                <note>Originally from the Diocese of Barcelona (Dioecesis Barchinonensis), he was a
                   member of the French Nation at the Faculty of Arts in Paris. He incepted in the
                   Arts in 1444; studied theology under Robertus Ciboule and obtained his licentiate
-                  in 1458. He served as procurator of the French Nation from August 1447.</note>               
+                  in 1458. He served as procurator of the French Nation from August 1447.</note>
                <occupation role="pat" ref="#Oxford_BodleianLibrary_CanonMisc211"/>
                <note type="role">Student for whom Johannes Run copied the texts</note>
                <listBibl>
@@ -672,10 +667,78 @@
                </listBibl>
             </person>
 
+
+            <person xml:id="IohannesHeynlinDeLapide">
+               <idno type="GND">119011700;</idno>
+               <idno type="VIAF">106970261</idno>
+               <idno type="CERL">cnp01933916</idno>
+               <name xml:lang="lat">Iohannes Heynlin de Lapide</name>
+               <birth when="1430" cert="medium"/>
+               <death when="1496" cert="medium"/>                                        
+               <note>Studied in Leipzig, where he obtained the bachelor degree in 1450, and
+                  shortly in Louvain, in 1453. Matriculated in Paris in 1454 and active
+                  there until 1473, with some intervals when he stayed in Basel
+                  (1464-1466). Licensed in the Arts in 1455. He introduced the via antiqua
+                  at Basel University. In 1467, he come back to Paris and two years later
+                  was rector of the Arts Faculty. In 1470, with his friend Guillaume
+                  Fichet, he installed a typography at the Collège de la Sorbonne, which
+                  was the first one in France. Obtained the degree of doctor in theology
+                  at the Sorbonne in 1472. In 1487, he entered the Carthusian order in
+                  Basel. He owned 283 codices, legated after his death to the library of
+                  the Basel Carthusians.                        
+               </note>
+               <affiliation type="religiousOrder" subtype="OCart">Carthusian</affiliation>
+               <occupation role="scr fmo" ref="#Basel_UB_FIII10"/>
+               <occupation role="scr fmo" ref="#Basel_UB_FIII11"/>
+               <occupation role="scr fmo" ref="#Basel_UB_FVI67"/>
+               <occupation role="scr fmo" ref="#Basel_UB_FVII11"/>
+               <occupation role="fmo" ref="#Basel_UB_FII14"/>
+               <occupation role="fmo" ref="#Basel_UB_FIII12"/>
+               <occupation role="fmo" ref="#Basel_UB_FVI16"/>                                                            
+               <listBibl>
+                  <bibl>Auctarium II, col. 903, l.20; col. 907, l. 14; col. 913, l. 24, 38;
+                     col. 916, l. 23, n. 6; col. 917, l. 16, 23, n. 2; col. 921, l. 27, 36;
+                     col. 926, l. 35, 38, 42; col. 930, l. 22, 27; col. 939, l. 43; col. 948,
+                     l. 34; III, col. 49, l. 15, n 2; col. 52, l. 36; col. 67, l. 28; col.
+                     68, l. 3, l. 19; col. 70, l. 7; col. 74, l. 16; col. 75, l. 44; col. 80,
+                     l. 49; col. 84, l. 29; col. 91, l. 39; col. 92, l. 19; col. 94, l. 41;
+                     col. 112, l. 7; col. 113, l. 46; col. 114, l. 3; col. 116, l. 46; col.
+                     118, l. 17; col. 118, l. 20; col. 118, l. 23; col. 119, l. 24, l. 42;
+                     col. 120, l. 38-39; col. 121, l. 20; col. 124, l. 29; col. 145, l. 36;
+                     col. 148, l. 48; col. 160, l. 20; col. 173, l. 21; col. 179, l. 19; col.
+                     179, l. 27; col. 189, l. 13; col. 190, l. 11; col. 194, l. 4; col. 194,
+                     l. 31; col. 195, l. 10; col. 204, l. 1; col. 209, l. 19; col. 240, n 2;
+                     col. 274, l. 15; col. 275, l. 26; col. 275, l. 28; col. 275, l. 30; col.
+                     275, l. 34; col. 275, l. 36</bibl>
+                  <bibl>Auctarium VI, col. 124, n. 1; col. 250, l. 4, n. 7; col. 266, l. 11;
+                     col. 282, l. 5, n. 2; col. 293, l. 19, n. 2; col. 296, l. 46; col. 297,
+                     l. 21, n. 1; col. 298, l. 6, n. 3; col. 308–316; col. 324, l. 35; col.
+                     325, l. 10; col. 327, l. 34; col. 328, l. 31; col. 329, l. 5; col. 336,
+                     l. 21, n.4, l. 28; col. 337, l. 17, l. 40; col. 341, l. 6; col. 349, l.
+                     33; col. 378, l. 15; col. 434, n. 6; col. 456, l. 17, n. 6, l. 40; col.
+                     460, l. 4; col. col. 474, l. 12</bibl>
+                  <bibl>M. Hossfeld, “Johannes Heynlin aus Stein”, Basler Zeitschrift für
+                     Geschichte und Altertumskunde 6 (1907), 309–356</bibl>
+                  <bibl>M. Hossfeld, “Johannes Heynlin aus Stein. Ein Kapitel aus der Frühzeit
+                     des deutschen Humanismus”, Basler Zeitschrift für Geschichte und
+                     Altertumskunde 6 (1907), 309–356; 7 (1908) 79–219 and 235–431</bibl>                        
+                  <bibl>“Die Büchersammlung des Johannes de Lapide (gest.
+                     1496). Eine ausserordentliche Bibliothek als einziger Spiegel einer
+                     ausserordentlichen Person”, Gazette du livre médiéval 34 (1999),
+                     37–43</bibl>
+                  <bibl>B. von Scarpatetti, “Weltverachtung an der Schwelle der Neuzeit. Zu den Glossen in
+                     der Bibliothek Heynlins von Stein (ca. 1430–1496)”, Basler Zeitschrift
+                     für Geschichte und Altertumskunde 110 (2010), 107–126</bibl>
+                  <bibl>Sullivan, Parisian Licentiates II, 281–284</bibl>
+                  <bibl>B. von Scarpatetti, Bücherliebe und Weltverachtung. Die Bibliothek des
+                     Volkspredigers Heynlin von Stein und ihr Geheimnis, Basel 2021.</bibl>
+               </listBibl>
+            </person>
+
             <!--  Iohannes Run issue#15 -->
 
             <person xml:id="IohannesRun">
-               <name xml:lang="lat">Iohannes Run</name>               
+               <name xml:lang="lat">Iohannes Run</name>
                <note>Originally from the diocesis of Tréguier (Trecorensis) in Bretagne, he licensed
                   and incepted at the Arts Faculty of the University of Paris in Mai 1444.</note>
                <occupation role="scr" ref="#Oxford_BodleianLibrary_CanonMisc211"/>
@@ -695,20 +758,20 @@
                <name xml:lang="pol">Marcin Kułab of Tarnowiec</name>
                <birth when="1460" cert="medium"/>
                <death when="1538"/>
-               <note>Matriculated at Cracow University in 1477. He obtained the master’s
-                  degree at the Faculty of Arts of the University of Kraków in 1489. He was
-                  active as magister regens from 1490 to 1536. He also studied theology and
-                  obtained the title of doctor in 1519. He remained active at the University
-                  until his death in Kraków in 1538. He served as canon of the Church of St.
-                  Florian in 1530 and as provost of the Collegium Maius in 1506. </note>
+               <note>Matriculated at Cracow University in 1477. He obtained the master’s degree at
+                  the Faculty of Arts of the University of Kraków in 1489. He was active as magister
+                  regens from 1490 to 1536. He also studied theology and obtained the title of
+                  doctor in 1519. He remained active at the University until his death in Kraków in
+                  1538. He served as canon of the Church of St. Florian in 1530 and as provost of
+                  the Collegium Maius in 1506. </note>
                <occupation role="scr" ref="#Kraków_BibliotekaJagiellońska_cod2524"/>
                <listBibl>
                   <bibl>PSB 19, 574</bibl>
                   <bibl>21 [to be checked]</bibl>
                   <bibl>Metryka, 292</bibl>
                   <bibl>Knoll, A Pearl of Powerful Learning, 218–219</bibl>
-                  <bibl>Marcin Kułab z Tarnowca, syn Mikołaja (Id: 2019376), in: Corpus
-                     Academicum Cracoviense (CAC), URL: <ref
+                  <bibl>Marcin Kułab z Tarnowca, syn Mikołaja (Id: 2019376), in: Corpus Academicum
+                     Cracoviense (CAC), URL: <ref
                         target="http://cac.historia.uj.edu.pl/osoba/2019376_Marcin_Ku%C5%82ab_z_Tarnowca_syn_Miko%C5%82aja"
                         >http://cac.historia.uj.edu.pl/osoba/2019376_Marcin_Ku%C5%82ab_z_Tarnowca_syn_Miko%C5%82aja</ref>
                      (accessed: 02.09.2025).</bibl>
@@ -721,43 +784,41 @@
                <idno type="VIAF">1075152739</idno>
                <idno type="CERL">cnp02127864</idno>
                <name xml:lang="lat">Melchior Bosch</name>
-               <note>Originally from Imst, Tirol, he studied at Heidelberg University around
-                  1472 and entered the Cistercian monastery of Stams, Tirol.</note>
-               <occupation role="fmo"
-                  ref="#Innsbruck_UniversitätsundLandesbibliothekTirol_Cod220"/>               
+               <note>Originally from Imst, Tirol, he studied at Heidelberg University around 1472
+                  and entered the Cistercian monastery of Stams, Tirol.</note>
+               <occupation role="fmo" ref="#Innsbruck_UniversitätsundLandesbibliothekTirol_Cod220"/>
                <listBibl>
                   <bibl>Pirmin (A.) Lindner, Album Stamsense, 22, Nr. 261</bibl>
                   <bibl>Toepke, Matrikel, I, 336 [1472]</bibl>
-                  <bibl>K. Walsh, Zwei Stamser Zisterzienser an der Universität Heidelberg:
-                     Melchior und Balthasar Bosch aus Imst als Besitzer von Innsbruck,
-                     Universitätsbibliothek Cod. 220, und ihr Freundeskreis, in: Kulturerbe
-                     und Bibliotheksmanagement. Festschrift für Walter Neuhauser
-                     (Biblos-Schriften 170). Innsbruck 1998, 89–122.</bibl>
+                  <bibl>K. Walsh, Zwei Stamser Zisterzienser an der Universität Heidelberg: Melchior
+                     und Balthasar Bosch aus Imst als Besitzer von Innsbruck, Universitätsbibliothek
+                     Cod. 220, und ihr Freundeskreis, in: Kulturerbe und Bibliotheksmanagement.
+                     Festschrift für Walter Neuhauser (Biblos-Schriften 170). Innsbruck 1998,
+                     89–122.</bibl>
                </listBibl>
             </person>
 
             <person xml:id="MichaelDeTurobin">
                <idno type="CAC">2020390</idno>
                <name xml:lang="lat">Michael de Turobin</name>
-               <name xml:lang="pol">Michał z Lublina i Turobina</name>                    
-               <death when="1528"/>                    
-               <note>Michael de Turobin studied at the University of Krakow, where he obtained
-                  the degree of Bachelor of Arts in 1477 and subsequently that of Doctor of
-                  Law. In 1527, he founded the Collegiate Church of Saint Anna in
-                  Krakow.</note>
+               <name xml:lang="pol">Michał z Lublina i Turobina</name>
+               <death when="1528"/>
+               <note>Michael de Turobin studied at the University of Krakow, where he obtained the
+                  degree of Bachelor of Arts in 1477 and subsequently that of Doctor of Law. In
+                  1527, he founded the Collegiate Church of Saint Anna in Krakow.</note>
                <occupation role="fmo" ref="#Krakow_BJ_2007"/>
-               <occupation role="fmo" ref="#Krakow_BJ_2085"/>                    
+               <occupation role="fmo" ref="#Krakow_BJ_2085"/>
                <listBibl>
                   <bibl>Polski Słownik Biograficzny, vol. 20, Wrocław, 1975, 624–625</bibl>
-                  <bibl>Michał z Lublina i Turobina (Id: 2020390), in: Corpus Academicum
-                     Cracoviense (CAC), URL: <ref
+                  <bibl>Michał z Lublina i Turobina (Id: 2020390), in: Corpus Academicum Cracoviense
+                     (CAC), URL: <ref
                         target="http://cac.historia.uj.edu.pl/osoba/2020390_Micha%C5%82_z_Lublina_i_Turobina"
                         >http://cac.historia.uj.edu.pl/osoba/2020390_Micha%C5%82_z_Lublina_i_Turobina</ref>
                      (Dostęp: 31.08.2025).</bibl>
                </listBibl>
             </person>
 
-            <person xml:id="MichaelFalknerDeWratislavia">               
+            <person xml:id="MichaelFalknerDeWratislavia">
                <idno type="GND">121223841</idno>
                <idno type="VIAF">37768088</idno>
                <idno type="CERL">cnp00888506</idno>
@@ -765,20 +826,19 @@
                <name xml:lang="lat">Michael Falkner de Wratislavia</name>
                <name xml:lang="pol">Michał Falkener z Wrocławia</name>
                <death when="1534"/>
-               <note>Matriculated at Cracow University in 1478 and obtained the degree of
-                  Master of Arts in 1488. He lectured at the Faculty of Arts until 1512 while
-                  studying theology; he became Doctor of Theology in 1517.</note>
+               <note>Matriculated at Cracow University in 1478 and obtained the degree of Master of
+                  Arts in 1488. He lectured at the Faculty of Arts until 1512 while studying
+                  theology; he became Doctor of Theology in 1517.</note>
                <occupation role="fmo" ref="#Kraków_BibliotekaJagiellońska_Cod740"/>
                <listBibl>
                   <bibl>Polski Słownik Biograficzny (PSB), vol. 6, 357</bibl>
                   <bibl>Filozofia w Polsce. Słownik Pisarzy, 140–143</bibl>
                   <bibl>J. Domański, Michała Falkenera z Wrocławia (ok. 1460–1534) prolog do
-                     “Wykładu hymnów kościelnych”, Przegląd tomistyczny 15 (2009),
-                     223–246</bibl>
-                  <bibl>Knoll, A Pearl of Powerful Learning, 214, 318, 336, 361, 400, 528,
-                     630, 632</bibl>
-                  <bibl>Michał Falkener z Wrocławia (Id: 2022187), in: Corpus Academicum
-                     Cracoviense (CAC), URL: <ref
+                     “Wykładu hymnów kościelnych”, Przegląd tomistyczny 15 (2009), 223–246</bibl>
+                  <bibl>Knoll, A Pearl of Powerful Learning, 214, 318, 336, 361, 400, 528, 630,
+                     632</bibl>
+                  <bibl>Michał Falkener z Wrocławia (Id: 2022187), in: Corpus Academicum Cracoviense
+                     (CAC), URL: <ref
                         target="http://cac.historia.uj.edu.pl/osoba/2022187_Micha%C5%82_Falkener_z_Wroc%C5%82awia"
                         >http://cac.historia.uj.edu.pl/osoba/2022187_Micha%C5%82_Falkener_z_Wroc%C5%82awia</ref>
                      (accessed 14.09.2025).</bibl>
@@ -787,7 +847,7 @@
 
             <person xml:id="NicolausUnbehuen">
                <name xml:lang="lat">Nicolaus Unbehuen</name>
-               <name xml:lang="lat">Nicolaus Umbehauen</name>               
+               <name xml:lang="lat">Nicolaus Umbehauen</name>
                <note>Active in Ulm, probably at the Dominican convent, in the third quarter of the
                   fifteenth century.</note>
                <affiliation subtype="OP" type="religiousOrder">Dominican</affiliation>
@@ -821,7 +881,7 @@
                   University. From 1462 to his death, in 1468, he served as administrator of the
                   Prague Chapter. He defended the authority of the pope against the Bohemian king
                   Georg Podiebrad and, when tensions escalated, moved with the Chapter to Pilsen,
-                  where he coordinated the Catholic liga.</note>              
+                  where he coordinated the Catholic liga.</note>
                <occupation role="aut" ref="#Praha_KMK_B49"/>
                <occupation role="scr" ref="#Praha_KMK_L37"/>
                <note type="role">Author of a disputatio in ms. B 49; copyist of Versoris’s texts in
@@ -854,24 +914,24 @@
 
             <person xml:id="IacobusBorkemanMariaeburgo">
                <name xml:lang="lat">Iacobus Borkeman de Mariaeburgo</name>
-               <!-- Copernicus enrolled in 1491 -->               
+               <!-- Copernicus enrolled in 1491 -->
                <note>He enrolled at the <orgName>University of Cracow</orgName> in 1497 and obtained
-                  the degree of baccalarius in 1504.</note>              
+                  the degree of baccalarius in 1504.</note>
                <occupation role="fmo" ref="#Kraków_BJ_908"/>
                <listBibl>
                   <bibl>Album studiosorum II, 41.</bibl>
                   <bibl>Liber prom. 139.</bibl>
                </listBibl>
             </person>
-            
+
             <person xml:id="PaulusDeWarszawa">
                <idno type="CAC">2009626</idno>
                <name xml:lang="lat">Paulus de Warszawa</name>
                <name xml:lang="pol">Paweł z Warszawy</name>
-               <note>matriculated in Krakow in 1473 (if he is to be identified with Paul, son
-                  of Stanislaus) or 1474 (if he is to be identified with Paul, son of Ludwig).
-                  Both obtained the degree of Arts bachelor in 1476.</note>
-               <occupation role="fmo" ref="#Krakow_BJ_2118"/>                    
+               <note>matriculated in Krakow in 1473 (if he is to be identified with Paul, son of
+                  Stanislaus) or 1474 (if he is to be identified with Paul, son of Ludwig). Both
+                  obtained the degree of Arts bachelor in 1476.</note>
+               <occupation role="fmo" ref="#Krakow_BJ_2118"/>
                <listBibl>
                   <bibl>Metryka, 368</bibl>
                   <bibl>Paweł z Warszawy, syn Ludwika (Id: 2009679), w: Corpus Academicum
@@ -887,23 +947,22 @@
                      (Dostęp: 21.09.2025).</bibl>
                </listBibl>
             </person>
-            
+
             <person xml:id="PetrusŚwiętopełkDeZambrzeczAliasDeNieznanowice">
                <idno type="CAC">2001033</idno>
                <name xml:lang="lat">Petrus Świętopełk de Zambrzecz alias de Nieznanowice</name>
                <name xml:lang="lat">Petrus Świętopełk de Rząbiec alias de Nieznanowice</name>
                <death when="1497"/>
-               <note>He was enrolled at the University in 1446, became Master of Arts in 1460,
-                  was Provost of the Collegium Maius in 1479, Doctor of Theology in 1494,
-                  Canon of St. Florian; he died on 14 June 1497. He donated many books to the
-                  University.</note>
-               <occupation role="fmo" ref="#Kraków_BibliotekaJagiellońska_cod2018"/>                    
+               <note>He was enrolled at the University in 1446, became Master of Arts in 1460, was
+                  Provost of the Collegium Maius in 1479, Doctor of Theology in 1494, Canon of St.
+                  Florian; he died on 14 June 1497. He donated many books to the University.</note>
+               <occupation role="fmo" ref="#Kraków_BibliotekaJagiellońska_cod2018"/>
                <listBibl>
                   <bibl>Metryka, 211</bibl>
-                  <bibl>S. Włodek, G. Zathey, M. Zwiercan, Catalogus codicum manuscriptorum
-                     medii aevi Latinorum, qui in Bibliotheca Jagellonica Cracoviae
-                     asservantur, Vol. 1: Numeros continens inde ab 8 usque ad 331,
-                     composuerunt, 1980, cod. BJ 126, 115</bibl>
+                  <bibl>S. Włodek, G. Zathey, M. Zwiercan, Catalogus codicum manuscriptorum medii
+                     aevi Latinorum, qui in Bibliotheca Jagellonica Cracoviae asservantur, Vol. 1:
+                     Numeros continens inde ab 8 usque ad 331, composuerunt, 1980, cod. BJ 126,
+                     115</bibl>
                   <bibl>Knoll, A Pearl of Powerful Learning, 628–629</bibl>
                   <bibl>Piotr Świętopełk z Nieznanowic i Rząbca, zw. także z Mstyczowa (Id:
                      2001033), w: Corpus Academicum Cracoviense (CAC), URL: <ref
@@ -914,7 +973,7 @@
             </person>
 
             <person xml:id="PhilippeGoupil">
-               <name xml:lang="fr">Philippe Goupil</name>               
+               <name xml:lang="fr">Philippe Goupil</name>
                <death when="1503"/>
                <note>Originally from Rouen (Rothomagentis dyocesis), he studied at the Faculty of
                   Arts in Paris under the Norman master Clément Parmentier in the years 1442–1444.
@@ -932,9 +991,9 @@
                   <bibl>Livesey, Science in the Monastery, 189-192</bibl>
                </listBibl>
             </person>
-            
+
             <!-- Stanislaus de Velvary (Stanislaus de Welwara; Stanislav von Velvary) issue#41 -->
-            
+
             <person xml:id="StanislausDeVelvary">
                <name xml:lang="lat">Stanislaus de Velvary</name>
                <name xml:lang="lat">Stanislaus de Welwara</name>
@@ -948,7 +1007,7 @@
                   returned to Prague, where he had a distinguished academic and ecclesiastical
                   career: he was elected Dean of the Faculty of Arts in 1455 and served as Rector
                   from 1456 to 1457. He was also appointed canon of Saint Apollinar and scholasticus
-                  of the Cathedral Chapter.</note>              
+                  of the Cathedral Chapter.</note>
                <occupation role="scr" ref="#Praha_KMK_M402"/>
                <occupation role="tch" ref="#Praha_KMK_M81"/>
                <occupation role="scr" ref="#Praha_NK_XH21"/>
@@ -973,7 +1032,7 @@
                <death when="1527"/>
                <note>Matriculated at the University of Kraków in 1488; obtained the degree of
                   bachelor in 1491. He served as magister regens between 1511 and 1524.</note>
-               <occupation role="fmo" ref="#Kraków_BibliotekaJagiellońska_cod2018"/>                    
+               <occupation role="fmo" ref="#Kraków_BibliotekaJagiellońska_cod2018"/>
                <listBibl>
                   <bibl>Metryka, 474</bibl>
                   <bibl>Stanisław Białkowski z Białkowic (Id: 2032053), w: Corpus Academicum
@@ -983,12 +1042,12 @@
                      (accessed: 29.09.2025).</bibl>
                </listBibl>
             </person>
-            
+
             <person xml:id="StanisławZCzchowaSynMacieja">
                <idno type="CAC">2007042</idno>
                <name xml:lang="lat">Stanisław z Czchowa, syn Macieja</name>
                <note>matriculated at Cracow University in 1467.</note>
-               <occupation role="scr" ref="#Kraków_BibliotekaJagiellońska_cod2002"/>                    
+               <occupation role="scr" ref="#Kraków_BibliotekaJagiellońska_cod2002"/>
                <listBibl>
                   <bibl>Metryka, 321</bibl>
                   <bibl>Stanisław z Czchowa, syn Macieja (Id: 2007042), w: Corpus Academicum
@@ -1001,7 +1060,7 @@
             <person xml:id="WenceslausDeWrben">
                <name xml:lang="lat">Wenceslaus de Wrben</name>
                <name xml:lang="cz">Václav z Vrbna</name>
-               <name xml:lang="de">Wenzel von Vrbno</name>               
+               <name xml:lang="de">Wenzel von Vrbno</name>
                <death when="1493"/>
                <note>Originally from Bohemia, he traveled to Paris and studied at the College of the
                   German Nation in 1445. Shortly thereafter, he went to Prague, where he became a
@@ -1012,7 +1071,7 @@
                   Jan Rokycana. That same year, he was elected Dean of the Faculty of Arts. He later
                   served as Rector of the University in 1459–1460 and again in 1466. From 1462, he
                   served as Dean of Saint Apollinar, and in the same year, he was sent on a
-                  diplomatic mission to Pope Pius II by King George of Poděbrady.</note>               
+                  diplomatic mission to Pope Pius II by King George of Poděbrady.</note>
                <occupation role="scr" ref="#Praha_NK_IVE25"/>
                <occupation role="scr" ref="#Praha_KMK_L37"/>
                <occupation role="scr" ref="#Praha_NK_IE38"/>
