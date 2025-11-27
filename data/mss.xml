@@ -1707,19 +1707,21 @@
                <history>
                   <origin>
                      <origDate from="1446" to="1446"/>
-                     <p>1446, as attested in the colophon of Book IV of the QsMeta: <quote source="54v">Et hec de
-                        questione presenti, et per consequens de toto quarto libro Methaphisice
-                        Aristotilis, completo Parisius, per me, Iohannem Quarreti, scolarem
-                        Parisius, studentem in artium facultati, anno Domini millesimo
-                        quadrigentesimo quadragesimo sexto</quote>, f. 54v.</p>
+                     <p>1446, as attested in the colophon of Book IV of the QsMeta: <quote
+                           source="54v">Et hec de questione presenti, et per consequens de toto
+                           quarto libro Methaphisice Aristotilis, completo Parisius, per me,
+                           Iohannem Quarreti, scolarem Parisius, studentem in artium facultati, anno
+                           Domini millesimo quadrigentesimo quadragesimo sexto</quote>, f. 54v.</p>
                      <origPlace ref="#place_paris">Paris</origPlace>
-                     <p>The manuscript was copied in Paris by the student <persName ref="#IohannesQuarreti">Iohannes Quarreti</persName>, as
-                        attested in the colophons of books I and III of the QsMeta: <quote source="12ra">Et hec de
-                        questione presenti, et per consequens de toto primo libro Methaphisice
-                        Aristotelis, scripto et completo per me, Iohannem Quarreti, venerabilis
-                        nationis Francie, vicesima die mai</quote>, f. 12ra; <quote source="34va">Et hec de questione, et per
-                        consequens de toto tertio libro Methaphisice Aristotelis, completo Parisius,
-                        secunda die mensis iunii, I. Q.</quote>, f. 34va.</p>
+                     <p>The manuscript was copied in Paris by the student <persName
+                           ref="#IohannesQuarreti">Iohannes Quarreti</persName>, as attested in the
+                        colophons of books I and III of the QsMeta: <quote source="12ra">Et hec de
+                           questione presenti, et per consequens de toto primo libro Methaphisice
+                           Aristotelis, scripto et completo per me, Iohannem Quarreti, venerabilis
+                           nationis Francie, vicesima die mai</quote>, f. 12ra; <quote source="34va"
+                           >Et hec de questione, et per consequens de toto tertio libro Methaphisice
+                           Aristotelis, completo Parisius, secunda die mensis iunii, I. Q.</quote>,
+                        f. 34va.</p>
                   </origin>
                </history>
                <additional>
@@ -1759,11 +1761,11 @@
                      his lectures.</summary>
                   <msItem xml:id="Paris_BnF_latin6691_QsE_anon">
                      <locus from="2ra" to="151vb"/>
-                     <title ref="workID">QsE (I–VI)</title>
+                     <title ref="workID">QsE I–VI</title>
                      <note type="attribution">Anonymous set of questions on the Ethics on books I–VI
                         (ff. 2ra–151vb).</note>
                   </msItem>
-                  <msItem xml:id="Paris_BnF_latin6691_QsE_versoris">
+                  <msItem xml:id="Paris_BnF_latin6691_QsE">
                      <locus from="152ra" to="215v"/>
                      <title ref="workID">QsE (I–VI)</title>
                      <note type="attribution">The text is ascribed to Versoris in a note on the
@@ -1807,9 +1809,20 @@
                            decima post prandium, anno Domini millesimo quadragentesimo sexagesimo
                            tertio</quote>, f. 215v.</p>
                      <origPlace ref="#place_paris">Paris</origPlace>
+                     <note type="msRelationship"><ref target="#Berlin_SBPK_latF773">Berlin, SB – PK,
+                           lat. qu. 435</ref>; <ref target="#Wrocław_BibliotekaUniwersytecka_MsIVF1"
+                           >Wrocław, BU, Ms. IV F 1</ref>, also copied in the Collège de
+                        Bourgogne.</note>
                   </origin>
                </history>
                <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source cert="high" resp="#">
+                           <p>Ms directly examined</p>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
                   <listBibl>
                      <bibl>G. Ouy, "Un catalogue d'un type nouveau", Bibliothèque de l'École des
                         Chartes 122 (1964), 272–91, at 288</bibl>
@@ -1817,6 +1830,10 @@
                      <bibl>Gauthier, L'Éthique à Nicomaque, p. 141, fn 166, p. 142, fn. 170</bibl>
                      <bibl>Samaran, Marichal, Catalogue IV.1, 25</bibl>
                      <bibl>Sère, Penser l'amitié, 365, fn. 71</bibl>
+                     <bibl>P.J.J.M. Bakker, F.J. Kok, Secundum intentionem Doctoris Subtilis: The
+                        Commentaries on Porphyry's Isagoge and Aristotle‘s De anima by Walter of
+                        Wervia (ca. 1425–1497), Bulletin de Philosophie Médiévale 56 (2014),
+                        263-279, at 264, n. 3.</bibl>
                   </listBibl>
                </additional>
             </msDesc>
