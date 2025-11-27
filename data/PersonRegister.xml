@@ -919,6 +919,7 @@
             </person>
 
             <person xml:id="MartinusDeTarnowiecz">
+               <idno type="CAC">2019376</idno>
                <name xml:lang="lat">Martinus de Tarnowiecz</name>
                <name xml:lang="pol">Marcin Kułab of Tarnowiec</name>
                <birth when="1460" cert="medium"/>
@@ -1195,6 +1196,27 @@
                   <bibl>Kałuza, “Crise,” 312</bibl>
                   <bibl>Sullivan, Parisian Licentiates II, 119-121.</bibl>
                </listBibl>
+            </person>
+
+            <person xml:id="SimonDeHorreo">
+               <name xml:lang="lat">Simon de Horreo</name>
+               <note>Manuscript Pelplin, Biblioteka Seminarium Duchownego 236/21, was copied
+                  by a student named Simon de Horreo, who wrote in the school of Master
+                  Iohannes Haneron. No student by this name appears in the proctors’ and
+                  receivers’ books of the Faculty of Arts in Paris. A student named Simon
+                  de Horth, from the diocese of Utrecht, obtained the degree of bachelor
+                  in 1448 (Auctarium II, col. 713, l. 1; VI, col. 155, l. 4). Although the
+                  identification remains uncertain, this date is compatible with the
+                  activity of Iohannes Haneron.
+                  <p>A man named Simon de Horreo, whose identification with the student of
+                     Iohannes Haneron cannot yet be confirmed, was prior of the Carthusian
+                     convent in Ghent from 1470; he died in 1497.</p>
+                  <listBibl>
+                     <bibl>Auctarium II, col. 713, l. 1; VI, col. 155, l. 4.</bibl>
+                     <bibl>P. J. Blok, P. C. Molhuysen, Nieuw Nederlandsch Biografisch Woordenboek,
+                        vol. 6, Leiden 1924, 1233.</bibl>
+                  </listBibl> 
+               </note>
             </person>
 
             <!-- Stanislaus de Velvary (Stanislaus de Welwara; Stanislav von Velvary) issue#41 -->
