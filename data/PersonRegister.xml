@@ -137,6 +137,7 @@
                      (accessed: 04.09.2025).</bibl>
                </listBibl>
             </person>
+            
 
             <person xml:id="AndreasDeParadiso">
                <idno type="CAC">2016015</idno>
@@ -152,6 +153,34 @@
                         target="http://cac.historia.uj.edu.pl/osoba/2016015_Andrzej_z_Parady%C5%BCa_cysters"
                         >http://cac.historia.uj.edu.pl/osoba/2016015_Andrzej_z_Parady%C5%BCa_cysters</ref>
                      (Dostęp: 31.08.2025).</bibl>
+               </listBibl>
+            </person>
+            
+            
+            <person xml:id="ArnoldusFoyckin">
+               <name xml:lang="lat">Arnoldus Foyckin</name>
+               <name xml:lang="lat">Arnaldus/Ernoldus Fokini</name>
+               <name xml:lang="lat">Arnaldus/Ernoldus Feukini</name>
+               <name xml:lang="lat">Arnaldus/Ernoldus Futkin</name>
+               <name xml:lang="lat">Arnaldus/Ernoldus Foeth</name>
+               <name xml:lang="lat">Arnaldus/Ernoldus Foquini</name>
+               <note>Originally from the diocese of Utrecht (diocesis Traiectensis), Arnoldus
+                  Foyckin studied at the Faculty of Arts in Paris as a member of the
+                  Anglo-German nation. He obtained the degree of Bachelor of Arts in 1448 and
+                  that of Master of Arts in 1449. He later pursued studies in theology and
+                  began lecturing in 1456 under the supervision of the master Robert Ciboule.
+                  He obtained the degree of Bachelor in Theology in 1459. He served as rector
+                  in 1456 and again in 1460; he was socius of the Collège de la Sorbonne in
+                  1460 and prior of the Collège in 1462.</note>
+               <occupation role="tch" ref="#Basel_UB_FIII10">Master teaching Versoris’s
+                  commentaries.</occupation>
+               <listBibl>
+                  <bibl>Auctarium II, col. 713, l. 6; col. 763, l. 12; col. 764, l. 24; col.
+                     916, l. 20; col. 930, l. 23; v III, col. 1, l. 6; col. 2, l. 1; VI, col.
+                     155, l. 11, n. 3; col. 177, l. 30; col. 179, l. 12; col. 197, l. 42;
+                     col. 292, l. 10, 18; col. 293, l. 7, n. 1; col. 334, l. 38; col. 336, l.
+                     24, n. 5; col. 338, l. 50; col. 340, l. 42.</bibl>
+                  <bibl>Vieillard, Le Registre de prêt, 577-578.</bibl>
                </listBibl>
             </person>
 
