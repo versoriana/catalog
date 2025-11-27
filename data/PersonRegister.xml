@@ -196,6 +196,21 @@
                   <bibl>Vieillard, Le Registre de prêt, 577-578.</bibl>
                </listBibl>
             </person>
+            
+            <person xml:id="BaltasarDePoznania">
+               <name xml:lang="lat">Baltasar de Poznania</name>
+               <name xml:lang="pol">Baltazar z Poznania</name>
+               <note>He is attested at the Crakow Arts Faculty in 1460, when he copied
+                  Versoris’s text.</note>
+               <occupation role="scr" ref="#Kraków_BibliotekaJagiellońska_cod2008"/>                    
+               <listBibl>
+                  <bibl>Baltazar z Poznania, pisarz w BJ 2008 (Id: 546396), in: Corpus
+                     Academicum Cracoviense (CAC), URL: <ref
+                        target="http://cac.historia.uj.edu.pl/osoba/546396_Baltazar_z_Poznania_pisarz_w_BJ_2008"
+                        >http://cac.historia.uj.edu.pl/osoba/546396_Baltazar_z_Poznania_pisarz_w_BJ_2008</ref>
+                     (accessed 01.09.2025).</bibl>
+               </listBibl>
+            </person>
 
             <person xml:id="BalthasarBosch">
                <idno type="GND">1075152763</idno>
