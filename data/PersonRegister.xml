@@ -258,6 +258,25 @@
                </listBibl>
             </person>
 
+            <person xml:id="ClemensDeGambycze">
+               <idno type="CAC">1998468</idno>
+               <name xml:lang="lat">Clemens de Gambycze</name>
+               <name xml:lang="pol">Klemens Zagajewski z Gębic</name>
+               <note>He received the degree of Bachelor at the University of Kraków in 1455 and
+                  the Master’s degree in 1462. He earned the Bachelor of Theology in 1474 and
+                  became Provost of the Collegium Maius in 1477. He also served as a canon of
+                  St. Florian.</note>
+               <occupation role="fmo" ref="#Krakow_BibliotekaJagiellońska_cod2024"/>                  
+               <listBibl>
+                  <bibl>Metryka, 245</bibl>
+                  <bibl>Klemens Zagajewski z Gębic (Id: 1998468), in: Corpus Academicum
+                     Cracoviense (CAC), URL: <ref
+                        target="http://cac.historia.uj.edu.pl/osoba/1998468_Klemens_Zagajewski_z_G%C4%99bic"
+                        >http://cac.historia.uj.edu.pl/osoba/1998468_Klemens_Zagajewski_z_G%C4%99bic</ref>
+                     (accessed: 31.08.2025).</bibl>
+               </listBibl>
+            </person>
+
             <!-- Clemens de Melnik (Klemens von Mîlník) issue#37 -->
 
             <person xml:id="ClemensDeMelnik">
@@ -1030,6 +1049,7 @@
                <idno type="CAC">2001033</idno>
                <name xml:lang="lat">Petrus Świętopełk de Zambrzecz alias de Nieznanowice</name>
                <name xml:lang="lat">Petrus Świętopełk de Rząbiec alias de Nieznanowice</name>
+               <name xml:lang="lat">Petrus Zambrzecz</name>
                <death when="1497"/>
                <note>He was enrolled at the University in 1446, became Master of Arts in 1460, was
                   Provost of the Collegium Maius in 1479, Doctor of Theology in 1494, Canon of St.
@@ -1107,6 +1127,7 @@
 
             <person xml:id="StanislausPetriDeByalkowicze">
                <name xml:lang="lat">Stanislaus Petri de Byalkowicze</name>
+               <name xml:lang="pol">Stanislaus Białkowski</name>
                <death when="1527"/>
                <note>Matriculated at the University of Kraków in 1488; obtained the degree of
                   bachelor in 1491. He served as magister regens between 1511 and 1524.</note>
