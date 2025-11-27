@@ -603,6 +603,23 @@
                      Erber (Paris, 1460-1463).</bibl>
                </listBibl>
             </person>
+            
+            <person xml:id="GerardusDeWatrumwilla">
+               <name xml:lang="lat">Gerardus de Watrumwilla</name>
+               <name xml:lang="lat">Gerardus de Watrellet</name>
+               <note>In the colophons of manuscript Paris, BnF, lat. 16136, which contains
+                  Versoris’s commentaries on the logical corpus, the Breton student Yvo de
+                  Beisit states that he copied the texts under the supervision of a master
+                  named Girardus de Watrellet. Since the colophons are dated 1451, the
+                  identification of this master appears rather problematic. In fact, the only
+                  scholar bearing a similar name (Gerardus de Watrumwilla) attested at the
+                  Faculty of Arts in Paris obtained the degree of bachelor only in 1452
+                  (Auctarium V, col. 479, l. 11) and does not appear to have been promoted to
+                  the master’s degree.</note>
+               <listBibl>
+                  <bibl>Auctarium V, col. 479, l. 11</bibl>
+               </listBibl>
+            </person>
 
             <!-- Gilbertus d’Auvergnat (Alvergnat, Alverniaci, Auvergnaci, Auverniaci) issue#18 -->
 
@@ -628,6 +645,8 @@
                   <bibl>Rouse &amp; Rouse, Illiterati et uxorati, 34</bibl>
                </listBibl>
             </person>
+
+
 
             <person xml:id="IacobusLouber">
                <idno type="VIAF">44463016</idno>
@@ -855,6 +874,17 @@
                   <bibl>Deuffic, "Copistes Bretons", 181, 182</bibl>
                   <bibl>Rouse &amp; Rouse, Illiterati et uxorati, 85</bibl>
                   <bibl>Sullivan, Parisian Licentiates, II, 173</bibl>
+               </listBibl>
+            </person>
+
+            <person xml:id="IudicellusRouyant">
+               <name xml:lang="lat">Iudicellus Rouyant</name>
+               <note>In 1456, he pursued studies at the Faculty of Arts, University of Paris,
+                  under the supervision of Reginaldus de Brule.</note>
+               <occupation role="fmo" ref="#Paris_BnF_latin16136"/>                    
+               <listBibl>
+                  <bibl>Auctarium V, col. 633, n. 1</bibl>
+                  <bibl>Rebmeister-Klein, Les livres des petits collèges, III, 1159.</bibl>
                </listBibl>
             </person>
 
