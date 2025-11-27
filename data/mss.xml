@@ -1838,6 +1838,87 @@
                </additional>
             </msDesc>
 
+            <msDesc xml:id="Poitiers_BibliothèqueFrançoisMitterrand_Ms138236">
+               <msIdentifier>
+                  <settlement>Poitiers</settlement>
+                  <repository>Bibliothèque François Mitterrand</repository>
+                  <idno>Ms 138 (236)</idno>
+                  <idno type="URI"
+                     >https://patrimoine.mediatheques-grandpoitiers.fr/PATRIMOINE/digital-viewer/c-1034112</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>None</summary>
+                  <msItem xml:id="Poitiers_BibliothèqueFrançoisMitterrand_Ms138236_QsP">
+                     <locus from="1r" to="128v"/>
+                     <title ref="workID">QsP</title>
+                  </msItem>
+                  <msItem xml:id="Poitiers_BibliothèqueFrançoisMitterrand_Ms138236_QdC">
+                     <locusGrp>
+                        <locus from="132r" to="165v"/>
+                        <locus from="180r" to="191v"/>
+                        <locus from="168r" to="172v"/>
+                     </locusGrp>
+                     <title ref="workID">QdC</title>
+                  </msItem>
+                  <msItem xml:id="Poitiers_BibliothèqueFrançoisMitterrand_Ms138236_QdG">
+                     <locusGrp>
+                        <locus from="173r" to="179v"/>
+                        <locus from="192r" to="227v"/>
+                     </locusGrp>
+                     <title ref="workID">QdG</title>
+                  </msItem>
+                  <msItem xml:id="Poitiers_BibliothèqueFrançoisMitterrand_Ms138236_QsMete">
+                     <locus from="228r" to="266v"/>
+                     <title ref="workID">QsMete</title>
+                  </msItem>
+                  <msItem xml:id="Poitiers_BibliothèqueFrançoisMitterrand_Ms138236_QdA">
+                     <locus from="268r" to="327v"/>
+                     <title ref="workID">QdA</title>
+                  </msItem>
+                  <msItem xml:id="Poitiers_BibliothèqueFrançoisMitterrand_Ms138236_QdSen">
+                     <locus from="328r" to="345v"/>
+                     <title ref="workID">QdSen</title>
+                  </msItem>
+                  <msItem xml:id="Poitiers_BibliothèqueFrançoisMitterrand_Ms138236_QdMem">
+                     <locus from="346r" to="350r"/>
+                     <title ref="workID">QdMem</title>
+                  </msItem>
+                  <msItem xml:id="Poitiers_BibliothèqueFrançoisMitterrand_Ms138236_QsSom">
+                     <locus from="350v" to="356v"/>
+                     <title ref="workID">QsSom</title>
+                  </msItem>
+                  <msItem xml:id="Poitiers_BibliothèqueFrançoisMitterrand_Ms138236_QsLon">
+                     <locus from="357r" to="359v"/>
+                     <title ref="workID">QsLon</title>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate from="1451" to="1451"/>
+                     <p>1451, as stated at f. 128va (<quote source="128va">A. Kernynyven, Anno
+                           Domini M°CCCC° LI°, <metamark function="signum"/></quote>, ) and at f.
+                        359va (<quote source="359va">Anno Domini M°CCCC° LI°</quote>).</p>
+                     <p>The whole manuscript was copied by <persName ref="#AlanusKerniniven">Alanus
+                           Kernynyven</persName>, student at Paris Arts Faculty, who signed at the
+                        end of the works (end of QdC, f. 172va; end of QdG, f. 227vb; QsSen, f.
+                        245vb; QdMem, f. 250vb; QdSom, f. 357rb), of the books (book I of QdC, f.
+                        153ra, where appears also another name: <quote source="153ra"
+                           >Getholohan</quote>; book II of QsMete, f. 256va; book I of QdA, f.
+                        273va), or of the questions (QdC, q. II.13, f. 158rb). On the inferior guard
+                        leafs other names can be read, probably new owners of the manuscript: <quote
+                           source="inferior guard leafs">De Ruppe, abbas</quote>;<quote
+                           source="inferior guard leafs">Jehan Mares</quote>.</p>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Catalogue général des manuscrits des bibliothèques publiques de France,
+                        Départements: 25. Poitiers – Valenciennes, Paris 1894, 46–47.</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+
+
             <msDesc xml:id="Praha_NK_IV-F-8">
                <msIdentifier>
                   <settlement>Praha</settlement>
