@@ -269,21 +269,44 @@
           let boundLocus = locusGrp.querySelector('tei-locus[scheme="#bound"]');
           let unboundLocus = locusGrp.querySelector('tei-locus[scheme="#unbound"]');
 
-          let locusText = "";
-          if (boundLocus) {
-            let from = boundLocus.getAttribute('from');
-            let to = boundLocus.getAttribute('to');
-            if (from && to) {
-              locusText = `${from}-${to}`;
-            }
-          }
+          // Check if there are locus elements with scheme attributes
+          let hasScheme = boundLocus || unboundLocus;
 
-          if (unboundLocus) {
-            let from = unboundLocus.getAttribute('from');
-            let to = unboundLocus.getAttribute('to');
-            if (from && to) {
-              locusText += ` [${from}-${to}]`;
+          let locusText = "";
+
+          if (hasScheme) {
+            // Handle locusGrp with scheme attributes (bound/unbound)
+            if (boundLocus) {
+              let from = boundLocus.getAttribute('from');
+              let to = boundLocus.getAttribute('to');
+              if (from && to) {
+                locusText = `${from}-${to}`;
+              }
             }
+
+            if (unboundLocus) {
+              let from = unboundLocus.getAttribute('from');
+              let to = unboundLocus.getAttribute('to');
+              if (from && to) {
+                locusText += ` [${from}-${to}]`;
+              }
+            }
+          } else {
+            // Handle locusGrp without scheme attributes - render inline with commas
+            let allLoci = locusGrp.querySelectorAll('tei-locus:not([scheme])');
+            let locusParts = [];
+
+            allLoci.forEach(locus => {
+              let from = locus.getAttribute('from');
+              let to = locus.getAttribute('to');
+              if (from && to) {
+                locusParts.push(`${from}-${to}`);
+              } else if (from) {
+                locusParts.push(from);
+              }
+            });
+
+            locusText = locusParts.join(', ');
           }
 
           locusContainer.textContent = locusText;
