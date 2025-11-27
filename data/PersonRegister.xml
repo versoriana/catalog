@@ -953,6 +953,27 @@
                </listBibl>
             </person>
 
+            <person xml:id="IohannesQuarreti">
+               <name xml:lang="lat">Iohannes Quarreti</name>
+               <note>From Bar-le-Duc, in the diocese of Toul (diocesis Tullensis), he enrolled
+                  in the Paris Faculty of Arts as a member of the French Nation. He obtained
+                  the degree of baccalarius in 1446 and was licensed in the arts in 1447. He
+                  served as procurator of the French Nation in 1454 (one of the intrantes who
+                  elected him was Dérien de Pierre). He was licensed in theology in
+                  1462.</note>
+               <occupation role="scr" ref="#Paris_BnF_latin6455"/>                    
+               <listBibl>
+                  <bibl>Auctarium V, col. 145, n. 3; col. 146, l. 32; col. 206, l. 35; col.
+                     207, l. 31; col. 588, l. 17, l. 24; col. 589, l. 20, l. 38, l. 45; col.
+                     591, l. 7, l. 42, l. 45; col. 592, l. 21, l. 49; col. 593, l. 1, l. 19,
+                     l. 35, l. 40; col. 595, l. 3; col. 603, l. 35; col. 605, l. 30, l. 40;
+                     col. 607, l. 14, l. 27, l. 29, l. 31, l. 35; col. 609, l. 31; col. 611,
+                     l. 41; col. 612, l. 14, l. 16, l. 38; col. 618, l. 11, l. 13, l. 17, l.
+                     21, l. 31; col. 642, l. 26; col. 731</bibl>
+                  <bibl>Sullivan II, 426, 387, 452, 544.</bibl>
+               </listBibl>
+            </person>
+
             <person xml:id="PaulusDeWarszawa">
                <idno type="CAC">2009626</idno>
                <name xml:lang="lat">Paulus de Warszawa</name>
