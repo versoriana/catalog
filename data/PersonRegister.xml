@@ -43,8 +43,35 @@
                </listBibl>
             </person>
 
-            <!-- Albertus Scriptoris de Doesborch († 1466) issue#39 -->
 
+
+
+            <person xml:id="AlbertusDeSzurkowo">
+               <idno type="CAC">819743</idno>
+               <name xml:lang="lat">Albertus de Szurkowo</name>
+               <name xml:lang="pol">Albert/Wojciech z Szurkowa</name>
+               <note>From the Diocese of Poznań. He obtained the title of Baccalaureus at the
+                  Faculty of Arts in Prague in 1457 under the master Wenceslaus de Krzizanow. In
+                  1461, he received the license and degree of Magister Artium in Paris. The same
+                  year he left Paris for Cracow, where, from 1462, he taught at the Faculty of
+                  Arts.</note>
+               <occupation role="fmo" ref="#Kraków_BibliotekaJagiellońska_cod2599"/>
+               <listBibl>
+                  <bibl>Liber decanorum facultatis philosophicae Universitatis Pragensis, 59</bibl>
+                  <bibl>Auctarium II, col. 917, l. 45, col. 941, l. 9-10</bibl>
+                  <bibl>Auctarium VI, col. 351, l. 13-14; col. 353, l. 48-49</bibl>
+                  <bibl>Liber promotionum, 57</bibl>
+                  <bibl>Albert/Wojciech z Szurkowa, syn Alberta/Wojciecha (Id: 819743), w: Corpus
+                     Academicum Cracoviense (CAC), URL: <ref
+                        target="http://cac.historia.uj.edu.pl/osoba/819743_Albert_Wojciech_z_Szurkowa_syn_Alberta_Wojciecha"
+                        >http://cac.historia.uj.edu.pl/osoba/819743_Albert_Wojciech_z_Szurkowa_syn_Alberta_Wojciecha</ref>
+                     (accessed: 03.09.2025).</bibl>
+               </listBibl>
+            </person>
+
+
+            <!-- Albertus Scriptoris de Doesborch († 1466) issue#39 -->
+            
             <person xml:id="AlbertusScriptorisDeDoesborch">
                <name xml:lang="lat">Albertus Scriptoris de Doesborch</name>
                <death when="1466"/>
@@ -77,37 +104,13 @@
                      universitaire en France (XIIIe–XVe siècles), Paris 1999, 81</bibl>
                   <bibl>L. Tournier, Notices biographiques des ambassadeurs, porte-parole et députés
                      de l'université de Paris au XVe siècle. 2000. <note type="biblio"><ref
-                           target="https://shs.hal.science/halshs-00009385v1/document"
-                           >https://shs.hal.science/halshs-00009385v1/document</ref>, The present
+                        target="https://shs.hal.science/halshs-00009385v1/document"
+                        >https://shs.hal.science/halshs-00009385v1/document</ref>, The present
                         article is based on the entries from the author's doctoral dissertation
                         entitled L'Université de Paris dans les événements politiques du royaume de
                         France (1405–1452), vol. 3, Annexes, p. 485–546, defended in January
                         2000</note>
                   </bibl>
-               </listBibl>
-            </person>
-
-
-            <person xml:id="AlbertusDeSzurkowo">
-               <idno type="CAC">819743</idno>
-               <name xml:lang="lat">Albertus de Szurkowo</name>
-               <name xml:lang="pol">Albert/Wojciech z Szurkowa</name>
-               <note>From the Diocese of Poznań. He obtained the title of Baccalaureus at the
-                  Faculty of Arts in Prague in 1457 under the master Wenceslaus de Krzizanow. In
-                  1461, he received the license and degree of Magister Artium in Paris. The same
-                  year he left Paris for Cracow, where, from 1462, he taught at the Faculty of
-                  Arts.</note>
-               <occupation role="fmo" ref="#Kraków_BibliotekaJagiellońska_cod2599"/>
-               <listBibl>
-                  <bibl>Liber decanorum facultatis philosophicae Universitatis Pragensis, 59</bibl>
-                  <bibl>Auctarium II, col. 917, l. 45, col. 941, l. 9-10</bibl>
-                  <bibl>Auctarium VI, col. 351, l. 13-14; col. 353, l. 48-49</bibl>
-                  <bibl>Liber promotionum, 57</bibl>
-                  <bibl>Albert/Wojciech z Szurkowa, syn Alberta/Wojciecha (Id: 819743), w: Corpus
-                     Academicum Cracoviense (CAC), URL: <ref
-                        target="http://cac.historia.uj.edu.pl/osoba/819743_Albert_Wojciech_z_Szurkowa_syn_Alberta_Wojciecha"
-                        >http://cac.historia.uj.edu.pl/osoba/819743_Albert_Wojciech_z_Szurkowa_syn_Alberta_Wojciecha</ref>
-                     (accessed: 03.09.2025).</bibl>
                </listBibl>
             </person>
 
