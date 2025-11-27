@@ -30,6 +30,19 @@
       <body>
          <listPerson>
 
+            <person xml:id="AlanusKerniniven">
+               <name xml:lang="lat">Alanus Kerniniven</name>
+               <name xml:lang="lat">Alanus Kernynyven</name>
+               <note>From the Diocese of Quimper (Diocesis Corisopitensis), he studied at the
+                  Faculty of Arts in Paris. He obtained the degree of Bachelor of Arts in
+                  1451; was licensed and incepted in 1452.</note>
+               <occupation role="scr" ref="#Poitiers_BibliothèqueFrançoisMitterrand_Ms138236"/>
+               <listBibl>
+                  <bibl>Auctarium V, col. 427, l. 11, fn. 2; col. 483, l. 26; col. 489, l.
+                     38.</bibl>
+               </listBibl>
+            </person>
+
             <!-- Albertus Scriptoris de Doesborch († 1466) issue#39 -->
 
             <person xml:id="AlbertusScriptorisDeDoesborch">
