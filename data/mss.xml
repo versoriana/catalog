@@ -1800,14 +1800,14 @@
                   <origin>
                      <origDate from="1463" to="1463"/>
                      <p>The colophon of the second set of questions on the Ethics informs us that it
-                        was copied by <persName ref="#ClaudiusVerneti">Claudius Vernet</persName> under the supervision of <persName
-                           ref="#GaltherusDeWalma">Galtherus de Walma</persName>, regent master at
-                        the Collège de Bourgogne: <quote source="215v">Et sic est finis sexti
-                           Ethicorum, finiti per me, Claudium Verneti, dyocesis Bisuntiensis,
-                           studentem sub venerabili viro, magistro Galthero de Walma, actu Parisius
-                           regente in collegio Burgundie, in die Iovis penitentiali, hora quasi
-                           decima post prandium, anno Domini millesimo quadragentesimo sexagesimo
-                           tertio</quote>, f. 215v.</p>
+                        was copied by <persName ref="#ClaudiusVerneti">Claudius Vernet</persName>
+                        under the supervision of <persName ref="#GaltherusDeWalma">Galtherus de
+                           Walma</persName>, regent master at the Collège de Bourgogne: <quote
+                           source="215v">Et sic est finis sexti Ethicorum, finiti per me, Claudium
+                           Verneti, dyocesis Bisuntiensis, studentem sub venerabili viro, magistro
+                           Galthero de Walma, actu Parisius regente in collegio Burgundie, in die
+                           Iovis penitentiali, hora quasi decima post prandium, anno Domini
+                           millesimo quadragentesimo sexagesimo tertio</quote>, f. 215v.</p>
                      <origPlace ref="#place_paris">Paris</origPlace>
                      <note type="msRelationship"><ref target="#Berlin_SBPK_latF773">Berlin, SB – PK,
                            lat. qu. 435</ref>; <ref target="#Wrocław_BibliotekaUniwersytecka_MsIVF1"
@@ -2217,16 +2217,20 @@
                      <ptr target="https://immagini.mirabileweb.it/images/SI0046-HVI07-001r.jpg"/>
                   </surrogates>
                   <listBibl>
-                     <bibl>Kaeppeli I, p. 395-397, n° 1122 (Franciscus de Prato); III, p. 302, n°
-                        3464 (Richaldus de Bovilla); Meirinhos, Bibliotheca, 399-400, n. 680 (where
-                        Versoris’s CsPH is qualified as “Super Praedicabilia Aristotelis” and
-                        Versoris’s QdA as “Lectiones in Perihermeneias”); F. Amerini, “Codex e la
-                        filosofia medievale in Toscana: dal tempo di Dante alla fine del Trecento”,
-                        Codex. Studies Journal of the Società Internazionale per lo Studio del
-                        Medioevo Latino 7 (2018), 3-32, at 18-19, 25 (where, following Meirinhos,
-                        Versoris’s CsPH is qualified as “Super Praedicabilia Aristotelis” and
-                        Versoris’s QdA as “Lectiones in Perihermeneias”); Lohr II, 120-121
-                        (Richardus de Bovilla). </bibl>
+                     <listBibl>
+                        <bibl>Kaeppeli I, p. 395–397, n° 1122 (Franciscus de Prato).</bibl>
+                        <bibl>Kaeppeli III, p. 302, n° 3464 (Richaldus de Bovilla).</bibl>
+                        <bibl>Meirinhos, Bibliotheca, pp. 399–400, n° 680 (where Versoris’s CsPH is
+                           qualified as “Super Praedicabilia Aristotelis” and Versoris’s QdA as
+                           “Lectiones in Perihermeneias”).</bibl>
+                        <bibl>F. Amerini, “Codex e la filosofia medievale in Toscana: dal tempo di
+                           Dante alla fine del Trecento”, Codex. Studies Journal of the Società
+                           Internazionale per lo Studio del Medioevo Latino 7 (2018), pp. 3–32, at
+                           pp. 18–19, 25 (where, following Meirinhos, Versoris’s CsPH is qualified
+                           as “Super Praedicabilia Aristotelis” and Versoris’s QdA as “Lectiones in
+                           Perihermeneias”).</bibl>
+                        <bibl>Lohr II, pp. 120–121 (Richardus de Bovilla).</bibl>
+                     </listBibl>
                   </listBibl>
                </additional>
             </msDesc>
