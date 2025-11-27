@@ -842,6 +842,19 @@
                   <bibl>Deuffic, “Une diaspora”, 179, 283.</bibl>
                </listBibl>
             </person>
+            
+            <person xml:id="YvoQuentel">
+               <name xml:lang="lat">Yvo Quentel</name>
+               <name xml:lang="lat">Yvo de Quengo</name>
+               <note>A master by this name is mentioned in a note written in 1456 by his
+                  nephew, the Breton student Reginaldus de Brule, in manuscript Paris, BnF,
+                  lat. 16136. The Breton master whose name most closely corresponds in this
+                  period at the Faculty of Arts in Paris is Yvo de Quengo, from the diocese of
+                  Dol, who obtained his licentiate in Arts in 1452.</note>
+               <listBibl>
+                  <bibl>Auctarium V, col. 423, l.9; col. 484, l. 5; col. 489, l. 46.</bibl>
+               </listBibl>                           
+            </person>
 
             <person xml:id="MartinusDeTarnowiecz">
                <name xml:lang="lat">Martinus de Tarnowiecz</name>
