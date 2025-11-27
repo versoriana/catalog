@@ -829,6 +829,20 @@
                </listBibl>
             </person>
 
+            <person xml:id="IvoBezit">
+               <name xml:lang="lat">Ivo Bezit</name>
+               <name xml:lang="lat">Ivo de Bezit</name>                    
+               <note>Originally from the diocese of Vannes, he studied at the Faculty of Arts
+                  in Paris, where he obtained his Bachelor’s degree in 1452 and his Master’s
+                  degree in 1453.</note>
+               <occupation role="scr" ref="#Paris_BnF_latin16136"/>                    
+               <listBibl>
+                  <bibl>Auctarium V, col. 479, l. 39; col. 526, l. 5; col. 529, l. 4</bibl>
+                  <bibl>Rouse, Manuscripts II, 140</bibl>
+                  <bibl>Deuffic, “Une diaspora”, 179, 283.</bibl>
+               </listBibl>
+            </person>
+
             <person xml:id="MartinusDeTarnowiecz">
                <name xml:lang="lat">Martinus de Tarnowiecz</name>
                <name xml:lang="pol">Marcin Kułab of Tarnowiec</name>
