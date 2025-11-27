@@ -649,7 +649,73 @@
                </listBibl>
             </person>
 
+            <!-- Hilarius Litomericensis (von Leitmeritz; de Litomericz; z Litoměřic; Litoměřický, 1412–1468, Pilsen) issue#35-->
+            
+            <person xml:id="HilariusLitomericensis">
+               <idno type="GND">119001985</idno>
+               <idno type="VIAF">316410061</idno>
+               <idno type="CERL">cnp00973696</idno>
+               <name xml:lang="lat">Hilarius Litomericensis</name>
+               <name xml:lang="de">Hilarius von Leitmeritz</name>
+               <name xml:lang="cz">Hilarius de Litomericz</name>
+               <name xml:lang="cz">Hilarius z Litoměřic</name>
+               <name xml:lang="cz">Hilarius Litoměřický</name>
+               <birth when="1412"/>
+               <death when="1468"/>
+               <note>He studied philosophy at Prague University, where he obtained the bachelor's
+                  degree in 1447 and the master's degree in 1451. At that time, he supported the
+                  Hussite movement. His position changed after Jan Rokycana, the head of the Hussite
+                  clergy, sent him to study in Padua. Hilarius was promoted in canon law at the
+                  University of Bologna and converted to Catholicism. As a consequence, when he
+                  returned to Bohemia, he could not find a position at the Hussite-majority Prague
+                  University. From 1462 to his death, in 1468, he served as administrator of the
+                  Prague Chapter. He defended the authority of the pope against the Bohemian king
+                  Georg Podiebrad and, when tensions escalated, moved with the Chapter to Pilsen,
+                  where he coordinated the Catholic liga.</note>
+               <occupation role="aut" ref="#Praha_KMK_B49"/>
+               <occupation role="scr" ref="#Praha_KMK_L37"/>
+               <note type="role">Author of a disputatio in ms. B 49; copyist of Versoris’s texts in
+                  ms. L 37</note>
+               <listBibl>
+                  <bibl>Z. Kalista, "Die katholische Reform von Hilarius von Leitmeritz bis zum
+                     Weissen Berg", in F. Seibt (ed.), Bohemia Sacra. Das Christentum in Böhmen,
+                     973–1973, Düsseldorf 1974, 110–144.</bibl>
+                  <bibl>S. Sousedík, Philosophie der frühen Neuzeit in den böhmischen Ländern.
+                     Stuttgart/Bad Connstatt, 2009, 30–43.</bibl>
+                  <bibl>F. Šmahel, "Paris und Prag", 446, 452, 460.</bibl>
+                  <bibl>K. Solcová, S. Sousedík, "Hilarius of Leitmeritz", in M. Sgarbi (ed.),
+                     Encyclopedia of Renaissance Philosophy, Cham 2022, 1526–1527.</bibl>
+               </listBibl>
+            </person>
+            
+            <person xml:id="HenricusErlbach">
+               <name xml:lang="lat">Henricus Erlbach</name>
+               <name xml:lang="de">Heinrich Erlbach</name>
+               <death when="1525"/>
+               <note>After studying in Ingolstadt, he entered the Benedictine monastery of Saint
+                  Emmeram.</note>
+               <affiliation subtype="OSB" type="religiousOrder">Benedictine</affiliation>
+               <occupation role="scr fmo" ref="#München_BSB_Clm14518"/>
+               <listBibl>
+                  <bibl>D. Sheffler, Schools and Schooling in Late Medieval Germany: Regensburg,
+                     1250-1500, Leiden/Boston 2008, 35, 224, 267.</bibl>
+               </listBibl>
+            </person>
 
+
+
+
+            <person xml:id="IacobusBorkemanMariaeburgo">
+               <name xml:lang="lat">Iacobus Borkeman de Mariaeburgo</name>
+               <!-- Copernicus enrolled in 1491 -->
+               <note>He enrolled at the <orgName>University of Cracow</orgName> in 1497 and obtained
+                  the degree of baccalarius in 1504.</note>
+               <occupation role="fmo" ref="#Kraków_BJ_908"/>
+               <listBibl>
+                  <bibl>Album studiosorum II, 41.</bibl>
+                  <bibl>Liber prom. 139.</bibl>
+               </listBibl>
+            </person>
 
             <person xml:id="IacobusLouber">
                <idno type="VIAF">44463016</idno>
@@ -862,6 +928,29 @@
                </listBibl>
             </person>
 
+
+
+            <person xml:id="IohannesQuarreti">
+               <name xml:lang="lat">Iohannes Quarreti</name>
+               <note>From Bar-le-Duc, in the diocese of Toul (diocesis Tullensis), he enrolled
+                  in the Paris Faculty of Arts as a member of the French Nation. He obtained
+                  the degree of baccalarius in 1446 and was licensed in the arts in 1447. He
+                  served as procurator of the French Nation in 1454 (one of the intrantes who
+                  elected him was Dérien de Pierre). He was licensed in theology in
+                  1462.</note>
+               <occupation role="scr" ref="#Paris_BnF_latin6455"/>                    
+               <listBibl>
+                  <bibl>Auctarium V, col. 145, n. 3; col. 146, l. 32; col. 206, l. 35; col.
+                     207, l. 31; col. 588, l. 17, l. 24; col. 589, l. 20, l. 38, l. 45; col.
+                     591, l. 7, l. 42, l. 45; col. 592, l. 21, l. 49; col. 593, l. 1, l. 19,
+                     l. 35, l. 40; col. 595, l. 3; col. 603, l. 35; col. 605, l. 30, l. 40;
+                     col. 607, l. 14, l. 27, l. 29, l. 31, l. 35; col. 609, l. 31; col. 611,
+                     l. 41; col. 612, l. 14, l. 16, l. 38; col. 618, l. 11, l. 13, l. 17, l.
+                     21, l. 31; col. 642, l. 26; col. 731</bibl>
+                  <bibl>Sullivan II, 426, 387, 452, 544.</bibl>
+               </listBibl>
+            </person>
+            
             <!--  Iohannes Run issue#15 -->
 
             <person xml:id="IohannesRun">
@@ -904,19 +993,7 @@
                   <bibl>Deuffic, “Une diaspora”, 179, 283.</bibl>
                </listBibl>
             </person>
-            
-            <person xml:id="YvoQuentel">
-               <name xml:lang="lat">Yvo Quentel</name>
-               <name xml:lang="lat">Yvo de Quengo</name>
-               <note>A master by this name is mentioned in a note written in 1456 by his
-                  nephew, the Breton student Reginaldus de Brule, in manuscript Paris, BnF,
-                  lat. 16136. The Breton master whose name most closely corresponds in this
-                  period at the Faculty of Arts in Paris is Yvo de Quengo, from the diocese of
-                  Dol, who obtained his licentiate in Arts in 1452.</note>
-               <listBibl>
-                  <bibl>Auctarium V, col. 423, l.9; col. 484, l. 5; col. 489, l. 46.</bibl>
-               </listBibl>                           
-            </person>
+
 
             <person xml:id="MartinusDeTarnowiecz">
                <idno type="CAC">2019376</idno>
@@ -1025,91 +1102,6 @@
             </person>
 
 
-            <!-- Hilarius Litomericensis (von Leitmeritz; de Litomericz; z Litoměřic; Litoměřický, 1412–1468, Pilsen) issue#35-->
-
-            <person xml:id="HilariusLitomericensis">
-               <idno type="GND">119001985</idno>
-               <idno type="VIAF">316410061</idno>
-               <idno type="CERL">cnp00973696</idno>
-               <name xml:lang="lat">Hilarius Litomericensis</name>
-               <name xml:lang="de">Hilarius von Leitmeritz</name>
-               <name xml:lang="cz">Hilarius de Litomericz</name>
-               <name xml:lang="cz">Hilarius z Litoměřic</name>
-               <name xml:lang="cz">Hilarius Litoměřický</name>
-               <birth when="1412"/>
-               <death when="1468"/>
-               <note>He studied philosophy at Prague University, where he obtained the bachelor's
-                  degree in 1447 and the master's degree in 1451. At that time, he supported the
-                  Hussite movement. His position changed after Jan Rokycana, the head of the Hussite
-                  clergy, sent him to study in Padua. Hilarius was promoted in canon law at the
-                  University of Bologna and converted to Catholicism. As a consequence, when he
-                  returned to Bohemia, he could not find a position at the Hussite-majority Prague
-                  University. From 1462 to his death, in 1468, he served as administrator of the
-                  Prague Chapter. He defended the authority of the pope against the Bohemian king
-                  Georg Podiebrad and, when tensions escalated, moved with the Chapter to Pilsen,
-                  where he coordinated the Catholic liga.</note>
-               <occupation role="aut" ref="#Praha_KMK_B49"/>
-               <occupation role="scr" ref="#Praha_KMK_L37"/>
-               <note type="role">Author of a disputatio in ms. B 49; copyist of Versoris’s texts in
-                  ms. L 37</note>
-               <listBibl>
-                  <bibl>Z. Kalista, "Die katholische Reform von Hilarius von Leitmeritz bis zum
-                     Weissen Berg", in F. Seibt (ed.), Bohemia Sacra. Das Christentum in Böhmen,
-                     973–1973, Düsseldorf 1974, 110–144.</bibl>
-                  <bibl>S. Sousedík, Philosophie der frühen Neuzeit in den böhmischen Ländern.
-                     Stuttgart/Bad Connstatt, 2009, 30–43.</bibl>
-                  <bibl>F. Šmahel, "Paris und Prag", 446, 452, 460.</bibl>
-                  <bibl>K. Solcová, S. Sousedík, "Hilarius of Leitmeritz", in M. Sgarbi (ed.),
-                     Encyclopedia of Renaissance Philosophy, Cham 2022, 1526–1527.</bibl>
-               </listBibl>
-            </person>
-
-            <person xml:id="HenricusErlbach">
-               <name xml:lang="lat">Henricus Erlbach</name>
-               <name xml:lang="de">Heinrich Erlbach</name>
-               <death when="1525"/>
-               <note>After studying in Ingolstadt, he entered the Benedictine monastery of Saint
-                  Emmeram.</note>
-               <affiliation subtype="OSB" type="religiousOrder">Benedictine</affiliation>
-               <occupation role="scr fmo" ref="#München_BSB_Clm14518"/>
-               <listBibl>
-                  <bibl>D. Sheffler, Schools and Schooling in Late Medieval Germany: Regensburg,
-                     1250-1500, Leiden/Boston 2008, 35, 224, 267.</bibl>
-               </listBibl>
-            </person>
-
-            <person xml:id="IacobusBorkemanMariaeburgo">
-               <name xml:lang="lat">Iacobus Borkeman de Mariaeburgo</name>
-               <!-- Copernicus enrolled in 1491 -->
-               <note>He enrolled at the <orgName>University of Cracow</orgName> in 1497 and obtained
-                  the degree of baccalarius in 1504.</note>
-               <occupation role="fmo" ref="#Kraków_BJ_908"/>
-               <listBibl>
-                  <bibl>Album studiosorum II, 41.</bibl>
-                  <bibl>Liber prom. 139.</bibl>
-               </listBibl>
-            </person>
-
-            <person xml:id="IohannesQuarreti">
-               <name xml:lang="lat">Iohannes Quarreti</name>
-               <note>From Bar-le-Duc, in the diocese of Toul (diocesis Tullensis), he enrolled
-                  in the Paris Faculty of Arts as a member of the French Nation. He obtained
-                  the degree of baccalarius in 1446 and was licensed in the arts in 1447. He
-                  served as procurator of the French Nation in 1454 (one of the intrantes who
-                  elected him was Dérien de Pierre). He was licensed in theology in
-                  1462.</note>
-               <occupation role="scr" ref="#Paris_BnF_latin6455"/>                    
-               <listBibl>
-                  <bibl>Auctarium V, col. 145, n. 3; col. 146, l. 32; col. 206, l. 35; col.
-                     207, l. 31; col. 588, l. 17, l. 24; col. 589, l. 20, l. 38, l. 45; col.
-                     591, l. 7, l. 42, l. 45; col. 592, l. 21, l. 49; col. 593, l. 1, l. 19,
-                     l. 35, l. 40; col. 595, l. 3; col. 603, l. 35; col. 605, l. 30, l. 40;
-                     col. 607, l. 14, l. 27, l. 29, l. 31, l. 35; col. 609, l. 31; col. 611,
-                     l. 41; col. 612, l. 14, l. 16, l. 38; col. 618, l. 11, l. 13, l. 17, l.
-                     21, l. 31; col. 642, l. 26; col. 731</bibl>
-                  <bibl>Sullivan II, 426, 387, 452, 544.</bibl>
-               </listBibl>
-            </person>
 
             <person xml:id="PaulusDeWarszawa">
                <idno type="CAC">2009626</idno>
@@ -1315,6 +1307,18 @@
             </person>
 
 
+            <person xml:id="YvoQuentel">
+               <name xml:lang="lat">Yvo Quentel</name>
+               <name xml:lang="lat">Yvo de Quengo</name>
+               <note>A master by this name is mentioned in a note written in 1456 by his
+                  nephew, the Breton student Reginaldus de Brule, in manuscript Paris, BnF,
+                  lat. 16136. The Breton master whose name most closely corresponds in this
+                  period at the Faculty of Arts in Paris is Yvo de Quengo, from the diocese of
+                  Dol, who obtained his licentiate in Arts in 1452.</note>
+               <listBibl>
+                  <bibl>Auctarium V, col. 423, l.9; col. 484, l. 5; col. 489, l. 46.</bibl>
+               </listBibl>                           
+            </person>
          </listPerson>
       </body>
    </text>
