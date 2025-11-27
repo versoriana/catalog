@@ -34,8 +34,8 @@
                <name xml:lang="lat">Alanus Kerniniven</name>
                <name xml:lang="lat">Alanus Kernynyven</name>
                <note>From the Diocese of Quimper (Diocesis Corisopitensis), he studied at the
-                  Faculty of Arts in Paris. He obtained the degree of Bachelor of Arts in
-                  1451; was licensed and incepted in 1452.</note>
+                  Faculty of Arts in Paris. He obtained the degree of Bachelor of Arts in 1451; was
+                  licensed and incepted in 1452.</note>
                <occupation role="scr" ref="#Poitiers_BibliothèqueFrançoisMitterrand_Ms138236"/>
                <listBibl>
                   <bibl>Auctarium V, col. 427, l. 11, fn. 2; col. 483, l. 26; col. 489, l.
@@ -71,7 +71,7 @@
 
 
             <!-- Albertus Scriptoris de Doesborch († 1466) issue#39 -->
-            
+
             <person xml:id="AlbertusScriptorisDeDoesborch">
                <name xml:lang="lat">Albertus Scriptoris de Doesborch</name>
                <death when="1466"/>
@@ -104,8 +104,8 @@
                      universitaire en France (XIIIe–XVe siècles), Paris 1999, 81</bibl>
                   <bibl>L. Tournier, Notices biographiques des ambassadeurs, porte-parole et députés
                      de l'université de Paris au XVe siècle. 2000. <note type="biblio"><ref
-                        target="https://shs.hal.science/halshs-00009385v1/document"
-                        >https://shs.hal.science/halshs-00009385v1/document</ref>, The present
+                           target="https://shs.hal.science/halshs-00009385v1/document"
+                           >https://shs.hal.science/halshs-00009385v1/document</ref>, The present
                         article is based on the entries from the author's doctoral dissertation
                         entitled L'Université de Paris dans les événements politiques du royaume de
                         France (1405–1452), vol. 3, Annexes, p. 485–546, defended in January
@@ -137,8 +137,8 @@
 
             <person xml:id="AndreaDeGambyn">
                <idno type="CAC">2015096</idno>
-               <name xml:lang="lat">Andrea de Gambyn</name>               
-               <name xml:lang="pol">Andrzej z Gąbina</name>               
+               <name xml:lang="lat">Andrea de Gambyn</name>
+               <name xml:lang="pol">Andrzej z Gąbina</name>
                <note>Matriculated at Krakow in 1465; received a Bachelor’s degree in 1468; obtained
                   a Master’s degree in 1474.</note>
                <occupation role="fmo scr" ref="#Kraków_BibliotekaJagiellońska_cod2016"/>
@@ -152,7 +152,7 @@
                      (accessed: 04.09.2025).</bibl>
                </listBibl>
             </person>
-            
+
 
             <person xml:id="AndreasDeParadiso">
                <idno type="CAC">2016015</idno>
@@ -170,8 +170,8 @@
                      (Dostęp: 31.08.2025).</bibl>
                </listBibl>
             </person>
-            
-            
+
+
             <person xml:id="ArnoldusFoyckin">
                <name xml:lang="lat">Arnoldus Foyckin</name>
                <name xml:lang="lat">Arnaldus/Ernoldus Fokini</name>
@@ -180,35 +180,35 @@
                <name xml:lang="lat">Arnaldus/Ernoldus Foeth</name>
                <name xml:lang="lat">Arnaldus/Ernoldus Foquini</name>
                <note>Originally from the diocese of Utrecht (diocesis Traiectensis), Arnoldus
-                  Foyckin studied at the Faculty of Arts in Paris as a member of the
-                  Anglo-German nation. He obtained the degree of Bachelor of Arts in 1448 and
-                  that of Master of Arts in 1449. He later pursued studies in theology and
-                  began lecturing in 1456 under the supervision of the master Robert Ciboule.
-                  He obtained the degree of Bachelor in Theology in 1459. He served as rector
-                  in 1456 and again in 1460; he was socius of the Collège de la Sorbonne in
-                  1460 and prior of the Collège in 1462.</note>
+                  Foyckin studied at the Faculty of Arts in Paris as a member of the Anglo-German
+                  nation. He obtained the degree of Bachelor of Arts in 1448 and that of Master of
+                  Arts in 1449. He later pursued studies in theology and began lecturing in 1456
+                  under the supervision of the master Robert Ciboule. He obtained the degree of
+                  Bachelor in Theology in 1459. He served as rector in 1456 and again in 1460; he
+                  was socius of the Collège de la Sorbonne in 1460 and prior of the Collège in
+                  1462.</note>
                <occupation role="tch" ref="#Basel_UB_FIII10">Master teaching Versoris’s
                   commentaries.</occupation>
                <listBibl>
-                  <bibl>Auctarium II, col. 713, l. 6; col. 763, l. 12; col. 764, l. 24; col.
-                     916, l. 20; col. 930, l. 23; v III, col. 1, l. 6; col. 2, l. 1; VI, col.
-                     155, l. 11, n. 3; col. 177, l. 30; col. 179, l. 12; col. 197, l. 42;
-                     col. 292, l. 10, 18; col. 293, l. 7, n. 1; col. 334, l. 38; col. 336, l.
-                     24, n. 5; col. 338, l. 50; col. 340, l. 42.</bibl>
+                  <bibl>Auctarium II, col. 713, l. 6; col. 763, l. 12; col. 764, l. 24; col. 916, l.
+                     20; col. 930, l. 23; v III, col. 1, l. 6; col. 2, l. 1; VI, col. 155, l. 11, n.
+                     3; col. 177, l. 30; col. 179, l. 12; col. 197, l. 42; col. 292, l. 10, 18; col.
+                     293, l. 7, n. 1; col. 334, l. 38; col. 336, l. 24, n. 5; col. 338, l. 50; col.
+                     340, l. 42.</bibl>
                   <bibl>Vieillard, Le Registre de prêt, 577-578.</bibl>
                </listBibl>
             </person>
-            
+
             <person xml:id="BaltasarDePoznania">
                <idno type="CAC">546396</idno>
                <name xml:lang="lat">Baltasar de Poznania</name>
                <name xml:lang="pol">Baltazar z Poznania</name>
-               <note>He is attested at the Crakow Arts Faculty in 1460, when he copied
-                  Versoris’s text.</note>
-               <occupation role="scr" ref="#Kraków_BibliotekaJagiellońska_cod2008"/>                    
+               <note>He is attested at the Crakow Arts Faculty in 1460, when he copied Versoris’s
+                  text.</note>
+               <occupation role="scr" ref="#Kraków_BibliotekaJagiellońska_cod2008"/>
                <listBibl>
-                  <bibl>Baltazar z Poznania, pisarz w BJ 2008 (Id: 546396), in: Corpus
-                     Academicum Cracoviense (CAC), URL: <ref
+                  <bibl>Baltazar z Poznania, pisarz w BJ 2008 (Id: 546396), in: Corpus Academicum
+                     Cracoviense (CAC), URL: <ref
                         target="http://cac.historia.uj.edu.pl/osoba/546396_Baltazar_z_Poznania_pisarz_w_BJ_2008"
                         >http://cac.historia.uj.edu.pl/osoba/546396_Baltazar_z_Poznania_pisarz_w_BJ_2008</ref>
                      (accessed 01.09.2025).</bibl>
@@ -265,15 +265,15 @@
                <idno type="CAC">1998468</idno>
                <name xml:lang="lat">Clemens de Gambycze</name>
                <name xml:lang="pol">Klemens Zagajewski z Gębic</name>
-               <note>He received the degree of Bachelor at the University of Kraków in 1455 and
-                  the Master’s degree in 1462. He earned the Bachelor of Theology in 1474 and
-                  became Provost of the Collegium Maius in 1477. He also served as a canon of
-                  St. Florian.</note>
-               <occupation role="fmo" ref="#Krakow_BibliotekaJagiellońska_cod2024"/>                  
+               <note>He received the degree of Bachelor at the University of Kraków in 1455 and the
+                  Master’s degree in 1462. He earned the Bachelor of Theology in 1474 and became
+                  Provost of the Collegium Maius in 1477. He also served as a canon of St.
+                  Florian.</note>
+               <occupation role="fmo" ref="#Krakow_BibliotekaJagiellońska_cod2024"/>
                <listBibl>
                   <bibl>Metryka, 245</bibl>
-                  <bibl>Klemens Zagajewski z Gębic (Id: 1998468), in: Corpus Academicum
-                     Cracoviense (CAC), URL: <ref
+                  <bibl>Klemens Zagajewski z Gębic (Id: 1998468), in: Corpus Academicum Cracoviense
+                     (CAC), URL: <ref
                         target="http://cac.historia.uj.edu.pl/osoba/1998468_Klemens_Zagajewski_z_G%C4%99bic"
                         >http://cac.historia.uj.edu.pl/osoba/1998468_Klemens_Zagajewski_z_G%C4%99bic</ref>
                      (accessed: 31.08.2025).</bibl>
@@ -386,6 +386,12 @@
                </listBibl>
             </person>
 
+            <person xml:id="EberhardusSaltzmanndeValleMasonis">
+               <name xml:lang="lat">Eberhardus Saltzmann de Valle Masonis</name>
+               <note>This scribe, about whom I have not been able to find any information, signed
+                  the QsP in Colmar, Bibliothèque des Dominicains, ms. 223.</note>
+               <occupation role="scr" ref="#Colmar_BM_223"/>
+            </person>
 
             <!--  Folpardus de Ameronghen (Fohardus Hameronge) issue#22 -->
 
@@ -414,8 +420,8 @@
                      maîtres (ca. 1200–1500), II, Turnhout. 1996, p. 90–91.</bibl>
                </listBibl>
             </person>
-            
-            
+
+
 
             <!--  Galcerandus Benedicti (or Garcerandus Benedicti) issue#7 -->
 
@@ -435,29 +441,27 @@
                   <bibl>Sullivan, Parisian Licentiates, II, 410.</bibl>
                </listBibl>
             </person>
-            
+
             <person xml:id="GalfredusCalvi">
                <name xml:lang="lat">Galfredus Calvi</name>
                <name xml:lang="fr">Geoffroy Le Moal</name>
                <note>Originally from the diocese of Tours, he studied at the Faculty of Arts in
-                  Paris as a member of the French Nation and obtained his Master’s degree in
-                  1445. He served as proctor and receiver of his Nation in 1443 and 1448,
-                  respectively. He was elected rector twice: in 1449, to replace John
-                  Versoris, who declined the appointment, and again in 1456. He obtained his
-                  Licentiate in Theology in 1458 and began his activity as regent master in
-                  Theology in 1460. He is attested as regent master at the Collège de
-                  Cornouailles for the period 1445–1451. In 1460, he founded a college that
-                  bore his name —the Collège de Calvi— in the premises of the Petite
-                  Sorbonne.</note>
+                  Paris as a member of the French Nation and obtained his Master’s degree in 1445.
+                  He served as proctor and receiver of his Nation in 1443 and 1448, respectively. He
+                  was elected rector twice: in 1449, to replace John Versoris, who declined the
+                  appointment, and again in 1456. He obtained his Licentiate in Theology in 1458 and
+                  began his activity as regent master in Theology in 1460. He is attested as regent
+                  master at the Collège de Cornouailles for the period 1445–1451. In 1460, he
+                  founded a college that bore his name —the Collège de Calvi— in the premises of the
+                  Petite Sorbonne.</note>
                <occupation role="sh87002712" ref="#Paris_BnF_latin16136"/>
                <note type="role">Head of a school in which Versoris’s texts were taught.</note>
                <listBibl>
-                  <bibl>Auctarium I, col. 5, n.2; col. 381, l. 15; II, col. 669, l. 16, n. 2;
-                     col. 674, l. 46; col. 762, l. 28, n. 5; col. 789, l. 7, l. 21; col. 797,
-                     l. 43; col. 800, l. 45; col. 801, l. 17, 20, 39, n. 2; col. 802, passim;
-                     col. 803, l. 8, 19, 26; col. 804, l. 2; col. 912, l. 11, n. 5; V,
-                     passim; VI, col. 185, l. 27, n. 3; col. 277, l. 26, n.2; col. 305, n. 2;
-                     col. 419, n.5</bibl>
+                  <bibl>Auctarium I, col. 5, n.2; col. 381, l. 15; II, col. 669, l. 16, n. 2; col.
+                     674, l. 46; col. 762, l. 28, n. 5; col. 789, l. 7, l. 21; col. 797, l. 43; col.
+                     800, l. 45; col. 801, l. 17, 20, 39, n. 2; col. 802, passim; col. 803, l. 8,
+                     19, 26; col. 804, l. 2; col. 912, l. 11, n. 5; V, passim; VI, col. 185, l. 27,
+                     n. 3; col. 277, l. 26, n.2; col. 305, n. 2; col. 419, n.5</bibl>
                   <bibl>Sullivan, Parisian Licentiates II, 123-125.</bibl>
                </listBibl>
             </person>
@@ -518,7 +522,7 @@
                      (ca. 1425–1497), Bulletin de Philosophie Médiévale 56 (2014), 263-279</bibl>
                </listBibl>
             </person>
-            
+
 
             <person xml:id="GeorgSchwarz">
                <idno type="GND">11919998X</idno>
@@ -606,19 +610,18 @@
                      Erber (Paris, 1460-1463).</bibl>
                </listBibl>
             </person>
-            
+
             <person xml:id="GerardusDeWatrumwilla">
                <name xml:lang="lat">Gerardus de Watrumwilla</name>
                <name xml:lang="lat">Gerardus de Watrellet</name>
                <note>In the colophons of manuscript Paris, BnF, lat. 16136, which contains
-                  Versoris’s commentaries on the logical corpus, the Breton student Yvo de
-                  Beisit states that he copied the texts under the supervision of a master
-                  named Girardus de Watrellet. Since the colophons are dated 1451, the
-                  identification of this master appears rather problematic. In fact, the only
-                  scholar bearing a similar name (Gerardus de Watrumwilla) attested at the
-                  Faculty of Arts in Paris obtained the degree of bachelor only in 1452
-                  (Auctarium V, col. 479, l. 11) and does not appear to have been promoted to
-                  the master’s degree.</note>
+                  Versoris’s commentaries on the logical corpus, the Breton student Yvo de Beisit
+                  states that he copied the texts under the supervision of a master named Girardus
+                  de Watrellet. Since the colophons are dated 1451, the identification of this
+                  master appears rather problematic. In fact, the only scholar bearing a similar
+                  name (Gerardus de Watrumwilla) attested at the Faculty of Arts in Paris obtained
+                  the degree of bachelor only in 1452 (Auctarium V, col. 479, l. 11) and does not
+                  appear to have been promoted to the master’s degree.</note>
                <listBibl>
                   <bibl>Auctarium V, col. 479, l. 11</bibl>
                </listBibl>
@@ -650,7 +653,7 @@
             </person>
 
             <!-- Hilarius Litomericensis (von Leitmeritz; de Litomericz; z Litoměřic; Litoměřický, 1412–1468, Pilsen) issue#35-->
-            
+
             <person xml:id="HilariusLitomericensis">
                <idno type="GND">119001985</idno>
                <idno type="VIAF">316410061</idno>
@@ -687,7 +690,7 @@
                      Encyclopedia of Renaissance Philosophy, Cham 2022, 1526–1527.</bibl>
                </listBibl>
             </person>
-            
+
             <person xml:id="HenricusErlbach">
                <name xml:lang="lat">Henricus Erlbach</name>
                <name xml:lang="de">Heinrich Erlbach</name>
@@ -867,19 +870,16 @@
                <idno type="CERL">cnp01933916</idno>
                <name xml:lang="lat">Iohannes Heynlin de Lapide</name>
                <birth when="1430" cert="medium"/>
-               <death when="1496" cert="medium"/>                                        
-               <note>Studied in Leipzig, where he obtained the bachelor degree in 1450, and
-                  shortly in Louvain, in 1453. Matriculated in Paris in 1454 and active
-                  there until 1473, with some intervals when he stayed in Basel
-                  (1464-1466). Licensed in the Arts in 1455. He introduced the via antiqua
-                  at Basel University. In 1467, he come back to Paris and two years later
-                  was rector of the Arts Faculty. In 1470, with his friend Guillaume
-                  Fichet, he installed a typography at the Collège de la Sorbonne, which
-                  was the first one in France. Obtained the degree of doctor in theology
-                  at the Sorbonne in 1472. In 1487, he entered the Carthusian order in
-                  Basel. He owned 283 codices, legated after his death to the library of
-                  the Basel Carthusians.                        
-               </note>
+               <death when="1496" cert="medium"/>
+               <note>Studied in Leipzig, where he obtained the bachelor degree in 1450, and shortly
+                  in Louvain, in 1453. Matriculated in Paris in 1454 and active there until 1473,
+                  with some intervals when he stayed in Basel (1464-1466). Licensed in the Arts in
+                  1455. He introduced the via antiqua at Basel University. In 1467, he come back to
+                  Paris and two years later was rector of the Arts Faculty. In 1470, with his friend
+                  Guillaume Fichet, he installed a typography at the Collège de la Sorbonne, which
+                  was the first one in France. Obtained the degree of doctor in theology at the
+                  Sorbonne in 1472. In 1487, he entered the Carthusian order in Basel. He owned 283
+                  codices, legated after his death to the library of the Basel Carthusians. </note>
                <affiliation type="religiousOrder" subtype="OCart">Carthusian</affiliation>
                <occupation role="scr fmo" ref="#Basel_UB_FIII10"/>
                <occupation role="scr fmo" ref="#Basel_UB_FIII11"/>
@@ -887,41 +887,38 @@
                <occupation role="scr fmo" ref="#Basel_UB_FVII11"/>
                <occupation role="fmo" ref="#Basel_UB_FII14"/>
                <occupation role="fmo" ref="#Basel_UB_FIII12"/>
-               <occupation role="fmo" ref="#Basel_UB_FVI16"/>                                                            
+               <occupation role="fmo" ref="#Basel_UB_FVI16"/>
                <listBibl>
-                  <bibl>Auctarium II, col. 903, l.20; col. 907, l. 14; col. 913, l. 24, 38;
-                     col. 916, l. 23, n. 6; col. 917, l. 16, 23, n. 2; col. 921, l. 27, 36;
-                     col. 926, l. 35, 38, 42; col. 930, l. 22, 27; col. 939, l. 43; col. 948,
-                     l. 34; III, col. 49, l. 15, n 2; col. 52, l. 36; col. 67, l. 28; col.
-                     68, l. 3, l. 19; col. 70, l. 7; col. 74, l. 16; col. 75, l. 44; col. 80,
-                     l. 49; col. 84, l. 29; col. 91, l. 39; col. 92, l. 19; col. 94, l. 41;
-                     col. 112, l. 7; col. 113, l. 46; col. 114, l. 3; col. 116, l. 46; col.
-                     118, l. 17; col. 118, l. 20; col. 118, l. 23; col. 119, l. 24, l. 42;
-                     col. 120, l. 38-39; col. 121, l. 20; col. 124, l. 29; col. 145, l. 36;
-                     col. 148, l. 48; col. 160, l. 20; col. 173, l. 21; col. 179, l. 19; col.
-                     179, l. 27; col. 189, l. 13; col. 190, l. 11; col. 194, l. 4; col. 194,
-                     l. 31; col. 195, l. 10; col. 204, l. 1; col. 209, l. 19; col. 240, n 2;
-                     col. 274, l. 15; col. 275, l. 26; col. 275, l. 28; col. 275, l. 30; col.
-                     275, l. 34; col. 275, l. 36</bibl>
-                  <bibl>Auctarium VI, col. 124, n. 1; col. 250, l. 4, n. 7; col. 266, l. 11;
-                     col. 282, l. 5, n. 2; col. 293, l. 19, n. 2; col. 296, l. 46; col. 297,
-                     l. 21, n. 1; col. 298, l. 6, n. 3; col. 308–316; col. 324, l. 35; col.
-                     325, l. 10; col. 327, l. 34; col. 328, l. 31; col. 329, l. 5; col. 336,
-                     l. 21, n.4, l. 28; col. 337, l. 17, l. 40; col. 341, l. 6; col. 349, l.
-                     33; col. 378, l. 15; col. 434, n. 6; col. 456, l. 17, n. 6, l. 40; col.
-                     460, l. 4; col. col. 474, l. 12</bibl>
-                  <bibl>M. Hossfeld, “Johannes Heynlin aus Stein”, Basler Zeitschrift für
-                     Geschichte und Altertumskunde 6 (1907), 309–356</bibl>
-                  <bibl>M. Hossfeld, “Johannes Heynlin aus Stein. Ein Kapitel aus der Frühzeit
-                     des deutschen Humanismus”, Basler Zeitschrift für Geschichte und
-                     Altertumskunde 6 (1907), 309–356; 7 (1908) 79–219 and 235–431</bibl>                        
-                  <bibl>“Die Büchersammlung des Johannes de Lapide (gest.
-                     1496). Eine ausserordentliche Bibliothek als einziger Spiegel einer
-                     ausserordentlichen Person”, Gazette du livre médiéval 34 (1999),
-                     37–43</bibl>
-                  <bibl>B. von Scarpatetti, “Weltverachtung an der Schwelle der Neuzeit. Zu den Glossen in
-                     der Bibliothek Heynlins von Stein (ca. 1430–1496)”, Basler Zeitschrift
-                     für Geschichte und Altertumskunde 110 (2010), 107–126</bibl>
+                  <bibl>Auctarium II, col. 903, l.20; col. 907, l. 14; col. 913, l. 24, 38; col.
+                     916, l. 23, n. 6; col. 917, l. 16, 23, n. 2; col. 921, l. 27, 36; col. 926, l.
+                     35, 38, 42; col. 930, l. 22, 27; col. 939, l. 43; col. 948, l. 34; III, col.
+                     49, l. 15, n 2; col. 52, l. 36; col. 67, l. 28; col. 68, l. 3, l. 19; col. 70,
+                     l. 7; col. 74, l. 16; col. 75, l. 44; col. 80, l. 49; col. 84, l. 29; col. 91,
+                     l. 39; col. 92, l. 19; col. 94, l. 41; col. 112, l. 7; col. 113, l. 46; col.
+                     114, l. 3; col. 116, l. 46; col. 118, l. 17; col. 118, l. 20; col. 118, l. 23;
+                     col. 119, l. 24, l. 42; col. 120, l. 38-39; col. 121, l. 20; col. 124, l. 29;
+                     col. 145, l. 36; col. 148, l. 48; col. 160, l. 20; col. 173, l. 21; col. 179,
+                     l. 19; col. 179, l. 27; col. 189, l. 13; col. 190, l. 11; col. 194, l. 4; col.
+                     194, l. 31; col. 195, l. 10; col. 204, l. 1; col. 209, l. 19; col. 240, n 2;
+                     col. 274, l. 15; col. 275, l. 26; col. 275, l. 28; col. 275, l. 30; col. 275,
+                     l. 34; col. 275, l. 36</bibl>
+                  <bibl>Auctarium VI, col. 124, n. 1; col. 250, l. 4, n. 7; col. 266, l. 11; col.
+                     282, l. 5, n. 2; col. 293, l. 19, n. 2; col. 296, l. 46; col. 297, l. 21, n. 1;
+                     col. 298, l. 6, n. 3; col. 308–316; col. 324, l. 35; col. 325, l. 10; col. 327,
+                     l. 34; col. 328, l. 31; col. 329, l. 5; col. 336, l. 21, n.4, l. 28; col. 337,
+                     l. 17, l. 40; col. 341, l. 6; col. 349, l. 33; col. 378, l. 15; col. 434, n. 6;
+                     col. 456, l. 17, n. 6, l. 40; col. 460, l. 4; col. col. 474, l. 12</bibl>
+                  <bibl>M. Hossfeld, “Johannes Heynlin aus Stein”, Basler Zeitschrift für Geschichte
+                     und Altertumskunde 6 (1907), 309–356</bibl>
+                  <bibl>M. Hossfeld, “Johannes Heynlin aus Stein. Ein Kapitel aus der Frühzeit des
+                     deutschen Humanismus”, Basler Zeitschrift für Geschichte und Altertumskunde 6
+                     (1907), 309–356; 7 (1908) 79–219 and 235–431</bibl>
+                  <bibl>“Die Büchersammlung des Johannes de Lapide (gest. 1496). Eine
+                     ausserordentliche Bibliothek als einziger Spiegel einer ausserordentlichen
+                     Person”, Gazette du livre médiéval 34 (1999), 37–43</bibl>
+                  <bibl>B. von Scarpatetti, “Weltverachtung an der Schwelle der Neuzeit. Zu den
+                     Glossen in der Bibliothek Heynlins von Stein (ca. 1430–1496)”, Basler
+                     Zeitschrift für Geschichte und Altertumskunde 110 (2010), 107–126</bibl>
                   <bibl>Sullivan, Parisian Licentiates II, 281–284</bibl>
                   <bibl>B. von Scarpatetti, Bücherliebe und Weltverachtung. Die Bibliothek des
                      Volkspredigers Heynlin von Stein und ihr Geheimnis, Basel 2021.</bibl>
@@ -932,25 +929,24 @@
 
             <person xml:id="IohannesQuarreti">
                <name xml:lang="lat">Iohannes Quarreti</name>
-               <note>From Bar-le-Duc, in the diocese of Toul (diocesis Tullensis), he enrolled
-                  in the Paris Faculty of Arts as a member of the French Nation. He obtained
-                  the degree of baccalarius in 1446 and was licensed in the arts in 1447. He
-                  served as procurator of the French Nation in 1454 (one of the intrantes who
-                  elected him was Dérien de Pierre). He was licensed in theology in
-                  1462.</note>
-               <occupation role="scr" ref="#Paris_BnF_latin6455"/>                    
+               <note>From Bar-le-Duc, in the diocese of Toul (diocesis Tullensis), he enrolled in
+                  the Paris Faculty of Arts as a member of the French Nation. He obtained the degree
+                  of baccalarius in 1446 and was licensed in the arts in 1447. He served as
+                  procurator of the French Nation in 1454 (one of the intrantes who elected him was
+                  Dérien de Pierre). He was licensed in theology in 1462.</note>
+               <occupation role="scr" ref="#Paris_BnF_latin6455"/>
                <listBibl>
-                  <bibl>Auctarium V, col. 145, n. 3; col. 146, l. 32; col. 206, l. 35; col.
-                     207, l. 31; col. 588, l. 17, l. 24; col. 589, l. 20, l. 38, l. 45; col.
-                     591, l. 7, l. 42, l. 45; col. 592, l. 21, l. 49; col. 593, l. 1, l. 19,
-                     l. 35, l. 40; col. 595, l. 3; col. 603, l. 35; col. 605, l. 30, l. 40;
-                     col. 607, l. 14, l. 27, l. 29, l. 31, l. 35; col. 609, l. 31; col. 611,
-                     l. 41; col. 612, l. 14, l. 16, l. 38; col. 618, l. 11, l. 13, l. 17, l.
-                     21, l. 31; col. 642, l. 26; col. 731</bibl>
+                  <bibl>Auctarium V, col. 145, n. 3; col. 146, l. 32; col. 206, l. 35; col. 207, l.
+                     31; col. 588, l. 17, l. 24; col. 589, l. 20, l. 38, l. 45; col. 591, l. 7, l.
+                     42, l. 45; col. 592, l. 21, l. 49; col. 593, l. 1, l. 19, l. 35, l. 40; col.
+                     595, l. 3; col. 603, l. 35; col. 605, l. 30, l. 40; col. 607, l. 14, l. 27, l.
+                     29, l. 31, l. 35; col. 609, l. 31; col. 611, l. 41; col. 612, l. 14, l. 16, l.
+                     38; col. 618, l. 11, l. 13, l. 17, l. 21, l. 31; col. 642, l. 26; col.
+                     731</bibl>
                   <bibl>Sullivan II, 426, 387, 452, 544.</bibl>
                </listBibl>
             </person>
-            
+
             <!--  Iohannes Run issue#15 -->
 
             <person xml:id="IohannesRun">
@@ -971,9 +967,9 @@
 
             <person xml:id="IudicellusRouyant">
                <name xml:lang="lat">Iudicellus Rouyant</name>
-               <note>In 1456, he pursued studies at the Faculty of Arts, University of Paris,
-                  under the supervision of Reginaldus de Brule.</note>
-               <occupation role="fmo" ref="#Paris_BnF_latin16136"/>                    
+               <note>In 1456, he pursued studies at the Faculty of Arts, University of Paris, under
+                  the supervision of Reginaldus de Brule.</note>
+               <occupation role="fmo" ref="#Paris_BnF_latin16136"/>
                <listBibl>
                   <bibl>Auctarium V, col. 633, n. 1</bibl>
                   <bibl>Rebmeister-Klein, Les livres des petits collèges, III, 1159.</bibl>
@@ -982,11 +978,11 @@
 
             <person xml:id="IvoBezit">
                <name xml:lang="lat">Ivo Bezit</name>
-               <name xml:lang="lat">Ivo de Bezit</name>                    
-               <note>Originally from the diocese of Vannes, he studied at the Faculty of Arts
-                  in Paris, where he obtained his Bachelor’s degree in 1452 and his Master’s
-                  degree in 1453.</note>
-               <occupation role="scr" ref="#Paris_BnF_latin16136"/>                    
+               <name xml:lang="lat">Ivo de Bezit</name>
+               <note>Originally from the diocese of Vannes, he studied at the Faculty of Arts in
+                  Paris, where he obtained his Bachelor’s degree in 1452 and his Master’s degree in
+                  1453.</note>
+               <occupation role="scr" ref="#Paris_BnF_latin16136"/>
                <listBibl>
                   <bibl>Auctarium V, col. 479, l. 39; col. 526, l. 5; col. 529, l. 4</bibl>
                   <bibl>Rouse, Manuscripts II, 140</bibl>
@@ -1171,17 +1167,17 @@
                   <bibl>Livesey, Science in the Monastery, 189-192</bibl>
                </listBibl>
             </person>
-            
+
             <person xml:id="ReginaldusDeBrule">
                <name xml:lang="lat">Reginaldus de Brule</name>
-               <note>A member of the Picard Nation at the Faculty of Arts in Paris, he was
-                  admitted to the Collège de Sorbonne in 1452. He served as rector in 1454 and
-                  obtained his licentiate in theology in 1464.</note>
-               <occupation role="fmo" ref="#Paris_BnF_latin16136"/>                   
+               <note>A member of the Picard Nation at the Faculty of Arts in Paris, he was admitted
+                  to the Collège de Sorbonne in 1452. He served as rector in 1454 and obtained his
+                  licentiate in theology in 1464.</note>
+               <occupation role="fmo" ref="#Paris_BnF_latin16136"/>
                <listBibl>
-                  <bibl>Auctarium II, col. 905, n. 1; V, col. 633, l. 39 n. 1; col. 634, l. 7;
-                     col. 637, l. 4, l. 12; col. 640, l. 7; col. 641, l. 6; col. 643, l. 27,
-                     l. 38; VI, xxiii, col. 257, n. 3</bibl>
+                  <bibl>Auctarium II, col. 905, n. 1; V, col. 633, l. 39 n. 1; col. 634, l. 7; col.
+                     637, l. 4, l. 12; col. 640, l. 7; col. 641, l. 6; col. 643, l. 27, l. 38; VI,
+                     xxiii, col. 257, n. 3</bibl>
                   <bibl>Vielliard, Registre de prêt, 403–406, 675–76</bibl>
                   <bibl>Marichal, Le livre des prieurs, 119, 154, 227</bibl>
                   <bibl>Kałuza, “Débuts,” 281</bibl>
@@ -1192,22 +1188,21 @@
 
             <person xml:id="SimonDeHorreo">
                <name xml:lang="lat">Simon de Horreo</name>
-               <note>Manuscript Pelplin, Biblioteka Seminarium Duchownego 236/21, was copied
-                  by a student named Simon de Horreo, who wrote in the school of Master
-                  Iohannes Haneron. No student by this name appears in the proctors’ and
-                  receivers’ books of the Faculty of Arts in Paris. A student named Simon
-                  de Horth, from the diocese of Utrecht, obtained the degree of bachelor
-                  in 1448 (Auctarium II, col. 713, l. 1; VI, col. 155, l. 4). Although the
-                  identification remains uncertain, this date is compatible with the
-                  activity of Iohannes Haneron.
-                  <p>A man named Simon de Horreo, whose identification with the student of
-                     Iohannes Haneron cannot yet be confirmed, was prior of the Carthusian
-                     convent in Ghent from 1470; he died in 1497.</p>
+               <note>Manuscript Pelplin, Biblioteka Seminarium Duchownego 236/21, was copied by a
+                  student named Simon de Horreo, who wrote in the school of Master Iohannes Haneron.
+                  No student by this name appears in the proctors’ and receivers’ books of the
+                  Faculty of Arts in Paris. A student named Simon de Horth, from the diocese of
+                  Utrecht, obtained the degree of bachelor in 1448 (Auctarium II, col. 713, l. 1;
+                  VI, col. 155, l. 4). Although the identification remains uncertain, this date is
+                  compatible with the activity of Iohannes Haneron. <p>A man named Simon de Horreo,
+                     whose identification with the student of Iohannes Haneron cannot yet be
+                     confirmed, was prior of the Carthusian convent in Ghent from 1470; he died in
+                     1497.</p>
                   <listBibl>
                      <bibl>Auctarium II, col. 713, l. 1; VI, col. 155, l. 4.</bibl>
                      <bibl>P. J. Blok, P. C. Molhuysen, Nieuw Nederlandsch Biografisch Woordenboek,
                         vol. 6, Leiden 1924, 1233.</bibl>
-                  </listBibl> 
+                  </listBibl>
                </note>
             </person>
 
@@ -1310,14 +1305,14 @@
             <person xml:id="YvoQuentel">
                <name xml:lang="lat">Yvo Quentel</name>
                <name xml:lang="lat">Yvo de Quengo</name>
-               <note>A master by this name is mentioned in a note written in 1456 by his
-                  nephew, the Breton student Reginaldus de Brule, in manuscript Paris, BnF,
-                  lat. 16136. The Breton master whose name most closely corresponds in this
-                  period at the Faculty of Arts in Paris is Yvo de Quengo, from the diocese of
-                  Dol, who obtained his licentiate in Arts in 1452.</note>
+               <note>A master by this name is mentioned in a note written in 1456 by his nephew, the
+                  Breton student Reginaldus de Brule, in manuscript Paris, BnF, lat. 16136. The
+                  Breton master whose name most closely corresponds in this period at the Faculty of
+                  Arts in Paris is Yvo de Quengo, from the diocese of Dol, who obtained his
+                  licentiate in Arts in 1452.</note>
                <listBibl>
                   <bibl>Auctarium V, col. 423, l.9; col. 484, l. 5; col. 489, l. 46.</bibl>
-               </listBibl>                           
+               </listBibl>
             </person>
          </listPerson>
       </body>
