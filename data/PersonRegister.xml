@@ -134,9 +134,8 @@
 
             <person xml:id="AndreaDeGambyn">
                <idno type="CAC">2015096</idno>
-               <name xml:lang="lat">Andrea de Gambyn</name>
-               <name xml:lang="pol">Andrzej z Gąbina</name>
-               <floruit from="1465" to="1474"/>
+               <name xml:lang="lat">Andrea de Gambyn</name>               
+               <name xml:lang="pol">Andrzej z Gąbina</name>               
                <note>Matriculated at Krakow in 1465; received a Bachelor’s degree in 1468; obtained
                   a Master’s degree in 1474.</note>
                <occupation role="fmo scr" ref="#Kraków_BibliotekaJagiellońska_cod2016"/>
@@ -198,6 +197,7 @@
             </person>
             
             <person xml:id="BaltasarDePoznania">
+               <idno type="CAC">546396</idno>
                <name xml:lang="lat">Baltasar de Poznania</name>
                <name xml:lang="pol">Baltazar z Poznania</name>
                <note>He is attested at the Crakow Arts Faculty in 1460, when he copied
