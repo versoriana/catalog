@@ -1800,7 +1800,7 @@
                   <origin>
                      <origDate from="1463" to="1463"/>
                      <p>The colophon of the second set of questions on the Ethics informs us that it
-                        was copied by Claudius Vernet under the supervision of <persName
+                        was copied by <persName ref="#ClaudiusVerneti">Claudius Vernet</persName> under the supervision of <persName
                            ref="#GaltherusDeWalma">Galtherus de Walma</persName>, regent master at
                         the Collège de Bourgogne: <quote source="215v">Et sic est finis sexti
                            Ethicorum, finiti per me, Claudium Verneti, dyocesis Bisuntiensis,
