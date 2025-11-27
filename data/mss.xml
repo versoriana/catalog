@@ -136,10 +136,12 @@
                      </msItem>
                      <filiation>
                         <list>
-                           <item> The <ref target="#Aarau_AKB_MsWettF42_AnonExpositio">first commentary</ref> is very similar to the <ref target="workID" type="work">DA</ref>
-                              commentary transmitted in <ref type="ms" target="msID">ms. Basel F I
-                                 13</ref>: the questions transmitted are the same; the structure is
-                              the same; it could be a copy of this text.</item>
+                           <item> The <ref target="#Aarau_AKB_MsWettF42_AnonExpositio">first
+                                 commentary</ref> is very similar to the <ref target="workID"
+                                 type="work">DA</ref> commentary transmitted in <ref type="ms"
+                                 target="msID">ms. Basel F I 13</ref>: the questions transmitted are
+                              the same; the structure is the same; it could be a copy of this
+                              text.</item>
                         </list>
                      </filiation>
                      <note type="paleo">Copied by a different hand than <ref type="msItem"
@@ -719,7 +721,7 @@
                   <idno>Ms. lat. qu. 87</idno>
                </msIdentifier>
                <msContents>
-                  <summary>none</summary>
+                  <summary>None</summary>
                   <msItem
                      xml:id="Berlin_StaatsbibliotheekPreußischerKulturbesitz_Mslatqu87_Summulelogicales">
                      <locus from="1r" to="63r"/>
@@ -1227,7 +1229,7 @@
                   <idno>cod. 2524</idno>
                </msIdentifier>
                <msContents>
-                  <summary>none</summary>
+                  <summary>None</summary>
                   <msItem xml:id="Kraków_BibliotekaJagiellońska_cod2524_QsMetaAntoniusAndreae">
                      <locus from="4r" to="103r"/>
                      <title ref="workId">QsMeta</title>
@@ -1305,7 +1307,7 @@
                   <idno>cod. 2599</idno>
                </msIdentifier>
                <msContents>
-                  <summary>none</summary>
+                  <summary>None</summary>
                   <msItem xml:id="Kraków_BibliotekaJagiellońska_cod2599_QdA">
                      <locus from="6r" to="67v"/>
                      <title ref="workID">QdA</title>
@@ -1666,6 +1668,73 @@
                   <listBibl>
                      <bibl>Neske, Nürnberg, 188.</bibl>
                      <bibl>Merinhos, 296-297.</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+
+            <msDesc xml:id="Paris_BnF_latin6455">
+               <msIdentifier>
+                  <settlement>Paris</settlement>
+                  <repository>BnF</repository>
+                  <idno>latin 6455</idno>
+                  <idno type="URI">https://gallica.bnf.fr/ark:/12148/btv1b100389122</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>None</summary>
+                  <msItem xml:id="Paris_BnF_latin6455_QsMeta">
+                     <locus from="1r" to="89r"/>
+                     <title ref="workID">QsMeta I-VI</title>
+                     <colophon source="12ra" n="I">Et hec de questione presenti, et per consequens
+                        de toto primo libro Methaphisice Aristotelis, scripto et completo per me,
+                        Iohannem Quarreti, venerabilis nationis Francie, vicesima die mai</colophon>
+                     <colophon source="34va" n="III">Et hec de questione, et per consequens de toto
+                        tertio libro Methaphisice Aristotelis, completo Parisius, secunda die mensis
+                        iunii, I. Q.</colophon>
+                     <colophon source="54v" n="IV">Et hec de questione presenti, et per consequens
+                        de toto quarto libro Methaphisice Aristotilis, completo Parisius, per me,
+                        Iohannem Quarreti, scolarem Parisius, studentem in artium facultati, anno
+                        Domini millesimo quadrigentesimo quadragesimo sexto</colophon>
+                  </msItem>
+                  <msItem xml:id="Paris_BnF_latin6455_QsE">
+                     <locus from="91v" to="169v"/>
+                     <title ref="workID">QsE I–VI</title>
+                     <note type="desc">The QsE stops unfinished at f. 169v, question VI.7, Utrum
+                        synesis et gnomin sunt virtutes distincte adiuncte prudentie, with the
+                        words: <quote source="169v">sciendum est tertio, pro
+                        ampliori</quote>.</note>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate from="1446" to="1446"/>
+                     <p>1446, as attested in the colophon of Book IV of the QsMeta: <quote source="54v">Et hec de
+                        questione presenti, et per consequens de toto quarto libro Methaphisice
+                        Aristotilis, completo Parisius, per me, Iohannem Quarreti, scolarem
+                        Parisius, studentem in artium facultati, anno Domini millesimo
+                        quadrigentesimo quadragesimo sexto</quote>, f. 54v.</p>
+                     <origPlace ref="#place_paris">Paris</origPlace>
+                     <p>The manuscript was copied in Paris by the student <persName ref="#IohannesQuarreti">Iohannes Quarreti</persName>, as
+                        attested in the colophons of books I and III of the QsMeta: <quote source="12ra">Et hec de
+                        questione presenti, et per consequens de toto primo libro Methaphisice
+                        Aristotelis, scripto et completo per me, Iohannem Quarreti, venerabilis
+                        nationis Francie, vicesima die mai</quote>, f. 12ra; <quote source="34va">Et hec de questione, et per
+                        consequens de toto tertio libro Methaphisice Aristotelis, completo Parisius,
+                        secunda die mensis iunii, I. Q.</quote>, f. 34va.</p>
+                  </origin>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source cert="high" resp="#">
+                           <p>Ms directly examined</p>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+                  <listBibl>
+                     <bibl>Colophons III, 451, n. 11074</bibl>
+                     <bibl>Samaran, Marichal, Catalogue III, 345</bibl>
+                     <bibl>Seńko, Repertorium I, 53–55</bibl>
+                     <bibl>Rouse, Rouse, Illiterati et uxorati II,84</bibl>
                   </listBibl>
                </additional>
             </msDesc>
