@@ -411,6 +411,8 @@
                      maîtres (ca. 1200–1500), II, Turnhout. 1996, p. 90–91.</bibl>
                </listBibl>
             </person>
+            
+            
 
             <!--  Galcerandus Benedicti (or Garcerandus Benedicti) issue#7 -->
 
@@ -428,6 +430,32 @@
                      l. 30; col. 277, l. 38; 293, l. 13; col. 332, l. 34; col. 373, l. 37</bibl>
                   <bibl>Rouse &amp; Rouse, Illiterati et uxorati, 31</bibl>
                   <bibl>Sullivan, Parisian Licentiates, II, 410.</bibl>
+               </listBibl>
+            </person>
+            
+            <person xml:id="GalfredusCalvi">
+               <name xml:lang="lat">Galfredus Calvi</name>
+               <name xml:lang="fr">Geoffroy Le Moal</name>
+               <note>Originally from the diocese of Tours, he studied at the Faculty of Arts in
+                  Paris as a member of the French Nation and obtained his Master’s degree in
+                  1445. He served as proctor and receiver of his Nation in 1443 and 1448,
+                  respectively. He was elected rector twice: in 1449, to replace John
+                  Versoris, who declined the appointment, and again in 1456. He obtained his
+                  Licentiate in Theology in 1458 and began his activity as regent master in
+                  Theology in 1460. He is attested as regent master at the Collège de
+                  Cornouailles for the period 1445–1451. In 1460, he founded a college that
+                  bore his name —the Collège de Calvi— in the premises of the Petite
+                  Sorbonne.</note>
+               <occupation role="sh87002712" ref="#Paris_BnF_latin16136"/>
+               <note type="role">Head of a school in which Versoris’s texts were taught.</note>
+               <listBibl>
+                  <bibl>Auctarium I, col. 5, n.2; col. 381, l. 15; II, col. 669, l. 16, n. 2;
+                     col. 674, l. 46; col. 762, l. 28, n. 5; col. 789, l. 7, l. 21; col. 797,
+                     l. 43; col. 800, l. 45; col. 801, l. 17, 20, 39, n. 2; col. 802, passim;
+                     col. 803, l. 8, 19, 26; col. 804, l. 2; col. 912, l. 11, n. 5; V,
+                     passim; VI, col. 185, l. 27, n. 3; col. 277, l. 26, n.2; col. 305, n. 2;
+                     col. 419, n.5</bibl>
+                  <bibl>Sullivan, Parisian Licentiates II, 123-125.</bibl>
                </listBibl>
             </person>
 
@@ -487,6 +515,7 @@
                      (ca. 1425–1497), Bulletin de Philosophie Médiévale 56 (2014), 263-279</bibl>
                </listBibl>
             </person>
+            
 
             <person xml:id="GeorgSchwarz">
                <idno type="GND">11919998X</idno>
