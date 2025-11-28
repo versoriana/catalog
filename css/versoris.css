@@ -710,6 +710,13 @@ tei-colophon[n]::after {
     font-weight: normal;
 }
 
+/* Style note[type="msRelationship"] content to display as list item with bullet */
+.related-manuscripts-section tei-note[type="msRelationship"] .note-content {
+    display: list-item;
+    list-style-type: disc;
+    margin-left: 2em;
+}
+
 /* Default bullet points for all lists */
   tei-item {
       display: list-item;
