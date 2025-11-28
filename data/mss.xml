@@ -543,7 +543,7 @@
                </msIdentifier>
                <msContents>
                   <msItem xml:id="Basel_UB_F-IV-4_QsP">
-                     <locus from="1ra-27va"/>
+                     <locus from="1ra" to="27va"/>
                      <title ref="ID">QsP</title>
                   </msItem>
                </msContents>
@@ -1222,6 +1222,84 @@
 
             </msDesc>
 
+            <msDesc xml:id="Kraków_BibliotekaJagiellońska_cod1893">
+               <msIdentifier>
+                  <settlement>Kraków</settlement>
+                  <repository>Biblioteka Jagiellońska</repository>
+                  <idno>cod. 1893</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>None</summary>
+                  <msItem xml:id="Kraków_BibliotekaJagiellońska_cod1893_PriorAnalytics">
+                     <locus from="1r" to="75r"/>
+                     <title ref="WorkId">Commentary on Aristotle’s Prior Analytics</title>
+                     <author>Laurentius de Poznania</author>
+                  </msItem>
+                  <msItem xml:id="Kraków_BibliotekaJagiellońska_cod1893_PostAnalytics">
+                     <locus from="79r" to="135r"/>
+                     <title ref="WorkId">Commentary on Aristotle’s Posterior Analytics</title>
+                     <author>Laurentius de Poznania</author>
+                  </msItem>
+                  <msItem xml:id="Kraków_BibliotekaJagiellońska_cod1893_SR_frag">
+                     <locus from="135v"/>
+                     <title ref="WorkId">Commentary on Aristotle’s Sophistical Refutations</title>
+                     <author>Laurentius de Poznania</author>
+                  </msItem>
+                  <msItem xml:id="Kraków_BibliotekaJagiellońska_cod1893_PriorAnalytics_Anon">
+                     <locus from="136r" to="146v"/>
+                     <title ref="WorkId">Commentary on Aristotle’s Prior Analytics</title>
+                     <author>Anonymus</author>
+                  </msItem>
+                  <msItem xml:id="Kraków_BibliotekaJagiellońska_cod1893_DeAnima">
+                     <locus from="148r" to="158r"/>
+                     <title ref="WorkId">Commentary on Aristotle’s De anima</title>
+                     <author>Laurentius de Poznania</author>
+                  </msItem>
+                  <msItem xml:id="Kraków_BibliotekaJagiellońska_cod1893_SR_glossa">
+                     <locus from="198r" to="252v"/>
+                     <title ref="WorkId">Aristotle’s Sophistical Refutations</title>
+                  </msItem>
+                  <msItem xml:id="Kraków_BibliotekaJagiellońska_cod1893_QsSE">
+                     <locus from="254r" to="286v"/>
+                     <title ref="workID">QsSE</title>                     
+                     <note type="desc">The manuscript also contains Laurentius de Poznania’s literal
+                        commentaries on Aristotle’s Prior Analytics (ff. 1r–75r), Posterior
+                        Analytics (ff. 79r–135r), and De anima (ff. 148r–158r), as well as a
+                        fragment from his literal commentary on the Sophistical Refutations (f.
+                        135v). In addition, it includes a copy of Aristotle’s Sophistical
+                        Refutations with some anonymous marginal and interlinear glosses (ff.
+                        198r–252v), and an anonymous literal commentary on Aristotle’s Prior
+                        Analytics (ff. 136r–146v).</note>
+                     <colophon source="286v">Anno Domini millesimo quadrigentesimo septuagesimo septimo</colophon>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate from="1477" to="1477"/>
+                     <p>1477, as evident from the colophon: <quote source="286v">Anno Domini millesimo quadrigentesimo septuagesimo septimo</quote>, f. 286v.</p>
+                     <origPlace>Kraków</origPlace>
+                  </origin>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source cert="high" resp="#">
+                           <p>Mss directly examined</p>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+                  <listBibl>
+                     <bibl>Wysłocki, Katalog II, 452</bibl>
+                     <bibl>Zumkeller, 16, 555, n. 7</bibl>
+                     <bibl>Markowski/Włodek, Aristotelica Cracoviensia, 73–54</bibl>
+                     <bibl>Markowski, Logika, 155, 201</bibl>
+                     <bibl>Clavis 1 (2019), n. 925/1, 929/1, 929/2, 929/3, 929/4</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+
+
+
             <msDesc xml:id="Kraków_BibliotekaJagiellońska_cod2524">
                <msIdentifier>
                   <settlement>Kraków</settlement>
@@ -1640,7 +1718,7 @@
                      <locus from="1ra" to="108vb">I-IV</locus>
                      <note type="content">The text is acephalus and begins with the words: <q>eius,
                            sicut proprium consequitur speciem</q> (book I). It ends unfinished at
-                        book V with the words: <q>ergo quoddam corpus est ubique, quia</q>. </note>
+                        book V with the words: <q>ergo quoddam corpus est ubique, quia</q>.</note>
                      <colophon source="93ra">Explicit quartus tractatus Petri Hispani de
                         sillogismis, per manum fratris Leonhardi Schroter conventus
                         Ratisponensis</colophon>
