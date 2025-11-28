@@ -1261,7 +1261,7 @@
                   </msItem>
                   <msItem xml:id="Kraków_BibliotekaJagiellońska_cod1893_QsSE">
                      <locus from="254r" to="286v"/>
-                     <title ref="workID">QsSE</title>                     
+                     <title ref="workID">QsSE</title>
                      <note type="desc">The manuscript also contains Laurentius de Poznania’s literal
                         commentaries on Aristotle’s Prior Analytics (ff. 1r–75r), Posterior
                         Analytics (ff. 79r–135r), and De anima (ff. 148r–158r), as well as a
@@ -1270,13 +1270,15 @@
                         Refutations with some anonymous marginal and interlinear glosses (ff.
                         198r–252v), and an anonymous literal commentary on Aristotle’s Prior
                         Analytics (ff. 136r–146v).</note>
-                     <colophon source="286v">Anno Domini millesimo quadrigentesimo septuagesimo septimo</colophon>
+                     <colophon source="286v">Anno Domini millesimo quadrigentesimo septuagesimo
+                        septimo</colophon>
                   </msItem>
                </msContents>
                <history>
                   <origin>
                      <origDate from="1477" to="1477"/>
-                     <p>1477, as evident from the colophon: <quote source="286v">Anno Domini millesimo quadrigentesimo septuagesimo septimo</quote>, f. 286v.</p>
+                     <p>1477, as evident from the colophon: <quote source="286v">Anno Domini
+                           millesimo quadrigentesimo septuagesimo septimo</quote>, f. 286v.</p>
                      <origPlace>Kraków</origPlace>
                   </origin>
                </history>
@@ -1298,7 +1300,149 @@
                </additional>
             </msDesc>
 
+            <msDesc xml:id="Kraków_BibliotekaJagiellońska_cod2007">
+               <msIdentifier>
+                  <settlement>Kraków</settlement>
+                  <repository>Biblioteka Jagiellońska</repository>
+                  <idno>cod. 2007</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>None</summary>
+                  <msItem xml:id="Kraków_BibliotekaJagiellońska_cod2007_QdC">
+                     <locus from="87r" to="134v"/>
+                     <title ref="workID">QdC</title>
+                     <msItem xml:id="Kraków_BibliotekaJagiellońska_cod2007_QdC_q1" class="question"
+                        n="1">
+                        <locus from="126rb"/>
+                        <title ref="questionID">Circa tertium De celo et mundo queritur utrum ex
+                           parte gravitatis et levitatis possit concludi nullum corpus esse
+                           compositum ex indivisibilibus</title>
+                     </msItem>
+                     <msItem xml:id="Kraków_BibliotekaJagiellońska_cod2007_QdC_q2" class="question"
+                        n="2">
+                        <locus from="127r"/>
+                        <title ref="questionID">Utrum omnium corporum sit generatio</title>
+                     </msItem>
+                     <msItem xml:id="Kraków_BibliotekaJagiellońska_cod2007_QdC_q3" class="question"
+                        n="3">
+                        <locus from="128r"/>
+                        <title ref="questionID">Utrum ex parte gravitatis et levitatis numerus
+                           quaternarius sit elementorum</title>
+                     </msItem>
+                     <msItem xml:id="Kraków_BibliotekaJagiellońska_cod2007_QdC_q4" class="question"
+                        n="4">
+                        <locus from="128v"/>
+                        <title ref="questionID">Utrum elementa secundum se tota sint generabilia et
+                           corruptibilia</title>
+                     </msItem>
+                     <note type="desc"><p>Versoris’s QdC I–II, IV are completed by some questions on
+                           Book III, copied without codicological discontinuity between Book II and
+                           Book IV of Versoris’s commentary. The questions are as follows: Circa
+                           tertium De celo et mundo queritur utrum ex parte gravitatis et levitatis
+                           possit concludi nullum corpus esse compositum ex indivisibilibus, f.
+                           126rb; Utrum omnium corporum sit generatio, f. 127r; Utrum ex parte
+                           gravitatis et levitatis numerus quaternarius sit elementorum, f. 128r;
+                           Utrum elementa secundum se tota sint generabilia et corruptibilia, f.
+                           128v. The same questions have been interpolated into Versoris’s QdC in
+                           ms. BJ 2024.</p>
+                        <p> The QsMete are preceded by the prologue of Paulus of Worczyn’s Questions
+                           on Aristotle’s Meteorology. </p>
+                        <p>To complete the set of commentaries on Aristotle’s libri naturales, the
+                           codex also contains the anonymous Cracovian QsP (inc.: circa initium
+                           libri Physicorum queritur utrum inter tres scientias speculativas reales
+                           philosophia ordine doctrine sit prima, mathematica secunda, metaphysica
+                           tertia”) and some anonymous QdG (ff. 135r–163r, the same that can be
+                           found in ms. 2118, ff. 177r–193r).</p>
+                        <p>The commentaries are accompanied by several glosses.</p>
+                     </note>
+                     <filiation>
+                        <list>
+                           <item><ref target="#Kraków_BJ_cod2024">Kraków, BJ, cod. 2024</ref>, in
+                              which Versoris’s QdC are also completed with the same anonymous
+                              questions on Book III</item>
+                        </list>
+                     </filiation>
+                  </msItem>
+                  <msItem xml:id="Kraków_BibliotekaJagiellońska_cod2007_QsP_Anon">
+                     <locus>??</locus>
+                     <title ref="workid">QsP</title>
+                     <author>Anonymus</author>
+                     <incipit>circa initium libri Physicorum queritur utrum inter tres scientias
+                        speculativas reales philosophia ordine doctrine sit prima, mathematica
+                        secunda, metaphysica tertia</incipit>
+                     <filiation>
+                        <list>
+                           <item><ref target="#Krakow_BJ_cod2002">Krakow, BJ, cod. 2002</ref>, <ref
+                                 target="#Krakow_BJ_cod2072">2072</ref>, <ref
+                                 target="#Krakow_BJ_cod2087">2087</ref>, which contain the same
+                              Cracovian QsP.</item>
+                        </list>
+                     </filiation>
+                  </msItem>
+                  <msItem xml:id="Kraków_BibliotekaJagiellońska_cod2007_QdG_Anon">
+                     <locus from="135r" to="163r"/>
+                     <title ref="workID">QdG</title>
+                     <author>Anonymus</author>
+                     <filiation>
+                        <list>
+                           <item>
+                              <ref target="Kraków_BJ_cod2118">Kraków, BJ, cod. 2118</ref>, which
+                              contains the same anonymous QdG found at ff. 135r–163r. </item>
+                        </list>
+                     </filiation>
+                  </msItem>
+                  <msItem xml:id="Kraków_BibliotekaJagiellońska_cod2007_QsMete">
+                     <locus from="163r" to="192r"/>
+                     <title ref="workID">QsMete</title>
+                     <filiation>
+                        <list>
+                           <item><ref target="#Munich_BSB_Clm520">Munich, BSB, Clm 520</ref>, in which Versoris’s QsMete are also
+                              preceded by the prologue from Paulus of Worczyn’s Questions on
+                              Aristotle’s Meteorology.</item>
+                        </list>
+                     </filiation>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate from="1450" to="1475"/>
+                     <p>Based on the watermarks, the part containing Versoris’s commentaries can be
+                        dated to the third quarter of the fifteenth century. <note type="editorial"
+                           >I am referring to the typescript description prepared by Marian Zwiercan
+                           in 1961, which was kindly made available to me by the librarians of the
+                           manuscript department.</note></p>
+                     <origPlace>Kraków</origPlace>
+                     <note type="msRelationship"><ref target="#Kraków_BJ_cod2085">Kraków, BJ, cod.
+                           2085</ref>, which also belonged to <persName ref="#MichaelDeTurobin"
+                           >Michael de Turobin</persName>.</note>
+                  </origin>
+                  <provenance>The codex belonged to <persName ref="#MichaelDeTurobin">Michael de
+                        Turobin</persName>: <quote source="1r">Liber Michaelis Lublin, alias de
+                        Turobin, decretorum doctoris, decani Cureloviensis, canonici Lovicensis et
+                        fundatoris ecclesie Collegialis ad sanctam Annam Cracovie, datus in usum
+                        pauperum studiosorum, qui obiit 1528, 24 Aprilis</quote>, f.
+                     1r.</provenance>
 
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source cert="high" resp="#">
+                           <p>Mss directly examined</p>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+                  <listBibl>
+                     <bibl>Wysłocki, Katalog II 488.</bibl>
+                     <bibl>Palacz, “Les Quaestiones cracovienses”, 46.</bibl>
+                     <bibl>Palacz (ed.), “Quaestiones cracovienses”, XVI–XVII.</bibl>
+                     <bibl>Markowski/Włodek, Aristotelica Cracoviensia, 87–88.</bibl>
+                     <bibl>Clavis 1 (2019), n. 718.</bibl>
+                     <bibl>Panzica, “Commenter les Météorologiques à l’Université de Cracovie”,
+                        122–124, 125, 178.</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
 
             <msDesc xml:id="Kraków_BibliotekaJagiellońska_cod2524">
                <msIdentifier>
