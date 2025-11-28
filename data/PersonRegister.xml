@@ -1045,8 +1045,8 @@
                <note>Michael de Turobin studied at the University of Krakow, where he obtained the
                   degree of Bachelor of Arts in 1477 and subsequently that of Doctor of Law. In
                   1527, he founded the Collegiate Church of Saint Anna in Krakow.</note>
-               <occupation role="fmo" ref="#Krakow_BJ_cod2007"/>
-               <occupation role="fmo" ref="#Krakow_BJ_cod2085"/>
+               <occupation role="fmo" ref="#Krakow_BibliotekaJagiellońska_cod2007"/>
+               <occupation role="fmo" ref="#Krakow_BibliotekaJagiellońska_cod2085"/>
                <listBibl>
                   <bibl>Polski Słownik Biograficzny, vol. 20, Wrocław, 1975, 624–625</bibl>
                   <bibl>Michał z Lublina i Turobina (Id: 2020390), in: Corpus Academicum Cracoviense
@@ -1106,7 +1106,7 @@
                <note>matriculated in Krakow in 1473 (if he is to be identified with Paul, son of
                   Stanislaus) or 1474 (if he is to be identified with Paul, son of Ludwig). Both
                   obtained the degree of Arts bachelor in 1476.</note>
-               <occupation role="fmo" ref="#Krakow_BJ_2118"/>
+               <occupation role="fmo" ref="#Krakow_BibliotekaJagiellońska_cod2118"/>
                <listBibl>
                   <bibl>Metryka, 368</bibl>
                   <bibl>Paweł z Warszawy, syn Ludwika (Id: 2009679), w: Corpus Academicum
