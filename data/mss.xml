@@ -1459,17 +1459,17 @@
                      <note type="content">Versoris’s questions are followed by some anonymous QdC
                         (ff. 25r–40v); QdG (ff. 40v–53r); QsE (ff. 53r–107r); Puncta on the
                         Metaphysics (ff. 110v–171v); QsTop (ff. 175r–216r).</note>
-                  </msItem>                  
+                  </msItem>
                   <msItem xml:id="Kraków_BibliotekaJagiellońska_cod2008_QdC">
                      <locus from="25r" to="40v"/>
                      <title ref="workID">QdC</title>
                      <author>Anonymus</author>
-                  </msItem>                                   
+                  </msItem>
                   <msItem xml:id="Kraków_BibliotekaJagiellońska_cod2008_QdG">
                      <locus from="40v" to="53r"/>
                      <title ref="workID">QdG</title>
                      <author>Anonymus</author>
-                  </msItem>                                  
+                  </msItem>
                   <msItem xml:id="Kraków_BibliotekaJagiellońska_cod2008_QsE">
                      <locus from="53r" to="107r"/>
                      <title ref="workID">QsE</title>
@@ -1493,17 +1493,18 @@
                         I–XII of Aristotle’s Metaphysics, as well as on the first guard leaf, both
                         by the same scribe.</p>
                      <origPlace cert="medium">Kraków</origPlace>
-                     <p>Probably Krakow. Part of this manuscript was copied by <persName ref="#BaltasarDePoznania">Baltasar from Poznań</persName>
-                        in 1460: <quote source="171v">Expliciunt puncta Metaphysice, per me,
-                           Baltasar de Poznania, finita feria tertia proxima ante festum sancti
-                           Gregori, sub anno Domini M°CCCC° sexagesimo</quote>, f. 171v. The name of
-                        this scribe and the date also appear on the first folio: <quote
-                           source="first folio">Pisana przez Baltara z Poznania, 1460 roku</quote>.</p>
+                     <p>Probably Krakow. Part of this manuscript was copied by <persName
+                           ref="#BaltasarDePoznania">Baltasar from Poznań</persName> in 1460: <quote
+                           source="171v">Expliciunt puncta Metaphysice, per me, Baltasar de
+                           Poznania, finita feria tertia proxima ante festum sancti Gregori, sub
+                           anno Domini M°CCCC° sexagesimo</quote>, f. 171v. The name of this scribe
+                        and the date also appear on the first folio: <quote source="first folio"
+                           >Pisana przez Baltara z Poznania, 1460 roku</quote>.</p>
                      <origDate from="1460" to="1460"/>
                   </origin>
                   <provenance>
-                     <p>The manuscript belonged to a master named Kazuchowski, as we read at f. 1r: <quote source="1r">Mathie, liber magistri artium
-                        Kazuchowski</quote>.</p>
+                     <p>The manuscript belonged to a master named Kazuchowski, as we read at f. 1r:
+                           <quote source="1r">Mathie, liber magistri artium Kazuchowski</quote>.</p>
                   </provenance>
                </history>
                <additional>
@@ -1520,6 +1521,99 @@
                         <bibl>Senko, De ente, 16.</bibl>
                         <bibl>Markowski/Włodek, Aristotelica Cracoviensia, 88–89.</bibl>
                      </listBibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+
+            <msDesc xml:id="Kraków_BibliotekaJagiellońska_cod2016">
+               <msIdentifier>
+                  <settlement>Kraków</settlement>
+                  <repository>Biblioteka Jagiellońska</repository>
+                  <idno>cod. 2016</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>The table of contents at f. 1r ascribes the first set of Questions on De
+                     anima to Versoris, and describes the Questions on the Parva naturalia as
+                     written according to the via antiqua: <quote source="1r">Liber magistri Andree
+                        de Gąbyn. Questiones Versoris super libros De anima; Questiones alie breves
+                        super libros De anima; Questiones super Parva naturalia de via antiquorum;
+                        Liber de differentia spiritus et anime; Problemata</quote>. The ascription
+                     to Versoris of the first set of questions is found again at f. 2r (<quote
+                        source="2r">Questiones Versoris super De anima</quote>), but neither the
+                     incipit, nor the explicit, nor the list of questions corresponds to Versoris’s
+                     commentary.</summary>
+                  <msItem xml:id="Kraków_BibliotekaJagiellońska_cod2016_QdA_1anon">
+                     <locus from="2r" to="81v"/>
+                     <title ref="workID">QdA</title>
+                     <author>Anonymus</author>
+                  </msItem>
+                  <msItem xml:id="Kraków_BibliotekaJagiellońska_cod2016_QdA_2ano">
+                     <locus from="82r" to="111r"/>
+                     <title ref="workID">QdA</title>
+                     <author>Anonymus</author>
+                  </msItem>
+                  <msItem xml:id="Kraków_BibliotekaJagiellońska_cod2016_Problemata">
+                     <locus from="188r" to="218r"/>
+                     <title ref="workID">Problemata</title>
+                     <author>Anonymus</author>
+                  </msItem>
+                  <msItem xml:id="Kraków_BibliotekaJagiellońska_cod2016_QsSens">
+                     <locus from="124r" to="139v"/>
+                     <title ref="workID">QsSens</title>
+                     <note type="content">These commentaries are preceded by two anonymous sets of
+                        questions on Aristotle’s De anima (ff. 2r–81v and ff. 82r–111r). A set of
+                        Problemata (ff. 188r–218r) completes the volume.</note>
+                     <note type="desc">Versoris’s commentaries are accompanied by quite dense marginal glosses.</note>
+                  </msItem>
+                  <msItem xml:id="Kraków_BibliotekaJagiellońska_cod2016_QdMem">
+                     <locus from="139v" to="143r"/>
+                     <title ref="workID">QdMem</title>
+                  </msItem>
+                  <msItem xml:id="Kraków_BibliotekaJagiellońska_cod2016_QdSom">
+                     <locus from="143r" to="149v"/>
+                     <title ref="workID">QdSom</title>
+                  </msItem>
+                  <msItem xml:id="Kraków_BibliotekaJagiellońska_cod2016_QdLong">
+                     <locus from="149v" to="150v"/>
+                     <title ref="workID">QdLong</title>
+                     <colophon source="150v">anno Domini 1473</colophon>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate from="1467" to="1473"/>
+                     <p>Versoris’s commentaries were copied in 1473, as evident from the colophon
+                        (<quote source="150v">anno Domini 1473</quote>, f. 150v). The Problemata at the end of the volume were
+                        copied in 1467: <quote source="218r">Et sic est finis huius. Laudatur etiam Sanctus
+                        Bartholomeus, anno Domini 1467, per me, baccalarium de Falkenberg</quote>, f.
+                        218r.</p>
+                     <origPlace>Falkenberg</origPlace>
+                     <p>A bachelor from Falkenberg signed the colophon of the last text. The exact
+                        identification of this place name is uncertain, as several towns called
+                        existed in late medieval Germany (e.g., in Brandenburg, Saxony, and
+                        Bavaria). Given the strong presence of German students from these regions at
+                        the University of Kraków during the 15th century, the reference may
+                        plausibly point to one of the Saxon or Brandenburg Falkenbergs, though a
+                        precise identification cannot be established.</p>
+                  </origin>
+                  <provenance>
+                     <p>The codex was partly copied by and belonged to the master <persName ref="#AndreaDeGambyn">Andrea de Gąbyn</persName>,
+                        as stated in the colophon at f. 184v (<quote source="184v">per Andream de Gambyn, ipso die,
+                        etiam ante Penthecostem, anno Domini 1473</quote>) and in the possession mark at f.
+                        1r.</p>
+                  </provenance>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source cert="high" resp="#">
+                           <p>Mss directly examined</p>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+                  <listBibl>
+                     <bibl>Wysłocki, Katalog II, 490.</bibl>
+                     <bibl>Markowski/Włodek, Aristotelica Cracoviensia, 91–92.</bibl>
                   </listBibl>
                </additional>
             </msDesc>
