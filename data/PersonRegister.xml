@@ -713,7 +713,7 @@
                <!-- Copernicus enrolled in 1491 -->
                <note>He enrolled at the <orgName>University of Cracow</orgName> in 1497 and obtained
                   the degree of baccalarius in 1504.</note>
-               <occupation role="fmo" ref="#Kraków_BJ_908"/>
+               <occupation role="fmo" ref="#Kraków_BJ_cod908"/>
                <listBibl>
                   <bibl>Album studiosorum II, 41.</bibl>
                   <bibl>Liber prom. 139.</bibl>
@@ -1045,8 +1045,8 @@
                <note>Michael de Turobin studied at the University of Krakow, where he obtained the
                   degree of Bachelor of Arts in 1477 and subsequently that of Doctor of Law. In
                   1527, he founded the Collegiate Church of Saint Anna in Krakow.</note>
-               <occupation role="fmo" ref="#Krakow_BJ_2007"/>
-               <occupation role="fmo" ref="#Krakow_BJ_2085"/>
+               <occupation role="fmo" ref="#Krakow_BJ_cod2007"/>
+               <occupation role="fmo" ref="#Krakow_BJ_cod2085"/>
                <listBibl>
                   <bibl>Polski Słownik Biograficzny, vol. 20, Wrocław, 1975, 624–625</bibl>
                   <bibl>Michał z Lublina i Turobina (Id: 2020390), in: Corpus Academicum Cracoviense
