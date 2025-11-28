@@ -1396,9 +1396,9 @@
                      <title ref="workID">QsMete</title>
                      <filiation>
                         <list>
-                           <item><ref target="#Munich_BSB_Clm520">Munich, BSB, Clm 520</ref>, in which Versoris’s QsMete are also
-                              preceded by the prologue from Paulus of Worczyn’s Questions on
-                              Aristotle’s Meteorology.</item>
+                           <item><ref target="#Munich_BSB_Clm520">Munich, BSB, Clm 520</ref>, in
+                              which Versoris’s QsMete are also preceded by the prologue from Paulus
+                              of Worczyn’s Questions on Aristotle’s Meteorology.</item>
                         </list>
                      </filiation>
                   </msItem>
@@ -1440,6 +1440,87 @@
                      <bibl>Clavis 1 (2019), n. 718.</bibl>
                      <bibl>Panzica, “Commenter les Météorologiques à l’Université de Cracovie”,
                         122–124, 125, 178.</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+
+            <msDesc xml:id="Kraków_BibliotekaJagiellońska_cod2008">
+               <msIdentifier>
+                  <settlement>Kraków</settlement>
+                  <repository>Biblioteka Jagiellońska</repository>
+                  <idno>cod. 2008</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>None</summary>
+                  <msItem xml:id="Kraków_BibliotekaJagiellońska_cod2008_Qdente">
+                     <locus from="2v" to="24r"/>
+                     <title ref="workID">Qdente</title>
+                     <author>Johannes Versoris</author>
+                     <note type="content">Versoris’s questions are followed by some anonymous QdC
+                        (ff. 25r–40v); QdG (ff. 40v–53r); QsE (ff. 53r–107r); Puncta on the
+                        Metaphysics (ff. 110v–171v); QsTop (ff. 175r–216r).</note>
+                  </msItem>                  
+                  <msItem xml:id="Kraków_BibliotekaJagiellońska_cod2008_QdC">
+                     <locus from="25r" to="40v"/>
+                     <title ref="workID">QdC</title>
+                     <author>Anonymus</author>
+                  </msItem>                                   
+                  <msItem xml:id="Kraków_BibliotekaJagiellońska_cod2008_QdG">
+                     <locus from="40v" to="53r"/>
+                     <title ref="workID">QdG</title>
+                     <author>Anonymus</author>
+                  </msItem>                                  
+                  <msItem xml:id="Kraków_BibliotekaJagiellońska_cod2008_QsE">
+                     <locus from="53r" to="107r"/>
+                     <title ref="workID">QsE</title>
+                     <author>Anonymus</author>
+                  </msItem>
+                  <msItem xml:id="Kraków_BibliotekaJagiellońska_cod2008_Puncta_Metaphysics">
+                     <locus from="110v" to="171v"/>
+                     <title ref="workID">Puncta</title>
+                     <author>Anonymus</author>
+                  </msItem>
+                  <msItem xml:id="Kraków_BibliotekaJagiellońska_cod2008_QsTop">
+                     <locus from="175r" to="216r"/>
+                     <title ref="workID">QsTop</title>
+                     <author>Anonymus</author>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate from="1460" to="1460"/>
+                     <p>1460. This date appears in the colophon of some anonymous Puncta on Books
+                        I–XII of Aristotle’s Metaphysics, as well as on the first guard leaf, both
+                        by the same scribe.</p>
+                     <origPlace cert="medium">Kraków</origPlace>
+                     <p>Probably Krakow. Part of this manuscript was copied by <persName ref="#BaltasarDePoznania">Baltasar from Poznań</persName>
+                        in 1460: <quote source="171v">Expliciunt puncta Metaphysice, per me,
+                           Baltasar de Poznania, finita feria tertia proxima ante festum sancti
+                           Gregori, sub anno Domini M°CCCC° sexagesimo</quote>, f. 171v. The name of
+                        this scribe and the date also appear on the first folio: <quote
+                           source="first folio">Pisana przez Baltara z Poznania, 1460 roku</quote>.
+                        1r: <quote source="1r">Mathie, liber magistri artium
+                        Kazuchowski</quote>.</p>
+                     <origDate from="1460" to="1460"/>
+                  </origin>
+                  <provenance>
+                     <p>The manuscript belonged to a master named Kazuchowski, as we read at f.</p>
+                  </provenance>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source cert="high" resp="#">
+                           <p>Mss directly examined</p>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+                  <listBibl>
+                     <listBibl>
+                        <bibl>Wysłocki, Katalog II, 488.</bibl>
+                        <bibl>Senko, De ente, 16.</bibl>
+                        <bibl>Markowski/Włodek, Aristotelica Cracoviensia, 88–89.</bibl>
+                     </listBibl>
                   </listBibl>
                </additional>
             </msDesc>
