@@ -1912,7 +1912,7 @@
                            manuscript department.</note></p>
                   </origin>
                   <provenance>
-                     <p>The manuscript belonged to Albert de Szurkowo, who studied in Paris and
+                     <p>The manuscript belonged to <persName ref="#AlbertusDeSzurkowo">Albert de Szurkowo</persName>, who studied in Paris and
                         donated the codex to his heirs (f. 67rb: <quote source="67rb">Liber
                            reverendi magistri Alberti inclite Universitatis Parisiensis, heredibus
                            de Szurkovo, multum pauperis, etc., ille legat comissa, deosque precetur
@@ -2410,7 +2410,7 @@
                   <settlement>Paris</settlement>
                   <repository>BnF</repository>
                   <idno>latin 16136</idno>
-               </msIdentifier>
+               </msIdentifier>               
                <msContents>
                   <summary>None</summary>
                   <msItem xml:id="Paris_BnF_latin16136_QsPor">
