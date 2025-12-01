@@ -93,7 +93,6 @@
                         content correspond to Versoris'commentary. The structure of these questions
                         is indeed similar to that of Versoris’s commentary, with notabilia,
                         conclusions and doubts.</note>
-
                      <msItem xml:id="Aarau_AKB_MsWettF42_DC_q1" class="question" n="1">
                         <locus from="100ra"/>
                         <title ref="questionID">Utrum corpus mobile ad locum sit subiectum scientie
@@ -969,6 +968,88 @@
                </additional>
             </msDesc>
 
+
+            <msDesc xml:id="Heidelberg_UniversitätsbibliothekHeidelberg_CodSalVIII">
+               <msIdentifier>
+                  <settlement>Heidelberg</settlement>
+                  <repository>Universitätsbibliothek Heidelberg, Cod. Sal. VIII</repository>
+                  <idno>109</idno>
+                  <idno type="URI">https://doi.org/10.11588/diglit.7321</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>None</summary>
+                  <msItem xml:id="Heidelberg_UniversitätsbibliothekHeidelberg_CodSalVIII_Copulata1">
+                     <locus from="1a" to="138b"/>
+                     <title ref="workid">Copulata ... super 8 libros phisicorum Aristotelis</title>
+                     <author>Lambertus de Monte</author>
+                     <note>Cologne, Heinrich Quentell, 1493</note>
+                     <listBibl>
+                        <bibl>Hain 1686</bibl>
+                        <!-- GW M16784 http://www.gesamtkatalogderwiegendrucke.de -->
+                        <bibl>GW M16784</bibl>
+                     </listBibl>
+                  </msItem>
+                  <msItem xml:id="Heidelberg_UniversitätsbibliothekHeidelberg_CodSalVIII_QdA">
+                     <locus from="1r" to="53r"/>
+                     <title ref="workID">QdA (second item)</title>
+                  </msItem>
+                  <msItem xml:id="Heidelberg_UniversitätsbibliothekHeidelberg_CodSalVIII_Copulata2">
+                     <locus from="1a" to="83v"/>
+                     <title ref="workid">Copulata super libros de anima Aristotelis</title>
+                     <author>Lambertus de Monte</author>
+                     <note>Cologne, Heinrich Quentell, 1494</note>
+                     <listBibl>
+                        <bibl>Hain 1713</bibl>
+                        <!-- GW M16784 http://www.gesamtkatalogderwiegendrucke.de -->
+                        <bibl>GW M16775</bibl>
+                     </listBibl>
+                  </msItem>
+                  <msItem xml:id="Heidelberg_UniversitätsbibliothekHeidelberg_CodSalVIII_Positiones">
+                     <locus from="1a" to="49b"/>
+                     <title ref="workid">Positiones circa libros phisicorum et de anima
+                        Aristotelis</title>
+                     <author>Lambertus de Monte</author>
+                     <note>Cologne, Heinrich Quentell, 1494</note>
+                     <listBibl>
+                        <bibl>Hain 13303</bibl>
+                        <!-- GW M16784 http://www.gesamtkatalogderwiegendrucke.de -->
+                        <bibl>GW M35127</bibl>
+                     </listBibl>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate from="1495" to="1495"/>
+                     <p>Shortly before 1495. This dating can be inferred from the watermarks, the
+                        note on the inner back cover, and the dates of the printed works bound in
+                        the volume, namely Lambertus de Monte’s Copulata on Aristotle’s Physics
+                        (Cologne, Heinrich Quentell, 1493; Hain 1686, GW M16784) and De anima
+                        (Cologne, Heinrich Quentell, 1494; Hain 1713, GW M16775), as well as the
+                        Positiones circa libros Phisicorum et De anima Aristotelis (Cologne,
+                        Heinrich Quentell, 1494; Hain 13303, GW M35127).</p>
+                     <origPlace>Heidelberg</origPlace>
+                     <p>The manuscript was owned by <persName ref="#PetrusHuinlinDeLindaw">Petrus
+                           Hunlin de Lindaw</persName>, a student in Heidelberg, who purchased it in
+                        1495. On the inner back cover we read: <quote source="inner back cover">Iste
+                           liber est beate virginis Marie in Salem, comparatus per fratrem Petrum
+                           Hienlin, ibidem professum pro 1 ½ florenis et VII albis cum ligatura
+                           1495to</quote>.</p>
+                  </origin>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source cert="high" resp="#">
+                           <p>Ms directly examined</p>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+                  <listBibl>
+                     <bibl>W. Wilfried, Die mittelalterlichen nichtliturgischen Handschriften des
+                        Zisterzienserklosters Salem, Wiesbaden 2000, p. 156–157.</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
 
             <msDesc xml:id="Innsbruck_UniversitätsundLandesbibliothekTirol_Cod220">
                <msIdentifier>
@@ -1912,15 +1993,15 @@
                            manuscript department.</note></p>
                   </origin>
                   <provenance>
-                     <p>The manuscript belonged to <persName ref="#AlbertusDeSzurkowo">Albert de Szurkowo</persName>, who studied in Paris and
-                        donated the codex to his heirs (f. 67rb: <quote source="67rb">Liber
-                           reverendi magistri Alberti inclite Universitatis Parisiensis, heredibus
-                           de Szurkovo, multum pauperis, etc., ille legat comissa, deosque precetur
-                           et oret, ut redeat miseris, abeat fortuna superbis</quote>). It
-                        subsequently came into the possession of the Master Iohannes de
-                        Iuniwladislavia (f. 1r: <quote source="1r">Questiones cum lectura De anima,
-                           De ente et essentia et alia magistri Iohannis de
-                        Iuniwladislavia</quote>).</p>
+                     <p>The manuscript belonged to <persName ref="#AlbertusDeSzurkowo">Albert de
+                           Szurkowo</persName>, who studied in Paris and donated the codex to his
+                        heirs (f. 67rb: <quote source="67rb">Liber reverendi magistri Alberti
+                           inclite Universitatis Parisiensis, heredibus de Szurkovo, multum
+                           pauperis, etc., ille legat comissa, deosque precetur et oret, ut redeat
+                           miseris, abeat fortuna superbis</quote>). It subsequently came into the
+                        possession of the Master Iohannes de Iuniwladislavia (f. 1r: <quote
+                           source="1r">Questiones cum lectura De anima, De ente et essentia et alia
+                           magistri Iohannis de Iuniwladislavia</quote>).</p>
                   </provenance>
                </history>
                <additional>
@@ -2410,7 +2491,7 @@
                   <settlement>Paris</settlement>
                   <repository>BnF</repository>
                   <idno>latin 16136</idno>
-               </msIdentifier>               
+               </msIdentifier>
                <msContents>
                   <summary>None</summary>
                   <msItem xml:id="Paris_BnF_latin16136_QsPor">

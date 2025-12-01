@@ -1123,6 +1123,17 @@
                      (Dostęp: 21.09.2025).</bibl>
                </listBibl>
             </person>
+            
+            <person xml:id="PetrusHuinlinDeLindaw">
+               <name xml:lang="lat">Petrus Huinlin de Lindaw</name>
+               <note>In 1494 he matriculated in Heidelberg, where he obtained the bachelor degree.</note>
+               <affiliation type="religiousOrder" subtype="OCart">Carthusian</affiliation>               
+               <occupation role="fmo" ref="#Heidelberg_UB_CodSalVIII109" />                              
+               <listBibl>
+                  <bibl>Toepke, Matrikel I, 411.</bibl>
+                  <bibl>Wilfried, Die mittelalterlichen nichtliturgischen Handschriften, 111-112.</bibl>
+               </listBibl>
+            </person>
 
             <person xml:id="PetrusŚwiętopełkDeZambrzeczAliasDeNieznanowice">
                <idno type="CAC">2001033</idno>
