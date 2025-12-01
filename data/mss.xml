@@ -980,10 +980,8 @@
                <msContents>
                   <summary>The commentaries are ascribed to Versoris in the note on the inner front
                      cover and in the table of contents on the first guard leaf: <quote
-                        source="first
-                        guard leaf">in isto libro continentur primo
-                        questiones magistri Versoris super Porphirium, item Predicamente
-                        Aristotelis…</quote>. </summary>
+                        source="first guard leaf">in isto libro continentur primo questiones
+                        magistri Versoris super Porphirium, item Predicamente Aristotelis…</quote>. </summary>
                   <msItem xml:id="Innsbruck_UniversitätsundLandesbibliothekTirol_Cod220_QPor">
                      <locus from="1r" to="30r"/>
                      <title ref="workID">QPor</title>
@@ -1563,7 +1561,8 @@
                      <note type="content">These commentaries are preceded by two anonymous sets of
                         questions on Aristotle’s De anima (ff. 2r–81v and ff. 82r–111r). A set of
                         Problemata (ff. 188r–218r) completes the volume.</note>
-                     <note type="desc">Versoris’s commentaries are accompanied by quite dense marginal glosses.</note>
+                     <note type="desc">Versoris’s commentaries are accompanied by quite dense
+                        marginal glosses.</note>
                   </msItem>
                   <msItem xml:id="Kraków_BibliotekaJagiellońska_cod2016_QdMem">
                      <locus from="139v" to="143r"/>
@@ -1583,10 +1582,10 @@
                   <origin>
                      <origDate from="1467" to="1473"/>
                      <p>Versoris’s commentaries were copied in 1473, as evident from the colophon
-                        (<quote source="150v">anno Domini 1473</quote>, f. 150v). The Problemata at the end of the volume were
-                        copied in 1467: <quote source="218r">Et sic est finis huius. Laudatur etiam Sanctus
-                        Bartholomeus, anno Domini 1467, per me, baccalarium de Falkenberg</quote>, f.
-                        218r.</p>
+                           (<quote source="150v">anno Domini 1473</quote>, f. 150v). The Problemata
+                        at the end of the volume were copied in 1467: <quote source="218r">Et sic
+                           est finis huius. Laudatur etiam Sanctus Bartholomeus, anno Domini 1467,
+                           per me, baccalarium de Falkenberg</quote>, f. 218r.</p>
                      <origPlace>Falkenberg</origPlace>
                      <p>A bachelor from Falkenberg signed the colophon of the last text. The exact
                         identification of this place name is uncertain, as several towns called
@@ -1597,10 +1596,11 @@
                         precise identification cannot be established.</p>
                   </origin>
                   <provenance>
-                     <p>The codex was partly copied by and belonged to the master <persName ref="#AndreaDeGambyn">Andrea de Gąbyn</persName>,
-                        as stated in the colophon at f. 184v (<quote source="184v">per Andream de Gambyn, ipso die,
-                        etiam ante Penthecostem, anno Domini 1473</quote>) and in the possession mark at f.
-                        1r.</p>
+                     <p>The codex was partly copied by and belonged to the master <persName
+                           ref="#AndreaDeGambyn">Andrea de Gąbyn</persName>, as stated in the
+                        colophon at f. 184v (<quote source="184v">per Andream de Gambyn, ipso die,
+                           etiam ante Penthecostem, anno Domini 1473</quote>) and in the possession
+                        mark at f. 1r.</p>
                   </provenance>
                </history>
                <additional>
@@ -1614,6 +1614,177 @@
                   <listBibl>
                      <bibl>Wysłocki, Katalog II, 490.</bibl>
                      <bibl>Markowski/Włodek, Aristotelica Cracoviensia, 91–92.</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+
+            <msDesc xml:id="Kraków_BibliotekaJagiellońska_cod2018">
+               <msIdentifier>
+                  <settlement>Kraków</settlement>
+                  <repository>Biblioteka Jagiellońska</repository>
+                  <idno>cod. 2018</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>None</summary>
+                  <msItem xml:id="Kraków_BibliotekaJagiellońska_cod2018_QsE">
+                     <locus from="1r" to="186r"/>
+                     <title ref="workID">QsE I–X</title>
+                     <note type="desc">The commentary is accompanied by marginal notes in hands
+                        different from that of the main text.</note>
+                     <colophon source="186r">Finitus anno Domini 1469, per fratrem Johannem
+                        comparatus</colophon>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate from="1469" to="1469"/>
+                     <p>The colophon records that the copy was completed in 1469: <quote
+                           source="186r">Finitus anno Domini 1469, per fratrem Johannem
+                           comparatus</quote> (f. 186r).</p>
+                     <origPlace>Kraków</origPlace>
+                  </origin>
+                  <provenance>
+                     <p>The codex (or sam of ist parts) belonged to the Krakow masters <persName
+                           ref="#AndreasDeParadiso">Andreas de Paradiso</persName> (<quote
+                           source="193v, marg. sup.">magistri Andree de Paradiso</quote>, f. 193v,
+                        marg. sup.), <persName ref="#PetrusŚwiętopełkDeZambrzeczAliasDeNieznanowice"
+                           >Petrus Zambrzecz</persName> (first inside cover: <quote
+                           source="first inside cover">tres sexterniones aput magistrum Petrum
+                           Zambrzecz</quote>), and <persName ref="#StanislausPetriDeByalkowicze"
+                           >Stanislaus Białkowski</persName> (first guard leaf: <quote
+                           source="first guard leaf">magistri Stanislai Bialkowski</quote>).</p>
+                  </provenance>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source cert="high" resp="#">
+                           <p>Ms directly examined</p>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+                  <listBibl>
+                     <bibl>Wysłocki, Katalog II, 490.</bibl>
+                     <bibl>Markowski/Włodek, Aristotelica Cracoviensia, 92.</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+
+            <msDesc xml:id="Kraków_BibliotekaJagiellońska_cod2024">
+               <msIdentifier>
+                  <settlement>Kraków</settlement>
+                  <repository>Biblioteka Jagiellońska</repository>
+                  <idno>cod. 2024</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>None</summary>
+                  <msItem xml:id="Kraków_BibliotekaJagiellońska_cod2024_QsP_Breslauer">
+                     <locus from="1r" to="259v"/>
+                     <title ref="workid">QsP</title>
+                     <author>John Breslawer de Brunsbgerga</author>
+                  </msItem>
+                  <msItem xml:id="Kraków_BibliotekaJagiellońska_cod2024_QdC">
+                     <locus from="294v" to="339r"/>
+                     <title ref="workID">QdC</title>
+                     <msItem xml:id="Kraków_BibliotekaJagiellońska_cod2024_QdC_q1" class="question"
+                        n="1">
+                        <locus from="333r"/>
+                        <title ref="workid">Circa tertium De celo et mundo queritur utrum ex parte
+                           gravitatis et levitatis possit concludi nullum corpus esse compositum ex
+                           indivisibilibus</title>
+                     </msItem>
+                     <msItem xml:id="Kraków_BibliotekaJagiellońska_cod2024_QdC_q2" class="question"
+                        n="2">
+                        <locus from="334r"/>
+                        <title ref="workid">Utrum omnium corporum sit generatio</title>
+                     </msItem>
+                     <msItem xml:id="Kraków_BibliotekaJagiellońska_cod2024_QdC_q3" class="question"
+                        n="3">
+                        <locus from="334v"/>
+                        <title ref="workid">Utrum ex parte gravitatis et levitatis numerus
+                           quaternarius sit elementorum</title>
+                     </msItem>
+                     <msItem xml:id="Kraków_BibliotekaJagiellońska_cod2024_QdC_q4" class="question"
+                        n="4">
+                        <locus from="335r"/>
+                        <title ref="wordid">Utrum elementa secundum se tota sint generabilia et
+                           corruptibilia</title>
+                     </msItem>
+                     <note type="content">
+                        <p>Versoris’s QdC I–II, IV are completed by some questions on Book III,
+                           copied without codicological discontinuity between Book II and Book IV of
+                           his commentary. The questions are as follows: <quote source="333r">Circa
+                              tertium De celo et mundo queritur utrum ex parte gravitatis et
+                              levitatis possit concludi nullum corpus esse compositum ex
+                              indivisibilibus</quote>, f. 333r; <quote source="334r">Utrum omnium
+                              corporum sit generatio</quote>, f. 334r; <quote source="334v">Utrum ex
+                              parte gravitatis et levitatis numerus quaternarius sit
+                              elementorum</quote>, f. 334v; <quote source="335r">Utrum elementa
+                              secundum se tota sint generabilia et corruptibilia</quote>, f. 335r.
+                           The same questions have been interpolated into Versoris’s QdC in <ref
+                              type="ms" target="#Kraków_BibliotekaJagiellońska_cod2007">ms. Kraków,
+                              BJ, cod. 2007</ref>.</p>
+                        <p>To complete the set of commentaries on Aristotle’s libri naturales,
+                           Versoris’s texts are preceded by John Breslawer de Brunsbgerga’s QsP (ff.
+                           1r–259v) and followed by Andreas Ruczel de Costen (Kościan)’s QdA (ff.
+                           400r–439r).</p>
+                     </note>
+                     <filiation>
+                        <list>
+                           <item><ref type="ms" target="#Kraków_BJ_2024">Kraków, BJ 2024</ref>, in
+                              which Versoris’s QdC are also completed with the same anonymous
+                              questions on Book III.</item>
+                        </list>
+                     </filiation>
+                  </msItem>
+                  <msItem xml:id="Kraków_BibliotekaJagiellońska_cod2024_QdG">
+                     <locus from="265r" to="294r"/>
+                     <title ref="workID">QdG</title>
+                     <colophon source="294r">Explicit liber secundus De generatione et corruptione
+                        sub anno Domini 1478, in die Mathie ante reminiscere, feria quarta,
+                        etc.</colophon>
+                  </msItem>
+                  <msItem xml:id="Kraków_BibliotekaJagiellońska_cod2024_QsM">
+                     <locus from="340r" to="398r"/>
+                     <title ref="workID">QsM</title>
+                  </msItem>
+                  <msItem xml:id="Kraków_BibliotekaJagiellońska_cod2024_QsM_Ruczel">
+                     <locus from="400r" to="439r"/>
+                     <title ref="workid">QdA</title>
+                     <author>Andreas Ruczel de Costen (Kościan)</author>
+                  </msItem>
+
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate from="1478" to="1478"/>
+                     <p>1478, as stated in the colophon of the QdG: <quote source="294r">Explicit
+                           liber secundus De generatione et corruptione sub anno Domini 1478, in die
+                           Mathie ante reminiscere, feria quarta, etc.</quote>, f. 294r.</p>
+                  </origin>
+                  <provenance>
+                     <p>A mark of possession on the inner front cover indicates that the codex
+                        belonged to the Kraków master <persName ref="#ClemensDeGambycze">Clemens de
+                           Gambycze</persName> (<quote source="inner front cover">Apud executores
+                           testamenti olim venerabilis viri maystri Clementis de Gambycze per
+                           eundem</quote>).</p>
+                  </provenance>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source cert="high" resp="#">
+                           <p>Ms directly examined</p>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+                  <listBibl>
+                     <bibl>Wysłocki, Katalog II, 491–492.</bibl>
+                     <bibl>Markowski, Burydanizm w Polsce, p. 409.</bibl>
+                     <bibl>M. Markowski/Włodek, Aristotelica Cracoviensia, 93–94.</bibl>
+                     <bibl>Clavis 1 (2019), no. 27/3, 608/9.</bibl>
+                     <bibl>Panzica, “Commenter les Météorologiques à l’Université de Cracovie”,
+                        122–124, 126, 129, 130, 149, 178–179.</bibl>
                   </listBibl>
                </additional>
             </msDesc>
@@ -2176,7 +2347,7 @@
                            ] Hoc Sanctus Thomas, prima secunde, questio 26, articulo tertio.
                            […]</quote>, f. 215va; <quote source="215vb">In octavo huius. Amicitia
                            est benivolentia qua bonum alteri voluimus […] Amicitia propter honestum
-                           est perfecta</quote>, f. 215vb. See <ref type="bible" target="ID"
+                           est perfecta</quote>, f. 215vb. See <ref type="bibl" target="ID"
                            >Seńko</ref>, Repertorium, vol. 1, p. 108–111.</note>
                      <incipit>Circa primum librum Ethicorum Aristotelis movetur talis questio primo,
                         utrum de virtutibus moralibus sit scientia. Et arguitur primo quod non:
@@ -2230,6 +2401,171 @@
                         Commentaries on Porphyry's Isagoge and Aristotle‘s De anima by Walter of
                         Wervia (ca. 1425–1497), Bulletin de Philosophie Médiévale 56 (2014),
                         263-279, at 264, n. 3.</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+
+            <msDesc xml:id="Paris_BnF_latin16136">
+               <msIdentifier>
+                  <settlement>Paris</settlement>
+                  <repository>BnF</repository>
+                  <idno>latin 16136</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>None</summary>
+                  <msItem xml:id="Paris_BnF_latin16136_QsPor">
+                     <locus from="1v" to="36r"/>
+                     <title ref="workID">QsPor</title>
+                  </msItem>
+                  <msItem xml:id="Paris_BnF_latin16136_QsPre">
+                     <locus from="36r" to="72r"/>
+                     <title ref="workID">QsPre</title>
+                  </msItem>
+                  <msItem xml:id="Paris_BnF_latin16136_QsInt">
+                     <locus from="73r" to="96v"/>
+                     <title ref="workID">QsInt</title>
+                     <colophon source="96v" n="book I">Et hec de questione, et per consequens de
+                        toto libro, in quo libro sunt septem lectiones […], sub venerabili magistro
+                        Girardo de Watrellet, actu regenti Parisius, in domo magistri Gaufridi
+                        Calvi</colophon>
+                  </msItem>
+                  <msItem xml:id="Paris_BnF_latin16136_QsPri">
+                     <locus from="97r" to="126v"/>
+                     <title ref="workID">QsPri</title>
+                     <colophon source="116rb" n="book I">Et hec de questione, et per consequens de
+                        toto primo libro Priorum, finito per manum Yvonis de Beisit, sub venerabili
+                        ac discreto viro, magistro Girardo de Watrellet, in vico straminis,
+                        commoranti in domo magistri Gaufridi Calvi </colophon>
+                     <colophon source="126va" n="final colophon">Et hec de questione, et per
+                        consequens de toto primo [sic] libro Priorum, finito per manum Yvonis de
+                        Beisit, sub venerabili ac discreto viro, magistro Girardo de Watrellet, in
+                        vico straminis, commoranti in domo magistri Gaufridi Calvi. Et fuit finitus
+                        iste liber scribendo octava die mensis aprilis, anno Domini M<hi
+                           rend="superscript">mo</hi> CCCC<hi rend="superscript">mo</hi> LI<hi
+                           rend="superscript">mo</hi>, Yvo de Beisit fecit hoc, <metamark
+                           function="signum"/>.Scriptor qui scripsit cum Christo vivere possit. Si
+                        scriptor voluisset [add. sup. lin.: et potuisset] melius scripsisset, sed
+                        quia non potuit scribere non potuit</colophon>
+                  </msItem>
+                  <msItem xml:id="Paris_BnF_latin16136_QsPos">
+                     <locus from="127r" to="164v"/>
+                     <title ref="workID">QsPos</title>
+                     <colophon source="153vb" n="book I">Et hec de questione, et per consequens de
+                        toto primo libro Posteriorum, finito per manum Yvonis de Beisit, in domo
+                        magistri Gaufridi Calvi, sub venerabili magistro ac reverendo magistro
+                        Girardo Watrellet, in prima die mensis iunii, anno Domini Domini M<hi
+                           rend="superscript">mo</hi> CCCC<hi rend="superscript">mo</hi> LI<hi
+                           rend="superscript">mo</hi></colophon>
+                     <colophon source="164va" n="final colophon">Et hec de questione, et per
+                        consequens de toto secundo libro Posteriorum, scripto per me, Yvonem de
+                        Beisit, sub venerabili magistro Girardo de Watrellet, in domo magistri
+                        Gaufridy Calvi. Et fuit liber completus in mense iunii, in vigilia sancti
+                        Iohannis, anno Domini M<hi rend="superscript">mo</hi> CCCC<hi
+                           rend="superscript">mo</hi> LI<hi rend="superscript">mo</hi>. Yvo de
+                        Beisit. Scriptor qui scripsit cum Christo vivere possit, detur pro pena
+                        scriptoris pulchra puella. Scriptor scripsisset melius si voluisset, sed
+                        quia non potuit, scribere ipse noluit. Nomen scriptoris, Yvo Beisit plenus
+                        amoris. [alia manu: reverendissimo meo avunculo, magistro Yvoni Kentel dedi.
+                        Scriptor scribebat ex ‘I’ bene ‘o’ faciebat, pennam deposuit, et ‘o’ velud
+                        ante fuit, Iudicellus Rouyant] <note type="editorial">On the formula, “detur
+                           pro pena scriptoris ...”, see Reynhout, Formules latines des colophons,
+                           I, 116-125; on the formula “nomen scriptoris, X plenus amoris”,
+                           186-194.</note></colophon>
+                  </msItem>
+                  <msItem xml:id="Paris_BnF_latin16136_QsTop">
+                     <locus from="165r" to="190v"/>
+                     <title ref="workID">QsTop I-IV</title>
+                     <colophon source="174vb" n="book I">Et fuit finitus iste liber describendo in
+                        octava die mensis aprilis, sub venerabili magistro Girardo de Watrellet, in
+                        domo magistri Gaufridi Calvi actu regentis Parisius. Scriptor qui scripsit
+                        cum Christo vivere possit</colophon>
+                     <colophon source="181vb" n="book II">Et hec de questione, et per consequens de
+                        toto secundo libro Topicorum. Et fuit iste liber completus per me, Yvonem de
+                        Beisit, in domo magistri Gaufridi Calvi, sub venerabili magistro Girardo
+                        Watrellet, in fine mensis aprilis, anno Domini M<hi rend="superscript"
+                           >mo</hi> CCCC<hi rend="superscript">mo</hi> L<supplied>I</supplied><hi
+                           rend="superscript">mo</hi>” </colophon>
+                     <colophon source="185rb" n="book IV">Et hec de questione, et per consequens de
+                        toto quarto libro Topicorum, completo per manum Yvonis de Beisit, in domo
+                        magistri Gaufridi Calvi, sub venerabili magistro Girardo de Watrellet. Et
+                        Deus habeat animam scriptoris et etiam magistri. Et fuit completus liber
+                        prima die mensis iulii<note type="editorial">The word <hi rend="italics"
+                              >iulii</hi> appears twice, each time crossed out; <hi rend="italics"
+                              >iunii</hi> was later inserted above the line, yet the date given in
+                           the preceding colophon indicates that <hi rend="italics">iulii</hi> is
+                           the correct reading.</note>, anno Domini M<hi rend="superscript">mo</hi>
+                           CCCC<hi rend="superscript">mo</hi> LI<hi rend="superscript">mo</hi>. Yvo
+                        de Beisit” </colophon>
+                  </msItem>
+                  <msItem xml:id="Paris_BnF_latin16136_QsSE">
+                     <locus from="191r" to="213r"/>
+                     <title ref="workID">QsSE</title>
+                     <colophon source="209va-b" n="book I">Et hec de questione, et per consequens de
+                        toto primo Elenchorum, scripto [209vb] sub venerabili magistro Girardo de
+                        Watrellet, actu regente Parisius, in domo magistri Gaufridi Calvi, in
+                        vicesimam secundam mensis iulii, anno Domini M<hi rend="superscript">mo</hi>
+                           CCCC<hi rend="superscript">mo</hi> LI<hi rend="superscript"
+                        >mo</hi></colophon>
+                  </msItem>
+                  <msItem xml:id="Paris_BnF_latin16136_Qdente">
+                     <locus from="214" to="227v"/>
+                     <title ref="workID">Qdente</title>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate from="1451" to="1451"/>
+                     <!-- the colophons weren't copied this time to the msItem. Dedice better solution to not repeat the info? -->
+                     <p>The manuscript was copied by <persName ref="#IvoBezit">Yvo de
+                           Beisit</persName>, a student of <persName ref="#GerardusDeWatrumwilla"
+                           >Gerardus de Watrellet</persName> in the school of <persName
+                           ref="#GalfredusCalvi">Gaufridus Calvi</persName>, as attested by the
+                        numerous colophons: QsInt, f. 96v; QsPri, book I, f. 116rb; QsPri,final
+                        colophon, f. 126va; QsPos, book I, f. 153vb; QsPos, final colophon: f.
+                        164va; QsT, book I, f. 174vb; QsT, book II, f. 181vb; QsT, book IV, f.
+                        185rb; QsSE, book I, f. 209va-b.</p>
+                  </origin>
+                  <provenance>
+                     <p>The manuscript later belonged to <persName ref="#IudicellusRouyant"
+                           >Iudicellus Rouyant</persName>, a Breton student at the Collège de
+                        Tréguier, who in 1456 transferred it to the master <persName
+                           ref="#ReginaldusDeBrule">Reginaldus Du Brule</persName> as a pledge for
+                        tuition owed: <quote source="1r">Ista logica pertinet Iudicello Rouyant,
+                           scolari Britoni, commoranti in collegio de Triguier Parisius, quam
+                           tradidit magistro Reginaldo du Brule iuniori in pignus pro somma pecunie
+                           debita dicto du Brule per prefatum Iudicellum pro instructione et
+                           doctrina sucepta Parisius per prefatum Iudicellum in pedagogio dicti du
+                           Brule pro temporibus dimidii anni incipientis in festo nativitatis
+                           Iohannis Baptiste, anno Domini millesimo quadragentesimo LVIto</quote>,
+                        f. 1r. The manuscript was then returned to <persName
+                           ref="#IudicellusRouyant">Iudicellus</persName>, who gave him to his
+                        uncle, <persName ref="#YvoQuentel">Yvo Kentel</persName>, as recorded on f.
+                        164va: <quote source="164va">reverendissimo meo avunculo, magistro Yvoni
+                           Kentel dedi. Scriptor scribebat: ex ‘I’ bene ‘o’ faciebat, pennam
+                           deposuit, et ‘o’ velud ante fuit, Iudicellus Rouyant</quote>.</p>
+                     <p>Throughout the codex, additional ownership inscriptions are found: <quote
+                           source="36r">Iste liber pertinet Iohannes Geoffroy</quote>; <quote
+                           source="36r">Iohannes Ryetis</quote>, f. 36r; <quote source="228r">Ista
+                           logica pertinet Iohanni Laussardy</quote>, f. 228r. </p></provenance>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source cert="high" resp="#">
+                           <p>Ms directly examined</p>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+                  <listBibl>
+                     <listBibl>
+                        <bibl>C. Samaran, R. Marichal, Catalogue des manuscrits en écriture latine
+                           portant des indications de date, de lieu ou de copiste, Tome III,
+                           Bibliothèque Nationale, fonds latin Nos. 8001 à 18613, Paris, 1974,
+                           507.</bibl>
+                        <bibl>Rouse, Manuscripts II, 140.</bibl>
+                        <bibl>Deuffic, “Une diaspora”, 179, 283.</bibl>
+                        <bibl>Sullivan, Parisian Licentiates II, 120.</bibl>
+                     </listBibl>
                   </listBibl>
                </additional>
             </msDesc>
@@ -2514,8 +2850,6 @@
                   </listBibl>
                </additional>
             </msDesc>
-
-
 
             <msDesc xml:id="Siena_Intronati_H-VI-7" resp="AP">
                <msIdentifier>
