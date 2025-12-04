@@ -582,11 +582,13 @@
                </listBibl>
             </person>
 
-
             <!-- Georgius Erber de Aibling issue#24 -->
 
-            <person xml:id="GeorgiusErberDeAibling">
+            <person xml:id="GeorgiusErberDeAibling">               
                <name xml:lang="lat">Georgius Erber de Aibling</name>
+               <name xml:lang="lat">Georgius Herbar de Aibling</name>
+               <name xml:lang="lat">Georgius Eerber de Aibling</name>
+               <name xml:lang="lat">Georgius Harbar de Aibling</name>              
                <note>After studying at the universities of Erfurt (1452) and Vienna (1455), Georgius
                   Erber moved to Paris, where he was affiliated with the Anglo-German Nation and was
                   a member of the Collège de la Marche (1460–1463). He obtained the degree of
