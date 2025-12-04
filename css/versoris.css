@@ -96,9 +96,6 @@ tei-msItem > tei-title::before {
 }
 
 
-
-
-
 /* Authors */
 tei-author {
     display: block;
@@ -135,7 +132,6 @@ tei-locus[to]:not([from])::before {
 .locusGrp-container {
     font-weight: bold;
 }
-
 
 
 /* Notes */
@@ -185,8 +181,7 @@ tei-note[type="editorial"] {
 }
 
 
-
-tei-altIdentifier{
+tei-altIdentifier {
     display: none;
 }
 
@@ -268,8 +263,8 @@ tei-origin {
 }
 
 tei-origDate:before {
-  font-weight: bold;
-  content: "Date: ";
+    font-weight: bold;
+    content: "Date: ";
 }
 
 /* Dates and places */
@@ -282,8 +277,8 @@ tei-origPlace {
 }
 
 tei-origPlace:before {
-  font-weight: bold;
-  content: "Origin: ";
+    font-weight: bold;
+    content: "Origin: ";
 }
 
 /* Person names */
@@ -334,8 +329,7 @@ tei-adminInfo {
     margin-left: 20px;
 }
 
-tei-recordHist > tei-source[cert="high"] > tei-p::after
-{
+tei-recordHist > tei-source[cert="high"] > tei-p::after {
     content: " ✓";
     font-weight: bold;
     color: green;
@@ -350,7 +344,7 @@ tei-listBibl > tei-msDesc > tei-additional > tei-listBibl::before {
     margin-bottom: 10px;
 }
 
-tei-listBibl > tei-msDesc > tei-additional >  tei-listBibl {
+tei-listBibl > tei-msDesc > tei-additional > tei-listBibl {
     display: block;
     margin-top: 10px;
 }
@@ -412,274 +406,287 @@ tei-colophon[n]::after {
 }
 
 /* Person styling */
-		tei-person {
-			display: block;
-			margin: 30px 0;
-			padding: 20px;
-			border: 1px solid #e9ecef;
-			border-radius: 0.5rem;
-			background-color: #fff;
-			box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-		}
-
-		tei-person > tei-name:first-of-type {
-			font-size: 1.4em;
-			font-weight: bold;
-			color: #495057;
-			margin-bottom: 10px;
-		}
-
-		tei-name {
-			display: block;
-			margin-bottom: 5px;
-		}
-
-		tei-name:not(:first-of-type) {
-			font-style: italic;
-			color: #6c757d;
-		}
-
-		tei-birth, tei-death, tei-floruit {
-			display: inline;
-		}
-
-		tei-birth::before {
-			content: "Born: ";
-			font-weight: bold;
-		}
-
-		tei-death::before {
-			content: "Died: ";
-			font-weight: bold;
-		}
-
-        tei-floruit::before {
-                content: "Floruit: ";
-                font-weight: bold;
-            }
-
-
-		tei-affiliation {
-			display: inline-block;
-			background-color: #17a2b8;
-			color: white;
-			padding: 2px 8px;
-			border-radius: 3px;
-			font-size: 0.9em;
-			margin: 5px 0;
-		}
-
-
-		#PersonRegister tei-note {
-			display: block;
-			margin: 15px 0;
-			padding: 10px;
-			background-color: #f8f9fa;
-			border-left: 4px solid #007bff;
-			line-height: 1.6;
-		}
-
-        tei-note[type="biblio"]::before {
-            content: "Note (biblio): ";
-            font-weight: bold;
+tei-person {
+    display: block;
+    margin: 30px 0;
+    padding: 20px;
+    border: 1px solid #e9ecef;
+    border-radius: 0.5rem;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-		tei-occupation {
-
-		}
-
-        #PersonRegister tei-note[type="role"]::before {
-            content: "Note (role): ";
-            font-weight: bold;
-            margin-left: 20px;
-        }
-
-        #PersonRegister tei-note[type="role"]{
-            margin-left: 20px;
-            border: none;
-            background: none;
-        }
-
-        #PersonRegister tei-note[type="biblio"] {
-            margin-left: 20px;
-            border: none;
-            background: none;
-        }
-
-        #PersonRegister tei-note[type="attribution"] {
-            margin-left: 40px;
-            border: none;
-            background: none;
-        }
-
-        div.tei-occupation::before {
-            content: "Role: ";
-            font-weight: bold;
-        }
-
-        #PersonRegister tei-listBibl::before {
-            content: "Bibliography";
-            display: block;
-            font-weight: bold;
-            margin-bottom: 10px;
-        }
-
-        #PersonRegister tei-listBibl {
-            margin-left: 0px;
-        }
-
-		tei-idno {
-			display: inline;
-			margin: 5px 10px 5px 0;
-			padding: 2px 6px;
-			background-color: #6c757d;
-			color: white;
-			border-radius: 3px;
-			font-size: 0.8em;
-		}
-
-
-		tei-idno[type="VIAF"] {
-			background: none;
-			padding: 0;
-		}
-
-		tei-idno[type="VIAF"]::before {
-			content: "VIAF: ";
-			background-color: #6c757d;
-			color: white;
-			padding: 2px 6px;
-			border-radius: 3px;
-			margin-right: 5px;
-		}
-
-		tei-idno[type="GND"] {
-			background: none;
-			padding: 0;
-		}
-
-		tei-idno[type="GND"]::before {
-			content: "GND: ";
-			background-color: #6c757d;
-			color: white;
-			padding: 2px 6px;
-			border-radius: 3px;
-			margin-right: 5px;
-		}
-
-		tei-idno[type="CERL"] {
-			background: none;
-			padding: 0;
-		}
-
-        		tei-idno[type="CERL"]::before {
-			content: "CERL: ";
-			background-color: #6c757d;
-			color: white;
-			padding: 2px 6px;
-			border-radius: 3px;
-			margin-right: 5px;
-		}
-
-
-        tei-idno[type="CAC"]::before {
-			content: "CAC: ";
-			background-color: #6c757d;
-			color: white;
-			padding: 2px 6px;
-			border-radius: 3px;
-			margin-right: 5px;
-		}
-
-        		tei-idno[type="CAC"] {
-			background: none;
-			padding: 0;
-		}
-
-        tei-idno[type="CAC"]::before {
-			content: "CAC: ";
-			background-color: #6c757d;
-			color: white;
-			padding: 2px 6px;
-			border-radius: 3px;
-			margin-right: 5px;
-		}
-
-		/* Override tei-idno styles when it contains URI content */
-		tei-idno:has(.uri-link-container) {
-			background: none;
-			padding: 0;
-			margin: 0;
-			display: block;
-		}
-
-        /* Override idno display in msPart*/
-
-        tei-msPart > tei-msIdentifier tei-idno {
-         background: none;
-            padding: 0;
-			margin: 0;
+tei-person > tei-name:first-of-type {
+    font-size: 1.4em;
+    font-weight: bold;
+    color: #495057;
+    margin-bottom: 10px;
 }
 
-		/* URI link container */
-		.uri-link-container {
-			display: block;
-			margin: 10px 0 5px 0;
-		}
+tei-name {
+    display: block;
+    margin-bottom: 5px;
+}
 
-		.uri-link-label {
-			color: #333;
-			font-weight: bold;
-		}
+tei-name:not(:first-of-type) {
+    font-style: italic;
+    color: #6c757d;
+}
 
-		.uri-link-url {
-			color: #0d6efd;
-			text-decoration: underline;
-		}
+tei-birth, tei-death, tei-floruit {
+    display: inline;
+}
 
-		.uri-link-url:hover {
-			color: #0a58ca;
-		}
+tei-birth::before {
+    content: "Born: ";
+    font-weight: bold;
+}
+
+tei-death::before {
+    content: "Died: ";
+    font-weight: bold;
+}
+
+tei-floruit::before {
+    content: "Floruit: ";
+    font-weight: bold;
+}
+
+/* Add "ca." prefix when cert="medium" */
+tei-birth[cert="medium"] .birth-info::before {
+    content: "ca. ";
+}
+
+tei-death[cert="medium"] .death-info::before {
+    content: "ca. ";
+}
+
+tei-floruit[cert="medium"] .floruit-info::before {
+    content: "ca. ";
+}
 
 
-		.ms-link {
-			color: #007bff;
-			text-decoration: underline;
-			cursor: pointer;
-		}
+tei-affiliation {
+    display: inline-block;
+    background-color: #17a2b8;
+    color: white;
+    padding: 2px 8px;
+    border-radius: 3px;
+    font-size: 0.9em;
+    margin: 5px 0;
+}
 
-		.ms-link:hover {
-			color: #0056b3;
-		}
 
-		.dates {
-			margin: 10px 0;
-			font-size: 0.95em;
-		}
+#PersonRegister tei-note {
+    display: block;
+    margin: 15px 0;
+    padding: 10px;
+    background-color: #f8f9fa;
+    border-left: 4px solid #007bff;
+    line-height: 1.6;
+}
 
-		.identifiers {
-			margin: 10px 0;
-		}
+tei-note[type="biblio"]::before {
+    content: "Note (biblio): ";
+    font-weight: bold;
+}
 
-        tei-provenance {
-            display: block;
-            margin-bottom: 10px;
-            margin-left: 20px;
-        }
+tei-occupation {
 
-        tei-provenance::before {
-            content: "Provenance: ";
-            font-weight: bold;
-        }
+}
 
-        tei-metamark[function="signum"]::before {
-            content: "[signum]"
-        }
+#PersonRegister tei-note[type="role"]::before {
+    content: "Note (role): ";
+    font-weight: bold;
+    margin-left: 20px;
+}
 
-        tei-hi[rend="superscript"] {
-          vertical-align: super;
-          font-size: smaller;
-        }
+#PersonRegister tei-note[type="role"] {
+    margin-left: 20px;
+    border: none;
+    background: none;
+}
+
+#PersonRegister tei-note[type="biblio"] {
+    margin-left: 20px;
+    border: none;
+    background: none;
+}
+
+#PersonRegister tei-note[type="attribution"] {
+    margin-left: 40px;
+    border: none;
+    background: none;
+}
+
+div.tei-occupation::before {
+    content: "Role: ";
+    font-weight: bold;
+}
+
+#PersonRegister tei-listBibl::before {
+    content: "Bibliography";
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#PersonRegister tei-listBibl {
+    margin-left: 0px;
+}
+
+tei-idno {
+    display: inline;
+    margin: 5px 10px 5px 0;
+    padding: 2px 6px;
+    background-color: #6c757d;
+    color: white;
+    border-radius: 3px;
+    font-size: 0.8em;
+}
+
+
+tei-idno[type="VIAF"] {
+    background: none;
+    padding: 0;
+}
+
+tei-idno[type="VIAF"]::before {
+    content: "VIAF: ";
+    background-color: #6c757d;
+    color: white;
+    padding: 2px 6px;
+    border-radius: 3px;
+    margin-right: 5px;
+}
+
+tei-idno[type="GND"] {
+    background: none;
+    padding: 0;
+}
+
+tei-idno[type="GND"]::before {
+    content: "GND: ";
+    background-color: #6c757d;
+    color: white;
+    padding: 2px 6px;
+    border-radius: 3px;
+    margin-right: 5px;
+}
+
+tei-idno[type="CERL"] {
+    background: none;
+    padding: 0;
+}
+
+tei-idno[type="CERL"]::before {
+    content: "CERL: ";
+    background-color: #6c757d;
+    color: white;
+    padding: 2px 6px;
+    border-radius: 3px;
+    margin-right: 5px;
+}
+
+
+tei-idno[type="CAC"]::before {
+    content: "CAC: ";
+    background-color: #6c757d;
+    color: white;
+    padding: 2px 6px;
+    border-radius: 3px;
+    margin-right: 5px;
+}
+
+tei-idno[type="CAC"] {
+    background: none;
+    padding: 0;
+}
+
+tei-idno[type="CAC"]::before {
+    content: "CAC: ";
+    background-color: #6c757d;
+    color: white;
+    padding: 2px 6px;
+    border-radius: 3px;
+    margin-right: 5px;
+}
+
+/* Override tei-idno styles when it contains URI content */
+tei-idno:has(.uri-link-container) {
+    background: none;
+    padding: 0;
+    margin: 0;
+    display: block;
+}
+
+/* Override idno display in msPart*/
+
+tei-msPart > tei-msIdentifier tei-idno {
+    background: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* URI link container */
+.uri-link-container {
+    display: block;
+    margin: 10px 0 5px 0;
+}
+
+.uri-link-label {
+    color: #333;
+    font-weight: bold;
+}
+
+.uri-link-url {
+    color: #0d6efd;
+    text-decoration: underline;
+}
+
+.uri-link-url:hover {
+    color: #0a58ca;
+}
+
+
+.ms-link {
+    color: #007bff;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.ms-link:hover {
+    color: #0056b3;
+}
+
+.dates {
+    margin: 10px 0;
+    font-size: 0.95em;
+}
+
+.identifiers {
+    margin: 10px 0;
+}
+
+tei-provenance {
+    display: block;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+
+tei-provenance::before {
+    content: "Provenance: ";
+    font-weight: bold;
+}
+
+tei-metamark[function="signum"]::before {
+    content: "[signum]"
+}
+
+tei-hi[rend="superscript"] {
+    vertical-align: super;
+    font-size: smaller;
+}
 
 
 /* Create wrapper for Related Manuscripts section */
@@ -718,8 +725,16 @@ tei-colophon[n]::after {
 }
 
 /* Default bullet points for all lists */
-  tei-item {
-      display: list-item;
-      list-style-type: disc;
-      margin-left: 2em;
-  }
+tei-item {
+    display: list-item;
+    list-style-type: disc;
+    margin-left: 2em;
+}
+
+tei-supplied::before {
+    content: "‹";
+}
+
+tei-supplied::after {
+    content: "›";
+}
