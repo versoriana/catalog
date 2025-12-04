@@ -138,7 +138,7 @@
             <person xml:id="AndreaDeGambyn">
                <idno type="CAC">2015096</idno>
                <name xml:lang="lat">Andrea de Gambyn</name>
-               <name xml:lang="lat">Andrea de Gąbyn</name>              
+               <name xml:lang="lat">Andrea de Gąbyn</name>
                <name xml:lang="pol">Andrzej z Gąbina</name>
                <note>Matriculated at Krakow in 1465; received a Bachelor’s degree in 1468; obtained
                   a Master’s degree in 1474.</note>
@@ -598,19 +598,26 @@
                <occupation role="fmo" ref="#Berlin_SB-PK_Hdschr435"/>
                <listBibl>
                   <bibl>Auctarium II, col. 948, l. 19; VI, col. 360, l. 24; col. 375, l. 5; col.
-                     377, l. 2</bibl>
+                     377, l. 2.</bibl>
+                  <bibl>E. Kleineidam, Universitas Studii Erffordensis II, Überblick über die
+                     Geschichte der Universität Erfurt im Mittelalter 1392–1521. Teil II:
+                     1460–1521, Bautzen 1968, deuxième édition augmentée 1992, 51, n.
+                     364.</bibl>
+                  <bibl>B. Frank, Das Erfurter Peterskloster im 15. Jahrhundert. Studien zur
+                     Geschichte der Klosterreform und der Bursfelder Union, Göttingen, 1973,
+                     259–260, nr. 95.</bibl>
                   <bibl>C. Meyer, "La compilation sur la musique de Georgius Erber (Paris,
                      1460-1462)". Innsbruck, Universitatsbibliothek, Cod. 962, f. 128r-163r <note
                         type="biblio">Introduction, commentary and text edition (uploaded in HAL 18
                         mai 2017): <ref target="https://shs.hal.science/halshs-00009385v1/document"
                            >https://hal.archives-ouvertes.fr/hal-01522251</ref>, 2, n.
-                     4-5</note></bibl>
-                  <bibl>K. HEYDECK, Die mittelalterlichen Handschriften der Universitätsbibliothek
+                     4-5</note>.</bibl>
+                  <bibl>K. Heydeck, Die mittelalterlichen Handschriften der Universitätsbibliothek
                      Rostock, Wiesbaden, 2001, 33–36</bibl>
                   <bibl>A. Panzica, Entre musique et philosophie: Nouvelles sources sur Georgius
                      Erber (Paris, 1460-1463).</bibl>
                </listBibl>
-            </person>
+              </person>
 
             <person xml:id="GerardusDeWatrumwilla">
                <name xml:lang="lat">Gerardus de Watrumwilla</name>
@@ -864,6 +871,17 @@
                </listBibl>
             </person>
 
+            <person xml:id="IohannesDeLamballe">
+               <name xml:lang="lat">Iohannes De Lamballe</name>
+               <name xml:lang="fr">Jean de Lamballe</name>
+               <note>From the diocese of Tours (Turonensis diocesis), he belonged to the French
+                  Nation of the University of Paris. Bachelor in 1448, licensed and incepted in
+                  1449.</note>
+               <occupation role="scr" ref="#Berlin_SBPK_latfol402"/>
+               <listBibl>
+                  <bibl>Auctarium V, col. 248, l. 13; col. 313, l. 27; col. 317, l. 11.</bibl>
+               </listBibl>
+            </person>
 
             <person xml:id="IohannesHeynlinDeLapide">
                <idno type="GND">119011700;</idno>
@@ -1123,15 +1141,30 @@
                      (Dostęp: 21.09.2025).</bibl>
                </listBibl>
             </person>
-            
+
+            <person xml:id="PetrusBriçonnet">
+               <name xml:lang="lat">Petrus Briçonnet</name>
+               <note>Originally from the Diocese of Tours, he studied at the Faculty of Arts in
+                  Paris as a member of the French Nation. He obtained the degree of baccalaureus in
+                  1448 and the degree of master the following year. He later earned a license in
+                  law. He served as a canon of Bayeux until 1463 and as a canon of Reims from 1463
+                  to 1468.</note>
+               <occupation role="fmo" ref="#Berlin_SBPK_latfol402"/>               
+               <listBibl>
+                  <bibl>Auctarium V, col. 247, l. 20, n. 2; col. 314, l. 7; col. 316, l. 45.</bibl>
+               </listBibl>
+            </person>
+
             <person xml:id="PetrusHuinlinDeLindaw">
                <name xml:lang="lat">Petrus Huinlin de Lindaw</name>
-               <note>In 1494 he matriculated in Heidelberg, where he obtained the bachelor degree.</note>
-               <affiliation type="religiousOrder" subtype="OCart">Carthusian</affiliation>               
-               <occupation role="fmo" ref="#Heidelberg_UB_CodSalVIII109" />                              
+               <note>In 1494 he matriculated in Heidelberg, where he obtained the bachelor
+                  degree.</note>
+               <affiliation type="religiousOrder" subtype="OCart">Carthusian</affiliation>
+               <occupation role="fmo" ref="#Heidelberg_UB_CodSalVIII109"/>
                <listBibl>
                   <bibl>Toepke, Matrikel I, 411.</bibl>
-                  <bibl>Wilfried, Die mittelalterlichen nichtliturgischen Handschriften, 111-112.</bibl>
+                  <bibl>Wilfried, Die mittelalterlichen nichtliturgischen Handschriften,
+                     111-112.</bibl>
                </listBibl>
             </person>
 
