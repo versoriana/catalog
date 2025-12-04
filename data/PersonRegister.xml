@@ -1011,6 +1011,43 @@
                </listBibl>
             </person>
 
+            <person xml:id="MartinusMagister">
+               <name xml:lang="lat">Martinus Magister</name>
+               <birth when="1432" cert="medium"/>
+               <death when="1482" cert="medium"/>
+               <note>Originally from Tours, he studied at the University of Paris as a member
+                  of the French Nation. He obtained the degree of <hi rend="italics">baccalaureus</hi> in the Arts in
+                  1452 and the degree of Master the following year. He subsequently studied
+                  theology and became a Master in 1474. He taught rhetoric at the Collège de
+                  Navarre in 1451 and became principal of the Collège de Sainte-Barbe in 1474.
+                  He served as procurator of the French Nation in 1457 and was elected rector
+                  in 1464. From 1470 to 1472, he held the position of <hi rend="italics">lector ethicorum</hi>. He was
+                  confessor, counselor, and <hi rend="italics">aumônier</hi> to King Louis XI.A leading figure among
+                  the Parisian nominalists of his time, he actively defended the nominalist
+                  party in its conflicts with the realists between 1474 and 1482. Despite
+                  prohibitions against nominalism, he continued to teach the works of Ockham
+                  and Buridan at the Collège de Sainte-Barbe. He died in 1482.</note>
+               <occupation role="fmo" ref="#Berlin_SBPK_latfol402"/>               
+               <listBibl>
+                  <bibl>Auctarium II, col. 930, n. 5; col. 952, l. 43, n. 4; col. 954, l. 39;
+                     III, col. 65, n. 2; col. 66, l. 14; col. 36, l. 14; col. 69, l. 33; col.
+                     36; col. 73, l. 25; col. 32; col. 115, l. 6; col. 122, l. 30; col. 126,
+                     l. 38; col. 137, l. 32; col. 34; col. 197, l. 20; col. 234, n. 5; col.
+                     235, l. 1; col. 3; col. 242, l. 5; col. 20; col. 258, n. 5; col. 273, l.
+                     35; col. 274, l. 12; col. 281, l. 46; col. 471, n. 2; col. 495, l. 9;
+                     IV, col. 30, l. 8, n. 3; col. 337, l. 11, l. 14, n. 2; V, col. 477, n.
+                     3; col. 478, l. 15; col. 524, l. 9; col. 527, l. 13; col. 694, l. 17;
+                     col. 695, l. 5; VI, col. 164, n. 4; col. 388, l. 4, n. 4; col. 393, l.
+                     26.</bibl>
+                  <bibl>Renaudet, Préréforme et humanisme, 99, 248, 367, 468.</bibl>
+                  <bibl>Farge, 123, 296, 301.</bibl>
+                  <bibl>Gabriel, Via antiqua and via moderna, 131.</bibl>
+                  <bibl>Kaluza, La crise, 309.</bibl>
+                  <bibl>Weijers VI, 111-113.</bibl>
+                  <bibl>Lohr II, 13-14.</bibl>
+                  <bibl>Sullivan II, 342-345.</bibl>
+               </listBibl>
+            </person>
 
             <person xml:id="MartinusDeTarnowiecz">
                <idno type="CAC">2019376</idno>
