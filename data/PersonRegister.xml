@@ -584,11 +584,11 @@
 
             <!-- Georgius Erber de Aibling issue#24 -->
 
-            <person xml:id="GeorgiusErberDeAibling">               
+            <person xml:id="GeorgiusErberDeAibling">
                <name xml:lang="lat">Georgius Erber de Aibling</name>
                <name xml:lang="lat">Georgius Herbar de Aibling</name>
                <name xml:lang="lat">Georgius Eerber de Aibling</name>
-               <name xml:lang="lat">Georgius Harbar de Aibling</name>              
+               <name xml:lang="lat">Georgius Harbar de Aibling</name>
                <note>After studying at the universities of Erfurt (1452) and Vienna (1455), Georgius
                   Erber moved to Paris, where he was affiliated with the Anglo-German Nation and was
                   a member of the Collège de la Marche (1460–1463). He obtained the degree of
@@ -602,9 +602,8 @@
                   <bibl>Auctarium II, col. 948, l. 19; VI, col. 360, l. 24; col. 375, l. 5; col.
                      377, l. 2.</bibl>
                   <bibl>E. Kleineidam, Universitas Studii Erffordensis II, Überblick über die
-                     Geschichte der Universität Erfurt im Mittelalter 1392–1521. Teil II:
-                     1460–1521, Bautzen 1968, deuxième édition augmentée 1992, 51, n.
-                     364.</bibl>
+                     Geschichte der Universität Erfurt im Mittelalter 1392–1521. Teil II: 1460–1521,
+                     Bautzen 1968, deuxième édition augmentée 1992, 51, n. 364.</bibl>
                   <bibl>B. Frank, Das Erfurter Peterskloster im 15. Jahrhundert. Studien zur
                      Geschichte der Klosterreform und der Bursfelder Union, Göttingen, 1973,
                      259–260, nr. 95.</bibl>
@@ -619,7 +618,7 @@
                   <bibl>A. Panzica, Entre musique et philosophie: Nouvelles sources sur Georgius
                      Erber (Paris, 1460-1463).</bibl>
                </listBibl>
-              </person>
+            </person>
 
             <person xml:id="GerardusDeWatrumwilla">
                <name xml:lang="lat">Gerardus de Watrumwilla</name>
@@ -1015,30 +1014,30 @@
                <name xml:lang="lat">Martinus Magister</name>
                <birth when="1432" cert="medium"/>
                <death when="1482" cert="medium"/>
-               <note>Originally from Tours, he studied at the University of Paris as a member
-                  of the French Nation. He obtained the degree of <hi rend="italics">baccalaureus</hi> in the Arts in
-                  1452 and the degree of Master the following year. He subsequently studied
-                  theology and became a Master in 1474. He taught rhetoric at the Collège de
-                  Navarre in 1451 and became principal of the Collège de Sainte-Barbe in 1474.
-                  He served as procurator of the French Nation in 1457 and was elected rector
-                  in 1464. From 1470 to 1472, he held the position of <hi rend="italics">lector ethicorum</hi>. He was
-                  confessor, counselor, and <hi rend="italics">aumônier</hi> to King Louis XI.A leading figure among
-                  the Parisian nominalists of his time, he actively defended the nominalist
-                  party in its conflicts with the realists between 1474 and 1482. Despite
-                  prohibitions against nominalism, he continued to teach the works of Ockham
-                  and Buridan at the Collège de Sainte-Barbe. He died in 1482.</note>
-               <occupation role="fmo" ref="#Berlin_SBPK_latfol402"/>               
+               <note>Originally from Tours, he studied at the University of Paris as a member of the
+                  French Nation. He obtained the degree of <hi rend="italics">baccalaureus</hi> in
+                  the Arts in 1452 and the degree of Master the following year. He subsequently
+                  studied theology and became a Master in 1474. He taught rhetoric at the Collège de
+                  Navarre in 1451 and became principal of the Collège de Sainte-Barbe in 1474. He
+                  served as procurator of the French Nation in 1457 and was elected rector in 1464.
+                  From 1470 to 1472, he held the position of <hi rend="italics">lector
+                     ethicorum</hi>. He was confessor, counselor, and <hi rend="italics"
+                     >aumônier</hi> to King Louis XI.A leading figure among the Parisian nominalists
+                  of his time, he actively defended the nominalist party in its conflicts with the
+                  realists between 1474 and 1482. Despite prohibitions against nominalism, he
+                  continued to teach the works of Ockham and Buridan at the Collège de Sainte-Barbe.
+                  He died in 1482.</note>
+               <occupation role="fmo" ref="#Berlin_SBPK_latfol402"/>
                <listBibl>
-                  <bibl>Auctarium II, col. 930, n. 5; col. 952, l. 43, n. 4; col. 954, l. 39;
-                     III, col. 65, n. 2; col. 66, l. 14; col. 36, l. 14; col. 69, l. 33; col.
-                     36; col. 73, l. 25; col. 32; col. 115, l. 6; col. 122, l. 30; col. 126,
-                     l. 38; col. 137, l. 32; col. 34; col. 197, l. 20; col. 234, n. 5; col.
-                     235, l. 1; col. 3; col. 242, l. 5; col. 20; col. 258, n. 5; col. 273, l.
-                     35; col. 274, l. 12; col. 281, l. 46; col. 471, n. 2; col. 495, l. 9;
-                     IV, col. 30, l. 8, n. 3; col. 337, l. 11, l. 14, n. 2; V, col. 477, n.
-                     3; col. 478, l. 15; col. 524, l. 9; col. 527, l. 13; col. 694, l. 17;
-                     col. 695, l. 5; VI, col. 164, n. 4; col. 388, l. 4, n. 4; col. 393, l.
-                     26.</bibl>
+                  <bibl>Auctarium II, col. 930, n. 5; col. 952, l. 43, n. 4; col. 954, l. 39; III,
+                     col. 65, n. 2; col. 66, l. 14; col. 36, l. 14; col. 69, l. 33; col. 36; col.
+                     73, l. 25; col. 32; col. 115, l. 6; col. 122, l. 30; col. 126, l. 38; col. 137,
+                     l. 32; col. 34; col. 197, l. 20; col. 234, n. 5; col. 235, l. 1; col. 3; col.
+                     242, l. 5; col. 20; col. 258, n. 5; col. 273, l. 35; col. 274, l. 12; col. 281,
+                     l. 46; col. 471, n. 2; col. 495, l. 9; IV, col. 30, l. 8, n. 3; col. 337, l.
+                     11, l. 14, n. 2; V, col. 477, n. 3; col. 478, l. 15; col. 524, l. 9; col. 527,
+                     l. 13; col. 694, l. 17; col. 695, l. 5; VI, col. 164, n. 4; col. 388, l. 4, n.
+                     4; col. 393, l. 26.</bibl>
                   <bibl>Renaudet, Préréforme et humanisme, 99, 248, 367, 468.</bibl>
                   <bibl>Farge, 123, 296, 301.</bibl>
                   <bibl>Gabriel, Via antiqua and via moderna, 131.</bibl>
@@ -1188,7 +1187,7 @@
                   1448 and the degree of master the following year. He later earned a license in
                   law. He served as a canon of Bayeux until 1463 and as a canon of Reims from 1463
                   to 1468.</note>
-               <occupation role="fmo" ref="#Berlin_SBPK_latfol402"/>               
+               <occupation role="fmo" ref="#Berlin_SBPK_latfol402"/>
                <listBibl>
                   <bibl>Auctarium V, col. 247, l. 20, n. 2; col. 314, l. 7; col. 316, l. 45.</bibl>
                </listBibl>
@@ -1204,6 +1203,20 @@
                   <bibl>Toepke, Matrikel I, 411.</bibl>
                   <bibl>Wilfried, Die mittelalterlichen nichtliturgischen Handschriften,
                      111-112.</bibl>
+               </listBibl>
+            </person>
+
+
+            <person xml:id="PetrusNickel">
+               <name xml:lang="lat">Petrus Nickel</name>
+               <name type="pseudo">Schnorrenpeyl</name>
+               <note>The identification of this scholar and clergyman, a relative of Iohannes Nickel
+                  from Oldernheim and active in Heidelberg around 1525, remains uncertain.</note>
+               <occupation role="fmo" ref="#VaticanoCittàdel_BAV_Pallat1050"/>
+               <listBibl>
+                  <bibl>Walz, Die historischen und philosophischen Handschriften, p. 211. <note
+                        type="biblio">it contains some hints for the identification of this
+                        scholar.</note></bibl>
                </listBibl>
             </person>
 
