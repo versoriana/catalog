@@ -974,7 +974,7 @@
                   <settlement>Heidelberg</settlement>
                   <repository>Universitätsbibliothek Heidelberg, Cod. Sal. VIII</repository>
                   <idno>109</idno>
-                  <idno type="URI">https://doi.org/10.11588/diglit.7321</idno>
+                  <idno type="DOI">https://doi.org/10.11588/diglit.7321</idno>
                </msIdentifier>
                <msContents>
                   <summary>None</summary>
@@ -3461,6 +3461,68 @@
                         Valenciennes 2004, 379</bibl>
                      <bibl>This manuscript is not mentioned in Charles Lohr's Aristotelica Gallica
                         II, which skips directly from manuscript nr. 596 to 598 (p. 100-101)</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+
+
+            <msDesc xml:id="VaticanoCittàdel_BibliotecaApostolicaVaticana_Pallat1050">
+               <msIdentifier>
+                  <settlement>Vaticano (Città del)</settlement>
+                  <repository>Biblioteca Apostolica Vaticana</repository>
+                  <idno>Pal. lat. 1050</idno>
+                  <idno type="DOI">https://doi.org/10.11588/diglit.10912 </idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>None</summary>
+                  <msItem xml:id="VaticanoCittàdel_BibliotecaApostolicaVaticana_Pallat1050_QsMete">
+                     <locus from="255r" to="292v"/>
+                     <title ref="workID">QsMete</title>
+                  </msItem>
+                  <msItem xml:id="VaticanoCittàdel_BibliotecaApostolicaVaticana_Pallat1050_QdSens">
+                     <locus from="296r" to="314v"/>
+                     <title ref="workID">QdSens</title>
+                  </msItem>
+                  <msItem xml:id="VaticanoCittàdel_BibliotecaApostolicaVaticana_Pallat1050_QdMem">
+                     <locus from="314r" to="318r"/>
+                     <title ref="workID">QdMem</title>
+                  </msItem>
+                  <msItem xml:id="VaticanoCittàdel_BibliotecaApostolicaVaticana_Pallat1050_QdSom">
+                     <locus from="318r" to="324v"/>
+                     <title ref="workID">QdSom</title>
+                  </msItem>
+                  <msItem xml:id="VaticanoCittàdel_BibliotecaApostolicaVaticana_Pallat1050_QdLon">
+                     <locus from="324v" to="326v"/>
+                     <title ref="workID">QdLon</title>
+                  </msItem>
+                  <msItem xml:id="VaticanoCittàdel_BibliotecaApostolicaVaticana_Pallat1050_VI">
+                     <locus from="328r" to="387v"/>
+                     <title ref="workID">QsMeta I–VI</title>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate from="1465" to="1465"/>
+                     <p>The part copied by <persName ref="#IohannesNickelDeOldernheim">Iohannes
+                           Nickel</persName> dates to 1465, as stated in the colophon of a set of
+                        anonymous QdA: <quote source="90r">Finis huius anno Domini M°CCCCLXV in
+                           profesto Mathei apostoli et ewangeliste [add. Petrus Nickel Lipsius per
+                           Iohannem Nickel]</quote>, f. 90r.</p>
+                     <p>The texts contained in this codex were copied by <persName
+                           ref="#IohannesNickelDeOldernheim">Iohannes Nickel</persName> from
+                        Oldernheim, enrolled at Leipzig in 1461 (ff. 4r–91v, 96r–173v, 178v,
+                        179r–292v, 296r–387r), and by his relative <persName ref="#PetrusNickel"
+                           >Petrus Nickel</persName> (alias Schnorrenpeyl), scholar and clergyman in
+                        Heidelberg, who transcribed texts in this manuscript from 1525 onwards (ff.
+                        1r–2v, 93r–95v, 174r–177v, 178v, 389r–394v). Versoris’s commentaries were
+                        copied by <persName ref="#IohannesNickelDeOldernheim">Iohannes
+                           Nickel</persName> and travelled from Leipzig to Heidelberg.</p>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Walz, Die historischen und philosophischen Handschriften, 210-215.<note
+                           type="biblio">not in Lohr.</note></bibl>
                   </listBibl>
                </additional>
             </msDesc>
