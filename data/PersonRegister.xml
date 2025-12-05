@@ -967,7 +967,17 @@
                </listBibl>
             </person>
 
-            <!--  Iohannes Run issue#15 -->
+
+            <person xml:id="IohannesNickelDeOldernheim">
+               <name xml:lang="lat">Iohannes Nickel de Oldernheim</name>
+               <note>Enrolled at Leipzig in 1461 (as a member of the Bavarian nation).</note>
+               <occupation role="scr fmo" ref="#VaticanoCittàdel_BAV_Pallat1050"/>
+               <listBibl>
+                  <bibl>G. Erler, Die Matrikel der Universität Leipzig, I. Band. Die
+                     Immatrikulationen von 1409-1559, Leipzig 1895, 228, nr. 63.</bibl>
+               </listBibl>
+            </person>
+
 
             <person xml:id="IohannesRun">
                <name xml:lang="lat">Iohannes Run</name>
