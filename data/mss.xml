@@ -30,7 +30,6 @@
 
          <p> persname with @role="attribution" when what is recorded is the attribution</p>
 
-         <p/>
 
          <p>Use summary for attribution/ascription</p>
 
@@ -246,7 +245,7 @@
                </msContents>
                <history>
                   <origin>
-                     <origDate from="1451" to="1451"/>
+                     <origDate from="1451" to="1451">1451</origDate>
                      <p><watermark>The watermark, a shield with three lilia couroned with flowers
                            (particularly visible in the first guard leafs and at ff. 39, 87, 95,
                            116-117, 139, 188, 202, 204-205, 207, 256, 270, 295)</watermark>, is very
@@ -300,7 +299,7 @@
                </msContents>
                <history>
                   <origin>
-                     <origDate from="1471" to="1471"/>
+                     <origDate from="1471" to="1471">1471</origDate>
                      <p>Dating stated in the colophon of the first book: <quote source="14r"
                            >Expliciunt questiones super primo Ethicorum, 1471</quote>, f. 14r.</p>
                      <origPlace ref="#place_basel">Basel</origPlace>
@@ -548,7 +547,7 @@
                </msContents>
                <history>
                   <origin>
-                     <origDate from="1445" to="1455">around 1450</origDate>
+                     <origDate from="1445" to="1455">ca. 1450</origDate>
                      <p><watermark>Watermark</watermark> similar to <bibl>Piccard</bibl> (Frucht I,
                         393-398), used around 1450.</p></origin>
                   <provenance>Belonged to the <orgName ref="orgID">Basel Dominican
@@ -623,7 +622,7 @@
                </physDesc>
                <history>
                   <origin>
-                     <origDate from="1458" to="1459">1458-59</origDate>
+                     <origDate from="1458" to="1459">1458-1459</origDate>
                      <p>The manuscript was copied by <persName ref="#IohannesScolaris">Iohannes
                            Scholaris</persName> in <date from="1458" to="1459">1458-59</date>, just
                         like <ref type="ms" target="#msBa4_x">ms. F III 11</ref>.</p>
@@ -741,7 +740,7 @@
                </msContents>
                <history>
                   <origin>
-                     <origDate from="1463" to="1463"/>
+                     <origDate from="1463" to="1463">1463</origDate>
                      <origPlace ref="#place_paris">Paris</origPlace>
                      <p>Paris, as stated in the colophons: <quote source="63r">Et sic est finis
                            textus Summularum magistri Petri Hispani ordinis Predicatorum, qui quidem
@@ -925,7 +924,7 @@
                </msContents>
                <history>
                   <origin>
-                     <origDate from="1459" to="1459"/>
+                     <origDate from="1459" to="1459">1459</origDate>
                      <p>The texts were copied by <persName ref="ID">Eberhardum Saltzmann de valle
                            masonis</persName>, <placeName ref="ID">Masevaux</placeName>, diocese of
                            <placeName ref="ID">Basel</placeName>.</p>
@@ -1019,7 +1018,7 @@
                </msContents>
                <history>
                   <origin>
-                     <origDate from="1495" to="1495"/>
+                     <origDate from="1495" to="1495">1495</origDate>
                      <p>Shortly before 1495. This dating can be inferred from the watermarks, the
                         note on the inner back cover, and the dates of the printed works bound in
                         the volume, namely Lambertus de Monte’s Copulata on Aristotle’s Physics
@@ -1107,7 +1106,7 @@
                </msContents>
                <history>
                   <origin>
-                     <origDate from="1470" to="1470" cert="medium"/>
+                     <origDate from="1465" to="1475">ca. 1470</origDate>
                      <origPlace ref="#">Heidelberg</origPlace>
                      <p>After the suppression of the monastery in 1808, the codex arrived at the
                         Tirol University Library. On the inner front cover we read: <quote
@@ -1355,7 +1354,7 @@
                </msContents>
                <history>
                   <origin>
-                     <origDate from="1477" to="1477"/>
+                     <origDate from="1477" to="1477">1477</origDate>
                      <p>1477, as evident from the colophon: <quote source="286v">Anno Domini
                            millesimo quadrigentesimo septuagesimo septimo</quote>, f. 286v.</p>
                      <origPlace>Kraków</origPlace>
@@ -1484,7 +1483,7 @@
                </msContents>
                <history>
                   <origin>
-                     <origDate from="1450" to="1475"/>
+                     <origDate from="1450" to="1475">1450-1475</origDate>
                      <p>Based on the watermarks, the part containing Versoris’s commentaries can be
                         dated to the third quarter of the fifteenth century. <note type="editorial"
                            >I am referring to the typescript description prepared by Marian Zwiercan
@@ -1567,7 +1566,7 @@
                </msContents>
                <history>
                   <origin>
-                     <origDate from="1460" to="1460"/>
+                     <origDate from="1460" to="1460">1460</origDate>
                      <p>1460. This date appears in the colophon of some anonymous Puncta on Books
                         I–XII of Aristotle’s Metaphysics, as well as on the first guard leaf, both
                         by the same scribe.</p>
@@ -1579,7 +1578,6 @@
                            anno Domini M°CCCC° sexagesimo</quote>, f. 171v. The name of this scribe
                         and the date also appear on the first folio: <quote source="first folio"
                            >Pisana przez Baltara z Poznania, 1460 roku</quote>.</p>
-                     <origDate from="1460" to="1460"/>
                   </origin>
                   <provenance>
                      <p>The manuscript belonged to a master named Kazuchowski, as we read at f. 1r:
@@ -1661,7 +1659,7 @@
                </msContents>
                <history>
                   <origin>
-                     <origDate from="1467" to="1473"/>
+                     <origDate from="1467" to="1473">1467-1473</origDate>
                      <p>Versoris’s commentaries were copied in 1473, as evident from the colophon
                            (<quote source="150v">anno Domini 1473</quote>, f. 150v). The Problemata
                         at the end of the volume were copied in 1467: <quote source="218r">Et sic
@@ -1718,7 +1716,7 @@
                </msContents>
                <history>
                   <origin>
-                     <origDate from="1469" to="1469"/>
+                     <origDate from="1469" to="1469">1469</origDate>
                      <p>The colophon records that the copy was completed in 1469: <quote
                            source="186r">Finitus anno Domini 1469, per fratrem Johannem
                            comparatus</quote> (f. 186r).</p>
@@ -1838,7 +1836,7 @@
                </msContents>
                <history>
                   <origin>
-                     <origDate from="1478" to="1478"/>
+                     <origDate from="1478" to="1478">1478</origDate>
                      <p>1478, as stated in the colophon of the QdG: <quote source="294r">Explicit
                            liber secundus De generatione et corruptione sub anno Domini 1478, in die
                            Mathie ante reminiscere, feria quarta, etc.</quote>, f. 294r.</p>
@@ -1913,7 +1911,7 @@
                </msContents>
                <history>
                   <origin>
-                     <origDate from="1479" to="1489"/>
+                     <origDate from="1479" to="1489">1479-1489</origDate>
                      <p>The texts in this manuscript were copied between 1479 and 1489, as indicated
                         by the colophons: <quote source="103r">Expliciunt questiones Anthonii
                            Andree, ordinis minorum, correpte ac emendate per excellentissimum
@@ -1986,7 +1984,7 @@
                </msContents>
                <history>
                   <origin>
-                     <origDate from="1447" to="1457"/>
+                     <origDate from="1447" to="1457">1447-1457</origDate>
                      <p>The watermarks were attested in the years 1447–1457 <note type="editorial">I
                            am referring to the typescript description prepared by Marian Zwiercan in
                            1961, which was kindly made available to me by the librarians of the
@@ -2047,7 +2045,7 @@
                </msContents>
                <history>
                   <origin>
-                     <origDate from="1449" to="1452"/>
+                     <origDate from="1449" to="1452">1449-1452</origDate>
                      <p>Date as evident from the colophons: <quote source="240ra">Hanc determinavi
                            questionem feria quarta, post decollationem Iohannis Baptiste, anno
                            domini 1449, de mane, presidente magistro Iohanni Buschbach, sui magister
@@ -2152,6 +2150,7 @@
             <!-- Nürnberg, Stadtbibliothek im Bildungscampus Nürnberg, Cent. V 47* issue#3-->
 
             <msDesc xml:id="Nürnberg_StadtbibliothekimBildungscampusNürnberg_CentV47">
+
                <msIdentifier>
                   <settlement>Nürnberg</settlement>
                   <repository>Stadtbibliothek im Bildungscampus Nürnberg</repository>
@@ -2159,6 +2158,7 @@
                </msIdentifier>
                <msContents>
                   <summary>None</summary>
+
                   <msItem xml:id="Nürnberg_StadtbibliothekimBildungscampusNürnberg_CentV47_QsMeta">
                      <locus from="86ra" to="155vb"/>
                      <title ref="workID">QsMeta</title>
@@ -2354,7 +2354,7 @@
                </msContents>
                <history>
                   <origin>
-                     <origDate from="1446" to="1446"/>
+                     <origDate from="1446" to="1446">1446</origDate>
                      <p>1446, as attested in the colophon of Book IV of the QsMeta: <quote
                            source="54v">Et hec de questione presenti, et per consequens de toto
                            quarto libro Methaphisice Aristotilis, completo Parisius, per me,
@@ -2446,7 +2446,7 @@
                </msContents>
                <history>
                   <origin>
-                     <origDate from="1463" to="1463"/>
+                     <origDate from="1463" to="1463">1463</origDate>
                      <p>The colophon of the second set of questions on the Ethics informs us that it
                         was copied by <persName ref="#ClaudiusVerneti">Claudius Vernet</persName>
                         under the supervision of <persName ref="#GaltherusDeWalma">Galtherus de
@@ -2482,6 +2482,130 @@
                         Commentaries on Porphyry's Isagoge and Aristotle‘s De anima by Walter of
                         Wervia (ca. 1425–1497), Bulletin de Philosophie Médiévale 56 (2014),
                         263-279, at 264, n. 3.</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+
+            <msDesc
+               xml:id="Pelplin_BibliotekaDiecezjalnaimBiskupaJanaBernardaSzlagiwPelplinie_23621">
+               <msIdentifier>
+                  <settlement>Pelplin</settlement>
+                  <repository>Biblioteka Diecezjalna im. Biskupa Jana Bernarda Szlagi w
+                     Pelplinie</repository>
+                  <idno>236/21</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>None</summary>
+                  <msItem
+                     xml:id="Pelplin_BibliotekaDiecezjalnaimBiskupaJanaBernardaSzlagiwPelplinie_23621_QsP"
+                     defective="true">
+                     <locus from="1r" to="82v"/>
+                     <title ref="workID">QsP</title>
+                     <note type="desc">Beginning at q.II.8 with the words <quote source="q. II.8"
+                           >vel motus ad formam, sed est causa per accidens</quote></note>
+                     <note type="content">The beginning of the QsP is missing</note>
+                  </msItem>
+                  <msItem
+                     xml:id="Pelplin_BibliotekaDiecezjalnaimBiskupaJanaBernardaSzlagiwPelplinie_23621_QdC">
+                     <locus from="83r" to="120v"/>
+                     <title ref="workID">QdC</title>
+                  </msItem>
+                  <msItem
+                     xml:id="Pelplin_BibliotekaDiecezjalnaimBiskupaJanaBernardaSzlagiwPelplinie_23621_QdG">
+                     <locus from="121r" to="140r"/>
+                     <title ref="workID">QdG</title>
+                     <note type="desc">Some folios have been ripped</note>
+                  </msItem>
+                  <msItem
+                     xml:id="Pelplin_BibliotekaDiecezjalnaimBiskupaJanaBernardaSzlagiwPelplinie_23621_QdA">
+                     <locus from="149v" to="193r"/>
+                     <title ref="workID">QdA</title>
+                  </msItem>
+                  <msItem
+                     xml:id="Pelplin_BibliotekaDiecezjalnaimBiskupaJanaBernardaSzlagiwPelplinie_23621_QsMete">
+                     <locus from="194r" to="223v"/>
+                     <title ref="workID">QsMete</title>
+                  </msItem>
+                  <msItem
+                     xml:id="Pelplin_BibliotekaDiecezjalnaimBiskupaJanaBernardaSzlagiwPelplinie_23621_QsSen">
+                     <locus from="225r" to="237v"/>
+                     <title ref="workID">QsSen</title>
+                  </msItem>
+                  <msItem
+                     xml:id="Pelplin_BibliotekaDiecezjalnaimBiskupaJanaBernardaSzlagiwPelplinie_23621_QdMem">
+                     <locus from="237v" to="240v"/>
+                     <title ref="workID">QdMem</title>
+                  </msItem>
+                  <msItem
+                     xml:id="Pelplin_BibliotekaDiecezjalnaimBiskupaJanaBernardaSzlagiwPelplinie_23621_QsSom">
+                     <locus from="241r" to="245v"/>
+                     <title ref="workID">QsSom</title>
+                     <note type="desc">It ends interrupted with the words <quote source="245v"
+                           >apparet nobis sit vere</quote></note>
+                  </msItem>
+                  <msItem
+                     xml:id="Pelplin_BibliotekaDiecezjalnaimBiskupaJanaBernardaSzlagiwPelplinie_23621_QdLon"
+                     defective="true">
+                     <locus/>
+                     <title ref="worid">QdLon</title>
+                     <note type="content">The QdLon are missing</note>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <layoutDesc>
+                        <layout columns="2">
+                           <p>The manuscript presents the typical layout of Parisian volumes of the
+                              mid-fifteenth century: it is written in two columns; at the beginning
+                              of each commentary, the scribe left a quadrangular space intended to
+                              be filled with a squared initial, which, however, was never executed
+                              and remains blank.</p>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate from="1457" to="1460">Undated</origDate>
+                     <p>The manuscript is undated. A watermark appears throughout the volume—a
+                        fleur-de-lis (particularly visible on ff. 39, 59, 65, 66, 120–121, 137, 149,
+                        207)—similar to Briquet 6911, attested in Paris in 1457, with a similar
+                        variant recorded in 1460. Another watermark, an anchor (visible on f. 101),
+                        is very similar to Briquet 391, attested in Bagé in 1452, as well as to
+                        Piccard II 516, attested in Brugges in 1452, and 517, attested in Mehelen in
+                        1456. </p>
+                     <p>The manuscript was copied by a single student, <persName
+                           ref="#SimondeHorreo">Simon de Horreo</persName>, in Paris, at the school
+                        of the master Iohannes Hameron, as attested by the colophons: QsP, final
+                        colophon, f. 82v; QdC, book I, 101rb; QdC, final colophon, 120vb; QsMete,
+                        final colophon, 223vb.</p>
+                     <!-- Open: general note somewhere else? -->
+                     <note type="content"><persName ref="#SimondeHorreo">Simon de Horreo</persName>
+                        highlights that the order in which the commentaries are copied does not
+                        correspond to the one in which they were taught, and reestablishes the
+                        correct order in two notes: <quote source="193rb">Item secundum dictum
+                           ordinem librorum tres libri Metheororum qui iam hic sequuntur, immediate
+                           deberent precedere tres libros De anima et immediate sequi duos libros De
+                           generatione et corruptione</quote>, f. 193rb; and again, at the end of
+                        the QsM: <quote source="223v">Item notatur quod post istos tres libros sic
+                           completos bono ordine et congruo debent sequi tres libri De anima, et
+                           isti immediate sequuntur duos libros De generatione et corruptione, licet
+                           in compositione libri male observatur</quote>, f. 223v.</note>
+                  </origin>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source cert="high" resp="#">
+                           <p>Ms directly examined</p>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+                  <listBibl>
+                     <bibl>R. Nir, “Rękopisy filozoficzne Biblioteki Seminarium Duchownego w
+                        Pelplinie”, Studia Gdańskie 3 (1978), 185–213, at 197, n. 44.</bibl>
+                     <bibl>W. Seńko,Rękopisy Biblioteki Seminarium Duchownego w Pelplinie, Warszawa
+                        1969, 76.</bibl>
                   </listBibl>
                </additional>
             </msDesc>
@@ -2595,7 +2719,7 @@
                </msContents>
                <history>
                   <origin>
-                     <origDate from="1451" to="1451"/>
+                     <origDate from="1451" to="1451">1451</origDate>
                      <!-- the colophons weren't copied this time to the msItem. Dedice better solution to not repeat the info? -->
                      <p>The manuscript was copied by <persName ref="#IvoBezit">Yvo de
                            Beisit</persName>, a student of <persName ref="#GerardusDeWatrumwilla"
@@ -2707,7 +2831,7 @@
                </msContents>
                <history>
                   <origin>
-                     <origDate from="1451" to="1451"/>
+                     <origDate from="1451" to="1451">1451</origDate>
                      <p>1451, as stated at f. 128va (<quote source="128va">A. Kernynyven, Anno
                            Domini M°CCCC° LI°, <metamark function="signum"/></quote>) and at f.
                         359va (<quote source="359va">Anno Domini M°CCCC° LI°</quote>).</p>
@@ -2755,9 +2879,8 @@
                   <msItem xml:id="Praha_NK_IV-F-8_QsPre">
                      <locus from="39r" to="70v"/>
                      <title ref="ID">QsPre</title>
-                     <colophon source="70v">Finitus in octava sancti Gregorii per me, <persName
-                           ref="ID">M. de G. Martinum de Glatovia</persName> sabbato <supplied>[20
-                           III 1456]</supplied> [ADD ELE: COLOPHON, RIGHT? SUPPLIED OK?]</colophon>
+                     <colophon source="70v">Finitus in octava sancti Gregorii per me, M. de G.
+                        Martinum de Glatovia sabbato <supplied>[20 III 1456]</supplied></colophon>
                   </msItem>
                   <msItem xml:id="Praha_NK_IV-F-8_QsSex">
                      <locus from="71r" to="80r"/>
@@ -2811,7 +2934,7 @@
                </msContents>
                <history>
                   <origin>
-                     <origDate from="1456" to="1458"/>
+                     <origDate from="1456" to="1458">1456-1458</origDate>
                      <origPlace>Prague</origPlace>
                      <p>From 1459 to 1496, these commentaries were used for teaching by several
                         Prague masters, whose names and dates of lectures are recorded throughout
@@ -2897,7 +3020,7 @@
                </msContents>
                <history>
                   <origin>
-                     <origDate from="1450" to="1452"/>
+                     <origDate from="1450" to="1452">1450-1452</origDate>
                      <origPlace ref="#place_paris">Paris</origPlace>
                      <p>The manuscript was copied in Paris at the Collège de la Marche by <persName
                            ref="#IohannesAbbatis">Iohannes Abbatis</persName>, as attested by the
@@ -3417,7 +3540,7 @@
                </msContents>
                <history>
                   <origin>
-                     <origDate from="1471" to="1471"/>
+                     <origDate from="1471" to="1471">1471</origDate>
                      <p>Dating attested in the final colophon: <quote source="115ra">Et sic est
                            finis libri De longitudine et brevitate vite, et per consequens de tota
                            philosophia naturali Aristotelis, finita per me, fratrem Georgium de
@@ -3475,6 +3598,7 @@
                </msIdentifier>
                <msContents>
                   <summary>None</summary>
+
                   <msItem xml:id="VaticanoCittàdel_BibliotecaApostolicaVaticana_Pallat1050_QsMete">
                      <locus from="255r" to="292v"/>
                      <title ref="workID">QsMete</title>
@@ -3502,7 +3626,7 @@
                </msContents>
                <history>
                   <origin>
-                     <origDate from="1465" to="1465"/>
+                     <origDate from="1465" to="1465">1465</origDate>
                      <p>The part copied by <persName ref="#IohannesNickelDeOldernheim">Iohannes
                            Nickel</persName> dates to 1465, as stated in the colophon of a set of
                         anonymous QdA: <quote source="90r">Finis huius anno Domini M°CCCCLXV in
@@ -3589,7 +3713,7 @@
                </msContents>
                <history>
                   <origin>
-                     <origDate from="1450" to="1454"/>
+                     <origDate from="1450" to="1454">1450-1454</origDate>
                      <origPlace ref="ID">Prague, as evident from the colophona.</origPlace>
                   </origin>
                </history>
