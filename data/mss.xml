@@ -2033,14 +2033,14 @@
                   <msItem xml:id="Mainz_WissenschaftlicheStadtbibliothekMainz_HsI541_QdA">
                      <locus from="129r" to="178v"/>
                      <title ref="ID">QdA</title>
-                     <note type="attribution">It seems not to have been copied by <persName ref="id"
-                           >Marcellus Geist</persName>.</note>
+                     <note type="attribution">It seems not to have been copied by <persName ref="#MarcellusGeistOfAtzenheim">Marcellus
+                        Geist</persName>.</note>
                   </msItem>
                   <msItem xml:id="Mainz_WissenschaftlicheStadtbibliothekMainz_HsI541_QdC">
                      <locus from="179r" to="231v"/>
                      <title ref="ID">QdC</title>
-                     <note type="attribution">It seems not to have been copied by <persName ref="id"
-                           >Marcellus Geist</persName>.</note>
+                     <note type="attribution">It seems not to have been copied by <persName ref="#MarcellusGeistOfAtzenheim">Marcellus
+                        Geist</persName>.</note>
                   </msItem>
                </msContents>
                <history>
@@ -2055,14 +2055,14 @@
                            tertio anno magistratus ipsius</quote>, f. 258va; <quote
                            source="270v, marg. sup.">edita a magistro Marcello, anno LII</quote>
                      </p>
-                     <p>This codex contains texts copied by <persName ref="id">Marcellus
-                           Geist</persName>, who studied and taught at <orgName>Heidelberg
-                           University</orgName> until 1452. In 1454, he entered the
-                           <orgName>Carthusian Order</orgName> and was appointed prior in
-                           <placeName>Mainz</placeName> in 1470.</p>
+                     <p>This codex contains texts copied by <persName
+                           ref="#MarcellusGeistOfAtzenheim">Marcellus Geist</persName>, who studied
+                        and taught at Heidelberg University until 1452. In 1454, he entered the
+                        Carthusian Order and was appointed prior in Mainz in 1470.</p>
                   </origin>
-                  <provenance>After Marcellus death, the codex passed into the possession of the
-                        <orgName>library of the Mainz Carthusians</orgName>.</provenance>
+                  <provenance>After <persName ref="#MarcellusGeistOfAtzenheim">Marcellus</persName>
+                     death, the codex passed into the possession of the library of the Mainz
+                     Carthusians.</provenance>
                </history>
                <additional>
                   <adminInfo>
@@ -2080,9 +2080,9 @@
                            target="http://archiv.ub.uni-heidelberg.de/artdok/volltexte/2021/7478"
                            >accessible online</ref></bibl>
                      <bibl>C. Winterer, Fortsetzung der Katalogisierung der Handschriften der
-                        Wissenschaftlichen Stadtbibliothek Mainz. Vorläufige Beschreibungen Hs I 491
+                        wissenschaftlichen Stadtbibliothek Mainz. Vorläufige Beschreibungen Hs I 491
                         - Hs I 512 und ab Hs I 530. <ref
-                           target="https://handschriftenportal.de/search?hspobjectid=HSP-ebeb374c-b7fa-344f-80d6-d3ee2ee2f623&amp;q=mainz+Hs.+I+541&amp;hl=true#hsp-descriptions"
+                           target="https://resolver.staatsbibliothek-berlin.de/HSP0006532A00000000"
                            >accessible online</ref></bibl>
                   </listBibl>
                </additional>

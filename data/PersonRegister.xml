@@ -1024,13 +1024,12 @@
                <idno type="VIAF">8352155708726922580004</idno>
                <name xml:lang="lat">Marcellus Geist of Atzenheim</name>
                <affiliation type="religiousOrder" subtype="OCart">Carthusian</affiliation>
-               <note>
-                  <p>He matriculated at Heidelberg University in 1445, during the second rectorate
+               <note>He matriculated at Heidelberg University in 1445, during the second rectorate
                      of John Wenck. He earned a bachelor’s degree in 1447 and a master’s degree in
                      1448. In 1452, he taught at the Heidelberg Arts Faculty. In 1454, he entered
                      the Carthusian Order in Mainz. Between 1459 and 1469, he served as prior of the
                      Charterhouse in Bern. In 1470, he was appointed prior in Mainz and was later
-                     delegated for a visitation to Italy, where he died.</p>                 
+                     delegated for a visitation to Italy, where he died.                 
                </note>
                <occupation role="fmo" ref="#Mainz_WissenschaftlicheStadtbibliothekMainz_HsI541"/>
                <listBibl>
