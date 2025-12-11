@@ -661,6 +661,16 @@
                </listBibl>
             </person>
 
+
+            <person xml:id="HenricusStitzDeButzbach">
+               <name xml:lang="lat">Henricus Stitz de Butzbach</name>
+               <note>He matriculated at Heidelberg in 1474; in 1477, he received the bachelor degree; in 1479, he obtained the master degree.</note>
+               <occupation role="fmo" ref="#Gießen_UB_Hs52" />               
+               <listBibl>
+                  <bibl>Toepke, Matrikel I, 345; II, 411.</bibl>
+               </listBibl>
+            </person>
+            
             <!-- Hilarius Litomericensis (von Leitmeritz; de Litomericz; z Litoměřic; Litoměřický, 1412–1468, Pilsen) issue#35-->
 
             <person xml:id="HilariusLitomericensis">
@@ -881,6 +891,15 @@
                <occupation role="scr" ref="#Berlin_SBPK_latfol402"/>
                <listBibl>
                   <bibl>Auctarium V, col. 248, l. 13; col. 313, l. 27; col. 317, l. 11.</bibl>
+               </listBibl>
+            </person>
+            
+            <person xml:id="IohannesHechtFromMemmingen">
+               <name xml:lang="lat">Iohannes Hecht from Memmingen</name>
+               <note>He matriculated at Heidelberg in 1472.</note>
+               <occupation role="scr" ref="#Gießen_UB_Hs52" />               
+               <listBibl>
+                  <bibl>Toepke, Matrikel I, 338.</bibl>
                </listBibl>
             </person>
 
