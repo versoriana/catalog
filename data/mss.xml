@@ -2,7 +2,8 @@
 <!-- both are needed, because the RNG contains schematron instructions -->
 <?xml-model href="../schema/out/VersorisMss.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="../schema/out/VersorisMss.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">   
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -967,7 +968,61 @@
                </additional>
             </msDesc>
 
-
+            <msDesc xml:id="Gießen_UniversitätsbibliothekGießen_Hs52">
+               <msIdentifier>
+                  <settlement>Gießen</settlement>
+                  <repository>Universitätsbibliothek Gießen</repository>
+                  <idno>Hs 52</idno>
+                  <idno type="URI"
+                     >https://digisam.ub.uni-giessen.de/ubg-ihd-fb/content/pageview/3912755</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>The text is ascribed to John Versoris in the colophon of the second owner
+                     and corrector.</summary>
+                  <msItem xml:id="Gießen_UniversitätsbibliothekGießen_Hs52_QsP">
+                     <locus from="2ra" to="90ra"/>
+                     <title ref="workID">QsP</title>
+                     <colophon source="90ra">Finis feliciter octavi Phisicorum anno Domini M CCCC
+                        LXXIIII°, per me, Iohannem Hecht de Memingen, studentem alme universitatis
+                        Haydelbergensis</colophon>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate from="1474" to="1474">1474</origDate>
+                     <p>the text was copied in 1474 and corrected in 1478.</p>
+                     <origPlace>Heidelberg</origPlace>
+                     <p>Versoris’s text was copied by the student <persName ref="#IohannesHechtFromMemmingen">Iohannes
+                           Hecht</persName> from Memmingen and later corrected by the new owner of
+                        the manuscript, the master <persName ref="#HenricusStitzDeButzbach">Henricus Stitz</persName> from
+                        Butzbach, as is evident from the colophons: QsP, f. 90ra. A few lines by a
+                        different hand have been crossed out in the following column, but the text
+                        remains partly legible: <quote source="90rb">Per me, artium liberalium
+                           magistrum, magistrum Henricum Stitz ex Butzbach Heidelbergensem, empte
+                           sunt hec questiones, notanter per me, magistrum Henricum Stizt, emendate
+                           et correcte. Questiones Versoris super VIII libros Phisicorum
+                           Aristotelis, per florenis in auro sex, in studio meo … Heidelbergensi in
+                           anno Domini 1478</quote>. The same hand added two lines that were not
+                        erased: <quote source="90rb">Correcte sunt hee questiones Versoris super
+                           VIII libros Phisicorum Aristotelis, perfecte in anno 1478</quote>, f.
+                        90rb.</p>
+                  </origin>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source cert="high" resp="#">
+                           <p>Ms directly examined</p>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+                  <listBibl>
+                     <bibl>W. G. Bayerer, Die Handschriften des ehem. Fraterherrenstifts St. Markus
+                        zu Butzbach, Teil 1: Hss. aus der Nummernfolge Hs 42–Hs 760 (Hs.kat. UB
+                        Gießen 4,1), Wiesbaden 1980, p. 3-5.</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
             <msDesc xml:id="Heidelberg_UniversitätsbibliothekHeidelberg_CodSalVIII">
                <msIdentifier>
                   <settlement>Heidelberg</settlement>
@@ -2026,9 +2081,10 @@
                   <idno>Hs. I 530 b</idno>
                </msIdentifier>
                <msContents>
-                  <summary><p>Several notes and colophons by the hand of <persName ref="#IohannesJuffDeButzpach">Iohannes Juff</persName> ascribe the
-                        texts to Versoris: Note before the beginning of CsPH, f. 29r, marg. sup.:
-                           <quote source="29r, marg. sup.">Scriptum Versoris, magistri Parisiensis
+                  <summary><p>Several notes and colophons by the hand of <persName
+                           ref="#IohannesJuffDeButzpach">Iohannes Juff</persName> ascribe the texts
+                        to Versoris: Note before the beginning of CsPH, f. 29r, marg. sup.: <quote
+                           source="29r, marg. sup.">Scriptum Versoris, magistri Parisiensis
                            famosissimi, super tractatus Petri Hispani</quote>; Note at the beginning
                         of CsPH, f. 30r: <quote source="30r">Dicta Versoris, famosissimi
                            Parisiensis</quote>; Note at the beginning of CsPH, Book VII, f. 215r:
@@ -2040,9 +2096,9 @@
                            questionum librorum Priorum et Posteriorum Versoris, tunc temporis
                            magistri parisiensis famosissimi</quote>.</p>
                      <p>A question commentary ascribed to the Heidelberg master Iohannes Petri is
-                        transmitted at ff. 283v–298r. Its colophon reads: <quote source="283v–298r">finis questionum libri
-                        Posteriorum per magistrum Iohannem Petri compilatarum in universitate
-                        Heidelbergensi</quote>.</p>
+                        transmitted at ff. 283v–298r. Its colophon reads: <quote source="283v–298r"
+                           >finis questionum libri Posteriorum per magistrum Iohannem Petri
+                           compilatarum in universitate Heidelbergensi</quote>.</p>
                   </summary>
                   <msItem xml:id="Mainz_WissenschaftlicheStadtbibliothek_HsI530b_CsPH">
                      <locus from="30r" to="251v"/>
