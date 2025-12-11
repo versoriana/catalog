@@ -1241,9 +1241,9 @@
                            <locus from="13r" to="104v" scheme="#unbound"/>
                         </locusGrp>
                         <title ref="ID">Questions on Porphyry’s Isagoge</title>
-                        <incipit>Circa initium Porphyrii queritur primo utrum logica
-                           rationalis scientia specialiter ab aliis scientiis sit distincta. Pro
-                           cuius questionis determinatione tria sunt videnda</incipit>
+                        <incipit>Circa initium Porphyrii queritur primo utrum logica rationalis
+                           scientia specialiter ab aliis scientiis sit distincta. Pro cuius
+                           questionis determinatione tria sunt videnda</incipit>
                         <explicit>penes modum essendi et predicandi de multis
                            distinguuntur</explicit>
                      </msItem>
@@ -1255,12 +1255,12 @@
                            <locus from="104v" to="163r" scheme="#unbound"/>
                         </locusGrp>
                         <title ref="ID">Questions on Aristotle’s Predicamenta</title>
-                        <incipit>Circa initium libri Predicamentorum Aristotelis
-                           queritur primo utrum de predicamentis sit scientia. Pro quod sciendum
-                           primo quod, quia scientia est habitus intellectualis, videndum est quid
-                           sit habitus, quot sunt et quomodo distinguuntur</incipit>
-                        <explicit defective="true">supplet vicem speciei
-                           intelligibilis; est tamen sciendum…</explicit>
+                        <incipit>Circa initium libri Predicamentorum Aristotelis queritur primo
+                           utrum de predicamentis sit scientia. Pro quod sciendum primo quod, quia
+                           scientia est habitus intellectualis, videndum est quid sit habitus, quot
+                           sunt et quomodo distinguuntur</incipit>
+                        <explicit defective="true">supplet vicem speciei intelligibilis; est tamen
+                           sciendum…</explicit>
                      </msItem>
                   </msContents>
                </msPart>
@@ -2018,6 +2018,77 @@
                </additional>
             </msDesc>
 
+
+            <msDesc xml:id="Mainz_WissenschaftlicheStadtbibliothek_HsI530b">
+               <msIdentifier>
+                  <settlement>Mainz</settlement>
+                  <repository>Wissenschaftliche Stadtbibliothek</repository>
+                  <idno>Hs. I 530 b</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary><p>Several notes and colophons by the hand of <persName ref="#IohannesJuffDeButzpach">Iohannes Juff</persName> ascribe the
+                        texts to Versoris: Note before the beginning of CsPH, f. 29r, marg. sup.:
+                           <quote source="29r, marg. sup.">Scriptum Versoris, magistri Parisiensis
+                           famosissimi, super tractatus Petri Hispani</quote>; Note at the beginning
+                        of CsPH, f. 30r: <quote source="30r">Dicta Versoris, famosissimi
+                           Parisiensis</quote>; Note at the beginning of CsPH, Book VII, f. 215r:
+                           <quote source="215r">Dicta Versoris, famosissimi Parisiensis</quote>;
+                        QsPri, f. 283v: <quote source="283v">finis questionum librorum Priorum
+                           compilatarum per magistrum Iohannem Versorem</quote>; Note at the
+                        beginning of QsPos 299r, marg. sup.: <quote source="299r, marg. sup."
+                           >Rationes Versoris</quote>; QsPos, f. 329v: <quote source="329v">finis
+                           questionum librorum Priorum et Posteriorum Versoris, tunc temporis
+                           magistri parisiensis famosissimi</quote>.</p>
+                     <p>A question commentary ascribed to the Heidelberg master Iohannes Petri is
+                        transmitted at ff. 283v–298r. Its colophon reads: <quote source="283v–298r">finis questionum libri
+                        Posteriorum per magistrum Iohannem Petri compilatarum in universitate
+                        Heidelbergensi</quote>.</p>
+                  </summary>
+                  <msItem xml:id="Mainz_WissenschaftlicheStadtbibliothek_HsI530b_CsPH">
+                     <locus from="30r" to="251v"/>
+                     <title ref="workID">CsPH</title>
+                     <colophon source="137v">Per me, Iohannem Juff de Butzpach [ alia manu:
+                        scripta], in studio Heidelbergensi [alia manu: sed Parisius
+                        compilata]</colophon>
+                     <colophon source="251v">Per me, Iohannem Juff de Butzbach [alia manu:
+                        collecta], in studio Heidelbergensi, anno Domini LXII° [alia manu: sed
+                        Parisius compilata]</colophon>
+
+                  </msItem>
+                  <msItem xml:id="Mainz_WissenschaftlicheStadtbibliothek_HsI530b_QsPri">
+                     <locus from="253r" to="283v"/>
+                     <title ref="workID">QsPri</title>
+                  </msItem>
+                  <msItem xml:id="Mainz_WissenschaftlicheStadtbibliothek_HsI530b_QsPos">
+                     <locus from="299r" to="329v"/>
+                     <title ref="workID">QsPos</title>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate from="1462" to="1462">1462</origDate>
+                     <p>The manuscript was copied by Iohannes Juff de Butzbach, a student at
+                        Heildeberg University, as stated in the colophons: CsPH, f. 137v; CsPH, f.
+                        251v.</p>
+                  </origin>
+                  <provenance>Following its owner, who entered the Carthusian order, the manuscript
+                     came into the possession of the convent library.</provenance>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source cert="high" resp="#">
+                           <p>Ms directly examined</p>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+                  <listBibl>
+                     <bibl>Kristeller, Iter III, 605.</bibl>
+                     <bibl>Meirinhos, Bibliotheca manuscripta Petri Hispani, 229.</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+
             <!-- Mainz, Wissenschaftliche Stadtbibliothek Mainz, Hs. I 541* issue#5-->
 
             <msDesc xml:id="Mainz_WissenschaftlicheStadtbibliothekMainz_HsI541">
@@ -2033,14 +2104,14 @@
                   <msItem xml:id="Mainz_WissenschaftlicheStadtbibliothekMainz_HsI541_QdA">
                      <locus from="129r" to="178v"/>
                      <title ref="ID">QdA</title>
-                     <note type="attribution">It seems not to have been copied by <persName ref="#MarcellusGeistOfAtzenheim">Marcellus
-                        Geist</persName>.</note>
+                     <note type="attribution">It seems not to have been copied by <persName
+                           ref="#MarcellusGeistOfAtzenheim">Marcellus Geist</persName>.</note>
                   </msItem>
                   <msItem xml:id="Mainz_WissenschaftlicheStadtbibliothekMainz_HsI541_QdC">
                      <locus from="179r" to="231v"/>
                      <title ref="ID">QdC</title>
-                     <note type="attribution">It seems not to have been copied by <persName ref="#MarcellusGeistOfAtzenheim">Marcellus
-                        Geist</persName>.</note>
+                     <note type="attribution">It seems not to have been copied by <persName
+                           ref="#MarcellusGeistOfAtzenheim">Marcellus Geist</persName>.</note>
                   </msItem>
                </msContents>
                <history>
@@ -2078,7 +2149,7 @@
                         Handschriften der Wissenschaftlichen Stadtbibliothek Mainz, 2021, 3, n. 181.
                            <ref
                            target="http://archiv.ub.uni-heidelberg.de/artdok/volltexte/2021/7478"
-                              >https://resolver.staatsbibliothek-berlin.de/HSP0006532A00000000</ref></bibl>
+                           >https://resolver.staatsbibliothek-berlin.de/HSP0006532A00000000</ref></bibl>
                      <bibl>C. Winterer, Fortsetzung der Katalogisierung der Handschriften der
                         wissenschaftlichen Stadtbibliothek Mainz. Vorläufige Beschreibungen Hs I 491
                         - Hs I 512 und ab Hs I 530. <ref
