@@ -665,7 +665,7 @@
             <person xml:id="HenricusStitzDeButzbach">
                <name xml:lang="lat">Henricus Stitz de Butzbach</name>
                <note>He matriculated at Heidelberg in 1474; in 1477, he received the bachelor degree; in 1479, he obtained the master degree.</note>
-               <occupation role="fmo" ref="#Gießen_UB_Hs52" />               
+               <occupation role="fmo" ref="#Gießen_UniversitätsbibliothekGießen_Hs52" />               
                <listBibl>
                   <bibl>Toepke, Matrikel I, 345; II, 411.</bibl>
                </listBibl>
@@ -897,7 +897,7 @@
             <person xml:id="IohannesHechtFromMemmingen">
                <name xml:lang="lat">Iohannes Hecht from Memmingen</name>
                <note>He matriculated at Heidelberg in 1472.</note>
-               <occupation role="scr" ref="#Gießen_UB_Hs52" />               
+               <occupation role="scr" ref="#Gießen_UniversitätsbibliothekGießen_Hs52" />               
                <listBibl>
                   <bibl>Toepke, Matrikel I, 338.</bibl>
                </listBibl>
