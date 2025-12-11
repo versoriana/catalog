@@ -945,7 +945,28 @@
                </listBibl>
             </person>
 
-
+            <person xml:id="IohannesJuffDeButzpach">
+               <idno type="GND">102545758</idno>
+               <idno type="VIAF">64398697</idno>
+               <name xml:lang="lat">Iohannes Juff de Butzpach</name>
+               <death when="1495"/>
+               <affiliation type="religiousOrder" subtype="OCart">Carthusian</affiliation>
+               <note>He was from the diocese of Mainz; matriculated at Heidelberg in 1451 and
+                     obtained the degree of bachelor in 1454 and that of master of arts in 1457. He
+                     served as dean in 1466 and entered the Carthusian order in 1469. Between 1458
+                     and 1463 he copied several manuscripts in Heidelberg, most of them containing
+                     texts from the Faculty of Arts.                  
+               </note>
+               <occupation role="scr" ref="#Mainz_StB_HsI530b"/>
+               <occupation role="tch" ref="#Mainz_StB_HsI541">Master in the school of which the texts were copied.</occupation>               
+               <listBibl>
+                  <bibl>Toepke, Matrikel I, 270.</bibl>
+                  <bibl>II (1886), 396, 403.</bibl>
+                  <bibl>Schreiber, Die Bibliothek der ehemaligen Mainzer Kartause, 62.</bibl>
+                  <bibl>List/Powitz, Mainz, 255 (Hs. I 141a).</bibl>
+                  <bibl>Lohr, Commentaries I, 304.</bibl>
+               </listBibl>
+            </person>
 
             <person xml:id="IohannesQuarreti">
                <name xml:lang="lat">Iohannes Quarreti</name>
@@ -1025,18 +1046,17 @@
                <name xml:lang="lat">Marcellus Geist of Atzenheim</name>
                <affiliation type="religiousOrder" subtype="OCart">Carthusian</affiliation>
                <note>He matriculated at Heidelberg University in 1445, during the second rectorate
-                     of John Wenck. He earned a bachelor’s degree in 1447 and a master’s degree in
-                     1448. In 1452, he taught at the Heidelberg Arts Faculty. In 1454, he entered
-                     the Carthusian Order in Mainz. Between 1459 and 1469, he served as prior of the
-                     Charterhouse in Bern. In 1470, he was appointed prior in Mainz and was later
-                     delegated for a visitation to Italy, where he died.                 
-               </note>
+                  of John Wenck. He earned a bachelor’s degree in 1447 and a master’s degree in
+                  1448. In 1452, he taught at the Heidelberg Arts Faculty. In 1454, he entered the
+                  Carthusian Order in Mainz. Between 1459 and 1469, he served as prior of the
+                  Charterhouse in Bern. In 1470, he was appointed prior in Mainz and was later
+                  delegated for a visitation to Italy, where he died. </note>
                <occupation role="fmo" ref="#Mainz_WissenschaftlicheStadtbibliothekMainz_HsI541"/>
                <listBibl>
                   <bibl>Toepke, Matrikel I 245.</bibl>
                   <bibl>A. Fiamma, “O quam bona est solitaria vita! Marcellus Geist († 1469) as a
                      reader of Petrarch and Nicholas of Cusa“, Freiburger Zeitschrift für
-                     Philosophie und Theologie, 72/1 (2025), 63-88.</bibl>                  
+                     Philosophie und Theologie, 72/1 (2025), 63-88.</bibl>
                </listBibl>
             </person>
 

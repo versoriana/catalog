@@ -1241,10 +1241,10 @@
                            <locus from="13r" to="104v" scheme="#unbound"/>
                         </locusGrp>
                         <title ref="ID">Questions on Porphyry’s Isagoge</title>
-                        <incipit xml:lang="la">Circa initium Porphyrii queritur primo utrum logica
+                        <incipit>Circa initium Porphyrii queritur primo utrum logica
                            rationalis scientia specialiter ab aliis scientiis sit distincta. Pro
                            cuius questionis determinatione tria sunt videnda</incipit>
-                        <explicit xml:lang="la">penes modum essendi et predicandi de multis
+                        <explicit>penes modum essendi et predicandi de multis
                            distinguuntur</explicit>
                      </msItem>
 
@@ -1255,11 +1255,11 @@
                            <locus from="104v" to="163r" scheme="#unbound"/>
                         </locusGrp>
                         <title ref="ID">Questions on Aristotle’s Predicamenta</title>
-                        <incipit xml:lang="la">Circa initium libri Predicamentorum Aristotelis
+                        <incipit>Circa initium libri Predicamentorum Aristotelis
                            queritur primo utrum de predicamentis sit scientia. Pro quod sciendum
                            primo quod, quia scientia est habitus intellectualis, videndum est quid
                            sit habitus, quot sunt et quomodo distinguuntur</incipit>
-                        <explicit xml:lang="la" defective="true">supplet vicem speciei
+                        <explicit defective="true">supplet vicem speciei
                            intelligibilis; est tamen sciendum…</explicit>
                      </msItem>
                   </msContents>
@@ -2078,12 +2078,12 @@
                         Handschriften der Wissenschaftlichen Stadtbibliothek Mainz, 2021, 3, n. 181.
                            <ref
                            target="http://archiv.ub.uni-heidelberg.de/artdok/volltexte/2021/7478"
-                           >accessible online</ref></bibl>
+                              >https://resolver.staatsbibliothek-berlin.de/HSP0006532A00000000</ref></bibl>
                      <bibl>C. Winterer, Fortsetzung der Katalogisierung der Handschriften der
                         wissenschaftlichen Stadtbibliothek Mainz. Vorläufige Beschreibungen Hs I 491
                         - Hs I 512 und ab Hs I 530. <ref
                            target="https://resolver.staatsbibliothek-berlin.de/HSP0006532A00000000"
-                           >accessible online</ref></bibl>
+                           >https://resolver.staatsbibliothek-berlin.de/HSP0006532A00000000</ref></bibl>
                   </listBibl>
                </additional>
             </msDesc>
