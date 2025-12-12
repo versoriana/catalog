@@ -4000,7 +4000,6 @@
                         always) contain, beside the arguments and their solutions, the answer to the
                         question, including some notabilia and conclusions (but not dubitationes).
                         The text is different from the questions ascribed to Versoris. </note>
-
                   </msItem>
                   <msItem
                      xml:id="SaintOmer_BibliothèquedAgglomérationduPaysdeSaintOmerBibliothèquemunicipale_597_QsSen">
@@ -4212,7 +4211,7 @@
                <history>
                   <origin>
                      <origDate from="1450" to="1454">1450-1454</origDate>
-                     <origPlace ref="ID">Prague, as evident from the colophona.</origPlace>
+                     <origPlace>Prague, as evident from the colophona.</origPlace>
                   </origin>
                </history>
                <additional>
@@ -4221,8 +4220,6 @@
                   </listBibl>
                </additional>
             </msDesc>
-
-
          </listBibl>
       </body>
    </text>
