@@ -1377,6 +1377,17 @@
                   </listBibl>
                </note>
             </person>
+            
+            <person xml:id="StanislausDeGnezna">
+               <name xml:lang="lat">Stanislaus de Gnezna</name>
+               <note>He obtained the degree of Bachelor in 1442 and the degree of Master of Arts in 1446 at Prague University. Between 1448 and 1449, he served as dean of the Faculty of Arts in Prague.</note>
+               <occupation role="scr" ref="#Praha_NK_VE12" />               
+               <listBibl>
+                  <bibl>Monumenta I, Liber decanorum I, 21; II, 16. 25, 29, 37, 60.</bibl>
+                  <bibl>J. B. Korolec, “Stanisław z Gniezna. Stan badań [Stanislaus von Gniezna. State of the art]”, Materiały i studia Zakładu Historii Filozofii Starożytnej i Średniowiecznej 7 (1967), 14–34.</bibl>
+                  <bibl>Lohr, Medieval Authors I, 164–165.</bibl>
+               </listBibl>
+            </person>
 
             <!-- Stanislaus de Velvary (Stanislaus de Welwara; Stanislav von Velvary) issue#41 -->
 
