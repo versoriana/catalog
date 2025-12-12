@@ -746,22 +746,19 @@
                            part)</watermark> to <ref target="id" type="bibl">Piccard, Lilie, III
                            1453 (Metz, 1477)</ref></p>
                      <note type="msRelationship">
-                        <list>
-                           <item><ref target="#Basel_UB_FII14" type="ms">Basel, UB, F II 14</ref>;
-                                 <ref target="#Basel_UB_FIII10" type="ms">F III 10</ref>; <ref
-                                    target="Basel_UB_FIII12">F III 12</ref>; <ref
-                                       target="Basel_UB_FVI16">F VI 16</ref>; <ref
-                                          target="Basel_UB_FVI67">F VI 67</ref>; <ref
-                                             target="Basel_UB_FVII11">F VII
-                              11</ref>, which were also owned by <persName ref="#IohannesHeynlinDeLapide"
-                                 >Iohannes de Lapide</persName>.</item>
-                           <item><ref target="#Basel_UB_FIII10" type="ms">Basel, UB, F III
-                              10</ref>; <ref target="#Basel_UB_FVI67" type="ms">F VI 67</ref>;<ref
-                                 target="Basel_UB_FVII11">F VII
-                                 11</ref>, which were also copied by <persName
-                                 ref="#IohannesHeynlinDeLapide">Iohannes de Lapide</persName>.
-                           </item>
-                        </list>
+                        <p><ref target="#Basel_UB_FII14" type="ms">Basel, UB, F II 14</ref>; <ref
+                              target="#Basel_UB_FIII10" type="ms">F III 10</ref>; <ref
+                              target="Basel_UB_FIII12">F III 12</ref>; <ref target="Basel_UB_FVI16"
+                              >F VI 16</ref>; <ref target="Basel_UB_FVI67">F VI 67</ref>; <ref
+                              target="Basel_UB_FVII11">F VII 11</ref>, which were also owned by
+                              <persName ref="#IohannesHeynlinDeLapide">Iohannes de
+                           Lapide</persName>.</p>
+                        <p>
+                           <ref target="#Basel_UB_FIII10" type="ms">Basel, UB, F III 10</ref>; <ref
+                              target="#Basel_UB_FVI67" type="ms">F VI 67</ref>;<ref
+                              target="Basel_UB_FVII11">F VII 11</ref>, which were also copied by
+                              <persName ref="#IohannesHeynlinDeLapide">Iohannes de
+                           Lapide</persName>.</p>
                      </note>
                   </origin>
                   <provenance>Belonged to the <orgName ref="#BaselDominicanConvent">Basel Dominican
