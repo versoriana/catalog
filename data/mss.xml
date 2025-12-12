@@ -2648,20 +2648,25 @@
                <history>
                   <origin>
                      <origDate from="1443" to="1446"/>
-                     <p>Folios 1–163 were written mostly by Galcerandus Benedicti in 1446–1447;
-                        folios 164–193, written by Gilbertus Amignacensis, are undated; folios
-                        194–266 were written mostly by Johannes Run in 1443. The extensive colophons
-                        provide information about the date and place of the copy, as well as the
-                        identity of the scribes and the master supervising them: QsP, book I, f.
-                        14ra; QsP, book III, f. 36ra; QsP, book IV, f. 51rb; QsP, book V, f. 59rb;
-                        QdA, book III, f. 232rb; Final colophon, f. 255rb </p>
+                     <p>Folios 1–163 were written mostly by <persName ref="#GalcerandusBenedicti"
+                           >Galcerandus Benedicti</persName> in 1446–1447; folios 164–193, written
+                        by <persName ref="#GilbertusdAuvergnat">Gilbertus Amignacensis</persName>,
+                        are undated; folios 194–266 were written mostly by <persName
+                           ref="#IohannesRun">Johannes Run</persName> in 1443. The extensive
+                        colophons provide information about the date and place of the copy, as well
+                        as the identity of the scribes and the master supervising them: QsP, book I,
+                        f. 14ra; QsP, book III, f. 36ra; QsP, book IV, f. 51rb; QsP, book V, f.
+                        59rb; QdA, book III, f. 232rb; Final colophon, f. 255rb </p>
                      <p>The texts contained in this codex were copied by several students at the
-                        Paris Arts Faculty: <persName ref="#GalcerandusBenedicti">Galcerandus Benedicti</persName> (see below); <persName ref="#GilbertusdAuvergnat">Gilbertus Armignac</persName>
-                        (f. 184rb: <quote source="184rb">sequitur figura ventorum in sequenti folio, Deo Gilbertus
-                        Armignac</quote>); Reginaldus Eude (f. 196ra: <quote source="196ra">Et hoc de questione et per
-                        consequens de toto primo libro De anima, finito in vico Straminis.
-                        Reginaldus Eude</quote>); and <persName ref="#IohannesRun">Johannes Run</persName>, writing for <persName ref="#IohannesCoromines">Iohannes Colomines</persName> (see
-                        below).</p>
+                        Paris Arts Faculty: <persName ref="#GalcerandusBenedicti">Galcerandus
+                           Benedicti</persName> (see below); <persName ref="#GilbertusdAuvergnat"
+                           >Gilbertus Armignac</persName> (f. 184rb: <quote source="184rb">sequitur
+                           figura ventorum in sequenti folio, Deo Gilbertus Armignac</quote>);
+                        Reginaldus Eude (f. 196ra: <quote source="196ra">Et hoc de questione et per
+                           consequens de toto primo libro De anima, finito in vico Straminis.
+                           Reginaldus Eude</quote>); and <persName ref="#IohannesRun">Johannes
+                           Run</persName>, writing for <persName ref="#IohannesCoromines">Iohannes
+                           Colomines</persName> (see below).</p>
                      <note type="msRelationship"><ref target="#Oxford_BodleianLibrary_CanonMisc486"
                            >Oxford, Bodleian Library, Canon. Misc. 486</ref>, also copied by
                            <persName ref="#IohannesRun">Iohannes Run</persName>, and <ref
@@ -2671,7 +2676,7 @@
                            ref="#ClemensParmentarii">Clémens Parmentier.</persName></note>
                   </origin>
                   <acquisition when="1817">
-                     <p>The codex was purchased by the Bodleian in 1817.</p>
+                     The codex was purchased by the Bodleian in 1817.
                   </acquisition>
                </history>
                <additional>
