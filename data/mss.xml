@@ -160,7 +160,7 @@
                   </msItem>
 
 
-                  <msItem xml:id="Aarau_AKB_MsWettF42_LdM-Cop" class="#Aarau_AKB_MsWettF42">
+                  <msItem xml:id="Aarau_AKB_MsWettF42_LdMCop" class="#Aarau_AKB_MsWettF42">
                      <locus>After QdA</locus>
                      <author>Lambertus de Monte</author>
                      <title ref="ID">Copulata super tres libros De anima Aristotelis iuxta doctrinam
@@ -501,7 +501,7 @@
             <!-- Basel UB F II 14 - Ba3 -->
             <!-- BASATO SU? ORA NON C'È, MA CI SARÀ DICE AURORA, TUTTO OK
             <note type="msRelationship">Relations to other manuscripts: <ref target="#Basel_UB_F-III-10">Basel UB, F III 10</ref>, <ref target="#Basel_UB_F-III-11">F III 11</ref>.</note> -->
-            <msDesc xml:id="Basel_UB_F-II-14">
+            <msDesc xml:id="Basel_UB_FII14">
                <msIdentifier>
                   <settlement>Basel</settlement>
                   <repository>Universitätsbibliothek</repository>
@@ -509,7 +509,7 @@
                </msIdentifier>
                <msContents>
                   <summary>None</summary>
-                  <msItem xml:id="Basel_UB_F-II-14_guardLeaf">
+                  <msItem xml:id="Basel_UB_FII14_guardLeaf">
                      <locus>Paper guard-leaf at the beginning of the codex</locus>
                      <quote source="guard-leaf">Liber Cartusiensis in Basilea minori preveniens a
                         domine Iohanne de Lapide confratre nostro, et continentur in eo: <ref
@@ -521,7 +521,7 @@
                            doctrina tradendi et loquendi Albertani</ref>
                         <add resp="editor">[not transmitted]</add></quote>
                   </msItem>
-                  <msItem xml:id="Basel_UB_F-II-14_QsM">
+                  <msItem xml:id="Basel_UB_FII14_QsM">
                      <locus from="2ra" to="36vb"/>
                      <title ref="workID">QsMetaph</title>
                      <note type="content">I-VI: <quote source="7ra">Et hec de questione, et per
@@ -535,7 +535,7 @@
                         in collegio Tornacensi per me Iacobum Ungelink de Stendal, clericum dyocesis
                         Halbertstadensis”, anno Domini M° CCCC° LXVJ°</explicit>
                   </msItem>
-                  <msItem xml:id="Basel_UB_F-II-14_QsE">
+                  <msItem xml:id="Basel_UB_FII14_QsE">
                      <locus from="37ra" to="75rb"/>
                      <title ref="workID">QsE</title>
                      <note type="content">I-VI</note>
@@ -594,14 +594,14 @@
             </msDesc>
 
             <!-- Basel UB F VI 4 -->
-            <msDesc xml:id="Basel_UB_F-IV-4">
+            <msDesc xml:id="Basel_UB_FIV4">
                <msIdentifier>
                   <settlement>Basel</settlement>
                   <repository>UB</repository>
                   <idno>F VI 4</idno>
                </msIdentifier>
                <msContents>
-                  <msItem xml:id="Basel_UB_F-IV-4_QsP">
+                  <msItem xml:id="Basel_UB_FIV4_QsP">
                      <locus from="1ra" to="27va"/>
                      <title ref="ID">QsP</title>
                   </msItem>
@@ -626,7 +626,7 @@
 
 
             <!-- Basel UB F III 10 -->
-            <msDesc xml:id="Basel_UB_F-III-10">
+            <msDesc xml:id="Basel_UB_FIII10">
                <msIdentifier>
                   <settlement>Basel</settlement>
                   <repository>UB</repository>
@@ -636,7 +636,7 @@
                   <summary>The commentaries are ascribed to <persName role="attribution"
                         ref="persID">Versoris</persName> in the <ref type="msItem"
                         target="#msBa4_ToC">table of contents</ref>.</summary>
-                  <msItem xml:id="Basel_UB_F-III-10_ToC">
+                  <msItem xml:id="Basel_UB_FIII10_ToC">
                      <locus from="1r"/>
                      <quote source="1r">Contenta in hoc libro: Questiones magistri Versoris super
                         octo libros Phisicorum; Idem super duos De celo et mundo primos et super
@@ -647,7 +647,7 @@
                         longitudine et brevitate vite; idem super omnes libros Methaphysice.</quote>
                      <!-- add refs to workIDs -->
                   </msItem>
-                  <msItem xml:id="Basel_UB_F-III-10_QsP">
+                  <msItem xml:id="Basel_UB_FIII10_QsP">
                      <locus from="3ra" to="114ra"/>
                      <title ref="workID">QsP</title>
                      <colophon source="78vb">Et sic est finis huius quinti Phisicorum in VIa
@@ -656,7 +656,7 @@
                            when="1459">anno etc. LVIIII</date></colophon>
                   </msItem>
 
-                  <msItem xml:id="Basel_UB_F-III-10_QdC">
+                  <msItem xml:id="Basel_UB_FIII10_QdC">
                      <locus from="115r" to="152v"/>
                      <title ref="workID">QdC</title>
                      <note type="attribution">Ascription to <persName role="attribution"
@@ -670,7 +670,7 @@
                         LXVIII°</date></colophon>
                   </msItem>
 
-                  <msItem xml:id="Basel_UB_F-III-10_QdG">
+                  <msItem xml:id="Basel_UB_FIII10_QdG">
                      <locus from="153r" to="164r"/>
                      <title ref="workID">QdG</title>
                   </msItem>
@@ -725,7 +725,7 @@
 
 
             <!-- Basel UB F III 11 -->
-            <msDesc xml:id="Basel_UB_F-III-11">
+            <msDesc xml:id="Basel_UB_FIII11">
                <msIdentifier>
                   <settlement>Basel</settlement>
                   <repository>UB</repository>
@@ -736,7 +736,7 @@
                         >Versoris</persName> in the <ref target="#Basel_UB_F-III-11_ToC">table of
                         contents</ref> written by a medieval hand at the beginning of the
                      volume</summary>
-                  <msItem xml:id="Basel_UB_F-III-11_ToC">
+                  <msItem xml:id="Basel_UB_FIII11_ToC">
                      <locus>Beginning of the volume</locus>
                      <incipit>Questiones magistri Versoris super Veterem Artem; Idem, super librum
                         Sex principiorum Gilberti Porretani; Idem super libros Prioru et
@@ -746,23 +746,23 @@
                      <!-- add link to workIDs -->
                   </msItem>
 
-                  <msItem xml:id="Basel_UB_F-III-11_Predicab">
+                  <msItem xml:id="Basel_UB_FIII11_Predicab">
                      <locus from="2r" to="32r"/>
                      <title ref="workID">Predicabilium</title>
                   </msItem>
-                  <msItem xml:id="Basel_UB_F-III-11_Pred">
+                  <msItem xml:id="Basel_UB_FIII11_Pred">
                      <locus from="32v" to="62v"/>
                      <title ref="workID">Pred.</title>
                   </msItem>
-                  <msItem xml:id="Basel_UB_F-III-11_VI-Prin">
+                  <msItem xml:id="Basel_UB_FIII11_VIPrin">
                      <locus from="63r" to="73v"/>
                      <title ref="workID">VI Prin.</title>
                   </msItem>
-                  <msItem xml:id="Basel_UB_F-III-11_Perih">
+                  <msItem xml:id="Basel_UB_FIII11_Perih">
                      <locus from="74r" to="98v"/>
                      <title ref="workID">Perih.</title>
                   </msItem>
-                  <msItem xml:id="Basel_UB_F-III-11_Priorum">
+                  <msItem xml:id="Basel_UB_FIII11_Priorum">
                      <locus from="99r" to="132v"/>
                      <title ref="workID">Priorum</title>
                   </msItem>
@@ -870,7 +870,7 @@
 
 
             <!-- Bonn, Universitäts- und Landesbibliothek, S 67 IV -->
-            <msDesc xml:id="Bonn_ULB_S-67-IV">
+            <msDesc xml:id="Bonn_ULB_S67IV">
                <msIdentifier>
                   <settlement>Bonn</settlement>
                   <repository>Universitäts- und Landesbibliothek</repository>
@@ -878,7 +878,7 @@
                </msIdentifier>
                <msContents>
                   <summary>See f. 73ra, 281va.</summary>
-                  <msItem xml:id="Bonn_ULB_S-67-IV_QsP">
+                  <msItem xml:id="Bonn_ULB_S67IV_QsP">
                      <locus from="2ra" to="73vb"/>
                      <title ref="ID">QsP</title>
                      <quote source="34ra">secundo nonas febriarii. Da waß Dietherus aller morchin
@@ -896,37 +896,37 @@
                         convent subditusque studii … anno domini MCCCC sexagesimo, finis octavo
                         datur Apprilis secundo:</colophon>
                   </msItem>
-                  <msItem xml:id="Bonn_ULB_S-67-IV_QdC">
+                  <msItem xml:id="Bonn_ULB_S67IV_QdC">
                      <locus from="77ra" to="89rb"/>
                      <title ref="ID">QdC</title>
                   </msItem>
-                  <msItem xml:id="Bonn_ULB_S-67-IV_QdG">
+                  <msItem xml:id="Bonn_ULB_S67IV_QdG">
                      <locus from="91ra" to="115ra"/>
                      <title ref="ID">QdG</title>
                   </msItem>
-                  <msItem xml:id="Bonn_ULB_S-67-IV_QsM">
+                  <msItem xml:id="Bonn_ULB_S67IV_QsM">
                      <locus from="116ra" to="139vb"/>
                      <title ref="ID">QsM</title>
                   </msItem>
-                  <msItem xml:id="Bonn_ULB_S-67-IV_QdA">
+                  <msItem xml:id="Bonn_ULB_S67IV_QdA">
                      <locus from="141ra" to="171ra"/>
                      <title ref="ID">QdA</title>
                   </msItem>
-                  <msItem xml:id="Bonn_ULB_S-67-IV_QsSens">
+                  <msItem xml:id="Bonn_ULB_S67IV_QsSens">
                      <locus from="171va" to="178vb"/>
                      <title ref="ID">QdSens</title>
                   </msItem>
-                  <msItem xml:id="Bonn_ULB_S-67-IV_QdSom">
+                  <msItem xml:id="Bonn_ULB_S67IV_QdSom">
                      <locus from="182ra" to="185rb"/>
                      <title ref="ID">QdSom</title>
                   </msItem>
-                  <msItem xml:id="Bonn_ULB_S-67-IV_QdLong">
+                  <msItem xml:id="Bonn_ULB_S67IV_QdLong">
                      <locus from="185vb" to="186vb"/>
                      <title ref="ID">QdLong</title>
                      <colophon source="186vb">per manus fratris Werhneri de Hirczhorn anno domini
                         1472 in die cene infra vesperas</colophon>
                   </msItem>
-                  <msItem xml:id="Bonn_ULB_S-67-IV_QsMetaph">
+                  <msItem xml:id="Bonn_ULB_S67IV_QsMetaph">
                      <locus from="187ra" to="281va"/>
                      <title ref="ID">QsMetaph</title>
                      <colophon source="281vb">Et in hoc finitur tabula super XII libros Metaphysice
@@ -3402,7 +3402,7 @@
             </msDesc>
 
 
-            <msDesc xml:id="Praha_NK_IV-F-8">
+            <msDesc xml:id="Praha_NK_IVF8">
                <msIdentifier>
                   <settlement>Praha</settlement>
                   <repository>NK</repository>
@@ -3410,7 +3410,7 @@
                </msIdentifier>
                <msContents>
                   <summary>None</summary>
-                  <msItem xml:id="Praha_NK_IV-F-8_QsPor">
+                  <msItem xml:id="Praha_NK_IVF8_QsPor">
                      <locus from="1r" to="38v"/>
                      <title ref="ID">QsPor</title>
                      <quote source="1r (marg.sup.)"><persName ref="ID">Magister Paulus</persName>
@@ -3422,13 +3422,13 @@
                         artis feria secunda post Dorothee, hora quartadecima, anno 1496 [8 II
                         1496]</quote>
                   </msItem>
-                  <msItem xml:id="Praha_NK_IV-F-8_QsPre">
+                  <msItem xml:id="Praha_NK_IVF8_QsPre">
                      <locus from="39r" to="70v"/>
                      <title ref="ID">QsPre</title>
                      <colophon source="70v">Finitus in octava sancti Gregorii per me, M. de G.
                         Martinum de Glatovia sabbato <supplied>[20 III 1456]</supplied></colophon>
                   </msItem>
-                  <msItem xml:id="Praha_NK_IV-F-8_QsSex">
+                  <msItem xml:id="Praha_NK_IVF8_QsSex">
                      <locus from="71r" to="80r"/>
                      <title ref="ID">QsSex</title>
                      <colophon source="80r">ui finis impositus est in vigillia annunciationis
@@ -3436,17 +3436,17 @@
                            >Martinum de Glatovia</persName> protunc in <orgName>collegio
                            Carolli</orgName> [24 III 1456]</colophon>
                   </msItem>
-                  <msItem xml:id="Praha_NK_IV-F-8_QsDiv">
+                  <msItem xml:id="Praha_NK_IVF8_QsDiv">
                      <locus from="80v" to="85v"/>
                      <title ref="ID">QsDiv</title>
                   </msItem>
-                  <msItem xml:id="Praha_NK_IV-F-8_MISSING">
+                  <msItem xml:id="Praha_NK_IVF8_MISSING">
                      <locus/>
                      <note type="desc">[ELE: IS THERE A MISSING ITEM HERE? SUPPLIED OK?]</note>
                      <colophon source="108v">finitus primus liber sexta feria ante Palmarum 1456
                            <supplied>[19 III 1456]</supplied></colophon>
                   </msItem>
-                  <msItem xml:id="Praha_NK_IV-F-8_QsApri">
+                  <msItem xml:id="Praha_NK_IVF8_QsApri">
                      <locus from="109v" to="143v"/>
                      <title ref="ID">QsApri</title>
                      <colophon source="143v">anno Domini MCCCCLVIII, sabbato in die beate Marie
@@ -3455,13 +3455,13 @@
                            <persName ref="ID">magister Mathias de Pielgrzymow</persName> incepit
                         legere librum Posteriorum</quote>
                   </msItem>
-                  <msItem xml:id="Praha_NK_IV-F-8_QsApos">
+                  <msItem xml:id="Praha_NK_IVF8_QsApos">
                      <locus from="144r" to="184v"/>
                      <title ref="ID">QsApos</title>
                      <quote source="144r marg.sup.">Magister de Vi<unclear/> incepit in lectorio,
                         feria <unclear/>, hora 13, 1479</quote>
                   </msItem>
-                  <msItem xml:id="Praha_NK_IV-F-8_QsTop">
+                  <msItem xml:id="Praha_NK_IVF8_QsTop">
                      <locus from="185r" to="212r"/>
                      <title ref="ID">QsTop</title>
                      <colophon source="212r">cui finis impositus est feria quarta post Dionisii hora
@@ -3470,7 +3470,7 @@
                            Iohannes de Praga</persName> incepit legere puncta cum textu Priorum,
                         feria secunda post Matheus apostoli [24 IX 1459]</quote>
                   </msItem>
-                  <msItem xml:id="Praha_NK_IV-F-8_backGuardLeaf">
+                  <msItem xml:id="Praha_NK_IVF8_backGuardLeaf">
                      <locus>I back guard-leaf</locus>
                      <quote source="back guard-leaf">anno 1466 <persName ref="ID">magister
                            Wenczeslaus de Paczow</persName> incepit primum librum Posteriorum, feria
@@ -3601,7 +3601,7 @@
                </additional>
             </msDesc>
 
-            <msDesc xml:id="Siena_Intronati_H-VI-7" resp="AP">
+            <msDesc xml:id="Siena_Intronati_HVI7" resp="AP">
                <msIdentifier>
                   <settlement>Siena</settlement>
                   <repository>Biblioteca Comunale degli Intronati</repository>
@@ -3609,7 +3609,7 @@
                </msIdentifier>
                <msContents>
 
-                  <msItem xml:id="Siena_Intronati_H-VI-7_CsPH">
+                  <msItem xml:id="Siena_Intronati_HVI7_CsPH">
                      <locus from="1r" to="56r"/>
                      <title ref="ID">CsPH, II-III</title>
                      <note type="content"> On f. 1v, we find a list of Italian mottos, beginning
@@ -3643,7 +3643,7 @@
                         QsPH<!-- is this correct or a typo for CsPH? --> are not identified in <bibl
                            corresp="ID">Meirinhos, Bibliotheca, 399-400</bibl>.</note>
                   </msItem>
-                  <msItem xml:id="Siena_Intronati_H-VI-7_FranciscusPratoLiberIntentionibus">
+                  <msItem xml:id="Siena_Intronati_HVI7_FranciscusPratoLiberIntentionibus">
                      <locus from="59ra" to="65vb"/>
                      <author ref="persID">Franciscus de Prato</author>
                      <title ref="ID">Incipit liber de intentionibus, <persName ref="ID"
@@ -3655,7 +3655,7 @@
                         et mundi</incipit>
                      <explicit>secundum predictam deffendi possunt</explicit>
                   </msItem>
-                  <msItem xml:id="Siena_Intronati_H-VI-7_QsApos">
+                  <msItem xml:id="Siena_Intronati_HVI7_QsApos">
                      <locus from="65v" to="93r"/>
                      <title ref="ID">QsApos</title>
                      <incipit>Circa primum librum Posteriorum Aristotilis movetur question talis,
@@ -3688,20 +3688,20 @@
                         information is confirmed by the collation. In fact, neither the incipit nor
                         the list of question corresponds to Versoris’s text.</note>
                   </msItem>
-                  <msItem xml:id="Siena_Intronati_H-VI-7_demonstrationeStThomam">
+                  <msItem xml:id="Siena_Intronati_HVI7_demonstrationeStThomam">
                      <locus from="93rb" to="98vb"/>
                      <title ref="ID">de demonstratione secundum sanctum Thomam</title>
                      <note type="desc">Treatise on demonstration</note>
                      <incipit>restat nunc dicere de demonstratione, cum enim scientia sit habitus
                         conclusionis demonstate acquisitus ex ipsius speculatione</incipit>
                   </msItem>
-                  <msItem xml:id="Siena_Intronati_H-VI-7_tractatusReali">
+                  <msItem xml:id="Siena_Intronati_HVI7_tractatusReali">
                      <locus from="99ra" to="100rb"/>
                      <title ref="ID">Incipit tractatus de reali et ente rationis secundum sacntum
                         Thomam de Aquino ordinis predicatorum</title>
                      <incipit>Ut scias quid sit ens rationis et quid ens reale</incipit>
                   </msItem>
-                  <msItem xml:id="Siena_Intronati_H-VI-7_Qdente">
+                  <msItem xml:id="Siena_Intronati_HVI7_Qdente">
                      <locus from="102r" to="115v"/>
                      <title ref="ID">Qdente</title>
                      <note type="attribution"> The Qdente are presented as “composed” (composite) by
@@ -3710,7 +3710,7 @@
                               <persName ref="ID">sancti Thome de Aquino</persName> ordinis
                            predicatorum</q>, f. 115v. </note>
                   </msItem>
-                  <msItem xml:id="Siena_Intronati_H-VI-7_QsP">
+                  <msItem xml:id="Siena_Intronati_HVI7_QsP">
                      <locus from="116r" to="193r"/>
                      <title ref="ID">QsP I-VI</title>
                      <note type="content">At the end of book VII of the QsP, the scribe wrote that
@@ -3721,7 +3721,7 @@
                         important propositions of the commentary (f. 193va: <q>Iste sunt
                            propositiones primi libri Phisicorum</q>). </note>
                   </msItem>
-                  <msItem xml:id="Siena_Intronati_H-VI-7_QdA">
+                  <msItem xml:id="Siena_Intronati_HVI7_QdA">
                      <locus from="209r" to="251r"/>
                      <title ref="ID">QdA</title>
                      <colophon source="238va">Et sic est finis secundi libri De anima [erasit: per
@@ -4198,26 +4198,26 @@
             </msDesc>
 
 
-            <msDesc xml:id="Wien_DK_149-119">
+            <msDesc xml:id="Wien_DK_149119">
                <msIdentifier>
                   <settlement>Wien</settlement>
                   <repository>Dominikanerkloster</repository>
                   <idno>149/119</idno>
                </msIdentifier>
                <msContents>
-                  <msItem xml:id="Wien_DK_149-119_Predicamenta">
+                  <msItem xml:id="Wien_DK_149119_Predicamenta">
                      <locus from="35ra" to="65vb"/>
                      <title ref="ID">Predicamenta</title>
                   </msItem>
-                  <msItem xml:id="Wien_DK_149-119_SP">
+                  <msItem xml:id="Wien_DK_149119_SP">
                      <locus from="66ra" to="75va"/>
                      <title ref="ID">Sex principiorum</title>
                   </msItem>
-                  <msItem xml:id="Wien_DK_149-119_DD">
+                  <msItem xml:id="Wien_DK_149119_DD">
                      <locus from="75vb" to="80vb"/>
                      <title ref="ID">De divisione</title>
                   </msItem>
-                  <msItem xml:id="Wien_DK_149-119_Periermeneias">
+                  <msItem xml:id="Wien_DK_149119_Periermeneias">
                      <locus from="81ra" to="101va"/>
                      <title ref="ID">Periermeneias</title>
                      <colophon source="101va">Terminantur Sentencie totius veteris artis in alma
@@ -4227,7 +4227,7 @@
                         Prahae in collegio Sanctissime Marie Virginis anno Domini 1450 quarto ydus
                         Octobris</colophon>
                   </msItem>
-                  <msItem xml:id="Wien_DK_149-119_AP">
+                  <msItem xml:id="Wien_DK_149119_AP">
                      <locus from="101vb" to="125vb"/>
                      <title ref="ID">Analytica priora</title>
                      <colophon source="125vb">in collegio sanctissime Marie virginis Nacionis
@@ -4237,17 +4237,17 @@
                         pauci temporis rex Ladislaus Pragam ingrediens in festo sanctorum Symonis et
                         Iude in Castro Pragensi laudabiliter est coronatus.</colophon>
                   </msItem>
-                  <msItem xml:id="Wien_DK_149-119_Posteriora">
+                  <msItem xml:id="Wien_DK_149119_Posteriora">
                      <locus from="130ra" to="165rb"/>
                      <title ref="ID">Posteriora</title>
                      <colophon source="164rb">Et sic est finis glose Parisiensis super utroque libro
                         Posteriorum feria quinta ante Purificationem anno Domini 1454.</colophon>
                   </msItem>
-                  <msItem xml:id="Wien_DK_149-119_Topica">
+                  <msItem xml:id="Wien_DK_149119_Topica">
                      <locus from="166ra" to="182vb"/>
                      <title ref="ID">Topica I-IV</title>
                   </msItem>
-                  <msItem xml:id="Wien_DK_149-119_Elenchi">
+                  <msItem xml:id="Wien_DK_149119_Elenchi">
                      <locus from="194ra" to="210vb"/>
                      <title ref="ID">Elenchi</title>
                      <colophon source="210vb">Et in hoc terminantur Parisiensia puncta in se
