@@ -292,9 +292,10 @@
                   <msItem xml:id="Angers_MédiathèqueToussaintBibliothèquemunicipale_437_QsPol">
                      <locus from="1r" to="164r"/>
                      <title ref="workID">QsPol</title>
-                     <note type="content">The text is preceded by a prologue, inc.: <quote source="">Cum omnium
-                        artium que ad rectam vivendi viam perducunt ratio et discipline sapientie
-                        studio quam philosophiam appellant contineatur</quote>.</note>
+                     <note type="content">The text is preceded by a prologue, inc.: <quote source=""
+                           >Cum omnium artium que ad rectam vivendi viam perducunt ratio et
+                           discipline sapientie studio quam philosophiam appellant
+                           contineatur</quote>.</note>
                   </msItem>
                </msContents>
                <history>
@@ -2564,6 +2565,135 @@
                   </listBibl>
                </additional>
             </msDesc>
+
+            <msDesc xml:id="Oxford_BodleianLibrary_CanonMisc211">
+               <msIdentifier>
+                  <settlement>Oxford</settlement>
+                  <repository>Bodleian Library</repository>
+                  <idno>Canon. Misc. 211</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>The QsP are presented as having been written under the direction of
+                     Master <persName ref="#ClemensParmentarii">Clémens
+                     Parmentier</persName>.</summary>
+                  <msItem xml:id="Oxford_BodleianLibrary_CanonMisc211_QsP">
+                     <locus from="1r" to="91v"/>
+                     <title ref="workID">QsP</title>
+                     <colophon source="14r" n="book I">Et hoc de toto primo libro, perfecto die
+                        [spat. vac.] octobris anno Mº[CCCC]XLVIº per me, Galcerandum Benedicti, sub
+                        venerabili magistro Clemente Parmentarii. Explicit primus Physicorum, qui
+                        scriptus fuit Parisius sub venerabili magistro Clemente Parmentarii,
+                        nationis Normanne, per me, Galterandum Benedicti, ibidem scolarem
+                        venerabilis nationis Francie, reductive</colophon>
+                     <colophon source="36ra" n="book III">Et hoc de questione et de toto tertio,
+                        perfecto die dominica decima octava mensis decembris anno 1446º</colophon>
+                     <colophon source="51rb" n="book IV">Et hoc de questione, et per consequens de
+                        toto quarto, finito die martis vigesima octava die mensis ianuari in vico
+                        Stragnimis, [sic ut semper] anno Domini MºCCCCXLVIIº</colophon>
+                     <colophon source="59rb" n="book V">Et hoc de toto quinto libro Phisicorum,
+                        perfecto in vico Stragnimis [spat. vac.] februarii per me, Galcerandum
+                        Benedicti, sub venerabili magistro Clemente Parmentarii, actu regente
+                        Parisius</colophon>
+                  </msItem>
+                  <msItem xml:id="Oxford_BodleianLibrary_CanonMisc211_QdC">
+                     <locus from="93ra" to="134"/>
+                     <title ref="workID">QdC</title>
+                  </msItem>
+                  <msItem xml:id="Oxford_BodleianLibrary_CanonMisc211_QdG">
+                     <locus from="135" to="163"/>
+                     <title ref="workID">QdG</title>
+                  </msItem>
+                  <msItem xml:id="Oxford_BodleianLibrary_CanonMisc211_QsMete">
+                     <locus from="164r" to="191v"/>
+                     <title ref="workID">QsMete</title>
+                  </msItem>
+                  <msItem xml:id="Oxford_BodleianLibrary_CanonMisc211_QdA">
+                     <locus from="194r" to="232r"/>
+                     <title ref="workID">QdA</title>
+                     <colophon source="232rb book III">Et hec de questione et per consequens de toto
+                        tertio De anima, scripto Parisius per me Johannem Run pro Johanne Coromines,
+                        et hoc decima die mensis junii anno Domini Millesimo CCCCmo
+                        XLIII°</colophon>
+                  </msItem>
+                  <msItem xml:id="Oxford_BodleianLibrary_CanonMisc211_QdSen">
+                     <locus from="233ra" to="245va"/>
+                     <title ref="workID">QdSen</title>
+                  </msItem>
+                  <msItem xml:id="Oxford_BodleianLibrary_CanonMisc211_Qdmem">
+                     <locus from="246ra" to="248vb"/>
+                     <title ref="workID">Qdmem</title>
+                  </msItem>
+                  <msItem xml:id="Oxford_BodleianLibrary_CanonMisc211_Qdsom">
+                     <locus from="249rb" to="253va"/>
+                     <title ref="workID">Qdsom</title>
+                  </msItem>
+                  <msItem xml:id="Oxford_BodleianLibrary_CanonMisc211_QsLon">
+                     <locus from="254ra" to="255rb"/>
+                     <title ref="workID">QsLon</title>
+                     <colophon source="255rb" n="Final colophon">Iste liber completus fuit Parisius
+                        per me Johannem Run, venerabilis nationis Francie provincieque laudabilis
+                        Britannie, pro Johanne de Coromines eiusdem nationis venerabilis, et hoc
+                        septima die mensis septembris anno Domini millesimo CCCCmo XLIII°</colophon>
+                  </msItem>
+                  <msItem xml:id="Oxford_BodleianLibrary_CanonMisc211_QsMeta">
+                     <locus from="256ra" to="266vb"/>
+                     <title ref="workID">QsMeta</title>
+                     <note type="content">only books I–II, unfinished</note>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <additions>The manuscript contains several long marginal notes in which Averroes,
+                     Albert, and Thomas are quoted. </additions>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate from="1443" to="1446"/>
+                     <p>Folios 1–163 were written mostly by Galcerandus Benedicti in 1446–1447;
+                        folios 164–193, written by Gilbertus Amignacensis, are undated; folios
+                        194–266 were written mostly by Johannes Run in 1443. The extensive colophons
+                        provide information about the date and place of the copy, as well as the
+                        identity of the scribes and the master supervising them: QsP, book I, f.
+                        14ra; QsP, book III, f. 36ra; QsP, book IV, f. 51rb; QsP, book V, f. 59rb;
+                        QdA, book III, f. 232rb; Final colophon, f. 255rb </p>
+                     <p>The texts contained in this codex were copied by several students at the
+                        Paris Arts Faculty: <persName ref="#GalcerandusBenedicti">Galcerandus Benedicti</persName> (see below); <persName ref="#GilbertusdAuvergnat">Gilbertus Armignac</persName>
+                        (f. 184rb: <quote source="184rb">sequitur figura ventorum in sequenti folio, Deo Gilbertus
+                        Armignac</quote>); Reginaldus Eude (f. 196ra: <quote source="196ra">Et hoc de questione et per
+                        consequens de toto primo libro De anima, finito in vico Straminis.
+                        Reginaldus Eude</quote>); and <persName ref="#IohannesRun">Johannes Run</persName>, writing for <persName ref="#IohannesCoromines">Iohannes Colomines</persName> (see
+                        below).</p>
+                     <note type="msRelationship"><ref target="#Oxford_BodleianLibrary_CanonMisc486"
+                           >Oxford, Bodleian Library, Canon. Misc. 486</ref>, also copied by
+                           <persName ref="#IohannesRun">Iohannes Run</persName>, and <ref
+                           target="#SaintOmer_BibliothèquedAgglomérationduPaysdeSaintOmer_586">Saint
+                           Omer, Bibliothèque d’Agglomération du Pays de Saint-Omer</ref>, 586, also
+                        written under the supervision of the master <persName
+                           ref="#ClemensParmentarii">Clémens Parmentier.</persName></note>
+                  </origin>
+                  <acquisition when="1817">
+                     <p>The codex was purchased by the Bodleian in 1817.</p>
+                  </acquisition>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source cert="high" resp="#">
+                           <p>Ms directly examined</p>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+                  <listBibl>
+                     <listBibl>
+                        <bibl>Coxe, Catalogi, Quarto Catalogues III, col. 581–582.</bibl>
+                        <bibl>Watson, Catalogue, 50–51, n. 311.</bibl>
+                        <bibl>Flüeler, Terminologie, 64, fn. 16.</bibl>
+                        <bibl>Deuffic, “Copistes”, 181.</bibl>
+                        <bibl>Thomson, Catalogue, 74–76.</bibl>
+                     </listBibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+
 
             <msDesc xml:id="Paris_BnF_latin6455">
                <msIdentifier>
