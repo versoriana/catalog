@@ -278,6 +278,48 @@
                </additional>
             </msDesc>
 
+
+            <msDesc xml:id="Angers_MédiathèqueToussaintBibliothèquemunicipale_437">
+               <msIdentifier>
+                  <settlement>Angers</settlement>
+                  <repository>Médiathèque Toussaint (Bibliothèque municipale)</repository>
+                  <idno>437</idno>
+                  <idno type="URI"
+                     >https://commulysse.angers.fr/ark:/54380/a011504254863M5NptM/762720b709</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>None</summary>
+                  <msItem xml:id="Angers_MédiathèqueToussaintBibliothèquemunicipale_437_QsPol">
+                     <locus from="1r" to="164r"/>
+                     <title ref="workID">QsPol</title>
+                     <note type="content">The text is preceded by a prologue, inc.: <quote source="">Cum omnium
+                        artium que ad rectam vivendi viam perducunt ratio et discipline sapientie
+                        studio quam philosophiam appellant contineatur</quote>.</note>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate from="1467" to="1467">1476</origDate>
+                     <p>The manuscript can be tentatively dated and localized on the basis of a
+                        fleur-de-lis watermark corresponding to Briquet 7216, attested in Angers in
+                        1467.</p>
+                  </origin>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source cert="high" resp="#">
+                           <p>Ms directly examined</p>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+                  <listBibl>
+                     <bibl>Catalogue général, vol. 31, 341–342.</bibl>
+                     <bibl>Lohr, Gallica I, 230.</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+
             <!-- Augsburg, Universitätsbibliothek Augsburg, Cod. II.1.2º 220 issue#32-->
             <msDesc xml:id="Augsburg_UniversitätsbibliothekAugsburg_CodII12220">
                <msIdentifier>
@@ -2124,12 +2166,13 @@
                      <origDate from="1448" to="1448">1448</origDate>
                      <origPlace>Paris</origPlace>
                      <p>The manuscript was copied in Paris, as attested by the colophon to
-                        Aristotle’s Nicomachean Ethics, transcribed by Johannes Duss: <quote source="82ra">Explicit
-                        liber Ethicorum Aristotelis, finitus Parisius per manus Iohannis Duss,
-                        Leodicensis dyocesis, anno Domini M° CCCC° XLVIII° in profesto
-                        purificationis Marie, infra nonam et decimam horas, cena peracta</quote> (f. 82ra).
-                        The watermark found throughout the texts attributed to Versoris is a
-                        crossbow, corresponding to Briquet 726 (Troyes, 1447).</p>
+                        Aristotle’s Nicomachean Ethics, transcribed by Johannes Duss: <quote
+                           source="82ra">Explicit liber Ethicorum Aristotelis, finitus Parisius per
+                           manus Iohannis Duss, Leodicensis dyocesis, anno Domini M° CCCC° XLVIII°
+                           in profesto purificationis Marie, infra nonam et decimam horas, cena
+                           peracta</quote> (f. 82ra). The watermark found throughout the texts
+                        attributed to Versoris is a crossbow, corresponding to Briquet 726 (Troyes,
+                        1447).</p>
                   </origin>
                </history>
                <additional>
