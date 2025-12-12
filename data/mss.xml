@@ -1080,8 +1080,8 @@
                   <summary>None</summary>
                   <msItem xml:id="Heidelberg_UniversitätsbibliothekHeidelberg_CodSalVIII_Copulata1">
                      <locus from="1a" to="138b"/>
-                     <title ref="workid">Copulata ... super 8 libros phisicorum Aristotelis</title>
                      <author>Lambertus de Monte</author>
+                     <title ref="workid">Copulata ... super 8 libros phisicorum Aristotelis</title>                     
                      <note>Cologne, Heinrich Quentell, 1493</note>
                      <listBibl>
                         <bibl>Hain 1686</bibl>
@@ -1095,8 +1095,8 @@
                   </msItem>
                   <msItem xml:id="Heidelberg_UniversitätsbibliothekHeidelberg_CodSalVIII_Copulata2">
                      <locus from="1a" to="83v"/>
-                     <title ref="workid">Copulata super libros de anima Aristotelis</title>
                      <author>Lambertus de Monte</author>
+                     <title ref="workid">Copulata super libros de anima Aristotelis</title>                     
                      <note>Cologne, Heinrich Quentell, 1494</note>
                      <listBibl>
                         <bibl>Hain 1713</bibl>
@@ -1106,9 +1106,9 @@
                   </msItem>
                   <msItem xml:id="Heidelberg_UniversitätsbibliothekHeidelberg_CodSalVIII_Positiones">
                      <locus from="1a" to="49b"/>
-                     <title ref="workid">Positiones circa libros phisicorum et de anima
-                        Aristotelis</title>
                      <author>Lambertus de Monte</author>
+                     <title ref="workid">Positiones circa libros phisicorum et de anima
+                        Aristotelis</title>                     
                      <note>Cologne, Heinrich Quentell, 1494</note>
                      <listBibl>
                         <bibl>Hain 13303</bibl>
@@ -1291,8 +1291,8 @@
                      <!-- Incunabulum 1: Versoris on Ars nova and De ente et essentia -->
                      <msItem xml:id="Kraków_BJ_908_Inc1">
                         <locus from="1r" to="128r"/>
-                        <title ref="ID">Questions on the Ars nova; De ente et essentia</title>
                         <author>Joannes Versoris</author>
+                        <title ref="ID">Questions on the Ars nova; De ente et essentia</title>                        
                         <note>Printed in Cologne by Heinrich Quentell before 1489</note>
                      </msItem>
                      <!-- Incunabulum 2: Versoris on Ars vetus -->
@@ -1301,9 +1301,9 @@
                            <locus from="129r" to="204r" scheme="#bound"/>
                            <locus from="1r" to="76r" scheme="#unbound"/>
                         </locusGrp>
-                        <title ref="ID">Questions on the Ars vetus (Isagoge, Predicamenta, De
-                           interpretatione, De sex principiis)</title>
                         <author>Joannes Versoris</author>
+                        <title ref="ID">Questions on the Ars vetus (Isagoge, Predicamenta, De
+                           interpretatione, De sex principiis)</title>                        
                         <note>Printed in Cologne around 1487</note>
                      </msItem>
                   </msContents>
@@ -1411,28 +1411,28 @@
                   <summary>None</summary>
                   <msItem xml:id="Kraków_BibliotekaJagiellońska_cod1893_PriorAnalytics">
                      <locus from="1r" to="75r"/>
-                     <title ref="WorkId">Commentary on Aristotle’s Prior Analytics</title>
                      <author>Laurentius de Poznania</author>
+                     <title ref="WorkId">Commentary on Aristotle’s Prior Analytics</title>                     
                   </msItem>
                   <msItem xml:id="Kraków_BibliotekaJagiellońska_cod1893_PostAnalytics">
                      <locus from="79r" to="135r"/>
-                     <title ref="WorkId">Commentary on Aristotle’s Posterior Analytics</title>
                      <author>Laurentius de Poznania</author>
+                     <title ref="WorkId">Commentary on Aristotle’s Posterior Analytics</title>                     
                   </msItem>
                   <msItem xml:id="Kraków_BibliotekaJagiellońska_cod1893_SR_frag">
                      <locus from="135v"/>
-                     <title ref="WorkId">Commentary on Aristotle’s Sophistical Refutations</title>
                      <author>Laurentius de Poznania</author>
+                     <title ref="WorkId">Commentary on Aristotle’s Sophistical Refutations</title>                     
                   </msItem>
                   <msItem xml:id="Kraków_BibliotekaJagiellońska_cod1893_PriorAnalytics_Anon">
                      <locus from="136r" to="146v"/>
-                     <title ref="WorkId">Commentary on Aristotle’s Prior Analytics</title>
                      <author>Anonymus</author>
+                     <title ref="WorkId">Commentary on Aristotle’s Prior Analytics</title>                     
                   </msItem>
                   <msItem xml:id="Kraków_BibliotekaJagiellońska_cod1893_DeAnima">
                      <locus from="148r" to="158r"/>
-                     <title ref="WorkId">Commentary on Aristotle’s De anima</title>
                      <author>Laurentius de Poznania</author>
+                     <title ref="WorkId">Commentary on Aristotle’s De anima</title>                     
                   </msItem>
                   <msItem xml:id="Kraków_BibliotekaJagiellońska_cod1893_SR_glossa">
                      <locus from="198r" to="252v"/>
@@ -1543,9 +1543,9 @@
                      </filiation>
                   </msItem>
                   <msItem xml:id="Kraków_BibliotekaJagiellońska_cod2007_QsP_Anon">
-                     <locus>??</locus>
-                     <title ref="workid">QsP</title>
+                     <locus/>
                      <author>Anonymus</author>
+                     <title ref="workid">QsP</title>                     
                      <incipit>circa initium libri Physicorum queritur utrum inter tres scientias
                         speculativas reales philosophia ordine doctrine sit prima, mathematica
                         secunda, metaphysica tertia</incipit>
@@ -1560,8 +1560,8 @@
                   </msItem>
                   <msItem xml:id="Kraków_BibliotekaJagiellońska_cod2007_QdG_Anon">
                      <locus from="135r" to="163r"/>
-                     <title ref="workID">QdG</title>
                      <author>Anonymus</author>
+                     <title ref="workID">QdG</title>                     
                      <filiation>
                         <list>
                            <item>
@@ -1633,36 +1633,39 @@
                   <summary>None</summary>
                   <msItem xml:id="Kraków_BibliotekaJagiellońska_cod2008_Qdente">
                      <locus from="2v" to="24r"/>
-                     <title ref="workID">Qdente</title>
                      <author>Johannes Versoris</author>
+                     <title ref="workID">Qdente</title>
                      <note type="content">Versoris’s questions are followed by some anonymous QdC
                         (ff. 25r–40v); QdG (ff. 40v–53r); QsE (ff. 53r–107r); Puncta on the
                         Metaphysics (ff. 110v–171v); QsTop (ff. 175r–216r).</note>
                   </msItem>
                   <msItem xml:id="Kraków_BibliotekaJagiellońska_cod2008_QdC">
                      <locus from="25r" to="40v"/>
-                     <title ref="workID">QdC</title>
                      <author>Anonymus</author>
+                     <title ref="workID">QdC</title>
                   </msItem>
                   <msItem xml:id="Kraków_BibliotekaJagiellońska_cod2008_QdG">
                      <locus from="40v" to="53r"/>
-                     <title ref="workID">QdG</title>
                      <author>Anonymus</author>
+                     <title ref="workID">QdG</title>
                   </msItem>
                   <msItem xml:id="Kraków_BibliotekaJagiellońska_cod2008_QsE">
                      <locus from="53r" to="107r"/>
-                     <title ref="workID">QsE</title>
                      <author>Anonymus</author>
+                     <title ref="workID">QsE</title>
+                     
                   </msItem>
                   <msItem xml:id="Kraków_BibliotekaJagiellońska_cod2008_Puncta_Metaphysics">
                      <locus from="110v" to="171v"/>
-                     <title ref="workID">Puncta</title>
                      <author>Anonymus</author>
+                     <title ref="workID">Puncta</title>
+                     
                   </msItem>
                   <msItem xml:id="Kraków_BibliotekaJagiellońska_cod2008_QsTop">
                      <locus from="175r" to="216r"/>
-                     <title ref="workID">QsTop</title>
                      <author>Anonymus</author>
+                     <title ref="workID">QsTop</title>
+                     
                   </msItem>
                </msContents>
                <history>
@@ -1722,18 +1725,21 @@
                      commentary.</summary>
                   <msItem xml:id="Kraków_BibliotekaJagiellońska_cod2016_QdA_1anon">
                      <locus from="2r" to="81v"/>
-                     <title ref="workID">QdA</title>
                      <author>Anonymus</author>
+                     <title ref="workID">QdA</title>
+                     
                   </msItem>
                   <msItem xml:id="Kraków_BibliotekaJagiellońska_cod2016_QdA_2ano">
                      <locus from="82r" to="111r"/>
-                     <title ref="workID">QdA</title>
                      <author>Anonymus</author>
+                     <title ref="workID">QdA</title>
+                     
                   </msItem>
                   <msItem xml:id="Kraków_BibliotekaJagiellońska_cod2016_Problemata">
                      <locus from="188r" to="218r"/>
-                     <title ref="workID">Problemata</title>
                      <author>Anonymus</author>
+                     <title ref="workID">Problemata</title>
+                     
                   </msItem>
                   <msItem xml:id="Kraków_BibliotekaJagiellońska_cod2016_QsSens">
                      <locus from="124r" to="139v"/>
@@ -1860,8 +1866,8 @@
                   <summary>None</summary>
                   <msItem xml:id="Kraków_BibliotekaJagiellońska_cod2024_QsP_Breslauer">
                      <locus from="1r" to="259v"/>
-                     <title ref="workid">QsP</title>
                      <author>John Breslawer de Brunsbgerga</author>
+                     <title ref="workid">QsP</title>
                   </msItem>
                   <msItem xml:id="Kraków_BibliotekaJagiellońska_cod2024_QdC">
                      <locus from="294v" to="339r"/>
@@ -1930,8 +1936,8 @@
                   </msItem>
                   <msItem xml:id="Kraków_BibliotekaJagiellońska_cod2024_QsM_Ruczel">
                      <locus from="400r" to="439r"/>
-                     <title ref="workid">QdA</title>
                      <author>Andreas Ruczel de Costen (Kościan)</author>
+                     <title ref="workid">QdA</title>                     
                   </msItem>
 
                </msContents>
@@ -1979,8 +1985,8 @@
                   <summary>None</summary>
                   <msItem xml:id="Kraków_BibliotekaJagiellońska_cod2524_QsMetaAntoniusAndreae">
                      <locus from="4r" to="103r"/>
-                     <title ref="workId">QsMeta</title>
                      <author>Antonius Andreae</author>
+                     <title ref="workId">QsMeta</title>                     
                      <colophon source="103r">Expliciunt questiones Anthonii Andree, ordinis minorum,
                         correpte ac emendate per excellentissimum magistrum Franciscum de Nerithono,
                         ordinis predicatorum, reportate in studio Cracoviensi per Martinum de
@@ -1989,8 +1995,9 @@
                   </msItem>
                   <msItem xml:id="Kraków_BibliotekaJagiellońska_cod2524_QsMetaAnon">
                      <locus from="110r" to="185v"/>
-                     <title ref="workId">QsMeta</title>
                      <author>Anonymus</author>
+                     <title ref="workId">QsMeta</title>
+                     
                   </msItem>
                   <msItem xml:id="Kraków_BibliotekaJagiellońska_cod2524_Qdente">
                      <locus from="201r" to="221r"/>
@@ -2004,8 +2011,8 @@
                   </msItem>
                   <msItem xml:id="Kraków_BibliotekaJagiellońska_cod2524_QuestionsonDeenteetessentia">
                      <locus from="221v" to="243v"/>
-                     <title ref="workId">Questions on De ente et essentia</title>
                      <author>Giles of Rome</author>
+                     <title ref="workId">Questions on De ente et essentia</title>                     
                      <colophon source="221r">Martinus de Tarnoviecz scripsit, clericus Cracovie,
                         infra caniculam</colophon>
                   </msItem>
@@ -2119,6 +2126,117 @@
                </additional>
             </msDesc>
 
+            <msDesc xml:id="Leipzig_UB_Ms1419">
+               <msIdentifier>
+                  <settlement>Leipzig</settlement>
+                  <repository>UB</repository>
+                  <idno>Ms 1419</idno>
+                  <idno type="URI">https://katalog.ub.uni-leipzig.de/Record/159-31582093</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>A parchment title label of the fifteenth century on the front cover
+                     reads: <quote source="front cover">Questiones Versoris super Phisicam. Item
+                        questiones Metaphysice et super De anima</quote>. The ascription to Versoris
+                     is also found in the table of contents written in 1466 – the date of the
+                     binding’s fabrication – on the inside front cover: <quote
+                        source="inside front cover">In isto libro continentur subscripta: Versoris
+                        super Phisicorum, De generatione, Parva naturalia, De celo, Metheororum. De
+                        anima, Metaphysica coloniensia</quote>. As in the spine label, the layout
+                     makes clear that QdA and QsMeta should not be ascribed to Versoris, but are
+                     rather colonienses. However, thw collation shows that QdC and QdG also do not
+                     correspond to the commentaries ascribed to Versoris.</summary>
+                  <msItem xml:id="Leipzig_UB_Ms1419_QsP">
+                     <locus from="1r" to="108v"/>
+                     <author>Johannes Versoris</author>
+                     <title ref="workID">QsP</title>
+                     <colophon source="47rb">in die conversionis sancti Pauli, anno LXII°</colophon>
+                     <colophon source="108vb"/>
+                  </msItem>
+                  <msItem xml:id="Leipzig_UB_Ms1419_QdA">
+                     <locus from="111ra" to="169ra"/>
+                     <author>Not specified</author>
+                     <title ref="workID">QdA</title>
+                     
+                     <colophon source="168va">in vigilia sancti Martini anno LXII°, libri De anima
+                        explicunt in studio Lipczensi per M. de B</colophon>
+                  </msItem>
+                  <msItem xml:id="Leipzig_UB_Ms1419_QdG">
+                     <locus from="171ra" to="192vb"/>
+                     <author>Not specified</author>
+                     <title ref="workID">QdG</title>
+                     
+                  </msItem>
+                  <msItem xml:id="Leipzig_UB_Ms1419_QdSens">
+                     <locus from="193ra" to="204rb"/>
+                     <author>Johannes Versoris</author>
+                     <title ref="workID">QdSens</title>
+                  </msItem>
+                  <msItem xml:id="Leipzig_UB_Ms1419_QdMem">
+                     <locus from="204rb" to="206vb"/>
+                     <author>Johannes Versoris</author>
+                     <title ref="workID">QdMem</title>
+                  </msItem>
+                  <msItem xml:id="Leipzig_UB_Ms1419_QdSom">
+                     <locus from="206vb" to="210vb"/>
+                     <author>Johannes Versoris</author>
+                     <title ref="workID">QdSom</title>
+                  </msItem>
+                  <msItem xml:id="Leipzig_UB_Ms1419_QdC">
+                     <locus from="215ra" to="248rb"/>
+                     <author>Not specified</author>
+                     <title ref="workID">QdC</title>
+                     
+                  </msItem>
+                  <msItem xml:id="Leipzig_UB_Ms1419_QsMete">
+                     <locus from="251ra" to="280va"/>
+                     <author>Johannes Versoris</author>
+                     <title ref="workID">QsMete</title>
+                  </msItem>
+                  <msItem xml:id="Leipzig_UB_Ms1419_QsMeta">
+                     <locus/>
+                     <author>Not specified</author>
+                     <title ref="workID">QsMeta (I, II, IV–X, XII)</title>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate from="1462" to="1462">1462</origDate>
+                     <origPlace>Leipzig</origPlace>
+                     <p>The manuscript was copied at Leipzig University, as stated in the following
+                        colophons: QsP, f. 47rb, f. 108vb; QdA, f. 168va. On an almost unreadable
+                        paper spine label from the sixteenth or seventeenth century, the following
+                        words can be distinguished: <quote source="spine labe">Questiones Versoris librorum Phisicorum, De
+                        generatione et corruptione †…† Meteororum. De anima, Metaphysicorum
+                        Coloniensium</quote>. The layout makes clear that the qualification “Coloniensium”
+                        applies only to the last two texts.</p>
+                  </origin>
+                  <provenance>The codex was transferred to the
+                     holdings of the Leipzig University Library (Bibliotheca Paulina) in 1683,
+                     along with the library of the Faculty of Philosophy.</provenance>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source cert="high" resp="#">
+                           <p>Ms directly examined</p>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+                  <listBibl>
+                     <listBibl>
+                        <bibl>Kristeller, Iter Italicum, III, 419.</bibl>
+                        <bibl>Markowski, “Kontakty personalne i naukowe”, 95–98.</bibl>
+                        <bibl>Markowski, Lipsienses, 60, 241.</bibl>
+                        <bibl>C. Mackert, Die Bibliothek des Augustiner Chorherrenstifts St. Thomas,
+                           in: Thomas Fuchs (Hrsg.), 3 x Thomas. Die Bibliotheken des
+                           Thomasklosters, der Thomaskirche und der Thomasschule im Laufe der
+                           Jahrhunderte. Katalog zur gleichnamigen Ausstellung in der Bibliotheca
+                           Albertina vom 18. Oktober 2012 bis 20. Januar 2013, 9–36, at
+                           13–15.</bibl>
+                     </listBibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
 
             <msDesc xml:id="Liège_Bibliothèqueuniversitaire_339">
                <msIdentifier>
@@ -2675,8 +2793,7 @@
                         written under the supervision of the master <persName
                            ref="#ClemensParmentarii">Clémens Parmentier.</persName></note>
                   </origin>
-                  <acquisition when="1817">
-                     The codex was purchased by the Bodleian in 1817.
+                  <acquisition when="1817"> The codex was purchased by the Bodleian in 1817.
                   </acquisition>
                </history>
                <additional>
@@ -3479,10 +3596,11 @@
                   </msItem>
                   <msItem xml:id="Siena_Intronati_H-VI-7_FranciscusPratoLiberIntentionibus">
                      <locus from="59ra" to="65vb"/>
+                     <author ref="persID">Franciscus de Prato</author>
                      <title ref="ID">Incipit liber de intentionibus, <persName ref="ID"
                            ><!-- fl. 1330-1345 -->fratris Francisci de Pratris</persName>, ordinis
                         predicatorum</title>
-                     <author ref="persID">Franciscus de Prato</author>
+                     
                      <!-- other cases of authors in this place? -->
                      <incipit>Que est necessitas ponenda speciem, secundum Philosophum in primo celi
                         et mundi</incipit>
