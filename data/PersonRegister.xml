@@ -853,6 +853,11 @@
                         Iohannes Abbatis as the author of the commentaries</note></bibl>
                </listBibl>
             </person>
+            
+            <person xml:id="IohannesCeyll">
+               <name xml:lang="lat">Iohannes Ceyll</name>
+               <occupation role="scr" ref="#Nürnberg_StadtbibliothekmBildungscampusNürnberg_CentV47" />               
+            </person>
 
 
             <!--  Iohannes Coromines (Colomines, Cormines) issue#16 -->
@@ -904,7 +909,7 @@
             </person>
 
             <person xml:id="IohannesHeynlinDeLapide">
-               <idno type="GND">119011700;</idno>
+               <idno type="GND">119011700</idno>
                <idno type="VIAF">106970261</idno>
                <idno type="CERL">cnp01933916</idno>
                <name xml:lang="lat">Iohannes Heynlin de Lapide</name>

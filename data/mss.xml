@@ -3,7 +3,7 @@
 <?xml-model href="../schema/out/VersorisMss.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="../schema/out/VersorisMss.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 
-<TEI xmlns="http://www.tei-c.org/ns/1.0">   
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -992,9 +992,10 @@
                      <origDate from="1474" to="1474">1474</origDate>
                      <p>the text was copied in 1474 and corrected in 1478.</p>
                      <origPlace>Heidelberg</origPlace>
-                     <p>Versoris’s text was copied by the student <persName ref="#IohannesHechtFromMemmingen">Iohannes
-                           Hecht</persName> from Memmingen and later corrected by the new owner of
-                        the manuscript, the master <persName ref="#HenricusStitzDeButzbach">Henricus Stitz</persName> from
+                     <p>Versoris’s text was copied by the student <persName
+                           ref="#IohannesHechtFromMemmingen">Iohannes Hecht</persName> from
+                        Memmingen and later corrected by the new owner of the manuscript, the master
+                           <persName ref="#HenricusStitzDeButzbach">Henricus Stitz</persName> from
                         Butzbach, as is evident from the colophons: QsP, f. 90ra. A few lines by a
                         different hand have been crossed out in the following column, but the text
                         remains partly legible: <quote source="90rb">Per me, artium liberalium
@@ -1006,7 +1007,8 @@
                         erased: <quote source="90rb">Correcte sunt hee questiones Versoris super
                            VIII libros Phisicorum Aristotelis, perfecte in anno 1478</quote>, f.
                         90rb.</p>
-                     <p>On f. 1r, we read: <quote source="1r">Henricus Musinger est possessor huius libri</quote>.</p>
+                     <p>On f. 1r, we read: <quote source="1r">Henricus Musinger est possessor huius
+                           libri</quote>.</p>
                   </origin>
                </history>
                <additional>
@@ -2074,6 +2076,78 @@
                </additional>
             </msDesc>
 
+
+            <msDesc xml:id="Liège_Bibliothèqueuniversitaire_339">
+               <msIdentifier>
+                  <settlement>Liège</settlement>
+                  <repository>Bibliothèque universitaire</repository>
+                  <idno>339</idno>
+                  <idno type="URI">https://hdl.handle.net/2268.1/4006</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>None</summary>
+                  <msItem xml:id="Liège_Bibliothèqueuniversitaire_QsE">
+                     <locus from="85ra" to="132rb"/>
+                     <title ref="workID">QsE I-VI</title>
+                     <note type="content">The QsE are interrupted at the beginning of the response
+                        to question VI.3 (Utrum ars et prudentia sint duae virtutes ab invicem et ab
+                        aliis distinctae), with the words: <quote source="">non considerantur
+                           contingere</quote>.</note>
+                  </msItem>
+                  <msItem xml:id="Liège_Bibliothèqueuniversitaire_Ethics">
+                     <locus from="137ra" to="160vb"/>
+                     <title ref="workid">Aristotle’s Ethics</title>
+                     <note type="content">The QsE are followed by four blank folios, after which we
+                        find another question commentary on Aristotle’s Ethics (books I–II), copied
+                        by a different hand (ff. 137ra–160vb). This text directly refers to Albert
+                        the Great’s commentary.</note>
+                     <incipit>Omnis ars et omnis doctrina. Ad habendam aliqualem notitiam illorum
+                        quae doctor noster Albertus Magnus in commento suo circa prooemium moralis
+                        philosophiae proponit, dubitatur utrum de virtutibus moralibus sit scientia
+                        sicut de intellectualibus</incipit>
+                     <explicit>et sic concluditur quod malum in ratione mali est
+                        infinitum</explicit>
+                  </msItem>
+                  <msItem xml:id="Liège_Bibliothèqueuniversitaire_QsMeta">
+                     <locus from="161ra" to="207ra"/>
+                     <title ref="workID">QsMeta I-VI</title>
+                     <note type="content">The QsMeta break off at question VI.2 (Utrum de ente per
+                        accidens sit scientia), with the words: <quote source="">et non semper
+                           sequitur quod deficit ut in paucioribus et</quote>.</note>
+                     <note type="content">The manuscript also contains texts stemming from the
+                        Albertist tradition, namely Heimericus de Campo’s Compendium divinorum and
+                        Albert the Great’s De intellectu et intelligibili.</note>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate from="1448" to="1448">1448</origDate>
+                     <origPlace>Paris</origPlace>
+                     <p>The manuscript was copied in Paris, as attested by the colophon to
+                        Aristotle’s Nicomachean Ethics, transcribed by Johannes Duss: <quote source="82ra">Explicit
+                        liber Ethicorum Aristotelis, finitus Parisius per manus Iohannis Duss,
+                        Leodicensis dyocesis, anno Domini M° CCCC° XLVIII° in profesto
+                        purificationis Marie, infra nonam et decimam horas, cena peracta</quote> (f. 82ra).
+                        The watermark found throughout the texts attributed to Versoris is a
+                        crossbow, corresponding to Briquet 726 (Troyes, 1447).</p>
+                  </origin>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source cert="high" resp="#">
+                           <p>Ms directly examined</p>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+                  <listBibl>
+                     <bibl>Fiess, Grandjean, Bibliothèque, 124 n. 192, 325 n. 644.</bibl>
+                     <bibl>AL I, p. 322, n. 178.</bibl>
+                     <bibl>Pattin, Repertorium, 102–103.</bibl>
+                     <bibl>Flüeler, Terminologie, 84, fn. 16.</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
 
             <msDesc xml:id="Mainz_WissenschaftlicheStadtbibliothek_HsI530b">
                <msIdentifier>
