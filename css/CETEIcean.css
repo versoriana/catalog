@@ -36,7 +36,7 @@ tei-acquisition {
 }
 tei-acquisition:before {
   font-weight: bold;
-  content: "acquisition";
+  content: "Acquisition";
 }
 tei-activity {
   display: block;
@@ -71,10 +71,12 @@ tei-additional {
   display: block;
 }
 tei-additions {
-  display: block;
+    /* Empty Rule Set */
+
 }
 tei-additions:before {
-  content: "Significant additions within the document: ";
+  /* Empty Rule Set */
+
 }
 tei-addrLine {
   display: block;

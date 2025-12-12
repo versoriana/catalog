@@ -281,6 +281,13 @@ tei-origPlace:before {
     content: "Origin: ";
 }
 
+/* Physical Description */
+tei-physDesc {
+    display: block;
+    margin: 20px 0;
+    margin-left: 20px;
+}
+
 /* Person names */
 tei-persName {
     text-decoration: underline;
@@ -737,4 +744,34 @@ tei-supplied::before {
 
 tei-supplied::after {
     content: "›";
+}
+
+tei-additions {
+    display: block;
+    margin-left: 20px;
+}
+
+tei-additions::before {
+    font-weight: bold;
+    content: "Additions: ";
+}
+
+tei-layoutDesc {
+    display: block;
+    margin-left: 20px;
+}
+
+tei-layoutDesc::before {
+    font-weight: bold;
+    content: "Layout: ";
+}
+
+tei-acquisition {
+    display: block;
+    margin-left: 20px;
+}
+
+tei-acquisition::before {
+    font-weight: bold;
+    content: "Acquisition: ";
 }
