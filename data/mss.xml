@@ -563,6 +563,23 @@
                            Stendal</persName> from <placeName>Halberstadt</placeName>, student at
                         the <orgName>Collège of Tournai</orgName> in
                         <placeName>Paris</placeName>.</p>
+                     <note type="msRelationship">
+                        
+                        <p><ref target="#Basel_UB_FIII10" type="ms">Basel, UB, F III 10</ref>; <ref
+                           target="#Basel_UB_FIII11" type="ms">F III 11</ref>; <ref
+                              target="Basel_UB_FIII12">F III 12</ref>; <ref target="Basel_UB_FVI16"
+                                 >F VI 16</ref>; <ref target="Basel_UB_FVI67">F VI 67</ref>; <ref
+                                    target="Basel_UB_FVII11">F VII 11</ref>, which were also owned by
+                           <persName ref="#IohannesHeynlinDeLapide">Iohannes de
+                              Lapide</persName>.</p>
+                        <p>
+                           <ref target="#Basel_UB_FIII10" type="ms">Basel, UB, F III 10</ref>; <ref
+                              target="#Basel_UB_FVI67" type="ms">F VI 67</ref>;<ref
+                                 target="Basel_UB_FVII11">F VII 11</ref>, which were also copied by
+                           <persName ref="#IohannesHeynlinDeLapide">Iohannes de
+                              Lapide</persName>.</p>     
+                        
+                     </note>
                   </origin>
                   <provenance>The codex was acquired by <persName ref="persID">Iohannes de
                         Lapide</persName>, who brought it to the <orgName>Carthusian
@@ -676,6 +693,23 @@
                            type="bibl" target="id">Piccard, Lilie, III 1453 (Metz, 1477)</ref>; in
                         the second part of the volume, a mermaid very similar to <ref
                            target="biblID" type="bibl">Briquet 13858 (Troyes, 1458-1461)</ref>.</p>
+                     <note type="msRelationship">
+                        
+                        <p><ref target="#Basel_UB_FII14" type="ms">Basel, UB, F II 14</ref>; <ref
+                           target="#Basel_UB_FIII11" type="ms">F III 11</ref>; <ref
+                              target="Basel_UB_FIII12">F III 12</ref>; <ref target="Basel_UB_FVI16"
+                                 >F VI 16</ref>; <ref target="Basel_UB_FVI67">F VI 67</ref>; <ref
+                                    target="Basel_UB_FVII11">F VII 11</ref>, which were also owned by
+                           <persName ref="#IohannesHeynlinDeLapide">Iohannes de
+                              Lapide</persName>.</p>
+                        <p>
+                           <ref target="#Basel_UB_FIII11" type="ms">Basel, UB, F III 11</ref>; <ref
+                              target="#Basel_UB_FVI67" type="ms">F VI 67</ref>;<ref
+                                 target="Basel_UB_FVII11">F VII 11</ref>, which were also copied by
+                           <persName ref="#IohannesHeynlinDeLapide">Iohannes de
+                              Lapide</persName>.</p>     
+                        
+                     </note>
                   </origin>
 
                   <provenance>Belonged to the <orgName ref="#BaselDominicanConvent">Basel Dominican
