@@ -564,21 +564,19 @@
                         the <orgName>Collège of Tournai</orgName> in
                         <placeName>Paris</placeName>.</p>
                      <note type="msRelationship">
-                        
                         <p><ref target="#Basel_UB_FIII10" type="ms">Basel, UB, F III 10</ref>; <ref
-                           target="#Basel_UB_FIII11" type="ms">F III 11</ref>; <ref
+                              target="#Basel_UB_FIII11" type="ms">F III 11</ref>; <ref
                               target="Basel_UB_FIII12">F III 12</ref>; <ref target="Basel_UB_FVI16"
-                                 >F VI 16</ref>; <ref target="Basel_UB_FVI67">F VI 67</ref>; <ref
-                                    target="Basel_UB_FVII11">F VII 11</ref>, which were also owned by
-                           <persName ref="#IohannesHeynlinDeLapide">Iohannes de
-                              Lapide</persName>.</p>
+                              >F VI 16</ref>; <ref target="Basel_UB_FVI67">F VI 67</ref>; <ref
+                              target="Basel_UB_FVII11">F VII 11</ref>, which were also owned by
+                              <persName ref="#IohannesHeynlinDeLapide">Iohannes de
+                           Lapide</persName>.</p>
                         <p>
                            <ref target="#Basel_UB_FIII10" type="ms">Basel, UB, F III 10</ref>; <ref
                               target="#Basel_UB_FVI67" type="ms">F VI 67</ref>;<ref
-                                 target="Basel_UB_FVII11">F VII 11</ref>, which were also copied by
-                           <persName ref="#IohannesHeynlinDeLapide">Iohannes de
-                              Lapide</persName>.</p>     
-                        
+                              target="Basel_UB_FVII11">F VII 11</ref>, which were also copied by
+                              <persName ref="#IohannesHeynlinDeLapide">Iohannes de
+                           Lapide</persName>.</p>
                      </note>
                   </origin>
                   <provenance>The codex was acquired by <persName ref="persID">Iohannes de
@@ -694,21 +692,19 @@
                         the second part of the volume, a mermaid very similar to <ref
                            target="biblID" type="bibl">Briquet 13858 (Troyes, 1458-1461)</ref>.</p>
                      <note type="msRelationship">
-                        
                         <p><ref target="#Basel_UB_FII14" type="ms">Basel, UB, F II 14</ref>; <ref
-                           target="#Basel_UB_FIII11" type="ms">F III 11</ref>; <ref
+                              target="#Basel_UB_FIII11" type="ms">F III 11</ref>; <ref
                               target="Basel_UB_FIII12">F III 12</ref>; <ref target="Basel_UB_FVI16"
-                                 >F VI 16</ref>; <ref target="Basel_UB_FVI67">F VI 67</ref>; <ref
-                                    target="Basel_UB_FVII11">F VII 11</ref>, which were also owned by
-                           <persName ref="#IohannesHeynlinDeLapide">Iohannes de
-                              Lapide</persName>.</p>
+                              >F VI 16</ref>; <ref target="Basel_UB_FVI67">F VI 67</ref>; <ref
+                              target="Basel_UB_FVII11">F VII 11</ref>, which were also owned by
+                              <persName ref="#IohannesHeynlinDeLapide">Iohannes de
+                           Lapide</persName>.</p>
                         <p>
                            <ref target="#Basel_UB_FIII11" type="ms">Basel, UB, F III 11</ref>; <ref
                               target="#Basel_UB_FVI67" type="ms">F VI 67</ref>;<ref
-                                 target="Basel_UB_FVII11">F VII 11</ref>, which were also copied by
-                           <persName ref="#IohannesHeynlinDeLapide">Iohannes de
-                              Lapide</persName>.</p>     
-                        
+                              target="Basel_UB_FVII11">F VII 11</ref>, which were also copied by
+                              <persName ref="#IohannesHeynlinDeLapide">Iohannes de
+                           Lapide</persName>.</p>
                      </note>
                   </origin>
 
@@ -3401,6 +3397,115 @@
                </additional>
             </msDesc>
 
+            <msDesc xml:id="Praha_NK_XH21">
+               <msIdentifier>
+                  <settlement>Praha</settlement>
+                  <repository>NK</repository>
+                  <idno>X H 21</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>None</summary>
+                  <msItem xml:id="Praha_NK_XH21_QsPor">
+                     <locus from="1r" to="38v"/>
+                     <title ref="workID">QsPor</title>
+                  </msItem>
+                  <msItem xml:id="Praha_NK_XH21_QsPre">
+                     <locus from="38v" to="69v"/>
+                     <title ref="workID">QsPre</title>
+                  </msItem>
+                  <msItem xml:id="Praha_NK_XH21_QsSex">
+                     <locus from="69v" to="79r"/>
+                     <title ref="workID">QsSex</title>
+                  </msItem>
+                  <msItem xml:id="Praha_NK_XH21_QsDiv">
+                     <locus from="79r" to="84v"/>
+                     <title ref="workID">QsDiv</title>
+                  </msItem>
+                  <msItem xml:id="Praha_NK_XH21_QdInt">
+                     <locus from="85r" to="109r"/>
+                     <title ref="workID">QdInt</title>
+                  </msItem>
+                  <msItem xml:id="Praha_NK_XH21_QsPri">
+                     <locus from="114r" to="147v"/>
+                     <title ref="workID">QsPri</title>
+                  </msItem>
+                  <msItem xml:id="Praha_NK_XH21_QsPos">
+                     <locus from="148r" to="192r"/>
+                     <title ref="workID">QsPos</title>
+                  </msItem>
+                  <msItem xml:id="Praha_NK_XH21_IV">
+                     <locus from="192r" to="221r"/>
+                     <title ref="workID">QsTop I-IV</title>
+                     <colophon source="210r" n="Book II">finitus in domo Reczkonis, in vigilia beate
+                        Marie, sexta feria anno 1456</colophon>
+                     <colophon source="221r" n="final colophon">Et hec de questione, et per
+                        consequens de toto quarto libro Topicorum Aristotelis. Finitus est feria
+                        quarta post resurrectionem dominicam in collegio sanctissime virginis marie
+                        Nationis Bohemorum, in domo felicis memorie Reczek, et est finitus ante
+                        prandium, anno Domini M CCC L VI</colophon>
+                  </msItem>
+                  <msItem xml:id="Praha_NK_XH21_QsSE">
+                     <locus from="238r" to="267r"/>
+                     <title ref="workID">QsSE</title>
+                     <colophon source="267r" n="final colophon">Et hec de questione, et per
+                        consequens de toto libro Elenchorum. Finito libro sit laus et gloria
+                        Christo, amen. Et est finitus in domo Reczkonis in capite ieiunii, hora
+                        quartadecima, anno Domini 1456</colophon>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate from="1456" to="1456">1456</origDate>
+                     <origPlace>Prague</origPlace>
+                     <p>The texts were copied in the College Reczek in Prague, as evident from the
+                        colophons: QsTop, book II, f. 210r; QsTop, final colophon, f. 221r; QsSE,
+                        final colophon, f. 267r. The colophon of the Tractatus de intentionibus
+                        praedicabilium (f. 221v–233v) specifies that these texts were copied in 1450
+                        by the master Stanislaus in Paris, in the school of master <persName
+                           ref="#AlbertusScriptorisDeDoesborch">Albertus Scriptoris</persName>, and
+                        from there carried to Prague: <quote source="221v-233v">iste est ergo
+                           ortulus, qui Zabulum Porphyrii irrigare videtur, qui portatus est per
+                           reverendum magistrum Stanislaum de Parisius, quem finivit ibidem in
+                           pedagogio magistri Alberti Scriptoris, et hoc anno Domini 1450. Et est
+                           finitus in collegio Reczek ante dominicam Iudica anno 1457</quote>. </p>
+                     <p>Some notes throughout the codex prove that these commentaries were adopted
+                        by Prague masters for their teaching. See for instance f. 3r: <quote source="3r">Magister
+                        reverendus Wenczeslaus incepit legere vetere artem feria quarta ante festum
+                        Galli</quote>”; f. 238r: <quote source="238r">Incepit librum Elenchorum legere fertia sexta proxima post
+                        Margarethe, in lectorio Platonis, hora undecima</quote>. The master could be
+                        Wenceslaus de Paczow, who taught Versoris’s commentaries transmitted in the
+                        Prague manuscripts NKČR, IV F 8 and X G 1.</p>
+                     <note type="msRelationship">
+                        <p><ref target="#Stuttgart_WürttembergischeLandesbibliothek_HBX2" type="ms"
+                              >Stuttgart, Württembergische Landesbibliothek, HB X 2</ref> copied in
+                           the school of <persName ref="#AlbertusScriptorisDeDoesborch">Albertus
+                              Scriptoris</persName>.</p>
+                        <p><ref target="#Praha_KMK_M402" type="ms">Praha, KMK, M 40/2</ref>; <ref
+                              target="#Praha_KMK_M81" type="ms">Praha, KMK, M 81</ref>; <ref
+                              target="#Wien_Dominikanerkonvent_Cod149119" type="ms">Wien,
+                              Dominikanerkonvent, Cod. 149/119</ref> in which <persName
+                              ref="#StanislausDeVelvary">Stanislaus de Velvary</persName> is
+                           mentioned.</p>
+                     </note>
+                  </origin>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source cert="high" resp="#">
+                           <p>Ms directly examined</p>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+                  <listBibl>
+                     <bibl>Truhlář II, 118 (1999).</bibl>
+                     <bibl>Korolec, Repertorium, 81–83.</bibl>
+                     <bibl>Šmahel, “Paris und Prag”, 459.</bibl>
+                     <bibl>Gregorovičová, “Knihovna”, 121–122.</bibl>
+                     <bibl>Markowski, Isagoge, 123.</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
 
             <msDesc xml:id="Praha_NK_IVF8">
                <msIdentifier>
