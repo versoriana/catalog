@@ -2720,7 +2720,9 @@
                         Clm 6694, which presents a watermark identical to this codex.</origDate>
                      <p>The manuscript was mostly copied by a single scribe named Paulus, who also
                         copied ms. 557 in the same collection. It contains a watermark with double
-                        key also found in ms. München, BSB, Clm 6694 (WZIS DE5580-Clm6694_72a).
+                        key also found in ms. München, BSB, Clm 6694 (<ref
+                           target="https://www.wasserzeichen-online.de/?ref=DE5580-Clm6694_72a"
+                           >WZIS DE5580-Clm6694_72a</ref>).
                         Since the latter probably originated in Heidelberg and is linked by the
                         watermarks to two other manuscripts copied in Heidelberg (Innsbruck,
                         Universitäts- und Landesbibliothek Tirol, Cod. 220 and München,
@@ -2750,6 +2752,108 @@
                   <listBibl>
                      <bibl>Daniel, Schott, Zahn, Die lateinischen mittelalterlichen Handschriften,
                         90–91.</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+
+            <msDesc
+               xml:id="München_LudwigMaximiliansUniversitätMünchenUniversitätsbibliothek_2Codms557">
+               <msIdentifier>
+                  <settlement>München</settlement>
+                  <repository>Ludwig-Maximilians-Universität München,
+                     Universitätsbibliothek</repository>
+                  <idno>2 Cod. ms. 557</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>None</summary>
+                  <msItem
+                     xml:id="München_LudwigMaximiliansUniversitätMünchenUniversitätsbibliothek_2Codms557_QsPor">
+                     <locus from="1r" to="36v"/>
+                     <title ref="workID">QsPor</title>
+                  </msItem>
+                  <msItem
+                     xml:id="München_LudwigMaximiliansUniversitätMünchenUniversitätsbibliothek_2Codms557_QsPre">
+                     <locus from="37r" to="68v"/>
+                     <title ref="workID">QsPre</title>
+                  </msItem>
+                  <msItem
+                     xml:id="München_LudwigMaximiliansUniversitätMünchenUniversitätsbibliothek_2Codms557_QsInt">
+                     <locus from="70r" to="91r"/>
+                     <title ref="workID">QsInt</title>
+                  </msItem>
+                  <msItem
+                     xml:id="München_LudwigMaximiliansUniversitätMünchenUniversitätsbibliothek_2Codms557_QsPri">
+                     <locus from="92v" to="117v"/>
+                     <title ref="workID">QsPri</title>
+                  </msItem>
+                  <msItem
+                     xml:id="München_LudwigMaximiliansUniversitätMünchenUniversitätsbibliothek_2Codms557_QsPos">
+                     <locus from="118r" to="146v"/>
+                     <title ref="workID">QsPos</title>
+                  </msItem>
+                  <msItem
+                     xml:id="München_LudwigMaximiliansUniversitätMünchenUniversitätsbibliothek_2Codms557_QsTop">
+                     <locus from="147r" to="173r"/>
+                     <title ref="workID">QsTop I–IV </title>
+                  </msItem>
+                  <msItem
+                     xml:id="München_LudwigMaximiliansUniversitätMünchenUniversitätsbibliothek_2Codms557_QsSE">
+                     <locus from="174r" to="190r"/>
+                     <title ref="workID">QsSE</title>
+                     <colophon source="190rb">Expliciunt questiones Elencorum Aristotelis. Nutrix
+                        Verbigene te laudo agili corde. De libri termino Paulusque pura
+                        mente</colophon>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate from="1453" to="1459">1453–1459. Dates inferred from the watermarks found
+                        in ms. 568; since both manuscripts were written by the same scribe and share
+                        a watermark, this date range applies to both.</origDate>                     
+                     <p>No explicit information about the date and origin of this manuscript can be
+                        directly inferred from it. The main scribe, named Paulus (as indicated in
+                        the colophon, f. 190rb), also copied ms. 568 of this collection. The
+                        catalogue’s editors hypothesize that this manuscript and MS 568 originated
+                        in Prague, based on the correspondence between the date and the order in
+                        which the texts are transmitted and those of the Prague copies, most of
+                        which were produced between 1453 and 1459. However, Versoris’s commentaries
+                        were copied in many universities during these years. As for the order of the
+                        texts, the same sequence characterizes all other copies of the corpus
+                        attributed to Versoris. A different origin therefore seems more plausible,
+                        namely Heidelberg. In fact, this codex presents the same double key
+                        watermark found in ms. Innsbruck, Universitäts- und Landesbibliothek Tirol,
+                        Cod. 220 and München, BSB, Clm 6694 (WZIS DE5580-Clm6694_72a), which
+                        originated in Heidelberg. 1r, 10r, and on the back cover.</p>
+                     <note type="msRelationship">
+                        <p>
+                           <ref target="#Innsbruck_ULBT_Cod220" type="ms">Innsbruck, Universitäts-
+                              und Landesbibliothek Tirol, Cod. 220</ref> and <ref
+                              target="#Munich_BSB_Clm6694" type="ms">München, BSB, Clm 6694</ref>,
+                           which present similar watermarks, possibly indicating a common origin.
+                              <ref target="#Munich_BSB_Clm6694" type="ms">Ms. Clm 6694, f.
+                              188rb</ref> also presents the same colophon found at f. 190rb: <quote
+                              source="190rb">Nutrix verbigene te laudo agili corde. De libri termino
+                              pallasque sereno mente</quote>. </p>
+                        <p>
+                           <ref target="#Munich_LMU_CodMs568" type="ms">München,
+                              Ludwig-Maximilians-Universität, Cod. ms. 568</ref>, which was copied
+                           in the same period by the same scribe, Paulus, and contains the same
+                           watermark with a double key (<ref
+                              target="https://www.wasserzeichen-online.de/?ref=DE5580-Clm6694_72a"
+                              >WZIS DE5580-Clm6694_72a</ref>). </p>
+                     </note>
+                  </origin>
+                  <provenance>
+                     <p>The manuscript belonged to the library of the Arts Faculty of Ingolstadt
+                        University, as attested by the ex libris on ff.</p>
+                  </provenance>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>N. Daniel, G. Schott, P. Zahn, Die lateinischen mittelalterlichen
+                        Handschriften der Universitätsbibliothek München. Die Handschriften aus der
+                        Folioreihe, Zweite Hälfte, Wiesbaden 1979, 79–80.</bibl>
+                     <bibl>Freckmann, Trede, Katalog, 351 [Clm 6694].</bibl>
                   </listBibl>
                </additional>
             </msDesc>
