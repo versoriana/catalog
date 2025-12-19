@@ -809,7 +809,8 @@
                   <settlement>Berlin</settlement>
                   <repository>SB – PK</repository>
                   <idno>Hdschr. 435</idno>
-                  <idno type="URI">https://resolver.staatsbibliothek-berlin.de/HSP00038DF400000000</idno>
+                  <idno type="URI"
+                     >https://resolver.staatsbibliothek-berlin.de/HSP00038DF400000000</idno>
                   <altIdentifier>
                      <settlement>Erfurt</settlement>
                      <repository>Archiv der Lorenzkirche</repository>
@@ -857,51 +858,52 @@
                </msContents>
                <history>
                   <origin>
-                     <origDate from="1460" to="1461">1460-1461, with a note by Erber added in 1464.</origDate>
+                     <origDate from="1460" to="1461">1460-1461, with a note by Erber added in
+                        1464.</origDate>
                      <p>The manuscript originated at Paris University. The treatise de intentionibus
                         secundis (ff. 2r–6r) was copied by Georgius Erber, at that time student at
-                        the Collège de la Marche, in 1461: <quote source="6r">Scriptum Parisius in collegio Magne
-                        Marchie, anno Domini 1461, in die Trinitatis, finitum per manus Georgii
-                        Erber, ibidem tunc tempore studentem</quote>, f. 6r. The commentaries on the
-                        logical corpus ascribed to Versoris were copied between 1460 and 1461 at the
-                        Collège de Bourgogne by Rudolfus de Lo: <quote source="125rb">Et hoc de questione, et per
-                        consequens de toto libro Priorum, finite per manus Rudolfi de Lo, alumni
-                        altissimi reverendique collegii Burgundiae, anno Domini M CCCC LXVIII in
-                        vigilia Iudica</quote>, f. 125rb; <quote source="168rb">Et hoc de questione, et per consequens de toto
-                           Posteriorum Analeticorum Aristotelis. Laus Deo, 1460</quote>, f. 168rb; <quote source="202ra">Et hoc de
-                        questione, et per consequens de toto libro Topicorum Aristotelis sufficiant.
-                        Pro quo laudetur qui omnibus esse habetur. Finita Parisius anno Domini 1461
-                        incipiente</quote>, f. 202ra. Georgius Erber bought the manuscript in the same
-                        year: <quote source="229rb">Anno Domini 1461 finita est hec loyca Arestotelis, comparata per
-                        Georgius Erber de Aybling, protunc Parisius studentem</quote>, f. 229rb. Later on,
-                        in 1464, Georgius Erber, by then Master of Arts in Coburg, asked a certain
-                        Matheus Gutgegen de Mapurck, who previously was a rabbi called Beniamin, to
-                        copy the Hebraic alphabet: <quote source="243v">Ego, Georgius Erber, in artibus magister, pro
-                        tunc scolasticus in Coburgk, hoc alphabetum rogavi scribere quendam nomine
-                        Matheum Gutgegen de Mapurck olim existentem iudeum, nomine Beniamin cum
-                        uxore Maria quorum filius Abraham et filia Rachel, morientes pro tunc in
-                        Montua [Mantua?] anno domini 1464 in die sancte Trinitatis. Ego autem
-                        prenominatus hoc alphabetum litteris latinis sic signavi eo presente et me
-                        in hoc docente, qui et olim rabbi iudeorum fuit</quote>, f. 243v.</p>
+                        the Collège de la Marche, in 1461: <quote source="6r">Scriptum Parisius in
+                           collegio Magne Marchie, anno Domini 1461, in die Trinitatis, finitum per
+                           manus Georgii Erber, ibidem tunc tempore studentem</quote>, f. 6r. The
+                        commentaries on the logical corpus ascribed to Versoris were copied between
+                        1460 and 1461 at the Collège de Bourgogne by Rudolfus de Lo: <quote
+                           source="125rb">Et hoc de questione, et per consequens de toto libro
+                           Priorum, finite per manus Rudolfi de Lo, alumni altissimi reverendique
+                           collegii Burgundiae, anno Domini M CCCC LXVIII in vigilia Iudica</quote>,
+                        f. 125rb; <quote source="168rb">Et hoc de questione, et per consequens de
+                           toto Posteriorum Analeticorum Aristotelis. Laus Deo, 1460</quote>, f.
+                        168rb; <quote source="202ra">Et hoc de questione, et per consequens de toto
+                           libro Topicorum Aristotelis sufficiant. Pro quo laudetur qui omnibus esse
+                           habetur. Finita Parisius anno Domini 1461 incipiente</quote>, f. 202ra.
+                        Georgius Erber bought the manuscript in the same year: <quote source="229rb"
+                           >Anno Domini 1461 finita est hec loyca Arestotelis, comparata per
+                           Georgius Erber de Aybling, protunc Parisius studentem</quote>, f. 229rb.
+                        Later on, in 1464, Georgius Erber, by then Master of Arts in Coburg, asked a
+                        certain Matheus Gutgegen de Mapurck, who previously was a rabbi called
+                        Beniamin, to copy the Hebraic alphabet: <quote source="243v">Ego, Georgius
+                           Erber, in artibus magister, pro tunc scolasticus in Coburgk, hoc
+                           alphabetum rogavi scribere quendam nomine Matheum Gutgegen de Mapurck
+                           olim existentem iudeum, nomine Beniamin cum uxore Maria quorum filius
+                           Abraham et filia Rachel, morientes pro tunc in Montua [Mantua?] anno
+                           domini 1464 in die sancte Trinitatis. Ego autem prenominatus hoc
+                           alphabetum litteris latinis sic signavi eo presente et me in hoc docente,
+                           qui et olim rabbi iudeorum fuit</quote>, f. 243v.</p>
                      <note type="msRelationship">
                         <p>
-                           <ref target="#Paris_BnF_latin6691" type="ms">Paris, BnF, latin 6691</ref>; 
-                           <ref target="#Wroclaw_BU_MsIVF1" type="ms">Wrocław, BU, Ms. IV F 1</ref>, 
-                           which were also copied in the Collège de Bourgogne.
-                        </p>
+                           <ref target="#Paris_BnF_latin6691" type="ms">Paris, BnF, latin
+                           6691</ref>; <ref target="#Wroclaw_BU_MsIVF1" type="ms">Wrocław, BU, Ms.
+                              IV F 1</ref>, which were also copied in the Collège de Bourgogne. </p>
                         <p>
-                           <ref target="#Berlin_SBPK_latfol402" type="ms">Berlin, SB – PK, lat. fol. 402</ref>, 
-                           which also belonged to 
-                           <persName ref="#GeorgiusErberDeAibling">Georgius Erber</persName>.
-                        </p>
+                           <ref target="#Berlin_SBPK_latfol402" type="ms">Berlin, SB – PK, lat. fol.
+                              402</ref>, which also belonged to <persName
+                              ref="#GeorgiusErberDeAibling">Georgius Erber</persName>. </p>
                      </note>
                   </origin>
-                  <provenance>The manuscript
-                     later came to Erfurt; on the inner front cover we read: <quote source="inner front cover">Liber sancti Petri
-                        in Erfordia</quote>.</provenance>
-                  <acquisition>It entered the possession of the Berlin State Library in 1995,
-                     when it was purchased at an auction at Gerda Bassenge.</acquisition>
-                  
+                  <provenance>The manuscript later came to Erfurt; on the inner front cover we read:
+                        <quote source="inner front cover">Liber sancti Petri in
+                     Erfordia</quote>.</provenance>
+                  <acquisition>It entered the possession of the Berlin State Library in 1995, when
+                     it was purchased at an auction at Gerda Bassenge.</acquisition>
                </history>
                <additional>
                   <adminInfo>
@@ -915,7 +917,8 @@
                      <bibl>C. Meyer, “La compilation sur la musique de Georgius Erber (Paris,
                         1460-1462). Innsbruck, Universitatsbibliothek, Cod. 962, f. 128r-163r”
                         [introduction, commentary and text edition (uploaded in HAL 18 mai 2017):
-                        <ref target="https://hal.archives-ouvertes.fr/hal-01522251">https://hal.archives-ouvertes.fr/hal-01522251</ref>, 2, n. 4-5.</bibl>
+                           <ref target="https://hal.archives-ouvertes.fr/hal-01522251"
+                           >https://hal.archives-ouvertes.fr/hal-01522251</ref>, 2, n. 4-5.</bibl>
                      <bibl>K. Heydeck, Die mittelalterlichen Handschriften der
                         Universitätsbibliothek Rostock, Wiesbaden, 2001, 33.</bibl>
                   </listBibl>
@@ -926,7 +929,7 @@
                <msIdentifier>
                   <settlement>Berlin</settlement>
                   <repository>Staatsbibliotheek, Preußischer Kulturbesitz</repository>
-                  <idno>Ms. lat. qu. 87</idno>                  
+                  <idno>Ms. lat. qu. 87</idno>
                </msIdentifier>
                <msContents>
                   <summary>None</summary>
@@ -2677,6 +2680,80 @@
             </msDesc>
 
 
+            <msDesc
+               xml:id="München_LudwigMaximiliansUniversitätMünchenUniversitätsbibliothek_2Codms568">
+               <msIdentifier>
+                  <settlement>München</settlement>
+                  <repository>Ludwig-Maximilians-Universität München,
+                     Universitätsbibliothek</repository>
+                  <idno>2 Cod. ms. 568</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>None</summary>
+                  <msItem
+                     xml:id="München_LudwigMaximiliansUniversitätMünchenUniversitätsbibliothek_2Codms568_QsP">
+                     <locus from="1r" to="92r"/>
+                     <title ref="workID">QsP</title>
+                     <note type="content">Ending interrupted at the question <title ref="workId"
+                           >Utrum omne quod reflectitur in puncto necesse sit
+                        quiescere</title></note>
+                  </msItem>
+                  <msItem
+                     xml:id="München_LudwigMaximiliansUniversitätMünchenUniversitätsbibliothek_2Codms568_QdC">
+                     <locus from="93r" to="126r"/>
+                     <title ref="workID">QdC</title>
+                  </msItem>
+                  <msItem
+                     xml:id="München_LudwigMaximiliansUniversitätMünchenUniversitätsbibliothek_2Codms568_QdG">
+                     <locus from="127r" to="145r"/>
+                     <title ref="workID">QdG</title>
+                  </msItem>
+                  <msItem
+                     xml:id="München_LudwigMaximiliansUniversitätMünchenUniversitätsbibliothek_2Codms568_QdA">
+                     <locus from="146r" to="186v"/>
+                     <title ref="workID">QdA</title>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate from="1456" to="1466">ca. 1461, a dating found in ms. München, BSB,
+                        Clm 6694, which presents a watermark identical to this codex.</origDate>
+                     <p>The manuscript was mostly copied by a single scribe named Paulus, who also
+                        copied ms. 557 in the same collection. It contains a watermark with double
+                        key also found in ms. München, BSB, Clm 6694 (WZIS DE5580-Clm6694_72a).
+                        Since the latter probably originated in Heidelberg and is linked by the
+                        watermarks to two other manuscripts copied in Heidelberg (Innsbruck,
+                        Universitäts- und Landesbibliothek Tirol, Cod. 220 and München,
+                        Ludwig-Maximilians-Universität München, Universitätsbibliothek, 2 Cod. ms.
+                        557), the Heidelberg origin probably extends also to this codex.</p>
+                     <note type="msRelationship">
+                        <p>
+                           <ref target="#Munich_LMU_CodMs557" type="ms">München,
+                              Ludwig-Maximilians-Universität, Cod. ms. 557</ref>, copied in the same
+                           period by the same scribe, Paulus, and containing the same watermark with
+                           a double key (<ref
+                              target="https://www.wasserzeichen-online.de/?ref=DE5580-Clm6694_72a"
+                              >WZIS DE5580-Clm6694_72a</ref>). </p>
+                        <p>
+                           <ref target="#Innsbruck_ULBT_Cod220" type="ms">Innsbruck, Universitäts-
+                              und Landesbibliothek Tirol, Cod. 220</ref> and <ref
+                              target="#Munich_BSB_Clm6694" type="ms">München, BSB, Clm 6694</ref>
+                           which present similar watermarks, possibly indicating a common origin.
+                        </p>
+                     </note>
+                  </origin>
+                  <provenance>The manuscript belonged to the library of the Ingolstadt Arts Faculty,
+                     as attested by the ex libris on ff. 1r, 10r, 186v, and on the back
+                     cover.</provenance>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Daniel, Schott, Zahn, Die lateinischen mittelalterlichen Handschriften,
+                        90–91.</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+
             <!-- Nürnberg, Stadtbibliothek im Bildungscampus Nürnberg, Cent. V 47* issue#3-->
 
             <msDesc xml:id="Nürnberg_StadtbibliothekimBildungscampusNürnberg_CentV47">
@@ -2931,7 +3008,7 @@
                </physDesc>
                <history>
                   <origin>
-                     <origDate from="1443" to="1446"/>
+                     <origDate from="1443" to="1446">1443-1446</origDate>
                      <p>Folios 1–163 were written mostly by <persName ref="#GalcerandusBenedicti"
                            >Galcerandus Benedicti</persName> in 1446–1447; folios 164–193, written
                         by <persName ref="#GilbertusdAuvergnat">Gilbertus Amignacensis</persName>,
