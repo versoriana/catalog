@@ -2717,17 +2717,20 @@
                <history>
                   <origin>
                      <origDate from="1456" to="1466">ca. 1461, a dating found in ms. München, BSB,
-                        Clm 6694, which presents a watermark identical to this codex.</origDate>
-                     <p>The manuscript was mostly copied by a single scribe named Paulus, who also
-                        copied ms. 557 in the same collection. It contains a watermark with double
-                        key also found in ms. München, BSB, Clm 6694 (<ref
-                           target="https://www.wasserzeichen-online.de/?ref=DE5580-Clm6694_72a"
-                           >WZIS DE5580-Clm6694_72a</ref>).
-                        Since the latter probably originated in Heidelberg and is linked by the
-                        watermarks to two other manuscripts copied in Heidelberg (Innsbruck,
-                        Universitäts- und Landesbibliothek Tirol, Cod. 220 and München,
+                        Clm 6694, which presents a watermark identical to this codex. According to
+                        the modern description, some of the watermarks are attested between 1453 and
+                        1459.</origDate>
+                     <p>The manuscript was largely copied by a single scribe named Paulus, who also
+                        copied MS 557 in the same collection. It contains a watermark with a double
+                        key, also found in München, Bayerische Staatsbibliothek, Clm 6694 (<ref
+                           target="https://www.wasserzeichen-online.de/?ref=DE5580-Clm6694_72a">WZIS
+                           DE5580-Clm6694_72a</ref>). Since the latter manuscript probably
+                        originated in Heidelberg and is linked by its watermarks to two other
+                        manuscripts copied in Heidelberg (Innsbruck, Universitäts- und
+                        Landesbibliothek Tirol, Cod. 220, and München,
                         Ludwig-Maximilians-Universität München, Universitätsbibliothek, 2 Cod. ms.
-                        557), the Heidelberg origin probably extends also to this codex.</p>
+                        557), a Heidelberg origin can probably be extended to the present codex as
+                        well.</p>
                      <note type="msRelationship">
                         <p>
                            <ref target="#Munich_LMU_CodMs557" type="ms">München,
@@ -2807,9 +2810,8 @@
                </msContents>
                <history>
                   <origin>
-                     <origDate from="1453" to="1459">1453–1459. Dates inferred from the watermarks found
-                        in ms. 568; since both manuscripts were written by the same scribe and share
-                        a watermark, this date range applies to both.</origDate>                     
+                     <origDate from="1456" to="1466">ca. 1461, a dating found in ms. München, BSB,
+                        Clm 6694, which presents a watermark identical to this codex.</origDate>
                      <p>No explicit information about the date and origin of this manuscript can be
                         directly inferred from it. The main scribe, named Paulus (as indicated in
                         the colophon, f. 190rb), also copied ms. 568 of this collection. The
@@ -2823,7 +2825,7 @@
                         namely Heidelberg. In fact, this codex presents the same double key
                         watermark found in ms. Innsbruck, Universitäts- und Landesbibliothek Tirol,
                         Cod. 220 and München, BSB, Clm 6694 (WZIS DE5580-Clm6694_72a), which
-                        originated in Heidelberg. 1r, 10r, and on the back cover.</p>
+                        originated in Heidelberg.</p>
                      <note type="msRelationship">
                         <p>
                            <ref target="#Innsbruck_ULBT_Cod220" type="ms">Innsbruck, Universitäts-
@@ -2833,7 +2835,7 @@
                               <ref target="#Munich_BSB_Clm6694" type="ms">Ms. Clm 6694, f.
                               188rb</ref> also presents the same colophon found at f. 190rb: <quote
                               source="190rb">Nutrix verbigene te laudo agili corde. De libri termino
-                              pallasque sereno mente</quote>. </p>
+                              pallasque sereno mente</quote>.</p>
                         <p>
                            <ref target="#Munich_LMU_CodMs568" type="ms">München,
                               Ludwig-Maximilians-Universität, Cod. ms. 568</ref>, which was copied
@@ -2845,7 +2847,8 @@
                   </origin>
                   <provenance>
                      <p>The manuscript belonged to the library of the Arts Faculty of Ingolstadt
-                        University, as attested by the ex libris on ff.</p>
+                        University, as attested by the ex libris on ff. 1r, 10r, and on the back
+                        cover.</p>
                   </provenance>
                </history>
                <additional>
