@@ -3,6 +3,10 @@
 <?xml-model href="../schema/out/VersorisMss.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="../schema/out/VersorisMss.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 
+<!--<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+-->
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -11,7 +15,6 @@
             <editor ref="ID">Aurora Panzica</editor>
             <respStmt>
                <resp>TEI modelling and encoding</resp>
-               <persName ref="ID">Elena Spadini</persName>
                <persName ref="ID">José Luis Losada</persName>
             </respStmt>
          </titleStmt>
@@ -801,11 +804,129 @@
                </additional>
             </msDesc>
 
+            <msDesc xml:id="Berlin_SBPK_Hdschr435">
+               <msIdentifier>
+                  <settlement>Berlin</settlement>
+                  <repository>SB – PK</repository>
+                  <idno>Hdschr. 435</idno>
+                  <idno type="URI">https://resolver.staatsbibliothek-berlin.de/HSP00038DF400000000</idno>
+                  <altIdentifier>
+                     <settlement>Erfurt</settlement>
+                     <repository>Archiv der Lorenzkirche</repository>
+                     <idno>G4</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary>None</summary>
+                  <msItem xml:id="Berlin_SBPK_Hdschr435olimErfurt_QsPor">
+                     <locus from="3ra" to="35rb"/>
+                     <title ref="workID">QsPor</title>
+                  </msItem>
+                  <msItem xml:id="Berlin_SBPK_Hdschr435olimErfurt_QsPre">
+                     <locus from="35va" to="65vb"/>
+                     <title ref="workID">QsPre</title>
+                  </msItem>
+                  <msItem xml:id="Berlin_SBPK_Hdschr435olimErfurt_QsSex">
+                     <locus from="66ra" to="73vb"/>
+                     <title ref="workID">QsSex</title>
+                  </msItem>
+                  <msItem xml:id="Berlin_SBPK_Hdschr435olimErfurt_QsDiv">
+                     <locus from="74ra" to="78va"/>
+                     <title ref="workID">QsDiv</title>
+                  </msItem>
+                  <msItem xml:id="Berlin_SBPK_Hdschr435olimErfurt_QsInt">
+                     <locus from="79ra" to="98rb"/>
+                     <title ref="workID">QsInt</title>
+                  </msItem>
+                  <msItem xml:id="Berlin_SBPK_Hdschr435olimErfurt_QsPri">
+                     <locus from="98va" to="127vb"/>
+                     <title ref="workID">QsPri</title>
+                  </msItem>
+                  <msItem xml:id="Berlin_SBPK_Hdschr435olimErfurt_QsPos">
+                     <locus from="128ra" to="156rb"/>
+                     <title ref="workID">QsPos</title>
+                  </msItem>
+                  <msItem xml:id="Berlin_SBPK_Hdschr435olimErfurt_QsTop">
+                     <locus from="157ra" to="202ra"/>
+                     <title ref="workID">QsTop I-IV</title>
+                  </msItem>
+                  <msItem xml:id="Berlin_SBPK_Hdschr435olimErfurt_QsSE">
+                     <locus from="204ra" to="229rb"/>
+                     <title ref="workID">QsSE</title>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate from="1460" to="1461">1460-1461, with a note by Erber added in 1464.</origDate>
+                     <p>The manuscript originated at Paris University. The treatise de intentionibus
+                        secundis (ff. 2r–6r) was copied by Georgius Erber, at that time student at
+                        the Collège de la Marche, in 1461: <quote source="6r">Scriptum Parisius in collegio Magne
+                        Marchie, anno Domini 1461, in die Trinitatis, finitum per manus Georgii
+                        Erber, ibidem tunc tempore studentem</quote>, f. 6r. The commentaries on the
+                        logical corpus ascribed to Versoris were copied between 1460 and 1461 at the
+                        Collège de Bourgogne by Rudolfus de Lo: <quote source="125rb">Et hoc de questione, et per
+                        consequens de toto libro Priorum, finite per manus Rudolfi de Lo, alumni
+                        altissimi reverendique collegii Burgundiae, anno Domini M CCCC LXVIII in
+                        vigilia Iudica</quote>, f. 125rb; <quote source="168rb">Et hoc de questione, et per consequens de toto
+                           Posteriorum Analeticorum Aristotelis. Laus Deo, 1460</quote>, f. 168rb; <quote source="202ra">Et hoc de
+                        questione, et per consequens de toto libro Topicorum Aristotelis sufficiant.
+                        Pro quo laudetur qui omnibus esse habetur. Finita Parisius anno Domini 1461
+                        incipiente</quote>, f. 202ra. Georgius Erber bought the manuscript in the same
+                        year: <quote source="229rb">Anno Domini 1461 finita est hec loyca Arestotelis, comparata per
+                        Georgius Erber de Aybling, protunc Parisius studentem</quote>, f. 229rb. Later on,
+                        in 1464, Georgius Erber, by then Master of Arts in Coburg, asked a certain
+                        Matheus Gutgegen de Mapurck, who previously was a rabbi called Beniamin, to
+                        copy the Hebraic alphabet: <quote source="243v">Ego, Georgius Erber, in artibus magister, pro
+                        tunc scolasticus in Coburgk, hoc alphabetum rogavi scribere quendam nomine
+                        Matheum Gutgegen de Mapurck olim existentem iudeum, nomine Beniamin cum
+                        uxore Maria quorum filius Abraham et filia Rachel, morientes pro tunc in
+                        Montua [Mantua?] anno domini 1464 in die sancte Trinitatis. Ego autem
+                        prenominatus hoc alphabetum litteris latinis sic signavi eo presente et me
+                        in hoc docente, qui et olim rabbi iudeorum fuit</quote>, f. 243v.</p>
+                     <note type="msRelationship">
+                        <p>
+                           <ref target="#Paris_BnF_latin6691" type="ms">Paris, BnF, latin 6691</ref>; 
+                           <ref target="#Wroclaw_BU_MsIVF1" type="ms">Wrocław, BU, Ms. IV F 1</ref>, 
+                           which were also copied in the Collège de Bourgogne.
+                        </p>
+                        <p>
+                           <ref target="#Berlin_SBPK_latfol402" type="ms">Berlin, SB – PK, lat. fol. 402</ref>, 
+                           which also belonged to 
+                           <persName ref="#GeorgiusErberDeAibling">Georgius Erber</persName>.
+                        </p>
+                     </note>
+                  </origin>
+                  <provenance>The manuscript
+                     later came to Erfurt; on the inner front cover we read: <quote source="inner front cover">Liber sancti Petri
+                        in Erfordia</quote>.</provenance>
+                  <acquisition>It entered the possession of the Berlin State Library in 1995,
+                     when it was purchased at an auction at Gerda Bassenge.</acquisition>
+                  
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source cert="high" resp="#">
+                           <p>Ms directly examined</p>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+                  <listBibl>
+                     <bibl>C. Meyer, “La compilation sur la musique de Georgius Erber (Paris,
+                        1460-1462). Innsbruck, Universitatsbibliothek, Cod. 962, f. 128r-163r”
+                        [introduction, commentary and text edition (uploaded in HAL 18 mai 2017):
+                        <ref target="https://hal.archives-ouvertes.fr/hal-01522251">https://hal.archives-ouvertes.fr/hal-01522251</ref>, 2, n. 4-5.</bibl>
+                     <bibl>K. Heydeck, Die mittelalterlichen Handschriften der
+                        Universitätsbibliothek Rostock, Wiesbaden, 2001, 33.</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+
             <msDesc xml:id="Berlin_StaatsbibliotheekPreußischerKulturbesitz_Mslatqu87">
                <msIdentifier>
                   <settlement>Berlin</settlement>
                   <repository>Staatsbibliotheek, Preußischer Kulturbesitz</repository>
-                  <idno>Ms. lat. qu. 87</idno>
+                  <idno>Ms. lat. qu. 87</idno>                  
                </msIdentifier>
                <msContents>
                   <summary>None</summary>
@@ -3469,10 +3590,11 @@
                            pedagogio magistri Alberti Scriptoris, et hoc anno Domini 1450. Et est
                            finitus in collegio Reczek ante dominicam Iudica anno 1457</quote>. </p>
                      <p>Some notes throughout the codex prove that these commentaries were adopted
-                        by Prague masters for their teaching. See for instance f. 3r: <quote source="3r">Magister
-                        reverendus Wenczeslaus incepit legere vetere artem feria quarta ante festum
-                        Galli</quote>”; f. 238r: <quote source="238r">Incepit librum Elenchorum legere fertia sexta proxima post
-                        Margarethe, in lectorio Platonis, hora undecima</quote>. The master could be
+                        by Prague masters for their teaching. See for instance f. 3r: <quote
+                           source="3r">Magister reverendus Wenczeslaus incepit legere vetere artem
+                           feria quarta ante festum Galli</quote>”; f. 238r: <quote source="238r"
+                           >Incepit librum Elenchorum legere fertia sexta proxima post Margarethe,
+                           in lectorio Platonis, hora undecima</quote>. The master could be
                         Wenceslaus de Paczow, who taught Versoris’s commentaries transmitted in the
                         Prague manuscripts NKČR, IV F 8 and X G 1.</p>
                      <note type="msRelationship">
