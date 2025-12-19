@@ -2861,6 +2861,60 @@
                </additional>
             </msDesc>
 
+
+            <msDesc xml:id="München_LudwigMaximiliansUniversitätMünchenUniversitätsbibliothek_4649">
+               <msIdentifier>
+                  <settlement>München</settlement>
+                  <repository>Ludwig-Maximilians-Universität München,
+                     Universitätsbibliothek</repository>
+                  <idno>4° 649</idno>
+                  <idno type="DOI">https://doi.org/10.5282/ubm/digi.5910</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>None</summary>
+                  <msItem
+                     xml:id="München_LudwigMaximiliansUniversitätMünchenUniversitätsbibliothek_4649_QsDiv">
+                     <locus from="216r" to="223r"/>
+                     <title ref="workID">QsDiv</title>
+                     <colophon source="223ra">Et sic est finis, laudetur Deus in divinis.
+                        1478</colophon>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate from="1478" to="1478">1478, as stated in the colophon, f.
+                        223ra.</origDate>
+                     <p>The different parts of this composite philosophical manuscript were copied
+                        in South Germany between 1472 and 1478.</p>
+                     <note type="content">The manuscript also contains texts by Albert the Great and
+                        Thomas Aquinas, as well as Albertistic texts, such as Iohannes de Nova
+                        Domo’s De universali reali (ff. 130r–131v) and Heymericus de Campo’s
+                        Tractatus problematicus (ff. 155v–160v; 126r–130r).</note>
+                  </origin>
+                  <provenance>The codex belonged to the library of the Ingolstadt Arts Faculty. It
+                     is therefore possible that the manuscript originated at Ingolstadt
+                     University.</provenance>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source cert="high" resp="#">
+                           <p>Ms directly examined</p>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+                  <listBibl>
+                     <bibl>G. Schott, Die Handschriften der Universitätsbibliothek München. Erster
+                        Band: Die deutschen mittelalterlichen Handschriften der
+                        Universitätsbibliothek München, Wiesbaden 1968, 169–170.</bibl>
+                     <bibl>M. Reuter, Die lateinischen mittelalterlichen Handschriften der
+                        Universitätsbibliothek München: die Handschriften aus der Quartreihe,
+                        Wiesbaden 2000, 175–180.</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+
+
             <!-- Nürnberg, Stadtbibliothek im Bildungscampus Nürnberg, Cent. V 47* issue#3-->
 
             <msDesc xml:id="Nürnberg_StadtbibliothekimBildungscampusNürnberg_CentV47">
