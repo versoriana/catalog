@@ -4588,6 +4588,8 @@
                </additional>
             </msDesc>
 
+
+
             <msDesc xml:id="Stuttgart_WürttembergischeLandesbibliothek_Codtheoletphil27">
                <msIdentifier>
                   <settlement>Stuttgart</settlement>
@@ -4600,14 +4602,16 @@
                      <locus from="2ra" to="48va"/>
                      <title ref="workID">QdA</title>
                      <note type="content">This is the only text contained in the manuscript.</note>
-                     <note type="content">The commentary includes abundant marginal notes up to f. 41v.</note>
+                     <note type="content">The commentary includes abundant marginal notes up to f.
+                        41v.</note>
                   </msItem>
                </msContents>
                <history>
                   <origin>
-                     <origDate from="1490" to="1490">1490–1491, as inferred from the watermarks.</origDate>
+                     <origDate from="1490" to="1490">1490–1491, as inferred from the
+                        watermarks.</origDate>
                      <p>The watermarks, typical of the Upper Rhine and Schwarzwald regions, contain
-                        the coat of arms of the city of Offenburg (Piccard: Turm XVII 191/193).</p>                     
+                        the coat of arms of the city of Offenburg (Piccard: Turm XVII 191/193).</p>
                   </origin>
                   <provenance>
                      <p>The manuscript arrived in Stuttgart in 1765.</p>
@@ -4627,6 +4631,72 @@
                </additional>
             </msDesc>
 
+            <msDesc xml:id="Stuttgart_WürttembergischeLandesbibliothek_HBX28">
+               <msIdentifier>
+                  <settlement>Stuttgart</settlement>
+                  <repository>Württembergische Landesbibliothek</repository>
+                  <idno>HB X 28</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>None</summary>
+                  <msItem xml:id="Stuttgart_WürttembergischeLandesbibliothek_HBX28_CsY">
+                     <locus from="117r" to="119v"/>
+                     <title ref="workID">CsY</title>
+                     <note type="content"> This text is part of a series of anonymous notes,
+                        schemata, and short questions on Aristotle’s natural books (Physics; De
+                        celo, two commentaries; De generatione et corruptione; Meteorologica; De
+                        anima; De sensu et sensato; De memoria et reminiscentia) and moral works
+                        (Ethics, two commentaries; Politics). The commentary on the Politics that
+                        immediately follows (ff. 120r–136v) is copied by the same hand and begins
+                        with an incipit that makes a smooth transition from the CsY (<quote
+                           source="incipit">Expeditis duabus partibus moralis philosophie, restat
+                           dicere de parte tertia</quote>). It shares the same structure: the text
+                        is divided into chapters followed by sections of doubts (dubia). As in CsY,
+                        chapters are introduced with formulas such as: <quote source="">Iste est
+                           liber secundus, in quod Philosophus determinat”… and the dubia sections
+                           with phrases like: “Ad evidentiam autem meliorem huius erunt duo
+                           dubia</quote>. </note>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <p>No explicit information about the provenance or dating of this manuscript
+                        can be found in the texts. However, the binding—produced in Danzig between
+                        1433 and 1436—suggests the manuscript was copied before that date. The
+                        watermarks indicate a likely origin between the late 1420s and early 1430s,
+                        in a region between South Tyrol and Bavaria. For instance, the oxhead with
+                        flower at f. 1 is quite similar (though not identical) to Piccard II.3 XII
+                        65 (1424, 1426, München); the oxhead with cross at ff. 11, 69 resembles
+                        Piccard II.3 XI 117/118 (1430–1436, Dillingen, Tramin, among others); the
+                        oxhead with flower at f. 145 corresponds to Piccard II.3 XIII 291
+                        (1422–1424, Innsbruck, Landshut, Mergentheim, Nürnberg, Schwäbisch Hall);
+                        and the oxhead with flower at ff. 347, 355, 360 is quite similar to Piccard
+                        II.3 XII 204/205 (1434–1436, Freising, Haselbach, Kamerau, Marienburg) and
+                        very similar to Briquet 14782 (Tyrol, 1432; Brunswick, 1435). I was not able
+                        to identify the oxhead with nostrils (f. 137) or the crown (f. 267) in
+                        either Briquet or Piccard.</p>
+                  </origin>
+                  <provenance>The manuscript was later located in Wiblingen (near Ulm), as evidenced
+                     by its mention in the 1632 catalogue. On f. 2r is written: Ex libris Monasterii
+                     Wiblingen. In 1822, the manuscript entered the possession of the Tübinger
+                     Wilhelmsstift and was acquired by the Royal Library in 1885.</provenance>
+
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source cert="high" resp="#">
+                           <p>Ms directly examined</p>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+                  <listBibl>
+
+                     <bibl>Buhl, Die Handschriften, 103–105.</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+
             <msDesc xml:id="VaticanoCittàdel_BibliotecaApostolicaVaticana_Pallat1050">
                <msIdentifier>
                   <settlement>Vaticano (Città del)</settlement>
@@ -4635,8 +4705,7 @@
                   <idno type="DOI">https://doi.org/10.11588/diglit.10912 </idno>
                </msIdentifier>
                <msContents>
-                  <summary>None</summary>
-
+                  <summary/>
                   <msItem xml:id="VaticanoCittàdel_BibliotecaApostolicaVaticana_Pallat1050_QsMete">
                      <locus from="255r" to="292v"/>
                      <title ref="workID">QsMete</title>
