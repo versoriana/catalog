@@ -4588,7 +4588,117 @@
                </additional>
             </msDesc>
 
+            <msDesc xml:id="Stuttgart_WürttembergischeLandesbibliothek_HBX2">
+               <msIdentifier>
+                  <settlement>Stuttgart</settlement>
+                  <repository>Württembergische Landesbibliothek</repository>
+                  <idno>HB X 2</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>The texts are transmitted anonymously, but the parchment title shield
+                     affixed to the back cover clearly indicates their Parisian origin.</summary>
+                  <msItem xml:id="Stuttgart_WürttembergischeLandesbibliothek_HBX2_QsPor">
+                     <locus from="3ra" to="35rb"/>
+                     <title ref="workID">QsPor</title>
+                  </msItem>
+                  <msItem xml:id="Stuttgart_WürttembergischeLandesbibliothek_HBX2_QsPre">
+                     <locus from="35va" to="65vb"/>
+                     <title ref="workID">QsPre</title>
+                  </msItem>
+                  <msItem xml:id="Stuttgart_WürttembergischeLandesbibliothek_HBX2_QsSex">
+                     <locus from="66ra" to="73vb"/>
+                     <title ref="workID">QsSex</title>
+                  </msItem>
+                  <msItem xml:id="Stuttgart_WürttembergischeLandesbibliothek_HBX2_QsDiv">
+                     <locus from="74ra" to="78va"/>
+                     <title ref="workID">QsDiv</title>
+                  </msItem>
+                  <msItem xml:id="Stuttgart_WürttembergischeLandesbibliothek_HBX2_QsInt">
+                     <locus from="79ra" to="98rb"/>
+                     <title ref="workID">QsInt</title>
+                  </msItem>
+                  <msItem xml:id="Stuttgart_WürttembergischeLandesbibliothek_HBX2_QsPri">
+                     <locus from="98va" to="127vb"/>
+                     <title ref="workID">QsPri</title>
+                     <colophon source="127vb">Et hec de questione, et per consequens de toto libro
+                        primo et secundo Priorum Aristotelis, finito Parisius per manus Clementis
+                        Bohemi de Melnyk, anno Domini M°CCCC°XLIX°, in anno Iubileo</colophon>
+                  </msItem>
+                  <msItem xml:id="Stuttgart_WürttembergischeLandesbibliothek_HBX2_QsPos">
+                     <locus from="128ra" to="156rb"/>
+                     <title ref="workID">QsPos</title>
+                     <colophon source="156rb">Finitus liber Posteriorum per manus Clementis de
+                        Melnyk de Bohemia, Parisius, in domo magistri Alberti Scriptoris</colophon>
+                  </msItem>
+                  <msItem xml:id="Stuttgart_WürttembergischeLandesbibliothek_HBX2_QsTop">
+                     <locus from="157ra" to="177va"/>
+                     <title ref="workID">QsTop I-IV</title>
+                  </msItem>
+                  <msItem xml:id="Stuttgart_WürttembergischeLandesbibliothek_HBX2_QsSE">
+                     <locus from="178ra" to="196rb"/>
+                     <title ref="workID">QsSE</title>
+                     <colophon source="196rb">Et hec de questione, et per consequens de tota logica
+                        vetere et nova, per manus Clementis de Melnyk Bohemi</colophon>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate from="1449" to="1449">1449</origDate>
+                     <origPlace ref="#place_paris">Paris</origPlace>
+                     <p>The manuscript was copied in Paris, in the school of the master <persName
+                           ref="#AlbertusScriptorisDeDoesborch">Albertus Scriptoris</persName>, by
+                        the Czech student <persName ref="#ClemensDeMelnik">Clemens de
+                           Melnyk</persName>, as attested by the colophons: f. 127vb; f. 156rb; f.
+                        196rb.</p>
+                     <note type="msRelationship">
+                        <p>
+                           <ref target="#Prague_NK_XH21" type="ms">Praha, NK, X H 21</ref>, which
+                           refers to a manuscript of logical content copied by a Bohemian student in
+                           the school of the Parisian master <persName
+                              ref="#AlbertusScriptorisDeDoesborch">Albertus Scriptoris</persName>
+                           and subsequently brought to Prague. </p>
+                        <p>
+                           <ref target="#Berlin_SBPK_latfol402" type="ms">Berlin, Staatsbibliothek –
+                              PK, lat. fol. 402</ref>, which features a watermark identical to one
+                           found in this manuscript (a unicorn, Piccard X 3 2010, particularly
+                           visible on fol. 21), widespread in the years 1448–1449.</p>
+                     </note>
+                  </origin>
+                  <provenance>
+                     <p>The manuscript belonged to the master Iohannes Guldin, as attested by the
+                        parchment title shield affixed to the back cover: <quote source="back cover"
+                           >Disputata veteris et nove loyce parisiensis. A magistro Iohanne
+                           Guldin</quote>. Guldin, a jurist, served as a canon in Isny in 1462/1463
+                        and died in Constance in 1469 or 1470. From Guldin’s library, the codex
+                        passed into the possession of the library of Constance Cathedral, as
+                        evidenced by the binding – typical of manuscripts from Constance – and by
+                        fragments attached to the cover that mention individuals from the city. From
+                        Constance, the manuscript made its way to Weingarten. On f. 3r, marg. sup.,
+                        one reads: <quote source="3r, marg. sup.">Monasterii Weingartensis, anno
+                           1630</quote>.</p>
+                  </provenance>
 
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source cert="high" resp="#">
+                           <p>Ms directly examined</p>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+                  <listBibl>
+                     <bibl>F. M. Bartoš, Husitika a bohemika několika knihoven německých a
+                        švýcarských [Hussitica and Bohemica in some German and Swiss libraries],
+                        Praha 1932, 40.</bibl>
+                     <bibl>M. S. Buhl, Die Handschriften der Württembergischen Landesbibliothek
+                        Stuttgart. Bd. 4.1. Codices philologici (HB VIII 1 –31). Codices Arabici (HB
+                        IX 1 –2). Codices philosophici (HB X 1 –30), Wiesbaden 1972, 60–61.</bibl>
+                     <bibl>Šmahel, Paris und Prag, 457.</bibl>
+                     <bibl>Flüeler, Terminologie, 82.</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
 
             <msDesc xml:id="Stuttgart_WürttembergischeLandesbibliothek_Codtheoletphil27">
                <msIdentifier>
@@ -4680,7 +4790,6 @@
                      by its mention in the 1632 catalogue. On f. 2r is written: Ex libris Monasterii
                      Wiblingen. In 1822, the manuscript entered the possession of the Tübinger
                      Wilhelmsstift and was acquired by the Royal Library in 1885.</provenance>
-
                </history>
                <additional>
                   <adminInfo>
@@ -4691,7 +4800,6 @@
                      </recordHist>
                   </adminInfo>
                   <listBibl>
-
                      <bibl>Buhl, Die Handschriften, 103–105.</bibl>
                   </listBibl>
                </additional>
