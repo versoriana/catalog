@@ -1862,11 +1862,10 @@
                      </recordHist>
                   </adminInfo>
                   <listBibl>
-                     <listBibl>
+                     
                         <bibl>Wysłocki, Katalog II, 488.</bibl>
                         <bibl>Senko, De ente, 16.</bibl>
                         <bibl>Markowski/Włodek, Aristotelica Cracoviensia, 88–89.</bibl>
-                     </listBibl>
                   </listBibl>
                </additional>
             </msDesc>
@@ -2388,7 +2387,7 @@
                      </recordHist>
                   </adminInfo>
                   <listBibl>
-                     <listBibl>
+                     
                         <bibl>Kristeller, Iter Italicum, III, 419.</bibl>
                         <bibl>Markowski, “Kontakty personalne i naukowe”, 95–98.</bibl>
                         <bibl>Markowski, Lipsienses, 60, 241.</bibl>
@@ -2398,7 +2397,6 @@
                            Jahrhunderte. Katalog zur gleichnamigen Ausstellung in der Bibliotheca
                            Albertina vom 18. Oktober 2012 bis 20. Januar 2013, 9–36, at
                            13–15.</bibl>
-                     </listBibl>
                   </listBibl>
                </additional>
             </msDesc>
@@ -3206,13 +3204,12 @@
                      </recordHist>
                   </adminInfo>
                   <listBibl>
-                     <listBibl>
+                     
                         <bibl>Coxe, Catalogi, Quarto Catalogues III, col. 581–582.</bibl>
                         <bibl>Watson, Catalogue, 50–51, n. 311.</bibl>
                         <bibl>Flüeler, Terminologie, 64, fn. 16.</bibl>
                         <bibl>Deuffic, “Copistes”, 181.</bibl>
                         <bibl>Thomson, Catalogue, 74–76.</bibl>
-                     </listBibl>
                   </listBibl>
                </additional>
             </msDesc>
@@ -3660,7 +3657,7 @@
                      </recordHist>
                   </adminInfo>
                   <listBibl>
-                     <listBibl>
+                     
                         <bibl>C. Samaran, R. Marichal, Catalogue des manuscrits en écriture latine
                            portant des indications de date, de lieu ou de copiste, Tome III,
                            Bibliothèque Nationale, fonds latin Nos. 8001 à 18613, Paris, 1974,
@@ -3668,7 +3665,6 @@
                         <bibl>Rouse, Manuscripts II, 140.</bibl>
                         <bibl>Deuffic, “Une diaspora”, 179, 283.</bibl>
                         <bibl>Sullivan, Parisian Licentiates II, 120.</bibl>
-                     </listBibl>
                   </listBibl>
                </additional>
             </msDesc>
@@ -4293,7 +4289,7 @@
                      <ptr target="https://immagini.mirabileweb.it/images/SI0046-HVI07-001r.jpg"/>
                   </surrogates>
                   <listBibl>
-                     <listBibl>
+                     
                         <bibl>Kaeppeli I, p. 395–397, n° 1122 (Franciscus de Prato).</bibl>
                         <bibl>Kaeppeli III, p. 302, n° 3464 (Richaldus de Bovilla).</bibl>
                         <bibl>Meirinhos, Bibliotheca, pp. 399–400, n° 680 (where Versoris’s CsPH is
@@ -4306,7 +4302,6 @@
                            as “Super Praedicabilia Aristotelis” and Versoris’s QdA as “Lectiones in
                            Perihermeneias”).</bibl>
                         <bibl>Lohr II, pp. 120–121 (Richardus de Bovilla).</bibl>
-                     </listBibl>
                   </listBibl>
                </additional>
             </msDesc>
