@@ -247,11 +247,11 @@
                         hook.</p>
                      <origPlace cert="medium">Paris</origPlace>
                   </origin>
-                  <provenance>Just like <ref type="ms" target="id">ms. Amiens 405</ref>, it belonged
-                     to <orgName>monastery of St. Pierre</orgName> in <placeName>Corby</placeName>.
+                  <provenance><p >Just like <ref type="ms" target="id" xmlns="http://www.tei-c.org/ns/1.0">ms. Amiens 405</ref>, it belonged
+                     to <orgName xmlns="http://www.tei-c.org/ns/1.0">monastery of St. Pierre</orgName> in <placeName xmlns="http://www.tei-c.org/ns/1.0">Corby</placeName>.
                      On f. 1r, in the centre of the decoration, a later (17th century) hand wrote:
-                        <quote source="1r">monasterii sancti Petri Corbeiensis</quote>.
-                  </provenance>
+                        <quote source="1r" xmlns="http://www.tei-c.org/ns/1.0">monasterii sancti Petri Corbeiensis</quote>.
+                  </p></provenance>
                </history>
                <additional>
                   <adminInfo>
@@ -394,8 +394,8 @@
                            ref="w_ID">Metaphysics</title>, logic, and natural philosophy. The four
                         volumes were copied between the years 1492 and 1493.</p>
                   </origin>
-                  <provenance>The manuscript belonged to <orgName ref="orgID">Bamberg Chapter
-                        library</orgName></provenance>
+                  <provenance><p >The manuscript belonged to <orgName ref="orgID" xmlns="http://www.tei-c.org/ns/1.0">Bamberg Chapter
+                        library</orgName></p></provenance>
                </history>
                <additional>
                   <adminInfo>
@@ -470,8 +470,8 @@
                         35r) or <persName ref="#NicolausUnbehuen">Umbehauen </persName>(as stated on
                         f. 137r). </p>
                   </origin>
-                  <provenance>It belonged to the <orgName ref="ordID">Dominican convent</orgName>,
-                     as indicated on f. 1r: <q>ordinis predicatorum</q>.</provenance>
+                  <provenance><p >It belonged to the <orgName ref="ordID" xmlns="http://www.tei-c.org/ns/1.0">Dominican convent</orgName>,
+                     as indicated on f. 1r: <q xmlns="http://www.tei-c.org/ns/1.0">ordinis predicatorum</q>.</p></provenance>
                </history>
                <additional>
                   <adminInfo>
@@ -571,9 +571,9 @@
                            Lapide</persName>.</p>
                      </note>
                   </origin>
-                  <provenance>The codex was acquired by <persName ref="persID">Iohannes de
-                        Lapide</persName>, who brought it to the <orgName>Carthusian
-                        Convent</orgName> in <placeName>Basel</placeName>.</provenance>
+                  <provenance><p >The codex was acquired by <persName ref="persID" xmlns="http://www.tei-c.org/ns/1.0">Iohannes de
+                        Lapide</persName>, who brought it to the <orgName xmlns="http://www.tei-c.org/ns/1.0">Carthusian
+                        Convent</orgName> in <placeName xmlns="http://www.tei-c.org/ns/1.0">Basel</placeName>.</p></provenance>
                </history>
                <additional>
                   <listBibl>
@@ -601,8 +601,8 @@
                      <origDate from="1445" to="1455">ca. 1450</origDate>
                      <p><watermark>Watermark</watermark> similar to <bibl>Piccard</bibl> (Frucht I,
                         393-398), used around 1450.</p></origin>
-                  <provenance>Belonged to the <orgName ref="orgID">Basel Dominican
-                     Convent</orgName></provenance>
+                  <provenance><p >Belonged to the <orgName ref="orgID" xmlns="http://www.tei-c.org/ns/1.0">Basel Dominican
+                     Convent</orgName></p></provenance>
                </history>
 
                <additional>
@@ -700,8 +700,8 @@
                      </note>
                   </origin>
 
-                  <provenance>Belonged to the <orgName ref="#BaselDominicanConvent">Basel Dominican
-                        Convent</orgName></provenance>
+                  <provenance><p >Belonged to the <orgName ref="#BaselDominicanConvent" xmlns="http://www.tei-c.org/ns/1.0">Basel Dominican
+                        Convent</orgName></p></provenance>
                </history>
                <additional>
                   <listBibl>
@@ -783,8 +783,8 @@
                            Lapide</persName>.</p>
                      </note>
                   </origin>
-                  <provenance>Belonged to the <orgName ref="#BaselDominicanConvent">Basel Dominican
-                        Convent</orgName></provenance>
+                  <provenance><p >Belonged to the <orgName ref="#BaselDominicanConvent" xmlns="http://www.tei-c.org/ns/1.0">Basel Dominican
+                        Convent</orgName></p></provenance>
                </history>
                <additional>
                   <listBibl>
@@ -888,9 +888,9 @@
                               ref="#GeorgiusErberDeAibling">Georgius Erber</persName>. </p>
                      </note>
                   </origin>
-                  <provenance>The manuscript later came to Erfurt; on the inner front cover we read:
-                        <quote source="inner front cover">Liber sancti Petri in
-                     Erfordia</quote>.</provenance>
+                  <provenance><p >The manuscript later came to Erfurt; on the inner front cover we read:
+                        <quote source="inner front cover" xmlns="http://www.tei-c.org/ns/1.0">Liber sancti Petri in
+                     Erfordia</quote>.</p></provenance>
                   <acquisition>It entered the possession of the Berlin State Library in 1995, when
                      it was purchased at an auction at Gerda Bassenge.</acquisition>
                </history>
@@ -1148,8 +1148,8 @@
                            <bibl corresp="ID">Piccard I 393-398</bibl>) of <ref
                            target="#Basel_UB_F-VI-4">ms. Basel, UB F VI 4</ref></note>
                   </origin>
-                  <provenance>The manuscript belonged to the <orgName>convent of the
-                        Dominicans</orgName> of <placeName>Guebwiller</placeName>.</provenance>
+                  <provenance><p >The manuscript belonged to the <orgName xmlns="http://www.tei-c.org/ns/1.0">convent of the
+                        Dominicans</orgName> of <placeName xmlns="http://www.tei-c.org/ns/1.0">Guebwiller</placeName>.</p></provenance>
 
                </history>
                <additional>
@@ -1539,10 +1539,10 @@
                         from 1497 to 1500 (f. 204r) suggest that the volume was assembled at the end
                         of the fifteenth century.</p>
                   </origin>
-                  <provenance>The codex belonged to <persName ref="#IacobusBorkemanMariaeburgo"
+                  <provenance><p >The codex belonged to <persName ref="#IacobusBorkemanMariaeburgo" xmlns="http://www.tei-c.org/ns/1.0"
                         >Iacobus Borkeman de Mariaeburgo</persName>, as indicated by the possession
-                     mark on the upper margin of f. 2r: <quote source="2r">Iacobi Borkeman
-                        Mariaenburgensis sum</quote>.</provenance>
+                     mark on the upper margin of f. 2r: <quote source="2r" xmlns="http://www.tei-c.org/ns/1.0">Iacobi Borkeman
+                        Mariaenburgensis sum</quote>.</p></provenance>
                </history>
                <additional>
                   <adminInfo>
@@ -1753,12 +1753,12 @@
                            2085</ref>, which also belonged to <persName ref="#MichaelDeTurobin"
                            >Michael de Turobin</persName>.</note>
                   </origin>
-                  <provenance>The codex belonged to <persName ref="#MichaelDeTurobin">Michael de
-                        Turobin</persName>: <quote source="1r">Liber Michaelis Lublin, alias de
+                  <provenance><p >The codex belonged to <persName ref="#MichaelDeTurobin" xmlns="http://www.tei-c.org/ns/1.0">Michael de
+                        Turobin</persName>: <quote source="1r" xmlns="http://www.tei-c.org/ns/1.0">Liber Michaelis Lublin, alias de
                         Turobin, decretorum doctoris, decani Cureloviensis, canonici Lovicensis et
                         fundatoris ecclesie Collegialis ad sanctam Annam Cracovie, datus in usum
                         pauperum studiosorum, qui obiit 1528, 24 Aprilis</quote>, f.
-                     1r.</provenance>
+                     1r.</p></provenance>
 
                </history>
                <additional>
@@ -2368,9 +2368,9 @@
                            anima, Metaphysicorum Coloniensium</quote>. The layout makes clear that
                         the qualification “Coloniensium” applies only to the last two texts.</p>
                   </origin>
-                  <provenance>The codex was transferred to the holdings of the Leipzig University
+                  <provenance><p >The codex was transferred to the holdings of the Leipzig University
                      Library (Bibliotheca Paulina) in 1683, along with the library of the Faculty of
-                     Philosophy.</provenance>
+                     Philosophy.</p></provenance>
                </history>
                <additional>
                   <adminInfo>
@@ -2522,8 +2522,8 @@
                         Heildeberg University, as stated in the colophons: CsPH, f. 137v; CsPH, f.
                         251v.</p>
                   </origin>
-                  <provenance>Following its owner, who entered the Carthusian order, the manuscript
-                     came into the possession of the convent library.</provenance>
+                  <provenance><p >Following its owner, who entered the Carthusian order, the manuscript
+                     came into the possession of the convent library.</p></provenance>
                </history>
                <additional>
                   <adminInfo>
@@ -2582,9 +2582,9 @@
                         and taught at Heidelberg University until 1452. In 1454, he entered the
                         Carthusian Order and was appointed prior in Mainz in 1470.</p>
                   </origin>
-                  <provenance>After <persName ref="#MarcellusGeistOfAtzenheim">Marcellus</persName>
+                  <provenance><p >After <persName ref="#MarcellusGeistOfAtzenheim" xmlns="http://www.tei-c.org/ns/1.0">Marcellus</persName>
                      death, the codex passed into the possession of the library of the Mainz
-                     Carthusians.</provenance>
+                     Carthusians.</p></provenance>
                </history>
                <additional>
                   <adminInfo>
@@ -2736,9 +2736,9 @@
                         </p>
                      </note>
                   </origin>
-                  <provenance>The manuscript belonged to the library of the Ingolstadt Arts Faculty,
+                  <provenance><p >The manuscript belonged to the library of the Ingolstadt Arts Faculty,
                      as attested by the ex libris on ff. 1r, 10r, 186v, and on the back
-                     cover.</provenance>
+                     cover.</p></provenance>
                </history>
                <additional>
                   <listBibl>
@@ -2880,9 +2880,9 @@
                         Domo’s De universali reali (ff. 130r–131v) and Heymericus de Campo’s
                         Tractatus problematicus (ff. 155v–160v; 126r–130r).</note>
                   </origin>
-                  <provenance>The codex belonged to the library of the Ingolstadt Arts Faculty. It
+                  <provenance><p >The codex belonged to the library of the Ingolstadt Arts Faculty. It
                      is therefore possible that the manuscript originated at Ingolstadt
-                     University.</provenance>
+                     University.</p></provenance>
                </history>
                <additional>
                   <adminInfo>
@@ -3015,7 +3015,7 @@
                            alma universitate Heidelbergensi</quote>.</p>
                      <!-- ADD refs to QsP questions -->
                   </origin>
-                  <provenance>The codex belonged to the Augustinian convent.</provenance>
+                  <provenance><p >The codex belonged to the Augustinian convent.</p></provenance>
                </history>
                <additional>
                   <adminInfo>
@@ -4414,14 +4414,14 @@
                         Parmentarii), as indicated by the numerous colophons throughout the
                         codex.</p>
                   </origin>
-                  <provenance>Two possession marks attest that the manuscript was owned by <persName
-                        ref="#IacobusPol">Iacob Pol</persName>, a student in Paris and later a friar
-                     at the Abbey of Saint-Bertin: <quote source="1v, marg. sup.">Ista philosophia
+                  <provenance><p >Two possession marks attest that the manuscript was owned by <persName
+                        ref="#IacobusPol" xmlns="http://www.tei-c.org/ns/1.0">Iacob Pol</persName>, a student in Paris and later a friar
+                     at the Abbey of Saint-Bertin: <quote source="1v, marg. sup." xmlns="http://www.tei-c.org/ns/1.0">Ista philosophia
                         pertinet fratri Jacobi Pol, religioso ecclesiae sancti Bertini in Sancto
-                        Audomaro, Morinensis diocesis</quote>;<quote source="2v, marg. sup.">Hunc
+                        Audomaro, Morinensis diocesis</quote>;<quote source="2v, marg. sup." xmlns="http://www.tei-c.org/ns/1.0">Hunc
                         librum acquisivit frater Jacobus Pol, tempore quo fuit scolaris
                         Parisiensis</quote>
-                  </provenance>
+                  </p></provenance>
                </history>
 
                <additional>
@@ -4786,10 +4786,10 @@
                         to identify the oxhead with nostrils (f. 137) or the crown (f. 267) in
                         either Briquet or Piccard.</p>
                   </origin>
-                  <provenance>The manuscript was later located in Wiblingen (near Ulm), as evidenced
+                  <provenance><p >The manuscript was later located in Wiblingen (near Ulm), as evidenced
                      by its mention in the 1632 catalogue. On f. 2r is written: Ex libris Monasterii
                      Wiblingen. In 1822, the manuscript entered the possession of the Tübinger
-                     Wilhelmsstift and was acquired by the Royal Library in 1885.</provenance>
+                     Wilhelmsstift and was acquired by the Royal Library in 1885.</p></provenance>
                </history>
                <additional>
                   <adminInfo>
