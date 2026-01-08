@@ -438,46 +438,38 @@
                      <locus from="106r" to="124"/>
                      <title ref="workID">QsDente</title>
                      <note type="desc">The commentary is preceded by Thomas’s text (88v-106r). The
-                        manuscript also contains a literal commentary on Thomas’s text (137r-170r;
-                        inc.: <q>insignis perypatetice veritatis interpres Doctor sanctus nedum
-                           adultos provehi, verum in novitios afficiens erudire uberiores</q>;
-                        expl.: i<q>psa lux non eclipsalis, sed lucens eternaliter</q>). </note>
-                     <!-- JLL I'll add new msItem(s) and incipit/explicit althoug those are not "questions"-->
-                     <note type="attribution">The commentary is ascribed to Versoris in the
-                        colophon: “Explicit scriptum Versoris super De ente et essentia sancti Thome
-                        doctoris”.</note>
+                        manuscript also contains a literal commentary on Thomas’s text (137r-170r). </note>
                      <colophon source="">Explicit scriptum Versoris super De ente et essentia sancti
                         Thome doctoris</colophon>
                   </msItem>
-                  <!--              <msItem xml:id="Bamberg_StaatsbibliothekBamberg_Msc_Patr_150_ThomasTextComment">
+                 <msItem xml:id="Bamberg_StaatsbibliothekBamberg_Msc_Patr_150_ThomasTextComment">
                      <locus from="137r" to="170r"/>
                      <title ref="workID">Thomas's Text Commentary</title>
                      <incipit>insignis perypatetice veritatis interpres Doctor sanctus nedum adultos
                         provehi, verum in novitios afficiens erudire uberiores</incipit>
-                     <explicit>psa lux non eclipsalis, sed lucens eternaliter</explicit>
-                  </msItem>-->
+                     <explicit>ipsa lux non eclipsalis, sed lucens eternaliter</explicit>
+                  </msItem>
                </msContents>
                <history>
                   <origin>
-                     <origDate from="1456" to="1456">1493</origDate>
+                     <origDate from="1456" to="1456">1456</origDate>
                      <p> In the colophon of f. 35r (Henricus Collis’s <title ref="w_ID">Sermones
                            contra articulos plebanorum Argentinensium</title>), we read that the
-                        text was copied in 1456: <q>Scriptum per me, fratrem Nicolaum Unbehuen de
+                        text was copied in 1456: <quote source="">Scriptum per me, fratrem Nicolaum Unbehuen de
                            Bamberga in Ulma, tunc temporis magister studentium, anno Domini 1456 in
-                           quadragesima</q>. The date 1465 likely appears in the second colophon of
+                           quadragesima</quote>. The date 1465 likely appears in the second colophon of
                         Versoris’s commentary, though it is difficult to confirm because the
                         colophon has been deleted. However, I could distinguish the first words:
-                           <q>Explicit De ente et essentia magistri Versoris</q>.</p>
-                     <origPlace ref="#placeID">Ulm</origPlace>
+                           <quote source="">Explicit De ente et essentia magistri Versoris</quote>.</p>
+                     <origPlace>Ulm</origPlace>
                      <p>The manuscript was copied in <placeName>Ulm</placeName> by <persName
                            ref="#NicolausUnbehuen">Nicolaus Unbehuen</persName> (as stated on f.
                         35r) or <persName ref="#NicolausUnbehuen">Umbehauen </persName>(as stated on
                         f. 137r). </p>
                   </origin>
-                  <provenance><p>It belonged to the <orgName ref="ordID"
-                           xmlns="http://www.tei-c.org/ns/1.0">Dominican convent</orgName>, as
-                        indicated on f. 1r: <q xmlns="http://www.tei-c.org/ns/1.0">ordinis
-                           predicatorum</q>.</p></provenance>
+                  <provenance><p>It belonged to the Dominican convent, as
+                        indicated on f. 1r: <quote source="">ordinis
+                           predicatorum</quote>.</p></provenance>
                </history>
                <additional>
                   <adminInfo>
