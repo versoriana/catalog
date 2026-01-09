@@ -51,8 +51,19 @@ tei-summary {
     margin-left: 20px;
 }
 
-tei-summary::before {
+/* ab elements within summary */
+tei-summary > tei-ab {
+    display: block;
+    margin: 10px 0;
+}
+
+tei-summary > tei-ab[type="explicit_attribution"]::before {
     content: "Explicit Attribution: ";
+    font-weight: bold;
+}
+
+tei-summary > tei-ab[type="general_remarks"]::before {
+    content: "Remarks: ";
     font-weight: bold;
 }
 
