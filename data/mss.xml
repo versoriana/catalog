@@ -24,6 +24,7 @@
          <sourceDesc>
             <p>Bibliography and direct anaylsis of the manuscipts</p>
          </sourceDesc>
+         
       </fileDesc>
       <encodingDesc>
          <!-- Define the different foliation schemes here -->
@@ -44,7 +45,7 @@
          <p>When constructing the value of a xml:id for msDesc, use settlement, underscore,
             abbreviation of the repository, underscore, shelfmark; use dashes only when necessary
             (for example to divide two sequences of numbers), but not to replace spaces.</p>
-      </encodingDesc>
+      </encodingDesc>      
    </teiHeader>
    <text>
       <!-- It is possible to decide which tags will be published in the inventory (web or print) and which not. 
@@ -59,7 +60,7 @@
                   <repository>Aargauer Kantonsbibliothek</repository>
                   <idno>MsWettF 42</idno>
                </msIdentifier>
-               <msContents>
+               <msContents>       
                   <summary>None</summary>
                   <msItem xml:id="Aarau_AKB_MsWettF42_QsP">
                      <locus from="1ra" to="99va"/>
@@ -4111,7 +4112,7 @@
                </additional>
             </msDesc>
 
-            <msDesc xml:id="Siena_Intronati_HVI7" resp="AP">
+            <msDesc xml:id="Siena_Intronati_HVI7">
                <msIdentifier>
                   <settlement>Siena</settlement>
                   <repository>Biblioteca Comunale degli Intronati</repository>
@@ -4819,10 +4820,10 @@
                            source="incipit">Expeditis duabus partibus moralis philosophie, restat
                            dicere de parte tertia</quote>). It shares the same structure: the text
                         is divided into chapters followed by sections of doubts (dubia). As in CsY,
-                        chapters are introduced with formulas such as: <quote source="">Iste est
-                           liber secundus, in quod Philosophus determinat”… and the dubia sections
-                           with phrases like: “Ad evidentiam autem meliorem huius erunt duo
-                           dubia</quote>. </note>
+                        chapters are introduced with formulas such as: <q>Iste est
+                           liber secundus, in quod Philosophus determinat</q>… and the dubia sections
+                           with phrases like: <q>Ad evidentiam autem meliorem huius erunt duo
+                           dubia</q>.</note>
                   </msItem>
                </msContents>
                <history>
