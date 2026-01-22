@@ -47,10 +47,7 @@
             (for example to divide two sequences of numbers), but not to replace spaces.</p>
       </encodingDesc>
    </teiHeader>
-   <text>
-      <!-- It is possible to decide which tags will be published in the inventory (web or print) and which not. 
-         For example, the element <adminInfo> can be used to take notes for internal use 
-         about the opening hours of the library or the documents needed to access the manuscripts-->
+   <text>      
       <body>
          <listBibl>
             <!-- (Start listBibl of msDesc) -->
@@ -106,7 +103,6 @@
                         <note type="content">Only the title was copied, but not the question</note>
                      </msItem>
                   </msItem>
-
                   <msItem xml:id="Aarau_AKB_MsWettF42_AnonExpositio">
                      <locus from="103ra" to="106vb"/>
                      <note type="desc">Expositio cum questionibus</note>
@@ -1444,6 +1440,7 @@
                      <idno/>
                   </msIdentifier>
                   <msContents>
+                     <summary/>
                      <!-- Incunabulum 1: Versoris on Ars nova and De ente et essentia -->
                      <msItem xml:id="Kraków_BJ_908_Inc1">
                         <locus from="1r" to="128r"/>
@@ -4308,7 +4305,8 @@
                   <idno type="URI"
                      >https://bibliotheque-numerique.bibliotheque-agglo-stomer.fr/idurl/1/18305</idno>
                </msIdentifier>
-               <msContents>                  
+               <msContents>    
+                  
                   <msItem xml:id="SaintOmer_BibliothèquedAgglomérationduPaysdeSaintOmer_586_QsP">
                      <locus from="1ra" to="118rb"/>
                      <title ref="workID">QsP</title>
@@ -4495,7 +4493,8 @@
                   <idno type="URI"
                      >https://bibliotheque-numerique.bibliotheque-agglo-stomer.fr/idurl/1/18310</idno>
                </msIdentifier>
-               <msContents>                  
+               <msContents>
+<summary><ab type="explicit_attribution" cert="0">No</ab></summary>                  
                   <msItem
                      xml:id="SaintOmer_BibliothèquedAgglomérationduPaysdeSaintOmerBibliothèquemunicipale_597_QsP">
                      <locus from="1r" to="56vb"/>
@@ -4858,6 +4857,7 @@
                   <idno type="DOI">https://doi.org/10.11588/diglit.10912 </idno>
                </msIdentifier>
                <msContents>                  
+                  <summary><ab type="explicit_attribution" cert="0">No</ab></summary>                  
                   <msItem xml:id="VaticanoCittàdel_BibliotecaApostolicaVaticana_Pallat1050_QsMete">
                      <locus from="255r" to="292v"/>
                      <title ref="workID">QsMete</title>
@@ -4918,6 +4918,7 @@
                   <idno>149/119</idno>
                </msIdentifier>
                <msContents>
+                  <summary><ab type="explicit_attribution" cert="0">No. Only the Parisian origin of the texts is specified.</ab></summary>                  
                   <msItem xml:id="Wien_DK_149119_Predicamenta">
                      <locus from="35ra" to="65vb"/>
                      <title ref="ID">Predicamenta</title>
