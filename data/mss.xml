@@ -325,7 +325,7 @@
                   <summary><ab type="explicit_attribution" cert="0">No</ab></summary>
                   <msItem xml:id="Augsburg_UniversitätsbibliothekAugsburg_CodII12220_QsE">
                      <locus from="2r" to="78v"/>
-                     <title ref="workID">QsE (I–X)</title>
+                     <title ref="workID">QsE I–X</title>
                      <colophon source=" 14r" n="book I">Expliciunt questiones super primo Ethicorum,
                         1471</colophon>
                   </msItem>
@@ -586,7 +586,8 @@
                   <repository>UB</repository>
                   <idno>F VI 4</idno>
                </msIdentifier>
-               <msContents>                  
+               <msContents>
+                  <summary><ab type="explicit_attribution" cert="0">No</ab></summary>                  
                   <msItem xml:id="Basel_UB_FIV4_QsP">
                      <locus from="1ra" to="27va"/>
                      <title ref="ID">QsP</title>
@@ -1074,7 +1075,7 @@
                   <idno>223</idno>
                </msIdentifier>
                <msContents>
-                  <summary><ab type="explicit_attribution" cert="1">All the texts in this codex are
+                  <summary><ab type="explicit_attribution" cert="0">No. All the texts in this codex are
                         transmitted anonymously and copied by different hands.</ab></summary>
                   <msItem xml:id="Colmar_BM_223_guardLeaf">
                      <locus>First paper guard-leaf</locus>
@@ -2351,7 +2352,7 @@
                   <msItem xml:id="Leipzig_UB_Ms1419_QsMeta">
                      <locus/>
                      <author>Not specified</author>
-                     <title ref="workID">QsMeta (I, II, IV–X, XII)</title>
+                     <title ref="workID">QsMeta I, II, IV–X, XII</title>
                   </msItem>
                </msContents>
                <history>
@@ -3079,7 +3080,7 @@
                   <idno>Canon. Misc. 211</idno>
                </msIdentifier>
                <msContents>
-                  <summary><ab type="explicit_attribution" cert="1">The QsP are presented as having
+                  <summary><ab type="explicit_attribution" cert="0">No. The QsP are presented as having
                         been written under the direction of Master <persName
                            ref="#ClemensParmentarii">Clémens Parmentier</persName>.</ab></summary>
                   <msItem xml:id="Oxford_BodleianLibrary_CanonMisc211_QsP">
@@ -3300,7 +3301,7 @@
                   </msItem>
                   <msItem xml:id="Paris_BnF_latin6691_QsE">
                      <locus from="152ra" to="215v"/>
-                     <title ref="workID">QsE (I–VI)</title>
+                     <title ref="workID">QsE I–VI</title>
                      <note type="attribution">The text is ascribed to Versoris in a note on the
                         upper margin of f. 152r, written by the copyist: <quote source="152r"
                            >Questiones Versoris super sex libros Ethicorum</quote>.</note>
@@ -4638,7 +4639,7 @@
                   <idno>HB X 2</idno>
                </msIdentifier>
                <msContents>
-                  <summary><ab type="explicit_attribution" cert="0">The texts are transmitted
+                  <summary><ab type="explicit_attribution" cert="0">No. The texts are transmitted
                         anonymously, but the parchment title shield affixed to the back cover
                         clearly indicates their Parisian origin.</ab></summary>
                   <msItem xml:id="Stuttgart_WürttembergischeLandesbibliothek_HBX2_QsPor">
