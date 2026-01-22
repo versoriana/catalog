@@ -394,6 +394,25 @@
                <occupation role="scr" ref="#Colmar_BM_223"/>
             </person>
 
+            <person xml:id="ErasmusDaum">
+               <name xml:lang="lat">Erasmus Daum</name>
+               <death when="1504"/>
+               <affiliation type="religiousOrder" subtype="OSB">Benedictine</affiliation>
+               <note>Entered the monastery of St. Emmeram in Regensburg in 1470/1471. Matriculated
+                     at Ingolstadt University in 1473.
+               </note>
+               <occupation role="fmo" ref="#München_BSB_Clm14088"/>
+               <occupation role="fmo" ref="#Clm14133"/>
+               <occupation role="fmo" ref="#München_BSB_Clm14647"/>               
+               <listBibl>
+                  <bibl>Ingolstadt, Matrikel, 36, 21.</bibl>
+                  <bibl>Bischoff, Studien zur Geschichte des Klosters St. Emmeram im
+                     Spätmittelalter, p. 134, 139-142.</bibl>
+                  <bibl>Sheffeld, Schools and Schooling, 44, 317.</bibl>
+               </listBibl>
+            </person>
+
+
             <!--  Folpardus de Ameronghen (Fohardus Hameronge) issue#22 -->
 
             <person xml:id="FolpardusDeAmeronghen">
@@ -722,7 +741,8 @@
                <occupation role="scr fmo" ref="#München_BSB_Clm14518"/>
                <listBibl>
                   <bibl>Pölnitz, Götz, Freiherrn von, Matrikel I, col. 162, l. 23.</bibl>
-                  <bibl>Bischoff, Studien zur Geschichte des Klosters St. Emmeram im Spätmittelalter, p. 148.</bibl>
+                  <bibl>Bischoff, Studien zur Geschichte des Klosters St. Emmeram im
+                     Spätmittelalter, p. 148.</bibl>
                   <bibl>Sheffler, Schools and Schooling, p. 35, 224, 267-268.</bibl>
                </listBibl>
             </person>
