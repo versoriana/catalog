@@ -396,11 +396,12 @@
 
             <person xml:id="ErasmusDaum">
                <name xml:lang="lat">Erasmus Daum</name>
+               <name xml:lang="lat">Erasmus Australis</name>
                <death when="1504"/>
-               <affiliation type="religiousOrder" subtype="OSB">Benedictine</affiliation>
                <note>Entered the monastery of St. Emmeram in Regensburg in 1470/1471. Matriculated
-                     at Ingolstadt University in 1473.
+                  at Ingolstadt University in 1473.
                </note>
+               <affiliation type="religiousOrder" subtype="OSB">Benedictine</affiliation>               
                <occupation role="fmo" ref="#München_BSB_Clm14088"/>
                <occupation role="fmo" ref="#Clm14133"/>
                <occupation role="fmo" ref="#München_BSB_Clm14647"/>               
