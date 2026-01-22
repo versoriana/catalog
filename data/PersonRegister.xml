@@ -665,13 +665,14 @@
 
             <person xml:id="HenricusStitzDeButzbach">
                <name xml:lang="lat">Henricus Stitz de Butzbach</name>
-               <note>He matriculated at Heidelberg in 1474; in 1477, he received the bachelor degree; in 1479, he obtained the master degree.</note>
-               <occupation role="fmo" ref="#Gießen_UniversitätsbibliothekGießen_Hs52" />               
+               <note>He matriculated at Heidelberg in 1474; in 1477, he received the bachelor
+                  degree; in 1479, he obtained the master degree.</note>
+               <occupation role="fmo" ref="#Gießen_UniversitätsbibliothekGießen_Hs52"/>
                <listBibl>
                   <bibl>Toepke, Matrikel I, 345; II, 411.</bibl>
                </listBibl>
             </person>
-            
+
             <!-- Hilarius Litomericensis (von Leitmeritz; de Litomericz; z Litoměřic; Litoměřický, 1412–1468, Pilsen) issue#35-->
 
             <person xml:id="HilariusLitomericensis">
@@ -715,13 +716,14 @@
                <name xml:lang="lat">Henricus Erlbach</name>
                <name xml:lang="de">Heinrich Erlbach</name>
                <death when="1525"/>
-               <note>After studying in Ingolstadt, he entered the Benedictine monastery of Saint
-                  Emmeram.</note>
+               <note>After studying in Ingolstadt, where he matriculated in 1486, he entered the
+                  Benedictine monastery of St. Emmeram in Regensburg.</note>
                <affiliation subtype="OSB" type="religiousOrder">Benedictine</affiliation>
                <occupation role="scr fmo" ref="#München_BSB_Clm14518"/>
                <listBibl>
-                  <bibl>D. Sheffler, Schools and Schooling in Late Medieval Germany: Regensburg,
-                     1250-1500, Leiden/Boston 2008, 35, 224, 267.</bibl>
+                  <bibl>Pölnitz, Götz, Freiherrn von, Matrikel I, col. 162, l. 23.</bibl>
+                  <bibl>Bischoff, Studien zur Geschichte des Klosters St. Emmeram im Spätmittelalter, p. 148.</bibl>
+                  <bibl>Sheffler, Schools and Schooling, p. 35, 224, 267-268.</bibl>
                </listBibl>
             </person>
 
@@ -854,10 +856,11 @@
                         Iohannes Abbatis as the author of the commentaries</note></bibl>
                </listBibl>
             </person>
-            
+
             <person xml:id="IohannesCeyll">
                <name xml:lang="lat">Iohannes Ceyll</name>
-               <occupation role="scr" ref="#Nürnberg_StadtbibliothekmBildungscampusNürnberg_CentV47" />               
+               <occupation role="scr" ref="#Nürnberg_StadtbibliothekmBildungscampusNürnberg_CentV47"
+               />
             </person>
 
 
@@ -899,11 +902,11 @@
                   <bibl>Auctarium V, col. 248, l. 13; col. 313, l. 27; col. 317, l. 11.</bibl>
                </listBibl>
             </person>
-            
+
             <person xml:id="IohannesHechtFromMemmingen">
                <name xml:lang="lat">Iohannes Hecht from Memmingen</name>
                <note>He matriculated at Heidelberg in 1472.</note>
-               <occupation role="scr" ref="#Gießen_UniversitätsbibliothekGießen_Hs52" />               
+               <occupation role="scr" ref="#Gießen_UniversitätsbibliothekGießen_Hs52"/>
                <listBibl>
                   <bibl>Toepke, Matrikel I, 338.</bibl>
                </listBibl>
@@ -977,13 +980,13 @@
                <death when="1495"/>
                <affiliation type="religiousOrder" subtype="OCart">Carthusian</affiliation>
                <note>He was from the diocese of Mainz; matriculated at Heidelberg in 1451 and
-                     obtained the degree of bachelor in 1454 and that of master of arts in 1457. He
-                     served as dean in 1466 and entered the Carthusian order in 1469. Between 1458
-                     and 1463 he copied several manuscripts in Heidelberg, most of them containing
-                     texts from the Faculty of Arts.                  
-               </note>
+                  obtained the degree of bachelor in 1454 and that of master of arts in 1457. He
+                  served as dean in 1466 and entered the Carthusian order in 1469. Between 1458 and
+                  1463 he copied several manuscripts in Heidelberg, most of them containing texts
+                  from the Faculty of Arts. </note>
                <occupation role="scr" ref="#Mainz_StB_HsI530b"/>
-               <occupation role="tch" ref="#Mainz_StB_HsI541">Master in the school of which the texts were copied.</occupation>               
+               <occupation role="tch" ref="#Mainz_StB_HsI541">Master in the school of which the
+                  texts were copied.</occupation>
                <listBibl>
                   <bibl>Toepke, Matrikel I, 270.</bibl>
                   <bibl>II (1886), 396, 403.</bibl>
@@ -1377,14 +1380,18 @@
                   </listBibl>
                </note>
             </person>
-            
+
             <person xml:id="StanislausDeGnezna">
                <name xml:lang="lat">Stanislaus de Gnezna</name>
-               <note>He obtained the degree of Bachelor in 1442 and the degree of Master of Arts in 1446 at Prague University. Between 1448 and 1449, he served as dean of the Faculty of Arts in Prague.</note>
-               <occupation role="scr" ref="#Praha_NK_VE12" />               
+               <note>He obtained the degree of Bachelor in 1442 and the degree of Master of Arts in
+                  1446 at Prague University. Between 1448 and 1449, he served as dean of the Faculty
+                  of Arts in Prague.</note>
+               <occupation role="scr" ref="#Praha_NK_VE12"/>
                <listBibl>
                   <bibl>Monumenta I, Liber decanorum I, 21; II, 16. 25, 29, 37, 60.</bibl>
-                  <bibl>J. B. Korolec, “Stanisław z Gniezna. Stan badań [Stanislaus von Gniezna. State of the art]”, Materiały i studia Zakładu Historii Filozofii Starożytnej i Średniowiecznej 7 (1967), 14–34.</bibl>
+                  <bibl>J. B. Korolec, “Stanisław z Gniezna. Stan badań [Stanislaus von Gniezna.
+                     State of the art]”, Materiały i studia Zakładu Historii Filozofii Starożytnej i
+                     Średniowiecznej 7 (1967), 14–34.</bibl>
                   <bibl>Lohr, Medieval Authors I, 164–165.</bibl>
                </listBibl>
             </person>
