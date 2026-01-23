@@ -399,12 +399,11 @@
                <name xml:lang="lat">Erasmus Australis</name>
                <death when="1504"/>
                <note>Entered the monastery of St. Emmeram in Regensburg in 1470/1471. Matriculated
-                  at Ingolstadt University in 1473.
-               </note>
-               <affiliation type="religiousOrder" subtype="OSB">Benedictine</affiliation>               
+                  at Ingolstadt University in 1473. </note>
+               <affiliation type="religiousOrder" subtype="OSB">Benedictine</affiliation>
                <occupation role="fmo" ref="#München_BSB_Clm14088"/>
                <occupation role="fmo" ref="#Clm14133"/>
-               <occupation role="fmo" ref="#München_BSB_Clm14647"/>               
+               <occupation role="fmo" ref="#München_BSB_Clm14647"/>
                <listBibl>
                   <bibl>Ingolstadt, Matrikel, 36, 21.</bibl>
                   <bibl>Bischoff, Studien zur Geschichte des Klosters St. Emmeram im
@@ -748,7 +747,30 @@
                </listBibl>
             </person>
 
-
+            <person xml:id="HermannPötzlinger">
+               <name xml:lang="de">Hermann Pötzlinger</name>
+               <name xml:lang="de">Hermann Poczlinger</name>
+               <death when="1469"/>
+               <affiliation type="religiousOrder" subtype="OSB">Benedictine</affiliation>
+               <note>He studied at the University of Vienna, where he obtained a Bachelor of
+                  Arts in 1439. He was the first university-trained schoolmaster and rector
+                  scholarium at St Emmeram. In 1456, he accompanied several sons of the
+                  Regensburg patriciate to Leipzig (he is mentioned in the Leipzig
+                  matriculation register for that year as a member of the Bavarian Nation). He
+                  owned a large library, which he bequeathed to the monastery after his
+                  death.</note>
+               <occupation role="fmo" ref="#München_BSB_Clm14133"/>               
+               <listBibl>
+                  <bibl>Erle, Matrikel, I, 203.</bibl>
+                  <bibl>Bischoff, Studien zur Geschichte des Klosters St. Emmeram im
+                     Spätmittelalter, 130.</bibl>
+                  <bibl>F. Rumbold, “The Library of Hermann Pötzlinger (ca. 1415–1469), Rector
+                     Scolarium at the Monastery of St. Emmeram, Regensburg”, Gutenberg
+                     Jahrbuch 60 (1985): 337–40.</bibl>
+                  <bibl>Sheffler, Schools and Schooling, 42-43, 116, 125, 133, 138, 140, 249,
+                     308.</bibl>
+               </listBibl>
+            </person>
 
 
             <person xml:id="IacobusBorkemanMariaeburgo">
@@ -1064,6 +1086,8 @@
                   <bibl>Sullivan, Parisian Licentiates, II, 173</bibl>
                </listBibl>
             </person>
+
+
 
             <person xml:id="IudicellusRouyant">
                <name xml:lang="lat">Iudicellus Rouyant</name>
