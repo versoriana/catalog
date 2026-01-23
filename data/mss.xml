@@ -4106,7 +4106,7 @@
                   <idno>H.VI.7</idno>
                </msIdentifier>
                <msContents>
-
+               <summary/>
                   <msItem xml:id="Siena_Intronati_HVI7_CsPH">
                      <locus from="1r" to="56r"/>
                      <title ref="ID">CsPH, II-III</title>
@@ -4305,8 +4305,8 @@
                   <idno type="URI"
                      >https://bibliotheque-numerique.bibliotheque-agglo-stomer.fr/idurl/1/18305</idno>
                </msIdentifier>
-               <msContents>    
-                  
+               <msContents>                      
+                     <summary><ab type="explicit_attribution" cert="0">No</ab></summary>                                           
                   <msItem xml:id="SaintOmer_BibliothèquedAgglomérationduPaysdeSaintOmer_586_QsP">
                      <locus from="1ra" to="118rb"/>
                      <title ref="workID">QsP</title>
