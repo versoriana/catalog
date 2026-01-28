@@ -434,21 +434,56 @@ tei-person {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-tei-person > tei-name:first-of-type {
-    font-size: 1.4em;
-    font-weight: bold;
-    color: #495057;
+/* Hide the sort persName from visual display */
+tei-persname[type="sort"] {
+    display: none;
+}
+
+/* persName in PersonRegister only - should not affect manuscripts */
+#PersonRegister tei-persname:not([type="sort"]) {
+    display: block;
     margin-bottom: 10px;
 }
 
-tei-name {
+/* === NAME DISPLAY: Preferred name with variant forms below === */
+
+/* Container for parallel mode names - only in PersonRegister */
+#PersonRegister .persname-container {
     display: block;
+    margin-bottom: 10px;
+}
+
+/* Preferred name group - bold, larger - only in PersonRegister */
+#PersonRegister .name-group-preferred {
+    display: block;
+    font-size: 1.4em;
+    font-weight: bold;
+    color: #495057;
     margin-bottom: 5px;
 }
 
-tei-name:not(:first-of-type) {
+/* Variant name groups - italic, gray, smaller - only in PersonRegister */
+#PersonRegister .name-group-variant {
+    display: block;
+    font-size: 1.2em;
     font-style: italic;
     color: #6c757d;
+    margin-bottom: 3px;
+    margin-left: 5px;
+}
+
+/* Name parts within groups - display inline with spacing - only in PersonRegister */
+#PersonRegister .name-part {
+    display: inline;
+}
+
+#PersonRegister .name-part::after {
+    content: " ";
+}
+
+/* Remove space after last name part */
+#PersonRegister .name-part:last-child::after {
+    content: "";
 }
 
 tei-birth, tei-death, tei-floruit {

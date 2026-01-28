@@ -339,12 +339,195 @@
 					link.target = '_blank';
 					link.textContent = idno;
 					link.className = 'external-link';
-					
+
 					return link;
-				}
+				},
+				"persName": function(e) {
+					// Don't display sort persName
+					if (e.getAttribute('type') === 'sort') {
+						return null;
+					}
+
+					// Check if already processed
+					if (e.getAttribute('data-processed')) {
+						return undefined;
+					}
+					e.setAttribute('data-processed', 'true');
+
+					// Extract name components from children
+					const preferredElements = [];
+					const variantForenames = [];
+					const variantNameLinks = [];
+					const variantSurnames = [];
+
+					Array.from(e.children).forEach(child => {
+						const tagName = child.tagName ? child.tagName.toLowerCase() : '';
+						const type = child.getAttribute('type');
+
+						if (type === 'preferred') {
+							preferredElements.push(child);
+						} else if (type === 'variant') {
+							if (tagName.includes('forename')) {
+								variantForenames.push(child);
+							} else if (tagName.includes('namelink')) {
+								variantNameLinks.push(child);
+							} else if (tagName.includes('surname')) {
+								variantSurnames.push(child);
+							}
+						}
+					});
+
+					// Check if parallel variants
+					// Count total nameLinks (preferred + variant) to see if component exists
+					const totalNameLinks = Array.from(e.children).filter(child => {
+						const tag = child.tagName ? child.tagName.toLowerCase() : '';
+						return tag.includes('namelink');
+					}).length;
+
+					let hasParallelVariants = false;
+
+					// If no nameLink component exists at all, check forename:surname match
+					if (totalNameLinks === 0) {
+						hasParallelVariants = variantForenames.length > 0 &&
+							variantSurnames.length > 0 &&
+							variantForenames.length === variantSurnames.length;
+					} else {
+						// If nameLink exists, all three must have matching variant counts
+						hasParallelVariants = variantForenames.length > 0 &&
+							variantNameLinks.length > 0 &&
+							variantSurnames.length > 0 &&
+							variantForenames.length === variantNameLinks.length &&
+							variantForenames.length === variantSurnames.length;
+					}
+
+					// PARALLEL MODE
+					if (hasParallelVariants) {
+						const container = document.createElement('div');
+						container.className = 'persname-container';
+
+						const preferredGroup = document.createElement('span');
+						preferredGroup.className = 'name-group-preferred';
+
+						preferredElements.forEach((child, index) => {
+							const part = document.createElement('span');
+							part.className = 'name-part';
+							part.textContent = child.textContent.trim();
+							preferredGroup.appendChild(part);
+							// Add space after each part except the last
+							if (index < preferredElements.length - 1) {
+								preferredGroup.appendChild(document.createTextNode(' '));
+							}
+						});
+						container.appendChild(preferredGroup);
+
+						const numVariants = Math.max(variantForenames.length, variantNameLinks.length, variantSurnames.length);
+						for (let i = 0; i < numVariants; i++) {
+							const variantGroup = document.createElement('span');
+							variantGroup.className = 'name-group-variant';
+
+							const parts = [];
+							if (variantForenames[i]) parts.push(variantForenames[i]);
+							if (variantNameLinks[i]) parts.push(variantNameLinks[i]);
+							if (variantSurnames[i]) parts.push(variantSurnames[i]);
+
+							parts.forEach((element, index) => {
+								const part = document.createElement('span');
+								part.className = 'name-part';
+								part.textContent = element.textContent.trim();
+								variantGroup.appendChild(part);
+								// Add space after each part except the last
+								if (index < parts.length - 1) {
+									variantGroup.appendChild(document.createTextNode(' '));
+								}
+							});
+
+							container.appendChild(variantGroup);
+						}
+
+						return container;
+					}
+
+					// INLINE MODE
+					const container = document.createElement('div');
+					container.className = 'persname-container';
+
+					// Preferred line (clean, no variants)
+					const preferredGroup = document.createElement('span');
+					preferredGroup.className = 'name-group-preferred';
+					preferredElements.forEach((child, index) => {
+						const part = document.createElement('span');
+						part.className = 'name-part';
+						part.textContent = child.textContent.trim();
+						preferredGroup.appendChild(part);
+						// Add space after each part except the last
+						if (index < preferredElements.length - 1) {
+							preferredGroup.appendChild(document.createTextNode(' '));
+						}
+					});
+					container.appendChild(preferredGroup);
+
+					// Variant line (if any variants exist)
+					const hasVariants = variantForenames.length > 0 || variantNameLinks.length > 0 || variantSurnames.length > 0;
+					if (hasVariants) {
+						const variantGroup = document.createElement('span');
+						variantGroup.className = 'name-group-variant';
+
+						// Map each preferred element to its following variants by position in XML
+						const preferredWithVariants = [];
+						const allChildren = Array.from(e.children);
+
+						preferredElements.forEach(prefEl => {
+							const prefIndex = allChildren.indexOf(prefEl);
+							const prefTag = prefEl.tagName ? prefEl.tagName.toLowerCase() : '';
+							const variants = [];
+
+							// Collect variants that follow this preferred element
+							for (let i = prefIndex + 1; i < allChildren.length; i++) {
+								const child = allChildren[i];
+								const childTag = child.tagName ? child.tagName.toLowerCase() : '';
+								const childType = child.getAttribute('type');
+
+								// Stop if we hit another preferred element or different component type
+								if (childType === 'preferred') break;
+								if (!childTag.includes(prefTag.replace('tei-', ''))) break;
+
+								// Collect variant of same type
+								if (childType === 'variant' && childTag.includes(prefTag.replace('tei-', ''))) {
+									variants.push(child.textContent.trim());
+								}
+							}
+
+							preferredWithVariants.push({
+								text: prefEl.textContent.trim(),
+								variants: variants
+							});
+						});
+
+						// Build variant line with variants in parentheses
+						preferredWithVariants.forEach((item, index) => {
+							let text = item.text;
+							if (item.variants.length > 0) {
+								text += ' (' + item.variants.join(', ') + ')';
+							}
+
+							const part = document.createElement('span');
+							part.className = 'name-part';
+							part.textContent = text;
+							variantGroup.appendChild(part);
+
+							// Add space after each part except the last
+							if (index < preferredWithVariants.length - 1) {
+								variantGroup.appendChild(document.createTextNode(' '));
+							}
+						});
+
+						container.appendChild(variantGroup);
+					}
+
+					return container;				}
 			}
 		};
-	  
+
 		// Add the behaviors globally
 		CETEIcean.addBehaviors(behaviors);
 	</script>
@@ -385,10 +568,10 @@
 						window.textHighlighter.highlightSearchTerms(highlightTerms);
 					}, 200);
 				}
-			}
-		});
+		}
 	});
-	</script>
+});
+</script>
 
 </body>
 

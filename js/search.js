@@ -200,34 +200,41 @@ class VersorisSearch {
                 url: `persons.html#${id}`
             };
 
-            // Name extraction - get all <name> elements
-            let nameElements = person.querySelectorAll('name');
+            // Name extraction - handle new <persName> structure with forename/nameLink/surname
+            // Extract preferred name components
+            const preferredForename = person.querySelector('persName forename[type="preferred"]')?.textContent.trim() || '';
+            const preferredNameLink = person.querySelector('persName nameLink[type="preferred"]')?.textContent.trim() || '';
+            const preferredSurname = person.querySelector('persName surname[type="preferred"]')?.textContent.trim() || '';
 
-            // Try namespace-aware approach if no names found
-            if (nameElements.length === 0) {
-                nameElements = person.getElementsByTagNameNS('http://www.tei-c.org/ns/1.0', 'name');
-            }
+            // Build primary display name from preferred components
+            const nameParts = [preferredForename, preferredNameLink, preferredSurname].filter(p => p);
 
-            if (nameElements.length === 0) {
-                nameElements = person.getElementsByTagName('name');
-            }
+            // Get sort name (used for search boost, not display)
+            const sortName = person.querySelector('persName[type="sort"]')?.textContent.trim() || '';
 
-            const names = [];
+            // Collect all name component variations for comprehensive search
+            const allForenames = Array.from(person.querySelectorAll('persName forename'))
+                .map(el => el.textContent.trim())
+                .filter(t => t);
+            const allNameLinks = Array.from(person.querySelectorAll('persName nameLink'))
+                .map(el => el.textContent.trim())
+                .filter(t => t);
+            const allSurnames = Array.from(person.querySelectorAll('persName surname'))
+                .map(el => el.textContent.trim())
+                .filter(t => t);
 
-            Array.from(nameElements).forEach(nameEl => {
-                const nameText = nameEl.textContent.trim();
-                if (nameText) {
-                    names.push(nameText);
-                }
-            });
-
-            if (names.length > 0) {
-                // Use first name as primary display name
-                personData.name = names[0];
-                // Store all name variations for search
-                personData.nameVariations = names.join(' ');
+            if (nameParts.length > 0) {
+                // Use preferred components as primary display name
+                personData.name = nameParts.join(' ');
+                // Store all name variations for search (components + sort name)
+                personData.nameVariations = [
+                    ...allForenames,
+                    ...allNameLinks,
+                    ...allSurnames,
+                    sortName
+                ].filter(n => n).join(' ');
             } else {
-                // Fallback to ID if no names found
+                // Fallback to ID if no persName structure found
                 personData.name = id.replace(/([A-Z])/g, ' $1').trim();
                 personData.nameVariations = personData.name;
             }
