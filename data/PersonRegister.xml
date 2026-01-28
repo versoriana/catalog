@@ -1561,8 +1561,8 @@
             </person>
             <person xml:id="PhilippeGoupil">
                <persName>
-                  <forename type="variant">Philippe</forename>                  
-                  <surname type="variant">Goupil</surname>                  
+                  <forename type="preferred">Philippe</forename>                  
+                  <surname type="preferred">Goupil</surname>                  
                </persName>
                <persName type="sort">Goupil,Philippe</persName>
                <death when="1503" />
