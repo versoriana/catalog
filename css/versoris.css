@@ -487,7 +487,7 @@ tei-persname[type="sort"] {
 }
 
 tei-birth, tei-death, tei-floruit {
-    display: inline;
+    display: block;
 }
 
 tei-birth::before {
