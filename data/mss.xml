@@ -1226,8 +1226,7 @@
                   <settlement>Greifswald</settlement>
                   <repository>Geistliches Ministerium</repository>
                   <idno>26 D I</idno>
-                  <idno type="URI">
-                     https://resolver.staatsbibliothek-berlin.de/HSP0006765200000000
+                  <idno type="URI"> https://resolver.staatsbibliothek-berlin.de/HSP0006765200000000
                   </idno>
                </msIdentifier>
                <msContents>
@@ -1287,8 +1286,9 @@
                <history>
                   <origin>
                      <origDate from="1446" to="1446"/>
-                     <p>The manuscript was copied in its entirety by the Leipzig student Petrus
-                        Juterbog, writing for (or under the supervision of) the master <persName
+                     <p>The manuscript was copied in its entirety by the Leipzig student <persName
+                           ref="PetrusDoleatorisDeIuterbuck">Petrus Juterbog</persName>, writing for
+                        (or under the supervision of) the master <persName
                            ref="#TheodericusSteffanideColberg">Theodericus Steffani de
                            Colberg</persName>, as stated in the colophon on f. 12vb. Theodericus
                         Steffani moved to the University of Greifswald in 1457, bringing the codex
