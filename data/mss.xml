@@ -5092,6 +5092,57 @@
                   </listBibl>
                </additional>
             </msDesc>
+            <msDesc xml:id="Wrocław_BibliotekaUniwersyteckaweWrocławiu_MilII70">
+               <msIdentifier>
+                  <settlement>Wrocław</settlement>
+                  <repository>Biblioteka Uniwersytecka we Wrocławiu</repository>
+                  <idno>Mil. II 70</idno>
+                  <idno type="URI">https://bibliotekacyfrowa.pl/publication/84164</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     <ab type="explicit_attribution" cert="1">The QsE are attributed to Versoris by
+                        a hand different from that of the scribe, which, after “et sic est finis”,
+                        added: “questionum Iohannis Versoris super Ethicorum Aristotelis”. The same
+                        hand, probably that of Paulus Schwoffheim, also wrote the list of questions
+                        on ff. 193rb–194vb.</ab>
+                  </summary>
+                  <msItem xml:id="Wrocław_BibliotekaUniwersyteckaweWrocławiu_MilII70_QsE">
+                     <locus from="1r" to="193r"/>
+                     <title ref="workID">QsE I-X</title>
+                     <author>Versoris</author>
+                  </msItem>
+                  <msItem xml:id="Wrocław_BibliotekaUniwersyteckaweWrocławiu_MilII70_QsPol">
+                     <locus from="216" to="341v"/>
+                     <title ref="workID">QsPol</title>
+                     <author>Versoris</author>
+                     <colophon source="341v">Et tantum de isto octavo, et
+                        per consequens de toto libro Politicorum Aristotelis, 1468</colophon>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate from="1468" to="1468">1468</origDate>
+                     <p>1468, as attested by the colophon of the QsPol, f. 341v. A
+                        table of contents was added in 1497, probably by Schwoffheim; it follows
+                        immediately after the text on ff. 341vb–342va.</p>
+                     <origPlace>Leipzig</origPlace>
+                  </origin>
+                  <provenance>The manuscript belonged to the Leipzig master <persName
+                        ref="#PaulusSuoffheymDeGörlitz">Paulus Schwoffheim de Görlitz</persName>,
+                     who inherited it from his uncle, the master <persName
+                        ref="#AndreasRüdigerDeGörlitz">Andreas Rüdiger de Görlitz</persName>, as
+                     recorded on the inner front cover: <quote source="inner front cover">Liber
+                        magistri Pauli Suoffheym de Gorlicz, quem obtinui ex doctore Andrea Rudiger
+                        de Gorlicz, gelicis memorie.</quote></provenance>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>AL, 75, 163.</bibl>
+                     <bibl>Kądzielski, Mrozowicz I, 227-230.</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
          </listBibl>
       </body>
    </text>

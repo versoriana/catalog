@@ -188,6 +188,29 @@
                      (Dostęp: 31.08.2025).</bibl>
                </listBibl>
             </person>
+
+            <person xml:id="AndreasRüdigerDeGörlitz">
+               <persName>
+                  <forename type="preferred">Andreas</forename>
+                  <surname type="preferred">Rüdiger</surname>
+                  <nameLink type="preferred">de</nameLink>
+                  <surname type="preferred">Görlitz</surname>
+               </persName>
+               <persName type="sort">Rüdiger de Görlitz, Andreas</persName>
+               <death when="1496"/>
+               <note>He matriculated at the University of Leipzig as a member of the Natio
+                  Misnensium in 1439 and obtained the degree of Master of Arts in 1442. While
+                  teaching at the Faculty of Philosophy, he pursued studies in theology. In 1448 he
+                  became baccalaureus cursorius, in 1451 sententiarius, and obtained his licentiate
+                  in 1456. He later became a canon (Domherr) in Meissen and Bautzen.</note>
+               <occupation role="fmo" ref="#Wrocław_BibliotekaUniwersyteckaweWrocławiu_MilII70"/>               
+               <listBibl>
+                  <bibl>Erler, Matrikel II, 6-8, 8-15, 128, 130, 148, 150-152, 154-155, 157-158,
+                     160-162, 171, 174-175.</bibl>
+                  <bibl>B. Kusche, Ego collegiatus II, 495-497.</bibl>
+               </listBibl>
+            </person>
+
             <person xml:id="ArnoldusFoyckin">
                <persName>
                   <forename type="preferred">Arnoldus</forename>
@@ -1513,6 +1536,22 @@
                      (Dostęp: 21.09.2025).</bibl>
                </listBibl>
             </person>
+            <person xml:id="PaulusSuoffheymDeGörlitz">
+               <persName>
+                  <forename type="preferred">Paulus</forename>
+                  <surname type="preferred">Suoffheym</surname>
+                  <nameLink type="preferred">de</nameLink>
+                  <surname type="preferred">Görlitz</surname>
+               </persName>
+               <persName type="sort">Suoffheym de Görlitz, Paulus</persName>
+               <note>Matriculated at Leipzig University in 1468. Doctor and professor in Leipzig,
+                  rector in 1509 and 1524. Dead in 1539 as canon of Missnensis. </note>
+               <occupation role="fmo" ref="#Wroclaw_BU_6122MilichII70"/>
+               <listBibl>
+                  <bibl>Erler, Matrikel I, 364; II, 16-17, 20, 22, 319, 340.</bibl>
+                  <bibl>Kądzielski, Mrozowicz, Catalogus, p. 72-73.</bibl>
+               </listBibl>
+            </person>
             <person xml:id="PetrusBriçonnet">
                <persName>
                   <forename type="preferred">Petrus</forename>
@@ -1656,6 +1695,7 @@
                   <bibl>Sullivan, Parisian Licentiates II, 119-121.</bibl>
                </listBibl>
             </person>
+            
             <person xml:id="SimonDeHorreo">
                <persName>
                   <forename type="preferred">Simon</forename>
@@ -1792,11 +1832,13 @@
                <death when="1474"/>
                <note>Matriculated at Leipzig University in 1441 as a member of the natio Saxorum;
                   received a Bachelor’s degree in 1442 and a Master’s degree in 1445.</note>
-               <occupation role="fmo" ref="#Greifswald_GeistlichesMinisterium_26DI"/>               
+               <occupation role="fmo" ref="#Greifswald_GeistlichesMinisterium_26DI"/>
                <listBibl>
-                  <bibl>Erle, Matrikel, I, p. 135; II, p. 130, 136,149, 153, 157, 162, 167, 170.</bibl>                  
+                  <bibl>Erle, Matrikel, I, p. 135; II, p. 130, 136,149, 153, 157, 162, 167,
+                     170.</bibl>
                   <bibl>E. Friedländer (ed.), Ältere Universitäts-Matrikeln. 2.1, Universität
-                     Greifswald; Bd. 1. 1456-1645, Leipzig 1873, I, col. 10b, l. 33; p. 57, l. 14; II, p. 244, l. 21-24.</bibl>
+                     Greifswald; Bd. 1. 1456-1645, Leipzig 1873, I, col. 10b, l. 33; p. 57, l. 14;
+                     II, p. 244, l. 21-24.</bibl>
                </listBibl>
             </person>
 
