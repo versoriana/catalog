@@ -3219,7 +3219,7 @@
                <msContents>
                   <summary><ab type="explicit_attribution" cert="0">No</ab></summary>
                   <msItem xml:id="NürnbergStadtbibliothekimBildungscampusNürnberg_CentVII86_CsPH">
-                     <locus from="1ra" to="108vb">I-IV</locus>
+                     <locus from="1ra" to="108vb">CsPH I-IV </locus>
                      <note type="content">The text is acephalus and begins with the words: <q>eius,
                            sicut proprium consequitur speciem</q> (book I). It ends unfinished at
                         book V with the words: <q>ergo quoddam corpus est ubique, quia</q>.</note>
@@ -3229,14 +3229,12 @@
                   </msItem>
                </msContents>
                <history>
-                  <origin>
-                     <p>The <watermark>watermark</watermark> (a unicorn particularly visible in the
-                        last quire) is very similar to <bibl>Piccard X, III, 2136</bibl> (Wesel,
+                  <origin>                     
+                     <p>The watermark (a unicorn particularly visible in the
+                        last quire) is very similar to Piccard X, III, 2136 (Wesel,
                         1478) and 2137 (Wesel 1475).</p>
                      <origPlace>Regensburg</origPlace>
-                     <p>Regensburg, as stated in the colophon on f. 93ra: <q>Explicit quartus
-                           tractatus Petri Hispani de sillogismis, per manum fratris Leonhardi
-                           Schroter conventus Ratisponensis</q>.</p>
+                     <p>Regensburg, as stated in the colophon on f. 93ra.</p>
                   </origin>
                </history>
                <additional>
@@ -3249,7 +3247,7 @@
                   </adminInfo>
                   <listBibl>
                      <bibl>Neske, Nürnberg, 188.</bibl>
-                     <bibl>Merinhos, 296-297.</bibl>
+                     <bibl>Merinhos, Bibliotheca manuscripta Petri Hispani, 296-297.</bibl>
                   </listBibl>
                </additional>
             </msDesc>

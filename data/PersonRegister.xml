@@ -203,7 +203,7 @@
                   teaching at the Faculty of Philosophy, he pursued studies in theology. In 1448 he
                   became baccalaureus cursorius, in 1451 sententiarius, and obtained his licentiate
                   in 1456. He later became a canon (Domherr) in Meissen and Bautzen.</note>
-               <occupation role="fmo" ref="#Wrocław_BibliotekaUniwersyteckaweWrocławiu_MilII70"/>               
+               <occupation role="fmo" ref="#Wrocław_BibliotekaUniwersyteckaweWrocławiu_MilII70"/>
                <listBibl>
                   <bibl>Erler, Matrikel II, 6-8, 8-15, 128, 130, 148, 150-152, 154-155, 157-158,
                      160-162, 171, 174-175.</bibl>
@@ -1095,10 +1095,29 @@
                </persName>
                <persName type="sort">Fleckel, Iohannes</persName>
                <note>Originally from Kitzbühel, he entered the dominican order in 1458.</note>
-               <occupation role="scr fmo" ref="#Wien_Dominikanerkonvent_Cod71295" />               
+               <occupation role="scr fmo" ref="#Wien_Dominikanerkonvent_Cod71295"/>
                <listBibl>
                   <bibl>Frank, Hausstudium und Universitätsstudium, 243-245.</bibl>
                </listBibl>
+            </person>
+            <person xml:id="IohannesGualteri">
+               <persName>
+                  <forename type="preferred">Iohannes</forename>
+                  <surname type="preferred">Gualteri</surname>
+               </persName>
+               <persName type="sort">Gualteri, Iohannes</persName>
+               <note>The identification of Iohannes Gualteri, the master of the anonymous bachelor
+                  who taught Versoris’s commentaries in 1447 and whose lectures were copied by
+                  Iohannes de Lamballe in manuscript Berlin, SB–PK, lat. fol. 402, is particularly
+                  problematic, since no master bearing this name is mentioned in the registers of
+                  the Faculty of Arts for the period relevant to us, namely the 1440s. The Liber
+                  procuratorum of the Anglo-German Nation records a master of the French Nation
+                  named Iohannes Galteri who, in 1487, competed with another master of the same
+                  Nation for the office of procurator, which he ultimately obtained (Auctarium, III,
+                  col. 638, ll. 36, 38). Although membership in the French Nation would be
+                  compatible with Delamballe’s master, who also belonged to this Nation, the date of
+                  this event appears too late for this figure to be identified with the same
+                  person.</note>
             </person>
             <person xml:id="IohannesHechtFromMemmingen">
                <persName>
@@ -1328,13 +1347,29 @@
                   <surname type="preferred">Sweydnitcz</surname>
                </persName>
                <persName type="sort">Sartoris de Sweydnitcz, Laurentius</persName>
-               <note>He matriculated at Leipzig University as a member of the Polish Nation in 1465 and obtained the bachelor degree in 1467.</note>
-               <occupation role="scr" ref="#Michaelbeuern_Benediktinerstift_mancart57" />                    
+               <note>He matriculated at Leipzig University as a member of the Polish Nation in 1465
+                  and obtained the bachelor degree in 1467.</note>
+               <occupation role="scr" ref="#Michaelbeuern_Benediktinerstift_mancart57"/>
                <listBibl>
-                  <bibl>Erler, Matrikel I, 250; II, 205.</bibl>                        
+                  <bibl>Erler, Matrikel I, 250; II, 205.</bibl>
                </listBibl>
             </person>
-            
+
+            <person xml:id="LeonhardusSchroter">
+               <persName>
+                  <forename type="preferred">Leonhardus</forename>
+                  <surname type="preferred">Schroter</surname>
+               </persName>
+               <persName type="sort">Schroter, Leonhardus</persName>
+               <note>The identification of the scribe who, in the manuscript Nürnberg,
+                  Stadtbibliothek im Bildungscampus Nürnberg, Cent. VII 86, signs “Leonhardus
+                  Schroter conventus Ratisponensis” remains uncertain, since no friar bearing this
+                  exact name is mentioned in either Bischoff’s or Scheffler’s studies on education
+                  in Regensburg. The only scholar named Leonhard attested in this period appears to
+                  be the Augustinian hermit Leonhardus (Mühlhauser) de Ratispona, lector and doctor
+                  of theology, who died in 1500 (Scheffler, School and Schooling, 266).</note>
+            </person>
+
             <person xml:id="MarcellusGeistOfAtzenheim">
                <persName>
                   <forename type="preferred">Marcellus</forename>
@@ -1722,7 +1757,7 @@
                   <bibl>Sullivan, Parisian Licentiates II, 119-121.</bibl>
                </listBibl>
             </person>
-            
+
             <person xml:id="SimonDeHorreo">
                <persName>
                   <forename type="preferred">Simon</forename>
