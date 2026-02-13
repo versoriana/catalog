@@ -1088,7 +1088,18 @@
                   <bibl>Auctarium V, col. 248, l. 13; col. 313, l. 27; col. 317, l. 11.</bibl>
                </listBibl>
             </person>
-
+            <person xml:id="IohannesFleckel">
+               <persName>
+                  <forename type="preferred">Iohannes</forename>
+                  <surname type="preferred">Fleckel</surname>
+               </persName>
+               <persName type="sort">Fleckel, Iohannes</persName>
+               <note>Originally from Kitzbühel, he entered the dominican order in 1458.</note>
+               <occupation role="scr fmo" ref="#Wien_Dominikanerkonvent_Cod71295" />               
+               <listBibl>
+                  <bibl>Frank, Hausstudium und Universitätsstudium, 243-245.</bibl>
+               </listBibl>
+            </person>
             <person xml:id="IohannesHechtFromMemmingen">
                <persName>
                   <forename type="preferred">Iohannes</forename>
@@ -1322,6 +1333,7 @@
                   <bibl>Erler, Matrikel I, 250; II, 205.</bibl>                        
                </listBibl>
             </person>
+            
             <person xml:id="MarcellusGeistOfAtzenheim">
                <persName>
                   <forename type="preferred">Marcellus</forename>

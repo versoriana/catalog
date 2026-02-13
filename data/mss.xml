@@ -5093,6 +5093,62 @@
                </additional>
             </msDesc>
 
+            <msDesc xml:id="Wien_Dominikanerkonvent_Cod71295">
+               <msIdentifier>
+                  <settlement>Wien</settlement>
+                  <repository>Dominikanerkonvent</repository>
+                  <idno>Cod. 71/295</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     <ab type="explicit_attribution" cert="1">The text is ascribed to Versor
+                        in the quoted colophon.</ab>
+                  </summary>
+                  <msItem xml:id="Wien_Dominikanerkonvent_Cod71295_Qdente">
+                     <locus from="43v" to="50r"/>
+                     <title ref="workID">Qdente</title>
+                     <colophon source="Versor's Comentary">Explicit
+                        commentum sive questiones Versoris, magistri Parisiensis, super
+                        tractatum De ente et essentia sancti Thome de Aquino doctoris,
+                        scriptum in studio Magdeburgensi per fratrem Johannem Fleckel
+                        ordinis predicatorum, nativum Wiennensem, provincie Theotonie,
+                        finitum feria quarta post Letare, anno Domini 1462.</colophon>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate from="1462" to="1462">1462</origDate>                
+                     <p>Most of the texts contained in the manuscript, including numerous
+                        tracts by Thomas Aquinas, were copied in the Dominican studium in
+                        Magdeburg by the friar <persName ref="#IohannesFleckel">Johannes Fleckel</persName>, originally from Vienna, as
+                        is evident from the colophon of Versor’s commentary.</p>
+                  </origin>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source cert="high" resp="#">
+                           <p>Ms directly examined</p>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+                  <listBibl>
+                     <bibl>F. Czeike, Verzeichnis der Handschriften des Dominikanerkonventes
+                        in Wien bis zum Ende des 16. Jahrhunderts [typescript], Vienna,
+                        1952, 77–89.</bibl>
+                     <bibl>C. Vansteenkiste, “Codici tomistici della biblioteca Domenicana di
+                        Vienna (Austria)”, Angelicum 38 (1961), 133–165, at 157.</bibl>
+                     <bibl>I. W. Frank, Hausstudium und Universitätsstudium der Wiener
+                        Dominikaner bis 1500, Vienna, 1968, 49, 149 n. 90, 168 n. 39, 196,
+                        209, 216, 244–245, 250.</bibl>
+                     <bibl>F. Unterkircher, H. Horninger, F. Lackner, Die datierten
+                        Handschriften in Wien außerhalb der Österreichischen
+                        Nationalbibliothek bis zum Jahre 1600. 1: Text. 2: Plates, Vienna,
+                        1981, no. 61.</bibl>
+                     <bibl>Markowski, Repertorium, 203, 278.</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
 
             <msDesc xml:id="Wien_DK_149119">
                <msIdentifier>
