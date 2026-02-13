@@ -5109,6 +5109,7 @@
                   <msItem xml:id="Warszawa_BibliotekaNarodowa_BOZ81_QsMeta">
                      <locus from="1r" to="326v"/>
                      <title ref="workID">QsMeta I–XII </title>
+                     <author>Versoris</author>
                   </msItem>
                </msContents>
                <history>
