@@ -1308,6 +1308,20 @@
                   <bibl>Deuffic, “Une diaspora”, 179, 283.</bibl>
                </listBibl>
             </person>
+            <person xml:id="LaurentiusSartorisDeSweydnitcz">
+               <persName>
+                  <forename type="preferred">Laurentius</forename>
+                  <surname type="preferred">Sartoris</surname>
+                  <nameLink type="preferred">de</nameLink>
+                  <surname type="preferred">Sweydnitcz</surname>
+               </persName>
+               <persName type="sort">Sartoris de Sweydnitcz, Laurentius</persName>
+               <note>He matriculated at Leipzig University as a member of the Polish Nation in 1465 and obtained the bachelor degree in 1467.</note>
+               <occupation role="scr" ref="#Michaelbeuern_Benediktinerstift_mancart57" />                    
+               <listBibl>
+                  <bibl>Erler, Matrikel I, 250; II, 205.</bibl>                        
+               </listBibl>
+            </person>
             <person xml:id="MarcellusGeistOfAtzenheim">
                <persName>
                   <forename type="preferred">Marcellus</forename>
@@ -1546,7 +1560,7 @@
                <persName type="sort">Suoffheym de Görlitz, Paulus</persName>
                <note>Matriculated at Leipzig University in 1468. Doctor and professor in Leipzig,
                   rector in 1509 and 1524. Dead in 1539 as canon of Missnensis. </note>
-               <occupation role="fmo" ref="#Wroclaw_BU_6122MilichII70"/>
+               <occupation role="fmo" ref="#Wrocław_BibliotekaUniwersyteckaweWrocławiu_MilII70"/>
                <listBibl>
                   <bibl>Erler, Matrikel I, 364; II, 16-17, 20, 22, 319, 340.</bibl>
                   <bibl>Kądzielski, Mrozowicz, Catalogus, p. 72-73.</bibl>
