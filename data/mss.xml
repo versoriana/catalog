@@ -4789,6 +4789,107 @@
                </additional>
             </msDesc>
 
+            <!-- Sankt Gallen, Kantonsbibliothek, Vadianische Sammlung, VadSlg Ms. 839 issue#148 -->
+            <msDesc xml:id="SanktGallen_KantonsbibliothekVadianischeSammlung_VadSlgMs839">
+               <msIdentifier>
+                  <settlement>Sankt Gallen</settlement>
+                  <repository>Kantonsbibliothek, Vadianische Sammlung</repository>
+                  <idno>VadSlg Ms. 839</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     <ab type="explicit_attribution" cert="0">None; only the Parisian origin of the
+                        texts is made explicit.</ab>
+                     <ab type="general_remarks">Versoris's texts are bound after Eusebius of
+                        Caesarea's De evangelica praeparatione, printed in 1473 in Venice by
+                        Leonhardus Aurl (Hain 6700*; GW 9442).</ab>
+                  </summary>
+                  <msItem
+                     xml:id="SanktGallen_KantonsbibliothekVadianischeSammlung_VadSlgMs839_QdA">
+                     <locus from="151r" to="211r"/>
+                     <title ref="workID">QdA</title>
+                     <colophon source="211r">Ex hec de tertio libro etc. 1471, in universitate
+                        Lipsiensi sunt pronuntiata et Parisius collecta</colophon>
+                  </msItem>
+                  <msItem
+                     xml:id="SanktGallen_KantonsbibliothekVadianischeSammlung_VadSlgMs839_QdC">
+                     <locus from="211r" to="242r"/>
+                     <title ref="workID">QdC</title>
+                  </msItem>
+                  <msItem
+                     xml:id="SanktGallen_KantonsbibliothekVadianischeSammlung_VadSlgMs839_QdG">
+                     <locus from="242r" to="268r"/>
+                     <title ref="workID">QdG</title>
+                  </msItem>
+                  <msItem
+                     xml:id="SanktGallen_KantonsbibliothekVadianischeSammlung_VadSlgMs839_QsM">
+                     <locus from="268r" to="297r"/>
+                     <title ref="workID">QsM</title>
+                  </msItem>
+                  <msItem
+                     xml:id="SanktGallen_KantonsbibliothekVadianischeSammlung_VadSlgMs839_QdSens">
+                     <locus from="297v" to="311r"/>
+                     <title ref="workID">QdSens</title>
+                  </msItem>
+                  <msItem
+                     xml:id="SanktGallen_KantonsbibliothekVadianischeSammlung_VadSlgMs839_QdMem">
+                     <locus from="311r" to="314r"/>
+                     <title ref="workID">QdMem</title>
+                  </msItem>
+                  <msItem
+                     xml:id="SanktGallen_KantonsbibliothekVadianischeSammlung_VadSlgMs839_QdSom">
+                     <locus from="314r" to="318vb"/>
+                     <title ref="workID">QdSom</title>
+                  </msItem>
+                  <msItem
+                     xml:id="SanktGallen_KantonsbibliothekVadianischeSammlung_VadSlgMs839_QdLong">
+                     <locus from="318v" to="320r"/>
+                     <title ref="workID">QdLong</title>
+                     <colophon source="320r">Petrus Hawindorn, persecutor rusticorum,
+                        1472. [alia manu:] Hunc librum continentem tractatus De anima, De celo et
+                        mundo, De generatione et corruptione, De methauris, De sensu et sensato, De
+                        sompno et vigilia, dedit in refrigerium anime sue honorabilis dominus
+                        Georgius Ichenstarfer, artium baccalarius, capellanus civium Ligsalz in
+                        Monaco conventui fratrum heremitarum sancti Augustini, ibidem anno 1476, in
+                        profesto Conversionis sancti Pauli</colophon>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <handNote scope="major" scribeRef="#PeterHawindorn"/>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate from="1471" to="1472">1471–1472</origDate>
+                     <p>The texts, all written by <persName ref="#PeterHawindorn">Petrus
+                           Hawindorn</persName>, resulted from a pronuntiatio at Leipzig University,
+                        as stated in the colophon of QdA (f. 211r) and in the final colophon (f.
+                        320r). The manuscript was later owned by the bachelor Georgius Ichenstarfer,
+                        who donated it to the convent of the Augustinian Hermits in 1476, as stated
+                        after the final colophon (f. 320r).</p>
+                  </origin>
+                  <provenance>
+                     <p>Donated by Georgius Ichenstarfer to the convent of the Augustinian Hermits
+                        in 1476.</p>
+                  </provenance>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source cert="high" resp="#">
+                           <p>Ms directly examined</p>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+                  <listBibl>
+                     <bibl>G. Scherer, Verzeichniss der Manuscripte und Inkunabeln der Vadianischen
+                        Bibliothek in St. Gallen, St. Gallen 1864, 137–138, 214.</bibl>
+                     <bibl>Scarpatetti, Katalog, III, p. 21, no. 55; p. 306, fig. 387.</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+
             <msDesc xml:id="Stuttgart_WürttembergischeLandesbibliothek_HBX2">
                <msIdentifier>
                   <settlement>Stuttgart</settlement>
