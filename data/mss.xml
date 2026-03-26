@@ -2364,7 +2364,7 @@
             </msDesc>
 
             <!-- Laon, Bibliothèque municipale Suzanne Martinet, Ms. 436 issue#146 -->
-            <msDesc xml:id="Laon_BibliothèquemunicipaleSuzanneMartinet_Ms436">
+            <msDesc xml:id="Laon_BibliothèquemunicipaleSuzanneMartinet_MS436">
                <msIdentifier>
                   <settlement>Laon</settlement>
                   <repository>Bibliothèque municipale Suzanne Martinet</repository>
@@ -2394,7 +2394,7 @@
                         from a lecture by Robert Ciboule, these additions could plausibly originate
                         from him.</ab>
                   </summary>
-                  <msItem xml:id="Laon_BibliothèquemunicipaleSuzanneMartinet_Ms436_QsPol">
+                  <msItem xml:id="Laon_BibliothèquemunicipaleSuzanneMartinet_MS436_QsPol">
                      <locus from="1r" to="242r"/>
                      <title ref="workID">QsPol</title>
                      <colophon source="242r">Et hec de presenti questione et de isto octavo libro
@@ -5427,6 +5427,72 @@
                   </listBibl>
                </additional>
             </msDesc>
+            <!-- Wrocław, Biblioteka Uniwersytecka, MS 6121 (Mil. II 69) issue#135 -->
+            <msDesc xml:id="Wrocław_BibliotekaUniwersytecka_MS6121MilII69">
+               <msIdentifier>
+                  <settlement>Wrocław</settlement>
+                  <repository>Biblioteka Uniwersytecka</repository>
+                  <idno>MS 6121 (Mil. II 69)</idno>
+                  <idno type="URI"
+                     >https://bibliotekacyfrowa.pl/publication/39385</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     <ab type="explicit_attribution" cert="0">None.</ab>
+                     <ab type="general_remarks">ff. 129r-133r are filled with schematical notes on
+                        the subject matter of the commentary.</ab>
+                  </summary>
+                  <msItem xml:id="Wrocław_BibliotekaUniwersytecka_MS6121MilII69_QsE">
+                     <locus from="1r" to="129r"/>
+                     <title ref="workID">QsE I–X</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <handNote scope="major" scribeRef="#DonatusKlugeDeRosswein"/>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate from="1444" to="1451">Versoris's commentary is undated, but on the
+                        basis of the dates of the texts copied in the same manuscript and the
+                        scribe's university cursus, it can probably be situated between 1444, when he
+                        became a bachelor, and 1451, when he obtained his master's degree. Since
+                        Donatus copied Aristotle's Nicomachean Ethics in 1450, it is very likely
+                        that he transcribed Versoris's commentary on this text around the same
+                        time.</origDate>
+                     <p>The manuscript was copied in Leipzig and Chemnitz by <persName
+                           ref="#DonatusKlugeDeRosswein">Donatus Kluge de Rosswein</persName>, as
+                        attested by the following colophons: <quote source="292v">Et in hoc
+                           terminatur textus Ethice Aristotelis, completus per me, Donatum Cluge de
+                           Rewsweyn, in Lipczk, anno Domini 1450, feria quarta post festum
+                           Viti</quote>, f. 292v; <quote source="484r">Explicit Boethius, De
+                           disciplina scolarium, finitus a me, Donato Cluge, in Kemnicz, anno Domini
+                           M CCCC XLVII</quote>, f. 484r; <quote source="521r">Et hec de tertio
+                           libro De anima Aristotelis, et per consequens de toto dicta sufficiant,
+                           completa scriptaque per me, Donatum, in alma universitate Lypczensi, anno
+                           Domini 1440</quote>, f. 521r.</p>
+                  </origin>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source cert="high" resp="#">
+                           <p>Ms directly examined</p>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+                  <listBibl>
+                     <bibl>Aristoteles Latinus I, 69-71.</bibl>
+                     <bibl>Kristeller Iter IV, 436.</bibl>
+                     <bibl>S. Kądzielski, W. Mrozowicz, Catalogus codicum Medii Aevi
+                        manuscriptorum qui in bibliotheca Universitatis Wratislaviensis asservantur.
+                        Signa 6055–6124 comprehendens (Codices Milichiani, vol. 1), Wratislaviae,
+                        1998, p. 223–226.</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+
             <msDesc xml:id="Wrocław_BibliotekaUniwersyteckaweWrocławiu_MilII70">
                <msIdentifier>
                   <settlement>Wrocław</settlement>
