@@ -2363,6 +2363,86 @@
                </additional>
             </msDesc>
 
+            <!-- Laon, Bibliothèque municipale Suzanne Martinet, Ms. 436 issue#146 -->
+            <msDesc xml:id="Laon_BibliothèquemunicipaleSuzanneMartinet_Ms436">
+               <msIdentifier>
+                  <settlement>Laon</settlement>
+                  <repository>Bibliothèque municipale Suzanne Martinet</repository>
+                  <idno>MS 436</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     <ab type="explicit_attribution" cert="0">The different scribes who copied the
+                        text do not attribute it to any master. However, after the colophon of the
+                        last book, a different hand added: <quote source="242r">Lectura magistri
+                           Roberti Cybolli, in theologia excellentissimi professoris</quote>, f.
+                        242r.</ab>
+                     <ab type="general_remarks">Compared to the printed editions and to the
+                        manuscript Praha, Knihovna Národního Muzea, XII C 10—the other copy of the
+                        QsPol that I have collated—this manuscript contains two additional questions:
+                        I.7, f. 20ra: <quote source="20ra">queritur que et quales sunt bona que
+                           homines persequuntur ex constitutione politice seu communitatis que
+                           'civitas' nuncupatur</quote>; and II.9: <quote source="xx">Nona questio est que sunt
+                           que debet narrare verus rex et que solent tyranni narrare, aut possumus
+                           dicere que debet operari verus rex et que facere se tyrannus
+                           soleat</quote>. The structure of these questions differs from that of the
+                        others: they lack contrary arguments, notabilia, conclusions and
+                        dubitationes. Instead, they begin simply with unde notandum and are
+                        significantly shorter (around four columns and seven lines, i.e. less than
+                        half the length of the shortest standard questions). If we accept the note
+                        added after the final colophon, according to which this commentary resulted
+                        from a lecture by Robert Ciboule, these additions could plausibly originate
+                        from him.</ab>
+                  </summary>
+                  <msItem xml:id="Laon_BibliothèquemunicipaleSuzanneMartinet_Ms436_QsPol">
+                     <locus from="1r" to="242r"/>
+                     <title ref="workID">QsPol</title>
+                     <colophon source="242r">Et hec de presenti questione et de isto octavo libro
+                        Politicorum Aristotelis. Explicit octavus liber Politicorum
+                        Aristotelis</colophon>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate from="1438" to="1458">The death of <persName
+                           ref="#RobertusCybollus">Robert Ciboule</persName> in 1458 provides a
+                        possible terminus ante quem for the manuscript, if this copy indeed derives
+                        from a lecture delivered by him.</origDate>
+                     <p>The colophons do not provide any explicit information about the origin or
+                        date of the manuscript. However, the reference to the theology master
+                           <persName ref="#RobertusCybollus">Robert Ciboule</persName> in the final
+                        colophon suggests a Parisian provenance. This
+                        hypothesis is supported by the two-column layout with large squared incipits,
+                        a feature found in several Parisian copies of Versoris's texts.</p>
+                     <p>Two parchment guard leaves have been added at the beginning and end of the
+                        volume, taken from Book III of Gregory the Great's Decretales. The incipit
+                        of the fragment used in the first guard leaf reads: <quote
+                           source="first guard leaf">formam visibilem, veritatem corporis, et
+                           virtutem spiritualem</quote>; the incipit of the fragment used in the
+                        second guard leaf reads: <quote source="second guard leaf">Neque per hoc
+                           possit augmentatio [sic] probari quod in sacramento
+                           eucharistie</quote>.</p>
+                  </origin>
+                  <provenance>
+                     <p>The manuscript belonged to the library of Notre Dame Cathedral in
+                        Laon.</p>
+                  </provenance>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source cert="high" resp="#">
+                           <p>Ms directly examined</p>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+                  <listBibl>
+                     <bibl>Catalogue général des manuscrits des bibliothèques publiques de France.
+                        Départements. Tome I: Laon, Paris 1849, p. 231-232.</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+
             <msDesc xml:id="Leipzig_UB_Ms1419">
                <msIdentifier>
                   <settlement>Leipzig</settlement>
