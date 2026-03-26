@@ -453,6 +453,26 @@
                   <bibl/>
                </listBibl>
             </person>
+
+            <person xml:id="DonatusKlugeDeRosswein">
+               <persName>
+                  <forename type="preferred">Donatus</forename>
+                  <surname type="preferred">Kluge</surname>
+                  <nameLink type="preferred">de</nameLink>
+                  <surname type="preferred">Rosswein</surname>
+               </persName>
+               <persName type="sort">Kluge de Rosswein, Donatus</persName>
+               <note>Matriculated at Leipzig University in 1442 as a member of the Natio
+                  Misnensium. He obtained the bachelor's degree in 1444 and the master's degree in
+                  1451. He later studied theology, becoming baccalaureus cursorius in 1453 and
+                  sententiarius in 1460.</note>
+               <occupation role="scr" ref="#Wrocław_BibliotekaUniwersytecka_MS6121MilII69"/>
+               <listBibl>
+                  <bibl>Erler I, Matrikel, 142; II, 7, 9, 134, 152, 170, 174-175, 177,
+                     207.</bibl>
+               </listBibl>
+            </person>
+
             <person xml:id="EberhardusSaltzmanndeValleMasonis">
                <persName>
                   <forename type="preferred">Eberhardus</forename>
@@ -515,6 +535,40 @@
                      maîtres (ca. 1200–1500), II, Turnhout. 1996, p. 90–91.</bibl>
                </listBibl>
             </person>
+
+            <person xml:id="GabrielBiel">
+               <persName>
+                  <forename type="preferred">Gabriel</forename>
+                  <surname type="preferred">Biel</surname>
+               </persName>
+               <persName type="sort">Biel, Gabriel</persName>
+               <idno type="VIAF">19692948</idno>
+               <idno type="GND">118510703</idno>
+               <birth when="1410" cert="medium"/>
+               <death when="1495"/>
+               <note>Born in Speyer, he matriculated at Heidelberg University in 1432, where he
+                  obtained his bachelor's degree in 1435 and his master's degree in 1438. He was
+                  active as a master at Heidelberg until 1444, except for the period 1442/1443, when
+                  he attended the University of Erfurt for a short time. It is uncertain where he was
+                  until 1451, when he matriculated at the University of Erfurt. In 1449/1450, he was
+                  probably in Mainz. From 1453, he studied theology at the University of Cologne and
+                  was licensed in 1457 in Erfurt. In the years 1457–1466, he was a preacher at Mainz
+                  Cathedral. In 1469, he entered the community of the Brothers of the Common Life in
+                  Butzbach. From 1484 to 1492, he was Professor of Theology in Tübingen, where he
+                  occupied the first chair of the via moderna.</note>
+               <occupation role="scr fmo" ref="#Gießen_Universitätsbibliothek_Hs618"/>
+               <listBibl>
+                  <bibl>Toepke, Matrikel I, 190-191; II, 361, 384, 386.</bibl>
+                  <bibl>Weissenborn, Erfurt I, 224.</bibl>
+                  <bibl>Keussen, Matrikel I, 559-561.</bibl>
+                  <bibl>H. A. Oberman, The Harvest of Medieval Theology. Gabriel Biel and Late
+                     Medieval Nominalism, Cambridge (MA) 1963, 10-12.</bibl>
+                  <bibl>G. Faix, Gabriel Biel und die Brüder vom Gemeinsamen Leben. Quellen und
+                     Untersuchungen zu Verfassung und Selbstverständnis des Oberdeutschen
+                     Generalkapitels, Tübingen 1999, 33-59.</bibl>
+               </listBibl>
+            </person>
+
             <person xml:id="GalcerandusBenedicti">
                <persName>
                   <forename type="preferred">Galcerandus</forename>
@@ -641,9 +695,9 @@
                   of the Dominican Order in Bohemia. In this capacity, he participated in the
                   General Chapter of the Order in Rome in 1484.</note>
                <affiliation subtype="OP" type="religiousOrder">Dominican</affiliation>
-               <occupation role="fmo scr" ref="#Eichstätt_UB_Cod-686"/>
+               <occupation role="fmo scr" ref="#Eichstätt_UB_Cod686"/>
                <listBibl>
-                  <bibl/>
+                  <bibl>Hoenen, Speculum.</bibl>
                </listBibl>
             </person>
             <person xml:id="GeorgiusDeBrabantia">
@@ -1647,6 +1701,28 @@
                   <bibl>II, p. 142.</bibl>
                </listBibl>
             </person>
+
+            <person xml:id="PeterHawindorn">
+               <persName>
+                  <forename type="preferred">Peter</forename>
+                  <surname type="preferred">Hawindorn aus Dingolfing</surname>
+               </persName>
+               <persName type="sort">Hawindorn aus Dingolfing, Peter</persName>
+               <note>Copied seven other manuscripts, from 1456 to 1476, in which he presents
+                  himself as persecutor rusticorum. He was Kaplan in Dingolfing a.d. Isar.</note>
+               <occupation role="scr"
+                  ref="#SanktGallen_KantonsbibliothekVadianischeSammlung_VadSlgMs839"/>
+               <listBibl>
+                  <bibl>Geschichte der Stadt Dingolfing und ihrer Umgebung. Cover · Josef Wolfgang
+                     Eberl. Detterer, 1856, p. 151.</bibl>
+                  <bibl>Vatikan, Biblioteca Apostolica Vaticana, Pal. lat. 722. Beschreibung von:
+                     Dr. Wolfgang Metzger (Universitätsbibliothek Heidelberg), 2024.
+                     <ref target="https://digi.ub.uni-heidelberg.de/de/bpd/beschreibungen/bav_pal_lat_722.html"
+                        >https://digi.ub.uni-heidelberg.de/de/bpd/beschreibungen/bav_pal_lat_722.html</ref>
+                  </bibl>
+               </listBibl>
+            </person>
+
             <person xml:id="PetrusHuinlinDeLindaw">
                <persName>
                   <forename type="preferred">Petrus</forename>
@@ -1755,6 +1831,42 @@
                   <bibl>Kałuza, “Débuts,” 281</bibl>
                   <bibl>Kałuza, “Crise,” 312</bibl>
                   <bibl>Sullivan, Parisian Licentiates II, 119-121.</bibl>
+               </listBibl>
+            </person>
+
+            <person xml:id="RobertusCybollus">
+               <persName>
+                  <forename type="preferred">Robertus</forename>
+                  <forename type="variant">Robert</forename>
+                  <surname type="preferred">Cybollus</surname>
+                  <surname type="variant">Ciboule</surname>
+               </persName>
+               <persName type="sort">Cybollus, Robertus</persName>
+               <birth when="1403"/>
+               <death when="1458"/>
+               <note>He studied in Paris as a member of the French Nation, at the Collège de
+                  Harcourt, and obtained the degree of Master of Arts in 1421. He subsequently
+                  studied theology, was licensed in 1437, and obtained the title of doctor the
+                  following year. In 1437, he served as rector of the University. He participated in
+                  several diplomatic missions: for instance, in 1438 he was a delegate of the
+                  University at the Assembly of Bourges, where the Pragmatic Sanction was drawn up;
+                  in the same year, he acted as ambassador of Charles VII at the Council of Basel. In
+                  1452, he cooperated with the king and the cardinal legate Guillaume d'Estouteville
+                  in the reform of the University.</note>
+               <occupation role="tch"
+                  ref="#Laon_BibliothèquemunicipaleSuzanneMartinet_MS436"/>
+               <note type="role">Master mentioned in the colophon as the lecturer of the commentary
+                  transmitted.</note>
+               <listBibl>
+                  <bibl>A. Combes, "Un témoin du socratisme chrétien au XVe siècle : Robert Ciboule
+                     (1403–1458)", AHDLMA 8 (1933), p. 93–259.</bibl>
+                  <bibl>C. Lohr, Latin Aristotle Commentaries, II, p. 131 <note type="biblio"
+                        >listing the QsPol as a spurious work</note>.</bibl>
+                  <bibl>Sullivan, Parisian Licentiates, II, p. 156–161 <note type="biblio">listing
+                        the QsPol as Cybollus's work, based on the first version of Lohr's
+                        inventory: C. Lohr, "Medieval Latin Aristotle Commentaries. Authors:
+                        Robertus–Wilgelmus", Traditio 29 (1973), p. 93–197, at p.
+                     100</note>.</bibl>
                </listBibl>
             </person>
 
@@ -1958,6 +2070,7 @@
                   <bibl>Auctarium V, col. 423, l.9; col. 484, l. 5; col. 489, l. 46.</bibl>
                </listBibl>
             </person>
+
          </listPerson>
       </body>
    </text>
