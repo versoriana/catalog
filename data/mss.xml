@@ -62,15 +62,6 @@
                   <msItem xml:id="Aarau_AKB_MsWettF42_QsP">
                      <locus from="1ra" to="99va"/>
                      <title ref="workID">QsP</title>
-                     <filiation>
-                        <list>
-                           <item>
-                              <ref target="Aarau_AKB_MsWettF42_QsP">QsP</ref> is particularly close
-                              to <ref type="msItem" target="#Basel_UB_FIII10_QsP">Basel F III
-                                 10</ref>
-                           </item>
-                        </list>
-                     </filiation>
                   </msItem>
                   <msItem xml:id="Aarau_AKB_MsWettF42_DC">
                      <locus from="100ra" to="102ra"/>
@@ -122,16 +113,6 @@
                            difficiliorum</title>
                         <note type="content">Incomplete</note>
                      </msItem>
-                     <filiation>
-                        <list>
-                           <item> The <ref target="#Aarau_AKB_MsWettF42_AnonExpositio">first
-                                 commentary</ref> is very similar to the <ref target="workID"
-                                 type="work">DA</ref> commentary transmitted in <ref type="ms"
-                                 target="msID">ms. Basel F I 13</ref>: the questions transmitted are
-                              the same; the structure is the same; it could be a copy of this
-                              text.</item>
-                        </list>
-                     </filiation>
                      <note type="paleo">Copied by a different hand than <ref type="msItem"
                            target="#Aarau_AKB_MsWettF42_QdA">following text</ref>.</note>
                   </msItem>
@@ -178,6 +159,17 @@
                            >Lambertus de Monte’s Questions on De anima</ref>, a thomistic commentary
                         used in Cologne. </p>
                      <origPlace ref="#place_cologne">Cologne</origPlace>
+                     <note type="msRelationship">
+                        <p><ref target="#Aarau_AKB_MsWettF42_QsP" type="msItem">QsP</ref> is
+                           particularly close to <ref type="msItem"
+                              target="#Basel_UB_FIII10_QsP">Basel F III 10</ref>.</p>
+                        <p>The <ref target="#Aarau_AKB_MsWettF42_AnonExpositio" type="msItem">first
+                              commentary</ref> is very similar to the <ref target="workID"
+                              type="work">DA</ref> commentary transmitted in <ref type="ms"
+                              target="msID">ms. Basel F I 13</ref>: the questions transmitted are
+                           the same; the structure is the same; it could be a copy of this
+                           text.</p>
+                     </note>
                   </origin>
 
                </history>
@@ -1795,13 +1787,6 @@
                            found in ms. 2118, ff. 177r–193r).</p>
                         <p>The commentaries are accompanied by several glosses.</p>
                      </note>
-                     <filiation>
-                        <list>
-                           <item><ref target="#Kraków_BJ_cod2024">Kraków, BJ, cod. 2024</ref>, in
-                              which Versoris’s QdC are also completed with the same anonymous
-                              questions on Book III</item>
-                        </list>
-                     </filiation>
                   </msItem>
                   <msItem xml:id="Kraków_BibliotekaJagiellońska_cod2007_QsP_Anon">
                      <locus/>
@@ -1810,37 +1795,15 @@
                      <incipit>circa initium libri Physicorum queritur utrum inter tres scientias
                         speculativas reales philosophia ordine doctrine sit prima, mathematica
                         secunda, metaphysica tertia</incipit>
-                     <filiation>
-                        <list>
-                           <item><ref target="#Krakow_BJ_cod2002">Krakow, BJ, cod. 2002</ref>, <ref
-                                 target="#Krakow_BJ_cod2072">2072</ref>, <ref
-                                 target="#Krakow_BJ_cod2087">2087</ref>, which contain the same
-                              Cracovian QsP.</item>
-                        </list>
-                     </filiation>
                   </msItem>
                   <msItem xml:id="Kraków_BibliotekaJagiellońska_cod2007_QdG_Anon">
                      <locus from="135r" to="163r"/>
                      <author>Anonymus</author>
                      <title ref="workID">QdG</title>
-                     <filiation>
-                        <list>
-                           <item>
-                              <ref target="Kraków_BJ_cod2118">Kraków, BJ, cod. 2118</ref>, which
-                              contains the same anonymous QdG found at ff. 135r–163r. </item>
-                        </list>
-                     </filiation>
                   </msItem>
                   <msItem xml:id="Kraków_BibliotekaJagiellońska_cod2007_QsMete">
                      <locus from="163r" to="192r"/>
                      <title ref="workID">QsMete</title>
-                     <filiation>
-                        <list>
-                           <item><ref target="#Munich_BSB_Clm520">Munich, BSB, Clm 520</ref>, in
-                              which Versoris’s QsMete are also preceded by the prologue from Paulus
-                              of Worczyn’s Questions on Aristotle’s Meteorology.</item>
-                        </list>
-                     </filiation>
                   </msItem>
                </msContents>
                <history>
@@ -1852,9 +1815,24 @@
                            in 1961, which was kindly made available to me by the librarians of the
                            manuscript department.</note></p>
                      <origPlace>Kraków</origPlace>
-                     <note type="msRelationship"><ref target="#Kraków_BJ_cod2085">Kraków, BJ, cod.
-                           2085</ref>, which also belonged to <persName ref="#MichaelDeTurobin"
-                           >Michael de Turobin</persName>.</note>
+                     <note type="msRelationship">
+                        <p><ref target="#Kraków_BJ_cod2085" type="ms">Kraków, BJ, cod.
+                              2085</ref>, which also belonged to <persName ref="#MichaelDeTurobin"
+                              >Michael de Turobin</persName>.</p>
+                        <p><ref target="#Kraków_BJ_cod2024" type="ms">Kraków, BJ, cod.
+                              2024</ref>, in which Versoris's QdC are also completed with the same
+                           anonymous questions on Book III.</p>
+                        <p><ref target="#Krakow_BJ_cod2002" type="ms">Krakow, BJ, cod.
+                              2002</ref>, <ref target="#Krakow_BJ_cod2072" type="ms">2072</ref>,
+                              <ref target="#Krakow_BJ_cod2087" type="ms">2087</ref>, which contain
+                           the same Cracovian QsP.</p>
+                        <p><ref target="Kraków_BJ_cod2118" type="ms">Kraków, BJ, cod.
+                              2118</ref>, which contains the same anonymous QdG found at ff.
+                           135r–163r.</p>
+                        <p><ref target="#Munich_BSB_Clm520" type="ms">Munich, BSB, Clm 520</ref>,
+                           in which Versoris's QsMete are also preceded by the prologue from Paulus
+                           of Worczyn's Questions on Aristotle's Meteorology.</p>
+                     </note>
                   </origin>
                   <provenance><p>The codex belonged to <persName ref="#MichaelDeTurobin">Michael de
                            Turobin</persName>: <quote source="1r">Liber Michaelis Lublin, alias de
@@ -2176,13 +2154,6 @@
                            1r–259v) and followed by Andreas Ruczel de Costen (Kościan)’s QdA (ff.
                            400r–439r).</p>
                      </note>
-                     <filiation>
-                        <list>
-                           <item><ref type="ms" target="#Kraków_BJ_2024">Kraków, BJ 2024</ref>, in
-                              which Versoris’s QdC are also completed with the same anonymous
-                              questions on Book III.</item>
-                        </list>
-                     </filiation>
                   </msItem>
                   <msItem xml:id="Kraków_BibliotekaJagiellońska_cod2024_QdG">
                      <locus from="265r" to="294r"/>
@@ -2208,6 +2179,11 @@
                      <p>1478, as stated in the colophon of the QdG: <quote source="294r">Explicit
                            liber secundus De generatione et corruptione sub anno Domini 1478, in die
                            Mathie ante reminiscere, feria quarta, etc.</quote>, f. 294r.</p>
+                     <note type="msRelationship">
+                        <p><ref target="#Kraków_BibliotekaJagiellońska_cod2007" type="ms">Kraków,
+                              BJ, cod. 2007</ref>, in which Versoris's QdC are also completed with
+                           the same anonymous questions on Book III.</p>
+                     </note>
                   </origin>
                   <provenance>
                      <p>A mark of possession on the inner front cover indicates that the codex
@@ -4288,7 +4264,7 @@
                   <idno>H.VI.7</idno>
                </msIdentifier>
                <msContents>
-                  <summary/>
+                  <summary><ab type="explicit_attribution" cert="1"/></summary>
                   <msItem xml:id="Siena_Intronati_HVI7_CsPH">
                      <locus from="1r" to="56r"/>
                      <title ref="ID">CsPH, II-III</title>
