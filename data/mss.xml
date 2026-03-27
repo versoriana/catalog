@@ -4095,11 +4095,6 @@
                         gloriose nationis Bohemorum in domo Reczek</colophon>
                   </msItem>
                </msContents>
-               <physDesc>
-                  <handDesc>
-                     <handNote scope="major" scribeRef="#HilariusLitomericensis"/>
-                  </handDesc>
-               </physDesc>
                <history>
                   <origin>
                      <origDate from="1450" to="1452">1450–1452</origDate>
@@ -5463,76 +5458,135 @@
                </additional>
             </msDesc>
 
-            <msDesc xml:id="Wien_DK_149119">
+            <!-- Wien, Dominikanerkonvent, Cod. 149/119 issue#40 -->
+            <msDesc xml:id="Wien_Dominikanerkonvent_Cod149119">
                <msIdentifier>
                   <settlement>Wien</settlement>
-                  <repository>Dominikanerkloster</repository>
-                  <idno>149/119</idno>
+                  <repository>Dominikanerkonvent</repository>
+                  <idno>Cod. 149/119</idno>
+                  <idno type="URI"
+                     >https://manuscripta.at/diglit/AT8000-149/0001</idno>
                </msIdentifier>
                <msContents>
-                  <summary><ab type="explicit_attribution" cert="0">No. Only the Parisian origin of
-                        the texts is specified.</ab></summary>
-                  <msItem xml:id="Wien_DK_149119_Predicamenta">
+                  <summary><ab type="explicit_attribution" cert="0">None, only the Parisian origin
+                        of the texts is specified.</ab></summary>
+                  <msItem xml:id="Wien_Dominikanerkonvent_Cod149119_QsPor">
+                     <locus from="3ra" to="34rb"/>
+                     <title ref="workID">QsPor</title>
+                     <colophon source="34rb">Expliciunt sententiae super libro universalium
+                        Porphyrii, finite in die passionis beatissime Ludmille, vidue, patrone et
+                        domine incliti regni Bohemie, in collegio Reczkonis, ductive perutiliter in
+                        notitiam universalium ipsorum quidditates et essentias lucidissime
+                        demonstrantes</colophon>
+                  </msItem>
+                  <msItem xml:id="Wien_Dominikanerkonvent_Cod149119_QsPre">
                      <locus from="35ra" to="65vb"/>
-                     <title ref="ID">Predicamenta</title>
+                     <title ref="workID">QsPre</title>
                   </msItem>
-                  <msItem xml:id="Wien_DK_149119_SP">
+                  <msItem xml:id="Wien_Dominikanerkonvent_Cod149119_QsSex">
                      <locus from="66ra" to="75va"/>
-                     <title ref="ID">Sex principiorum</title>
+                     <title ref="workID">QsSex</title>
                   </msItem>
-                  <msItem xml:id="Wien_DK_149119_DD">
+                  <msItem xml:id="Wien_Dominikanerkonvent_Cod149119_QsDiv">
                      <locus from="75vb" to="80vb"/>
-                     <title ref="ID">De divisione</title>
+                     <title ref="workID">QsDiv</title>
                   </msItem>
-                  <msItem xml:id="Wien_DK_149119_Periermeneias">
+                  <msItem xml:id="Wien_Dominikanerkonvent_Cod149119_QsPeri">
                      <locus from="81ra" to="101va"/>
-                     <title ref="ID">Periermeneias</title>
-                     <colophon source="101va">Terminantur Sentencie totius veteris artis in alma
-                        universitate studii Parisiensis questionatim collecte per Wenceslaum de
-                        Wrben, baccalarium arcium, ad universitatem Pragensem inde allate, magnam
-                        vim et intelligenciam textuum Philosophi in se lucide continentes. Scripte
-                        Prahae in collegio Sanctissime Marie Virginis anno Domini 1450 quarto ydus
-                        Octobris</colophon>
+                     <title ref="workID">QsPeri</title>
+                     <colophon source="101va" n="ars vetus">Terminantur sententie totius veteris
+                        artis in alma universitate studii Parisiensis questionatim collecte per
+                        Wenceslaum de Wrben, baccalarium artium, ad universitatem Pragensem inde
+                        allate, magnam vim et intelligentiam textuum Philosophi in se lucide
+                        continentes. Scripte Prage in collegio Sanctissime Marie virginis, anno
+                        Domini 1450 quarto ydus Octobris</colophon>
                   </msItem>
-                  <msItem xml:id="Wien_DK_149119_AP">
+                  <msItem xml:id="Wien_Dominikanerkonvent_Cod149119_QsApri">
                      <locus from="101vb" to="125vb"/>
-                     <title ref="ID">Analytica priora</title>
-                     <colophon source="125vb">in collegio sanctissime Marie virginis Nacionis
-                        Bohemorum in domo Recek, anno etc. liii ante festum Venceslai tempore quo
-                        terminator presentis libri examen baccalariatus intravit ad gradumque sub
-                        reverend magistro Stanislao de Welwar terminativt, eodem anno sub decursu
-                        pauci temporis rex Ladislaus Pragam ingrediens in festo sanctorum Symonis et
-                        Iude in Castro Pragensi laudabiliter est coronatus.</colophon>
+                     <title ref="workID">QsApri</title>
+                     <colophon source="125vb">Et hec de questione, et per consequens de toto libro
+                        Priorum, in collegio sanctissime Marie virginis Nationis Bohemorum, in domo
+                        Reczek, anno etc. liii, ante festum Wenceslai, tempore quo terminator
+                        presentis libri examen baccalariatus intravit gradumque sub reverendo
+                        magistro Stanislao de Welwar terminavit. Eodem anno sub decursu pauci
+                        temporis rex Ladislaus Pragam ingrediens in festo sanctorum Symonis et Iude
+                        in Castro Pragensi laudabiliter est coronatus</colophon>
                   </msItem>
-                  <msItem xml:id="Wien_DK_149119_Posteriora">
+                  <msItem xml:id="Wien_Dominikanerkonvent_Cod149119_QsApos">
                      <locus from="130ra" to="165rb"/>
-                     <title ref="ID">Posteriora</title>
+                     <title ref="workID">QsApos</title>
                      <colophon source="164rb">Et sic est finis glose Parisiensis super utroque libro
-                        Posteriorum feria quinta ante Purificationem anno Domini 1454.</colophon>
+                        Posteriorum, feria quinta ante Purificationem, anno Domini
+                        1454</colophon>
                   </msItem>
-                  <msItem xml:id="Wien_DK_149119_Topica">
+                  <msItem xml:id="Wien_Dominikanerkonvent_Cod149119_QsTop">
                      <locus from="166ra" to="182vb"/>
-                     <title ref="ID">Topica I-IV</title>
+                     <title ref="workID">QsTop I-IV</title>
                   </msItem>
-                  <msItem xml:id="Wien_DK_149119_Elenchi">
+                  <msItem xml:id="Wien_Dominikanerkonvent_Cod149119_QsSE">
                      <locus from="194ra" to="210vb"/>
-                     <title ref="ID">Elenchi</title>
-                     <colophon source="210vb">Et in hoc terminantur Parisiensia puncta in se
-                        continentia superficialiter cuncta que Aristoteles in suis libris oculte
-                        tradidit eosque ad legendum et non intelligendum edidit. … Terminantur
-                        puncta parisiensia super nova et veteri logica, comparata per Martinum de
-                        Glathovia anno etc. LII</colophon>
+                     <title ref="workID">QsSE</title>
+                     <colophon source="210vb" n="ars nova">Et in hoc terminantur Parisiensia puncta
+                        / in se continentia superficialiter cuncta / que Aristoteles in suis libris
+                        oculte tradidit / eosque ad legendum et non intelligendum edidit.
+                        Compositorque horum / verus zelator discipulorum, animum suum preparavit /
+                        pro suoque posse hanc manifestavit [rubeo: Terminantur puncta parisiensia
+                        super nova et veteri logica, comparata per Martinum de Glathovia anno etc.
+                        LII]</colophon>
                   </msItem>
                </msContents>
                <history>
                   <origin>
-                     <origDate from="1450" to="1454">1450-1454</origDate>
-                     <origPlace>Prague, as evident from the colophona.</origPlace>
+                     <origDate from="1450" to="1454">1450–1454</origDate>
+                     <origPlace>Praha</origPlace>
+                     <p>The texts were copied at Prague University, at the Rezeck College, by
+                        different scribes, probably from an exemplar brought from Paris by <persName
+                           ref="#WenceslausDeWrben">Wenceslaus de Wrben</persName>, as indicated by
+                        the colophon (f. 101va). One of the scribes notes that he passed the
+                        bachelor examination under Master <persName ref="#StanislausDeVelvary"
+                           >Stanislaus de Velvary</persName>. The final part of the codex, which is
+                        undated, was acquired by Martinus de Glatovia. The codex arrived at the
+                        Dominican convent in Vienna between the end of the 15th century and the
+                        beginning of the 16th century.</p>
+                     <p>Colophon of QsPor, f. 34rb; colophon of the Questions on the ars vetus, f.
+                        101va; colophon of QsApri, f. 125vb; colophon of QsApos, f. 164rb; colophon
+                        of the Questions on the ars nova, f. 210vb.</p>
+                     <note type="msRelationship">
+                        <p><ref target="#Praha_NK_VG22" type="ms">Praha, NK, V G 22</ref>, f. 266r
+                           and Schlägl, Prämonstratenserstift, 116 Cpl. f. 187r, which contain the
+                           same colophon of f. 210vb.</p>
+                        <p><ref target="#Praha_NK_IVF8" type="ms">Praha, NK, IV F 8</ref>, which
+                           was copied by Martinus de Glatovia.</p>
+                        <p>Praha, KMK, M 40/2, Praha, KMK, M 81 and <ref target="#Praha_NK_XH21"
+                              type="ms">Praha, NK, X H 21</ref>, in which Stanislaus de Velvary is
+                           mentioned.</p>
+                        <p>Lawrence (KA), Kenneth Spencer Library, MS C 210 and Vodňany, Městské
+                           muzeuma galerie Vodňany, G 11 R, also copied in Prague around the same
+                           time, in which the texts are presented as "Parisian glosses".</p>
+                     </note>
                   </origin>
+                  <provenance>
+                     <p>The codex arrived at the Dominican convent in Vienna between the end of the
+                        15th century and the beginning of the 16th century.</p>
+                  </provenance>
                </history>
                <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source cert="high" resp="#">
+                           <p>Ms directly examined</p>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
                   <listBibl>
-                     <bibl>Markowski, Rerpertorium 16, 25, 32, 37, 43, 45, 156-157, 181, 280.</bibl>
+                     <bibl>Šmahel, "Paris und Prag", 446, fn. 14, 457–458.</bibl>
+                     <bibl>F. Unterkircher, H. Horninger, F. Lackner, Die datierten Handschriften in
+                        Wien außerhalb der Österreichischen Nationalbibliothek bis zum Jahre 1600,
+                        Wien 1981, 61–62, Abb. 229, 240, 243, 250.</bibl>
+                     <bibl>Green-Pedersen, The Tradition of the Topics in the Middle Ages,
+                        401.</bibl>
+                     <bibl>Markowski, Aristotelica Austriaca, 16, 25, 32, 37, 43, 45, 156–157, 181,
+                        280.</bibl>
                   </listBibl>
                </additional>
             </msDesc>
