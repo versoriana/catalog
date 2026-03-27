@@ -4027,6 +4027,115 @@
                </additional>
             </msDesc>
 
+
+            <!-- Praha, KMK, L 37 issue#36 -->
+            <msDesc xml:id="Praha_KMK_L37">
+               <msIdentifier>
+                  <settlement>Praha</settlement>
+                  <repository>KMK</repository>
+                  <idno>L 37</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary><ab type="explicit_attribution" cert="0">The texts are not ascribed to a
+                        particular master, but Hilarius emphasizes their Parisian origin and their
+                        doctrinal orientation in line with Albert the Great and Thomas
+                        Aquinas.</ab></summary>
+                  <msItem xml:id="Praha_KMK_L37_QsP">
+                     <locus from="1ra" to="111vb"/>
+                     <title ref="workID">QsP</title>
+                     <colophon source="38r" n="book I">Finis secundi Phisicorum, anno 50. Hoc
+                        illuminationis tempore devastata Misna dure et acriter, dominus Georgius cum
+                        suis Bohemiam revertitur, sed heu pauperibus panis lacrimarum mixtus
+                        sangwine in Misna degentibus arctior gladio efficitur</colophon>
+                     <colophon source="111v" n="final">Explicit materia seriatim collecta secundum
+                        intentionem Aristotelis super octo libros ipsius .... terminata per Hilarium
+                        de Lithomerzic, baccalarium artium liberalium, in collegio sacratissime
+                        virginis Dei et Domini nostri genitricis Marie nationis Bohemorum, in domo
+                        Reczek, anno Domini 1450</colophon>
+                  </msItem>
+                  <msItem xml:id="Praha_KMK_L37_QdC">
+                     <locus from="113ra" to="144rb"/>
+                     <title ref="workID">QdC</title>
+                  </msItem>
+                  <msItem xml:id="Praha_KMK_L37_QdG">
+                     <locus from="144va" to="164vb"/>
+                     <title ref="workID">QdG</title>
+                  </msItem>
+                  <msItem xml:id="Praha_KMK_L37_QsMete">
+                     <locus from="165ra" to="187ra"/>
+                     <title ref="workID">QsMete</title>
+                  </msItem>
+                  <msItem xml:id="Praha_KMK_L37_QdA">
+                     <locus from="188ra" to="231rb"/>
+                     <title ref="workID">QdA</title>
+                  </msItem>
+                  <msItem xml:id="Praha_KMK_L37_QsSens">
+                     <locus from="231va" to="242vb"/>
+                     <title ref="workID">QsSens</title>
+                  </msItem>
+                  <msItem xml:id="Praha_KMK_L37_QdMem">
+                     <locus from="243ra" to="245vb"/>
+                     <title ref="workID">QdMem</title>
+                  </msItem>
+                  <msItem xml:id="Praha_KMK_L37_QsSom">
+                     <locus from="246ra" to="250va"/>
+                     <title ref="workID">QsSom</title>
+                  </msItem>
+                  <msItem xml:id="Praha_KMK_L37_QdLong">
+                     <locus from="250vb" to="252ra"/>
+                     <title ref="workID">QdLong</title>
+                  </msItem>
+                  <msItem xml:id="Praha_KMK_L37_Qdent">
+                     <locus from="253va" to="262va"/>
+                     <title ref="workID">Qdent</title>
+                     <colophon source="262va">finitus est iste libellus in die conversionis sancti
+                        Pauli, doctoris gentium eximii, anno Christi millesimo quadrigentesimo
+                        quinquagesimo secundo, per magistrum Hilarium de Lithomerzicz, licet non ex
+                        toto, ut ipse potes manum dinoscere. In collegio sanctissime marie virginis
+                        gloriose nationis Bohemorum in domo Reczek</colophon>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <handNote scope="major" scribeRef="#HilariusLitomericensis"/>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate from="1450" to="1452">1450–1452</origDate>
+                     <origPlace>Praha</origPlace>
+                     <p>The texts were copied at the College of Reczek at Prague University by the
+                        students <persName ref="#HilariusLitomericensis">Hilarius de
+                           Litomericz</persName> and <persName ref="ID">Wenceslaus de
+                           Krzizanow</persName>. Hilarius transcribed an exemplar written by
+                           <persName ref="#WenceslausDeWrben">Wenceslaus de Urbem</persName> – now
+                        lost – which was among the earliest manuscripts of Versoris's text and one
+                        of the first to arrive in Prague.</p>
+                     <!-- "The colophon on f. 252r, transcribed above" likely refers to Praha, KMK, B 49 -->
+                     <p>The colophon on f. 252r provides detailed information about the
+                        circumstances of the copy. Detailed information on the (political) context
+                        of the copy can be found also in other colophons: colophon of QsP, book I,
+                        f. 38r; final colophon of QsP, f. 111v; colophon of Qdent, f.
+                        262va.</p>
+                  </origin>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source cert="high" resp="#">
+                           <p>Ms directly examined</p>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+                  <listBibl>
+                     <bibl>Podlaha II, 222-23 (1280).</bibl>
+                     <bibl>Šmahel, Paris und Prag, 409, 446, 460.</bibl>
+                     <bibl>Markowski, Metropolitankapitel, 237-238.</bibl>
+                     <bibl>Panzica, Fifteenth-century textbooks.</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+
             <msDesc xml:id="Praha_NK_XH21">
                <msIdentifier>
                   <settlement>Praha</settlement>
