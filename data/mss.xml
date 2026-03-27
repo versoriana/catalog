@@ -4354,6 +4354,153 @@
                </additional>
             </msDesc>
 
+            <!-- Praha, NK, I E 38 issue#45 -->
+            <msDesc xml:id="Praha_NK_IE38">
+               <msIdentifier>
+                  <settlement>Praha</settlement>
+                  <repository>NK</repository>
+                  <idno>I E 38</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary><ab type="explicit_attribution" cert="1">The texts are ascribed to
+                        Versoris in the final colophon at f. 365r and in the table of contents at f.
+                        370v, both by the hand of Crux de Telcz.</ab></summary>
+                  <msItem xml:id="Praha_NK_IE38_QsP">
+                     <locus from="1r" to="141r"/>
+                     <title ref="workID">QsP</title>
+                     <colophon source="83r" n="book IV">Et sic est finis libri quarti Phisicorum,
+                        sabbato ante dominicam Rogationum, in collegio regis Wenceslai, anno
+                        M°CCCC° LIX° [28 IV 1459]</colophon>
+                     <colophon source="95r" n="book V">Et hec de quinto libro Phisicorum. Et est
+                        finitum in die Philippi et Iacobi, anno eodem, in collegio regis Wenceslai
+                        Prage [1 V 1459]</colophon>
+                     <colophon source="119r" n="book VII">Et hoc de toto septimo Phisicorum, feria
+                        quarta ante Penthecosten [9 V 1459]</colophon>
+                     <colophon source="141v" n="final">finiti sunt sabbato in vigilia Penthecosten
+                        in collegio regis Wenceslai Prage, anno Domini M°CCCC° LIX° [12 V
+                        1459]</colophon>
+                  </msItem>
+                  <msItem xml:id="Praha_NK_IE38_QdC">
+                     <locus from="142r" to="194v"/>
+                     <title ref="workID">QdC</title>
+                     <colophon source="194v">Et hec de questione, et per consequens de toto libro
+                        Celi et mundi, terminato feria quinta in octava Corporis anno 1459 Prage, in
+                        collegio regis Wenceslai [31 V 1459]</colophon>
+                  </msItem>
+                  <msItem xml:id="Praha_NK_IE38_QdG">
+                     <locus from="195r" to="227v"/>
+                     <title ref="workID">QdG</title>
+                     <colophon source="227v">Et hec de questione, et per consequens de toto secundo
+                        libro De generatione, feria secunda ante Viti anno 1459° [11 VI
+                        1459]</colophon>
+                  </msItem>
+                  <msItem xml:id="Praha_NK_IE38_QsMete">
+                     <locus from="228r" to="265r"/>
+                     <title ref="workID">QsMete</title>
+                     <colophon source="246v" n="book I">Et hec de primo Metheororum in die sancti
+                        Prothasii, feria quarta [19 VI 1459]</colophon>
+                     <colophon source="256v" n="book II">Et hec de secundo Metheororum, sabbato in
+                        vigilia Iohannis Baptiste [23 VI 1459]</colophon>
+                     <colophon source="263r" n="final">Finitum sabbato, in vigilia Iohannis
+                        Baptiste, anno 1459, hora vigesima tertia [23 VI 1459]</colophon>
+                  </msItem>
+                  <msItem xml:id="Praha_NK_IE38_QdA">
+                     <locus from="266r" to="333r"/>
+                     <title ref="workID">QdA</title>
+                     <colophon source="269r" n="book I">Et hec de primo De anima in die Iohannis et
+                        Pauli [26 VI 1459]</colophon>
+                     <colophon source="313v" n="book II">Et hec de questione, et per consequens de
+                        secundo De anima, in die sancti Allexii, Prage [17 VII 1459]</colophon>
+                     <colophon source="333r" n="final">Et hec de anima dicta sufficiant, et per
+                        consequens de toto De anima Aristotelis, anno 1459°, anno secundo regni
+                        Bohemie regis Georgii, finitum Prage per Crucem de Telcz, in collegio Regis
+                        Wenceslai, sabbato ante Marie Madgdalene, hora 22° [21 VII
+                        1459]</colophon>
+                  </msItem>
+                  <msItem xml:id="Praha_NK_IE38_QsSen">
+                     <locus from="334r" to="350v"/>
+                     <title ref="workID">QsSen</title>
+                     <colophon source="350v">Et hec de questione, et per consequens de toto libro De
+                        sensu et sensato, feria quinta post Jacobi, in die sancte Anne matris Marie
+                        [26 VII 1459]</colophon>
+                  </msItem>
+                  <msItem xml:id="Praha_NK_IE38_QsMem">
+                     <locus from="351r" to="355r"/>
+                     <title ref="workID">QsMem</title>
+                     <colophon source="355r">Et hec de toto libro De memoria et reminiscentia,
+                        sabbato post Iacobi, anno 1459°, Prage in collegio regis Wenceslai [28 VII
+                        1459]</colophon>
+                  </msItem>
+                  <msItem xml:id="Praha_NK_IE38_QsSom">
+                     <locus from="355v" to="362v"/>
+                     <title ref="workID">QsSom</title>
+                  </msItem>
+                  <msItem xml:id="Praha_NK_IE38_QsLon">
+                     <locus from="363r" to="365r"/>
+                     <title ref="workID">QsLon</title>
+                     <colophon source="365r" n="final">Et in hoc terminatur expositio librorum
+                        Philosophi naturalis philosophie, edita questionatim per magistrum Iohannem
+                        dictum Versor in studio alme universitatis Parisiensis, allataque per
+                        magistrum Wenceslaum de Wrben, adhuc eo pro tunc baccalario existente,
+                        finita per Crucem de Telcz, studentem in collegio regis Wenceslai, feria
+                        tertia in vinculis Sancti Petri, anno 1459 [1 VIII 1459]</colophon>
+                  </msItem>
+                  <msItem xml:id="Praha_NK_IE38_ToC">
+                     <locus from="370v"/>
+                     <colophon source="370v">finis titulorum et questionum Iohannis Versoris super
+                        libros Aristotelis naturalis philosophie parvorum naturalium per me, fratrem
+                        Crucem de Telcz, in monasterio Trzebonensi sub abbate Marco, priore Iohanne
+                        Tissnow, anno Domini 1495 in die Panthaleonis, in vigilia Marthe [28 VII 1495]. 
+                     [alia manu] De iuventute et senectute, De inspiratione et
+                        respiratione, De vita et morte, De motu animalium, istos tractatus quinque
+                        Parvorum naturalium non habentur in his questionibus Versoris.</colophon>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <handNote scope="major" scribeRef="#CruxDeTelcz"/>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate from="1459" to="1459">The texts were copied in 1459. In 1495, in
+                        Třeboň, Crux added an index at the end of the volume (f.
+                        370v).</origDate>
+                     <origPlace>Praha</origPlace>
+                     <p>The manuscript was entirely copied by <persName ref="#CruxDeTelcz">Crux de
+                           Telcz</persName> at King Wenceslas College in Prague. Colophons at: QsP
+                        book IV, f. 83r; QsP book V, f. 95r; QsP book VII, f. 119r; QsP final, f.
+                        141v; QdC, f. 194v; QdG, f. 227v; QsMete book I, f. 246v; QsMete book II,
+                        f. 256v; QsMete final, f. 263r; QdA book I, f. 269r; QdA book II, f. 313v;
+                        QdA final, f. 333r; QsSen, f. 350v; QsMem, f. 355r; final colophon, f.
+                        365r; table of contents, f. 370v.</p>
+                     <note type="msRelationship">
+                        <p><ref target="#Praha_NK_IF25" type="ms">Praha, NK, I F 25</ref>, also
+                           copied by <persName ref="#CruxDeTelcz">Crux de Telcz</persName> at the
+                           same place and time.</p>
+                     </note>
+                  </origin>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source cert="high" resp="#">
+                           <p>Ms directly examined</p>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+                  <listBibl>
+                     <bibl>Truhlář I, 224 (223).</bibl>
+                     <bibl>Korolec, 9–12.</bibl>
+                     <bibl>Šmahel, "Paris und Prag", 451, 462.</bibl>
+                     <bibl>Doležalová, "Personal Multiple-Text Manuscripts", 155–159.</bibl>
+                     <bibl>Doležalová, Passionate Copying, 20, 31–32, 130, 259, 287–289,
+                        306.</bibl>
+                     <bibl>Meliadò, Sapienza peripatetica, 142–143.</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+
             <msDesc xml:id="Praha_NK_XH21">
                <msIdentifier>
                   <settlement>Praha</settlement>
