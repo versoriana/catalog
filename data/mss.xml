@@ -4131,6 +4131,78 @@
                </additional>
             </msDesc>
 
+            <!-- Praha, KMK, M 35 issue#42 -->
+            <msDesc xml:id="Praha_KMK_M35">
+               <msIdentifier>
+                  <settlement>Praha</settlement>
+                  <repository>KMK</repository>
+                  <idno>M 35</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     <ab type="explicit_attribution" cert="0">None</ab>
+                     <ab type="general_remarks">The manuscript also contains an excerpt from
+                        Nicolaus Bonetus's Commentary on Metaphysics (ff. 332r–344r), copied in
+                        1454.</ab>
+                  </summary>
+                  <msItem xml:id="Praha_KMK_M35_QsPor">
+                     <locus from="15r" to="63v"/>
+                     <title ref="workID">QsPor</title>
+                  </msItem>
+                  <msItem xml:id="Praha_KMK_M35_QsPre">
+                     <locus from="64r" to="105r"/>
+                     <title ref="workID">QsPre</title>
+                  </msItem>
+                  <msItem xml:id="Praha_KMK_M35_QsSex">
+                     <locus from="106v" to="117r"/>
+                     <title ref="workID">QsSex</title>
+                  </msItem>
+                  <msItem xml:id="Praha_KMK_M35_QdDiv">
+                     <locus from="117v" to="123v"/>
+                     <title ref="workID">QdDiv</title>
+                     <colophon source="123v">Et sic est finis in die sancti Blasii […] post tactum
+                        hore decime, anno Domini M°CCCC°LIII°</colophon>
+                  </msItem>
+                  <msItem xml:id="Praha_KMK_M35_QsInt">
+                     <locus from="124r" to="151r"/>
+                     <title ref="workID">QsInt</title>
+                  </msItem>
+                  <msItem xml:id="Praha_KMK_M35_QsPri">
+                     <locus from="153r" to="193r"/>
+                     <title ref="workID">QsPri</title>
+                  </msItem>
+                  <msItem xml:id="Praha_KMK_M35_QsPos">
+                     <locus from="193v" to="240v"/>
+                     <title ref="workID">QsPos</title>
+                  </msItem>
+                  <msItem xml:id="Praha_KMK_M35_QsTop">
+                     <locus from="241r" to="275r"/>
+                     <title ref="workID">QsTop I–IV</title>
+                  </msItem>
+                  <msItem xml:id="Praha_KMK_M35_QsSE">
+                     <locus from="279r" to="304v"/>
+                     <title ref="workID">QsSE</title>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate from="1453" to="1453">1453, as stated in the colophon of the QdDiv
+                        (f. 123v).</origDate>
+                     <origPlace>Praha</origPlace>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Podlaha II, 290-291 (1389).</bibl>
+                     <bibl>Šmahel, "Paris und Prag", 458.</bibl>
+                     <bibl>Markowski, Metropolitankapitel, 254–255.</bibl>
+                     <bibl>Markowski, Isagoge, 117.</bibl>
+                     <bibl>Green-Pedersen, The Tradition of the Topics in the Middle Ages, p.
+                        400.</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+
             <msDesc xml:id="Praha_NK_XH21">
                <msIdentifier>
                   <settlement>Praha</settlement>
