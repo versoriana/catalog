@@ -4501,6 +4501,109 @@
                </additional>
             </msDesc>
 
+            <!-- Praha, NK, I F 25 issue#46 -->
+            <msDesc xml:id="Praha_NK_IF25">
+               <msIdentifier>
+                  <settlement>Praha</settlement>
+                  <repository>NK</repository>
+                  <idno>I F 25</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     <ab type="explicit_attribution" cert="1">The ascription to Versoris can be
+                        found in the initium of table of contents <quote source="303r">Incipiunt
+                           tituli questionum primi libri Metaphysice Aristotelis Iohannis
+                           Versoris</quote> and in its colophon (f. 304v).</ab>
+                     <ab type="general_remarks">The manuscript, of a metaphysical content, also
+                        transmits Johannes Wenck's Questions on the Liber de causis (ff.
+                        290v–302v); Gilles of Rome's Theoremata de esse et essentia and some
+                        excerpts from Johannes de Nova Domo's treatise De universali reali.</ab>
+                  </summary>
+                  <msItem xml:id="Praha_NK_IF25_QsMeta">
+                     <locus from="1r" to="128v"/>
+                     <title ref="workID">QsMeta I–XII</title>
+                     <colophon source="11v" n="book I">Et est finis primi libri Metaphysice, feria
+                        tertia ante iugulationem sancte Ludmille, que fuit quondam paganissa, modo
+                        iam habetur pro piissima per Deum 1459 [12 IX 1459]</colophon>
+                     <colophon source="30v" n="book III">Et hec de questione, et per consequens de
+                        toto tertio Metaphysice, finitum feria tertia post Remigii dedicationis
+                        ecclesie Pragensis [3 X 1459]</colophon>
+                     <colophon source="74r" n="book VI">Et hec de questione, et per consequens de
+                        toto sexto libro Metaphysice, sabbato in die Ludmile ante Martini [10 XI
+                        1459]</colophon>
+                     <colophon source="86r" n="book VII">Et hec de toto septimo Metaphysice, feria
+                        quinta post Britii in illa sillaba 'us ot post hec' [15 XI
+                        1459]</colophon>
+                     <colophon source="104r" n="book X">Et hec de decimo Metaphysice, anno 1459,
+                        feria quarta in die presentationis beate Marie virginis, in collegio regis
+                        Wenceslai [21 XI 1459]</colophon>
+                     <colophon source="109v" n="book XI">Et hec de XI° libro Metaphysice, anno 1459
+                        in die Clementis in gallicantu [23 XI 1459]</colophon>
+                     <colophon source="128v" n="book XII">Et sic finis duodecim libri Metaphysice,
+                        anno Domini M°CCCC°LIX°, feria quinta in vigilia sancti Andree, per Crucem
+                        de Telcz, Prage in collegio regis Wenceslai [29 XI 1459]</colophon>
+                  </msItem>
+                  <msItem xml:id="Praha_NK_IF25_ToC">
+                     <locus from="303r" to="304v"/>
+                     <colophon source="304v">Expliciunt tituli questionum Iohannis Versoris super
+                        duodecim libros Metaphysice Aristotelis, finiti per me, fratrem Crucem de
+                        Telcz in monasterio Trzebonensi sub abbate Marco de Trzebon, Iohanne priore
+                        de Tisnow, anno Domini 1495° in die sanctorum Abdon et Sennen [30 VII
+                        1495]</colophon>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <handNote scope="major" scribeRef="#CruxDeTelcz"/>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate from="1459" to="1459">Versoris's text was copied 1459; in 1495, in
+                        Třeboň, Crux added an index of the QsMeta (ff. 303r–304v), as evident by
+                        the colophons: QsMeta book I, f. 11v; book III, f. 30v; book VI, f. 74r;
+                        book VII, f. 86r; book X, f. 104r; book XI, f. 109v; book XII, f. 128v;
+                        table of contents, f. 304v.</origDate>
+                     <origPlace>Praha</origPlace>
+                     <p>The most part of the manuscript was copied by <persName ref="#CruxDeTelcz"
+                           >Crux de Telcz</persName> at King Wenceslas College in Prague.</p>
+                     <note type="msRelationship">
+                        <p><ref target="#Praha_NK_IE38" type="ms">Praha, NK, I E 38</ref>, also
+                           copied by <persName ref="#CruxDeTelcz">Crux de Telcz</persName> at the
+                           same place and time.</p>
+                     </note>
+                  </origin>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source cert="high" resp="#">
+                           <p>Ms directly examined</p>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+                  <listBibl>
+                     <bibl>Truhlář I, 105–106 (257).</bibl>
+                     <bibl>Korolec, 13.</bibl>
+                     <bibl>Šmahel, "Paris und Prag", 451, 464, 502.</bibl>
+                     <bibl>Doležalová, "Personal Multiple-Text Manuscripts", 155–156.</bibl>
+                     <bibl>Doležalová, Passionate Copying, 31, 33–34, 40, 66, 259–260, 291–292,
+                        306–307.</bibl>
+                     <bibl>M. Meliadò, "Le Questiones super Librum de causis attribuite a Johannes
+                        Wenck. Concezione, fonti e tradizione manoscritta del commento", in D. Calma
+                        (ed.), Neoplatonism in the Middle Ages. New Commentaries on Liber de Causis
+                        and Elementatio Theologica, Turnhout 2016, 225–270, at 258–270.</bibl>
+                     <bibl>Meliadò, Sapienza peripatetica, 142–143.</bibl>
+                     <bibl>M. Meliadò, "Albertism and Humanism: New Historiographical Perspectives
+                        on John Wenck. With a Catalogue Raisonné of His Works", in M. Meliadò
+                        (ed.), From Paris to
+                        Heidelberg: The Teaching of John Wenck of Herrenberg in the Mirror of His
+                        Unedited Works, special issue of Rivista di Storia della Filosofia 79/3
+                        (2024), 473–495, at 482–483.</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+
             <msDesc xml:id="Praha_NK_XH21">
                <msIdentifier>
                   <settlement>Praha</settlement>
