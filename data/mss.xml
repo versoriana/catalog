@@ -4203,6 +4203,49 @@
                </additional>
             </msDesc>
 
+            <!-- Praha, KMK, M 37 issue#43 -->
+            <msDesc xml:id="Praha_KMK_M37">
+               <msIdentifier>
+                  <settlement>Praha</settlement>
+                  <repository>KMK</repository>
+                  <idno>M 37</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary><ab type="explicit_attribution" cert="0">None</ab></summary>
+                  <msItem xml:id="Praha_KMK_M37_CsPH">
+                     <locus from="53r" to="102v"/>
+                     <title ref="workID">CsPH V–VII</title>
+                     <colophon source="102v">Explicit quintus [sic, although it is the sixth
+                        treatise] tractatus per manus Iohannis de Plana Bohemie, in scola Plznensi,
+                        hora vigesima tertia, anno Domini M CCCC L XXX</colophon>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate from="1480" to="1480">1480, as stated in the colophon (f.
+                        102v).</origDate>
+                     <origPlace>Plzeň</origPlace>
+                     <p>The manuscript was copied by Iohannes de Plana in Plzeň.</p>
+                     <note type="msRelationship">
+                        <p><ref target="#Praha_KMK_L39" type="ms">Praha, KMK, L 39</ref>, which
+                           also belonged to Alex de Trzebon.</p>
+                     </note>
+                  </origin>
+                  <provenance>
+                     <p>The codex belonged to Alex de Trzebon, as attested by the possession mark
+                        on f. 1r: <quote source="1r">Alexii Baccalarii</quote>.</p>
+                  </provenance>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Podlaha II, 292–293 (1391).</bibl>
+                     <bibl>Meirinhos, Bibliotheca manuscripta Petri Hispani, 355–356 <note
+                           type="biblio">ascribing the manuscript to Versoris with
+                        doubts</note>.</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+
             <msDesc xml:id="Praha_NK_XH21">
                <msIdentifier>
                   <settlement>Praha</settlement>
