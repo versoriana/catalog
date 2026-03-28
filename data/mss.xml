@@ -4790,6 +4790,81 @@
                </additional>
             </msDesc>
 
+            <!-- Praha, NK, V E 12 issue#50 -->
+            <msDesc xml:id="Praha_NK_VE12">
+               <msIdentifier>
+                  <settlement>Praha</settlement>
+                  <repository>NK</repository>
+                  <idno>V E 12</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     <ab type="explicit_attribution" cert="0">None</ab>
+                     <ab type="general_remarks">The manuscript also contains some excerpts from
+                        Gilles of Rome's Theoremata de esse et essentia (ff. 1r–3r), a fragment from
+                        Heymericus de Campo's Tractatus problematicus (ff. 10r–29r), and some
+                        (pseudo)-Thomistic texts (ff. 203r–213v).</ab>
+                  </summary>
+                  <msItem xml:id="Praha_NK_VE12_QsSens">
+                     <locus from="73r" to="89v"/>
+                     <title ref="workID">QsSens</title>
+                  </msItem>
+                  <msItem xml:id="Praha_NK_VE12_QdMem">
+                     <locus from="90r" to="93v"/>
+                     <title ref="workID">QdMem</title>
+                  </msItem>
+                  <msItem xml:id="Praha_NK_VE12_QdSom">
+                     <locus from="94r" to="100v"/>
+                     <title ref="workID">QdSom</title>
+                  </msItem>
+                  <msItem xml:id="Praha_NK_VE12_QdLon">
+                     <locus from="101r" to="103r"/>
+                     <title ref="workID">QdLon</title>
+                  </msItem>
+                  <msItem xml:id="Praha_NK_VE12_Qdent">
+                     <locus from="104r" to="132r"/>
+                     <title ref="workID">Qdent</title>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate from="1455" to="1455">1455, as evident from the following two
+                        colophons: <quote source="9v">Et sic est finis, feria secunda ante
+                           Laurentii, quo die fuit coniunctio Lune cum Scorpione, 1455</quote>, f.
+                        9v; <quote source="134r">A quodam bone memorie Martino Polono in scola
+                           sancti Egidii me presente ibi anno etc. 1455</quote>, f.
+                        134r.</origDate>
+                     <origPlace>Praha</origPlace>
+                     <p>The manuscript was copied in Prague, mostly by the master <persName
+                           ref="#StanislausDeGnezna">Stanislaus de Gnezna</persName> (ff. 30–213),
+                        who signed at f. 132v: <quote source="132v">Et tantum de questione et per
+                           consequens de toto libro et ipsius resumpcione per me, reverendum
+                           magistrum Stanislaum (...) post sigillationem sancti
+                        Wenceslai</quote>.</p>
+                  </origin>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source cert="high" resp="#">
+                           <p>Ms directly examined</p>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+                  <listBibl>
+                     <bibl>Truhlář I, 372–373 (906).</bibl>
+                     <bibl>Korolec, 48–50.</bibl>
+                     <bibl>Senko, De ente, 18.</bibl>
+                     <bibl>Šmahel, "Paris und Prag", 464, 502.</bibl>
+                     <bibl>P. Rutten, Introduction to the edition of Heymericus de Campo's
+                        Tractatus problematicus (unpublished), chapter 2.6, Manuscript P2, 24–29.
+                        <ref target="https://drive.google.com/file/d/13EgNUnMYVOTBxCR-4qGuiPP1lFzbDdG8/view"
+                           >https://drive.google.com/file/d/13EgNUnMYVOTBxCR-4qGuiPP1lFzbDdG8/view</ref>
+                     </bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+
             <msDesc xml:id="Praha_NK_XH21">
                <msIdentifier>
                   <settlement>Praha</settlement>
