@@ -4604,6 +4604,192 @@
                </additional>
             </msDesc>
 
+            <!-- Praha, NK, IV E 25 issue#47 -->
+            <msDesc xml:id="Praha_NK_IVE25">
+               <msIdentifier>
+                  <settlement>Praha</settlement>
+                  <repository>NK</repository>
+                  <idno>IV E 25</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary><ab type="explicit_attribution" cert="0">Only the Parisian origin of the
+                        text is made explicit in the colophon.</ab></summary>
+                  <msItem xml:id="Praha_NK_IVE25_QsMeta">
+                     <locus from="1r" to="96v"/>
+                     <title ref="workID">QsMeta I–XII</title>
+                     <colophon source="96v">Expliciunt questiones XII librorum Metaphysice secundum
+                        modum parisiensem scripte per Wenceslaum de Wrben ibidem Parisius anno 1445°
+                        in collegio nationis Almanie commorantem, finite in vigilia
+                        Pasche</colophon>
+                  </msItem>
+                  <msItem xml:id="Praha_NK_IVE25_Qdente">
+                     <locus from="97r" to="121r"/>
+                     <title ref="workID">Qdente</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <handNote scope="major" scribeRef="#WenceslausDeWrben"/>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate from="1445" to="1445">1445, as stated in the colophon (f.
+                        96v).</origDate>
+                     <origPlace>Paris</origPlace>
+                     <p>The manuscript was copied in Paris, at the College of the German Nation, by
+                           <persName ref="#WenceslausDeWrben">Wenceslaus de Wrben</persName>, who
+                        later brought it to Prague.</p>
+                  </origin>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source cert="high" resp="#">
+                           <p>Ms directly examined</p>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+                  <listBibl>
+                     <bibl>Truhlář I, 281 (705).</bibl>
+                     <bibl>Korolec, 25–26.</bibl>
+                     <bibl>Šmahel, "Paris und Prag", 445, 463.</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+
+            <!-- Praha, NK, V E 8 issue#48/49 -->
+            <msDesc xml:id="Praha_NK_VE8">
+               <msIdentifier>
+                  <settlement>Praha</settlement>
+                  <repository>NK</repository>
+                  <idno>V E 8</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary><ab type="explicit_attribution" cert="0">None</ab></summary>
+                  <msItem xml:id="Praha_NK_VE8_QsP">
+                     <locus from="1r" to="110v"/>
+                     <title ref="workID">QsP</title>
+                     <colophon source="21v" n="book I">Et hec de questione, et per consequens de
+                        toto primo libro Physicorum. Sequitur textus: 'eorum autem que sunt a
+                        natura', finis sabbato ante undecimi milia virginum LIII [20 X
+                        1453]</colophon>
+                     <colophon source="37r" n="book II">Et hec de questione, et per consequens de
+                        toto secundo libro Physicorum, in vigilia Symonis et Iude [27 X
+                        1453]</colophon>
+                     <colophon source="47r" n="book III">Et hec de questione, et per consequens de
+                        tertio libro Physicorum, finis in die Felixi aut Leonardi, 1443 [sic pro
+                        1453] [6 XI 1453]</colophon>
+                     <colophon source="67v" n="book IV">Et hec de quarto Physicorum, feria sexta
+                        ante Elisabeth, hora XXIIII [16 XI 1453]</colophon>
+                     <colophon source="77r" n="book V">Et hec de quinto libro Physicorum, feria
+                        quinta ante festum sancti Clementis [22 XI 1453]</colophon>
+                     <colophon source="88r" n="book VI">Et hec de questione, et per consequens de
+                        toto Physicorum sexto, feria quinta ante festum sancti Andree [29 XI
+                        1453]</colophon>
+                     <colophon source="94v" n="book VII">Et hec de septimo Physicorum. Finis septimi
+                        Physicorum, sabbato in adventu domini, hora XXIII, sub anno Domini MCCCCLIII,
+                        et hoc post festum Andree [1 XII 1453]</colophon>
+                     <colophon source="110v" n="final">Et in hoc terminantur puncta super librum
+                        Physicorum in die sancti Nicolai, hora vicesima prima, in domo Nazareth, sub
+                        domini anno MCCCCLIII [6 XII 1453]</colophon>
+                  </msItem>
+                  <msItem xml:id="Praha_NK_VE8_QdA">
+                     <locus from="111r" to="156v"/>
+                     <title ref="workID">QdA</title>
+                     <colophon source="156v">finis huius libri De anima Aristotelis, feria tertia, in
+                        die sancti Dionisii, hora decima nona, sub anno domini M CCCC L III, in domo
+                        Nazareth</colophon>
+                  </msItem>
+                  <msItem xml:id="Praha_NK_VE8_QdSen">
+                     <locus from="157r" to="171r"/>
+                     <title ref="workID">QdSen</title>
+                     <colophon source="171r">finitur in die 'O sapientia' [17 XII
+                        1453]</colophon>
+                  </msItem>
+                  <msItem xml:id="Praha_NK_VE8_QdMem">
+                     <locus from="171v" to="175r"/>
+                     <title ref="workID">QdMem</title>
+                  </msItem>
+                  <msItem xml:id="Praha_NK_VE8_QdSom">
+                     <locus from="175r" to="180v"/>
+                     <title ref="workID">QdSom</title>
+                     <colophon source="180v">feria quarta ante Thome Apostoli [19 XII 1453], quo anno
+                        intensum frigus viguit, ita ut panes non poterant ademere dum in
+                        ventri</colophon>
+                  </msItem>
+                  <msItem xml:id="Praha_NK_VE8_QdLon">
+                     <locus from="181r" to="182v"/>
+                     <title ref="workID">QdLon</title>
+                     <colophon source="182v">finis feria quarta, in quattuor temporibus ante
+                        nativitatem Domini, sub anno Domini millesimo quadragesimo quinquagesimo
+                        tertio [19 XII 1453]</colophon>
+                  </msItem>
+                  <msItem xml:id="Praha_NK_VE8_QdC">
+                     <locus from="183r" to="225v"/>
+                     <title ref="workID">QdC</title>
+                     <colophon source="203v" n="book I">Et hec de questione, et per consequens de
+                        toto primo Celi et mundi, feria secunda in vigilia Nativitatis Domini in hac
+                        hora octava [24 XII 1453]</colophon>
+                     <colophon source="222r" n="book II">rationes solvuntur ex dictis, 1454, feria
+                        tertia in novo anno, sive in circumcisione Domini, hora undecima [1 I
+                        1454]</colophon>
+                     <colophon source="225v" n="final">Et hec de questione, et per consequens de
+                        toto libro Celi et mundi, terminato feria tertia in novo Anno. Anno Domini
+                        MCCCCLIIII [1 I 1454]</colophon>
+                  </msItem>
+                  <msItem xml:id="Praha_NK_VE8_QdG">
+                     <locus from="226r" to="251v"/>
+                     <title ref="workID">QdG</title>
+                     <colophon source="241v" n="book I">Et hec de primo De generatione et
+                        corruptione, anno Domini MCCCCLIIII, sabbato ante Epiphaniam Domini, hora
+                        tunc quartadecima [5 I 1454]</colophon>
+                     <colophon source="251v" n="final">Et hec de questione, et per consequens de
+                        toto libro De generatione, feria secunda post Epiphaniam, hora tredecima,
+                        1454 [7 I 1454]</colophon>
+                  </msItem>
+                  <msItem xml:id="Praha_NK_VE8_QsMete">
+                     <locus from="252r" to="278v"/>
+                     <title ref="workID">QsMete</title>
+                     <colophon source="265v" n="book I">Et hec de primo Metheororum, feria quinta
+                        post Epiphaniam 1454, hora duodecima [10 I 1454]</colophon>
+                     <colophon source="273r" n="book II">Et hec de secundo Metheororum, feria quarta
+                        ante Antonii, 1454 [16 I 1454]</colophon>
+                     <colophon source="278v" n="final">Et in hoc completur materia continens summam
+                        trium librorum de meteorologicis impressionibus, anni Domini M CCCC
+                        54</colophon>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate from="1453" to="1454">1453–1454, as attested by the colophons: QsP
+                        book I, f. 21v; book II, f. 37r; book III, f. 47r; book IV, f. 67v; book V,
+                        f. 77r; book VI, f. 88r; book VII, f. 94v; QsP final, f. 110v; QdA, f.
+                        156v; QdSen, f. 171r; QdSom, f. 180v; QdLon, f. 182v; QdC book I, f. 203v;
+                        book II, f. 222r; QdC final, f. 225v; QdG book I, f. 241v; QdG final, f.
+                        251v; QsMete book I, f. 265v; book II, f. 273r; QsMete final, f.
+                        278v.</origDate>
+                     <origPlace>Praha</origPlace>
+                     <p>The manuscript was copied at the College Nazareth of Prague
+                        University.</p>
+                  </origin>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source cert="high" resp="#">
+                           <p>Ms directly examined</p>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+                  <listBibl>
+                     <bibl>Truhlář I, 371 (902).</bibl>
+                     <bibl>Korolec, 41-44.</bibl>
+                     <bibl>Šmahel, "Paris und Prag", 461.</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+
             <msDesc xml:id="Praha_NK_XH21">
                <msIdentifier>
                   <settlement>Praha</settlement>
