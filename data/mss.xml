@@ -4976,94 +4976,117 @@
                </additional>
             </msDesc>
 
+            <!-- Praha, NK, IV F 8 issue#48 -->
             <msDesc xml:id="Praha_NK_IVF8">
                <msIdentifier>
                   <settlement>Praha</settlement>
                   <repository>NK</repository>
                   <idno>IV F 8</idno>
+                  <idno type="URI"
+                     >https://www.manuscriptorium.com/apis/resolver-api/en/catalog/default/detail/manuscriptorium%7CAIPDIG-NKCR__IV_F_8______1A778W1-cs</idno>
                </msIdentifier>
                <msContents>
-                  <summary><ab type="explicit_attribution" cert="0">No</ab></summary>
+                  <summary>
+                     <ab type="explicit_attribution" cert="0">None</ab>
+                     <ab type="general_remarks">From 1459 to 1496, these commentaries were used for
+                        teaching by several Prague masters, whose names and lecture dates are
+                        recorded in the marginalia throughout the codex, particularly at the
+                        beginning of the commentaries: f. 1r, marg. sup.: <quote source="1r"
+                           >Magister Paulus orsus est librum veteris artis feria secunda ante
+                           Elisabeth, anno 1477 [17 XI 1477] et finivit 1478, feria tertia post
+                           Francisci, hora quartadecima, in magno lectorio, hora quindecima [6 X
+                           1478]</quote>; [alia manu, rubeo]: <quote source="1r">Magister Martinus,
+                           artium facultatis decanus, orsus est librum veteris artis feria secunda
+                           post Dorothee, hora quartadecima, anno 1496 [8 II 1496]</quote>; f.
+                        143(bis)v, marg. sup.: <quote source="143(bis)v">anno Domini millesimo 492
+                           reverendus magister Mathias de Pielgrzymow incepit legere librum
+                           Posteriorum</quote>; f. 144r, marg. sup. (difficult to read): <quote
+                           source="144r">Magister de Vi(?) incepit in lectorio, feria ?, hora 13,
+                           1479</quote>; f. 245v, marg. inf.: <quote source="245v">anno etc. LVIII
+                           magister Iohannes de Praga incepit legere puncta cum textu Priorum, feria
+                           secunda post Matheus apostoli [24 IX 1459]</quote>; back guard leaf:
+                           <quote source="back guard leaf">anno 1466 magister Wenczeslaus de Paczow
+                           incepit primum librum Posteriorum, feria quarta ante Stanislai, hora 11
+                           [7 V 1466], quem terminavit feria secunda post Francisci, hora
+                           quartadecima, in lectorio theologorum [6 X 1466]</quote>.</ab>
+                  </summary>
                   <msItem xml:id="Praha_NK_IVF8_QsPor">
                      <locus from="1r" to="38v"/>
-                     <title ref="ID">QsPor</title>
-                     <quote source="1r (marg.sup.)"><persName ref="ID">Magister Paulus</persName>
-                        orsus est librum veteris artis feria secunda ante Elisabeth, anno 1477 [17
-                        XI 1477] et finivit 1478, feria tertia post Francisci, hora quartadecima, in
-                        magno lectorio, hora quindecima [6 X 1478]</quote>
-                     <quote source="1r alia manu, rubeo"><persName ref="ID">Magister
-                           Martinus</persName>, atrium facultatis decanus, orsus est librum veteris
-                        artis feria secunda post Dorothee, hora quartadecima, anno 1496 [8 II
-                        1496]</quote>
+                     <title ref="workID">QsPor</title>
                   </msItem>
                   <msItem xml:id="Praha_NK_IVF8_QsPre">
                      <locus from="39r" to="70v"/>
-                     <title ref="ID">QsPre</title>
-                     <colophon source="70v">Finitus in octava sancti Gregorii per me, M. de G.
-                        Martinum de Glatovia sabbato <supplied>[20 III 1456]</supplied></colophon>
+                     <title ref="workID">QsPre</title>
+                     <colophon source="70v">Finitus in octava sancti Gregorii per me, M. de G.,
+                        sabbato [20 III 1456]</colophon>
                   </msItem>
                   <msItem xml:id="Praha_NK_IVF8_QsSex">
                      <locus from="71r" to="80r"/>
-                     <title ref="ID">QsSex</title>
-                     <colophon source="80r">ui finis impositus est in vigillia annunciationis
-                        sanctissime Marie virginis, anno Domini 1456, per me <persName ref="ID"
-                           >Martinum de Glatovia</persName> protunc in <orgName>collegio
-                           Carolli</orgName> [24 III 1456]</colophon>
+                     <title ref="workID">QsSex</title>
+                     <colophon source="80r">cui finis impositus est in vigillia annunciationis
+                        sanctissime Marie virginis, anno Domini 1456, per me, Martinum de Glatovia,
+                        protunc in collegio Carolli [24 III 1456]</colophon>
                   </msItem>
                   <msItem xml:id="Praha_NK_IVF8_QsDiv">
                      <locus from="80v" to="85v"/>
-                     <title ref="ID">QsDiv</title>
+                     <title ref="workID">QsDiv</title>
                   </msItem>
-                  <msItem xml:id="Praha_NK_IVF8_MISSING">
-                     <locus/>
-                     <note type="desc">[ELE: IS THERE A MISSING ITEM HERE? SUPPLIED OK?]</note>
-                     <colophon source="108v">finitus primus liber sexta feria ante Palmarum 1456
-                           <supplied>[19 III 1456]</supplied></colophon>
+                  <msItem xml:id="Praha_NK_IVF8_Qdint">
+                     <locus from="86r" to="108v"/>
+                     <title ref="workID">Qdint</title>
+                     <colophon source="108v" n="book I">finitus primus liber sexta feria ante
+                        Palmarum 1456 [19 III 1456]</colophon>
                   </msItem>
                   <msItem xml:id="Praha_NK_IVF8_QsApri">
                      <locus from="109v" to="143v"/>
-                     <title ref="ID">QsApri</title>
+                     <title ref="workID">QsApri</title>
                      <colophon source="143v">anno Domini MCCCCLVIII, sabbato in die beate Marie
-                        virginis, hora quasi vigesima prima, etc [ELE: etc ?]</colophon>
-                     <quote source="143(bis)v, marg.sup.">anno Domini millesimo 492 reverendus
-                           <persName ref="ID">magister Mathias de Pielgrzymow</persName> incepit
-                        legere librum Posteriorum</quote>
+                        virginis, hora quasi vigesima prima, etc.</colophon>
                   </msItem>
                   <msItem xml:id="Praha_NK_IVF8_QsApos">
                      <locus from="144r" to="184v"/>
-                     <title ref="ID">QsApos</title>
-                     <quote source="144r marg.sup.">Magister de Vi<unclear/> incepit in lectorio,
-                        feria <unclear/>, hora 13, 1479</quote>
+                     <title ref="workID">QsApos</title>
                   </msItem>
                   <msItem xml:id="Praha_NK_IVF8_QsTop">
                      <locus from="185r" to="212r"/>
-                     <title ref="ID">QsTop</title>
+                     <title ref="workID">QsTop I-IV</title>
                      <colophon source="212r">cui finis impositus est feria quarta post Dionisii hora
                         quasi vigesima prima, anno Domini 1458</colophon>
-                     <quote source="245v marg.inf">anno etc. LVIII <persName ref="ID">magister
-                           Iohannes de Praga</persName> incepit legere puncta cum textu Priorum,
-                        feria secunda post Matheus apostoli [24 IX 1459]</quote>
-                  </msItem>
-                  <msItem xml:id="Praha_NK_IVF8_backGuardLeaf">
-                     <locus>I back guard-leaf</locus>
-                     <quote source="back guard-leaf">anno 1466 <persName ref="ID">magister
-                           Wenczeslaus de Paczow</persName> incepit primum librum Posteriorum, feria
-                        quarta ante Stanislai, hora 11 [7 V 1466], quem terminavit feria secunda
-                        post Francisci, hora 14, in lectorio theologorum [6 X 1466]</quote>
                   </msItem>
                </msContents>
                <history>
                   <origin>
-                     <origDate from="1456" to="1458">1456-1458</origDate>
-                     <origPlace>Prague</origPlace>
-                     <p>From 1459 to 1496, these commentaries were used for teaching by several
-                        Prague masters, whose names and dates of lectures are recorded throughout
-                        the codex.</p>
+                     <origDate from="1456" to="1458">1456–1458, as evident from the colophons:
+                        QsPre, f. 70v; QsSex, f. 80r; Qdint book I, f. 108v; QsApri, f. 143v;
+                        QsTop, f. 212r.</origDate>
+                     <origPlace>Praha</origPlace>
+                     <p>The manuscript was copied at the College of King Charles by Martinus de
+                        Glatovia.</p>
+                     <note type="msRelationship">
+                        <p><ref target="#Praha_NK_XG16" type="ms">Praha, NK, X G 16</ref>, in which
+                           Wenceslaus de Paczow also appears as a master teaching Versor's
+                           commentaries.</p>
+                        <p><ref target="#Wien_Dominikanerkonvent_Cod149119" type="ms">Wien,
+                              Dominikanerkonvent, Cod. 149/119</ref>, bought by Martinus de
+                           Glatovia.</p>
+                     </note>
                   </origin>
                </history>
                <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source cert="high" resp="#">
+                           <p>Ms directly examined</p>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
                   <listBibl>
-                     <bibl>Korolec 26-28</bibl>
+                     <bibl>Truhlář I, 284–285 (714).</bibl>
+                     <bibl>Korolec, 26–28.</bibl>
+                     <bibl>Markowski, Isagoge, 122.</bibl>
+                     <bibl>Šmahel, "Paris und Prag", 459.</bibl>
+                     <bibl>Green-Pedersen, The Tradition of the Topics in the Middle Ages,
+                        400.</bibl>
                   </listBibl>
                </additional>
             </msDesc>
