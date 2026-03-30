@@ -5169,6 +5169,87 @@
                </additional>
             </msDesc>
 
+            <!-- Praha, Knihovna Národního Muzea, X E 4 issue#55 -->
+            <msDesc xml:id="Praha_KnihovnaNárodníhoMuzea_XE4">
+               <msIdentifier>
+                  <settlement>Praha</settlement>
+                  <repository>Knihovna Národního Muzea</repository>
+                  <idno>X E 4</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary><ab type="explicit_attribution" cert="0">None</ab></summary>
+                  <msItem xml:id="Praha_KnihovnaNárodníhoMuzea_XE4_Qdente">
+                     <locus from="7r" to="19r"/>
+                     <title ref="workID">Qdente</title>
+                  </msItem>
+                  <msItem xml:id="Praha_KnihovnaNárodníhoMuzea_XE4_QsPor">
+                     <locus from="37r" to="81r"/>
+                     <title ref="workID">QsPor</title>
+                  </msItem>
+                  <msItem xml:id="Praha_KnihovnaNárodníhoMuzea_XE4_QsPre">
+                     <locus from="81v" to="116v"/>
+                     <title ref="workID">QsPre</title>
+                  </msItem>
+                  <msItem xml:id="Praha_KnihovnaNárodníhoMuzea_XE4_QsSex">
+                     <locus from="116r" to="126v"/>
+                     <title ref="workID">QsSex</title>
+                  </msItem>
+                  <msItem xml:id="Praha_KnihovnaNárodníhoMuzea_XE4_QsDiv">
+                     <locus from="127r" to="132r"/>
+                     <title ref="workID">QsDiv</title>
+                  </msItem>
+                  <msItem xml:id="Praha_KnihovnaNárodníhoMuzea_XE4_QsInt">
+                     <locus from="132r" to="155v"/>
+                     <title ref="workID">QsInt</title>
+                  </msItem>
+                  <msItem xml:id="Praha_KnihovnaNárodníhoMuzea_XE4_QsPri">
+                     <locus from="156r" to="188v"/>
+                     <title ref="workID">QsPri</title>
+                     <colophon><locus from="188v"/>Et hec de questione, et per consequens de toto
+                        libro Priorum, qui est finitus feria quinta in vigilia Simonis et Jude
+                        apostolorum anno Domini M CCCC LXII in Colegio domus Nationis
+                        Bohemorum</colophon>
+                  </msItem>
+                  <msItem xml:id="Praha_KnihovnaNárodníhoMuzea_XE4_QsPos">
+                     <locus from="193r" to="236r"/>
+                     <title ref="workID">QsPos</title>
+                  </msItem>
+                  <msItem xml:id="Praha_KnihovnaNárodníhoMuzea_XE4_QsSE">
+                     <locus from="236v" to="258r"/>
+                     <title ref="workID">QsSE</title>
+                  </msItem>
+                  <msItem xml:id="Praha_KnihovnaNárodníhoMuzea_XE4_QsTop">
+                     <locus from="259r" to="284v"/>
+                     <title ref="workID">QsTop I-IV</title>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate from="1457" to="1457">1457</origDate>
+                     <origPlace>Praha</origPlace>
+                     <p>The manuscript was copied at the College of the Bohemian Nation of Prague
+                        University, as is evident from the colophon of QsPri (f. 188v).</p>
+                  </origin>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source cert="high" resp="#">
+                           <p>Ms directly examined</p>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+                  <listBibl>
+                     <bibl>Bartoš, Soupis II, 149 (2719).</bibl>
+                     <bibl>Markowski, Kommentare, 221–222.</bibl>
+                     <bibl>Markowski, Isagoge, 121–122.</bibl>
+                     <bibl>Green-Pedersen, The Tradition of the Topics in the Middle Ages,
+                        400.</bibl>
+                     <bibl>Šmahel, "Paris und Prag", 459.</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+
             <msDesc xml:id="Praha_NK_XH21">
                <msIdentifier>
                   <settlement>Praha</settlement>
