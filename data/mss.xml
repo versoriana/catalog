@@ -4938,6 +4938,146 @@
                </additional>
             </msDesc>
 
+            <!-- Praha, NK, V G 22 issue#53 -->
+            <msDesc xml:id="Praha_NK_VG22">
+               <msIdentifier>
+                  <settlement>Praha</settlement>
+                  <repository>NK</repository>
+                  <idno>V G 22</idno>
+                  <idno type="URI"
+                     >https://www.manuscriptorium.com/apis/resolver-api/cs/catalog/default/detail/manuscriptorium%7CAIPDIG-NKCR__V_G_22______0224105-cs</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary><ab type="explicit_attribution" cert="1">The texts are ascribed to
+                        Versoris in the final colophon.</ab></summary>
+                  <msItem xml:id="Praha_NK_VG22_QsPor">
+                     <locus from="1r" to="37r"/>
+                     <title ref="workID">QsPor</title>
+                     <colophon><locus from="37r"/>1452 sabato post festum Omnium sanctorum [4 XI
+                        1452]</colophon>
+                  </msItem>
+                  <msItem xml:id="Praha_NK_VG22_QsPre">
+                     <locus from="37v" to="74v"/>
+                     <title ref="workID">QsPre</title>
+                     <colophon><locus from="74v"/>Et sic est finis Predicamentorum, anno Domini
+                        MCCCC LII, feria tertia, hora nona post festum sancti Martini. Albertus [14
+                        XI 1452]</colophon>
+                  </msItem>
+                  <msItem xml:id="Praha_NK_VG22_QsSex">
+                     <locus from="75r" to="86v"/>
+                     <title ref="workID">QsSex</title>
+                     <colophon><locus from="86v"/>Et hec de questione, anno Domini MCCCCLII, feria
+                        quinta in die Othimari, hora quartadecima [16 XI 1452]</colophon>
+                  </msItem>
+                  <msItem xml:id="Praha_NK_VG22_QsDiv">
+                     <locus from="87r" to="93r"/>
+                     <title ref="workID">QsDiv</title>
+                     <colophon><locus from="93r"/>feria sexta 1452 [17 XI 1452]</colophon>
+                  </msItem>
+                  <msItem xml:id="Praha_NK_VG22_QsInt">
+                     <locus from="93v" to="123r-bis"/>
+                     <title ref="workID">QsInt</title>
+                     <colophon n="book I"><locus from="115v"/>Finis primi libri Perihermeneias,
+                        feria tertia post festum presentationis sancte Marie sub anno 1452 [22 XI
+                        1452]</colophon>
+                     <colophon n="final"><locus from="123r-bis"/>anno Domini MCCCCLII, feria sexta
+                        in vigilia sancte Katherine. Symon [24 XI 1452]</colophon>
+                  </msItem>
+                  <msItem xml:id="Praha_NK_VG22_QsPri">
+                     <locus from="124r" to="161r"/>
+                     <title ref="workID">QsPri</title>
+                     <colophon n="book I"><locus from="149v"/>Et hec de questione, 1452, feria sexta
+                        post festum sancti Andree [1 XII 1452]</colophon>
+                     <colophon n="final"><locus from="161r"/>Finis huius feria secunda in die
+                        Barbare, hora undecima sub anno MCCCCLII [4 XII 1452]</colophon>
+                  </msItem>
+                  <msItem xml:id="Praha_NK_VG22_QsPost">
+                     <locus from="161v" to="205r"/>
+                     <title ref="workID">QsPost</title>
+                     <colophon n="book I"><locus from="192r"/>Et hec de questione, et per consequens
+                        de primo, finis feria quinta post festum sancti Lucie sub anno Domini
+                        MCCCCLII, hora quartadecima [14 XII 1452]</colophon>
+                     <colophon n="final"><locus from="205r"/>finitus feria secunda post festum
+                        sancti Lazarii episcopi, in domo Nazareth, sub anno Domini MCCCLII. Zavytay
+                        Swaty. Dussce. Symon [17 XII 1452]</colophon>
+                  </msItem>
+                  <msItem xml:id="Praha_NK_VG22_QsTop">
+                     <locus from="205v" to="237v"/>
+                     <title ref="workID">QsTop I-IV</title>
+                     <colophon n="book I"><locus from="218v"/>Et hec de primo libro Topicorum dicta
+                        sufficiant 1452, feria seprima ante largumfero, hora vigesima secunda [23
+                        XII 1452]</colophon>
+                     <colophon n="book II"><locus from="227r"/>Et hec de questione, et per
+                        consequens de secundo libro Topicorum Aristotelis, anno Domini MCCCCLII,
+                        sabbato ante Largum, sero, hora vigesima, Simon P. [23 XII
+                        1452]</colophon>
+                     <colophon n="final"><locus from="237v"/>Finitus feria tertia post
+                        Circumcissionem Domini sub anno Domini MCCCCLIII hora quindecima, in Domo
+                        Nazareth [2 I 1453]. [alia manu add.:] Logica magistri Simonis de
+                        Chrudim</colophon>
+                  </msItem>
+                  <msItem xml:id="Praha_NK_VG22_QsSE">
+                     <locus from="238r" to="266r"/>
+                     <title ref="workID">QsSE</title>
+                     <colophon n="final"><locus from="266r"/>Et in hoc terminantur parisiensia
+                        ‹puncta, in se continentia superficialiter cuncta›, que Aristoteles in
+                        suis libris ‹occulte tradidit, eosque ad legendum et non intelligendum
+                        edidit›, verus zelator discipulorum animum suum preparavit pro suoque
+                        posse hanc manifestavit. Johannes Versor vocatus, pro quo pane vite sit
+                        saciatus, de Normannia nacione, fruatur divina consolacione. Et hec sub anno
+                        domini mille‹simo CCCCLIII feria› sexta in vigilia Epiphanie [5 I
+                        1453]</colophon>
+                     <note type="colophon">Leaf f. 266r is torn; the missing words were completed based on the colophon
+                        of manuscript Schlägl, Prämonstratenserstift Cpl. 170, f. 187r, which was
+                        also copied in 1453 and contains the same sequence of Versoris's
+                        commentaries on logic.</note>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate from="1452" to="1453">1452–1453, as evident from the colophons:
+                        QsPor, f. 37r; QsPre, f. 74v; QsSex, f. 86v; QsDiv, f. 93r; QsInt book I,
+                        f. 115v; QsInt final, f. 123r-bis; QsPri book I, f. 149v; QsPri final, f.
+                        161r; QsPost book I, f. 192r; QsPost final, f. 205r; QsTop book I, f. 218v;
+                        QsTop book II, f. 227r; QsTop final, f. 237v; final colophon, f.
+                        266r.</origDate>
+                     <origPlace>Praha</origPlace>
+                     <p>The manuscript was copied at the College of Nazareth of Prague University.
+                        Two of its copyists signed with their first names: Albertus (f. 74v) and
+                        Symon (ff. 123r-bis, 205r, 227r). The manuscript belonged to the second one,
+                        as we read on f. 237v: <q n="237v">Logica magistri Simonis de
+                        Chrudim</q>.</p>
+                     <note type="msRelationship">
+                        <p>Schlägl, Prämonstratenserstift, 116 Cpl. f. 187r and <ref
+                              target="#Wien_Dominikanerkonvent_Cod149119" type="ms">Wien,
+                              Dominikanerkonvent, Cod. 149/119</ref>, f. 210vb which contain the
+                           same colophon of f. 266r.</p>
+                     </note>
+                  </origin>
+                  <provenance>
+                     <p>The manuscript belonged to Symon, as we read on f. 237v: <q n="237v">Logica
+                           magistri Simonis de Chrudim</q>.</p>
+                  </provenance>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source cert="high" resp="#">
+                           <p>Ms directly examined</p>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+                  <listBibl>
+                     <bibl>Truhlář I, 381-382 (927).</bibl>
+                     <bibl>Korolec, 51-53.</bibl>
+                     <bibl>Markowski, Isagoge, 122.</bibl>
+                     <bibl>Šmahel, "Paris und Prag", 451, 458.</bibl>
+                     <bibl>Green-Pedersen, The Tradition of the Topics in the Middle Ages,
+                        400.</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+
             <msDesc xml:id="Praha_NK_XH21">
                <msIdentifier>
                   <settlement>Praha</settlement>
