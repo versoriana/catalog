@@ -5250,6 +5250,87 @@
                </additional>
             </msDesc>
 
+            <!-- Praha, Knihovna Národního Muzea, X E 5 issue#56 -->
+            <msDesc xml:id="Praha_KnihovnaNárodníhoMuzea_XE5">
+               <msIdentifier>
+                  <settlement>Praha</settlement>
+                  <repository>Knihovna Národního Muzea</repository>
+                  <idno>X E 5</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary><ab type="explicit_attribution" cert="0">None</ab></summary>
+                  <msItem xml:id="Praha_KnihovnaNárodníhoMuzea_XE5_QsP">
+                     <locus from="1r" to="117r"/>
+                     <title ref="workID">QsP</title>
+                     <colophon><locus from="117r"/>Finis feria teria ante Benedicti, anno Domini etc.
+                        LIX°</colophon>
+                  </msItem>
+                  <msItem xml:id="Praha_KnihovnaNárodníhoMuzea_XE5_QdC">
+                     <locus from="118r" to="169v"/>
+                     <title ref="workID">QdC</title>
+                     <colophon><locus from="169v"/>feria quinta post Pasche, anno Domini, etc.
+                        LXII</colophon>
+                  </msItem>
+                  <msItem xml:id="Praha_KnihovnaNárodníhoMuzea_XE5_QdG">
+                     <locus from="169r" to="210r"/>
+                     <title ref="workID">QdG</title>
+                     <colophon><locus from="210r"/>anno etc., 62</colophon>
+                  </msItem>
+                  <msItem xml:id="Praha_KnihovnaNárodníhoMuzea_XE5_QsMete">
+                     <locus from="201v" to="233r"/>
+                     <title ref="workID">QsMete</title>
+                  </msItem>
+                  <msItem xml:id="Praha_KnihovnaNárodníhoMuzea_XE5_QdA">
+                     <locus from="234r" to="295v"/>
+                     <title ref="workID">QdA</title>
+                  </msItem>
+                  <msItem xml:id="Praha_KnihovnaNárodníhoMuzea_XE5_QdSen">
+                     <locus from="306r" to="315r"/>
+                     <title ref="workID">QdSen</title>
+                  </msItem>
+                  <msItem xml:id="Praha_KnihovnaNárodníhoMuzea_XE5_QdMem">
+                     <locus from="315r" to="319r"/>
+                     <title ref="workID">QdMem</title>
+                  </msItem>
+                  <msItem xml:id="Praha_KnihovnaNárodníhoMuzea_XE5_QdSom">
+                     <locus from="319r" to="326r"/>
+                     <title ref="workID">QdSom</title>
+                  </msItem>
+                  <msItem xml:id="Praha_KnihovnaNárodníhoMuzea_XE5_QdLong">
+                     <locus from="326r" to="328r"/>
+                     <title ref="workID">QdLong</title>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate from="1459" to="1462">1459–1462, as evident from the colophons: QsP,
+                        f. 117r; QdC, f. 169v; QdG, f. 210r.</origDate>
+                     <origPlace>Prague</origPlace>
+                  </origin>
+                  <provenance>
+                     <p>In 1506, the manuscript was donated to the Rokycany monastery of the Canons
+                        Regular of the Order of Saint Augustine by a master named Johannes,
+                        Archdeacon of Plzeň: <q n="328r">Iste liber donatus est monasterio
+                           Rokycznanensi canonicis regularibus ordinis sancti Augustini per magistrum
+                           Ioannem, archidiaconum Plznensem, anno 1506</q>, f. 328r.</p>
+                  </provenance>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source cert="high" resp="#">
+                           <p>Ms directly examined</p>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+                  <listBibl>
+                     <bibl>Bartoš, Soupis, 149–150 (2720).</bibl>
+                     <bibl>Markowski, Kommentare, 222–224.</bibl>
+                     <bibl>Šmahel, "Paris und Prag", 462.</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+
             <msDesc xml:id="Praha_NK_XH21">
                <msIdentifier>
                   <settlement>Praha</settlement>
