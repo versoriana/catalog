@@ -5078,6 +5078,97 @@
                </additional>
             </msDesc>
 
+            <!-- Praha, NK, X G 16 issue#54 -->
+            <msDesc xml:id="Praha_NK_XG16">
+               <msIdentifier>
+                  <settlement>Praha</settlement>
+                  <repository>NK</repository>
+                  <idno>X G 16</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary><ab type="explicit_attribution" cert="0">None</ab></summary>
+                  <msItem xml:id="Praha_NK_XG16_QsP">
+                     <locus from="1r" to="111v"/>
+                     <title ref="workID">QsP</title>
+                     <colophon n="book III"><locus from="48v"/>Et hec de questione et tertio
+                        Physicorum, apparitionis comete anno 1456</colophon>
+                     <colophon n="book IV"><locus from="68r"/>Et in hoc terminatur quartus
+                        Physicorum in ditione Apostolorum, anno Dominice incarnationis 1456 [15 VII
+                        1456]</colophon>
+                  </msItem>
+                  <msItem xml:id="Praha_NK_XG16_QdC">
+                     <locus from="112r" to="147v"/>
+                     <title ref="workID">QdC</title>
+                  </msItem>
+                  <msItem xml:id="Praha_NK_XG16_QdG">
+                     <locus from="148r" to="171r"/>
+                     <title ref="workID">QdG</title>
+                  </msItem>
+                  <msItem xml:id="Praha_NK_XG16_QsMete">
+                     <locus from="171v" to="197r"/>
+                     <title ref="workID">QsMete</title>
+                     <colophon n="final"><locus from="197r"/>Et hec de questione, et per consequens
+                        de tertio Meteororum, anno Domini M CCCC L VII, in vigilia Ioannis Baptiste
+                        [23 VI 1457]</colophon>
+                  </msItem>
+                  <msItem xml:id="Praha_NK_XG16_QdA">
+                     <locus from="198r" to="247r"/>
+                     <title ref="workID">QdA</title>
+                  </msItem>
+                  <msItem xml:id="Praha_NK_XG16_QdSens">
+                     <locus from="247v" to="259v"/>
+                     <title ref="workID">QdSens</title>
+                     <colophon n="final"><locus from="259v"/>Et sic est finis libri De sensu et
+                        sensato, feria secunda in die Francisci [4 X 1456]</colophon>
+                  </msItem>
+                  <msItem xml:id="Praha_NK_XG16_QdMem">
+                     <locus from="260r" to="263r"/>
+                     <title ref="workID">QdMem</title>
+                  </msItem>
+                  <msItem xml:id="Praha_NK_XG16_QdSom">
+                     <locus from="263v" to="268r"/>
+                     <title ref="workID">QdSom</title>
+                  </msItem>
+                  <msItem xml:id="Praha_NK_XG16_QdLon">
+                     <locus from="268v" to="269v"/>
+                     <title ref="workID">QdLon</title>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate from="1456" to="1457">1456–1457, as evident from the colophons: QsP
+                        book III, f. 48v; QsP book IV, f. 68r; QsMete final, f. 197r; QdSens final,
+                        f. 259v.</origDate>
+                     <origPlace>Praha</origPlace>
+                     <p>It is not clear at which college the manuscript was copied, but it was used
+                        at the College of the Bohemian Nation of Prague University. On the verso of
+                        the second guard leaf, a fifteenth-century hand wrote: <q
+                           n="second-guard-leaf">Ioannes Alte Mutensis, lector Collegii Nationis,
+                           audivit librum De anima post reverendum magistrum Wenczeslaum
+                           Paczoviensem</q>.</p>
+                     <note type="msRelationship">
+                        <p><ref target="#Praha_NK_IVF8" type="ms">Praha, NK, IV F 8</ref>, in which
+                           Wenceslaus de Paczow also appears as a master teaching Versor's
+                           commentaries.</p>
+                     </note>
+                  </origin>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source cert="high" resp="#">
+                           <p>Ms directly examined</p>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+                  <listBibl>
+                     <bibl>Truhlář II, 102 (1972).</bibl>
+                     <bibl>Korolec, 76–80.</bibl>
+                     <bibl>Šmahel, "Paris und Prag", 462.</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+
             <msDesc xml:id="Praha_NK_XH21">
                <msIdentifier>
                   <settlement>Praha</settlement>
