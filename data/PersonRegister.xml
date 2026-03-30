@@ -299,7 +299,7 @@
                      supervision of Master Galterus de Walma at the Collège de Bourgogne. He later
                      served as regent master at the University of Dole, as attested by the
                      possession mark on the lower margin of the back cover of manuscript Paris, BnF,
-                     latin 604: <quote source="lower margin of the back cover">Iste libellus emptus
+                     latin 604: <quote n="inner-back-cover">Iste libellus emptus
                         a domino Petro, herede reverendi magistri nostri Vincentii Sarraseni, sacre
                         theologie professoris (cuius anima pace fruatur), per magistrum Claudium
                         Verneti, artium regentem Doli, eidem emptori pertinet. Ista est per me,
@@ -357,7 +357,7 @@
                   Anglo-German Nation, nor in the other volumes of the Auctarium. Astrik Gabriel,
                   the editor of volume VI of the Auctarium, also mentions Clemens de Melnik only in
                   connection with the copy of Versoris's commentary and provides no further
-                  information about his career. František Šmahel writes: <quote source="447">Es sei
+                  information about his career. František Šmahel writes: <quote n="447">Es sei
                      aber gleich bemerkt, daß dies die einzige Erwähnung über Klemens von Melnik ist
                      und wir also nicht einmal wissen, ob er von Paris wiederum nach Prag
                      zurückkehrte</quote>. For this reason, it cannot be ruled out that he may have
@@ -993,24 +993,24 @@
                   (copied in Paris), Ms 162 and Boulogne-sur-Mer, Bibliothèque Municipale, Ms. 28
                   (both of them copied in Cologne). The first manuscript, which contains Versoris's
                   commentary on the natural philosophical corpus, bears the following possession
-                  mark: <quote source="2v, marg. sup.">Hunc librum acquisivit frater Jacobus Pol,
+                  mark: <quote n="2v marg-sup">Hunc librum acquisivit frater Jacobus Pol,
                      tempore quo fuit scolaris Parisiensis</quote>. The second manuscript,
                   containing Iohannes Tinctoris's commentary on the first and third parts of Thomas
                   Aquinas's Summa theologiae, includes two relevant notes. The first reads: <quote
                      source="1r, marg. sup.">pro fratre Iacobo Pol, monacho sancti Bertini in sancto
                      Audomaro</quote>. The second, partially damaged by water, appears as follows:
-                     <quote source="2v, marg. sup.">Incipit quedam lectura <damage agent="water">
+                     <quote n="2v marg-sup">Incipit quedam lectura <damage agent="water">
                         <supplied resp="#AP">super primam et secundam</supplied>
                      </damage>
                      <note type="editorial">my conjecture; the text is unreadable due to water
                         damage</note> partem beati Thome de Aquino, ad pennam pronunciata ab egregio
                      viro, magistro Iohanne Tinctoris, artium magistro ac sacre theologie doctore
                      famosissimo eiusdemque divine cultore precipuo</quote> to which another hand
-                  (the same as in the first ownership mark) adds: <quote source="2v, marg. sup."
+                  (the same as in the first ownership mark) adds: <quote n="2v marg-sup"
                      >quam fecit scribi frater Iacobus, religiosus sancti Bertini, tempore quo
                      mansit Colonie</quote>. The third manuscript, containing Iohannes de
                   Mechelinis's Commentary on De divinis nominibus, contains the following ex-libris:
-                     <quote source="217, marg. inf.">Hunc librum fecit scribi fr. Jacobus Pol
+                     <quote n="217r marg-inf">Hunc librum fecit scribi fr. Jacobus Pol
                      Colonie, pro monasterio Sancti Bertini, et fuit compositus per magistrum
                      Iohannem de Mechelinia, professorem in theologia, tunc temporis in ipsa
                      facultate regentem atque legente</quote>. Iacobus Pol entered the Benedictine
@@ -1039,7 +1039,7 @@
                   attested at the Dominican convent between 1472 and 1486. In 1472 he lectured on
                   natural philosophy based on the commentaries of Petrus de Rivo, as attested in the
                   manuscript Berlin, Staatsbibliothek Preußischer Kulturbesitz, Magdeburg 220, f.
-                  503va: <quote source="503va">Finitur lectura subtilis eximii sacre theologie
+                  503va: <quote n="503va">Finitur lectura subtilis eximii sacre theologie
                      professoris, magistri Petri de Rivo, Universitatis Lovaniensis ducatus
                      Brabantini, super libros philosophie speculative Aristotelis, philosophi
                      ingeniosissimi, quam ego, frater Dominicus de Zuuollis, scripsi et audivi in
