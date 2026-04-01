@@ -2485,7 +2485,11 @@
                </msContents>
                <history>
                   <origin>
-                     <origDate from="1480" to="1480">On the basis of watermarks, the manuscript can be dated to the 1480s. I am referring to the typescript description prepared by Marian Zwiercan in 1961, which was kindly made available to me by the librarians of the manuscript department. </origDate>
+                     <origDate from="1480" to="1489">1480s</origDate>
+                     <p>On the basis of watermarks, the manuscript can be dated to the 1480s. <note
+                           type="editorial">I am referring to the typescript description prepared by
+                           Marian Zwiercan in 1961, which was kindly made available to me by the
+                           librarians of the manuscript department.</note></p>
                      <origPlace>Kraków</origPlace>
                   </origin>
                </history>
@@ -2516,10 +2520,15 @@
                <msContents>
                   <summary>
                      <ab type="explicit_attribution" cert="0">none</ab>
-                     <ab type="general_remarks">The Qdente is preceded by anonymous Cracovian
+                     <ab type="general_remarks">The Qdente is preceded by some anonymous Cracovian
                         questions on Aristotle's Metaphysics (ff. 1r–100r), probably copied by the
                         same hand.</ab>
                   </summary>
+                  <msItem xml:id="Kraków_BibliotekaJagiellońska_cod2085_QsMeta_Anon">
+                     <locus from="1r" to="100r"/>
+                     <author>Anonymus</author>
+                     <title ref="workID">QsMeta</title>
+                  </msItem>
                   <msItem xml:id="Kraków_BibliotekaJagiellońska_cod2085_Qdente">
                      <locus from="108r" to="119v"/>
                      <title ref="workID">Qdente</title>
@@ -2527,7 +2536,11 @@
                </msContents>
                <history>
                   <origin>
-                     <origDate from="1470" to="1479">Based on the watermarks, the manuscript can be dated to the 1470s. I am referring to the typescript description prepared by Zofia Włodek, which was kindly made available to me by the librarians of the manuscript department. </origDate>
+                     <origDate from="1470" to="1479">1470s</origDate>
+                     <p>Based on the watermarks, the manuscript can be dated to the 1470s. <note
+                           type="editorial">I am referring to the typescript description prepared by
+                           Zofia Włodek, which was kindly made available to me by the librarians of
+                           the manuscript department.</note></p>
                      <origPlace>Kraków</origPlace>
                      <note type="msRelationship">
                         <p><ref target="#Kraków_BibliotekaJagiellońska_cod2007" type="ms">Kraków,
