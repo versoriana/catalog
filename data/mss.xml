@@ -2647,6 +2647,128 @@
                </additional>
             </msDesc>
 
+            <msDesc xml:id="Kraków_BibliotekaJagiellońska_cod2118">
+               <msIdentifier>
+                  <settlement>Kraków</settlement>
+                  <repository>Biblioteka Jagiellońska</repository>
+                  <idno>cod. 2118</idno>
+                  <idno type="URI">https://jbc.bj.uj.edu.pl/publication/339703</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     <ab type="explicit_attribution" cert="0">none</ab>
+                  </summary>
+                  <msItem xml:id="Kraków_BibliotekaJagiellońska_cod2118_QdA_Anon1">
+                     <locus from="2v" to="11r"/>
+                     <author>Anonymus</author>
+                     <title ref="workID">QdA</title>
+                     <note type="content">Anonymous Cracovian QdA.</note>
+                  </msItem>
+                  <msItem xml:id="Kraków_BibliotekaJagiellońska_cod2118_QdA_BenedictusHesse">
+                     <locus from="13r" to="70r"/>
+                     <author>Benedictus Hesse de Cracovia</author>
+                     <title ref="workID">QdA</title>
+                  </msItem>
+                  <msItem xml:id="Kraków_BibliotekaJagiellońska_cod2118_Qdente">
+                     <locus from="70v" to="81r"/>
+                     <title ref="workID">Qdente</title>
+                  </msItem>
+                  <msItem xml:id="Kraków_BibliotekaJagiellońska_cod2118_QdG_Anon">
+                     <locus from="177r" to="193"/>
+                     <author>Anonymus</author>
+                     <title ref="workID">QdG Book I</title>
+                  </msItem>
+                  <msItem xml:id="Kraków_BibliotekaJagiellońska_cod2118_DeEnte_GerardoMonte">
+                     <locus from="199r" to="231r"/>
+                     <author>Gerardus de Monte</author>
+                     <title ref="workID">Commentary on De ente et essentia</title>
+                  </msItem>
+                  <msItem xml:id="Kraków_BibliotekaJagiellońska_cod2118_QsPred_Anon1">
+                     <locus from="251r" to="276r"/>
+                     <author>Anonymus</author>
+                     <title ref="workID">QsPred</title>
+                  </msItem>
+                  <msItem xml:id="Kraków_BibliotekaJagiellońska_cod2118_QdInt_Anon1">
+                     <locus from="276r" to="291v"/>
+                     <author>Anonymus</author>
+                     <title ref="workID">QdInt</title>
+                  </msItem>
+                  <msItem xml:id="Kraków_BibliotekaJagiellońska_cod2118_QsPred_Anon2">
+                     <locus from="339r" to="357v"/>
+                     <author>Anonymus</author>
+                     <title ref="workID">QsPred</title>
+                  </msItem>
+                  <msItem xml:id="Kraków_BibliotekaJagiellońska_cod2118_QdInt_Anon2">
+                     <locus from="357v" to="358v"/>
+                     <author>Anonymus</author>
+                     <title ref="workID">QdInt</title>
+                     <note type="content">Fragment</note>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate from="1474" to="1476">1474–1476</origDate>
+                     <origPlace>Kraków</origPlace>
+                     <note type="msRelationship">
+                        <p>The anonymous QdG (ff. 177r–193) is the same as that found in <ref
+                              target="#Kraków_BibliotekaJagiellońska_cod2007" type="ms">Krakow, BJ,
+                              cod. 2007</ref>, ff. 135r–163r.</p>
+                     </note>
+                  </origin>
+                  <provenance>
+                     <p>The codex belonged to Paul of Warsaw, as noted on the inner front cover
+                           <q n="inner-front-cover">Liber Pauli de Warsczovya, artium
+                           baccalaurei</q>. Below, in the same hand, we read: <q n="inner-front-cover">1476 ad
+                           Penthecosten, ordo baccalariorum in mensa, de numero quorum fuit possessor
+                           huius libri: 2. Frater Stanislaus de Claratumba; 6. Leonardus de Teta; 4.
+                           Mathias de Dobrzyn; 12. Mathias de Mychow; 5. Nicolaus de Lemberg; 8.
+                           Michael de Nissa; 11. Pancracius, etc.; 15. Nicolaus de Myszczyn; 9.
+                           Paulus de Warschovija; 14. Petrus de Sumerch, etc.; 13. Stanislaus de
+                           Bogdany; 10. Anthonius de Novo Solio; 7. Thomas de Kamencz; 1. Andreas de
+                           Glogovia; 3. Troyanus de Chmyelow. Numerus autem scriptus penes eorum
+                           designat numerum eundem, qui fuit inter eos in examinare</q>. All these
+                        students attended the Kraków Arts Faculty between 1471 and 1474. <note
+                           type="biblio">Album studiosorum, I, 204-216.</note></p>
+                     <p>On the inner back cover Paul of Warsaw recorded the classes he attended and
+                        the masters who taught them: <q n="inner-back-cover">Exercitium Veteris
+                           artis, apud magistrum Iohannem de O., hyemali; lectura Musie Muris apud
+                           magistrum Nicolaum de W., et Aristotelem commutationis estivali; exercitium
+                           De generatione a magistro Nicolao de W., a magistro Stanislao de Florentia;
+                           lecturam Methaphysice, Stanislao de Corzyp; Thopicorum, Polliticorum,
+                           Nicolao de Warsz[awa]; exercitium De anima, commutatione estivali; Lectura
+                           Parvorum naturalium a magistro Martino de Cothkowicze, monachus; exercitium
+                           Ethicorum a magistro Stanislao de Andrzeyow, monachus; Lectura De
+                           generatione et corruptione, commutatione hyemali a magistro Iohanne de
+                           Lublin, hyemali a magistro Andrea de Labyschyn; Yconomicorum, De causis, a
+                           magistro Martino de Cracovia, hyemali</q>. All these masters are documented
+                        as teaching at the Kraków Arts Faculty between 1470 and 1474. <note
+                           type="biblio">Statuta, 57-77.</note></p>
+                     <p>On f. 209r appears another possession mark: <q n="209r">Andreas istum librum
+                           comparavit, infra caniculam, de Lonczycza</q>. At f. 1r the codex later
+                        passed into the possession of the Collegium Maius: <q n="1r">Pro libraria
+                           maioris collegii</q>.</p>
+                  </provenance>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source cert="high" resp="#">
+                           <p>Ms directly examined</p>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+                  <listBibl>
+                     <bibl>Wysłocki, Katalog II, 511–512.</bibl>
+                     <bibl>Senko, De ente, 15, 17.</bibl>
+                     <bibl>A. Zumkeller, Manuskripte von Werken der Autoren des Augustiner-Eremitenordens in mitteleuropäischen Bibliotheken, Würzburg, 1966, 22, no. 23a.</bibl>
+                     <bibl>Markowski/Włodek, Aristotelica Cracoviensia, 116–117.</bibl>
+                     <bibl>H. V. Schooner, Codices manuscripti operum Thomae de Aquino. T. 2: Bibliothecae Gdańsk-Münster, Roma, 1973, 154, no. 1340.</bibl>
+                     <bibl>R. Macken, Bibliotheca manuscripta Henrici de Gandavo. T. 1: Introduction. Catalogue A-P, Leuven, 1979, 190-191, no. 49.</bibl>
+                     <bibl>Clavis 1 (2019), no. 72/12, 435/1, 676, 678, 682.</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+
             <msDesc xml:id="Kraków_BibliotekaJagiellońska_cod2524">
                <msIdentifier>
                   <settlement>Kraków</settlement>
