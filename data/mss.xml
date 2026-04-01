@@ -1560,9 +1560,9 @@
                      </recordHist>
                   </adminInfo>
                   <listBibl>
-                     <bibl>Wisłocki I, 158</bibl>
-                     <bibl>AL I, 57</bibl>
-                     <bibl>M. Kowalczyk, Catalogus codicum manuscriptorum medii aevi Latinorum, qui in Bibliotheca Jagellonica Cracoviae asservantur. Vol. III, Numeros continens inde a 445 usque ad 563, Wratislaviae, 1984, 142–146</bibl>
+                     <bibl>Wisłocki I, 158.</bibl>
+                     <bibl>AL I, 57.</bibl>
+                     <bibl>M. Kowalczyk, Catalogus codicum manuscriptorum medii aevi Latinorum, qui in Bibliotheca Jagellonica Cracoviae asservantur. Vol. III, Numeros continens inde a 445 usque ad 563, Wratislaviae, 1984, 142–146.</bibl>
                      <bibl><note type="biblio">not in Markowski</note></bibl>
                   </listBibl>
                </additional>
@@ -1604,9 +1604,9 @@
                      </recordHist>
                   </adminInfo>
                   <listBibl>
-                     <bibl>Wisłocki I, 159</bibl>
-                     <bibl>Kowalczyk, Catalogus III, 163–167</bibl>
-                     <bibl>Markowski/Włodek, Aristotelica Cracoviensia, 15–16</bibl>
+                     <bibl>Wisłocki I, 159.</bibl>
+                     <bibl>Kowalczyk, Catalogus III, 163–167.</bibl>
+                     <bibl>Markowski/Włodek, Aristotelica Cracoviensia, 15–16.</bibl>
                   </listBibl>
                </additional>
             </msDesc>
@@ -1651,10 +1651,10 @@
                      </recordHist>
                   </adminInfo>
                   <listBibl>
-                     <bibl>Wysłocki, Katalog I, 221</bibl>
-                     <bibl>Markowski/Włodek, Aristotelica Cracoviensia, 55</bibl>
-                     <bibl>Markowski, Burydanizm, 383</bibl>
-                     <bibl>M. Kowalczyk, A. Kozłowska, M. Markowski, S. Włodek, M. Zwiercan, Catalogus codicum manuscriptorum medii aevi latinorum qui in Bibliotheca Jagellonica Cracoviae asservantur, vol. 5, Numeros continens inde a 668 usque ad 771, Wrocław/Warszawa, 1993, 261–265</bibl>
+                     <bibl>Wysłocki, Katalog I, 221.</bibl>
+                     <bibl>Markowski/Włodek, Aristotelica Cracoviensia, 55.</bibl>
+                     <bibl>Markowski, Burydanizm, 383.</bibl>
+                     <bibl>M. Kowalczyk, A. Kozłowska, M. Markowski, S. Włodek, M. Zwiercan, Catalogus codicum manuscriptorum medii aevi latinorum qui in Bibliotheca Jagellonica Cracoviae asservantur, vol. 5, Numeros continens inde a 668 usque ad 771, Wrocław/Warszawa, 1993, 261–265.</bibl>
                   </listBibl>
                </additional>
             </msDesc>
@@ -1696,8 +1696,8 @@
                   </msContents>
                   <additional>
                      <listBibl>
-                        <bibl>Hain 16029</bibl>
-                        <bibl>GW M50240</bibl>
+                        <bibl>Hain 16029.</bibl>
+                        <bibl>GW M50240.</bibl>
                      </listBibl>
                   </additional>
                </msPart>
@@ -1782,7 +1782,7 @@
                      </recordHist>
                   </adminInfo>
                   <listBibl>
-                     <bibl>Markowski/Włodek, Cracoviensia, 67, 181</bibl>
+                     <bibl>Markowski/Włodek, Cracoviensia, 67, 181.</bibl>
                   </listBibl>
                </additional>
 
@@ -1857,11 +1857,11 @@
                      </recordHist>
                   </adminInfo>
                   <listBibl>
-                     <bibl>Wysłocki, Katalog II, 452</bibl>
-                     <bibl>Zumkeller, 16, 555, n. 7</bibl>
-                     <bibl>Markowski/Włodek, Aristotelica Cracoviensia, 73–54</bibl>
-                     <bibl>Markowski, Logika, 155, 201</bibl>
-                     <bibl>Clavis 1 (2019), n. 925/1, 929/1, 929/2, 929/3, 929/4</bibl>
+                     <bibl>Wysłocki, Katalog II, 452.</bibl>
+                     <bibl>Zumkeller, 16, 555, n. 7.</bibl>
+                     <bibl>Markowski/Włodek, Aristotelica Cracoviensia, 73–54.</bibl>
+                     <bibl>Markowski, Logika, 155, 201.</bibl>
+                     <bibl>Clavis 1 (2019), n. 925/1, 929/1, 929/2, 929/3, 929/4.</bibl>
                   </listBibl>
                </additional>
             </msDesc>
@@ -2342,6 +2342,218 @@
                      <bibl>Clavis 1 (2019), no. 27/3, 608/9.</bibl>
                      <bibl>Panzica, “Commenter les Météorologiques à l’Université de Cracovie”,
                         122–124, 126, 129, 130, 149, 178–179.</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+
+            <msDesc xml:id="Kraków_BibliotekaJagiellońska_cod2072">
+               <msIdentifier>
+                  <settlement>Kraków</settlement>
+                  <repository>Biblioteka Jagiellońska</repository>
+                  <idno>cod. 2072</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     <ab type="explicit_attribution" cert="1">The Questions on the Parva naturalia
+                        and on Ethics are described in the table of contents on the first inside
+                        cover as being "secundum Versorem": <q n="inner-front-cover">Continentur hic
+                           puncta Phisicorum secundum Thomistas per Iohannem Pelzer scripta; puncta
+                           super libros Metheororum per fratrem Martinum compilata et Parva naturalia
+                           secundum Versorem scripta […]; questiones super Ethicorum secundum
+                           Versorem</q>.</ab>
+                     <ab type="general_remarks">These texts are preceded by the anonymous Cracovian
+                        QsP (inc.: <q n="NA">circa initium libri Physicorum queritur utrum inter tres
+                           scientias speculativas reales philosophia ordine doctrine sit prima,
+                           mathematica secunda, metaphysica tertia</q>).</ab>
+                  </summary>
+                  <msItem xml:id="Kraków_BibliotekaJagiellońska_cod2072_QsMete">
+                     <locus from="114ra" to="139va"/>
+                     <title ref="workID">QsMete</title>
+                     <colophon n="final"><locus from="139va"/>Et sic est finis, anno Domini 1462 in
+                        die Innocentium. Et est finitus in Zittavia, per me, Martinum Scharffe de
+                        Budissim</colophon>
+                  </msItem>
+                  <msItem xml:id="Kraków_BibliotekaJagiellońska_cod2072_QdSens">
+                     <locus from="140ra" to="153va"/>
+                     <title ref="workID">QdSens</title>
+                  </msItem>
+                  <msItem xml:id="Kraków_BibliotekaJagiellońska_cod2072_QdMem">
+                     <locus from="153vb" to="157va"/>
+                     <title ref="workID">QdMem</title>
+                  </msItem>
+                  <msItem xml:id="Kraków_BibliotekaJagiellońska_cod2072_QsSom">
+                     <locus from="157va" to="163vb"/>
+                     <title ref="workID">QsSom</title>
+                     <note type="content">The QdLong is announced at the end of the QsSom
+                        (<q n="NA">Sequitur de longitudine et brevitate vite tractatus Aristotelis</q>)
+                        but is missing from the manuscript.</note>
+                  </msItem>
+                  <msItem xml:id="Kraków_BibliotekaJagiellońska_cod2072_QsE">
+                     <locus from="208r" to="230r"/>
+                     <title ref="workID">QsE</title>
+                     <note type="content">Only part of the QsE is transmitted; the copy breaks off
+                        unfinished at question VII.8 (Utrum perseverantia sit virtus), ending with
+                        the words: <q n="230ra">aliquis ratione perseverans est laudabilior, ergo
+                           perseverantia non est virtus moralis. In oppositum arguitur</q>.</note>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate from="1462" to="1462">1462, as stated in the colophon of the QsMete
+                        (f. 139va).</origDate>
+                     <origPlace>Zittau</origPlace>
+                     <p>The manuscript was copied in Zittau, Silesia, by a certain Martin of
+                        Bautzen (Martinus Scharffe de Budissim), a friar, as attested by the
+                        colophon (f. 139va) and the table of contents on the first inside cover
+                        (<q n="inner-front-cover">per fratrem Martinum compilata</q>).</p>
+                     <note type="msRelationship">
+                        <p><ref target="Kraków_BibliotekaJagiellońska_cod2002">Krakow, BJ, cod.
+                              2002</ref>; <ref target="#Kraków_BibliotekaJagiellońska_cod2007"
+                              type="ms">2007</ref>; <ref
+                              target="Kraków_BibliotekaJagiellońska_cod2087">2087</ref>, which
+                           contain the same Cracovian QsP.</p>
+                        <p>The collation of the QdMem has shown that the text of this manuscript is
+                           close to <ref
+                              target="Luxembourg_BibliothèquenationaleduLuxembourgRéserveprécieuse_53"
+                              >Luxembourg, Bibliothèque nationale du Luxembourg – Réserve précieuse,
+                              53</ref>.</p>
+                     </note>
+                  </origin>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source cert="high" resp="#">
+                           <p>Ms directly examined</p>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+                  <listBibl>
+                     <bibl>Wysłocki, Katalog II, 502–503.</bibl>
+                     <bibl>Zumkeller, 564, n. 70.</bibl>
+                     <bibl>Palacz, "Les Quaestiones cracovienses", 45–46.</bibl>
+                     <bibl>Palacz (ed.), "Quaestiones cracovienses", XII–XIV.</bibl>
+                     <bibl>Markowski/Włodek, Aristotelica Cracoviensia, 98–99.</bibl>
+                     <bibl>Clavis 1 (2019), n. 718.</bibl>
+                     <bibl>Panzica, "Commenter les Météorologiques à l'Université de Cracovie", 104,
+                        121–125, 129–130, 172, 180.</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+
+            <msDesc xml:id="Kraków_BibliotekaJagiellońska_cod2076">
+               <msIdentifier>
+                  <settlement>Kraków</settlement>
+                  <repository>Biblioteka Jagiellońska</repository>
+                  <idno>cod. 2076</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     <ab type="explicit_attribution" cert="0">none</ab>
+                     <ab type="general_remarks">All commentaries, with the exception of the QsSE,
+                        are transmitted together with marginal commentaries on the same texts by
+                        Iacobus de Gostynin. These marginal notes, written in Iacobus's hand, are
+                        scarcely legible.</ab>
+                  </summary>
+                  <msItem xml:id="Kraków_BibliotekaJagiellońska_cod2076_QsPri">
+                     <locus from="1r" to="26v"/>
+                     <title ref="workID">QsPri</title>
+                  </msItem>
+                  <msItem xml:id="Kraków_BibliotekaJagiellońska_cod2076_QsPos">
+                     <locusGrp>
+                        <locus from="42r" to="61v"/>
+                        <locus from="66r" to="77v"/>
+                     </locusGrp>
+                     <title ref="workID">QsPos</title>
+                  </msItem>
+                  <msItem xml:id="Kraków_BibliotekaJagiellońska_cod2076_QsSE">
+                     <locus from="78r" to="97v"/>
+                     <title ref="workID">QsSE</title>
+                  </msItem>
+                  <msItem xml:id="Kraków_BibliotekaJagiellońska_cod2076_QsTop">
+                     <locus from="102r" to="122r"/>
+                     <title ref="workID">QsTop Books I–IV</title>
+                  </msItem>
+                  <msItem xml:id="Kraków_BibliotekaJagiellońska_cod2076_QsPre">
+                     <locus from="180r" to="226r"/>
+                     <title ref="workID">QsPre</title>
+                  </msItem>
+                  <msItem xml:id="Kraków_BibliotekaJagiellońska_cod2076_QdInt">
+                     <locus from="244r" to="264v"/>
+                     <title ref="workID">QdInt</title>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate from="1480" to="1480">On the basis of watermarks, the manuscript can be dated to the 1480s. I am referring to the typescript description prepared by Marian Zwiercan in 1961, which was kindly made available to me by the librarians of the manuscript department. </origDate>
+                     <origPlace>Kraków</origPlace>
+                  </origin>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source cert="high" resp="#">
+                           <p>Ms directly examined</p>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+                  <listBibl>
+                     <bibl>Wysłocki, Katalog II, 504.</bibl>
+                     <bibl>Markowski, Logika, 155.</bibl>
+                     <bibl>Markowski/Włodek, Aristotelica Cracoviensia, 101–103.</bibl>
+                     <bibl>Green-Pedersen, The Tradition of the Topics in the Middle Ages, p. 400.</bibl>
+                     <bibl>Lohr I, p. 342.</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+
+            <msDesc xml:id="Kraków_BibliotekaJagiellońska_cod2085">
+               <msIdentifier>
+                  <settlement>Kraków</settlement>
+                  <repository>Biblioteka Jagiellońska</repository>
+                  <idno>cod. 2085</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     <ab type="explicit_attribution" cert="0">none</ab>
+                     <ab type="general_remarks">The Qdente is preceded by anonymous Cracovian
+                        questions on Aristotle's Metaphysics (ff. 1r–100r), probably copied by the
+                        same hand.</ab>
+                  </summary>
+                  <msItem xml:id="Kraków_BibliotekaJagiellońska_cod2085_Qdente">
+                     <locus from="108r" to="119v"/>
+                     <title ref="workID">Qdente</title>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate from="1470" to="1479">Based on the watermarks, the manuscript can be dated to the 1470s. I am referring to the typescript description prepared by Zofia Włodek, which was kindly made available to me by the librarians of the manuscript department. </origDate>
+                     <origPlace>Kraków</origPlace>
+                     <note type="msRelationship">
+                        <p><ref target="#Kraków_BibliotekaJagiellońska_cod2007" type="ms">Kraków,
+                              BJ, cod. 2007</ref>, which also belonged to <persName
+                              ref="#MichaelDeTurobin">Michael de Turobin</persName>.</p>
+                     </note>
+                  </origin>
+                  <provenance>
+                     <p>The codex, originating in Kraków, belonged to Master <persName ref="#MichaelDeTurobin">Michael de
+                           Turobin</persName>, as indicated on the inner front cover (<q
+                           n="inner-front-cover">Liber Metaphysice magistri Michaelis de
+                           Turobin</q>).</p>
+                  </provenance>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source cert="high" resp="#">
+                           <p>Ms directly examined</p>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+                  <listBibl>
+                     <bibl>Wisłocki, Katalog II, 64.</bibl>
+                     <bibl>Markowski/Włodek, Aristotelica Cracoviensia, 104–105.</bibl>
+                     <bibl>Senko, De ente, 17.</bibl>
                   </listBibl>
                </additional>
             </msDesc>
