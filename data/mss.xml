@@ -2558,6 +2558,82 @@
                </additional>
             </msDesc>
 
+            <msDesc xml:id="Kraków_BibliotekaJagiellońska_cod2087">
+               <msIdentifier>
+                  <settlement>Kraków</settlement>
+                  <repository>Biblioteka Jagiellońska</repository>
+                  <idno>cod. 2087</idno>
+                  <idno type="URI">https://jbc.bj.uj.edu.pl/publication/339711</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     <ab type="explicit_attribution" cert="0">none</ab>
+                     <ab type="general_remarks">The manuscript also transmits the anonymous Cracovian
+                        QsP (ff. 200r–206v, 213r–262v).</ab>
+                  </summary>
+                  <msItem xml:id="Kraków_BibliotekaJagiellońska_cod2087_Qdente">
+                     <locus from="1r" to="15v"/>
+                     <title ref="workID">Qdente</title>
+                  </msItem>
+                  <msItem xml:id="Kraków_BibliotekaJagiellońska_cod2087_QsP">
+                     <locus from="17r" to="191v"/>
+                     <title ref="workID">QsP</title>
+                  </msItem>
+                  <msItem xml:id="Kraków_BibliotekaJagiellońska_cod2087_QsP_Anon">
+                     <locusGrp>
+                        <locus from="200r" to="206v"/>
+                        <locus from="213r" to="262v"/>
+                     </locusGrp>
+                     <author>Anonymus</author>
+                     <title ref="workID">QsP</title>
+                     <incipit>circa initium libri Physicorum queritur utrum inter tres scientias
+                        speculativas reales philosophia ordine doctrine sit prima, mathematica
+                        secunda, metaphysica tertia</incipit>
+                     <colophon n="final"><locus from="262v"/>Executio scripti peracta anno Domini
+                        1464, feria tertia solemnitatem conceptionis sancte Marie immediate
+                        sequente</colophon>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate from="1464" to="1464">1464, as stated in the colophon of the anonymous
+                        Cracovian QsP (f. 262v).</origDate>
+                     <origPlace>Kraków</origPlace>
+                     <note type="msRelationship">
+                        <p><ref target="Kraków_BibliotekaJagiellońska_cod2002">Krakow, BJ, cod.
+                              2002</ref>; <ref target="#Kraków_BibliotekaJagiellońska_cod2007"
+                              type="ms">2007</ref>; <ref
+                              target="#Kraków_BibliotekaJagiellońska_cod2072" type="ms">2072</ref>,
+                           which contain the same Cracovian QsP.</p>
+                     </note>
+                  </origin>
+                  <provenance>
+                     <p>The codex belonged to Master Nicolaus of Kraków, who purchased it in 1487,
+                        as recorded on the inner back cover (<q n="inner-back-cover">Liber magistri
+                           Nicolai de Cracovia, comparatus per eundem, anno Christi 1487 impensa 34
+                           grossorum polonicalium</q>). At f. 280v, we find the names of some Krakow
+                        students (<q n="280v">Michael de Strasburg latum, Iohannes Voels in quarta,
+                           tertio Iohannes Bohniza, quarta</q>).</p>
+                  </provenance>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source cert="high" resp="#">
+                           <p>Ms directly examined</p>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+                  <listBibl>
+                     <bibl>Wysłocki, Katalog II, 506.</bibl>
+                     <bibl>Senko, De ente, 17.</bibl>
+                     <bibl>Palacz, "Les Quaestiones cracovienses", 44–45.</bibl>
+                     <bibl>Palacz (ed.), "Quaestiones cracovienses", VI–XII.</bibl>
+                     <bibl>Markowski/Włodek, Aristotelica Cracoviensia, 106–107.</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+
             <msDesc xml:id="Kraków_BibliotekaJagiellońska_cod2524">
                <msIdentifier>
                   <settlement>Kraków</settlement>
