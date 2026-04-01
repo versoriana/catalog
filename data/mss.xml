@@ -1525,6 +1525,140 @@
                </additional>
             </msDesc>
 
+            <msDesc xml:id="Kraków_BibliotekaJagiellońska_cod504">
+               <msIdentifier>
+                  <settlement>Kraków</settlement>
+                  <repository>Biblioteka Jagiellońska</repository>
+                  <idno>cod. 504</idno>
+                  <idno type="URI">https://jbc.bj.uj.edu.pl/publication/609065</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     <ab type="explicit_attribution" cert="0">none</ab>
+                     <ab type="general_remarks">
+                        <note type="content">Accompanying Aristotle's text in the form of marginal glosses and transmitted together with other glossed Aristotelian works.</note>
+                        
+                     </ab>
+                  </summary>
+                  <msItem xml:id="Kraków_BibliotekaJagiellońska_cod504_CsY">
+                     <locus from="524r" to="533v"/>
+                     <title ref="workID">CsY Book I</title>                     
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate from="1470" to="1480">The watermarks were widespread in the years 1470–1480.</origDate>
+                     <origPlace>Krakow</origPlace>
+                  </origin>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source cert="high" resp="#">
+                           <p>Ms directly examined</p>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+                  <listBibl>
+                     <bibl>Wisłocki I, 158</bibl>
+                     <bibl>AL I, 57</bibl>
+                     <bibl>M. Kowalczyk, Catalogus codicum manuscriptorum medii aevi Latinorum, qui in Bibliotheca Jagellonica Cracoviae asservantur. Vol. III, Numeros continens inde a 445 usque ad 563, Wratislaviae, 1984, 142–146</bibl>
+                     <bibl><note type="biblio">not in Markowski</note></bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+
+            <msDesc xml:id="Kraków_BibliotekaJagiellońska_cod511">
+               <msIdentifier>
+                  <settlement>Kraków</settlement>
+                  <repository>Biblioteka Jagiellońska</repository>
+                  <idno>cod. 511</idno>
+                  <idno type="URI">https://jbc.bj.uj.edu.pl/publication/600082</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     <ab type="explicit_attribution" cert="1">the questions are ascribed to Versoris in the register, copied by the same scribe as the text, which directly follows it (<q n="281v">registrum primi De generatione et corruptione questionum Versoris</q>).</ab>
+                  </summary>
+                  <msItem xml:id="Kraków_BibliotekaJagiellońska_cod511_QdG">
+                     <locus from="260r" to="281v"/>
+                     <title ref="workID">QdG</title>
+                     <colophon n="final"><locus from="281r"/>Et hec de questione, et per consequens de secundo De generatione dicta sufficiunt. Pro cuius fine et completione Deus summus, trinus et unus sit benedictus. Amen. 1476</colophon>
+                     <note type="content">Transmitted with other works on natural philosophy.</note>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate from="1476" to="1476">1476, as evident from the colophon of the QdG (f. 281r).</origDate>
+                     <origPlace>Krakow</origPlace>
+                  </origin>
+                  <provenance>
+                     <p>In 1494, the Krakow arts master Paulus de Zakliczew used Versoris's commentary for his lectures (<q n="281r">a magistro Paulo Zakliczew, M CCCC 94, hiemali tempore De generatione et corruptione exercitium</q>). In 1504, the codex was acquired by Iacobus de Cracovia, master of arts at Krakow University, who left some annotations in Versoris's commentary (<q n="283v">Iste liber est emptus per me Iacobum de Cracovia, per 12 grossos, anno Domini salvatoris nostri Iesu Cristi 1504</q>).</p>
+                  </provenance>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source cert="high" resp="#">
+                           <p>Ms directly examined</p>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+                  <listBibl>
+                     <bibl>Wisłocki I, 159</bibl>
+                     <bibl>Kowalczyk, Catalogus III, 163–167</bibl>
+                     <bibl>Markowski/Włodek, Aristotelica Cracoviensia, 15–16</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+
+            <msDesc xml:id="Kraków_BibliotekaJagiellońska_cod740">
+               <msIdentifier>
+                  <settlement>Kraków</settlement>
+                  <repository>Biblioteka Jagiellońska</repository>
+                  <idno>cod. 740</idno>
+                  <idno type="URI">https://jbc.bj.uj.edu.pl/publication/601611</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     <ab type="explicit_attribution" cert="0">none</ab>
+                  </summary>
+                  <msItem xml:id="Kraków_BibliotekaJagiellońska_cod740_QsP">
+                     <locus from="1r" to="162v"/>
+                     <title ref="workID">QsP</title>
+                     <colophon n="final"><locus from="161r"/>Et sic est finis huius Phisicorum exercitii anno Domini etc. LXII, in vigilia Martini, hora duodecima</colophon>
+                  </msItem>
+                  <msItem xml:id="Kraków_BibliotekaJagiellońska_cod740_CsY">
+                     <locus from="352r" to="356r"/>
+                     <title ref="workID">CsY</title>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate from="1462" to="1462">1462, as stated in the colophon of the QsP (f. 161r).</origDate>
+                     <origPlace>Leipzig</origPlace>
+                     <p>Some parts of this codex (though not those transmitting Versoris's commentaries) were copied by Iohannes Breslawer de Brunsberga, who studied philosophy and theology in Leipzig.</p>
+                  </origin>
+                  <provenance>
+                     <p>The codex later came into the possession of the Krakow master Michael de Wratislavia (<q n="first-guard-leaf">Michaelis Wratislawiensis sum</q>) and was subsequently legated to the library of the Collegium Maius of Krakow University (<q n="NA">legatus pro libraria Maioris Collegii 1534</q>).</p>
+                  </provenance>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source cert="high" resp="#">
+                           <p>Ms directly examined</p>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+                  <listBibl>
+                     <bibl>Wysłocki, Katalog I, 221</bibl>
+                     <bibl>Markowski/Włodek, Aristotelica Cracoviensia, 55</bibl>
+                     <bibl>Markowski, Burydanizm, 383</bibl>
+                     <bibl>M. Kowalczyk, A. Kozłowska, M. Markowski, S. Włodek, M. Zwiercan, Catalogus codicum manuscriptorum medii aevi latinorum qui in Bibliotheca Jagellonica Cracoviae asservantur, vol. 5, Numeros continens inde a 668 usque ad 771, Wrocław/Warszawa, 1993, 261–265</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+
 
             <!-- Kraków, BJ 908*-->
 
