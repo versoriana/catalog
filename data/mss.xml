@@ -1866,6 +1866,80 @@
                </additional>
             </msDesc>
 
+            <msDesc xml:id="Kraków_BibliotekaJagiellońska_cod2002">
+               <msIdentifier>
+                  <settlement>Kraków</settlement>
+                  <repository>Biblioteka Jagiellońska</repository>
+                  <idno>cod. 2002</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     <ab type="explicit_attribution" cert="0">none</ab>
+                  </summary>
+                  <msItem xml:id="Kraków_BibliotekaJagiellońska_cod2002_QsP_Anon">
+                     <locus to="75v"/>
+                     <author>Anonymus</author>
+                     <title ref="workid">QsP</title>
+                     <incipit>circa initium libri Physicorum queritur utrum inter tres scientias
+                        speculativas reales philosophia ordine doctrine sit prima, mathematica
+                        secunda, metaphysica tertia</incipit>
+                     <colophon n="final">
+                        <locus from="75v"/>Finis huius operis die Lune, alias in vigilia sancti
+                        Mathei, est factus anno Domini 1473, per me, Stanislaum de Czchów</colophon>
+                  </msItem>
+                  <msItem xml:id="Kraków_BibliotekaJagiellońska_cod2002_QsPor">
+                     <locus from="76r" to="116r"/>
+                     <title ref="#QsPor">QsPor</title>
+                  </msItem>
+                  <msItem xml:id="Kraków_BibliotekaJagiellońska_cod2002_QsPre">
+                     <locus from="116v" to="156v"/>
+                     <title ref="#QsPre">QsPre</title>
+                  </msItem>
+                  <msItem xml:id="Kraków_BibliotekaJagiellońska_cod2002_QsSex">
+                     <locus from="157r" to="168r"/>
+                     <title ref="#QsSex">QsSex</title>
+                  </msItem>
+                  <msItem xml:id="Kraków_BibliotekaJagiellońska_cod2002_QsDiv">
+                     <locus from="168v" to="173v"/>
+                     <title ref="#QsDiv">QsDiv</title>
+                  </msItem>
+                  <msItem xml:id="Kraków_BibliotekaJagiellońska_cod2002_QsInt">
+                     <locus from="174r" to="202r"/>
+                     <title ref="#QsInt">QsInt</title>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate from="1473" to="1473">1473, as recorded in the colophon of the
+                        Cracovian Questions on the Physics (f. 75v), copied by <persName
+                           ref="#StanisławZCzchowaSynMacieja">Stanislaus de Czchów</persName>.</origDate>
+                     <origPlace ref="#Kraków">Krakow</origPlace>
+                     <note type="msRelationship">
+                        <p><ref target="#Kraków_BibliotekaJagiellońska_cod2007" type="ms">Krakow,
+                              BJ, cod. 2007</ref>; <ref
+                              target="#Kraków_BibliotekaJagiellońska_cod2072" type="ms">cod.
+                              2072</ref>; <ref target="#Kraków_BibliotekaJagiellońska_cod2087"
+                              type="ms">cod. 2087</ref>, which contain the same Cracovian QsP.</p>
+                     </note>
+                  </origin>
+                  <provenance>
+                     <p>The codex belonged to the Collegium Pauperum of Krakow University, as
+                        indicated in a note on the parchment guard-leaf: <q
+                           n="parchment-guard-leaf">Collegij pauperum liber</q>.</p>
+                  </provenance>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Wisłocki, Katalogus II, 487.</bibl>
+                     <bibl>Palacz, "Les Quaestiones cracovienses", 46.</bibl>
+                     <bibl>Palacz (ed.), "Quaestiones cracovienses", XV–XVI <note type="biblio">who
+                           ascribes Versoris's commentaries to Radulphus de Hotot</note>.</bibl>
+                     <bibl>Markowski/Włodek, Aristotelica Cracoviensia, 86.</bibl>
+                     <bibl>Clavis 1 (2019), 770-771, n. 718.</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+
             <msDesc xml:id="Kraków_BibliotekaJagiellońska_cod2007">
                <msIdentifier>
                   <settlement>Kraków</settlement>
