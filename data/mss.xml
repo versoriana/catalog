@@ -1611,6 +1611,45 @@
                </additional>
             </msDesc>
 
+            <msDesc xml:id="Kraków_BibliotekaJagiellońska_cod623">
+               <msIdentifier>
+                  <settlement>Kraków</settlement>
+                  <repository>Biblioteka Jagiellońska</repository>
+                  <idno>cod. 623</idno>
+                  <idno type="URI">https://jbc.bj.uj.edu.pl/publication/608560</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     <ab type="explicit_attribution" cert="0">none</ab>
+                  </summary>
+                  <msItem xml:id="Kraków_BibliotekaJagiellońska_cod623_QsE">
+                     <locus from="1r" to="132r"/>
+                     <title ref="#QsE">QsE Books I–X</title>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate from="1495" to="1496">1495–1496, as can be inferred from the
+                        watermarks.</origDate>
+                     <origPlace>Krakow</origPlace>
+                  </origin>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source cert="high">
+                           <p>Ms directly examined</p>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+                  <listBibl>
+                     <bibl>Wysłocki, Katalog I, 196.</bibl>
+                     <bibl>Markowski/Włodek, Aristotelica Cracoviensia, 19.</bibl>
+                     <bibl>Kowalczyk, Catalogus IV, 336–338.</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+
             <msDesc xml:id="Kraków_BibliotekaJagiellońska_cod740">
                <msIdentifier>
                   <settlement>Kraków</settlement>
