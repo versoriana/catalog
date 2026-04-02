@@ -2914,7 +2914,13 @@
                   <idno>cod. 2524</idno>
                </msIdentifier>
                <msContents>
-                  <summary><ab type="explicit_attribution" cert="0">No</ab></summary>
+                  <summary>
+                     <ab type="explicit_attribution" cert="0">none</ab>
+                     <ab type="general_remarks"><note type="content">Qdente is preceded by
+                           Antonius Andreae's QsMeta (ff. 4r–103r), followed by anonymous QsMeta
+                           (ff. 110r–185v) with marginal glosses, and then by Giles of Rome's
+                           Questions on De ente et essentia (ff. 221v–243v).</note></ab>
+                  </summary>
                   <msItem xml:id="Kraków_BibliotekaJagiellońska_cod2524_QsMetaAntoniusAndreae">
                      <locus from="4r" to="103r"/>
                      <author>Antonius Andreae</author>
@@ -2933,38 +2939,27 @@
                   </msItem>
                   <msItem xml:id="Kraków_BibliotekaJagiellońska_cod2524_Qdente">
                      <locus from="201r" to="221r"/>
-                     <title ref="workID">Qdente</title>
-                     <note type="desc">The text is preceded by Antonius Andreae’s QsMeta (ff.
-                        4r–103r), followed by anonymous QsMeta (ff. 110r–185v) with marginal
-                        glosses, and then by Giles of Rome’s Questions on De ente et essentia (ff.
-                        221v–243v).</note>
-                     <colophon><locus from="243r"/>terminate sunt hee questiones, propositiones
-                        Egidii Romani sub annis Domini tunc currentibus 1479</colophon>
+                     <title ref="workID">Qdente</title>                     
+                     <colophon><locus from="221r"/>Martinus de Tarnoviecz scripsit, clericus
+                        Cracovie, infra caniculam</colophon>
                   </msItem>
-                  <msItem xml:id="Kraków_BibliotekaJagiellońska_cod2524_QuestionsonDeenteetessentia">
+                  <msItem xml:id="Kraków_BibliotekaJagiellońska_cod2524_DeEnte_GilesRome">
                      <locus from="221v" to="243v"/>
                      <author>Giles of Rome</author>
                      <title ref="workId">Questions on De ente et essentia</title>
-                     <colophon><locus from="221r"/>Martinus de Tarnoviecz scripsit, clericus
-                        Cracovie, infra caniculam</colophon>
+                     <colophon><locus from="243r"/>terminate sunt hee questiones, propositiones
+                        Egidii Romani sub annis Domini tunc currentibus 1479</colophon>
                   </msItem>
                </msContents>
                <history>
                   <origin>
                      <origDate from="1479" to="1489">1479-1489</origDate>
                      <p>The texts in this manuscript were copied between 1479 and 1489, as indicated
-                        by the colophons: <q n="103r">Expliciunt questiones Anthonii Andree, ordinis
-                           minorum, correpte ac emendate per excellentissimum magistrum Franciscum
-                           de Nerithono, ordinis predicatorum, reportate in studio Cracoviensi per
-                           Martinum de Tarnoviecz, finite die Saturni immediate ante Galli in Maiori
-                           collegio, anno reparationis nostre 1489</q> (f. 103r); <q n="199r"
-                           >1480</q> (f. 199r); <q n="243r">terminate sunt hee questiones,
-                           propositiones Egidii Romani sub annis Domini tunc currentibus 1479</q>
-                        (f. 243r).</p>
-                     <origPlace ref="#place_cracow">Cracow</origPlace>
+                        by the colophons: f. 103r; <q n="199r"
+                           >1480</q> (f. 199r); f. 243r.</p>
+                     <origPlace>Cracow</origPlace>
                      <p>Versoris’s text was copied in Cracow by Martinus de Tarnowiecz, as stated in
-                        the colophon: <q n="221r">Martinus de Tarnoviecz scripsit, clericus
-                           Cracovie, infra caniculam</q> (f. 221r). Martinus later owned the volume,
+                        the colophon: f. 221r. Martinus later owned the volume,
                         as attested by a note on f. 1r, written when he had already attained the
                         title of master: <q n="1r">ego magister Martinus, 1501</q>.</p>
                   </origin>
@@ -2978,9 +2973,9 @@
                      </recordHist>
                   </adminInfo>
                   <listBibl>
-                     <bibl>Wysłocki, Katalog II, 601</bibl>
-                     <bibl>Senko, De ente, 17</bibl>
-                     <bibl>Markowski/Włodek, Aristotelica Cracoviensia, 123–124</bibl>
+                     <bibl>Wysłocki, Katalog II, 601.</bibl>
+                     <bibl>Senko, De ente, 17.</bibl>
+                     <bibl>Markowski/Włodek, Aristotelica Cracoviensia, 123–124.</bibl>
                   </listBibl>
                </additional>
             </msDesc>
