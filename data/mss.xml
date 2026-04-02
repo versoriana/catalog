@@ -775,6 +775,107 @@
                </additional>
             </msDesc>
 
+            <msDesc xml:id="Basel_UB_FVII11">
+               <msIdentifier>
+                  <settlement>Basel</settlement>
+                  <repository>UB</repository>
+                  <idno>F VII 11</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary><ab type="explicit_attribution" cert="0">none</ab></summary>
+                  <msItem xml:id="Basel_UB_FVII11_QsP">
+                     <locus from="1r" to="116r"/>
+                     <title ref="workID">QsP</title>
+                     <colophon n="final"><locus from="116r"/>Et sic est finis huius materie super
+                        VIII libros Phisicorum Aristotelis, in alma universitate study Lipziensis,
+                        anno Incarnationis dominice 1452, per me, Iohannem Heynlin de
+                        Lapide</colophon>
+                  </msItem>
+                  <msItem xml:id="Basel_UB_FVII11_QdC">
+                     <locus from="157r" to="195v"/>
+                     <title ref="workID">QdC</title>
+                     <colophon n="book I"><locus from="173r"/>In Lovanio, anno 1453</colophon>
+                     <colophon n="book II"><locus from="191v"/>Iohannes Heynlyn, pro tunc studens
+                        in Lovanio, 1453</colophon>
+                     <colophon n="final"><locus from="195v"/>Iohannes Heynlyn de Lapide, pro tunc
+                        studens in Lovanio</colophon>
+                  </msItem>
+                  <msItem xml:id="Basel_UB_FVII11_QdG">
+                     <locus from="197r" to="227r"/>
+                     <title ref="workID">QdG</title>
+                     <colophon n="final"><locus from="227r"/>Iohannes Heynlyn de Lapide, pro tunc
+                        studens in Lovanio</colophon>
+                  </msItem>
+                  <msItem xml:id="Basel_UB_FVII11_QsMete">
+                     <locus from="230r" to="259r"/>
+                     <title ref="workID">QsMete</title>
+                     <colophon n="final"><locus/>in vigilia Penthecostes, anno etc. 1454</colophon>
+                  </msItem>
+                  <msItem xml:id="Basel_UB_FVII11_QsSen">
+                     <locus from="336r" to="348r"/>
+                     <title ref="workID">QsSen</title>
+                  </msItem>
+                  <msItem xml:id="Basel_UB_FVII11_QdMem">
+                     <locus from="349r" to="351v"/>
+                     <title ref="workID">QdMem</title>
+                  </msItem>
+                  <msItem xml:id="Basel_UB_FVII11_QdSom">
+                     <locus from="352v" to="357r"/>
+                     <title ref="workID">QdSom</title>
+                  </msItem>
+                  <msItem xml:id="Basel_UB_FVII11_QdLon">
+                     <locus from="358v" to="359v"/>
+                     <title ref="workID">QdLon</title>
+                     <colophon n="final"><locus from="359v"/>Finitus est hoc opus in alme matris
+                        universitatis studio inclite urbis Parisiensis, anno dominice incarnationis
+                        1454, die quartadecima mensis Ianuarii, per me, Iohannem Heynlyn de Lapide,
+                        tunc studentem ibidem</colophon>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate from="1452" to="1454">1452–1454</origDate>
+                     <p>The texts contained in this manuscript were copied by <persName
+                           ref="#IohannesHeynlinDeLapide">Iohannes de Lapide</persName> during his
+                        studies at the Universities of Leipzig, Leuven and Paris, as is evident from
+                        the colophons: QsP
+                        final colophon, f. 116r; QdC book I, f. 173r; QdC book II, f. 191v; QdC
+                        final colophon, f. 195v; QdG final colophon, f. 227r; QsMete final
+                        colophon; QdLon final colophon, f. 359v. Iohannes brought the codex to Basel, where, after his death,
+                        it was bequeathed to the library of the Carthusians.</p>
+                     <note type="msRelationship">
+                        <p><ref target="#Basel_UB_FIII10" type="ms">Basel, UB, F III 10</ref>;
+                              <ref target="#Basel_UB_FIII11" type="ms">F III 11</ref>; <ref
+                              target="#Basel_UB_FVI16" type="ms">F VI 16</ref>; <ref
+                              target="#Basel_UB_FVI67" type="ms">F VI 67</ref>, which were also
+                           owned by Iohannes de Lapide.</p>
+                     </note>
+                  </origin>
+                  <provenance>
+                     <p>After the death of <persName ref="#IohannesHeynlinDeLapide">Iohannes de
+                           Lapide</persName>, the codex was bequeathed to the library of the
+                        Carthusians of Basel, as indicated on the first guard leaf: <q
+                           n="front-guard-leaf">Liber Cartusiensium in Basilea, proveniens a domino
+                           Iohanne de Lapide, confratre nostro, continens questiones philosophie
+                           naturalis</q>.</p>
+                  </provenance>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source cert="high" resp="#">
+                           <p>Ms directly examined</p>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+                  <listBibl>
+                     <bibl>Lohr, Aristotelica Helvetica, 132–134.</bibl>
+                     <bibl>Scarpatetti, Katalog I, 208, n. 578.</bibl>
+                     <bibl>Scarpatetti, Bücherliebe, 205–206.</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+
             <msDesc xml:id="Berlin_SBPK_Hdschr435">
                <msIdentifier>
                   <settlement>Berlin</settlement>
