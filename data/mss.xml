@@ -607,89 +607,143 @@
                </msIdentifier>
                <msContents>
                   <summary><ab type="explicit_attribution" cert="1">The commentaries are ascribed to
-                        Versoris in the table of contents.</ab></summary>
-                  <msItem xml:id="Basel_UB_FIII10_ToC">
-                     <locus from="1r"/>
-                     <note type="content"><q n="1r">Contenta in hoc libro: Questiones magistri
-                           Versoris super octo libros Phisicorum; Idem super duos De celo et mundo
-                           primos et super quartum; tertius vero desinit; Idem super libros De
-                           generatione et corruptione; idem super libros Metheororum; idem super
-                           libros De sensu et sensato; idem super librum De memoria et
-                           reminiscentia; idem super librum De somno et vigilia; idem super tres
-                           libros De anima; idem super librum De longitudine et brevitate vite; idem
-                           super omnes libros Methaphysice.</q></note>
-                     <!-- add refs to workIDs -->
-                  </msItem>
+                        Versoris in the medieval table of contents (the same as in ms. Basel, UB, F
+                        III 11) written at f. 1r<q n="1r">Contenta in hoc libro: Questiones magistri
+                           Versoris super octo libros Phisicorum; Idem, super duos De celo et mundo
+                           primos et super quartum; tertius vero desinit; idem, super libros De
+                           generatione et corruptione; idem, super libros Metheororum; idem, super
+                           libros De sensu et sensato; idem, super librum De memoria et
+                           reminiscentia; idem, super librum De somno et vigilia; idem, super tres
+                           libros De anima; idem, super librum De longitudine et brevitate vite;
+                           idem, super omnes libros Methaphysice</q>. Another ascription to Versoris
+                        can be found at the end of QdC book I (f. 131ra): after the words <q
+                           n="131ra">Et sic est finis primi De celi et mundi</q>, a hand different
+                        from that of the scribe added: <q n="131ra">Iohannis Versoris</q>.
+                     </ab></summary>
                   <msItem xml:id="Basel_UB_FIII10_QsP">
                      <locus from="3ra" to="114ra"/>
                      <title ref="workID">QsP</title>
-                     <colophon><locus from="78vb"/>Et sic est finis huius quinti Phisicorum in VIa
-                        Palmarum, <date when="1458">anno Domini M° CCCC° LVIII°</date></colophon>
-                     <colophon><locus from="90v"/>Et sic est finis sexti Phisicorum die secunda Maï
-                           <date when="1459">anno etc. LVIIII</date></colophon>
+                     <colophon n="book V"><locus from="78vb"/>Et sic est finis huius quinti
+                        Phisicorum, in sexta Palmarum, anno Domini M° CCCC° LVIII°</colophon>
+                     <colophon n="book VI"><locus from="90va"/>Et sic est finis sexti Phisicorum,
+                        die secunda Maÿ, anno etc. LVIIII</colophon>
                   </msItem>
-
                   <msItem xml:id="Basel_UB_FIII10_QdC">
                      <locus from="115r" to="152v"/>
                      <title ref="workID">QdC</title>
-                     <note type="attribution">Ascription to <persName role="attribution"
-                           ref="persID">Versoris</persName> can be found at the end of the first
-                        book of the <title ref="ID">Questions on De celo</title>, f. 131ra. The
-                        colophon by the hand of Iohannes Scolaris reads: <q>Et sic est finis primi
-                           De celi et mundi</q>. Another hand added: <q>Iohannis
-                        Versoris</q>.</note>
-                     <colophon><locus from="149rb"/>Et sic est finis secundi De celo et mundo, in
-                        vigilia phipi<unclear/> Iacob <date when="1458">anno Domini
-                        LXVIII°</date></colophon>
+                     <colophon n="book II"><locus from="149rb"/>Et sic est finis secundi De celo et
+                        mundo, in vigilia Philipi et Iacob, anno Domini LXVIII°</colophon>
                   </msItem>
-
                   <msItem xml:id="Basel_UB_FIII10_QdG">
                      <locus from="153r" to="164r"/>
                      <title ref="workID">QdG</title>
+                     <colophon n="book I"><locus from="171vb"/>Et sic est finis primi libri De
+                        generatione et corruptione, sedecima die mensis may, anno etc. LXVIIII°
+                           <metamark function="signum"/></colophon>
                   </msItem>
-
+                  <msItem xml:id="Basel_UB_FIII10_QsMete">
+                     <locus from="184v" to="213v"/>
+                     <title ref="workID">QsMete</title>
+                  </msItem>
+                  <msItem xml:id="Basel_UB_FIII10_QdA">
+                     <locus from="214r" to="259v"/>
+                     <title ref="workID">QdA</title>
+                     <colophon n="final"><locus from="259va"/>Et sic de questione, et per consequens
+                        de toto tertio libro De anima, finitus per me, Iohannes [sic] Scolaris
+                        de Schaffhusen, in festo sancti Thome, hora nona de nocte, in collegio
+                        magistri Arnoldi Föckin, anno M° CCCC° LVIII°</colophon>
+                  </msItem>
+                  <msItem xml:id="Basel_UB_FIII10_QdSen">
+                     <locus from="260r" to="273v"/>
+                     <title ref="workID">QdSen</title>
+                  </msItem>
+                  <msItem xml:id="Basel_UB_FIII10_QdMem">
+                     <locus from="274r" to="277v"/>
+                     <title ref="workID">QdMem</title>
+                  </msItem>
+                  <msItem xml:id="Basel_UB_FIII10_QdSom">
+                     <locus from="278r" to="283v"/>
+                     <title ref="workID">QdSom</title>
+                  </msItem>
+                  <msItem xml:id="Basel_UB_FIII10_QdLon">
+                     <locus from="284r" to="285v"/>
+                     <title ref="workID">QdLon</title>
+                  </msItem>
+                  <msItem xml:id="Basel_UB_FIII10_QsMeta">
+                     <locus from="286r" to="338r"/>
+                     <title ref="workID">QsMeta I–VI</title>
+                     <colophon n="book III"><locus from="309ra"/>Et sic est finis tertii libri
+                        Metaphysice, anno Domini M° CCCC° LVIII°, die tertia mensis
+                        octobris</colophon>
+                     <colophon n="book IV"><locus from="318va"/>Et hec de quarto Metaphysice, finito
+                        proxima die post festum sancti Lucÿe, anno etc. 1459 <metamark
+                           function="signum"/></colophon>
+                     <colophon n="final"><locus from="338rb"/>Et hec de questione, et per consequens
+                        de toto sexto libro Metaphsice dicta sufficiunt, anno Domini M° CCCC°
+                        LVIII°, per me, Iohannem Scolaris, quindecima die mensis aprilis. Et sic est
+                        finis</colophon>
+                  </msItem>
                </msContents>
                <physDesc>
                   <handDesc>
-                     <handNote scope="major" scribeRef="#IohannesScolaris"/>
+                     <handNote scope="major" scribeRef="#IohannesHeynlinDeLapide"/>
                   </handDesc>
                </physDesc>
                <history>
                   <origin>
-                     <origDate from="1458" to="1459">1458-1459</origDate>
-                     <p>The manuscript was copied by <persName ref="#IohannesScolaris">Iohannes
-                           Scholaris</persName> in <date from="1458" to="1459">1458-59</date>, just
-                        like <ref type="ms" target="#msBa4_x">ms. F III 11</ref>.</p>
-                     <p>In the first part of the volume, the same <watermark>watermark</watermark>
-                        that can also be found in <ref type="ms" target="#msBa4_x">ms. F III
-                           11</ref>, is quite similar (except for the lower part) to <ref
-                           type="bibl" target="id">Piccard, Lilie, III 1453 (Metz, 1477)</ref>; in
-                        the second part of the volume, a mermaid very similar to <ref
-                           target="biblID" type="bibl">Briquet 13858 (Troyes, 1458-1461)</ref>.</p>
+                     <origDate from="1458" to="1459">1458–1459</origDate>
+                     <origPlace ref="#place_paris">Paris</origPlace>
+                     <p>The manuscript was copied by <persName ref="#IohannesHeynlinDeLapide"
+                           >Iohannes de Lapide</persName>, who was studying in Paris at the school
+                        of Arnoldus Foyckin, as is evident in the colophons: QsP,
+                        book V, f. 78vb; QsP, book VI, f. 90va; QdC, book II, f. 149rb; QdG, book I,
+                        f. 171vb; QdA, final colophon, f. 259va; QsMeta, book III, f. 309ra; QsMeta,
+                        book IV, f. 318va; QsMeta, final colophon, f. 338rb.</p>
+                     <p>In the first part of the volume, a watermark similar to Piccard, Lilie, III
+                        1453 (Metz, 1477); in the second part, a mermaid watermark similar to
+                        Briquet 13858 (Troyes, 1458–1461).</p>
                      <note type="msRelationship">
                         <p><ref target="#Basel_UB_FII14" type="ms">Basel, UB, F II 14</ref>; <ref
                               target="#Basel_UB_FIII11" type="ms">F III 11</ref>; <ref
-                              target="Basel_UB_FIII12">F III 12</ref>; <ref target="Basel_UB_FVI16"
-                              >F VI 16</ref>; <ref target="Basel_UB_FVI67">F VI 67</ref>; <ref
-                              target="Basel_UB_FVII11">F VII 11</ref>, which were also owned by
-                              <persName ref="#IohannesHeynlinDeLapide">Iohannes de
-                           Lapide</persName>.</p>
-                        <p>
-                           <ref target="#Basel_UB_FIII11" type="ms">Basel, UB, F III 11</ref>; <ref
-                              target="#Basel_UB_FVI67" type="ms">F VI 67</ref>;<ref
-                              target="Basel_UB_FVII11">F VII 11</ref>, which were also copied by
-                              <persName ref="#IohannesHeynlinDeLapide">Iohannes de
-                           Lapide</persName>.</p>
+                              target="#Basel_UB_FIII12" type="ms">F III 12</ref>; <ref
+                              target="#Basel_UB_FVI16" type="ms">F VI 16</ref>; <ref
+                              target="#Basel_UB_FVI67" type="ms">F VI 67</ref>; <ref
+                              target="#Basel_UB_FVII11" type="ms">F VII 11</ref>, which were also
+                           owned by <persName ref="#IohannesHeynlinDeLapide">Iohannes de
+                              Lapide</persName>.</p>
+                        <p><ref target="#Basel_UB_FIII11" type="ms">Basel, UB, F III 11</ref>; <ref
+                              target="#Basel_UB_FVI67" type="ms">F VI 67</ref>; <ref
+                              target="#Basel_UB_FVII11" type="ms">F VII 11</ref>, which were also
+                           copied by <persName ref="#IohannesHeynlinDeLapide">Iohannes de
+                              Lapide</persName>.</p>
+                        <p>Basel, UB, A X 67; <ref target="#Basel_UB_FIII11" type="ms">F III
+                              11</ref>; <ref target="#Basel_UB_FIII12" type="ms">F III 12</ref>,
+                           which also belonged to the library of the Basel Dominican Convent.</p>
                      </note>
                   </origin>
-
-                  <provenance><p>Belonged to the <orgName ref="#BaselDominicanConvent">Basel
-                           Dominican Convent</orgName></p></provenance>
+                  <provenance>
+                     <p>Iohannes de Lapide brought the codex to Basel, where it
+                        came into the possession of the Dominican Convent.</p>
+                  </provenance>
                </history>
                <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source cert="high" resp="#">
+                           <p>Ms directly examined</p>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
                   <listBibl>
-                     <bibl>Datierte I, 180</bibl>
-                     <bibl>Lohr, AH, 58-59.</bibl>
+                     <bibl>Schmidt, "Die Bibliothek des ehemaligen Dominikanerkloster in Basel",
+                        Basler Zeitschrift für Geschichte und Altertumskunde 18 (1919), 160–254, p.
+                        238, n. 444.</bibl>
+                     <bibl>Lohr, Aristotelica Helvetica, 58–59.</bibl>
+                     <bibl>Kristeller, Iter V, p. 67a.</bibl>
+                     <bibl>Green-Pedersen, The Tradition of the Topics in the Middle Ages,
+                        400.</bibl>
+                     <bibl>Scarpatetti, Katalog I, 180. <note type="biblio">not mentioned in
+                           Scarpatetti, Bücherliebe</note></bibl>
                   </listBibl>
                </additional>
             </msDesc>
@@ -795,8 +849,8 @@
                      <locus from="157r" to="195v"/>
                      <title ref="workID">QdC</title>
                      <colophon n="book I"><locus from="173r"/>In Lovanio, anno 1453</colophon>
-                     <colophon n="book II"><locus from="191v"/>Iohannes Heynlyn, pro tunc studens
-                        in Lovanio, 1453</colophon>
+                     <colophon n="book II"><locus from="191v"/>Iohannes Heynlyn, pro tunc studens in
+                        Lovanio, 1453</colophon>
                      <colophon n="final"><locus from="195v"/>Iohannes Heynlyn de Lapide, pro tunc
                         studens in Lovanio</colophon>
                   </msItem>
@@ -838,14 +892,14 @@
                      <p>The texts contained in this manuscript were copied by <persName
                            ref="#IohannesHeynlinDeLapide">Iohannes de Lapide</persName> during his
                         studies at the Universities of Leipzig, Leuven and Paris, as is evident from
-                        the colophons: QsP
-                        final colophon, f. 116r; QdC book I, f. 173r; QdC book II, f. 191v; QdC
-                        final colophon, f. 195v; QdG final colophon, f. 227r; QsMete final
-                        colophon; QdLon final colophon, f. 359v. Iohannes brought the codex to Basel, where, after his death,
-                        it was bequeathed to the library of the Carthusians.</p>
+                        the colophons: QsP final colophon, f. 116r; QdC book I, f. 173r; QdC book
+                        II, f. 191v; QdC final colophon, f. 195v; QdG final colophon, f. 227r;
+                        QsMete final colophon; QdLon final colophon, f. 359v. Iohannes brought the
+                        codex to Basel, where, after his death, it was bequeathed to the library of
+                        the Carthusians.</p>
                      <note type="msRelationship">
-                        <p><ref target="#Basel_UB_FIII10" type="ms">Basel, UB, F III 10</ref>;
-                              <ref target="#Basel_UB_FIII11" type="ms">F III 11</ref>; <ref
+                        <p><ref target="#Basel_UB_FIII10" type="ms">Basel, UB, F III 10</ref>; <ref
+                              target="#Basel_UB_FIII11" type="ms">F III 11</ref>; <ref
                               target="#Basel_UB_FVI16" type="ms">F VI 16</ref>; <ref
                               target="#Basel_UB_FVI67" type="ms">F VI 67</ref>, which were also
                            owned by Iohannes de Lapide.</p>
@@ -2994,10 +3048,10 @@
                <msContents>
                   <summary>
                      <ab type="explicit_attribution" cert="0">none</ab>
-                     <ab type="general_remarks"><note type="content">Qdente is preceded by
-                           Antonius Andreae's QsMeta (ff. 4r–103r), followed by anonymous QsMeta
-                           (ff. 110r–185v) with marginal glosses, and then by Giles of Rome's
-                           Questions on De ente et essentia (ff. 221v–243v).</note></ab>
+                     <ab type="general_remarks"><note type="content">Qdente is preceded by Antonius
+                           Andreae's QsMeta (ff. 4r–103r), followed by anonymous QsMeta (ff.
+                           110r–185v) with marginal glosses, and then by Giles of Rome's Questions
+                           on De ente et essentia (ff. 221v–243v).</note></ab>
                   </summary>
                   <msItem xml:id="Kraków_BibliotekaJagiellońska_cod2524_QsMetaAntoniusAndreae">
                      <locus from="4r" to="103r"/>
@@ -3017,7 +3071,7 @@
                   </msItem>
                   <msItem xml:id="Kraków_BibliotekaJagiellońska_cod2524_Qdente">
                      <locus from="201r" to="221r"/>
-                     <title ref="workID">Qdente</title>                     
+                     <title ref="workID">Qdente</title>
                      <colophon><locus from="221r"/>Martinus de Tarnoviecz scripsit, clericus
                         Cracovie, infra caniculam</colophon>
                   </msItem>
@@ -3033,13 +3087,12 @@
                   <origin>
                      <origDate from="1479" to="1489">1479-1489</origDate>
                      <p>The texts in this manuscript were copied between 1479 and 1489, as indicated
-                        by the colophons: f. 103r; <q n="199r"
-                           >1480</q> (f. 199r); f. 243r.</p>
+                        by the colophons: f. 103r; <q n="199r">1480</q> (f. 199r); f. 243r.</p>
                      <origPlace>Cracow</origPlace>
                      <p>Versoris’s text was copied in Cracow by Martinus de Tarnowiecz, as stated in
-                        the colophon: f. 221r. Martinus later owned the volume,
-                        as attested by a note on f. 1r, written when he had already attained the
-                        title of master: <q n="1r">ego magister Martinus, 1501</q>.</p>
+                        the colophon: f. 221r. Martinus later owned the volume, as attested by a
+                        note on f. 1r, written when he had already attained the title of master: <q
+                           n="1r">ego magister Martinus, 1501</q>.</p>
                   </origin>
                </history>
                <additional>
@@ -4220,10 +4273,12 @@
                         sententia huius quarti Phisicorum, anno Domini M°CCCC°XL°8°, vigesima quarta
                         die mensis ianuarii <metamark function="signum"/></colophon>
                      <colophon n="book VI"><locus from="141va"/>Et in hoc finitur sententia septimi
-                        libri Phisicorum, octava die mensis martiis <metamark function="signum"/></colophon>
+                        libri Phisicorum, octava die mensis martiis <metamark function="signum"
+                        /></colophon>
                      <colophon n="final"><locus from="167r"/>Et in hoc finitur sententia huius
                         octavi Phisicorum, anno Domini M°CCCC°XL°VIII°, prima die mensis aprilis,
-                        Parisius, in vico Straminis. Delonda est bon enfant <metamark function="signum"/></colophon>
+                        Parisius, in vico Straminis. Delonda est bon enfant <metamark
+                           function="signum"/></colophon>
                      <note type="content">Summaries (recapitulationes) are added at the end of the
                         books. The summary of book VIII follows on ff. 167v–168v.</note>
                   </msItem>
@@ -4254,19 +4309,19 @@
                      <bibl>Beaulieux, Catalogue général des manuscrits des bibliothèques publiques
                         de France: Université de Paris et universités des départements, Paris 1918,
                         242. <note type="biblio">listed as anonymous</note></bibl>
-                     <bibl>Samaran/Marichal, Catalogue des manuscrits en écriture latine portant
-                        des indications de date, de lieu ou de copiste. Tome I: Musée Condé et
-                        Bibliothèques parisiennes, Paris, 1959 [1960], vol. 1, 377; vol. 2
-                        (plates), CIIa. <note type="biblio">partial reproduction of f. 14r</note></bibl>
+                     <bibl>Samaran/Marichal, Catalogue des manuscrits en écriture latine portant des
+                        indications de date, de lieu ou de copiste. Tome I: Musée Condé et
+                        Bibliothèques parisiennes, Paris, 1959 [1960], vol. 1, 377; vol. 2 (plates),
+                        CIIa. <note type="biblio">partial reproduction of f. 14r</note></bibl>
                      <bibl>Deuffic, "Miscellanées bretonnes", 175.</bibl>
                      <bibl>Sullivan, Parisian Licentiates II, 426–427.</bibl>
                      <bibl>Romanini, "Per la ricezione di Seneca nel Tre-Quattrocento: due nuovi
                         testimoni dell'Elucidatio tragediarum di Giovanni Segarelli", Italia
                         medioevale e umanistica 57 (2016), 91–134, at 117–119.</bibl>
-                     <bibl>Romanini, "Des fonds anciens récemment explorés: l'exemple des
-                        manuscrits de Petrus Delonda (XVe siècle)", in Bobis/Noguès, La
-                        bibliothèque de la Sorbonne. 250 ans d'histoire au cœur de l'université,
-                        Paris, 2021, 153–154.</bibl>
+                     <bibl>Romanini, "Des fonds anciens récemment explorés: l'exemple des manuscrits
+                        de Petrus Delonda (XVe siècle)", in Bobis/Noguès, La bibliothèque de la
+                        Sorbonne. 250 ans d'histoire au cœur de l'université, Paris, 2021,
+                        153–154.</bibl>
                   </listBibl>
                </additional>
             </msDesc>
