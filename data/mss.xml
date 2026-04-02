@@ -2380,30 +2380,7 @@
                   <msItem xml:id="Kraków_BibliotekaJagiellońska_cod2024_QdC">
                      <locus from="294v" to="339r"/>
                      <title ref="workID">QdC</title>
-                     <msItem xml:id="Kraków_BibliotekaJagiellońska_cod2024_QdC_q1" class="question"
-                        n="1">
-                        <locus from="333r"/>
-                        <title ref="workid">Circa tertium De celo et mundo queritur utrum ex parte
-                           gravitatis et levitatis possit concludi nullum corpus esse compositum ex
-                           indivisibilibus</title>
-                     </msItem>
-                     <msItem xml:id="Kraków_BibliotekaJagiellońska_cod2024_QdC_q2" class="question"
-                        n="2">
-                        <locus from="334r"/>
-                        <title ref="workid">Utrum omnium corporum sit generatio</title>
-                     </msItem>
-                     <msItem xml:id="Kraków_BibliotekaJagiellońska_cod2024_QdC_q3" class="question"
-                        n="3">
-                        <locus from="334v"/>
-                        <title ref="workid">Utrum ex parte gravitatis et levitatis numerus
-                           quaternarius sit elementorum</title>
-                     </msItem>
-                     <msItem xml:id="Kraków_BibliotekaJagiellońska_cod2024_QdC_q4" class="question"
-                        n="4">
-                        <locus from="335r"/>
-                        <title ref="wordid">Utrum elementa secundum se tota sint generabilia et
-                           corruptibilia</title>
-                     </msItem>
+                     <!-- Anonymous questions filling the absent Book III of Versoris's QdC. I do not add tjhe as @class=question-->
                      <note type="content">
                         <p>Versoris’s QdC I–II, IV are completed by some questions on Book III,
                            copied without codicological discontinuity between Book II and Book IV of
@@ -2434,7 +2411,7 @@
                      <locus from="340r" to="398r"/>
                      <title ref="workID">QsM</title>
                   </msItem>
-                  <msItem xml:id="Kraków_BibliotekaJagiellońska_cod2024_QsM_Ruczel">
+                  <msItem xml:id="Kraków_BibliotekaJagiellońska_cod2024_QsA_Ruczel">
                      <locus from="400r" to="439r"/>
                      <author>Andreas Ruczel de Costen (Kościan)</author>
                      <title ref="workid">QdA</title>
