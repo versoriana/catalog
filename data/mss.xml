@@ -4104,6 +4104,72 @@
             </msDesc>
 
 
+            <msDesc xml:id="Paris_BibliothèqueinteruniversitairedelaSorbonne_MS1033">
+               <msIdentifier>
+                  <settlement>Paris</settlement>
+                  <repository>Bibliothèque interuniversitaire de la Sorbonne</repository>
+                  <idno>MS 1033</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary><ab type="explicit_attribution" cert="0">none</ab></summary>
+                  <msItem xml:id="Paris_BibliothèqueinteruniversitairedelaSorbonne_MS1033_QsP">
+                     <locus from="1r" to="167r"/>
+                     <title ref="workID">QsP</title>
+                     <colophon n="book IV"><locus from="99ra"/>Et in hoc finitur in generali
+                        sententia huius quarti Phisicorum, anno Domini M°CCCC°XL°8°, vigesima quarta
+                        die mensis ianuarii <metamark function="signum"/></colophon>
+                     <colophon n="book VI"><locus from="141va"/>Et in hoc finitur sententia septimi
+                        libri Phisicorum, octava die mensis martiis <metamark function="signum"/></colophon>
+                     <colophon n="final"><locus from="167r"/>Et in hoc finitur sententia huius
+                        octavi Phisicorum, anno Domini M°CCCC°XL°VIII°, prima die mensis aprilis,
+                        Parisius, in vico Straminis. Delonda est bon enfant <metamark function="signum"/></colophon>
+                     <note type="content">Summaries (recapitulationes) are added at the end of the
+                        books. The summary of book VIII follows on ff. 167v–168v.</note>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate from="1448" to="1448">1448, as indicated in the colophons: QsP, book
+                        IV, f. 99ra; QsP, book VI, f. 141va; final colophon, f. 167r.</origDate>
+                     <origPlace ref="#place_paris">Paris</origPlace>
+                     <p>The manuscript was copied in Paris by Petrus Delonda, who apposed his
+                        signature and his signum on ff. 31rb, 70va, 99ra, 141vb, 167r.</p>
+                     <note type="msRelationship">
+                        <p><ref target="#Paris_BibliothèqueinteruniversitairedelaSorbonne_MS1236"
+                              type="ms">Paris, Bibliothèque interuniversitaire de la Sorbonne, MS
+                              1236</ref>, also copied by Petrus Delonda.</p>
+                     </note>
+                  </origin>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source cert="high" resp="#">
+                           <p>Ms directly examined</p>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+                  <listBibl>
+                     <bibl>Beaulieux, Catalogue général des manuscrits des bibliothèques publiques
+                        de France: Université de Paris et universités des départements, Paris 1918,
+                        242. <note type="biblio">listed as anonymous</note></bibl>
+                     <bibl>Samaran/Marichal, Catalogue des manuscrits en écriture latine portant
+                        des indications de date, de lieu ou de copiste. Tome I: Musée Condé et
+                        Bibliothèques parisiennes, Paris, 1959 [1960], vol. 1, 377; vol. 2
+                        (plates), CIIa. <note type="biblio">partial reproduction of f. 14r</note></bibl>
+                     <bibl>Deuffic, "Miscellanées bretonnes", 175.</bibl>
+                     <bibl>Sullivan, Parisian Licentiates II, 426–427.</bibl>
+                     <bibl>Romanini, "Per la ricezione di Seneca nel Tre-Quattrocento: due nuovi
+                        testimoni dell'Elucidatio tragediarum di Giovanni Segarelli", Italia
+                        medioevale e umanistica 57 (2016), 91–134, at 117–119.</bibl>
+                     <bibl>Romanini, "Des fonds anciens récemment explorés: l'exemple des
+                        manuscrits de Petrus Delonda (XVe siècle)", in Bobis/Noguès, La
+                        bibliothèque de la Sorbonne. 250 ans d'histoire au cœur de l'université,
+                        Paris, 2021, 153–154.</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+
             <msDesc xml:id="Paris_BnF_latin6455">
                <msIdentifier>
                   <settlement>Paris</settlement>
