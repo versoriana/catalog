@@ -470,6 +470,119 @@
                </additional>
             </msDesc>
 
+            <!-- Basel UB F I 13 -->
+            <msDesc xml:id="Basel_UB_FI13">
+               <msIdentifier>
+                  <settlement>Basel</settlement>
+                  <repository>Universitätsbibliothek</repository>
+                  <idno>F I 13</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     <ab type="explicit_attribution" cert="1">The commentaries are ascribed to
+                        Versoris in the colophon (f. 223vb). On this basis, Charles Lohr classified
+                        all the commentaries in this manuscript as de lectura Versoris. However,
+                        the texts do not all share the same relationship to Versoris's
+                        commentaries. A collation shows that the Questions on De anima (ff.
+                        63r–191v) bear only a loose resemblance to Versoris's text and cannot be
+                        identified with it, as is clear from a comparison of the respective lists
+                        of questions.</ab>
+                     <ab type="general_remarks">Lohr's inventory attributes to Versoris's
+                        commentary two questions on the fourth book of Aristotle's Meteorology:
+                        <q n="360vb">Utrum tantum quatuor sint qualitates prime, scilicet
+                           caliditas, frigiditas, humiditas et siccitas</q> (f. 360vb), and
+                        <q n="361r">Utrum putrefactio fiat a calido extrinseco et frigido
+                           intrinseco</q> (f. 361r, longis lineis), the latter of which is
+                        unfinished. In fact, these questions are unrelated to Versoris's
+                        commentary: they were copied by a hand different from that of the main
+                        scribe and follow a distinct structure based on the enunciation of
+                        notabilia, without arguments pro and contra.</ab>
+                  </summary>
+                  <msItem xml:id="Basel_UB_FI13_QsSen">
+                     <locus from="193ra" to="209va"/>
+                     <title ref="workID">QsSen</title>
+                  </msItem>
+                  <msItem xml:id="Basel_UB_FI13_QdMem">
+                     <locus from="210ra" to="214r"/>
+                     <title ref="workID">QdMem</title>
+                  </msItem>
+                  <msItem xml:id="Basel_UB_FI13_QdSom">
+                     <locus from="214v" to="221rb"/>
+                     <title ref="workID">QdSom</title>
+                  </msItem>
+                  <msItem xml:id="Basel_UB_FI13_QsLon">
+                     <locus from="221va" to="223vb"/>
+                     <title ref="workID">QsLon</title>
+                     <colophon n="final"><locus from="223vb"/>Et sic est finis totius philosophie
+                        naturalis edite ab Aristotele, philosopho mirabili, de lectura Versoris,
+                        finite anno Domini 1466, quinta feria ante festum nativitatis
+                        Marie</colophon>
+                  </msItem>
+                  <msItem xml:id="Basel_UB_FI13_QsP">
+                     <locus from="226r" to="245r"/>
+                     <title ref="workID">QsP, Book VIII</title>
+                  </msItem>
+                  <msItem xml:id="Basel_UB_FI13_QdC">
+                     <locus from="246r" to="292r"/>
+                     <title ref="workID">QdC</title>
+                  </msItem>
+                  <msItem xml:id="Basel_UB_FI13_QsMete">
+                     <locus from="326ra" to="360va"/>
+                     <title ref="workID">QsMete</title>
+                  </msItem>
+                  <msItem xml:id="Basel_UB_FI13_QdA_Anon">
+                     <locus from="63r" to="191v"/>
+                     <author>Anonymus</author>
+                     <title>Questions on De anima</title>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate from="1466" to="1466">1466, as stated in the colophon (f.
+                        223vb).</origDate>
+                     <origPlace>Basel</origPlace>
+                     <p>The place where this copy was produced is not specified in the colophons,
+                        but the watermarks point to a possible origin in Basel. At least three
+                        variants of oxheads appear throughout the volume: a type with a staff
+                        (particularly visible on f. 62), similar to <watermark>Piccard VII 276,
+                           attested in Neustadt and Schwerin i. M. in 1465</watermark>; a type
+                        without staff (particularly visible on f. 312), similar to <watermark>Piccard
+                           I 215, attested in Basel in the years 1460–1464</watermark>; and a
+                        second type without staff (particularly visible on f. 348), slightly
+                        resembling <watermark>Piccard I 220, attested in Constance and Schaffhausen
+                           in the years 1461–1464</watermark>. In the last leaves, probably added
+                        at the time when the codex was bound, a letter P is visible (particularly
+                        on f. 376), similar to <watermark>Piccard IX 998, used in Basel in
+                           1474</watermark>.</p>
+                     <note type="msRelationship">
+                        <p><ref target="#Basel_UB_FV9" type="ms">Basel, UB, F V 9</ref>, which
+                           also belonged to <persName ref="#IacobusLouber">Jacob
+                           Louber</persName>.</p>
+                     </note>
+                  </origin>
+                  <provenance>
+                     <p>A Basel origin is further supported by the fact that the manuscript belonged to <persName ref="#IacobusLouber">Jacob
+                           Louber</persName>, a member of the Basel Carthusian Order and prior of
+                        the convent in 1480, who donated it to the convent library. The front cover
+                        bears the inscription: <q n="front-cover">Liber Carthusiensium in Basilea
+                           Minori qui provenit a confratre Domino Jacobo Louber</q>.</p>
+                  </provenance>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source cert="high" resp="#">
+                           <p>Ms directly examined</p>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+                  <listBibl>
+                     <bibl>Scarpatetti, Katalog I, 172, n. 478.</bibl>
+                     <bibl>Lohr, Aristotelica Helvetica, 36-38.</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+
             <!-- Basel UB F II 14 - Ba3 -->
             <!-- BASATO SU? ORA NON C'È, MA CI SARÀ DICE AURORA, TUTTO OK
             <note type="msRelationship">Relations to other manuscripts: <ref target="#Basel_UB_F-III-10">Basel UB, F III 10</ref>, <ref target="#Basel_UB_F-III-11">F III 11</ref>.</note> -->
