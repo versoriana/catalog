@@ -649,9 +649,9 @@
                      <locus from="214r" to="259v"/>
                      <title ref="workID">QdA</title>
                      <colophon n="final"><locus from="259va"/>Et sic de questione, et per consequens
-                        de toto tertio libro De anima, finitus per me, Iohannes [sic] Scolaris
-                        de Schaffhusen, in festo sancti Thome, hora nona de nocte, in collegio
-                        magistri Arnoldi Föckin, anno M° CCCC° LVIII°</colophon>
+                        de toto tertio libro De anima, finitus per me, Iohannes [sic] Scolaris de
+                        Schaffhusen, in festo sancti Thome, hora nona de nocte, in collegio magistri
+                        Arnoldi Föckin, anno M° CCCC° LVIII°</colophon>
                   </msItem>
                   <msItem xml:id="Basel_UB_FIII10_QdSen">
                      <locus from="260r" to="273v"/>
@@ -695,10 +695,10 @@
                      <origPlace ref="#place_paris">Paris</origPlace>
                      <p>The manuscript was copied by <persName ref="#IohannesHeynlinDeLapide"
                            >Iohannes de Lapide</persName>, who was studying in Paris at the school
-                        of Arnoldus Foyckin, as is evident in the colophons: QsP,
-                        book V, f. 78vb; QsP, book VI, f. 90va; QdC, book II, f. 149rb; QdG, book I,
-                        f. 171vb; QdA, final colophon, f. 259va; QsMeta, book III, f. 309ra; QsMeta,
-                        book IV, f. 318va; QsMeta, final colophon, f. 338rb.</p>
+                        of Arnoldus Foyckin, as is evident in the colophons: QsP, book V, f. 78vb;
+                        QsP, book VI, f. 90va; QdC, book II, f. 149rb; QdG, book I, f. 171vb; QdA,
+                        final colophon, f. 259va; QsMeta, book III, f. 309ra; QsMeta, book IV, f.
+                        318va; QsMeta, final colophon, f. 338rb.</p>
                      <p>In the first part of the volume, a watermark similar to Piccard, Lilie, III
                         1453 (Metz, 1477); in the second part, a mermaid watermark similar to
                         Briquet 13858 (Troyes, 1458–1461).</p>
@@ -722,8 +722,8 @@
                      </note>
                   </origin>
                   <provenance>
-                     <p>Iohannes de Lapide brought the codex to Basel, where it
-                        came into the possession of the Dominican Convent.</p>
+                     <p>Iohannes de Lapide brought the codex to Basel, where it came into the
+                        possession of the Dominican Convent.</p>
                   </provenance>
                </history>
                <additional>
@@ -826,8 +826,8 @@
                      <p>The manuscript was copied in Paris by <persName
                            ref="#IohannesHeynlinDeLapide">Iohannes de Lapide</persName>, as
                         identifiable from his handwriting (identical to that of Basel, UB, F III
-                        10). At the end of QsSex, his signum appears, accompanied by the initials
-                        "I S" ("Iohannes Scolaris").</p>
+                        10). At the end of QsSex, his signum appears, accompanied by the initials "I
+                        S" ("Iohannes Scolaris").</p>
                      <p>The <watermark>watermark —a shield with three crowned fleur-de-lis and hook
                            (clearly visible on ff. 1, 91, and 99)— corresponds to Briquet 1739,
                            attested in Paris in 1458, and to Piccard III 1557, attested in Mechelen
@@ -871,7 +871,8 @@
                      <bibl>Schmidt, "Die Bibliothek", p. 238, n. 445.</bibl>
                      <bibl>Kristeller, Iter V, 67a.</bibl>
                      <bibl>Lohr, Aristotelica Helvetica, 60–61.</bibl>
-                     <bibl><note type="biblio">not mentioned in Scarpatetti, Bücherliebe.</note></bibl>
+                     <bibl><note type="biblio">not mentioned in Scarpatetti,
+                        Bücherliebe.</note></bibl>
                      <bibl><note type="biblio">not in Green-Pedersen.</note></bibl>
                   </listBibl>
                </additional>
@@ -1189,6 +1190,157 @@
                            >https://hal.archives-ouvertes.fr/hal-01522251</ref>, 2, n. 4-5.</bibl>
                      <bibl>K. Heydeck, Die mittelalterlichen Handschriften der
                         Universitätsbibliothek Rostock, Wiesbaden, 2001, 33.</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+
+            <!-- Berlin SB-PK lat. fol. 402 -->
+            <msDesc xml:id="Berlin_SBPK_latfol402">
+               <msIdentifier>
+                  <settlement>Berlin</settlement>
+                  <repository>Staatsbibliothek, Preußischer Kulturbesitz</repository>
+                  <idno>lat. fol. 402</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     <ab type="explicit_attribution" cert="0">none</ab>
+                     <ab type="general_remarks">These texts are framed by the first questions from
+                        the commentary on the Physics published under the name of Iohannes de
+                        Magistris: ff. 1r–3v, beginning with the words <q n="NA">Utrum corpus sub
+                           ratione naturalitatis sit subiectum adequatum philosophie naturalis</q>,
+                        transmit the first five questions (the fifth one, <q n="NA">Utrum totum
+                           dicatur tertiam entitatem raliter distinctam ab omnibus partibus simul
+                           sumptis</q>, ends interrupted with the words: <q n="NA">cum istorum
+                           debet</q>). Ff. 4r–7r transmit the entire list of questions of the
+                        commentary. Ff. 269r–274v contain the continuation of the text after f. 3v.
+                        This partial copy of De Magistris’s Questions has, until now, gone
+                        unnoticed.</ab>
+                  </summary>
+                  <msItem xml:id="Berlin_SBPK_latfol402_QsP">
+                     <locus from="8ra" to="112va"/>
+                     <title ref="workID">QsP</title>
+                  </msItem>
+                  <msItem xml:id="Berlin_SBPK_latfol402_QdG">
+                     <locus from="113ra" to="144ra"/>
+                     <title ref="workID">QdG</title>
+                  </msItem>
+                  <msItem xml:id="Berlin_SBPK_latfol402_QdA">
+                     <locus from="145ra" to="184ra"/>
+                     <title ref="workID">QdA</title>
+                  </msItem>
+                  <msItem xml:id="Berlin_SBPK_latfol402_QdC">
+                     <locus from="185ra" to="219rb"/>
+                     <title ref="workID">QdC</title>
+                  </msItem>
+                  <msItem xml:id="Berlin_SBPK_latfol402_QsMete">
+                     <locus from="219va" to="243r"/>
+                     <title ref="workID">QsMete</title>
+                  </msItem>
+                  <msItem xml:id="Berlin_SBPK_latfol402_QdSens">
+                     <locus from="244r" to="256v"/>
+                     <title ref="workID">QdSens</title>
+                  </msItem>
+                  <msItem xml:id="Berlin_SBPK_latfol402_QdMem">
+                     <locus from="257r" to="265v"/>
+                     <title ref="workID">QdMem</title>
+                  </msItem>
+                  <msItem xml:id="Berlin_SBPK_latfol402_QdSom">
+                     <locus from="266r" to="267v"/>
+                     <title ref="workID">QdSom</title>
+                  </msItem>
+                  <msItem xml:id="Berlin_SBPK_latfol402_QdLong">
+                     <locus from="268r" to="268v"/>
+                     <title ref="workID">QdLong</title>
+                  </msItem>
+                  <msItem xml:id="Berlin_SBPK_latfol402_Magistris">
+                     <locusGrp>
+                        <locus from="1r" to="3v"/>
+                        <locus from="4r" to="7r"/>
+                        <locus from="269r" to="274v"/>
+                     </locusGrp>
+                     <author>Iohannes de Magistris</author>
+                     <title ref="workID">Questions on the Physics</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <handNote scope="major" scribeRef="#IohannesDeLamballe"/>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate from="1447" to="1447">1447, as we read on f. 267vb: <q n="267vb">Nota
+                           quod ista philosophia fuit perfecta nona die iulii per manum Iohannis de
+                           ‹Lamballe› [erased], anno Domini millesimo CCCC quadragesimo VII, sub
+                           venerabili et discreto scolari ‹a›lumno? Iohannis Gualteri in artibus
+                           baccalario, in capella reverendi magistri Nicolay de Quoquerel</q>. The
+                        last name is barely legible. Another date indication can be found on f.
+                        99vb: <q n="99vb">Aprilis octava libro presente peracto / fons detur magna
+                           Christo de virgini nato</q>.</origDate>
+                     <origPlace ref="#place_paris">Paris</origPlace>
+                     <p>All the texts of the corpus ascribed to Versoris were copied at the Paris
+                        Arts Faculty by <persName ref="#IohannesDeLamballe">Iohannes de
+                           Lamballe</persName>, who signed and added his signum in several places —
+                        usually at the end of the works or their parts— as on ff. 34rb, 56ra, 93ra,
+                        99vb, 144ra, 147ra, and 202rb. His signature and signum appear multiple
+                        times on f. 219r and f. 243r, though they have been erased. The name of this
+                        student also appears in more extended formulas, such as <q n="112v">Explicit
+                           totus liber Phisicorum, scriptus per manum Iohannis de Lamballe,
+                           Turonensis diocesis. Et hic finis octo librorum Phisicorum per manum
+                           Iohannis de Lamballe scriptoris</q>, f. 112v; <q n="172ra">Finitus
+                           secundus liber De anima per me, I‹honnaes> de ‹Lamballe› [erased],
+                           signum</q>, f. 172ra.</p>
+                     <note type="msRelationship">
+                        <p><ref target="#Berlin_SBPK_Hdschr435" type="ms">Berlin, SB – PK, Hdschr.
+                              435</ref>, which also belonged to <persName
+                              ref="#GeorgiusErberDeAibling">Georgius Erber</persName>.</p>
+                        <p><ref target="#Stuttgart_WürttembergischeLandesbibliothek_HBX2" type="ms"
+                              >Stuttgart, Württembergische Landesbibliothek, HB X 2</ref>, which
+                           features a <watermark>watermark identical to one found in this manuscript
+                              (a unicorn, Piccard X 3 2010), widespread in the years
+                              1448–1449</watermark>.</p>
+                     </note>
+                  </origin>
+                  <provenance>
+                     <p>The manuscript subsequently belonged to <persName ref="#PetrusBriçonnet"
+                           >Petrus Briçonnet</persName>, a close colleague of De Lamballe —as they
+                        were both from the Diocese of Tours— who obtained the degree of Bachelor in
+                        1448 and the Master of Arts degree the following year. Briçonnet sold the
+                        codex to the nominalist master <persName ref="#MartinusMagister">Martinus
+                           Magistri</persName>, as attested by two notes (the first of which has
+                        been crossed out): <q n="28vb">Hunc librum emit Martinus Magistri a
+                           venerabili viro, magistro Petro Briçonnet, pretio XXXIII solidorum
+                           parisiensium teste suo signo manuali, hoc anno Domini 1453 <note
+                              type="editorial">This reading is highly conjectural, as the number in
+                              the manuscript appears to be: M3540. Since we are in the 1400s, I
+                              attempted to make sense of this date by reading the numbers in reverse
+                              and ignoring the 0. The resulting date, 1453, would align with the
+                              later acquisition of the codex by Erber in the 1460s.</note>,
+                           quindecima novembris</q>, f. 28vb; <q n="243vb">Hunc librum Physicorum
+                           emit ‹Martin›us Magistri [the name has been erased and is almost
+                           illegible] a magistro Petro Briçonnet pretio XXXIII solidorum
+                           parisiensium teste suo signo manuali, hic ad rei ampliorem
+                           certificationem</q>, f. 243vb; On f. 184rb, we find the name of the new
+                        owner: <q n="184rb">Martinus magister</q>, f. 184rb.</p>
+                     <p>It seems that the manuscript later belonged to <persName
+                           ref="#GeorgiusErberDeAibling">Georgius Erber</persName>, as his signature
+                        and signum ("Ge erber") appear on f. 56ra. Moreover, on f. 7v, we find a
+                        copy of the official document dated 4 May 1463, which attests to the
+                        promotion of Georgius Erber from Aybling to the degree of Master of
+                        Arts.</p>
+                  </provenance>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source cert="high" resp="#">
+                           <p>Ms directly examined</p>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+                  <listBibl>
+                     <bibl><note type="biblio">The manuscript has never been
+                        described.</note></bibl>
                   </listBibl>
                </additional>
             </msDesc>
