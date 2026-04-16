@@ -887,25 +887,24 @@
                <msContents>
                   <summary>
                      <ab type="explicit_attribution" cert="1">The commentary is attributed to
-                        Versoris on a fifteenth-century parchment slip affixed to the front cover
-                        of the volume: <q n="front-cover">Dicta magistri Versoris super tredecim
+                        Versoris on a fifteenth-century parchment slip affixed to the front cover of
+                        the volume: <q n="front-cover">Dicta magistri Versoris super tredecim
                            tractatus Petri Hispani cum textu</q>. However, Charles Lohr attributes
                         the commentary to Guillelmus de Curis, likely on the basis of its
-                        correspondence with manuscript A X 58, whose Book VIII is attributed to
-                        this master by the copyist. José Meirinhos, probably following Lohr,
-                        likewise attributes the commentary to Guillelmus de Curis. Interestingly,
-                        Gustav Benz, author of the manuscript description held at the Basel
-                        University Library, attributes the text to Versoris; yet a later reader
-                        (likely influenced by Lohr's description, referenced in the handwritten
-                        catalogue) corrected the author's name, adding above the line: "Guillelmus
-                        de Curis". Through collation, I was able to confirm the attribution to
-                        Versoris.</ab>
+                        correspondence with manuscript A X 58, whose Book VIII is attributed to this
+                        master by the copyist. José Meirinhos, probably following Lohr, likewise
+                        attributes the commentary to Guillelmus de Curis. Interestingly, Gustav
+                        Benz, author of the manuscript description held at the Basel University
+                        Library, attributes the text to Versoris; yet a later reader (likely
+                        influenced by Lohr's description, referenced in the handwritten catalogue)
+                        corrected the author's name, adding above the line: "Guillelmus de Curis".
+                        Through collation, I was able to confirm the attribution to Versoris.</ab>
                   </summary>
                   <msItem xml:id="Basel_UB_FIII12_CsPH">
                      <locus from="3r" to="151v"/>
                      <title ref="workID">CsPH</title>
-                     <colophon n="final"><locus from="151v"/>Expliciunt summule reverendi magistri
-                        Petri Hispani, anno 1457</colophon>
+                     <colophon><locus from="151v"/>Expliciunt summule reverendi magistri Petri
+                        Hispani, anno 1457</colophon>
                   </msItem>
                </msContents>
                <history>
@@ -923,7 +922,7 @@
                            shield with three fleur-de-lis crowned with flowers (particularly visible
                            on ff. 2 and 91), very similar to Briquet 1680, attested in Paris in
                            1451, with similar variants attested there in the years
-                        1453–1482</watermark>.</p>
+                           1453–1482</watermark>.</p>
                      <note type="msRelationship">
                         <p><ref target="#Basel_UB_FII14" type="ms">Basel, UB, F II 14</ref>; <ref
                               target="#Basel_UB_FIII10" type="ms">F III 10</ref>; <ref
@@ -933,8 +932,8 @@
                               target="#Basel_UB_FVII11" type="ms">F VII 11</ref>, which were also
                            owned by <persName ref="#IohannesHeynlinDeLapide">Iohannes de
                               Lapide</persName>.</p>
-                        <p><ref target="#Basel_UB_AX67" type="ms">Basel, UB, A X 67</ref>, which
-                           was also owned by Caspar Wittolf.</p>
+                        <p><ref target="#Basel_UB_AX67" type="ms">Basel, UB, A X 67</ref>, which was
+                           also owned by Caspar Wittolf.</p>
                         <p><ref target="#Basel_UB_AX67" type="ms">Basel, UB, A X 67</ref>; <ref
                               target="#Basel_UB_FIII10" type="ms">F III 10</ref>; <ref
                               target="#Basel_UB_FIII11" type="ms">F III 11</ref>, which also
