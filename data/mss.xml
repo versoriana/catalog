@@ -1058,6 +1058,81 @@
                </additional>
             </msDesc>
 
+            <!-- Basel UB F VI 4 -->
+            <msDesc xml:id="Basel_UB_FVI4">
+               <msIdentifier>
+                  <settlement>Basel</settlement>
+                  <repository>UB</repository>
+                  <idno>F VI 4</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     <ab type="explicit_attribution" cert="0">none</ab>
+                  </summary>
+                  <msItem xml:id="Basel_UB_FVI4_QsPor">
+                     <locus from="1ra" to="27va"/>
+                     <title ref="workID">QsPor</title>
+                  </msItem>
+                  <msItem xml:id="Basel_UB_FVI4_QsPred">
+                     <locus from="28ra" to="54vb"/>
+                     <title ref="workID">QsPred</title>
+                  </msItem>
+                  <msItem xml:id="Basel_UB_FVI4_QsSex">
+                     <locus from="55rb" to="64rb"/>
+                     <title ref="workID">QsSex</title>
+                  </msItem>
+                  <msItem xml:id="Basel_UB_FVI4_QsDiv">
+                     <locus from="64rb" to="69rb"/>
+                     <title ref="workID">QsDiv</title>
+                  </msItem>
+                  <msItem xml:id="Basel_UB_FVI4_QsInt">
+                     <locus from="69vb" to="91va"/>
+                     <title ref="workID">QsInt</title>
+                  </msItem>
+                  <msItem xml:id="Basel_UB_FVI4_QsPos">
+                     <locus from="92r" to="113r"/>
+                     <title ref="workID">QsPos</title>
+                     <note type="content">The last 14 questions of the first book are missing.</note>
+                  </msItem>
+                  <msItem xml:id="Basel_UB_FVI4_Qdente">
+                     <locus from="114r" to="125r"/>
+                     <title ref="workID">Qdente</title>
+                  </msItem>
+                  <msItem xml:id="Basel_UB_FVI4_QsDiv_AliaManu">
+                     <locus from="125v" to="130v"/>
+                     <title ref="workID">QsDiv</title>
+                     <note type="paleo">QsDiv again, alia manu.</note>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate from="1476" to="1476">The watermark, depicting a cluster of
+                        grapes, corresponds to Piccard Frucht I 1171, used in Basel in
+                        1476.</origDate>
+                     <origPlace>Basel</origPlace>
+                     <p>The manuscript itself contains no explicit indication of its provenance, but
+                        the watermark was used in Basel. This Basel origin is further supported by
+                        the manuscript’s belonging to the Basel Dominican Convent.</p>
+                  </origin>
+                  <provenance>
+                     <p>The manuscript belonged to the Dominican Convent of Basel.</p>
+                  </provenance>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source cert="high" resp="#">
+                           <p>Ms directly examined</p>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+                  <listBibl>
+                     <bibl>Schmidt, "Die Bibliothek", p. 241, n. 476.</bibl>
+                     <bibl>Lohr, Aristotelica Helvetica, 94-95.</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+
             <!-- Basel UB F VI 67 -->
             <msDesc xml:id="Basel_UB_FVI67">
                <msIdentifier>
