@@ -757,74 +757,122 @@
                   <idno>F III 11</idno>
                </msIdentifier>
                <msContents>
-                  <summary><ab type="explicit_attribution" cert="1">The texts are ascribed to
-                        Versoris in the <ref target="#Basel_UB_F-III-11_ToC">table of contents</ref>
-                        written by a medieval hand at the beginning of the volume</ab></summary>
-                  <msItem xml:id="Basel_UB_FIII11_ToC">
-                     <locus>Beginning of the volume</locus>
-                     <incipit>Questiones magistri Versoris super Veterem Artem; Idem, super librum
-                        Sex principiorum Gilberti Porretani; Idem super libros Prioru et
-                        Posteriorum; Idem super quattuor libros Topicorum primos; Idem super libros
-                        Elencorum; Idem super librum divisionum Boetii; Idem super librum beati
-                        Thome doctoris eximii De esse et essentia.</incipit>
-                     <!-- add link to workIDs -->
-                  </msItem>
-
-                  <msItem xml:id="Basel_UB_FIII11_Predicab">
+                  <summary>
+                     <ab type="explicit_attribution" cert="1">The texts are ascribed to Versoris in
+                        the table of contents written by a medieval hand (the same as in ms. Basel,
+                        UB, F III 10) at the beginning of the volume: <q n="NA">Questiones magistri
+                           Versoris super Veterem Artem; idem, super librum Sex principiorum
+                           Gilberti Porretani; idem, super libros Priorum et Posteriorum; idem,
+                           super quattuor libros Topicorum primos; idem, super libros Elencorum;
+                           idem, super librum divisionum Boetii; idem, super librum beati Thome
+                           doctoris eximii De esse et essentia</q>.</ab>
+                     <ab type="general_remarks">These commentaries are followed by a set of
+                        questions on Thomas's De ente et essentia that do not correspond to
+                        Versoris's work (ff. 234r–255v).</ab>
+                  </summary>
+                  <msItem xml:id="Basel_UB_FIII11_QsPor">
                      <locus from="2r" to="32r"/>
-                     <title ref="workID">Predicabilium</title>
+                     <title ref="workID">QsPor</title>
                   </msItem>
-                  <msItem xml:id="Basel_UB_FIII11_Pred">
+                  <msItem xml:id="Basel_UB_FIII11_QsPre">
                      <locus from="32v" to="62v"/>
-                     <title ref="workID">Pred.</title>
+                     <title ref="workID">QsPre</title>
                   </msItem>
-                  <msItem xml:id="Basel_UB_FIII11_VIPrin">
+                  <msItem xml:id="Basel_UB_FIII11_QsSex">
                      <locus from="63r" to="73v"/>
-                     <title ref="workID">VI Prin.</title>
+                     <title ref="workID">QsSex</title>
+                     <note type="paleo">At the end of QsSex, the scribe's signum appears,
+                        accompanied by the initials "I S" ("Iohannes Scolaris").</note>
                   </msItem>
-                  <msItem xml:id="Basel_UB_FIII11_Perih">
+                  <msItem xml:id="Basel_UB_FIII11_QsInt">
                      <locus from="74r" to="98v"/>
-                     <title ref="workID">Perih.</title>
+                     <title ref="workID">QsInt</title>
                   </msItem>
-                  <msItem xml:id="Basel_UB_FIII11_Priorum">
+                  <msItem xml:id="Basel_UB_FIII11_QsPri">
                      <locus from="99r" to="132v"/>
-                     <title ref="workID">Priorum</title>
+                     <title ref="workID">QsPri</title>
                   </msItem>
-                  <!-- etc. -->
+                  <msItem xml:id="Basel_UB_FIII11_QsTop">
+                     <locus from="133r" to="161v"/>
+                     <title ref="workID">QsTop I-IV</title>
+                  </msItem>
+                  <msItem xml:id="Basel_UB_FIII11_QsPos">
+                     <locus from="162r" to="201r"/>
+                     <title ref="workID">QsPos</title>
+                  </msItem>
+                  <msItem xml:id="Basel_UB_FIII11_QsSE">
+                     <locus from="201v" to="227r"/>
+                     <title ref="workID">QsSE</title>
+                  </msItem>
+                  <msItem xml:id="Basel_UB_FIII11_QdDiv">
+                     <locus from="227v" to="233v"/>
+                     <title ref="workID">QdDiv</title>
+                  </msItem>
+                  <msItem xml:id="Basel_UB_FIII11_Qdente_Anon">
+                     <locus from="234r" to="255v"/>
+                     <author>Anonymus</author>
+                     <title ref="x">Questions on De ente et essentia</title>
+                  </msItem>
                </msContents>
+               <physDesc>
+                  <handDesc>
+                     <handNote scope="major" scribeRef="#IohannesHeynlinDeLapide"/>
+                  </handDesc>
+               </physDesc>
                <history>
                   <origin>
-                     <origDate from="1455" to="1465">ca. 1460</origDate>
-                     <p>In the colophon of <ref type="msItem" target="#Basel_UB_F-III-11_VI-Prin">De
-                           sex principiis</ref> we read the initials of <persName ref="persID"
-                           >Iohannes scolaris</persName> (I S), who copied in <date when="1460"
-                           >1460</date> another codex containing Versoris's works, <ref
-                           target="#Basel_UB_F-III-10" type="ms">ms. F III 10</ref>.</p>
-                     <p>The <watermark>watermark is quite similar (except for the lower
-                           part)</watermark> to <ref target="id" type="bibl">Piccard, Lilie, III
-                           1453 (Metz, 1477)</ref></p>
+                     <origDate from="1455" to="1459">ca. 1455–1459</origDate>
+                     <origPlace ref="#place_paris">Paris</origPlace>
+                     <p>The manuscript was copied in Paris by <persName
+                           ref="#IohannesHeynlinDeLapide">Iohannes de Lapide</persName>, as
+                        identifiable from his handwriting (identical to that of Basel, UB, F III
+                        10). At the end of QsSex, his signum appears, accompanied by the initials
+                        "I S" ("Iohannes Scolaris").</p>
+                     <p>The <watermark>watermark —a shield with three crowned fleur-de-lis and hook
+                           (clearly visible on ff. 1, 91, and 99)— corresponds to Briquet 1739,
+                           attested in Paris in 1458, and to Piccard III 1557, attested in Mechelen
+                           between 1455 and 1459</watermark>. This dating and localization align
+                        well with what is known of Iohannes de Lapide's activity: manuscript Basel,
+                        UB, F III 10 shows that he was copying Versoris's commentaries in Paris
+                        between 1458 and 1459.</p>
                      <note type="msRelationship">
                         <p><ref target="#Basel_UB_FII14" type="ms">Basel, UB, F II 14</ref>; <ref
                               target="#Basel_UB_FIII10" type="ms">F III 10</ref>; <ref
-                              target="Basel_UB_FIII12">F III 12</ref>; <ref target="Basel_UB_FVI16"
-                              >F VI 16</ref>; <ref target="Basel_UB_FVI67">F VI 67</ref>; <ref
-                              target="Basel_UB_FVII11">F VII 11</ref>, which were also owned by
-                              <persName ref="#IohannesHeynlinDeLapide">Iohannes de
-                           Lapide</persName>.</p>
-                        <p>
-                           <ref target="#Basel_UB_FIII10" type="ms">Basel, UB, F III 10</ref>; <ref
-                              target="#Basel_UB_FVI67" type="ms">F VI 67</ref>;<ref
-                              target="Basel_UB_FVII11">F VII 11</ref>, which were also copied by
-                              <persName ref="#IohannesHeynlinDeLapide">Iohannes de
-                           Lapide</persName>.</p>
+                              target="#Basel_UB_FIII12" type="ms">F III 12</ref>; <ref
+                              target="#Basel_UB_FVI16" type="ms">F VI 16</ref>; <ref
+                              target="#Basel_UB_FVI67" type="ms">F VI 67</ref>; <ref
+                              target="#Basel_UB_FVII11" type="ms">F VII 11</ref>, which were also
+                           owned by <persName ref="#IohannesHeynlinDeLapide">Iohannes de
+                              Lapide</persName>.</p>
+                        <p><ref target="#Basel_UB_FIII10" type="ms">Basel, UB, F III 10</ref>; <ref
+                              target="#Basel_UB_FVI67" type="ms">F VI 67</ref>; <ref
+                              target="#Basel_UB_FVII11" type="ms">F VII 11</ref>, which were also
+                           copied by <persName ref="#IohannesHeynlinDeLapide">Iohannes de
+                              Lapide</persName>.</p>
+                        <p><ref target="#Basel_UB_AX67" type="ms">Basel, UB, A X 67</ref>; <ref
+                              target="#Basel_UB_FIII10" type="ms">F III 10</ref>; <ref
+                              target="#Basel_UB_FIII12" type="ms">F III 12</ref>, which also
+                           belonged to the library of the Basel Dominican Convent.</p>
                      </note>
                   </origin>
-                  <provenance><p>Belonged to the <orgName ref="#BaselDominicanConvent">Basel
-                           Dominican Convent</orgName></p></provenance>
+                  <provenance>
+                     <p>The manuscript later belonged to the Dominican Convent of Basel.</p>
+                  </provenance>
                </history>
                <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source cert="high" resp="#">
+                           <p>Ms directly examined</p>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
                   <listBibl>
-                     <bibl>Lohr, AH, 60-61.</bibl>
+                     <bibl>Schmidt, "Die Bibliothek", p. 238, n. 445.</bibl>
+                     <bibl>Kristeller, Iter V, 67a.</bibl>
+                     <bibl>Lohr, Aristotelica Helvetica, 60–61.</bibl>
+                     <bibl><note type="biblio">not mentioned in Scarpatetti, Bücherliebe.</note></bibl>
+                     <bibl><note type="biblio">not in Green-Pedersen.</note></bibl>
                   </listBibl>
                </additional>
             </msDesc>
