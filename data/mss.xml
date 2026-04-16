@@ -877,6 +877,101 @@
                </additional>
             </msDesc>
 
+            <!-- Basel UB F VI 67 -->
+            <msDesc xml:id="Basel_UB_FVI67">
+               <msIdentifier>
+                  <settlement>Basel</settlement>
+                  <repository>UB</repository>
+                  <idno>F VI 67</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     <ab type="explicit_attribution" cert="0">none</ab>
+                     <ab type="general_remarks">The Qdente is transmitted alongside Thomas Aquinas's
+                        De ente et essentia (ff. 50r–67r), as well as other commentaries on it, for
+                        instance, those of Armandus de Belloviso (ff. 71r–96v) and Giles of Rome
+                        (ff. 130r–161v).</ab>
+                  </summary>
+                  <msItem xml:id="Basel_UB_FVI67_Qdente">
+                     <locus from="196r" to="216r"/>
+                     <title ref="workID">Qdente</title>
+                  </msItem>
+                  <msItem xml:id="Basel_UB_FVI67_ThomasAquinas">
+                     <locus from="50r" to="67r"/>
+                     <author>Thomas Aquinas</author>
+                     <title ref="xxx">De ente et essentia</title>
+                     <colophon n="final"><locus from="67r"/>Finitus tractatus beati Thome de Aquino
+                        de esse et essentia in alme univeritate Lypcziensis studio, in die beati
+                        Francisci, anno Domini 1451</colophon>
+                  </msItem>
+                  <msItem xml:id="Basel_UB_FVI67_Armandus">
+                     <locus from="71r" to="96v"/>
+                     <author>Armandus de Belloviso</author>
+                     <title ref="xxx">Commentary on De ente et essentia</title>
+                     <colophon n="final"><locus from="95r"/>Et sic est finis huius materie super
+                        tractatum de esse et essentia sancti Thome de Aquino ordinis predicatorum
+                        […] per me, Iohannem Heynlin de Lapide</colophon>
+                  </msItem>
+                  <msItem xml:id="Basel_UB_FVI67_GilesRome">
+                     <locus from="130r" to="161v"/>
+                     <author>Giles of Rome</author>
+                     <title ref="xxx">Commentary on De ente et essentia</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <handNote scope="major" scribeRef="#IohannesHeynlinDeLapide"/>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate from="1452" to="1452">1452</origDate>
+                     <origPlace>Leipzig</origPlace>
+                     <p>As indicated by the colophons, the texts were copied by <persName
+                           ref="#IohannesHeynlinDeLapide">Johannes de Lapide</persName> during his
+                        studies at Leipzig University: <q n="49v">Et sic est finis huius materie
+                           super libros Posteriorum Aristotelis […], per me, Iohannem Heynlin de
+                           Lapide, in alma universitate study Lypczensis, anno 1452</q>; Thomas
+                        Aquinas item, colophon f. 67r; Armandus de Belloviso item, colophon f.
+                        95r.</p>
+                     <note type="msRelationship">
+                        <p><ref target="#Basel_UB_FII14" type="ms">Basel, UB, F II 14</ref>; <ref
+                              target="#Basel_UB_FIII10" type="ms">F III 10</ref>; <ref
+                              target="#Basel_UB_FIII11" type="ms">F III 11</ref>; <ref
+                              target="#Basel_UB_FIII12" type="ms">F III 12</ref>; <ref
+                              target="#Basel_UB_FVI16" type="ms">F VI 16</ref>; <ref
+                              target="#Basel_UB_FVII11" type="ms">F VII 11</ref>, which were also
+                           owned by <persName ref="#IohannesHeynlinDeLapide">Iohannes de
+                              Lapide</persName>.</p>
+                        <p><ref target="#Basel_UB_FIII10" type="ms">Basel, UB, F III 10</ref>; <ref
+                              target="#Basel_UB_FIII11" type="ms">F III 11</ref>; <ref
+                              target="#Basel_UB_FVI16" type="ms">F VI 16</ref>, which were also
+                           copied by <persName ref="#IohannesHeynlinDeLapide">Iohannes de
+                              Lapide</persName>.</p>
+                     </note>
+                  </origin>
+                  <provenance>
+                     <p>Following Lapide's death, the codex entered the library of the Carthusians,
+                        as indicated on f. 1r: <q n="1r">Liber Cartusiensium in Basilea proveniens a
+                           confratre nostro Johanne de Lapide</q>.</p>
+                  </provenance>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source cert="high" resp="#">
+                           <p>Ms directly examined</p>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+                  <listBibl>
+                     <bibl>Scarpatetti, Katalog I, 204–205, nr. 573.</bibl>
+                     <bibl>Lohr, Aristotelica Helvetica, 118–120.</bibl>
+                     <bibl>Scarpatetti, Bücherliebe, 202–204.</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+
             <msDesc xml:id="Basel_UB_FVII11">
                <msIdentifier>
                   <settlement>Basel</settlement>
