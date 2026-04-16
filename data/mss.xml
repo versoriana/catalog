@@ -264,8 +264,7 @@
                   <settlement>Angers</settlement>
                   <repository>Médiathèque Toussaint (Bibliothèque municipale)</repository>
                   <idno>437</idno>
-                  <idno type="URI"
-                     >https://commulysse.angers.fr/ark:/54380/a011504254863M5NptM/762720b709</idno>
+                  <idno type="URI">https://commulysse.angers.fr/ark:/54380/70fqz53kh89s</idno>
                </msIdentifier>
                <msContents>
                   <summary><ab type="explicit_attribution" cert="0">No</ab></summary>
@@ -878,6 +877,92 @@
                </additional>
             </msDesc>
 
+            <!-- Basel UB F V 9 -->
+            <msDesc xml:id="Basel_UB_FV9">
+               <msIdentifier>
+                  <settlement>Basel</settlement>
+                  <repository>UB</repository>
+                  <idno>F V 9</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     <ab type="explicit_attribution" cert="1">The copy is anonymous; however, the
+                        Basel manuscript catalogue, Pius Künzle and Charles Lohr attribute it to
+                        Guillelmus de Curis, based on the correspondence of the colophon with that
+                        of manuscript A X 58, whose Book VIII is ascribed to this master by the
+                        copyist. José Meirinhos, likely following Lohr, also attributes the
+                        commentary to Guillelmus de Curis. Thus, the attribution in manuscript A X
+                        58 appears to be the basis for attributing both this manuscript and
+                        manuscript F III 12 to Curis, rather than to Versoris, as would be
+                        correct.</ab>
+                     <ab type="general_remarks">This text is preceded by Nicolas de Orbelli's
+                        commentaries on the Physics and on the Metaphysics (ff. 1r–82r) and by some
+                        anonymous question-commentaries on the Ars vetus.</ab>
+                  </summary>
+                  <msItem xml:id="Basel_UB_FV9_Orbelli">
+                     <locus from="1r" to="82r"/>
+                     <author>Nicolas de Orbelli</author>
+                     <title ref="XXX">Commentaries on the Physics and on the Metaphysics</title>
+                  </msItem>
+                  <msItem xml:id="Basel_UB_FV9_CsPH">
+                     <locus from="140r" to="259v"/>
+                     <title ref="workID">CsPH</title>
+                  </msItem>
+
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate from="1465" to="1474">ca. 1469. The watermarks indicate a date in the
+                        third quarter of the fifteenth century. The first variant of the letter P
+                        (most clearly visible on f. 139) corresponds to Piccard IX 1041, attested in
+                        Basel in 1465–1466. The second variant (visible on f. 233) corresponds to
+                        Piccard IX 1067, used in Basel in 1469. The third variant (visible on f.
+                        296) corresponds to Piccard IX 998, attested in Basel in 1474. Versoris’s
+                        commentary was therefore likely copied around 1469.</origDate>
+                     <origPlace>Basel</origPlace>
+                     <note type="msRelationship">
+                        <p><ref target="#Basel_UB_FI13" type="ms">Basel, UB, F I 13</ref>, which
+                           also belonged to <persName ref="#IacobusLouber">Jacob
+                           Louber</persName>.</p>
+                     </note>
+                  </origin>
+                  <provenance>
+                     <p>The manuscript itself contains no explicit indication of its provenance, but
+                        the watermarks—three slightly differing variants of the letter P —were
+                        widely used in Basel. This Basel origin is further supported by the
+                        manuscript’s documented association with <persName ref="#IacobusLouber"
+                           >Jacob Louber</persName>, a member of the Basel Carthusian community and
+                        prior of the convent in 1480, who donated the volume to the convent library.
+                        The front cover bears the inscription: <q n="front-cover">liber
+                           Carthusiensium Basiliensium proveniens a confratre Domino Jacobo
+                           Louber</q>.</p>
+                  </provenance>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source cert="high" resp="#">
+                           <p>Ms directly examined</p>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+                  <listBibl>
+                     <bibl>P. Künzle, "Unbekannte Scholastiker-Handschriften der
+                        Universitätsbibliothek Basel", in T. W. Köhler (ed.), Sapientiae procerum
+                        amore: Mélanges médiévistes offerts à Dom Jean-Pierre Müller O.S.B. à
+                        l'occasion de son 70ème anniversaire (24 février 1974), Roma, 1974, p.
+                        467-494, at p. 481-483.<note type="biblio">(ascribed to Guillelmus de
+                           Curis)</note></bibl>
+                     <bibl>Lohr, Aristotelica Helvetica, p. 84-85.<note type="biblio">(ascribed to
+                           Guillelmus de Curis)</note></bibl>
+                     <bibl>Meirinhos, p. 31-32.<note type="biblio">(ascribed to Guillelmus de
+                           Curis)</note></bibl>
+                     <bibl>Panzica, "News from fifteenth-century university philosophy", p.
+                        183-187.</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+
             <!-- Basel UB F VI 67 -->
             <msDesc xml:id="Basel_UB_FVI67">
                <msIdentifier>
@@ -1277,7 +1362,7 @@
                         last name is barely legible. Another date indication can be found on f.
                         99vb: <q n="99vb">Aprilis octava libro presente peracto / fons detur magna
                            Christo de virgini nato</q>.</origDate>
-                     <origPlace ref="#place_paris">Paris</origPlace>
+                     <origPlace>Paris</origPlace>
                      <p>All the texts of the corpus ascribed to Versoris were copied at the Paris
                         Arts Faculty by <persName ref="#IohannesDeLamballe">Iohannes de
                            Lamballe</persName>, who signed and added his signum in several places —
