@@ -101,10 +101,26 @@
 	<!-- Container -->
 
 	<main class="container">
-		<div class="starter-template py-5 px-3">
+		<div class="py-5 px-3">
 			<h1>Person Register</h1>
 			<p class="lead">Individuals associated with the Versoris manuscript collection</p>
+
+			<input type="text" id="person-filter" class="form-control mb-3" placeholder="Filter persons…">
+
 			<section id="PersonRegister">
+				<div class="table-responsive">
+					<table class="table table-sm" id="person-table">
+						<thead class="table-light">
+							<tr>
+								<th>Name</th>
+								<th>Birth</th>
+								<th>Death</th>
+							</tr>
+						</thead>
+						<tbody id="person-table-body"></tbody>
+					</table>
+				</div>
+				<div id="person-pool" style="display:none" aria-hidden="true"></div>
 			</section>
 
 		</div>
@@ -139,7 +155,19 @@
 			"tei": {
 				// "teiHeader": null,
 				"note": function(e) {
-					// Return the note content without parentheses
+					const type = e.getAttribute('type');
+					if (type === 'editorial' || type === 'gap') {
+						const details = document.createElement('details');
+						details.className = 'note-inline';
+						const summary = document.createElement('summary');
+						summary.textContent = 'note';
+						details.appendChild(summary);
+						const content = document.createElement('span');
+						content.className = 'note-content';
+						content.innerHTML = e.innerHTML;
+						details.appendChild(content);
+						return details;
+					}
 					let container = document.createElement('span');
 					container.className = 'note-content';
 					container.innerHTML = e.innerHTML;
@@ -433,7 +461,13 @@
 							parts.forEach((element, index) => {
 								const part = document.createElement('span');
 								part.className = 'name-part';
-								part.textContent = element.textContent.trim();
+								// Add "alias " prefix for pseudo names
+								const subtype = element.getAttribute('subtype');
+								if (subtype === 'pseudo') {
+									part.textContent = 'alias ' + element.textContent.trim();
+								} else {
+									part.textContent = element.textContent.trim();
+								}
 								variantGroup.appendChild(part);
 								// Add space after each part except the last
 								if (index < parts.length - 1) {
@@ -493,7 +527,14 @@
 
 								// Collect variant of same type
 								if (childType === 'variant' && childTag.includes(prefTag.replace('tei-', ''))) {
-									variants.push(child.textContent.trim());
+									const variantText = child.textContent.trim();
+									// Add "alias " prefix for pseudo names
+									const subtype = child.getAttribute('subtype');
+									if (subtype === 'pseudo') {
+										variants.push('alias ' + variantText);
+									} else {
+										variants.push(variantText);
+									}
 								}
 							}
 
@@ -532,46 +573,7 @@
 		CETEIcean.addBehaviors(behaviors);
 	</script>
 
-	<script>
-	// Load PersonRegister content
-	document.addEventListener("DOMContentLoaded", () => {
-		CETEIcean.getHTML5("data/PersonRegister.xml", function (data) {
-			const PersonRegisterSection = document.getElementById("PersonRegister");
-			PersonRegisterSection.appendChild(data);
-			
-			// Set scroll margin for person elements
-			const teiElements = PersonRegisterSection.querySelectorAll("tei-person");
-			teiElements.forEach((tei) => {
-				const id = tei.id;
-				if (id) {
-					tei.style.scrollMarginTop = "80px";
-				}
-			});
-			
-			// Handle anchor navigation after content is loaded
-			if (window.location.hash) {
-				const targetId = window.location.hash.substring(1);
-				const targetElement = document.getElementById(targetId);
-				if (targetElement) {
-					setTimeout(() => {
-						targetElement.scrollIntoView({ behavior: 'smooth' });
-					}, 100);
-				}
-			}
-
-			// Check for search highlighting after TEI content is loaded
-			if (window.textHighlighter) {
-				const urlParams = new URLSearchParams(window.location.search);
-				const highlightTerms = urlParams.get('highlight');
-				if (highlightTerms) {
-					setTimeout(() => {
-						window.textHighlighter.highlightSearchTerms(highlightTerms);
-					}, 200);
-				}
-		}
-	});
-});
-</script>
+	<script type="text/javascript" src="js/persons.js"></script>
 
 </body>
 

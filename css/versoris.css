@@ -13,7 +13,11 @@ tei-TEI {
 tei-msDesc {
     display: block;
     margin: 20px 0;
-    margin-bottom: 50px;
+    padding: 20px;
+    border: 1px solid #e9ecef;
+    border-radius: 0.5rem;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 /* Manuscript identifier */
@@ -74,23 +78,40 @@ tei-msItem {
     margin-top: 10px;
     margin-left: 20px;
     padding: 10px;
-    border: 1px solid #e0e0e0;
-    background-color: #fafafa;
+    border: 1px solid #e9ecef;
+    border-radius: 0.25rem;
 }
 
 /* Nested msItems - indent more */
 tei-msItem tei-msItem {
     margin-left: 20px;
-    background-color: #f7f8fa;
 }
 
 tei-msItem tei-msItem tei-msItem {
     margin-left: 40px;
-    background-color: #fff8e1;
-    border-left-color: #f0ad4e;
 }
 
-/* Titles */
+/* msItem header: locus + title on one line */
+.msitem-header {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.msitem-locus {
+    display: inline;
+    margin-left: 6px;
+}
+
+.msitem-locus::before { content: "("; }
+.msitem-locus::after  { content: ")"; }
+
+.msitem-header tei-title {
+    display: inline;
+    font-weight: bold;
+    font-style: italic;
+}
+
+/* Standalone title outside header (fallback) */
 .msitem-container > tei-title,
 tei-msItem > tei-title {
     display: block;
@@ -99,14 +120,6 @@ tei-msItem > tei-title {
     margin-bottom: 5px;
 }
 
-.msitem-container > tei-title::before,
-tei-msItem > tei-title::before {
-    content: "Title: ";
-    font-weight: bold;
-    font-style: normal;
-}
-
-
 /* Authors */
 tei-author {
     display: block;
@@ -114,7 +127,7 @@ tei-author {
     margin-bottom: 5px;
 }
 
-/* Locus references */
+/* Locus references — block by default, inline inside colophon */
 tei-locus {
     display: block;
     margin-bottom: 5px;
@@ -144,8 +157,33 @@ tei-locus[to]:not([from])::before {
     font-weight: bold;
 }
 
+/* Locus inline inside colophon — specificity must beat tei-locus[from]:not([to])::before */
+tei-colophon tei-locus {
+    display: inline;
+    font-weight: normal;
+    margin: 0;
+}
+
+tei-colophon tei-locus[from]:not([to])::before {
+    content: " (f. " attr(from) ") ";
+    font-weight: normal;
+}
+
+tei-colophon tei-locus[from][to]::before {
+    content: " (ff. " attr(from) "–" attr(to) ") ";
+    font-weight: normal;
+}
+
+tei-colophon tei-locus::before,
+tei-colophon tei-locus::after { font-weight: normal; }
+
 
 /* Notes */
+tei-note[type="editorial"],
+tei-note[type="gap"] {
+    display: inline;
+}
+
 tei-note {
     display: block;
     margin: 10px 0;
@@ -181,16 +219,39 @@ tei-note[type="biblio"]::before {
     font-weight: bold;
 }
 
-tei-note[type="editorial"] {
+details.note-inline {
+    display: inline;
+}
+
+details.note-inline summary {
+    display: inline;
+    cursor: pointer;
+    color: #6c757d;
+    font-size: 0.8em;
+    font-style: italic;
+    list-style: none;
+}
+
+details.note-inline summary::-webkit-details-marker {
     display: none;
 }
 
-/* Hide editorial notes in PersonRegister. Not sure why the over rule does not work also for Personregister */
-
-#PersonRegister tei-note[type="editorial"] {
-    display: none;
+details.note-inline[open] {
+    display: block;
+    border-left: 2px solid #dee2e6;
+    padding-left: 8px;
+    margin: 4px 0;
 }
 
+details.note-inline[open] summary {
+    display: block;
+}
+
+details.note-inline[open] .note-content {
+    display: block;
+    font-size: 0.9em;
+    color: #495057;
+}
 
 tei-altIdentifier {
     display: none;
@@ -299,10 +360,11 @@ tei-physDesc {
     margin-left: 20px;
 }
 
-/* Person names */
-tei-persName {
+/* Person names — orange underline only on clickable references, not on the person's own name */
+tei-persName.person-link {
     text-decoration: underline;
     text-decoration-color: orange;
+    cursor: pointer;
 }
 
 /* Place and organization names */
@@ -354,7 +416,7 @@ tei-recordHist > tei-source[cert="high"] > tei-p::after {
 }
 
 
-tei-listBibl > tei-msDesc > tei-additional > tei-listBibl::before {
+tei-additional > tei-listBibl::before {
     content: "Bibliography";
     display: block;
     font-weight: bold;
@@ -362,7 +424,7 @@ tei-listBibl > tei-msDesc > tei-additional > tei-listBibl::before {
     margin-bottom: 10px;
 }
 
-tei-listBibl > tei-msDesc > tei-additional > tei-listBibl {
+tei-additional > tei-listBibl {
     display: block;
     margin-top: 10px;
 }
@@ -529,6 +591,11 @@ tei-affiliation {
     margin: 5px 0;
 }
 
+
+#PersonRegister tei-note[type="editorial"],
+#PersonRegister tei-note[type="gap"] {
+    display: inline;
+}
 
 #PersonRegister tei-note {
     display: block;
@@ -820,4 +887,126 @@ tei-acquisition {
 tei-acquisition::before {
     font-weight: bold;
     content: "Acquisition: ";
+}
+
+/* === Search suggestions dropdown === */
+
+.search-suggestions {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: white;
+    border: 1px solid #ccc;
+    border-top: none;
+    border-radius: 0 0 4px 4px;
+    max-height: 300px;
+    overflow-y: auto;
+    z-index: 1050;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.15);
+}
+
+.search-suggestion {
+    padding: 8px 12px;
+    cursor: pointer;
+    border-bottom: 1px solid #eee;
+}
+
+.search-suggestion:hover,
+.search-suggestion-active {
+    background-color: #e8f4fd;
+}
+
+.search-suggestion:last-child {
+    border-bottom: none;
+}
+
+.suggestion-title {
+    font-weight: bold;
+    color: #333;
+}
+
+.suggestion-type {
+    font-size: 0.8em;
+    color: #666;
+    text-transform: uppercase;
+}
+
+/* === Manuscript table index === */
+
+#ms-filter {
+    max-width: 400px;
+}
+
+#ms-table {
+    font-size: 0.9em;
+}
+
+#ms-table thead th {
+    white-space: nowrap;
+    cursor: pointer;
+    user-select: none;
+}
+
+#ms-table thead th.sort-asc::after  { content: " ↑"; }
+#ms-table thead th.sort-desc::after { content: " ↓"; }
+
+#ms-table tbody tr:focus {
+    outline: 2px solid #0d6efd;
+    outline-offset: -2px;
+}
+
+#ms-table tbody tr {
+    cursor: pointer;
+}
+
+#ms-table tbody tr.ms-selected td {
+    background-color: #e8f4fd;
+}
+
+.ms-detail-row td {
+    padding: 20px 20px 20px 30px;
+    border-top: none;
+}
+
+#ms-table tbody tr.ms-detail-row,
+#ms-table tbody tr.ms-detail-row:hover > td {
+    cursor: default;
+}
+
+/* === Persons table === */
+
+#person-filter {
+    max-width: 400px;
+}
+
+#person-table {
+    font-size: 0.9em;
+}
+
+#person-table thead th {
+    white-space: nowrap;
+    cursor: pointer;
+    user-select: none;
+}
+
+#person-table thead th.sort-asc::after  { content: " ↑"; }
+#person-table thead th.sort-desc::after { content: " ↓"; }
+
+#person-table tbody tr {
+    cursor: pointer;
+}
+
+#person-table tbody tr.ms-selected td {
+    background-color: #e8f4fd;
+}
+
+#person-table tbody tr:focus {
+    outline: 2px solid #0d6efd;
+    outline-offset: -2px;
+}
+
+#person-table tbody tr.ms-detail-row,
+#person-table tbody tr.ms-detail-row:hover > td {
+    cursor: default;
 }

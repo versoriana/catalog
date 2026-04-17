@@ -331,39 +331,52 @@ class VersorisSearch {
         return persons;
     }
 
+    _runSearch(query, searchOptions, type) {
+        const results = [];
+        if (type === 'manuscript' && this.manuscriptsIndex) {
+            results.push(...this.manuscriptsIndex.search(query, searchOptions));
+        } else if (type === 'person' && this.personsIndex) {
+            results.push(...this.personsIndex.search(query, searchOptions));
+        } else {
+            if (this.manuscriptsIndex) results.push(...this.manuscriptsIndex.search(query, searchOptions));
+            if (this.personsIndex) results.push(...this.personsIndex.search(query, searchOptions));
+        }
+        return results;
+    }
+
     search(query, options = {}) {
         if (!this.isInitialized) {
             console.warn('Search not initialized');
             return [];
         }
-
-        const results = [];
         const searchOptions = {
             fuzzy: options.fuzzy !== undefined ? options.fuzzy : 0.2,
             prefix: options.prefix !== undefined ? options.prefix : true,
             boost: options.boost || {}
         };
+        return this._runSearch(query, searchOptions, options.type)
+            .sort((a, b) => b.score - a.score);
+    }
 
-        if (options.type === 'manuscript' && this.manuscriptsIndex) {
-            const manuscriptResults = this.manuscriptsIndex.search(query, searchOptions);
-            results.push(...manuscriptResults);
-        } else if (options.type === 'person' && this.personsIndex) {
-            const personResults = this.personsIndex.search(query, searchOptions);
-            results.push(...personResults);
-        } else {
-            // Search both indices
-            if (this.manuscriptsIndex) {
-                const manuscriptResults = this.manuscriptsIndex.search(query, searchOptions);
-                results.push(...manuscriptResults);
-            }
-            if (this.personsIndex) {
-                const personResults = this.personsIndex.search(query, searchOptions);
-                results.push(...personResults);
-            }
+    searchTwoPass(query, options = {}) {
+        if (!this.isInitialized) {
+            console.warn('Search not initialized');
+            return [];
         }
+        const boost = options.boost || {};
+        const type = options.type;
 
-        // Sort by score descending
-        return results.sort((a, b) => b.score - a.score);
+        const exactIds = new Set(
+            this._runSearch(query, { fuzzy: false, prefix: false, boost }, type).map(r => r.id)
+        );
+
+        const all = this._runSearch(query, { fuzzy: 0.2, prefix: true, boost }, type);
+        all.forEach(r => { r.exact = exactIds.has(r.id); });
+
+        return all.sort((a, b) => {
+            if (a.exact !== b.exact) return a.exact ? -1 : 1;
+            return b.score - a.score;
+        });
     }
 
     setupSearchHandlers() {
@@ -383,8 +396,18 @@ class VersorisSearch {
 
         // Add live search suggestions
         searchInputs.forEach(input => {
+            input._activeSuggestionIndex = -1;
             let timeout;
+
+            input.addEventListener('focus', () => {
+                const query = input.value.trim();
+                if (query.length >= 2) {
+                    this.showSearchSuggestions(query, input);
+                }
+            });
+
             input.addEventListener('input', (e) => {
+                input._activeSuggestionIndex = -1;
                 clearTimeout(timeout);
                 timeout = setTimeout(() => {
                     const query = e.target.value.trim();
@@ -395,11 +418,43 @@ class VersorisSearch {
                     }
                 }, 300);
             });
+
+            input.addEventListener('keydown', (e) => {
+                const suggestions = document.querySelectorAll('#search-suggestions .search-suggestion');
+                const open = suggestions.length > 0;
+
+                if (e.key === 'ArrowDown') {
+                    if (!open) return;
+                    e.preventDefault();
+                    input._activeSuggestionIndex = Math.min(input._activeSuggestionIndex + 1, suggestions.length - 1);
+                    this.updateActiveSuggestion(suggestions, input._activeSuggestionIndex);
+                } else if (e.key === 'ArrowUp') {
+                    if (!open) return;
+                    e.preventDefault();
+                    input._activeSuggestionIndex = Math.max(input._activeSuggestionIndex - 1, -1);
+                    this.updateActiveSuggestion(suggestions, input._activeSuggestionIndex);
+                } else if (e.key === 'Enter' && open) {
+                    e.preventDefault();
+                    e.stopPropagation();
+                    const active = document.querySelector('#search-suggestions .search-suggestion-active');
+                    if (active) active.click();
+                    else this.hideSearchSuggestions();
+                } else if (e.key === 'Escape') {
+                    this.hideSearchSuggestions();
+                    input._activeSuggestionIndex = -1;
+                }
+            });
+        });
+    }
+
+    updateActiveSuggestion(suggestions, activeIndex) {
+        suggestions.forEach((s, i) => {
+            s.classList.toggle('search-suggestion-active', i === activeIndex);
         });
     }
 
     performSearch(query) {
-        const results = this.search(query);
+        const results = this.searchTwoPass(query);
 
         // Create or navigate to search results page
         // Get base path (works for both local and GitHub Pages)
@@ -418,54 +473,16 @@ class VersorisSearch {
     }
 
     showSearchSuggestions(query, inputElement) {
-        const results = this.search(query).slice(0, 5); // Show top 5 suggestions
+        const results = this.search(query).slice(0, 5);
 
-        // Remove existing suggestions
         this.hideSearchSuggestions();
+        inputElement._activeSuggestionIndex = -1;
 
         if (results.length === 0) return;
 
         const suggestionsDiv = document.createElement('div');
         suggestionsDiv.id = 'search-suggestions';
         suggestionsDiv.className = 'search-suggestions';
-        suggestionsDiv.innerHTML = `
-            <style>
-                .search-suggestions {
-                    position: absolute;
-                    top: 100%;
-                    left: 0;
-                    right: 0;
-                    background: white;
-                    border: 1px solid #ccc;
-                    border-top: none;
-                    border-radius: 0 0 4px 4px;
-                    max-height: 300px;
-                    overflow-y: auto;
-                    z-index: 1000;
-                    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-                }
-                .search-suggestion {
-                    padding: 8px 12px;
-                    cursor: pointer;
-                    border-bottom: 1px solid #eee;
-                }
-                .search-suggestion:hover {
-                    background-color: #f8f9fa;
-                }
-                .search-suggestion:last-child {
-                    border-bottom: none;
-                }
-                .suggestion-title {
-                    font-weight: bold;
-                    color: #333;
-                }
-                .suggestion-type {
-                    font-size: 0.8em;
-                    color: #666;
-                    text-transform: uppercase;
-                }
-            </style>
-        `;
 
         results.forEach(result => {
             const suggestionDiv = document.createElement('div');
@@ -761,30 +778,25 @@ function checkForHighlighting() {
 document.addEventListener('DOMContentLoaded', () => {
     window.versorisSearch.initialize();
 
-    // Check for highlight parameter in URL after a longer delay to ensure TEI content is loaded
+    // When a #hash is present the page-level getHTML5 callback handles highlighting
+    // after opening the specific entry — skip the global retry to avoid duplicates.
     const urlParams = new URLSearchParams(window.location.search);
     const highlightTerms = urlParams.get('highlight');
-    if (highlightTerms) {
-        // Try highlighting multiple times with increasing delays to catch the TEI content loading
+    if (highlightTerms && !window.location.hash) {
         let attempts = 0;
         const maxAttempts = 10;
 
         const tryHighlight = () => {
             attempts++;
-
-            // Check if there's actual content in main section (TEI loaded)
             const mainContent = document.querySelector('main');
             const hasContent = mainContent && mainContent.textContent.trim().length > 200;
-
             if (hasContent || attempts >= maxAttempts) {
                 window.textHighlighter.highlightSearchTerms(highlightTerms);
             } else {
-                // Try again with exponential backoff
                 setTimeout(tryHighlight, attempts * 500);
             }
         };
 
-        // Start trying after initial delay
         setTimeout(tryHighlight, 1000);
     }
 });
