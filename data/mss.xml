@@ -166,8 +166,9 @@
                         <p>The <ref target="#Aarau_AKB_MsWettF42_AnonExpositio" type="msItem">first
                               commentary</ref> is very similar to the <ref target="workID"
                               type="work">DA</ref> commentary transmitted in <ref type="ms"
-                                 target="#Basel_UB_FI13">ms. Basel F I 13</ref>: the questions transmitted are
-                           the same; the structure is the same; it could be a copy of this text.</p>
+                              target="#Basel_UB_FI13">ms. Basel F I 13</ref>: the questions
+                           transmitted are the same; the structure is the same; it could be a copy
+                           of this text.</p>
                      </note>
                   </origin>
 
@@ -481,22 +482,20 @@
                   <summary>
                      <ab type="explicit_attribution" cert="1">The commentaries are ascribed to
                         Versoris in the colophon (f. 223vb). On this basis, Charles Lohr classified
-                        all the commentaries in this manuscript as de lectura Versoris. However,
-                        the texts do not all share the same relationship to Versoris's
-                        commentaries. A collation shows that the Questions on De anima (ff.
-                        63r–191v) bear only a loose resemblance to Versoris's text and cannot be
-                        identified with it, as is clear from a comparison of the respective lists
-                        of questions.</ab>
-                     <ab type="general_remarks">Lohr's inventory attributes to Versoris's
-                        commentary two questions on the fourth book of Aristotle's Meteorology:
-                        <q n="360vb">Utrum tantum quatuor sint qualitates prime, scilicet
-                           caliditas, frigiditas, humiditas et siccitas</q> (f. 360vb), and
-                        <q n="361r">Utrum putrefactio fiat a calido extrinseco et frigido
-                           intrinseco</q> (f. 361r, longis lineis), the latter of which is
-                        unfinished. In fact, these questions are unrelated to Versoris's
-                        commentary: they were copied by a hand different from that of the main
-                        scribe and follow a distinct structure based on the enunciation of
-                        notabilia, without arguments pro and contra.</ab>
+                        all the commentaries in this manuscript as de lectura Versoris. However, the
+                        texts do not all share the same relationship to Versoris's commentaries. A
+                        collation shows that the Questions on De anima (ff. 63r–191v) bear only a
+                        loose resemblance to Versoris's text and cannot be identified with it, as is
+                        clear from a comparison of the respective lists of questions.</ab>
+                     <ab type="general_remarks">Lohr's inventory attributes to Versoris's commentary
+                        two questions on the fourth book of Aristotle's Meteorology: <q n="360vb"
+                           >Utrum tantum quatuor sint qualitates prime, scilicet caliditas,
+                           frigiditas, humiditas et siccitas</q> (f. 360vb), and <q n="361r">Utrum
+                           putrefactio fiat a calido extrinseco et frigido intrinseco</q> (f. 361r,
+                        longis lineis), the latter of which is unfinished. In fact, these questions
+                        are unrelated to Versoris's commentary: they were copied by a hand different
+                        from that of the main scribe and follow a distinct structure based on the
+                        enunciation of notabilia, without arguments pro and contra.</ab>
                   </summary>
                   <msItem xml:id="Basel_UB_FI13_QsSen">
                      <locus from="193ra" to="209va"/>
@@ -546,26 +545,26 @@
                         variants of oxheads appear throughout the volume: a type with a staff
                         (particularly visible on f. 62), similar to <watermark>Piccard VII 276,
                            attested in Neustadt and Schwerin i. M. in 1465</watermark>; a type
-                        without staff (particularly visible on f. 312), similar to <watermark>Piccard
-                           I 215, attested in Basel in the years 1460–1464</watermark>; and a
-                        second type without staff (particularly visible on f. 348), slightly
-                        resembling <watermark>Piccard I 220, attested in Constance and Schaffhausen
-                           in the years 1461–1464</watermark>. In the last leaves, probably added
-                        at the time when the codex was bound, a letter P is visible (particularly
-                        on f. 376), similar to <watermark>Piccard IX 998, used in Basel in
-                           1474</watermark>.</p>
+                        without staff (particularly visible on f. 312), similar to
+                           <watermark>Piccard I 215, attested in Basel in the years
+                           1460–1464</watermark>; and a second type without staff (particularly
+                        visible on f. 348), slightly resembling <watermark>Piccard I 220, attested
+                           in Constance and Schaffhausen in the years 1461–1464</watermark>. In the
+                        last leaves, probably added at the time when the codex was bound, a letter P
+                        is visible (particularly on f. 376), similar to <watermark>Piccard IX 998,
+                           used in Basel in 1474</watermark>.</p>
                      <note type="msRelationship">
-                        <p><ref target="#Basel_UB_FV9" type="ms">Basel, UB, F V 9</ref>, which
-                           also belonged to <persName ref="#IacobusLouber">Jacob
-                           Louber</persName>.</p>
+                        <p><ref target="#Basel_UB_FV9" type="ms">Basel, UB, F V 9</ref>, which also
+                           belonged to <persName ref="#IacobusLouber">Jacob Louber</persName>.</p>
                      </note>
                   </origin>
                   <provenance>
-                     <p>A Basel origin is further supported by the fact that the manuscript belonged to <persName ref="#IacobusLouber">Jacob
-                           Louber</persName>, a member of the Basel Carthusian Order and prior of
-                        the convent in 1480, who donated it to the convent library. The front cover
-                        bears the inscription: <q n="front-cover">Liber Carthusiensium in Basilea
-                           Minori qui provenit a confratre Domino Jacobo Louber</q>.</p>
+                     <p>A Basel origin is further supported by the fact that the manuscript belonged
+                        to <persName ref="#IacobusLouber">Jacob Louber</persName>, a member of the
+                        Basel Carthusian Order and prior of the convent in 1480, who donated it to
+                        the convent library. The front cover bears the inscription: <q
+                           n="front-cover">Liber Carthusiensium in Basilea Minori qui provenit a
+                           confratre Domino Jacobo Louber</q>.</p>
                   </provenance>
                </history>
                <additional>
@@ -652,11 +651,11 @@
                      <note type="msRelationship">
                         <p><ref target="#Basel_UB_FIII10" type="ms">Basel, UB, F III 10</ref>; <ref
                               target="#Basel_UB_FIII11" type="ms">F III 11</ref>; <ref
-                              target="#Basel_UB_FIII12">F III 12</ref>; <ref target="#Basel_UB_FVI16"
-                              >F VI 16</ref>; <ref target="Basel_UB_FVI67">F VI 67</ref>; <ref
-                              target="Basel_UB_FVII11">F VII 11</ref>, which were also owned by
-                              <persName ref="#IohannesHeynlinDeLapide">Iohannes de
-                           Lapide</persName>.</p>
+                              target="#Basel_UB_FIII12">F III 12</ref>; <ref
+                              target="#Basel_UB_FVI16">F VI 16</ref>; <ref target="Basel_UB_FVI67">F
+                              VI 67</ref>; <ref target="Basel_UB_FVII11">F VII 11</ref>, which were
+                           also owned by <persName ref="#IohannesHeynlinDeLapide">Iohannes de
+                              Lapide</persName>.</p>
                         <p>
                            <ref target="#Basel_UB_FIII10" type="ms">Basel, UB, F III 10</ref>; <ref
                               target="#Basel_UB_FVI67" type="ms">F VI 67</ref>;<ref
@@ -1205,7 +1204,8 @@
                   <msItem xml:id="Basel_UB_FVI4_QsPos">
                      <locus from="92r" to="113r"/>
                      <title ref="workID">QsPos</title>
-                     <note type="content">The last 14 questions of the first book are missing.</note>
+                     <note type="content">The last 14 questions of the first book are
+                        missing.</note>
                   </msItem>
                   <msItem xml:id="Basel_UB_FVI4_Qdente">
                      <locus from="114r" to="125r"/>
@@ -1219,9 +1219,8 @@
                </msContents>
                <history>
                   <origin>
-                     <origDate from="1476" to="1476">The watermark, depicting a cluster of
-                        grapes, corresponds to Piccard Frucht I 1171, used in Basel in
-                        1476.</origDate>
+                     <origDate from="1476" to="1476">The watermark, depicting a cluster of grapes,
+                        corresponds to Piccard Frucht I 1171, used in Basel in 1476.</origDate>
                      <origPlace>Basel</origPlace>
                      <p>The manuscript itself contains no explicit indication of its provenance, but
                         the watermark was used in Basel. This Basel origin is further supported by
@@ -1272,27 +1271,26 @@
                </msContents>
                <history>
                   <origin>
-                     <origDate from="1447" to="1474">ca. late 1450s. Victor
-                        Textoris obtained the degree of bachelor in theology in 1447, which
-                        provides a terminus post quem for the note on f. 151v. The manuscript
-                        contains the <watermark>same watermark found in Wrocław, Biblioteka
-                           Uniwersytecka, Ms. IV F 1 — namely a fleur-de-lis with shield,
-                           tournament collar, and cross with nails (34 × 60 mm; particularly
-                           visible at ff. 200 and 226) — similar to Briquet 1547 (Bordeaux,
-                           1459–1460, with a variant attested in Paris 1460–1474)</watermark>. This
-                        watermark points to a dating in the late 1450s and provides further
-                        confirmation of a Parisian origin. A piece of paper containing some verses
-                        (Petrus Luder's pro sorore Anna), bound between ff. 191 and 192, is dated
-                        1467; this was probably added by <persName
+                     <origDate from="1447" to="1474">ca. late 1450s. Victor Textoris obtained the
+                        degree of bachelor in theology in 1447, which provides a terminus post quem
+                        for the note on f. 151v. The manuscript contains the <watermark>same
+                           watermark found in Wrocław, Biblioteka Uniwersytecka, Ms. IV F 1 — namely
+                           a fleur-de-lis with shield, tournament collar, and cross with nails (34 ×
+                           60 mm; particularly visible at ff. 200 and 226) — similar to Briquet 1547
+                           (Bordeaux, 1459–1460, with a variant attested in Paris
+                           1460–1474)</watermark>. This watermark points to a dating in the late
+                        1450s and provides further confirmation of a Parisian origin. A piece of
+                        paper containing some verses (Petrus Luder's pro sorore Anna), bound between
+                        ff. 191 and 192, is dated 1467; this was probably added by <persName
                            ref="#IohannesHeynlinDeLapide">Johannes de Lapide</persName> in
                         Basel.</origDate>
                      <origPlace>Paris</origPlace>
-                     <p>Some parts of this miscellaneous manuscript originated in Paris. On f.
-                        151v, after Albert the Great's commentary on the Liber sex principiorum, we
-                        find the following note: <q n="151v">Venerabilis et discretus vir Victor
+                     <p>Some parts of this miscellaneous manuscript originated in Paris. On f. 151v,
+                        after Albert the Great's commentary on the Liber sex principiorum, we find
+                        the following note: <q n="151v">Venerabilis et discretus vir Victor
                            Textoris, magister in artibus et bacalarius in theologia, scolaris
                            Parisius, studens in eadem facultate, in collegio de Hulanto, vulgariter
-                             dicto de l'Ave Maria, sito Parisius in monte Sancte Genovefe</q>.</p> 
+                           dicto de l'Ave Maria, sito Parisius in monte Sancte Genovefe</q>.</p>
                      <note type="msRelationship">
                         <p><ref target="#Basel_UB_FII14" type="ms">Basel, UB, F II 14</ref>; <ref
                               target="#Basel_UB_FIII10" type="ms">F III 10</ref>; <ref
@@ -1308,13 +1306,12 @@
                      </note>
                   </origin>
                   <provenance>
-                     <p>The manuscript was later owned by <persName
-                           ref="#IohannesHeynlinDeLapide">Johannes de Lapide</persName>, who
-                        bequeathed it to the library of the Basel Carthusians, as stated on the
-                        first leaf in a note written by <persName ref="#IacobusLouber">Jacob
-                           Lauber</persName>, Prior of the Charterhouse from 1480 to 1500: <q
-                           n="1r">Liber Cartusiensium in Basilea, proveniens a confratre nostro
-                           Iohanne de Lapide</q>.</p>
+                     <p>The manuscript was later owned by <persName ref="#IohannesHeynlinDeLapide"
+                           >Johannes de Lapide</persName>, who bequeathed it to the library of the
+                        Basel Carthusians, as stated on the first leaf in a note written by
+                           <persName ref="#IacobusLouber">Jacob Lauber</persName>, Prior of the
+                        Charterhouse from 1480 to 1500: <q n="1r">Liber Cartusiensium in Basilea,
+                           proveniens a confratre nostro Iohanne de Lapide</q>.</p>
                   </provenance>
                </history>
                <additional>
@@ -1330,16 +1327,16 @@
                         Grundlage mit Einleitung, Wien 1955, 26.</bibl>
                      <bibl>O. Besomi, Codici petrarcheschi nelle biblioteche svizzere, Italia
                         medioevale e umanistica 8 (1965), 369-429, 386-387.<note type="biblio">(in
-                           which the note about Victor Textoris is not mentioned and the fleur-de-lis
-                           watermark not identified, and in which as a consequence the codex is
-                           assigned to the German area)</note></bibl>
+                           which the note about Victor Textoris is not mentioned and the
+                           fleur-de-lis watermark not identified, and in which as a consequence the
+                           codex is assigned to the German area)</note></bibl>
                      <bibl>G. L. Bursill-Hall, A Census of Medieval Latin Grammatical Manuscripts,
                         Stuttgart 1981, p. 30.</bibl>
                      <bibl>Lohr, Aristotelica Helvetica, 98-100.</bibl>
                      <bibl>B.B. Hughes, Medieval Latin Mathematical writings in the University
                         Library, Basel [typescript], 38.</bibl>
-                     <bibl>R. Meyer, H. Möhle (ed.), Alberti Magni ordinis fratrum praedicatorum,
-                        De sex principiis. Liber divisionum, Münster i.W. 2006, IX.</bibl>
+                     <bibl>R. Meyer, H. Möhle (ed.), Alberti Magni ordinis fratrum praedicatorum, De
+                        sex principiis. Liber divisionum, Münster i.W. 2006, IX.</bibl>
                      <bibl>Scarpatetti, Bücherliebe, 200-202.</bibl>
                   </listBibl>
                </additional>
@@ -5019,6 +5016,91 @@
                </additional>
             </msDesc>
 
+            <msDesc xml:id="Oxford_BodleianLibrary_Digby44">
+               <msIdentifier>
+                  <settlement>Oxford</settlement>
+                  <repository>Bodleian Library</repository>
+                  <idno>Digby 44</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     <ab type="explicit_attribution" cert="0">The copyist ascribes the QsSen to a
+                        certain Iohannes Parisiensis, called Spengen: <q n="77v">Expliciunt
+                           questiones super libros De sensu et sensato secundum magistrum Iohannem
+                           Parisiensem, dictum Spengen, scripte a domino Iohanne Saundre</q>. 
+                           On the same folio, the scribe notes the composite
+                           composition of the questions, the last four belonging to another master:
+                              <q n="77v">Nota quod iste quatuor questiones ultime non sunt eiusdem
+                              doctoris cuius sunt omnes alie, ut patet per modum procedendi, sed
+                              tamen suplent vicem. Nam deest finis questionis decime et etiam deest
+                              questio undecima totaliter et principium questionis duodecime, et ideo
+                              ille quatuor predicte non numerantur inter questiones huius libri, ut
+                              patet in tabula eiusdem</q>. Charles Lohr mentions this
+                        manuscript under Versoris's name, although he does not express himself
+                        unequivocally on its attribution <note type="biblio">Lohr, Medieval
+                           Latin Aristotle Commentaries II, 348: <q n="348r">Several other MSS which
+                              include the corpus of Versor’s physical works occasionally show
+                              variant incipits reflecting possibly different redactions or different
+                              authorship</q>.</note>. </ab>
+                     <!-- 348r dont want to change the regex in odd ... -->
+                     <ab type="general_remarks">The manuscript contains some question commentaries
+                        on the Parva naturalia, an anonymous literal commentary on Aristotle's De
+                        motu animalium, and Duns Scotus's Questions on book II and III of
+                        Aristotle's De anima. The commentaries on the 'Parva naturalia', which some
+                        scholars have attributed to John Versoris, are listed below.</ab>
+                  </summary>
+                  <msItem xml:id="Oxford_BodleianLibrary_Digby44_QsSom">
+                     <locus from="2r" to="34v"/>
+                     <title ref="workID">QsSom</title>
+                     <colophon n="final"><locus from="34v"/>Expliciunt questiones super libros De
+                        sompno et vigilia per manus Domini Johannis Saundyr</colophon>
+                  </msItem>
+                  <msItem xml:id="Oxford_BodleianLibrary_Digby44_QsSen">
+                     <locus from="34v" to="77v"/>
+                     <title ref="workID">QsSen</title>
+
+
+                  </msItem>
+                  <msItem xml:id="Oxford_BodleianLibrary_Digby44_QsMem">
+                     <locus from="87r" to="104v"/>
+                     <title ref="workID">QsMem</title>
+                  </msItem>
+                  <msItem xml:id="Oxford_BodleianLibrary_Digby44_QsLon">
+                     <locus from="104v" to="114r"/>
+                     <title ref="workID">QsLon</title>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origPlace>Oxford</origPlace>
+                     <p>The manuscript was copied by John Saunder (†1485),
+                        fellow at All Souls College, Oxford, as we read for instance in the colophon
+                        of QsSomno, f. 34v.</p>
+                  </origin>
+                  <provenance>
+                     <p>Saunder donated the codex to the library of his
+                        college, as stated in a marginal note at f. 3r: <q n="3r">Liber collegii
+                           Animarum Omnium fidelium defunctorum in Oxonia, ex dono magistri Iohannis
+                           Saundyr, nuper socii eiusdem collegii, cuius anime propicietur Deus.
+                           Amen</q>.</p>
+                  </provenance>
+               </history>
+               <additional>                 
+                  <listBibl>
+                     <bibl>W. D. Macray, Bodleian Library Quarto Catalogues IX: Digby Manuscripts,
+                        reprinted with addenda by R. W. Hunt and A. G. Watson, Oxford 1999, col.
+                        40-41 (addenda, p. 24).</bibl>
+                     <bibl>P. De Leemans, "Medieval Latin Commentaries on Aristotle's De motu
+                        animalium. A Contribution to the Corpus commentariorum medii aevi in
+                        Aristotelem latinorum", Recherches de théologie et philosophie médiévales
+                        67.2 (2000), 272-360, at 315.</bibl>
+                     <bibl>Lohr, Medieval Latin Aristotle Commentaries II, 348.</bibl>
+                     <bibl>Thomson, Catalogue of Medieval Manuscripts of Latin Commentaries on
+                        Aristotle in British Libraries. I: Oxford, 122-124.</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+
 
             <msDesc xml:id="Paris_BibliothèqueinteruniversitairedelaSorbonne_MS1033">
                <msIdentifier>
@@ -8230,8 +8312,9 @@
                </msContents>
                <history>
                   <origin>
-                     <origDate from="1490" to="1490">1490, as indicated by the colophon in the hand of the copyist: <q n="NA"
-                        >Finis huius anno Domini millesimo quadragentesimo nonagesimo</q>.</origDate>                     
+                     <origDate from="1490" to="1490">1490, as indicated by the colophon in the hand
+                        of the copyist: <q n="NA">Finis huius anno Domini millesimo quadragentesimo
+                           nonagesimo</q>.</origDate>
                   </origin>
                   <provenance>
                      <p>The codex belonged to Andrzej Frycz Modrzewski, who held the hereditary
