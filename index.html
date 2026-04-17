@@ -76,12 +76,12 @@
 				
 				<div class="row mt-4">
 					<div class="col-md-6">
-						<h2>Manuscripts</h2>
+						<h2>Manuscripts <span id="ms-count" class="text-muted fw-normal fs-5"></span></h2>
 						<p>Our manuscript collection contains detailed descriptions of codices containing works by or related to Johannes Versor. Each manuscript entry includes codicological information, content descriptions, and scholarly notes.</p>
 						<p><a class="btn btn-primary" href="manuscripts.html">Browse Manuscripts</a></p>
 					</div>
 					<div class="col-md-6">
-						<h2>Persons</h2>
+						<h2>Persons <span id="persons-count" class="text-muted fw-normal fs-5"></span></h2>
 						<p>The person register documents individuals associated with the manuscript tradition, including scribes, owners, and other historical figures connected to the preservation and transmission of Versor's works.</p>
 						<p><a class="btn btn-primary" href="persons.html">Browse Persons</a></p>
 					</div>
@@ -131,8 +131,16 @@
 
         <script>
 
-		/* You could add here the CETEI Script */
-
+		const parser = new DOMParser();
+		Promise.all([
+			fetch('data/mss.xml').then(r => r.text()),
+			fetch('data/PersonRegister.xml').then(r => r.text())
+		]).then(([mssXml, personsXml]) => {
+			const msCount = parser.parseFromString(mssXml, 'text/xml').querySelectorAll('msDesc').length;
+			const personsCount = parser.parseFromString(personsXml, 'text/xml').querySelectorAll('person').length;
+			document.getElementById('ms-count').textContent = `(${msCount})`;
+			document.getElementById('persons-count').textContent = `(${personsCount})`;
+		});
         </script>
 
 			</body>

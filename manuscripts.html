@@ -91,13 +91,8 @@
 			</button>
 			<div class="collapse navbar-collapse" id="navbarsExampleDefault">
 				<ul class="navbar-nav me-auto mb-2 mb-md-0">
-					<li class="nav-item dropdown active">
-						<a class="nav-link dropdown-toggle" href="manuscripts.html" id="dropdown01" data-bs-toggle="dropdown" aria-expanded="false">Manuscripts</a>
-						<ul class="dropdown-menu scrollable-menu" id="Versoris-dropdown">
-							<li><a class="dropdown-item" href="manuscripts.html">View All Manuscripts</a></li>
-							<li><hr class="dropdown-divider"></li>
-							<!-- Individual manuscript items will be added here dynamically -->
-						</ul>
+					<li class="nav-item active">
+						<a class="nav-link" href="manuscripts.html">Manuscripts</a>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link" href="persons.html">Persons</a>
@@ -117,12 +112,27 @@
 	<!-- Container -->
 
 	<main class="container">
-		<div class="starter-template py-5 px-3">
-			<!-- <h1>TEI documents</h1> -->
+		<div class="py-5 px-3">
 
+			<input type="text" id="ms-filter" class="form-control mb-3" placeholder="Filter manuscripts…">
 
-			<section id="Versoris">
-			</section>
+			<div class="table-responsive">
+				<table class="table table-sm" id="ms-table">
+					<thead class="table-light">
+						<tr>
+							<th>Settlement</th>
+							<th>Repository</th>
+							<th>Shelfmark</th>
+							<th>Date</th>
+							<th>Origin</th>
+							<th>Attributed</th>
+						</tr>
+					</thead>
+					<tbody id="ms-table-body"></tbody>
+				</table>
+			</div>
+
+			<section id="Versoris" style="display:none" aria-hidden="true"></section>
 
 		</div>
 	</main>
@@ -146,7 +156,19 @@
           "tei": {
 			 // "teiHeader": null, // No specific behavior for teiHeader
                 "note": function(e) {
-					// Return the note content without parentheses
+					const type = e.getAttribute('type');
+					if (type === 'editorial' || type === 'gap') {
+						const details = document.createElement('details');
+						details.className = 'note-inline';
+						const summary = document.createElement('summary');
+						summary.textContent = 'note';
+						details.appendChild(summary);
+						const content = document.createElement('span');
+						content.className = 'note-content';
+						content.innerHTML = e.innerHTML;
+						details.appendChild(content);
+						return details;
+					}
 					let container = document.createElement('span');
 					container.className = 'note-content';
 					container.innerHTML = e.innerHTML;
@@ -170,17 +192,25 @@
 				"ref": function(e) {
 					const target = e.getAttribute('target');
 					if (target && target.startsWith('#')) {
-						// Check if ref element is empty
-						if (!e.textContent || e.textContent.trim() === '') {
-							// Use target value as link text (without the #)
-							const linkText = target.replace('#', '');
-							const link = document.createElement('a');
-							link.href = target;
-							link.textContent = linkText;
-							return link;
-						}
+						const msId    = target.slice(1);
+						const linkText = e.textContent.trim() || msId;
+						const link    = document.createElement('a');
+						link.href     = `#${msId}`;
+						link.textContent = linkText;
+						link.addEventListener('click', function(evt) {
+							evt.preventDefault();
+							const row = document.querySelector(`#ms-table-body tr[data-id="${msId}"]`);
+							if (row) {
+								if (!row.classList.contains('ms-selected')) {
+									row.click();
+								} else {
+									const y = row.getBoundingClientRect().top + window.scrollY - 80;
+									window.scrollTo({ top: y, behavior: 'smooth' });
+								}
+							}
+						});
+						return link;
 					}
-					// Return default behavior for non-empty refs or refs without # target
 					return null;
 				},
 				"idno": function(e) {
@@ -218,108 +248,88 @@
 					const to = e.getAttribute('to');
 					const notBefore = e.getAttribute('notBefore');
 					const notAfter = e.getAttribute('notAfter');
-					
-					let container = document.createElement('span');
+
+					let shortDate = '';
+					if (when) shortDate = when;
+					else if (from && to) shortDate = from === to ? from : `${from}–${to}`;
+					else if (from) shortDate = `from ${from}`;
+					else if (to)   shortDate = `to ${to}`;
+					else if (notBefore && notAfter) shortDate = `${notBefore}–${notAfter}`;
+					else if (notBefore) shortDate = `after ${notBefore}`;
+					else if (notAfter)  shortDate = `before ${notAfter}`;
+
+					const container = document.createElement('span');
 					container.className = 'origDate-info';
-					
-					if (when) {
-						container.textContent = when;
-					} else if (from && to) {
-						container.textContent = from === to ? from : `${from}-${to}`;
-					} else if (from) {
-						container.textContent = `from ${from}`;
-					} else if (to) {
-						container.textContent = `to ${to}`;
-					} else if (notBefore && notAfter) {
-						container.textContent = `${notBefore}-${notAfter}`;
-					} else if (notBefore) {
-						container.textContent = `after ${notBefore}`;
-					} else if (notAfter) {
-						container.textContent = `before ${notAfter}`;
-					} else {
-						container.textContent = e.textContent;
+					container.dataset.short = shortDate;
+					if (e.hasChildNodes()) {
+						Array.from(e.childNodes).forEach(n => container.appendChild(n.cloneNode(true)));
 					}
-					
+					if (!container.textContent.trim()) container.textContent = shortDate;
+
 					return container;
 				},
                 "msItem": function(e) {
-        // Create a new container
-        let container = document.createElement("div");
-        container.className = "msitem-container";
+					const container = document.createElement("div");
+					container.className = "msitem-container";
 
-        // Get the elements we want to reorder
-        let title = e.querySelector("tei-title");
-        let locusGrp = e.querySelector("tei-locusgrp");
-        let locus = e.querySelector("tei-locus");
-        let otherElements = Array.from(e.childNodes).filter(node =>
-          node.nodeName !== "TEI-TITLE" &&
-          node.nodeName !== "TEI-LOCUS" &&
-          node.nodeName !== "TEI-LOCUSGRP"
-        );
+					const title    = e.querySelector("tei-title");
+					const locusGrp = e.querySelector("tei-locusgrp");
+					const locus    = e.querySelector("tei-locus");
+					const otherElements = Array.from(e.childNodes).filter(node =>
+						node.nodeName !== "TEI-TITLE" &&
+						node.nodeName !== "TEI-LOCUS" &&
+						node.nodeName !== "TEI-LOCUSGRP"
+					);
 
-        // Add elements in the desired order: title first, then locus/locusGrp, then others
-        if (title) {
-          container.appendChild(title.cloneNode(true));
-        }
-        if (locusGrp) {
-          // Handle locusGrp with custom formatting
-          let locusContainer = document.createElement("div");
-          locusContainer.className = "locusGrp-container";
+					// Build locus text
+					let locusText = "";
+					if (locusGrp) {
+						const boundLocus   = locusGrp.querySelector('tei-locus[scheme="#bound"]');
+						const unboundLocus = locusGrp.querySelector('tei-locus[scheme="#unbound"]');
+						if (boundLocus || unboundLocus) {
+							if (boundLocus) {
+								const from = boundLocus.getAttribute('from');
+								const to   = boundLocus.getAttribute('to');
+								if (from && to) locusText = `ff. ${from}–${to}`;
+							}
+							if (unboundLocus) {
+								const from = unboundLocus.getAttribute('from');
+								const to   = unboundLocus.getAttribute('to');
+								if (from && to) locusText += ` [${from}–${to}]`;
+							}
+						} else {
+							const parts = [];
+							locusGrp.querySelectorAll('tei-locus:not([scheme])').forEach(l => {
+								const from = l.getAttribute('from');
+								const to   = l.getAttribute('to');
+								if (from && to) parts.push(`${from}–${to}`);
+								else if (from)  parts.push(from);
+							});
+							if (parts.length) locusText = `ff. ${parts.join(', ')}`;
+						}
+					} else if (locus) {
+						const from = locus.getAttribute('from');
+						const to   = locus.getAttribute('to');
+						if (from && to)  locusText = `ff. ${from}–${to}`;
+						else if (from)   locusText = `f. ${from}`;
+						else             locusText = locus.textContent.trim();
+					}
 
-          let boundLocus = locusGrp.querySelector('tei-locus[scheme="#bound"]');
-          let unboundLocus = locusGrp.querySelector('tei-locus[scheme="#unbound"]');
+					// Header: title then locus inline, no "Title:" label
+					const header = document.createElement("div");
+					header.className = "msitem-header";
+					if (title) header.appendChild(title.cloneNode(true));
+					if (locusText) {
+						const locusSpan = document.createElement("span");
+						locusSpan.className = "msitem-locus";
+						locusSpan.textContent = locusText;
+						header.appendChild(locusSpan);
+					}
+					container.appendChild(header);
 
-          // Check if there are locus elements with scheme attributes
-          let hasScheme = boundLocus || unboundLocus;
-
-          let locusText = "";
-
-          if (hasScheme) {
-            // Handle locusGrp with scheme attributes (bound/unbound)
-            if (boundLocus) {
-              let from = boundLocus.getAttribute('from');
-              let to = boundLocus.getAttribute('to');
-              if (from && to) {
-                locusText = `${from}-${to}`;
-              }
-            }
-
-            if (unboundLocus) {
-              let from = unboundLocus.getAttribute('from');
-              let to = unboundLocus.getAttribute('to');
-              if (from && to) {
-                locusText += ` [${from}-${to}]`;
-              }
-            }
-          } else {
-            // Handle locusGrp without scheme attributes - render inline with commas
-            let allLoci = locusGrp.querySelectorAll('tei-locus:not([scheme])');
-            let locusParts = [];
-
-            allLoci.forEach(locus => {
-              let from = locus.getAttribute('from');
-              let to = locus.getAttribute('to');
-              if (from && to) {
-                locusParts.push(`${from}-${to}`);
-              } else if (from) {
-                locusParts.push(from);
-              }
-            });
-
-            locusText = locusParts.join(', ');
-          }
-
-          locusContainer.textContent = locusText;
-          container.appendChild(locusContainer);
-        } else if (locus) {
-          container.appendChild(locus.cloneNode(true));
-        }
-        otherElements.forEach(el => {
-          container.appendChild(el.cloneNode(true));
-        });
-
-        return container;
-      },
+					otherElements.forEach(el => container.appendChild(el.cloneNode(true)));
+					return container;
+				},
       "msDesc": function(e) {
         // Create Related Manuscripts section
         const filiations = Array.from(e.querySelectorAll('tei-filiation'));
@@ -363,60 +373,7 @@
 	  </script>
 
 
-<script>
-// Load Versoris manuscripts
-document.addEventListener("DOMContentLoaded", () => {
-  // Versoris loading
-  CETEIcean.getHTML5("data/mss.xml", function (data) {
-    const VersorisSection = document.getElementById("Versoris");
-    VersorisSection.appendChild(data);
-
-    // Populate the manuscript dropdown
-    const VersorisDropdown = document.getElementById("Versoris-dropdown");
-    const teiElements = VersorisSection.querySelectorAll("tei-msdesc");
-
-    teiElements.forEach((tei) => {
-      const id = tei.id;
-      if (id) {
-        tei.style.scrollMarginTop = "80px";
-
-        const listItem = document.createElement("li");
-        listItem.className = "dropdown-item";
-
-        const subItem = document.createElement("a");
-        subItem.className = "dropdown-item";
-        subItem.href = `#${(id)}`;
-        subItem.textContent = id;
-
-        listItem.appendChild(subItem);
-        VersorisDropdown.appendChild(listItem);
-      }
-    });
-
-    // Handle anchor navigation after content is loaded
-    if (window.location.hash) {
-      const targetId = window.location.hash.substring(1);
-      const targetElement = document.getElementById(targetId);
-      if (targetElement) {
-        setTimeout(() => {
-          targetElement.scrollIntoView({ behavior: 'smooth' });
-        }, 100);
-      }
-    }
-
-    // Check for search highlighting after TEI content is loaded
-    if (window.textHighlighter) {
-      const urlParams = new URLSearchParams(window.location.search);
-      const highlightTerms = urlParams.get('highlight');
-      if (highlightTerms) {
-        setTimeout(() => {
-          window.textHighlighter.highlightSearchTerms(highlightTerms);
-        }, 200);
-      }
-    }
-  });
-});
-</script>
+<script type="text/javascript" src="js/manuscripts.js"></script>
 
 </body>
 
