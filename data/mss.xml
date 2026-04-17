@@ -166,7 +166,7 @@
                         <p>The <ref target="#Aarau_AKB_MsWettF42_AnonExpositio" type="msItem">first
                               commentary</ref> is very similar to the <ref target="workID"
                               type="work">DA</ref> commentary transmitted in <ref type="ms"
-                              target="msID">ms. Basel F I 13</ref>: the questions transmitted are
+                                 target="#Basel_UB_FI13">ms. Basel F I 13</ref>: the questions transmitted are
                            the same; the structure is the same; it could be a copy of this text.</p>
                      </note>
                   </origin>
@@ -533,7 +533,7 @@
                   <msItem xml:id="Basel_UB_FI13_QdA_Anon">
                      <locus from="63r" to="191v"/>
                      <author>Anonymus</author>
-                     <title>Questions on De anima</title>
+                     <title ref="xx">Questions on De anima</title>
                   </msItem>
                </msContents>
                <history>
@@ -652,7 +652,7 @@
                      <note type="msRelationship">
                         <p><ref target="#Basel_UB_FIII10" type="ms">Basel, UB, F III 10</ref>; <ref
                               target="#Basel_UB_FIII11" type="ms">F III 11</ref>; <ref
-                              target="Basel_UB_FIII12">F III 12</ref>; <ref target="Basel_UB_FVI16"
+                              target="#Basel_UB_FIII12">F III 12</ref>; <ref target="#Basel_UB_FVI16"
                               >F VI 16</ref>; <ref target="Basel_UB_FVI67">F VI 67</ref>; <ref
                               target="Basel_UB_FVII11">F VII 11</ref>, which were also owned by
                               <persName ref="#IohannesHeynlinDeLapide">Iohannes de
@@ -660,7 +660,7 @@
                         <p>
                            <ref target="#Basel_UB_FIII10" type="ms">Basel, UB, F III 10</ref>; <ref
                               target="#Basel_UB_FVI67" type="ms">F VI 67</ref>;<ref
-                              target="Basel_UB_FVII11">F VII 11</ref>, which were also copied by
+                              target="#Basel_UB_FVII11">F VII 11</ref>, which were also copied by
                               <persName ref="#IohannesHeynlinDeLapide">Iohannes de
                            Lapide</persName>.</p>
                      </note>
@@ -3014,7 +3014,7 @@
                               <ref target="#Krakow_BJ_cod2072" type="ms">2072</ref>, <ref
                               target="#Krakow_BJ_cod2087" type="ms">2087</ref>, which contain the
                            same Cracovian QsP.</p>
-                        <p><ref target="Kraków_BJ_cod2118" type="ms">Kraków, BJ, cod. 2118</ref>,
+                        <p><ref target="#Kraków_BJ_cod2118" type="ms">Kraków, BJ, cod. 2118</ref>,
                            which contains the same anonymous QdG found at ff. 135r–163r.</p>
                         <p><ref target="#Munich_BSB_Clm520" type="ms">Munich, BSB, Clm 520</ref>, in
                            which Versoris's QsMete are also preceded by the prologue from Paulus of
@@ -3434,14 +3434,14 @@
                         139va) and the table of contents on the first inside cover (<q
                            n="inner-front-cover">per fratrem Martinum compilata</q>).</p>
                      <note type="msRelationship">
-                        <p><ref target="Kraków_BibliotekaJagiellońska_cod2002">Krakow, BJ, cod.
+                        <p><ref target="#Kraków_BibliotekaJagiellońska_cod2002">Krakow, BJ, cod.
                               2002</ref>; <ref target="#Kraków_BibliotekaJagiellońska_cod2007"
                               type="ms">2007</ref>; <ref
-                              target="Kraków_BibliotekaJagiellońska_cod2087">2087</ref>, which
+                              target="#Kraków_BibliotekaJagiellońska_cod2087">2087</ref>, which
                            contain the same Cracovian QsP.</p>
                         <p>The collation of the QdMem has shown that the text of this manuscript is
                            close to <ref
-                              target="Luxembourg_BibliothèquenationaleduLuxembourgRéserveprécieuse_53"
+                              target="#Luxembourg_BibliothèquenationaleduLuxembourgRéserveprécieuse_53"
                               >Luxembourg, Bibliothèque nationale du Luxembourg – Réserve précieuse,
                               53</ref>.</p>
                      </note>
@@ -3641,7 +3641,7 @@
                         anonymous Cracovian QsP (f. 262v).</origDate>
                      <origPlace>Kraków</origPlace>
                      <note type="msRelationship">
-                        <p><ref target="Kraków_BibliotekaJagiellońska_cod2002">Krakow, BJ, cod.
+                        <p><ref target="#Kraków_BibliotekaJagiellońska_cod2002">Krakow, BJ, cod.
                               2002</ref>; <ref target="#Kraków_BibliotekaJagiellońska_cod2007"
                               type="ms">2007</ref>; <ref
                               target="#Kraków_BibliotekaJagiellońska_cod2072" type="ms">2072</ref>,
@@ -8556,7 +8556,7 @@
                         <p><ref target="#Berlin_SBPK_latqu435" type="ms">Berlin, SB–PK, lat. qu.
                               435</ref>; <ref target="#Paris_BnF_latin6691" type="ms">Paris, BnF,
                               latin 6691</ref>, also copied in the Collège de Bourgogne.</p>
-                        <p><ref target="Basel_UB_FVI16" type="ms">Basel, UB, F VI 16</ref>, which
+                        <p><ref target="#Basel_UB_FVI16" type="ms">Basel, UB, F VI 16</ref>, which
                            contains the same fleur-de-lis watermark with shield, tournament collar
                            and cross with nails.</p>
                      </note>
