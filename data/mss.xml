@@ -5052,13 +5052,12 @@
                   <msItem xml:id="Oxford_BodleianLibrary_Digby44_QsSom">
                      <locus from="2r" to="34v"/>
                      <title ref="workID">QsSom</title>
-                     <colophon n="final"><locus from="34v"/>Expliciunt questiones super libros De
+                     <colophon><locus from="34v"/>Expliciunt questiones super libros De
                         sompno et vigilia per manus Domini Johannis Saundyr</colophon>
                   </msItem>
                   <msItem xml:id="Oxford_BodleianLibrary_Digby44_QsSen">
                      <locus from="34v" to="77v"/>
                      <title ref="workID">QsSen</title>
-
 
                   </msItem>
                   <msItem xml:id="Oxford_BodleianLibrary_Digby44_QsMem">
