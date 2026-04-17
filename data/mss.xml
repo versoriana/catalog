@@ -3157,12 +3157,7 @@
                      <title ref="workID">QdA</title>
 
                   </msItem>
-                  <msItem xml:id="Kraków_BibliotekaJagiellońska_cod2016_Problemata">
-                     <locus from="188r" to="218r"/>
-                     <author>Anonymus</author>
-                     <title ref="workID">Problemata</title>
-
-                  </msItem>
+ 
                   <msItem xml:id="Kraków_BibliotekaJagiellońska_cod2016_QsSens">
                      <locus from="124r" to="139v"/>
                      <title ref="workID">QsSens</title>
@@ -3185,12 +3180,16 @@
                      <title ref="workID">QdLong</title>
                      <colophon><locus from="150v"/>anno Domini 1473</colophon>
                   </msItem>
+                  <msItem xml:id="Kraków_BibliotekaJagiellońska_cod2016_Problemata">
+                     <locus from="188r" to="218r"/>
+                     <author>Anonymus</author>
+                     <title ref="workID">Problemata</title>                     
+                  </msItem>
                </msContents>
                <history>
                   <origin>
                      <origDate from="1467" to="1473">1467-1473</origDate>
-                     <p>Versoris’s commentaries were copied in 1473, as evident from the colophon
-                           (<q n="150v">anno Domini 1473</q>, f. 150v). The Problemata at the end of
+                     <p>Versoris’s commentaries were copied in 1473, as evident from the QdLong colophon, f. 150v. The Problemata at the end of
                         the volume were copied in 1467: <q n="218r">Et sic est finis huius. Laudatur
                            etiam Sanctus Bartholomeus, anno Domini 1467, per me, baccalarium de
                            Falkenberg</q>, f. 218r.</p>
