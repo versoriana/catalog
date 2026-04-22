@@ -960,18 +960,25 @@ tei-acquisition::before {
     cursor: pointer;
 }
 
-#ms-table tbody tr.ms-selected td {
-    background-color: #e8f4fd;
+#ms-table tbody tr.ms-selected:hover > * {
+    --bs-table-bg-state: transparent;
+    --bs-table-color-state: inherit;
 }
 
 .ms-detail-row td {
     padding: 20px 20px 20px 30px;
     border-top: none;
+    background-color: white;
 }
 
 #ms-table tbody tr.ms-detail-row,
 #ms-table tbody tr.ms-detail-row:hover > td {
     cursor: default;
+}
+
+#ms-table tbody tr.ms-detail-row:hover > * {
+    --bs-table-bg-state: white;
+    --bs-table-color-state: inherit;
 }
 
 /* === Persons table === */
@@ -997,8 +1004,9 @@ tei-acquisition::before {
     cursor: pointer;
 }
 
-#person-table tbody tr.ms-selected td {
-    background-color: #e8f4fd;
+#person-table tbody tr.ms-selected:hover > * {
+    --bs-table-bg-state: transparent;
+    --bs-table-color-state: inherit;
 }
 
 #person-table tbody tr:focus {
@@ -1009,4 +1017,9 @@ tei-acquisition::before {
 #person-table tbody tr.ms-detail-row,
 #person-table tbody tr.ms-detail-row:hover > td {
     cursor: default;
+}
+
+#person-table tbody tr.ms-detail-row:hover > * {
+    --bs-table-bg-state: white;
+    --bs-table-color-state: inherit;
 }

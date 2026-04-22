@@ -437,8 +437,12 @@ class VersorisSearch {
                     e.preventDefault();
                     e.stopPropagation();
                     const active = document.querySelector('#search-suggestions .search-suggestion-active');
-                    if (active) active.click();
-                    else this.hideSearchSuggestions();
+                    if (active) {
+                        active.click();
+                    } else {
+                        this.hideSearchSuggestions();
+                        if (input.value.trim()) this.performSearch(input.value.trim());
+                    }
                 } else if (e.key === 'Escape') {
                     this.hideSearchSuggestions();
                     input._activeSuggestionIndex = -1;
