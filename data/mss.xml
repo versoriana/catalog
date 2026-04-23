@@ -2231,72 +2231,42 @@
             </msDesc>
 
 
-            <msDesc xml:id="Heidelberg_UniversitätsbibliothekHeidelberg_CodSalVIII">
+            <msDesc xml:id="Heidelberg_UBH_CodSalVIII">
                <msIdentifier>
                   <settlement>Heidelberg</settlement>
-                  <repository>Universitätsbibliothek Heidelberg, Cod. Sal. VIII</repository>
-                  <idno>109</idno>
+                  <repository>Universitätsbibliothek Heidelberg</repository>
+                  <idno>Cod. Sal. VIII 109</idno>
                   <idno type="DOI">https://doi.org/10.11588/diglit.7321</idno>
                </msIdentifier>
                <msContents>
-                  <summary><ab type="explicit_attribution" cert="0">No</ab></summary>
-                  <msItem xml:id="Heidelberg_UniversitätsbibliothekHeidelberg_CodSalVIII_Copulata1">
-                     <locus from="1a" to="138b"/>
-                     <author>Lambertus de Monte</author>
-                     <title ref="workid">Copulata ... super 8 libros phisicorum Aristotelis</title>
-                     <note>Cologne, Heinrich Quentell, 1493</note>
-                     <listBibl>
-                        <bibl>Hain 1686</bibl>
-                        <!-- GW M16784 http://www.gesamtkatalogderwiegendrucke.de -->
-                        <bibl>GW M16784</bibl>
-                     </listBibl>
-                  </msItem>
+                  <summary><ab type="explicit_attribution" cert="0">none</ab></summary>
                   <msItem xml:id="Heidelberg_UniversitätsbibliothekHeidelberg_CodSalVIII_QdA">
                      <locus from="1r" to="53r"/>
-                     <title ref="workID">QdA (second item)</title>
-                  </msItem>
-                  <msItem xml:id="Heidelberg_UniversitätsbibliothekHeidelberg_CodSalVIII_Copulata2">
-                     <locus from="1a" to="83v"/>
-                     <author>Lambertus de Monte</author>
-                     <title ref="workid">Copulata super libros de anima Aristotelis</title>
-                     <note>Cologne, Heinrich Quentell, 1494</note>
-                     <listBibl>
-                        <bibl>Hain 1713</bibl>
-                        <!-- GW M16784 http://www.gesamtkatalogderwiegendrucke.de -->
-                        <bibl>GW M16775</bibl>
-                     </listBibl>
-                  </msItem>
-                  <msItem xml:id="Heidelberg_UniversitätsbibliothekHeidelberg_CodSalVIII_Positiones">
-                     <locus from="1a" to="49b"/>
-                     <author>Lambertus de Monte</author>
-                     <title ref="workid">Positiones circa libros phisicorum et de anima
-                        Aristotelis</title>
-                     <note>Cologne, Heinrich Quentell, 1494</note>
-                     <listBibl>
-                        <bibl>Hain 13303</bibl>
-                        <!-- GW M16784 http://www.gesamtkatalogderwiegendrucke.de -->
-                        <bibl>GW M35127</bibl>
-                     </listBibl>
+                     <title ref="workID">QdA</title>
+                     <note type="desc">Second item in the volume.</note>
                   </msItem>
                </msContents>
                <history>
                   <origin>
-                     <origDate from="1495" to="1495">1495</origDate>
-                     <p>Shortly before 1495. This dating can be inferred from the watermarks, the
-                        note on the inner back cover, and the dates of the printed works bound in
-                        the volume, namely Lambertus de Monte’s Copulata on Aristotle’s Physics
-                        (Cologne, Heinrich Quentell, 1493; Hain 1686, GW M16784) and De anima
-                        (Cologne, Heinrich Quentell, 1494; Hain 1713, GW M16775), as well as the
-                        Positiones circa libros Phisicorum et De anima Aristotelis (Cologne,
-                        Heinrich Quentell, 1494; Hain 13303, GW M35127).</p>
+                     <origDate from="1493" to="1495">Shortly before 1495. This dating can be
+                        inferred from the watermarks, the note on the inner back cover, and the
+                        dates of the printed works bound in the volume, namely Lambertus de Monte’s
+                        Copulata on Aristotle’s Physics (Cologne, Heinrich Quentell, 1493; Hain
+                        1686, GW M16784) and De anima (Cologne, Heinrich Quentell, 1494; Hain 1713,
+                        GW M16775), as well as the Positiones circa libros Phisicorum et De anima
+                        Aristotelis (Cologne, Heinrich Quentell, 1494; Hain 13303, GW
+                        M35127).</origDate>
+                     <!-- GW M16784 http://www.gesamtkatalogderwiegendrucke.de -->
                      <origPlace>Heidelberg</origPlace>
+                  </origin>
+                  <provenance>
                      <p>The manuscript was owned by <persName ref="#PetrusHuinlinDeLindaw">Petrus
                            Hunlin de Lindaw</persName>, a student in Heidelberg, who purchased it in
                         1495. On the inner back cover we read: <q n="inner-back-cover">Iste liber
                            est beate virginis Marie in Salem, comparatus per fratrem Petrum Hienlin,
                            ibidem professum pro 1 ½ florenis et VII albis cum ligatura
-                        1495to</q>.</p>
-                  </origin>
+                           1495to</q>.</p>
+                  </provenance>
                </history>
                <additional>
                   <adminInfo>
