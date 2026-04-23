@@ -39,7 +39,7 @@ class VersorisSearch {
                 storeFields: ['id', 'title', 'repository', 'settlement', 'idno', 'origDate', 'type', 'url'],
                 searchOptions: {
                     boost: { title: 3, author: 2, content: 1.5 },
-                    fuzzy: 0.2,
+                    fuzzy: 1,
                     prefix: true
                 }
             });
@@ -163,7 +163,7 @@ class VersorisSearch {
                 storeFields: ['id', 'name', 'nameVariations', 'birth', 'death', 'occupation', 'type', 'url', 'affiliation'],
                 searchOptions: {
                     boost: { name: 3, nameVariations: 3, occupation: 2, affiliation: 2 },
-                    fuzzy: 0.2,
+                    fuzzy: 1,
                     prefix: true
                 }
             });
@@ -350,7 +350,7 @@ class VersorisSearch {
             return [];
         }
         const searchOptions = {
-            fuzzy: options.fuzzy !== undefined ? options.fuzzy : 0.2,
+            fuzzy: options.fuzzy !== undefined ? options.fuzzy : 1,
             prefix: options.prefix !== undefined ? options.prefix : true,
             boost: options.boost || {}
         };
@@ -370,7 +370,7 @@ class VersorisSearch {
             this._runSearch(query, { fuzzy: false, prefix: false, boost }, type).map(r => r.id)
         );
 
-        const all = this._runSearch(query, { fuzzy: 0.2, prefix: true, boost }, type);
+        const all = this._runSearch(query, { fuzzy: 1, prefix: true, boost }, type);
         all.forEach(r => { r.exact = exactIds.has(r.id); });
 
         return all.sort((a, b) => {
@@ -460,15 +460,14 @@ class VersorisSearch {
     performSearch(query) {
         const results = this.searchTwoPass(query);
 
-        // Create or navigate to search results page
-        // Get base path (works for both local and GitHub Pages)
         const basePath = window.location.pathname.substring(0, window.location.pathname.lastIndexOf('/') + 1);
         const searchUrl = new URL(basePath + 'search.html', window.location.origin);
         searchUrl.searchParams.set('q', query);
+        searchUrl.searchParams.set('mode', 'fuzzy');
 
-        // Store results in sessionStorage for the search page
         sessionStorage.setItem('searchResults', JSON.stringify({
             query: query,
+            mode: 'fuzzy',
             results: results,
             timestamp: Date.now()
         }));

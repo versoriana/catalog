@@ -212,12 +212,33 @@
 						</div>
 					</div>
 					<div class="row mt-3">
-						<div class="col-md-12">
+						<div class="col-12 col-md-auto d-flex align-items-center gap-2 flex-wrap">
+							<div class="btn-group" role="group" aria-label="Search mode">
+								<input type="radio" class="btn-check" name="search-mode" id="mode-fuzzy" value="fuzzy" checked>
+								<label class="btn btn-outline-secondary" for="mode-fuzzy">Fuzzy</label>
+								<input type="radio" class="btn-check" name="search-mode" id="mode-exact" value="exact">
+								<label class="btn btn-outline-secondary" for="mode-exact">Exact</label>
+							</div>
 							<button class="btn btn-primary btn-lg" type="submit">Search</button>
-							<button class="btn btn-outline-secondary btn-lg ms-2" type="button" id="clear-search">Clear</button>
+							<button class="btn btn-outline-secondary btn-lg" type="button" id="clear-search">Clear</button>
 						</div>
 					</div>
 				</form>
+				<details class="mt-3">
+					<summary class="text-muted small" style="cursor:pointer;">Search guide</summary>
+					<div class="mt-2 small text-muted">
+						<p><strong>Search modes</strong></p>
+						<ul>
+							<li><strong>Fuzzy</strong>: tolerates 1-character difference: <em>Iohannes</em> finds Johannes (1 edit: I→J), but <em>Iohanes</em> does not (2 edits). Exact matches rank first.</li>
+							<li><strong>Exact</strong>: matches only the exact word(s) you type.</li>
+						</ul>
+						<p><strong>Indexed fields</strong></p>
+						<ul>
+							<li><strong>Manuscripts</strong>: city · library · shelfmark · date of origin · place of origin · material · author/scribe · content description · notes</li>
+							<li><strong>Persons</strong>: name and name variants · birth/death dates · occupation · institutional affiliation</li>
+						</ul>
+					</div>
+				</details>
 			</div>
 
 			<!-- Search results -->
@@ -260,7 +281,7 @@
 						<ul>
 							<li>Use keywords from manuscript titles, authors, or content</li>
 							<li>Search for person names, roles, or occupations</li>
-							<li>Try partial words - the search will find matches</li>
+							<li>Try partial words, the search will find matches</li>
 							<li>Search by date ranges (e.g., "1400", "15th century")</li>
 							<li>Look for places (e.g., "Paris", "Bologna")</li>
 						</ul>

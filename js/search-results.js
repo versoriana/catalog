@@ -28,27 +28,33 @@ class SearchResultsPage {
 			document.getElementById('main-search-input').value = query;
 			document.getElementById('search-input').value = query;
 		}
+		const mode = urlParams.get('mode') || 'fuzzy';
+		const modeInput = document.querySelector(`input[name="search-mode"][value="${mode}"]`);
+		if (modeInput) modeInput.checked = true;
 	}
 
 	loadResults() {
+		const urlParams = new URLSearchParams(window.location.search);
+		const urlMode = urlParams.get('mode') || 'fuzzy';
+
 		const storedResults = sessionStorage.getItem('searchResults');
 		if (storedResults) {
 			const data = JSON.parse(storedResults);
-			if (Date.now() - data.timestamp < 60000) {
+			if (Date.now() - data.timestamp < 60000 && (data.mode || 'fuzzy') === urlMode) {
 				this.displayResults(data.results, data.query);
 				return;
 			}
 		}
 
-		const urlParams = new URLSearchParams(window.location.search);
 		const query = urlParams.get('q');
+		const type = urlParams.get('type') || '';
 		if (query && window.versorisSearch && window.versorisSearch.isInitialized) {
-			this.performSearch(query);
+			this.performSearch(query, type, urlMode);
 		} else if (query) {
 			const checkInit = setInterval(() => {
 				if (window.versorisSearch && window.versorisSearch.isInitialized) {
 					clearInterval(checkInit);
-					this.performSearch(query);
+					this.performSearch(query, type, urlMode);
 				}
 			}, 100);
 		}
@@ -59,9 +65,11 @@ class SearchResultsPage {
 		if (!query) return;
 
 		const searchType = document.getElementById('search-type').value;
+		const mode = document.querySelector('input[name="search-mode"]:checked')?.value || 'fuzzy';
 
 		const url = new URL(window.location);
 		url.searchParams.set('q', query);
+		url.searchParams.set('mode', mode);
 		if (searchType) {
 			url.searchParams.set('type', searchType);
 		} else {
@@ -69,10 +77,10 @@ class SearchResultsPage {
 		}
 		window.history.replaceState({}, '', url);
 
-		this.performSearch(query, searchType);
+		this.performSearch(query, searchType, mode);
 	}
 
-	performSearch(query, type = '') {
+	performSearch(query, type = '', mode = 'fuzzy') {
 		if (!window.versorisSearch || !window.versorisSearch.isInitialized) {
 			console.error('Search not initialized');
 			return;
@@ -81,7 +89,12 @@ class SearchResultsPage {
 		const options = {};
 		if (type) options.type = type;
 
-		const results = window.versorisSearch.searchTwoPass(query, options);
+		let results;
+		if (mode === 'exact') {
+			results = window.versorisSearch.search(query, { ...options, fuzzy: false, prefix: false });
+		} else {
+			results = window.versorisSearch.searchTwoPass(query, options);
+		}
 		this.displayResults(results, query);
 	}
 
