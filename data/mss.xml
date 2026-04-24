@@ -4448,7 +4448,7 @@
                   <settlement>München</settlement>
                   <repository>BSB</repository>
                   <idno>Clm 6694</idno>
-                  <idno type="URI">https://www.digitale-sammlungen.de/view/bsb00103276?page=4%2C5</idno>
+                  <idno type="URI">https://www.digitale-sammlungen.de/view/bsb00103276</idno>
                </msIdentifier>
                <msContents>
                   <summary>
@@ -4600,7 +4600,7 @@
                   <repository>BSB</repository>
                   <idno>Clm 14088</idno>
                   <idno type="URI"
-                     >https://www.digitale-sammlungen.de/view/bsb00034244?page=%2C1</idno>
+                     >https://www.digitale-sammlungen.de/view/bsb00034244</idno>
                </msIdentifier>
                <msContents>
                   <summary>
@@ -4736,7 +4736,7 @@
                   <repository>BSB</repository>
                   <idno>Clm 14133</idno>
                   <idno type="URI"
-                     >https://www.digitale-sammlungen.de/view/bsb00035478?page=%2C1</idno>
+                     >https://www.digitale-sammlungen.de/view/bsb00035478</idno>
                </msIdentifier>
                <msContents>
                   <summary>
@@ -4837,7 +4837,7 @@
                   <repository>BSB</repository>
                   <idno>Clm 14518</idno>
                   <idno type="URI"
-                     >https://www.digitale-sammlungen.de/view/bsb00109490?page=%2C1</idno>
+                     >https://www.digitale-sammlungen.de/view/bsb00109490</idno>
                </msIdentifier>
                <msContents>
                   <summary>
@@ -4910,7 +4910,7 @@
                   <repository>BSB</repository>
                   <idno>Clm 14647</idno>
                   <idno type="URI"
-                     >https://www.digitale-sammlungen.de/view/bsb00108561?page=%2C1</idno>
+                     >https://www.digitale-sammlungen.de/view/bsb00108561</idno>
                </msIdentifier>
                <msContents>
                   <summary>
