@@ -4386,6 +4386,157 @@
                </additional>
             </msDesc>
 
+            <msDesc xml:id="München_BSB_Clm6694">
+               <msIdentifier>
+                  <settlement>München</settlement>
+                  <repository>BSB</repository>
+                  <idno>Clm 6694</idno>
+                  <idno type="URI">https://www.digitale-sammlungen.de/view/bsb00103276?page=4%2C5</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     <ab type="explicit_attribution" cert="0">none</ab>
+                  </summary>
+                  <msItem xml:id="München_BSB_Clm6694_QsPor">
+                     <locus from="1r" to="27v"/>
+                     <title ref="workID">QsPor</title>
+                  </msItem>
+                  <msItem xml:id="München_BSB_Clm6694_QsPre">
+                     <locus from="28r" to="59v"/>
+                     <title ref="workID">QsPre</title>
+                  </msItem>
+                  <msItem xml:id="München_BSB_Clm6694_QsexP">
+                     <locus from="60r" to="68v"/>
+                     <title ref="workID">QsexP</title>
+                  </msItem>
+                  <msItem xml:id="München_BSB_Clm6694_QsDiv">
+                     <locus from="69r" to="72v"/>
+                     <title ref="workID">QsDiv</title>
+                  </msItem>
+                  <msItem xml:id="München_BSB_Clm6694_QsInt">
+                     <locus from="74r" to="98v"/>
+                     <title ref="workID">QsInt</title>
+                  </msItem>
+                  <msItem xml:id="München_BSB_Clm6694_QsPri">
+                     <locus from="99r" to="136r"/>
+                     <!-- Note: source gives to="292r" but QsPos begins at f. 137r;
+                          the locus appears to be a typo in the source -->
+                     <title ref="workID">QsPri</title>
+                  </msItem>
+                  <msItem xml:id="München_BSB_Clm6694_QsPos">
+                     <locus from="137r" to="166v"/>
+                     <title ref="workID">QsPos</title>
+                  </msItem>
+                  <msItem xml:id="München_BSB_Clm6694_QsTop">
+                     <locus from="167r" to="188r"/>
+                     <title ref="workID">QsTop I–IV</title>
+                     <note type="content">The QsTop IV are followed and completed by questions on
+                        books V and VI. Since these books differ from those printed in Cologne under
+                        Versor's name, Niels J. Green-Pedersen supposes that they were compiled by
+                        an anonymous German master.</note>
+                  </msItem>
+                  <msItem xml:id="München_BSB_Clm6694_QsSE">
+                     <locus from="220r" to="336v"/>
+                     <!-- Note: colophon at f. 136va (below) implies QsSE ends before f. 137r;
+                          the from/to loci in the source appear to contain errors -->
+                     <title ref="workID">QsSE</title>
+                     <colophon n="book II"><locus from="336va"/>Et hec de questione, et per
+                        consequens de toto secundo Elencorum, finite anno LXI in vigilia Iacobi
+                        apostoli</colophon>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <additions>The texts are accompanied by marginal notes relating to the
+                     moderni–antiqui polemics. See for instance f. 29r, marg. sup.: <q n="29r marg-sup">Moderni
+                        sic arguunt: equivoca habent unum nomen commune et unam rationem, ergo sunt
+                        unica, et per consequens equivocum est univocum</q>. Sometimes, the opinion
+                     of Albert the Great is given, such as at f. 29v, marg. inf. and f. 30r, marg.
+                     inf.</additions>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate from="1461" to="1461">1461, as stated in the colophon of QsSE
+                        (f. 136va).</origDate>
+                     <origPlace>Heidelberg</origPlace>
+                     <p>The presence of the same watermarks as those found in the manuscript
+                        Innsbruck, Universitäts- und Landesbibliothek Tirol, Cod. 220, which was
+                        copied in Heidelberg, indicates that this manuscript was likewise copied in
+                        Heidelberg.</p>
+                     <p>Thanks to the Wasserzeichen-Informationssystem database, the watermarks
+                        unequivocally identified confirm a Heidelberg origin:
+                        <watermark>letter P (<ref
+                              target="https://www.wasserzeichen-online.de/?ref=DE5580-Clm6694_14"
+                              >WZIS DE5580-Clm6694_14</ref>), very similar to Piccard IV 534
+                           (Freiburg i. B., 1462–5)</watermark>;
+                        <watermark>key (<ref
+                              target="https://www.wasserzeichen-online.de/?ref=DE5580-Clm6694_72a"
+                              >WZIS DE5580-Clm6694_72a</ref>), very similar to Piccard III 41
+                           (Elsass, 1464)</watermark>;
+                        <watermark>key (<ref
+                              target="https://www.wasserzeichen-online.de/?ref=DE5580-Clm6694_73"
+                              >WZIS DE5580-Clm6694_73</ref>), not in Piccard, only slightly similar
+                           to Briquet 3821 (Hemden, 1465)</watermark>;
+                        <watermark>anchor (<ref
+                              target="https://www.wasserzeichen-online.de/?ref=DE5580-Clm6694_91"
+                              >WZIS DE5580-Clm6694_91</ref>), identical to Piccard I 10 (Heidelberg,
+                           1462–1465)</watermark>;
+                        <watermark>letter P (<ref
+                              target="https://www.wasserzeichen-online.de/?ref=DE5580-Clm6694_128"
+                              >WZIS DE5580-Clm6694_128</ref>), similar to Piccard III 568 (Münster
+                           i.W., 1461)</watermark>;
+                        <watermark>grape (<ref
+                              target="https://www.wasserzeichen-online.de/?ref=DE5580-Clm6694_164"
+                              >WZIS DE5580-Clm6694_164</ref>/<ref
+                              target="https://www.wasserzeichen-online.de/?ref=DE5580-Clm6694_166"
+                              >DE5580-Clm6694_166</ref>), very similar to Piccard I 356 (Rothenburg
+                           ob der Tauber, 1464)</watermark>;
+                        <watermark>letter P (<ref
+                              target="https://www.wasserzeichen-online.de/?ref=DE5580-Clm6694_198"
+                              >WZIS DE5580-Clm6694_198</ref>), very similar to Piccard XVI 306
+                           (Basel and Freiburg i. B., 1463)</watermark>.</p>
+                     <note type="msRelationship">
+                        <p><ref target="#Innsbruck_UniversitätsundLandesbibliothekTirol_Cod220"
+                              type="ms">Innsbruck, Universitäts- und Landesbibliothek Tirol, Cod.
+                              220</ref>, and <ref
+                              target="#München_LudwigMaximiliansUniversitätMünchenUniversitätsbibliothek_2Codms557"
+                              type="ms">München, UB, 2, cod. 557</ref> and <ref
+                              target="#München_LudwigMaximiliansUniversitätMünchenUniversitätsbibliothek_2Codms568"
+                              type="ms">cod. 568</ref> present similar watermarks, possibly
+                           indicating a common origin. Ms. München, UB, 2, cod. 557, f. 190rb also
+                           contains the same colophon found at f. 188rb: <q n="188rb">Nutrix
+                              verbigene te laudo agili corde. De libri termino pallasque sereno
+                              mente</q>.</p>
+                     </note>
+                  </origin>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source cert="high" resp="#">
+                           <p>Ms directly examined</p>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+                  <listBibl>
+                     <bibl>K. F. Halm, Catalogus codicum latinorum Bibliothecae Regiae Monacensis.
+                        1,3, Codices num. 5251-8100 complectens, Monachii 1873, 118–119.</bibl>
+                     <bibl>M. Markowski, "Die Kommentare zum Liber de sex principiis in den
+                        mittelalterlichen Handschriften der Staatsbibliothek München", in P. Gallais,
+                        Y.-J. Riou (eds.), Mélanges offerts à René Crozet à l'occasion de son 70e
+                        anniversaire, Poitiers 1966, II, 1275–1282, at 1278.</bibl>
+                     <bibl>Green-Pedersen, The Tradition of the Topics in the Middle Ages,
+                        p. 400.</bibl>
+                     <bibl>Lohr, Medieval Latin Aristotle Commentaries I, 342.
+                        <note type="biblio">(mentions this manuscript erroneously as
+                           6684)</note></bibl>
+                     <bibl>A. Freckmann, J. Trede, Katalog der lateinischen Handschriften der
+                        Bayerischen Staatsbibliothek München. Clm 6473-6787 und Streubestände
+                        gleicher Provenienz sowie Handschriften aus weiteren Freisinger Klöstern und
+                        Stiften, Wiesbaden 2021, 350–354.</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+
             <!--München, BSB, Clm 14518* issue#4-->
 
             <msDesc xml:id="München_BSB_Clm14518">
