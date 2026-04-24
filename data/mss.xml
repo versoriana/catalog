@@ -4700,38 +4700,52 @@
                   <settlement>München</settlement>
                   <repository>BSB</repository>
                   <idno>Clm 14518</idno>
-                  <idno type="URI">https://www.digitale-sammlungen.de/de/view/bsb00109490</idno>
+                  <idno type="URI"
+                     >https://www.digitale-sammlungen.de/view/bsb00109490?page=%2C1</idno>
                </msIdentifier>
                <msContents>
-                  <!--from Content -->
-                  <summary><ab type="explicit_attribution" cert="0">No</ab></summary>
-                  <!--attribution-->
+                  <summary>
+                     <ab type="explicit_attribution" cert="0">none</ab>
+                     <ab type="general_remarks">Versoris’s commentary alternates with the text of
+                        Peter of Spain’s Summule, which is copied in larger characters with
+                        increased interlinear spacing.</ab>
+                  </summary>
                   <msItem xml:id="München_BSB_Clm14518_CsPH">
-                     <!--Check how to create the string for xml:id. No documentation for now-->
                      <locus from="16r" to="274v"/>
-                     <title ref="#self">CsPH</title>
-                     <note type="desc">Book I ends unfinished on f. 62v with the treatment of modal
-                        propositions <q>bene variantur specie accidentali et ex parte affirmationis
-                           et negationis</q>. The scribe wrote afterwards: <q>require in fine libri
-                           †</q>. Books V and VI are missing.</note>
-                     <note type="desc">Versoris’s commentary alternates with the text of <persName
-                           ref="p_id">Peter of Spain</persName>’s <title ref="w_ID"
-                        >Summulae</title>, which is copied in larger characters with increased
-                        interlinear spacing. </note>
+                     <title ref="workID">CsPH</title>
+                     <colophon n="book IV"><locus from="181v"/>frater Henricus ordinis divi
+                        Benedicti</colophon>
+                     <colophon n="final"><locus from="274v"/>Heinricus Erlbach, tunc temporis
+                        scolaris veteris cappelle Ratisbonensis</colophon>
+                     <note type="content">Book I ends unfinished on f. 62v with the treatment of
+                        modal propositions (<q n="62v">bene variantur specie accidentali et ex parte
+                           affirmationis et negationis</q>). The scribe wrote afterwards: <q n="62v"
+                           >require in fine libri †</q>. Book VII is missing.</note>
                   </msItem>
                </msContents>
+               <physDesc>
+                  <handDesc>
+                     <handNote scope="major" scribeRef="#HenricusErlbach"/>
+                  </handDesc>
+               </physDesc>
                <history>
                   <origin>
-                     <origDate from="1491" to="1491">1491</origDate>
-                     <p>Date as read at the end of book V of <persName ref="p_id">Peter of
-                           Spain</persName>’s <title ref="w_ID">Summulae</title>, f. 193r.</p>
-                     <p>The manuscript was copied and owned by the monk <persName
-                           ref="#HenricusErlbach">Heinrich Erlbach</persName>, from the benedictine
-                        monastery of <orgName>Saint Emmeram</orgName> in
-                           <placeName>Regensburg</placeName>. His name appears in the colophons: <q
-                           n="181v">frater Henricus ordinis divi Benedicti</q>, f. 181v; <q n="274v"
-                           >Heinricus Erlbach, tunc temporis scolaris veteris cappelle
-                           Ratisbonensis</q>, f. 274v.</p>
+                     <origDate from="1491" to="1491">1491, as we read at the end of book V of
+                        Peter of Spain’s Summule, f. 193r.</origDate>
+                     <origPlace>Regensburg</origPlace>
+                     <p>The manuscript was copied by the monk <persName ref="#HenricusErlbach"
+                           >Heinrich Erlbach</persName> of the Benedictine monastery of Saint
+                        Emmeram in Regensburg during his studies at the school of Regensburg Alte
+                        Kapelle, as stated in the final colophon (f. 274v). The scribe signed also
+                        at the end of Book IV (f. 181v).</p>
+                     <note type="msRelationship">
+                        <p><ref target="#München_BSB_Clm14088" type="ms">München, BSB, Clm
+                              14088</ref>; <ref target="#München_BSB_Clm14133" type="ms">Clm
+                              14133</ref>; and <ref target="#München_BSB_Clm14647" type="ms">Clm
+                              14647</ref>, which also belonged to some monks of the Benedictine
+                           monastery of St. Emmeram in Regensburg and therefore came into the
+                           possession of the monastery library.</p>
+                     </note>
                   </origin>
                </history>
                <additional>
@@ -4743,10 +4757,13 @@
                      </recordHist>
                   </adminInfo>
                   <listBibl>
-                     <bibl>Halm/Laubmann 2.2, 196</bibl>
-                     <bibl>Merinhos, 271-272</bibl>
-                     <bibl>not in Markowski</bibl>
-                     <!-- this? -->
+                     <bibl>Halm, Catalogus codicum latinorum Bibliothecae Regiae Monacensis. 2,2,
+                        Codices num. 11001-15028 complectens, p. 196.</bibl>
+                     <bibl>F. Helmer, J. Knödler, Katalog der lateinischen Handschriften der
+                        Bayerischen Staatsbibliothek München. Die Handschriften aus St. Emmeram in
+                        Regensburg. Band 5, Clm 14401–14540, Wiesbaden 2015, p. 423-426.</bibl>
+                     <bibl>Merinhos, Bibliotheca manuscripta Petri Hispani, 271-272.</bibl>
+                     <bibl>Sheffler, Schools and Schooling, 154, 224, 267.</bibl>
                   </listBibl>
                </additional>
             </msDesc>
