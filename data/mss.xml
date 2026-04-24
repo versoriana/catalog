@@ -4652,6 +4652,97 @@
                </additional>
             </msDesc>
 
+            <msDesc xml:id="München_BSB_Clm14647">
+               <msIdentifier>
+                  <settlement>München</settlement>
+                  <repository>BSB</repository>
+                  <idno>Clm 14647</idno>
+                  <idno type="URI"
+                     >https://www.digitale-sammlungen.de/view/bsb00108561?page=%2C1</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     <ab type="explicit_attribution" cert="1">on the outer edge we read: <q
+                           n="outer-edge">Summule Versoris</q></ab>
+                     <ab type="general_remarks">The text contains notes by <persName
+                           ref="#IohannesTegernpeck">Iohannes Tegernpeck</persName>, such as two
+                        lists of lectures he attended in Leipzig, with the dates and names of the
+                        masters (ff. 196r and 302v).</ab>
+                  </summary>
+                  <msItem xml:id="München_BSB_Clm14647_CsPH">
+                     <locus from="1r" to="169v"/>
+                     <title ref="workID">CsPH</title>
+                     <colophon n="book V">
+                        <locus from="116va"/>Et sic finis, per me, Henricum Weyschenfelt, etc.,
+                        professus in claustro sancti Emmerami Ratispone, etc.</colophon>
+                     <colophon n="final">
+                        <locus from="169v"/>Et sic est finis harum Sumularum magistri Petri
+                        Hyspani, anno Domini 1471, feria secunda ante Thome, etc.</colophon>
+                  </msItem>
+                  <msItem xml:id="München_BSB_Clm14647_PetrusHispanus">
+                     <locus from="172r" to="189v"/>
+                     <author>Petrus Hispanus</author>
+                     <title>Syncategoreumata</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <handNote scope="major" scribeRef="#HeinrichBreuVonWaischenfeld"/>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate from="1471" to="1471">1471, as evident from the final colophon
+                        (f. 169v).</origDate>
+                     <origPlace>Regensburg</origPlace>
+                     <p>This is a composite manuscript. The second part (ff. 196–304) was copied in
+                        Leipzig in 1461 and used by <persName ref="#IohannesTegernpeck">Iohannes
+                           Tegernpeck</persName>, who studied there in 1464 and became abbot of St.
+                        Emmeram in Regensburg in 1471. The first part (ff. 1–195, which contains
+                        Versoris's commentary) was copied mostly by <persName
+                           ref="#HeinrichBreuVonWaischenfeld">Heinrich Breu (Preu) von
+                           Waischenfeld</persName> at St. Emmeram, as stated in the colophon of
+                        CsPH, Book V (f. 116va).</p>
+                     <note type="msRelationship">
+                        <p><ref target="#München_BSB_Clm14088" type="ms">München, BSB, Clm
+                              14088</ref>; <ref target="#München_BSB_Clm14133" type="ms">Clm
+                              14133</ref>; and <ref target="#München_BSB_Clm14518" type="ms">Clm
+                              14518</ref>, which also belonged to some monks of the Benedictine
+                           monastery of St. Emmeram in Regensburg and therefore came into the
+                           possession of the monastery library.</p>
+                     </note>
+                  </origin>
+                  <provenance>
+                     <p>The codex belonged to <persName ref="#ErasmusDaum">Erasmus Daum</persName>,
+                        as stated on f. 304v: <q n="304v">Erasmus Dawm est possessor istius
+                           liber</q>.</p>
+                  </provenance>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source cert="high" resp="#">
+                           <p>Ms directly examined</p>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+                  <listBibl>
+                     <bibl>K. F. Halm, Catalogus codicum latinorum Bibliothecae Regiae Monacensis.
+                        2,2, Codices num. 11001–15028 complectens, Monachii, 1876, p. 210.</bibl>
+                     <bibl>Bischoff, Studien zur Geschichte des Klosters St. Emmeram im
+                        Spätmittelalter, 131-132, fn. 198.<note type="biblio">(providing a
+                           transcription of the list of lectures at ff. 196r and
+                        302v)</note></bibl>
+                     <bibl>E. Wunderle, "Heirat und Klostereintritt. Zwei Privatbriefe an den St.
+                        Emmeramer Mönch Heinrich Breu", Bibliotheksforum 22 (1994), p.
+                        164–168.</bibl>
+                     <bibl>F. Helmer, J. Knödler, Katalog der lateinischen Handschriften der
+                        Bayerischen Staatsbibliothek München. Die Handschriften aus St. Emmeram in
+                        Regensburg. Band 5, Clm 14541–14690, Wiesbaden 2019, p. 490-493.</bibl>
+                     <bibl>Meirinhos, Bibliotheca Manuscripta Petri Hispani, 441.</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
 
             <msDesc
                xml:id="München_LudwigMaximiliansUniversitätMünchenUniversitätsbibliothek_2Codms568">
