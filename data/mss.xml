@@ -4605,7 +4605,7 @@
                <msContents>
                   <summary>
                      <ab type="explicit_attribution" cert="1">The final colophon of the
-                        commentaries on the ars nova ascribes them to Versoris (see above). A note
+                        commentaries on the ars nova ascribes them to Versoris. A note
                         in the upper margin of the first leaf of the QdC ascribes them to Versoris:
                            <q n="267r marg-sup">Versoris super primo libro De celo et mundo</q>
                         (f. 267r).</ab>
@@ -4635,8 +4635,7 @@
                         <locus from="264v"/>Et sic est finis huius materie, collecte per Iohannem
                         Versoris, Universitatis Parisiensis magistrum. Et finita est hec materia per
                         me, fratrem Iohannem Tegernpeck, ipso die sanctorum martyrum Fabiani et
-                        Sebastiani, anno Domini M<hi rend="superscript">°</hi>CCCC<hi
-                           rend="superscript">°</hi>67</colophon>
+                        Sebastiani, anno Domini M°CCCC°67</colophon>
                   </msItem>
                   <msItem xml:id="München_BSB_Clm14133_QdC">
                      <locus from="267r" to="296"/>
@@ -4763,7 +4762,8 @@
                <msContents>
                   <summary>
                      <ab type="explicit_attribution" cert="1">on the outer edge we read: <q
-                           n="outer-edge">Summule Versoris</q></ab>
+                           n="fore-edge">Summule Versoris</q></ab>
+                     <!--  The codicological standard term for the outer edge (opposite the spine) is fore-edge. I'd add fore-edge rather than outer-edge since it's the established codicological term.        -->
                      <ab type="general_remarks">The text contains notes by <persName
                            ref="#IohannesTegernpeck">Iohannes Tegernpeck</persName>, such as two
                         lists of lectures he attended in Leipzig, with the dates and names of the
@@ -4782,7 +4782,7 @@
                   <msItem xml:id="München_BSB_Clm14647_PetrusHispanus">
                      <locus from="172r" to="189v"/>
                      <author>Petrus Hispanus</author>
-                     <title>Syncategoreumata</title>
+                     <title ref="xx">Syncategoreumata</title>
                   </msItem>
                </msContents>
                <physDesc>
