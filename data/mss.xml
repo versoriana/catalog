@@ -4594,6 +4594,106 @@
                </additional>
             </msDesc>
 
+            <msDesc xml:id="München_BSB_Clm14133">
+               <msIdentifier>
+                  <settlement>München</settlement>
+                  <repository>BSB</repository>
+                  <idno>Clm 14133</idno>
+                  <idno type="URI"
+                     >https://www.digitale-sammlungen.de/view/bsb00035478?page=%2C1</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     <ab type="explicit_attribution" cert="1">The final colophon of the
+                        commentaries on the ars nova ascribes them to Versoris (see above). A note
+                        in the upper margin of the first leaf of the QdC ascribes them to Versoris:
+                           <q n="267r marg-sup">Versoris super primo libro De celo et mundo</q>
+                        (f. 267r).</ab>
+                  </summary>
+                  <msItem xml:id="München_BSB_Clm14133_QsPri">
+                     <locus from="142r" to="164r"/>
+                     <title ref="workID">QsPri</title>
+                     <colophon n="final">
+                        <locus from="164r"/>Explicit liber Priorum Analeticorum, anno Domini
+                        millesimo quadringentesimo sexagesimo septimo, feria tertia post
+                        'Invocavit'</colophon>
+                  </msItem>
+                  <msItem xml:id="München_BSB_Clm14133_QsPos">
+                     <locus from="166r" to="201r"/>
+                     <title ref="workID">QsPos</title>
+                  </msItem>
+                  <msItem xml:id="München_BSB_Clm14133_QsTop">
+                     <locus from="201r" to="243v"/>
+                     <title ref="workID">QsTop I–IV</title>
+                     <note type="content">Completed with questions on Books V–VIII not
+                        corresponding to the editions printed under Versoris's name.</note>
+                  </msItem>
+                  <msItem xml:id="München_BSB_Clm14133_QsSE">
+                     <locus from="244r" to="264v"/>
+                     <title ref="workID">QsSE</title>
+                     <colophon n="final">
+                        <locus from="264v"/>Et sic est finis huius materie, collecte per Iohannem
+                        Versoris, Universitatis Parisiensis magistrum. Et finita est hec materia per
+                        me, fratrem Iohannem Tegernpeck, ipso die sanctorum martyrum Fabiani et
+                        Sebastiani, anno Domini M<hi rend="superscript">°</hi>CCCC<hi
+                           rend="superscript">°</hi>67</colophon>
+                  </msItem>
+                  <msItem xml:id="München_BSB_Clm14133_QdC">
+                     <locus from="267r" to="296"/>
+                     <title ref="workID">QdC</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <handNote scope="major" scribeRef="#IohannesTegernpeck"/>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate from="1467" to="1467">1467. This date applies to the part of the
+                        manuscript containing Versoris's texts, as evidenced by two colophons
+                        (f. 164r; f. 264v).</origDate>
+                     <origPlace>Leipzig</origPlace>
+                     <p>According to the modern catalogue, the colophons on folios 136v and 264v
+                        suggest that the manuscript originated in Regensburg. However, neither of
+                        these colophons mentions Regensburg. Certainly, <persName
+                           ref="#IohannesTegernpeck">Iohannes Tegernpeck</persName>, who copied
+                        Versoris's texts, served as abbot of the Benedictine monastery of St.
+                        Emmeram in Regensburg from 1471 to 1493. Nevertheless, this copy dates from
+                        his period of study in Leipzig.</p>
+                     <note type="msRelationship">
+                        <p><ref target="#München_BSB_Clm14088" type="ms">München, BSB, Clm
+                              14088</ref>; <ref target="#München_BSB_Clm14518" type="ms">Clm
+                              14518</ref>; and <ref target="#München_BSB_Clm14647" type="ms">Clm
+                              14647</ref>, which also belonged to some monks of the Benedictine
+                           monastery of St. Emmeram in Regensburg and therefore came into the
+                           possession of the monastery library.</p>
+                     </note>
+                  </origin>
+                  <provenance>
+                     <p>The codex was owned by <persName ref="#HermannPötzlinger">Hermann
+                           Pötzlinger</persName>, a monk at St. Emmeram who also studied at the
+                        University of Leipzig, and subsequently by <persName ref="#ErasmusDaum"
+                           >Erasmus Daum</persName>, subprior of the monastery.</p>
+                  </provenance>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source cert="high" resp="#">
+                           <p>Ms directly examined</p>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+                  <listBibl>
+                     <bibl>Green-Pedersen, The Tradition of the Topics, p. 400.</bibl>
+                     <bibl>E. Wunderle, Katalog der lateinischen Handschriften der Bayerischen
+                        Staatsbibliothek München. Die Handschriften aus St. Emmeram in Regensburg,
+                        Bd. 2: Clm 14131–14260, Wiesbaden, 2005, p. 7–9.</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+
             <!--München, BSB, Clm 14518* issue#4-->
 
             <msDesc xml:id="München_BSB_Clm14518">
