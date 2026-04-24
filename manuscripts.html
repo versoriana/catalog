@@ -210,6 +210,14 @@
 						});
 						return link;
 					}
+					if (target && (target.startsWith('http://') || target.startsWith('https://'))) {
+						const link = document.createElement('a');
+						link.href = target;
+						link.textContent = e.textContent;
+						link.target = '_blank';
+						link.rel = 'noopener noreferrer';
+						return link;
+					}
 					return null;
 				},
 				"idno": function(e) {
