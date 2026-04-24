@@ -680,7 +680,7 @@
             <msDesc xml:id="Basel_UB_FIV4">
                <msIdentifier>
                   <settlement>Basel</settlement>
-                  <repository>UB</repository>
+                  <repository>Universitätsbibliothek</repository>
                   <idno>F VI 4</idno>
                </msIdentifier>
                <msContents>
@@ -713,7 +713,7 @@
             <msDesc xml:id="Basel_UB_FIII10">
                <msIdentifier>
                   <settlement>Basel</settlement>
-                  <repository>UB</repository>
+                  <repository>Universitätsbibliothek</repository>
                   <idno>F III 10</idno>
                </msIdentifier>
                <msContents>
@@ -865,7 +865,7 @@
             <msDesc xml:id="Basel_UB_FIII11">
                <msIdentifier>
                   <settlement>Basel</settlement>
-                  <repository>UB</repository>
+                  <repository>Universitätsbibliothek</repository>
                   <idno>F III 11</idno>
                </msIdentifier>
                <msContents>
@@ -994,7 +994,7 @@
             <msDesc xml:id="Basel_UB_FIII12">
                <msIdentifier>
                   <settlement>Basel</settlement>
-                  <repository>UB</repository>
+                  <repository>Universitätsbibliothek</repository>
                   <idno>F III 12</idno>
                </msIdentifier>
                <msContents>
@@ -1089,7 +1089,7 @@
             <msDesc xml:id="Basel_UB_FV9">
                <msIdentifier>
                   <settlement>Basel</settlement>
-                  <repository>UB</repository>
+                  <repository>Universitätsbibliothek</repository>
                   <idno>F V 9</idno>
                </msIdentifier>
                <msContents>
@@ -1176,7 +1176,7 @@
             <msDesc xml:id="Basel_UB_FVI4">
                <msIdentifier>
                   <settlement>Basel</settlement>
-                  <repository>UB</repository>
+                  <repository>Universitätsbibliothek</repository>
                   <idno>F VI 4</idno>
                </msIdentifier>
                <msContents>
@@ -1252,7 +1252,7 @@
             <msDesc xml:id="Basel_UB_FVI16">
                <msIdentifier>
                   <settlement>Basel</settlement>
-                  <repository>UB</repository>
+                  <repository>Universitätsbibliothek</repository>
                   <idno>F VI 16</idno>
                </msIdentifier>
                <msContents>
@@ -1349,7 +1349,7 @@
             <msDesc xml:id="Basel_UB_FVI67">
                <msIdentifier>
                   <settlement>Basel</settlement>
-                  <repository>UB</repository>
+                  <repository>Universitätsbibliothek</repository>
                   <idno>F VI 67</idno>
                </msIdentifier>
                <msContents>
@@ -1443,7 +1443,7 @@
             <msDesc xml:id="Basel_UB_FVII11">
                <msIdentifier>
                   <settlement>Basel</settlement>
-                  <repository>UB</repository>
+                  <repository>Universitätsbibliothek</repository>
                   <idno>F VII 11</idno>
                </msIdentifier>
                <msContents>
@@ -2668,7 +2668,7 @@
             <msDesc xml:id="Kraków_BJ_908">
                <msIdentifier>
                   <settlement>Kraków</settlement>
-                  <repository>BJ</repository>
+                  <repository>Biblioteka Jagiellońska</repository>
                   <idno>908</idno>
                   <idno type="URI">https://jbc.bj.uj.edu.pl/publication/638126</idno>
                </msIdentifier>
