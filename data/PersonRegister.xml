@@ -696,6 +696,7 @@
                   General Chapter of the Order in Rome in 1484.</note>
                <affiliation subtype="OP" type="religiousOrder">Dominican</affiliation>
                <occupation role="fmo scr" ref="#Eichstätt_UB_Cod686"/>
+               <occupation role="fmo" ref="#Eichstätt_Universitätsbibliothek_CodSt476"/>
                <listBibl>
                   <bibl>Hoenen, Speculum.</bibl>
                </listBibl>

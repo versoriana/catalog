@@ -2070,6 +2070,59 @@
                </additional>
             </msDesc>
 
+            <msDesc xml:id="Eichstätt_Universitätsbibliothek_CodSt476">
+               <msIdentifier>
+                  <settlement>Eichstätt</settlement>
+                  <repository>Universitätsbibliothek</repository>
+                  <idno>Cod. St. 476</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     <ab type="explicit_attribution" cert="0">none</ab>
+                  </summary>
+                  <msItem xml:id="Eichstätt_Universitätsbibliothek_CodSt476_QsP">
+                     <locus from="126ra" to="236rb"/>
+                     <title ref="workID">QsP</title>
+                  </msItem>
+                  <msItem xml:id="Eichstätt_Universitätsbibliothek_CodSt476_QdA">
+                     <locus from="242ra" to="289ra"/>
+                     <title ref="workID">QdA</title>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <!-- @from="1440" is an editorial estimate; the source gives only a terminus ante quem -->
+                     <origDate from="1440" to="1456">The codex was copied in Leipzig before its
+                        acquisition by Georg Schwarz, that is, before 1456.</origDate>
+                     <origPlace>Leipzig</origPlace>
+                  </origin>
+                  <provenance>
+                     <p>The codex was purchased by <persName ref="#GeorgSchwarz">Georg
+                           Schwarz</persName> during his stay in Leipzig (1456–1458). From him it
+                        passed into the library of the Dominican convent of Eichstätt, as is evident
+                        from the following ownership marks: <q n="2r marg-sup">Iste liber est
+                           conventus Eystetensis</q> (f. 2r, marg. sup.); <q n="128ra">Presens
+                           liber comparatus est a fratre Georgio Swarcz dum erat in Lipczk</q> (f.
+                        128ra); <q n="242r">Isti quatuor sexterni pertinent conventui Eystetensi,
+                           comparati a fratre Georgio Swarcz</q> (f. 242r).</p>
+                  </provenance>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Aristoteles latinus I, 649.</bibl>
+                     <bibl>Hoenen, Speculum philosophiae, 18–29.</bibl>
+                     <bibl>A. Thirry, "À propos de certains commentaires médiévaux du De anima
+                        d'Aristote: résultats de quelques recherches", Bulletin de philosophie
+                        médiévale, 8–9 (1966–1967), 63–87, at 77–90.<note type="biblio">[presenting
+                           the list of questions of Book III in synopsis with Oxford, Bodleian
+                           Library, Canon. Misc. 211]</note></bibl>
+                     <bibl>K. H. Keller, Die mittelalterlichen Handschriften der
+                        Universitätsbibliothek Eichstätt: Bd. 2. Aus Cod. st 276-Cod. st 470,
+                        Wiesbaden 2004, 20–23.</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+
             <msDesc xml:id="Gießen_UniversitätsbibliothekGießen_Hs52">
                <msIdentifier>
                   <settlement>Gießen</settlement>
