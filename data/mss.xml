@@ -281,8 +281,8 @@
                   <origin>
                      <origDate from="1467" to="1467">1476</origDate>
                      <p>The manuscript can be tentatively dated and localized on the basis of a
-                        fleur-de-lis watermark corresponding to Briquet 7216, attested in Angers in
-                        1467.</p>
+                        <watermark>fleur-de-lis watermark corresponding to Briquet 7216, attested
+                           in Angers in 1467</watermark>.</p>
                   </origin>
                </history>
                <additional>
@@ -810,9 +810,10 @@
                         QsP, book VI, f. 90va; QdC, book II, f. 149rb; QdG, book I, f. 171vb; QdA,
                         final colophon, f. 259va; QsMeta, book III, f. 309ra; QsMeta, book IV, f.
                         318va; QsMeta, final colophon, f. 338rb.</p>
-                     <p>In the first part of the volume, a watermark similar to Piccard, Lilie, III
-                        1453 (Metz, 1477); in the second part, a mermaid watermark similar to
-                        Briquet 13858 (Troyes, 1458–1461).</p>
+                     <p>In the first part of the volume, a <watermark>watermark similar to Piccard,
+                           Lilie, III 1453 (Metz, 1477)</watermark>; in the second part, a
+                        <watermark>mermaid watermark similar to Briquet 13858 (Troyes,
+                           1458–1461)</watermark>.</p>
                      <note type="msRelationship">
                         <p><ref target="#Basel_UB_FII14" type="ms">Basel, UB, F II 14</ref>; <ref
                               target="#Basel_UB_FIII11" type="ms">F III 11</ref>; <ref
@@ -1121,10 +1122,11 @@
                   <origin>
                      <origDate from="1465" to="1474">ca. 1469. The watermarks indicate a date in the
                         third quarter of the fifteenth century. The first variant of the letter P
-                        (most clearly visible on f. 139) corresponds to Piccard IX 1041, attested in
-                        Basel in 1465–1466. The second variant (visible on f. 233) corresponds to
-                        Piccard IX 1067, used in Basel in 1469. The third variant (visible on f.
-                        296) corresponds to Piccard IX 998, attested in Basel in 1474. Versoris’s
+                        (most clearly visible on f. 139) corresponds to <watermark>Piccard IX 1041,
+                           attested in Basel in 1465–1466</watermark>. The second variant (visible
+                        on f. 233) corresponds to <watermark>Piccard IX 1067, used in Basel in
+                           1469</watermark>. The third variant (visible on f. 296) corresponds to
+                        <watermark>Piccard IX 998, attested in Basel in 1474</watermark>. Versoris’s
                         commentary was therefore likely copied around 1469.</origDate>
                      <origPlace>Basel</origPlace>
                      <note type="msRelationship">
@@ -1219,8 +1221,9 @@
                </msContents>
                <history>
                   <origin>
-                     <origDate from="1476" to="1476">The watermark, depicting a cluster of grapes,
-                        corresponds to Piccard Frucht I 1171, used in Basel in 1476.</origDate>
+                     <origDate from="1476" to="1476">The <watermark>watermark, depicting a cluster
+                           of grapes, corresponds to Piccard Frucht I 1171, used in Basel in
+                           1476</watermark>.</origDate>
                      <origPlace>Basel</origPlace>
                      <p>The manuscript itself contains no explicit indication of its provenance, but
                         the watermark was used in Basel. This Basel origin is further supported by
@@ -1301,8 +1304,8 @@
                            owned by <persName ref="#IohannesHeynlinDeLapide">Iohannes de
                               Lapide</persName>.</p>
                         <p><ref target="#Wroclaw_BU_MsIVF1" type="ms">Wrocław, Biblioteka
-                              Uniwersytecka, Ms. IV F 1</ref>, which contains the same fleur-de-lis
-                           watermark with shield, tournament collar and cross with nails.</p>
+                              Uniwersytecka, Ms. IV F 1</ref>, which contains the same <watermark>fleur-de-lis
+                              watermark with shield, tournament collar and cross with nails</watermark>.</p>
                      </note>
                   </origin>
                   <provenance>
@@ -2029,19 +2032,20 @@
                      <p>1459, as stated in the <ref target="#Colmar_BM_223_QsP">colophon of
                            QsP</ref>. Although, at the end of book I (f. 12v), we read (by a
                         different hand) the date 1491, the previous dating is confirmed by the
-                        watermak: a P similar to <bibl corresp="ID">Briquet 8593</bibl> (widespread,
-                        among other places, in Basel, 1461-1464, and in Strasbourg, 1463). </p>
+                        watermak: <watermark>a P similar to Briquet 8593
+                           (widespread, among other places, in Basel, 1461-1464, and in Strasbourg,
+                           1463)</watermark>. </p>
                      <p>the volume consists of three parts (Metaph; Phy; QdA, PN) copied by
                         different hands and presenting different watermarks. The QsM/QsP and the
-                        QdA/QPN are separated by a guard leaf. The QdA/QPN contain a watermark
-                        similar to <bibl corresp="ID">Piccard Lilie I 683-686</bibl> (Frankfurt
-                        a.M., Aachen Cologne, Brugge, 1478-1481). Their origin seems therefore to be
+                        QdA/QPN are separated by a guard leaf. The QdA/QPN contain a <watermark>watermark
+                        similar to Piccard Lilie I 683-686 (Frankfurt
+                        a.M., Aachen Cologne, Brugge, 1478-1481)</watermark>. Their origin seems therefore to be
                         different from the parts containing the QsM and the QsP.</p>
                      <p>Many of the enluminures at the beginning of the books have been ripped
                         out.</p>
                      <note type="msRelationship">The <ref target="#Colmar_BM_223_QsP">section
-                           transmitting the QsP</ref> contains the same watermark (Frucht similar to
-                           <bibl corresp="ID">Piccard I 393-398</bibl>) of <ref
+                           transmitting the QsP</ref> contains the same <watermark>watermark (Frucht similar to
+                           Piccard I 393-398)</watermark> of <ref
                            target="#Basel_UB_F-VI-4">ms. Basel, UB F VI 4</ref></note>
                   </origin>
                   <provenance><p>The manuscript belonged to the <orgName>convent of the
@@ -4150,9 +4154,9 @@
                            >Explicit liber Ethicorum Aristotelis, finitus Parisius per manus
                            Iohannis Duss, Leodicensis dyocesis, anno Domini M° CCCC° XLVIII° in
                            profesto purificationis Marie, infra nonam et decimam horas, cena
-                           peracta</q> (f. 82ra). The watermark found throughout the texts
-                        attributed to Versoris is a crossbow, corresponding to Briquet 726 (Troyes,
-                        1447).</p>
+                           peracta</q> (f. 82ra). The <watermark>watermark found throughout the
+                           texts attributed to Versoris is a crossbow, corresponding to Briquet 726
+                           (Troyes, 1447)</watermark>.</p>
                   </origin>
                </history>
                <additional>
@@ -4989,8 +4993,9 @@
                </msContents>
                <history>
                   <origin>
-                     <p>The watermark (a unicorn particularly visible in the last quire) is very
-                        similar to Piccard X, III, 2136 (Wesel, 1478) and 2137 (Wesel 1475).</p>
+                     <p>The <watermark>watermark (a unicorn particularly visible in the last quire)
+                           is very similar to Piccard X, III, 2136 (Wesel, 1478) and 2137 (Wesel
+                           1475)</watermark>.</p>
                      <origPlace>Regensburg</origPlace>
                      <p>Regensburg, as stated in the colophon on f. 93ra.</p>
                   </origin>
@@ -5543,13 +5548,14 @@
                <history>
                   <origin>
                      <origDate from="1457" to="1460">Undated</origDate>
-                     <p>The manuscript is undated. A watermark appears throughout the volume—a
-                        fleur-de-lis (particularly visible on ff. 39, 59, 65, 66, 120–121, 137, 149,
-                        207)—similar to Briquet 6911, attested in Paris in 1457, with a similar
-                        variant recorded in 1460. Another watermark, an anchor (visible on f. 101),
-                        is very similar to Briquet 391, attested in Bagé in 1452, as well as to
-                        Piccard II 516, attested in Brugges in 1452, and 517, attested in Mehelen in
-                        1456. </p>
+                     <p>The manuscript is undated. A <watermark>watermark appears throughout the
+                           volume—a fleur-de-lis (particularly visible on ff. 39, 59, 65, 66,
+                           120–121, 137, 149, 207)—similar to Briquet 6911, attested in Paris in
+                           1457, with a similar variant recorded in 1460</watermark>. Another
+                        <watermark>watermark, an anchor (visible on f. 101), is very similar to
+                           Briquet 391, attested in Bagé in 1452, as well as to Piccard II 516,
+                           attested in Brugges in 1452, and 517, attested in Mehelen in
+                           1456</watermark>. </p>
                      <p>The manuscript was copied by a single student, <persName
                            ref="#SimonDeHorreo">Simon de Horreo</persName>, in Paris, at the school
                         of the master Iohannes Hameron, as attested by the colophons: QsP, final
@@ -8214,8 +8220,9 @@
                         <p>
                            <ref target="#Berlin_SBPK_latfol402" type="ms">Berlin, Staatsbibliothek –
                               PK, lat. fol. 402</ref>, which features a watermark identical to one
-                           found in this manuscript (a unicorn, Piccard X 3 2010, particularly
-                           visible on fol. 21), widespread in the years 1448–1449.</p>
+                           found in this manuscript (a <watermark>unicorn, Piccard X 3 2010,
+                              particularly visible on fol. 21, widespread in the years
+                              1448–1449</watermark>).</p>
                      </note>
                   </origin>
                   <provenance>
@@ -8274,7 +8281,8 @@
                      <origDate from="1490" to="1490">1490–1491, as inferred from the
                         watermarks.</origDate>
                      <p>The watermarks, typical of the Upper Rhine and Schwarzwald regions, contain
-                        the coat of arms of the city of Offenburg (Piccard: Turm XVII 191/193).</p>
+                        the <watermark>coat of arms of the city of Offenburg (Piccard: Turm XVII
+                           191/193)</watermark>.</p>
                   </origin>
                   <provenance>
                      <p>The manuscript arrived in Stuttgart in 1765.</p>
@@ -8326,17 +8334,19 @@
                         can be found in the texts. However, the binding—produced in Danzig between
                         1433 and 1436—suggests the manuscript was copied before that date. The
                         watermarks indicate a likely origin between the late 1420s and early 1430s,
-                        in a region between South Tyrol and Bavaria. For instance, the oxhead with
-                        flower at f. 1 is quite similar (though not identical) to Piccard II.3 XII
-                        65 (1424, 1426, München); the oxhead with cross at ff. 11, 69 resembles
-                        Piccard II.3 XI 117/118 (1430–1436, Dillingen, Tramin, among others); the
-                        oxhead with flower at f. 145 corresponds to Piccard II.3 XIII 291
-                        (1422–1424, Innsbruck, Landshut, Mergentheim, Nürnberg, Schwäbisch Hall);
-                        and the oxhead with flower at ff. 347, 355, 360 is quite similar to Piccard
-                        II.3 XII 204/205 (1434–1436, Freising, Haselbach, Kamerau, Marienburg) and
-                        very similar to Briquet 14782 (Tyrol, 1432; Brunswick, 1435). I was not able
-                        to identify the oxhead with nostrils (f. 137) or the crown (f. 267) in
-                        either Briquet or Piccard.</p>
+                        in a region between South Tyrol and Bavaria. For instance, the
+                        <watermark>oxhead with flower at f. 1 is quite similar (though not
+                           identical) to Piccard II.3 XII 65 (1424, 1426, München)</watermark>; the
+                        <watermark>oxhead with cross at ff. 11, 69 resembles Piccard II.3 XI
+                           117/118 (1430–1436, Dillingen, Tramin, among others)</watermark>; the
+                        <watermark>oxhead with flower at f. 145 corresponds to Piccard II.3 XIII 291
+                           (1422–1424, Innsbruck, Landshut, Mergentheim, Nürnberg, Schwäbisch
+                           Hall)</watermark>; and the <watermark>oxhead with flower at ff. 347, 355,
+                           360 is quite similar to Piccard II.3 XII 204/205 (1434–1436, Freising,
+                           Haselbach, Kamerau, Marienburg) and very similar to Briquet 14782 (Tyrol,
+                           1432; Brunswick, 1435)</watermark>. I was not able
+                        to identify the <watermark>oxhead with nostrils (f. 137)</watermark> or the
+                        <watermark>crown (f. 267)</watermark> in either Briquet or Piccard.</p>
                   </origin>
                   <provenance><p>The manuscript was later located in Wiblingen (near Ulm), as
                         evidenced by its mention in the 1632 catalogue. On f. 2r is written: <q
@@ -8766,8 +8776,8 @@
                               435</ref>; <ref target="#Paris_BnF_latin6691" type="ms">Paris, BnF,
                               latin 6691</ref>, also copied in the Collège de Bourgogne.</p>
                         <p><ref target="#Basel_UB_FVI16" type="ms">Basel, UB, F VI 16</ref>, which
-                           contains the same fleur-de-lis watermark with shield, tournament collar
-                           and cross with nails.</p>
+                           contains the same <watermark>fleur-de-lis watermark with shield, tournament
+                              collar and cross with nails</watermark>.</p>
                      </note>
                   </origin>
                   <provenance>
