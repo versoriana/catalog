@@ -1096,7 +1096,7 @@
                   <surname type="variant">Zei</surname>
                </persName>
                <persName type="sort">Ceyll, Iohannes</persName>
-               <occupation role="scr" ref="#Nürnberg_StadtbibliothekmBildungscampusNürnberg_CentV47"
+               <occupation role="scr" ref="#Nürnberg_StadtbibliothekimBildungscampusNürnberg_CentV47"
                />
             </person>
             <person xml:id="IohannesCoromines">
@@ -1591,7 +1591,7 @@
                <note>Matriculated at Cracow University in 1478 and obtained the degree of Master of
                   Arts in 1488. He lectured at the Faculty of Arts until 1512 while studying
                   theology; he became Doctor of Theology in 1517.</note>
-               <occupation role="fmo" ref="#Kraków_BibliotekaJagiellońska_Cod740"/>
+               <occupation role="fmo" ref="#Kraków_BibliotekaJagiellońska_cod740"/>
                <listBibl>
                   <bibl>Polski Słownik Biograficzny (PSB), vol. 6, 357</bibl>
                   <bibl>Filozofia w Polsce. Słownik Pisarzy, 140–143</bibl>

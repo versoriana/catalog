@@ -676,12 +676,12 @@
                </additional>
             </msDesc>
 
-            <!-- Basel UB F VI 4 -->
+            <!-- Basel UB F IV 4 -->
             <msDesc xml:id="Basel_UB_FIV4">
                <msIdentifier>
                   <settlement>Basel</settlement>
                   <repository>Universitätsbibliothek</repository>
-                  <idno>F VI 4</idno>
+                  <idno>F IV 4</idno>
                </msIdentifier>
                <msContents>
                   <summary><ab type="explicit_attribution" cert="0">No</ab></summary>
