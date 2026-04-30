@@ -2345,6 +2345,126 @@
                </additional>
             </msDesc>
 
+            <!-- Graz, Universitätsbibliothek, Ms. 853 issue#150 -->
+            <msDesc xml:id="Graz_UB_Ms853">
+               <msIdentifier>
+                  <settlement>Graz</settlement>
+                  <repository>Universitätsbibliothek</repository>
+                  <idno>Ms. 853</idno>
+                  <idno type="URI"
+                     >https://unipub.uni-graz.at/obvugrscript/content/titleinfo/11239407</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     <ab type="explicit_attribution" cert="1">The commentaries are ascribed to
+                        Iohannes Versoris in the colophon of the QsMete (f. 313r), as well as in a
+                        table of contents written by a medieval hand at f. 1r: <q n="1r">In isto
+                           libro continentur questiones magistri Iohannis Versoris super octo libros
+                           Physicorum, super duos primos libros et super quartum De celo et mundo
+                           (tertius non legitur ordinarie), super duos De generatione et
+                           corruptione, Parva naturalia: De sensu et sensato, De memoria et
+                           reminiscentia, De sompno et vigilia, De longitudine et brevitate vite;
+                           ultimo tres libri Meteororum</q>.</ab>
+                  </summary>
+                  <msItem xml:id="Graz_UB_Ms853_QsP">
+                     <locus from="1r" to="149v"/>
+                     <title ref="workID">QsP</title>
+                  </msItem>
+                  <msItem xml:id="Graz_UB_Ms853_QdC">
+                     <locus from="150r" to="198v"/>
+                     <title ref="workID">QdC</title>
+                     <colophon>
+                        <locus from="198v"/>Et hoc de questione, et per consequens de toto libro De
+                        celo et mundo Aristotelis dicta sufficiant, per me, Gerardum Arnhem
+                     </colophon>
+                  </msItem>
+                  <msItem xml:id="Graz_UB_Ms853_QdG">
+                     <locus from="200r" to="237r"/>
+                     <title ref="workID">QdG</title>
+                     <colophon>
+                        <locus from="237r"/>Et sic finitur secundus De generatione, et per
+                        consequens libri De geneneratione Aristotelis dicta sufficiant, per me,
+                        Gerardum Arnhem </colophon>
+                  </msItem>
+                  <msItem xml:id="Graz_UB_Ms853_QdSen">
+                     <locus from="238r" to="257r"/>
+                     <title ref="workID">QdSen</title>
+                     <colophon>
+                        <locus from="257r"/>Finitum est iste liber per me, Gerardum Arnhem, hora
+                        quasi nona de vespris in profesto Assumptionis beate Marie virginis
+                     </colophon>
+                  </msItem>
+                  <msItem xml:id="Graz_UB_Ms853_QdMem">
+                     <locus from="258r" to="261v"/>
+                     <title ref="workID">QdMem</title>
+                  </msItem>
+                  <msItem xml:id="Graz_UB_Ms853_QdSom">
+                     <locus from="262r" to="269v"/>
+                     <title ref="workID">QdSom</title>
+                  </msItem>
+                  <msItem xml:id="Graz_UB_Ms853_QdLon">
+                     <locus from="270r" to="272v"/>
+                     <title ref="workID">QdLon</title>
+                     <colophon n="final">
+                        <locus from="272v"/>Et hec de questione, et per consequens de toto libro
+                        Parvorum naturalium dicta sufficiant, per me, Gerardum Arnhem </colophon>
+                  </msItem>
+                  <msItem xml:id="Graz_UB_Ms853_QsMete">
+                     <locus from="274r" to="313r"/>
+                     <title ref="workID">QsMete</title>
+                     <colophon>
+                        <locus from="313r"/>finitum et completum per me, Gerardum Arnhem, hora quasi
+                        quarta, in festo sancti Bartholomei apostoli […]. Expliciunt questiones
+                        Versoris libri Meteororum Aristotelis, scripte nec non complete in bursa
+                        venerabilis viri magistri Gerardi de Monte, professoris eximii</colophon>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <handNote scope="major" scribeRef="#GerardusArnhem"/>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate from="1467" to="1467">1467, as stated at the end of the QsP (f.
+                        149v).</origDate>
+                     <origPlace ref="#place_cologne">Cologne</origPlace>
+                     <p>The manuscript was copied in Cologne, in the Thomist Bursa of Gerard of
+                        Monte, by <persName ref="#GerardusArnhem">Gerardus Arnhem</persName>, as
+                        stated in the colophon of the QsMete (f. 313r). After the colophon, the
+                        scribe sketched a human face labeled "Gerardus", which could represent
+                        either a self-portrait or a depiction of the master Gerardus de Monte.
+                        Gerardus Arnhem also signed the colophons of other texts contained within
+                        the same codex: QdC, f. 198v; QdG, f. 237r; QdSen, f. 257r; QdLon, Final colophon, f. 272v:</p>
+                  </origin>
+                  <provenance>
+                     <p>The codex later came into the possession of the Dominican convent of Ptuj
+                        (German: Pettau), now in Slovenia, as evidenced by the following ownership
+                        marks, both inscribed within the spaces reserved for large initials: <q
+                           n="1r">Iste liber est conventus bettoviensis ordinis predicatorum in
+                           Styria</q>, f. 1r; <q n="292r">Iste liber est conventus pettoviensis
+                           ordinis predicatorum in Styria</q>, f. 292r.</p>
+                  </provenance>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source cert="high" resp="#">
+                           <p>Ms directly examined.</p>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+                  <listBibl>
+                     <bibl>Kristeller, Iter VI, p. 423a.</bibl>
+                     <bibl>M. Mairold, Die datierten Handschriften der Universitätsbibliothek Graz
+                        bis zum Jahre 1600. 1. Teil: Text. 2. Teil: Tafeln (Katalog der datierten
+                        Handschriften in lateinischer Schrift in Österreich 6), Wien 1979, 88; Abb.
+                        288.</bibl>
+                     <bibl>Markowski, Aristotelica Austriaca, 50, 59, 62, 65, 73, 187.</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+
             <msDesc xml:id="Greifswald_GeistlichesMinisterium_26DI">
                <msIdentifier>
                   <settlement>Greifswald</settlement>
@@ -4157,10 +4277,11 @@
                      <locus from="1r" to="8r"/>
                      <title ref="workID">QsY</title>
                      <colophon n="final">
-                        <locus from="8r"/>per me, fratrem Wolfgangum Albeg de Monaco [add. in marg.: sacre theologie baccalaureum], ordinis fratrum
-                        Predicatorum, conventus Znaymensis, scriptum est hoc volumen anno Domini
-                        1497 in vigilia sancti Iohannis Baptiste in Olomuncz [add.: me ibidem existentem, eiusdem conventus studentem sacre pagine]
-                     </colophon>
+                        <locus from="8r"/>per me, fratrem Wolfgangum Albeg de Monaco [add. in marg.:
+                        sacre theologie baccalaureum], ordinis fratrum Predicatorum, conventus
+                        Znaymensis, scriptum est hoc volumen anno Domini 1497 in vigilia sancti
+                        Iohannis Baptiste in Olomuncz [add.: me ibidem existentem, eiusdem conventus
+                        studentem sacre pagine] </colophon>
                   </msItem>
                </msContents>
                <physDesc>
@@ -4170,7 +4291,7 @@
                </physDesc>
                <history>
                   <origin>
-                     <origDate from="1497" to="1497" />
+                     <origDate from="1497" to="1497"/>
                      <origPlace>Olomouc</origPlace>
                      <p>The QsY were copied in Olomouc by <persName ref="#WolfgangAlbegDeMonaco"
                            >Wolfgang Albeg de Monaco</persName>, a Dominican friar of the convent of
