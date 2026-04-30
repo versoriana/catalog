@@ -2054,6 +2054,21 @@
                   <bibl>Gabriel, "The House of Poor German Students", 184–185</bibl>
                </listBibl>
             </person>
+            <person xml:id="WolfgangAlbegDeMonaco">
+               <persName>
+                  <forename type="preferred">Wolfgang</forename>
+                  <surname type="preferred">Albeg</surname>
+                  <nameLink type="preferred">de</nameLink>
+                  <surname type="preferred">Monaco</surname>
+               </persName>
+               <persName type="sort">Albeg de Monaco, Wolfgang</persName>
+               <note>This Dominican friar from the convent of Znojmo, Moravia, copied the QsY in 1497.</note>
+               <affiliation type="religiousOrder" subtype="OP">Dominican</affiliation>
+               <occupation role="scr fmo" ref="#LaHaye_KoninklijkeBibliotheek_ms169C3"/>
+               <listBibl>
+                  <bibl>Gumbert, Manuscrits datés, vol. 2.1, p. 251-252.</bibl>
+               </listBibl>
+            </person>
             <person xml:id="YvoQuentel">
                <persName>
                   <forename type="preferred">Yvo</forename>
