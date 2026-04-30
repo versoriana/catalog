@@ -752,10 +752,10 @@ tei-msPart > tei-msIdentifier tei-idno {
 /* URI link container */
 .entry-link {
     position: absolute;
-    top: 12px;
-    right: 14px;
+    top: 10px;
+    right: 12px;
     color: #adb5bd;
-    font-size: 0.95em;
+    font-size: 1.2em;
     text-decoration: none;
     line-height: 1;
 }
