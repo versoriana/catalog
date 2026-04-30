@@ -185,7 +185,9 @@
                   <idno type="URI">https://arca.irht.cnrs.fr/ark:/63955/md65v692t912</idno>
                </msIdentifier>
                <msContents>
-                  <summary><ab type="explicit_attribution" cert="0">No</ab></summary>
+                  <summary>
+                     <ab type="explicit_attribution" cert="0">none</ab>
+                  </summary>
                   <msItem xml:id="AmiensBibliothèqueLouisAragonBibliothèquemunicipale_402_QsP">
                      <locus from="1ra" to="112va"/>
                      <title ref="QsP">QsP</title>
@@ -201,16 +203,17 @@
                   <msItem xml:id="AmiensBibliothèqueLouisAragonBibliothèquemunicipale_402_QsMete">
                      <locus from="189ra" to="203vb"/>
                      <title ref="QsMete">QsMete</title>
-                     <note type="desc">The QsMete is interrupted at question II.1. They are followed
-                        by 19 blanck numbered leaves, after which the QdA begin. </note>
+                     <note type="content">The QsMete is interrupted at question II.1. They are
+                        followed by nineteen blank numbered leaves, after which the QdA
+                        begin.</note>
                   </msItem>
                   <msItem xml:id="AmiensBibliothèqueLouisAragonBibliothèquemunicipale_402_QdA">
                      <locus from="223ra" to="268ra"/>
                      <title ref="QdA">QdA</title>
                   </msItem>
-                  <msItem xml:id="AmiensBibliothèqueLouisAragonBibliothèquemunicipale_402_QdSens">
+                  <msItem xml:id="AmiensBibliothèqueLouisAragonBibliothèquemunicipale_402_QdSen">
                      <locus from="271ra" to="284va"/>
-                     <title ref="QdSens">QdSens</title>
+                     <title ref="QdSen">QdSen</title>
                   </msItem>
                   <msItem xml:id="AmiensBibliothèqueLouisAragonBibliothèquemunicipale_402_QdMem">
                      <locus from="285ra" to="288rb"/>
@@ -227,20 +230,31 @@
                </msContents>
                <history>
                   <origin>
-                     <origDate from="1451" to="1451">1451</origDate>
-                     <p><watermark>The watermark, a shield with three lilia couroned with flowers
-                           (particularly visible in the first guard leafs and at ff. 39, 87, 95,
-                           116-117, 139, 188, 202, 204-205, 207, 256, 270, 295)</watermark>, is very
-                        similar to <ref type="bibl" target="ID">Briquet</ref> 1680, a variant of
-                        which was used in Paris in 1451. From 215-217, 221-222 variant with
-                        hook.</p>
+                     <origDate from="1451" to="1474">The watermark, <watermark>a shield with three
+                           fleurs-de-lis crowned with flowers (particularly visible on the first
+                           guard leaf and at ff. 39, 87, 95, 116–117, 139, 188, 202, 204–205, 207,
+                           256, 270, 295)</watermark>, closely resembles Briquet 1680, used in Paris
+                        in 1451. Ff. 215–217 and 221–222, which are blank, display <watermark>a
+                           shield with three fleurs-de-lis crowned with flowers above a
+                           rod</watermark>, similar to Briquet 1740, used in Troyes in 1459, with a
+                        variant attested in Paris between 1460 and 1474.</origDate>
                      <origPlace cert="medium">Paris</origPlace>
+                     <p>The exact origin is unknown, as the manuscript does not contain information
+                        about the context of the copy. However, the watermarks and the codex's
+                        circulation suggest a Parisian origin.</p>
+                     <note type="msRelationship">
+                        <p><ref
+                              target="#AmiensBibliothèqueLouisAragonBibliothèquemunicipale_405"
+                              type="ms">Amiens, Bibliothèque Louis Aragon, 405</ref>, which also
+                           belonged to the Monastery of St Pierre in Corbie.</p>
+                     </note>
                   </origin>
-                  <provenance><p>Just like <ref type="ms" target="id">ms. Amiens 405</ref>, it
-                        belonged to <orgName>monastery of St. Pierre</orgName> in
-                           <placeName>Corby</placeName>. On f. 1r, in the centre of the decoration,
-                        a later (17th century) hand wrote: <q n="1r">monasterii sancti Petri
-                           Corbeiensis</q>. </p></provenance>
+                  <provenance>
+                     <p>Before arriving in Amiens, the manuscript belonged to the Abbey of St
+                        Pierre in Corbie, as attested by a possession mark written by a modern
+                        (possibly seventeenth-century) hand on f. 1r, in the centre of the
+                        decoration: <q n="1r">monasterii sancti Petri Corbeiensis</q>.</p>
+                  </provenance>
                </history>
                <additional>
                   <adminInfo>
@@ -252,9 +266,9 @@
                   </adminInfo>
                   <listBibl>
                      <bibl>Catalogue général des manuscrits des bibliothèques publiques de France.
-                        Départements – tome XIX : Amiens, 191-192.</bibl>
-                     <bibl>De Raedemaeker, I 154.</bibl>
-                     <bibl>Lohr, Gallica, 226-227.</bibl>
+                        Départements, tome XIX: Amiens, Paris 1893, pp. 191–192.</bibl>
+                     <bibl>De Raedemaeker, I, p. 154.</bibl>
+                     <bibl>Lohr, Gallica, pp. 226–227.</bibl>
                   </listBibl>
                </additional>
             </msDesc>
