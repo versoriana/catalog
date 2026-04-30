@@ -8602,7 +8602,7 @@
             <!-- Sankt Gallen, Kantonsbibliothek, Vadianische Sammlung, VadSlg Ms. 839 issue#148 -->
             <msDesc xml:id="SanktGallen_KantonsbibliothekVadianischeSammlung_VadSlgMs839">
                <msIdentifier>
-                  <settlement>Sankt Gallen</settlement>
+                  <settlement>St. Gallen</settlement>
                   <repository>Kantonsbibliothek, Vadianische Sammlung</repository>
                   <idno>VadSlg Ms. 839</idno>
                </msIdentifier>
