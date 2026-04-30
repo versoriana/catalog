@@ -220,6 +220,26 @@
 					}
 					return null;
 				},
+				"altIdentifier": function(e) {
+					const parts = [];
+					const settlement = e.querySelector('tei-settlement');
+					const repository = e.querySelector('tei-repository');
+					const idno = e.querySelector('tei-idno:not([type="URI"])');
+					if (settlement) parts.push(settlement.textContent.trim());
+					if (repository) parts.push(repository.textContent.trim());
+					if (idno)       parts.push(idno.textContent.trim());
+					if (!parts.length) return null;
+					const span = document.createElement('span');
+					span.className = 'alt-identifier';
+					span.textContent = `(olim ${parts.join(', ')})`;
+					// Insert inline after the main (non-URI) idno, before the URI block
+					const mainIdno = e.parentElement && e.parentElement.querySelector('tei-idno:not([type="URI"])');
+					if (mainIdno) {
+						mainIdno.insertAdjacentElement('afterend', span);
+						return document.createElement('span'); // empty placeholder at original position
+					}
+					return span;
+				},
 				"idno": function(e) {
 					const type = e.getAttribute('type');
 					if (type === 'URI') {
@@ -297,12 +317,16 @@
 							if (boundLocus) {
 								const from = boundLocus.getAttribute('from');
 								const to   = boundLocus.getAttribute('to');
-								if (from && to) locusText = `ff. ${from}–${to}`;
+								if (from && to)   locusText = `ff. ${from}–${to}`;
+								else if (from)    locusText = `f. ${from}`;
+								else if (to)      locusText = `f. ${to}`;
 							}
 							if (unboundLocus) {
 								const from = unboundLocus.getAttribute('from');
 								const to   = unboundLocus.getAttribute('to');
-								if (from && to) locusText += ` [${from}–${to}]`;
+								if (from && to)   locusText += ` [${from}–${to}]`;
+								else if (from)    locusText += ` [${from}]`;
+								else if (to)      locusText += ` [${to}]`;
 							}
 						} else {
 							const parts = [];
@@ -311,8 +335,12 @@
 								const to   = l.getAttribute('to');
 								if (from && to) parts.push(`${from}–${to}`);
 								else if (from)  parts.push(from);
+								else if (to)    parts.push(to);
 							});
-							if (parts.length) locusText = `ff. ${parts.join(', ')}`;
+							if (parts.length) {
+								const prefix = parts.length === 1 && !parts[0].includes('–') ? 'f.' : 'ff.';
+								locusText = `${prefix} ${parts.join(', ')}`;
+							}
 						}
 					} else if (locus) {
 						const from = locus.getAttribute('from');

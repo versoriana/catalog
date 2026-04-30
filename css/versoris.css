@@ -254,7 +254,14 @@ details.note-inline[open] .note-content {
 }
 
 tei-altIdentifier {
-    display: none;
+    display: inline;
+}
+
+.alt-identifier {
+    color: #6c757d;
+    font-size: 0.9em;
+    font-weight: normal;
+    margin-left: 6px;
 }
 
 /* Quotes */
@@ -571,18 +578,6 @@ tei-floruit::before {
     font-weight: bold;
 }
 
-/* Add "ca." prefix when cert="medium" */
-tei-birth[cert="medium"] .birth-info::before {
-    content: "ca. ";
-}
-
-tei-death[cert="medium"] .death-info::before {
-    content: "ca. ";
-}
-
-tei-floruit[cert="medium"] .floruit-info::before {
-    content: "ca. ";
-}
 
 
 tei-affiliation {

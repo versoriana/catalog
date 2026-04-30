@@ -175,58 +175,61 @@
 					const when = e.getAttribute('when');
 					const notBefore = e.getAttribute('notBefore');
 					const notAfter = e.getAttribute('notAfter');
-					
+					const ca = e.getAttribute('cert') === 'medium' ? 'ca. ' : '';
+
 					let container = document.createElement('span');
 					container.className = 'birth-info';
-					
+
 					if (when) {
-						container.textContent = when;
+						container.textContent = `${ca}${when}`;
 					} else if (notBefore && notAfter) {
-						container.textContent = `${notBefore}-${notAfter}`;
+						container.textContent = `${ca}${notBefore}-${notAfter}`;
 					} else if (notBefore) {
-						container.textContent = `not Before ${notBefore}`;
+						container.textContent = `${ca}not Before ${notBefore}`;
 					} else if (notAfter) {
-						container.textContent = `not After ${notAfter}`;
+						container.textContent = `${ca}not After ${notAfter}`;
 					}
-					
+
 					return container;
 				},
 				"death": function(e) {
 					const when = e.getAttribute('when');
 					const notBefore = e.getAttribute('notBefore');
 					const notAfter = e.getAttribute('notAfter');
-					
+					const ca = e.getAttribute('cert') === 'medium' ? 'ca. ' : '';
+
 					let container = document.createElement('span');
 					container.className = 'death-info';
-					
+
 					if (when) {
-						container.textContent = when;
+						container.textContent = `${ca}${when}`;
 					} else if (notBefore && notAfter) {
-						container.textContent = `${notBefore}-${notAfter}`;
+						container.textContent = `${ca}${notBefore}-${notAfter}`;
 					} else if (notBefore) {
-						container.textContent = `post ${notBefore}`;
+						container.textContent = `${ca}post ${notBefore}`;
 					} else if (notAfter) {
-						container.textContent = `not After ${notAfter}`;
+						container.textContent = `${ca}not After ${notAfter}`;
 					}
-					
+
 					return container;
 				},
                 "floruit": function(e) {
                     const when = e.getAttribute('when');
                     const from = e.getAttribute('from');
                     const to = e.getAttribute('to');
+                    const ca = e.getAttribute('cert') === 'medium' ? 'ca. ' : '';
 
                     let container = document.createElement('span');
                     container.className = 'floruit-info';
 
                     if (when) {
-                        container.textContent = when;
+                        container.textContent = `${ca}${when}`;
                     } else if (from && to) {
-                        container.textContent = `${from}-${to}`;
+                        container.textContent = `${ca}${from}-${to}`;
                     } else if (from) {
-                        container.textContent = `from ${from}`;
+                        container.textContent = `${ca}from ${from}`;
                     } else if (to) {
-                        container.textContent = `to ${to}`;
+                        container.textContent = `${ca}to ${to}`;
                     }
 
                     return container;
