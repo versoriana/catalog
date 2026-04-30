@@ -2205,9 +2205,9 @@
                <msContents>
                   <summary>
                      <!-- Achtung entry needs revision bc books seem to have different attribution. different books in msItem are not modelled. Only this case -->
-                     <ab type="explicit_attribution" cert="0">Books VII–X and XII (ff.
-                        224r–245v) correspond to the text ascribed to Versoris in part of the
-                        manuscript tradition as well as in the Cologne editions.</ab>
+                     <ab type="explicit_attribution" cert="0">Books VII–X and XII (ff. 224r–245v)
+                        correspond to the text ascribed to Versoris in part of the manuscript
+                        tradition as well as in the Cologne editions.</ab>
                      <ab type="general_remarks">Books I–II and IV–VI (ff. 192r–224r) differ from
                         Versoris's text and are attested in four other copies (see below, the
                         paragraph "related manuscripts").</ab>
@@ -2278,9 +2278,9 @@
                         Bd. 4: Die Handschriften des ehemaligen Fraterherrenstifts St. Markus zu
                         Butzbach. Teil 1: Handschriften aus der Nummernfolge Hs 42 – Hs 760,
                         Wiesbaden 1980, p. 22–23.</bibl>
-                     <bibl>J. Ott, Die Handschriften des ehemaligen Fraterherrenstifts St. Markus
-                        zu Butzbach. II: Die Handschriften aus der Signaturenfolge Hs 761 – Hs
-                        1266, Universitätsbibliothek Giessen 2004, 25, 45, 68, 77.</bibl>
+                     <bibl>J. Ott, Die Handschriften des ehemaligen Fraterherrenstifts St. Markus zu
+                        Butzbach. II: Die Handschriften aus der Signaturenfolge Hs 761 – Hs 1266,
+                        Universitätsbibliothek Giessen 2004, 25, 45, 68, 77.</bibl>
                   </listBibl>
                </additional>
             </msDesc>
@@ -4133,6 +4133,71 @@
                </additional>
             </msDesc>
 
+            <!-- La Haye, Koninklijke Bibliotheek, ms. 169 C 3 issue#149 -->
+            <msDesc xml:id="LaHaye_KoninklijkeBibliotheek_ms169C3">
+               <msIdentifier>
+                  <settlement>La Haye</settlement>
+                  <repository>Koninklijke Bibliotheek</repository>
+                  <idno>ms. 169 C 3</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     <ab type="explicit_attribution" cert="1">The commentary is ascribed to Versor
+                        in a guard leaf reproducing the title of Heinrich Quentell's 1495 edition:
+                           <q n="first-guard-leaf">Liber Yconomicorum Aristotelis tractans de
+                           gubernatione rerum domesticarum cum commento Iohannis Versoris, legentium
+                           aspectibus multum amenus</q>. The attribution is repeated in the current
+                        title on the upper margin, in the hand of the scribe: <q n="2r marg-sup"
+                           >Liber primus Yconomicorum cum commento Versoris</q>.</ab>
+                     <ab type="general_remarks">The codex consists of three parts: Heinrich
+                        Quentell's edition of the QsE, printed in 1491; a manuscript copy of the
+                        QsY; and Heinrich Quentell's edition of the QsPol, printed in 1492.</ab>
+                  </summary>
+                  <msItem xml:id="LaHaye_KoninklijkeBibliotheek_ms169C3_QsY">
+                     <locus from="1r" to="8r"/>
+                     <title ref="workID">QsY</title>
+                     <colophon n="final">
+                        <locus from="8r"/>per me, fratrem Wolfgangum Albeg de Monaco [add. in marg.: sacre theologie baccalaureum], ordinis fratrum
+                        Predicatorum, conventus Znaymensis, scriptum est hoc volumen anno Domini
+                        1497 in vigilia sancti Iohannis Baptiste in Olomuncz [add.: me ibidem existentem, eiusdem conventus studentem sacre pagine]
+                     </colophon>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <handNote scope="major" scribeRef="#WolfgangAlbegDeMonaco"/>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate from="1497" to="1497" />
+                     <origPlace>Olomouc</origPlace>
+                     <p>The QsY were copied in Olomouc by <persName ref="#WolfgangAlbegDeMonaco"
+                           >Wolfgang Albeg de Monaco</persName>, a Dominican friar of the convent of
+                        Znojmo, as stated in the colophon, f. 8r.</p>
+                  </origin>
+                  <provenance>
+                     <p>The codex belonged first to the library of the Dominican convent in Znojmo,
+                        and later to the library of the Dominican convent in Vienna: <q n="1r">Iste
+                           liber est conventus Znaimensis ordinis Predicatorum et est accommodatus
+                           Patri Lectori Maximo ad conventum Wiennensem</q> (crossed out). In the
+                        seventeenth century, it belonged to the library of the Cistercian monastery
+                        of Neustadt: <q n="1r">ex libris monasterii sancte Trinitatis Neostadi in
+                           Austria, sancti Cisterciensis ordinis</q>.</p>
+                  </provenance>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>L. M. De Rijk, Weijers, Repertorium commentariorum medii aevi in
+                        Aristotelem latinorum quae in bibliothecis publicis Neerlandicis
+                        asservantur, Amsterdam, 1981, p. 38-39.</bibl>
+                     <bibl>J. P. Gumbert, Manuscrits datés conservés dans les Pays-Bas. Catalogue
+                        paléographique des manuscrits en écriture latine portant des indications de
+                        date, vol. 2.1, Leiden/New York/Kobenhavn/Köln, 1998, p. 251-252.</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+
             <!-- Laon, Bibliothèque municipale Suzanne Martinet, Ms. 436 issue#146 -->
             <msDesc xml:id="Laon_BibliothèquemunicipaleSuzanneMartinet_MS436">
                <msIdentifier>
@@ -4541,9 +4606,9 @@
                <msContents>
                   <summary>
                      <ab type="explicit_attribution" cert="0">none</ab>
-                     <ab type="general_remarks">Interestingly, QdA, Book II, contains a
-                        colophon stating that the text follows the "common interpretation", which
-                        is neither that of Thomas nor Albert the Great (f. 228ra).</ab>
+                     <ab type="general_remarks">Interestingly, QdA, Book II, contains a colophon
+                        stating that the text follows the "common interpretation", which is neither
+                        that of Thomas nor Albert the Great (f. 228ra).</ab>
                   </summary>
                   <msItem xml:id="Mantova_BibliotecacomunaleTeresiana_740FIV9_QsP">
                      <locus from="1r" to="110v"/>
@@ -4565,8 +4630,8 @@
                      <locus from="195r" to="241r"/>
                      <title ref="workID">QdA</title>
                      <colophon n="book II"><locus from="228ra"/>Et de toto libro secundo De anima
-                        secundum communem modum exponendi, et non secundum modum exponendi Thome
-                        vel Alberti</colophon>
+                        secundum communem modum exponendi, et non secundum modum exponendi Thome vel
+                        Alberti</colophon>
                   </msItem>
                   <msItem xml:id="Mantova_BibliotecacomunaleTeresiana_740FIV9_QdSen">
                      <locus from="241v" to="254va"/>
@@ -4598,17 +4663,15 @@
                         in the years 1459–1461.</origDate>
                      <origPlace cert="medium">Ferrara</origPlace>
                      <p>Since the manuscript <ref
-                           target="#Modena_BibliotecaEstenseUniversitaria_Camp88GammaDI21"
-                           type="ms">Modena, Biblioteca Estense Universitaria, Camp. 88 (Gamma D I
-                           21)</ref>, presenting the same note at the end of Book II of QdA (see
-                        below), belonged to the Dominican convent of Ferrara, an origin there is
-                        likely.</p>
+                           target="#Modena_BibliotecaEstenseUniversitaria_Camp88GammaDI21" type="ms"
+                           >Modena, Biblioteca Estense Universitaria, Camp. 88 (Gamma D I 21)</ref>,
+                        presenting the same note at the end of Book II of QdA (see below), belonged
+                        to the Dominican convent of Ferrara, an origin there is likely.</p>
                      <note type="msRelationship">
-                        <p><ref
-                              target="#Modena_BibliotecaEstenseUniversitaria_Camp88GammaDI21"
+                        <p><ref target="#Modena_BibliotecaEstenseUniversitaria_Camp88GammaDI21"
                               type="ms">Modena, Biblioteca Estense Universitaria, Camp. 88 (Gamma D
-                              I 21)</ref>, which also contains, on f. 32va, the same statement
-                           found at the end of Book II of QdA.</p>
+                              I 21)</ref>, which also contains, on f. 32va, the same statement found
+                           at the end of Book II of QdA.</p>
                      </note>
                   </origin>
                </history>
@@ -8823,8 +8886,8 @@
                </msContents>
                <history>
                   <origin>
-                     <origDate from="1457" to="1464">No explicit information about the provenance
-                        or date of this manuscript is provided in the texts. However, the watermarks
+                     <origDate from="1457" to="1464">No explicit information about the provenance or
+                        date of this manuscript is provided in the texts. However, the watermarks
                         allow it to be situated at the beginning of the 1460s and likely located in
                         Switzerland. <watermark>An oxhead with eyes and nose, surmounted by a staff
                            with a star (particularly visible on f. 14)</watermark>, is very similar
@@ -8845,8 +8908,8 @@
                      </recordHist>
                   </adminInfo>
                   <listBibl>
-                     <bibl>G. Scherrer, Verzeichniss der Handschriften der Stiftsbibliothek von
-                        St. Gallen, Halle, 1875, p. 278.</bibl>
+                     <bibl>G. Scherrer, Verzeichniss der Handschriften der Stiftsbibliothek von St.
+                        Gallen, Halle, 1875, p. 278.</bibl>
                   </listBibl>
                </additional>
             </msDesc>
@@ -9395,33 +9458,31 @@
                </msContents>
                <history>
                   <origin>
-                     <origDate from="1451" to="1457">The watermarks, which I was not able to
-                        inspect personally but whose images were provided by the librarians, allow
-                        the manuscript to be dated to the 1450s, which is compatible with the
+                     <origDate from="1451" to="1457">The watermarks, which I was not able to inspect
+                        personally but whose images were provided by the librarians, allow the
+                        manuscript to be dated to the 1450s, which is compatible with the
                         dissemination of Versor's corpus in Prague. <watermark>A tower watermark
                            (particularly visible on f. 56), corresponding to Piccard II
-                           328</watermark>, is attested in Küstrin and Thorn in the years
-                        1451–1453. <watermark>A mountain watermark (particularly visible on f.
-                           131), corresponding to Piccard VII 2202</watermark>, is attested in
-                        Göttingen and Ulm in the years 1454–1455. <watermark>A cross watermark
-                           (particularly visible on f. 136r), corresponding to Piccard II
-                           473</watermark>, is attested in Ansbach in 1457. Several
-                        <watermark>ox-head watermarks</watermark> occur throughout the codex;
-                        however, I was not able to identify them in the standard watermark
-                        inventories.</origDate>
+                           328</watermark>, is attested in Küstrin and Thorn in the years 1451–1453.
+                           <watermark>A mountain watermark (particularly visible on f. 131),
+                           corresponding to Piccard VII 2202</watermark>, is attested in Göttingen
+                        and Ulm in the years 1454–1455. <watermark>A cross watermark (particularly
+                           visible on f. 136r), corresponding to Piccard II 473</watermark>, is
+                        attested in Ansbach in 1457. Several <watermark>ox-head
+                           watermarks</watermark> occur throughout the codex; however, I was not
+                        able to identify them in the standard watermark inventories.</origDate>
                   </origin>
                   <provenance>
                      <p>Several ownership marks and ex dono notes provide information on the origin
-                        and history of the codex. On f. 1r, marg. sup., we read: <q
-                           n="1r marg-sup">Hunc librum dedit dominus dux Albertus</q>. This refers
-                        to Duke Albrecht II, who founded the Gaming Charterhouse and donated
-                        manuscripts to it. On f. 55(b)v, marg. sup., we read: <q
-                           n="55(bis)v marg-sup">Iste liber est magistri Petri de Narbona</q>. On
-                        f. 57r, marg. inf., we read: <q n="57r marg-inf">Iste liber est domus horti
-                           Beatae Mariae prope Pragam ordinis Cartusiensis</q>. This refers to the
-                        Charterhouse Mariengarten in Smíchov (Prague), which was destroyed in 1419.
-                        Old shelf marks indicate that the manuscript later belonged to the library
-                        of Salzburg Cathedral.</p>
+                        and history of the codex. On f. 1r, marg. sup., we read: <q n="1r marg-sup"
+                           >Hunc librum dedit dominus dux Albertus</q>. This refers to Duke Albrecht
+                        II, who founded the Gaming Charterhouse and donated manuscripts to it. On f.
+                        55(b)v, marg. sup., we read: <q n="55(bis)v marg-sup">Iste liber est
+                           magistri Petri de Narbona</q>. On f. 57r, marg. inf., we read: <q
+                           n="57r marg-inf">Iste liber est domus horti Beatae Mariae prope Pragam
+                           ordinis Cartusiensis</q>. This refers to the Charterhouse Mariengarten in
+                        Smíchov (Prague), which was destroyed in 1419. Old shelf marks indicate that
+                        the manuscript later belonged to the library of Salzburg Cathedral.</p>
                   </provenance>
                </history>
                <additional>
