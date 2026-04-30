@@ -9122,6 +9122,70 @@
                   </listBibl>
                </additional>
             </msDesc>
+
+            <msDesc xml:id="Wien_ÖNB_cod2335">
+               <msIdentifier>
+                  <settlement>Wien</settlement>
+                  <repository>ÖNB</repository>
+                  <idno>cod. 2335</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     <ab type="explicit_attribution" cert="0">none</ab>
+                     <ab type="general_remarks">The manuscript also contains Petrus de Alvernia's
+                        Sententia on Aristotle's Meteorology (ff. 1r–55v), which probably
+                        constituted a separate unit, as suggested by the ownership mark on f.
+                        55(b)v.</ab>
+                  </summary>
+                  <msItem xml:id="Wien_ÖNB_cod2335_CsPH">
+                     <locus from="56ra" to="193rb"/>
+                     <title ref="workID">CsPH</title>
+                  </msItem>
+                  <msItem xml:id="Wien_ÖNB_cod2335_PetrusDeAlvernia">
+                     <locus from="1r" to="55v"/>
+                     <author>Petrus de Alvernia</author>
+                     <title ref="xxx">Sententia on Aristotle's Meteorology</title>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate from="1451" to="1457">The watermarks, which I was not able to
+                        inspect personally but whose images were provided by the librarians, allow
+                        the manuscript to be dated to the 1450s, which is compatible with the
+                        dissemination of Versor's corpus in Prague. <watermark>A tower watermark
+                           (particularly visible on f. 56), corresponding to Piccard II
+                           328</watermark>, is attested in Küstrin and Thorn in the years
+                        1451–1453. <watermark>A mountain watermark (particularly visible on f.
+                           131), corresponding to Piccard VII 2202</watermark>, is attested in
+                        Göttingen and Ulm in the years 1454–1455. <watermark>A cross watermark
+                           (particularly visible on f. 136r), corresponding to Piccard II
+                           473</watermark>, is attested in Ansbach in 1457. Several
+                        <watermark>ox-head watermarks</watermark> occur throughout the codex;
+                        however, I was not able to identify them in the standard watermark
+                        inventories.</origDate>
+                  </origin>
+                  <provenance>
+                     <p>Several ownership marks and ex dono notes provide information on the origin
+                        and history of the codex. On f. 1r, marg. sup., we read: <q
+                           n="1r marg-sup">Hunc librum dedit dominus dux Albertus</q>. This refers
+                        to Duke Albrecht II, who founded the Gaming Charterhouse and donated
+                        manuscripts to it. On f. 55(b)v, marg. sup., we read: <q
+                           n="55(bis)v marg-sup">Iste liber est magistri Petri de Narbona</q>. On
+                        f. 57r, marg. inf., we read: <q n="57r marg-inf">Iste liber est domus horti
+                           Beatae Mariae prope Pragam ordinis Cartusiensis</q>. This refers to the
+                        Charterhouse Mariengarten in Smíchov (Prague), which was destroyed in 1419.
+                        Old shelf marks indicate that the manuscript later belonged to the library
+                        of Salzburg Cathedral.</p>
+                  </provenance>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Markowski, Repertorium, 237.</bibl>
+                     <bibl>Meirinhos, Bibliotheca manuscripta Petri Hispani, 483.</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+
             <msDesc xml:id="Wrocław_BibliotekaUniwersytecka_MsIVF1">
                <msIdentifier>
                   <settlement>Wrocław</settlement>
