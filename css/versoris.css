@@ -353,6 +353,10 @@ tei-origPlace:before {
     content: "Origin: ";
 }
 
+tei-origPlace[cert="medium"]::after {
+    content: " ?";
+}
+
 /* Physical Description */
 tei-physDesc {
     display: block;
