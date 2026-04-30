@@ -396,22 +396,16 @@
           }
         }
 
-        // Prepend permalink
+        // Entry permalink icon (top-right of card)
         const id = e.id;
         if (id) {
           const base = window.location.origin + window.location.pathname;
-          const permalink = document.createElement('div');
-          permalink.className = 'uri-link-container';
-          const label = document.createElement('span');
-          label.className = 'uri-link-label';
-          label.textContent = 'Entry: ';
           const link = document.createElement('a');
-          link.className = 'uri-link-url';
+          link.className = 'entry-link';
           link.href = `${base}#${id}`;
-          link.textContent = `${base}#${id}`;
-          permalink.appendChild(label);
-          permalink.appendChild(link);
-          e.insertBefore(permalink, e.firstChild);
+          link.title = `${base}#${id}`;
+          link.textContent = '#';
+          e.appendChild(link);
         }
 
         // Return undefined to use default rendering for msDesc itself
