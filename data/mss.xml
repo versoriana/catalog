@@ -4532,6 +4532,100 @@
                </additional>
             </msDesc>
 
+            <msDesc xml:id="Mantova_BibliotecacomunaleTeresiana_740FIV9">
+               <msIdentifier>
+                  <settlement>Mantova</settlement>
+                  <repository>Biblioteca comunale Teresiana</repository>
+                  <idno>740 (F IV 9)</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     <ab type="explicit_attribution" cert="0">none</ab>
+                     <ab type="general_remarks">Interestingly, QdA, Book II, contains a
+                        colophon stating that the text follows the "common interpretation", which
+                        is neither that of Thomas nor Albert the Great (f. 228ra).</ab>
+                  </summary>
+                  <msItem xml:id="Mantova_BibliotecacomunaleTeresiana_740FIV9_QsP">
+                     <locus from="1r" to="110v"/>
+                     <title ref="workID">QsP</title>
+                  </msItem>
+                  <msItem xml:id="Mantova_BibliotecacomunaleTeresiana_740FIV9_QdC">
+                     <locus from="111r" to="148r"/>
+                     <title ref="workID">QdC</title>
+                  </msItem>
+                  <msItem xml:id="Mantova_BibliotecacomunaleTeresiana_740FIV9_QdG">
+                     <locus from="148v" to="171v"/>
+                     <title ref="workID">QdG</title>
+                  </msItem>
+                  <msItem xml:id="Mantova_BibliotecacomunaleTeresiana_740FIV9_QsMete">
+                     <locus from="171v" to="194v"/>
+                     <title ref="workID">QsMete</title>
+                  </msItem>
+                  <msItem xml:id="Mantova_BibliotecacomunaleTeresiana_740FIV9_QdA">
+                     <locus from="195r" to="241r"/>
+                     <title ref="workID">QdA</title>
+                     <colophon n="book II"><locus from="228ra"/>Et de toto libro secundo De anima
+                        secundum communem modum exponendi, et non secundum modum exponendi Thome
+                        vel Alberti</colophon>
+                  </msItem>
+                  <msItem xml:id="Mantova_BibliotecacomunaleTeresiana_740FIV9_QdSen">
+                     <locus from="241v" to="254va"/>
+                     <title ref="workID">QdSen</title>
+                  </msItem>
+                  <msItem xml:id="Mantova_BibliotecacomunaleTeresiana_740FIV9_QdMem">
+                     <locus from="254v" to="257v"/>
+                     <title ref="workID">QdMem</title>
+                  </msItem>
+                  <msItem xml:id="Mantova_BibliotecacomunaleTeresiana_740FIV9_QdSom">
+                     <locus from="257vb" to="260va"/>
+                     <title ref="workID">QdSom</title>
+                  </msItem>
+                  <msItem xml:id="Mantova_BibliotecacomunaleTeresiana_740FIV9_QdLon">
+                     <locus from="260vb" to="262ra"/>
+                     <title ref="workID">QdLon</title>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate from="1459" to="1461">The date and origin of this manuscript are
+                        unknown, as the colophons provide no information on the context of the copy,
+                        and no elements of the original binding or guard-leaves have been preserved
+                        after restoration. The texts were copied by a single Italian hand. The
+                        composition of the volume is uniform: it uses the same type of paper
+                        throughout, bearing a single <watermark>watermark, a "grief" that I could
+                           not identify in either the Briquet or Piccard inventories</watermark>.
+                        The most similar specimens are Piccard, X II, 752–754, attested in Ferrara
+                        in the years 1459–1461.</origDate>
+                     <origPlace cert="medium">Ferrara</origPlace>
+                     <p>Since the manuscript <ref
+                           target="#Modena_BibliotecaEstenseUniversitaria_Camp88GammaDI21"
+                           type="ms">Modena, Biblioteca Estense Universitaria, Camp. 88 (Gamma D I
+                           21)</ref>, presenting the same note at the end of Book II of QdA (see
+                        below), belonged to the Dominican convent of Ferrara, an origin there is
+                        likely.</p>
+                     <note type="msRelationship">
+                        <p><ref
+                              target="#Modena_BibliotecaEstenseUniversitaria_Camp88GammaDI21"
+                              type="ms">Modena, Biblioteca Estense Universitaria, Camp. 88 (Gamma D
+                              I 21)</ref>, which also contains, on f. 32va, the same statement
+                           found at the end of Book II of QdA.</p>
+                     </note>
+                  </origin>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source cert="high" resp="#">
+                           <p>Ms directly examined</p>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+                  <listBibl>
+                     <bibl>Kristeller, Iter I, 270.</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+
             <msDesc xml:id="Michaelbeuern_Benediktinerstift_mancart57">
                <msIdentifier>
                   <settlement>Michaelbeuern</settlement>
