@@ -8696,6 +8696,67 @@
                </additional>
             </msDesc>
 
+            <msDesc xml:id="StGallen_Stiftsbibliothek_cod822">
+               <msIdentifier>
+                  <settlement>St. Gallen</settlement>
+                  <repository>Stiftsbibliothek</repository>
+                  <idno>cod. 822</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     <ab type="explicit_attribution" cert="0">none</ab>
+                  </summary>
+                  <msItem xml:id="StGallen_Stiftsbibliothek_cod822_QsP">
+                     <locus from="1" to="133"/>
+                     <title ref="workID">QsP</title>
+                     <note type="content">Books IV–VII missing: several leaves torn.</note>
+                  </msItem>
+                  <msItem xml:id="StGallen_Stiftsbibliothek_cod822_QdC">
+                     <locus from="135" to="223"/>
+                     <title ref="workID">QdC</title>
+                  </msItem>
+                  <msItem xml:id="StGallen_Stiftsbibliothek_cod822_QdG">
+                     <locus from="225" to="293"/>
+                     <title ref="workID">QdG</title>
+                  </msItem>
+                  <msItem xml:id="StGallen_Stiftsbibliothek_cod822_QsMete">
+                     <locus from="295" to="353"/>
+                     <title ref="workID">QsMete</title>
+                     <note type="content">Ends abruptly at the responsio ad rationes of q. III.5
+                        with the words: <q n="NA">in loco superioris iridis est</q>; subsequent
+                        leaves have been torn.</note>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate from="1457" to="1464">No explicit information about the provenance
+                        or date of this manuscript is provided in the texts. However, the watermarks
+                        allow it to be situated at the beginning of the 1460s and likely located in
+                        Switzerland. <watermark>An oxhead with eyes and nose, surmounted by a staff
+                           with a star (particularly visible on f. 14)</watermark>, is very similar
+                        to Piccard VII, 234 (Basel, Luzern, Mainz, Chambéry, 1457–1461).
+                           <watermark>An oxhead in profile with eyes and nose, surmounted by a staff
+                           with a cross (particularly visible on f. 233)</watermark>, is similar
+                        (though not identical) to Piccard I, 716 (Bern, 1464) and identical to
+                        Briquet 14385 (Rodez, 1462).</origDate>
+                     <origPlace cert="medium">Switzerland</origPlace>
+                  </origin>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source cert="high" resp="#">
+                           <p>Ms directly examined</p>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+                  <listBibl>
+                     <bibl>G. Scherrer, Verzeichniss der Handschriften der Stiftsbibliothek von
+                        St. Gallen, Halle, 1875, p. 278.</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+
             <msDesc xml:id="Stuttgart_WürttembergischeLandesbibliothek_HBX2">
                <msIdentifier>
                   <settlement>Stuttgart</settlement>
