@@ -2194,6 +2194,97 @@
                </additional>
             </msDesc>
 
+            <msDesc xml:id="Gießen_Universitätsbibliothek_Hs618">
+               <msIdentifier>
+                  <settlement>Gießen</settlement>
+                  <repository>Universitätsbibliothek</repository>
+                  <idno>Hs 618</idno>
+                  <idno type="URI"
+                     >https://digisam.ub.uni-giessen.de/urn/urn:nbn:de:hebis:26-digisam-123987</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     <!-- Achtung entry needs revision bc books seem to have different attribution. different books in msItem are not modelled. Only this case -->
+                     <ab type="explicit_attribution" cert="0">Books VII–X and XII (ff.
+                        224r–245v) correspond to the text ascribed to Versoris in part of the
+                        manuscript tradition as well as in the Cologne editions.</ab>
+                     <ab type="general_remarks">Books I–II and IV–VI (ff. 192r–224r) differ from
+                        Versoris's text and are attested in four other copies (see below, the
+                        paragraph "related manuscripts").</ab>
+                     <ab type="general_remarks">The manuscript also contains an anonymous set of
+                        questions on Metaphysics I–II, IV–X, and XII (ff. 3r–191v) which, on the
+                        basis of the authorities cited (William of Ockham, John Buridan, Marsilius
+                        of Inghen), can be ascribed to the via moderna.</ab>
+                  </summary>
+                  <msItem xml:id="Gießen_Universitätsbibliothek_Hs618_QsMeta">
+                     <locus from="192r" to="245v"/>
+                     <title ref="workID">QsMeta</title>
+                     <colophon n="final"><locus from="inner-back-cover"/>Perfectum est opusculum
+                        quarto (?) vicesima mensis septembris, anno 1449; constatque 5 florenos
+                        aureos / Gabriel Byel</colophon>
+                  </msItem>
+                  <msItem xml:id="Gießen_Universitätsbibliothek_Hs618_Anon">
+                     <locus from="3r" to="191v"/>
+                     <author>Anonymus</author>
+                     <title ref="XXX">Questions on Aristotle's Metaphysics</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <handNote scope="major" scribeRef="#GabrielBiel"/>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate from="1449" to="1449">1449, as stated in the colophon
+                        (inner-back-cover).</origDate>
+                     <p>ff. 192r–245v were copied by <persName ref="#GabrielBiel">Gabriel
+                           Biel</persName>. The place of copying is not specified and cannot be
+                        easily inferred from the watermark—<watermark>a crossed double key,
+                           particularly visible at f. 247; <ref
+                              target="https://www.wasserzeichen-online.de/?ref=DE4500-PO-121204"
+                              >WZIS DE4500-PO-121204</ref></watermark>. Similar examples are listed
+                        in Piccard's inventory (III, 431–447), all used in the first quarter of the
+                        fifteenth century, but none corresponds exactly. An instance attested in
+                        Cologne in the second and third quarters of the century is registered in the
+                        Wasserzeicheninformationssystem (DE4500-PO-121204). The codex was bound in
+                        Mainz.</p>
+                     <note type="msRelationship">
+                        <p><ref target="#Greifswald_GeistlichesMinisterium_26DI" type="ms"
+                              >Greifswald, Geistliches Ministerium, 26 D I</ref>; <ref
+                              target="#Leipzig_Universitätsbibliothek_Ms1384" type="ms">Leipzig,
+                              Universitätsbibliothek, Ms 1384</ref>; <ref
+                              target="#Leipzig_Universitätsbibliothek_Ms1419" type="ms">Leipzig,
+                              Universitätsbibliothek, Ms 1419</ref>; and <ref
+                              target="#Zeitz_Domherrenbibliothek_LIX24" type="ms">Zeitz,
+                              Domherrenbibliothek, LIX (24)</ref>, which contain the same Cologne
+                           questions on Aristotle's Metaphysics.</p>
+                     </note>
+                  </origin>
+                  <provenance>
+                     <p>Biel donated the codex to the library of the Fratherren in Butzbach.</p>
+                  </provenance>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source cert="high" resp="#">
+                           <p>Ms directly examined</p>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+                  <listBibl>
+                     <bibl>W. G. Bayerer, Handschriftenkataloge der Universitätsbibliothek Giessen,
+                        Bd. 4: Die Handschriften des ehemaligen Fraterherrenstifts St. Markus zu
+                        Butzbach. Teil 1: Handschriften aus der Nummernfolge Hs 42 – Hs 760,
+                        Wiesbaden 1980, p. 22–23.</bibl>
+                     <bibl>J. Ott, Die Handschriften des ehemaligen Fraterherrenstifts St. Markus
+                        zu Butzbach. II: Die Handschriften aus der Signaturenfolge Hs 761 – Hs
+                        1266, Universitätsbibliothek Giessen 2004, 25, 45, 68, 77.</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+
             <msDesc xml:id="Gotha_ForschungsbibliothekGotha_ChartA775">
                <msIdentifier>
                   <settlement>Gotha</settlement>
