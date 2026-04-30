@@ -787,7 +787,7 @@
                      still requires confirmation.</p>
                </note>
                <!-- fl. unique case ? -->
-               <floruit from="1467" to="1476">fl. ca. 1467-1476</floruit>
+               <floruit from="1467" to="1476" cert="medium">fl. ca. 1467-1476</floruit>
                <occupation role="scr" ref="#Graz_UB_Ms853"/>
                <listBibl>
                   <bibl>H. Keussen, Die Matrikel der Universität Köln, Erster Band. 1389-1475, Bonn,
