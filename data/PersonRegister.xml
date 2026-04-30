@@ -299,10 +299,10 @@
                      supervision of Master Galterus de Walma at the Collège de Bourgogne. He later
                      served as regent master at the University of Dole, as attested by the
                      possession mark on the lower margin of the back cover of manuscript Paris, BnF,
-                     latin 604: <quote n="inner-back-cover">Iste libellus emptus
-                        a domino Petro, herede reverendi magistri nostri Vincentii Sarraseni, sacre
-                        theologie professoris (cuius anima pace fruatur), per magistrum Claudium
-                        Verneti, artium regentem Doli, eidem emptori pertinet. Ista est per me,
+                     latin 604: <quote n="inner-back-cover">Iste libellus emptus a domino Petro,
+                        herede reverendi magistri nostri Vincentii Sarraseni, sacre theologie
+                        professoris (cuius anima pace fruatur), per magistrum Claudium Verneti,
+                        artium regentem Doli, eidem emptori pertinet. Ista est per me,
                         Verneti</quote>.</p>
                   <p>He is not mentioned in volume V oft he Auctarium, which only reaches the year
                      1456.</p>
@@ -357,9 +357,9 @@
                   Anglo-German Nation, nor in the other volumes of the Auctarium. Astrik Gabriel,
                   the editor of volume VI of the Auctarium, also mentions Clemens de Melnik only in
                   connection with the copy of Versoris's commentary and provides no further
-                  information about his career. František Šmahel writes: <quote n="447">Es sei
-                     aber gleich bemerkt, daß dies die einzige Erwähnung über Klemens von Melnik ist
-                     und wir also nicht einmal wissen, ob er von Paris wiederum nach Prag
+                  information about his career. František Šmahel writes: <quote n="447">Es sei aber
+                     gleich bemerkt, daß dies die einzige Erwähnung über Klemens von Melnik ist und
+                     wir also nicht einmal wissen, ob er von Paris wiederum nach Prag
                      zurückkehrte</quote>. For this reason, it cannot be ruled out that he may have
                   died shortly after completing the copy.</note>
                <occupation role="scr" ref="#Stuttgart_WürttembergischeLandesbibliothek_HBX2"/>
@@ -462,14 +462,13 @@
                   <surname type="preferred">Rosswein</surname>
                </persName>
                <persName type="sort">Kluge de Rosswein, Donatus</persName>
-               <note>Matriculated at Leipzig University in 1442 as a member of the Natio
-                  Misnensium. He obtained the bachelor's degree in 1444 and the master's degree in
-                  1451. He later studied theology, becoming baccalaureus cursorius in 1453 and
-                  sententiarius in 1460.</note>
+               <note>Matriculated at Leipzig University in 1442 as a member of the Natio Misnensium.
+                  He obtained the bachelor's degree in 1444 and the master's degree in 1451. He
+                  later studied theology, becoming baccalaureus cursorius in 1453 and sententiarius
+                  in 1460.</note>
                <occupation role="scr" ref="#Wrocław_BibliotekaUniwersytecka_MS6121MilII69"/>
                <listBibl>
-                  <bibl>Erler I, Matrikel, 142; II, 7, 9, 134, 152, 170, 174-175, 177,
-                     207.</bibl>
+                  <bibl>Erler I, Matrikel, 142; II, 7, 9, 134, 152, 170, 174-175, 177, 207.</bibl>
                </listBibl>
             </person>
 
@@ -549,13 +548,13 @@
                <note>Born in Speyer, he matriculated at Heidelberg University in 1432, where he
                   obtained his bachelor's degree in 1435 and his master's degree in 1438. He was
                   active as a master at Heidelberg until 1444, except for the period 1442/1443, when
-                  he attended the University of Erfurt for a short time. It is uncertain where he was
-                  until 1451, when he matriculated at the University of Erfurt. In 1449/1450, he was
-                  probably in Mainz. From 1453, he studied theology at the University of Cologne and
-                  was licensed in 1457 in Erfurt. In the years 1457–1466, he was a preacher at Mainz
-                  Cathedral. In 1469, he entered the community of the Brothers of the Common Life in
-                  Butzbach. From 1484 to 1492, he was Professor of Theology in Tübingen, where he
-                  occupied the first chair of the via moderna.</note>
+                  he attended the University of Erfurt for a short time. It is uncertain where he
+                  was until 1451, when he matriculated at the University of Erfurt. In 1449/1450, he
+                  was probably in Mainz. From 1453, he studied theology at the University of Cologne
+                  and was licensed in 1457 in Erfurt. In the years 1457–1466, he was a preacher at
+                  Mainz Cathedral. In 1469, he entered the community of the Brothers of the Common
+                  Life in Butzbach. From 1484 to 1492, he was Professor of Theology in Tübingen,
+                  where he occupied the first chair of the via moderna.</note>
                <occupation role="scr fmo" ref="#Gießen_Universitätsbibliothek_Hs618"/>
                <listBibl>
                   <bibl>Toepke, Matrikel I, 190-191; II, 361, 384, 386.</bibl>
@@ -709,7 +708,7 @@
                </persName>
                <persName type="sort">Brabantia, Georgius de</persName>
                <birth when="1448"/>
-               <death when="1505"/>
+               <death when="1505"/>               
                <note>Born in 1448 in Bourbourg, he was tonsured in 1456 under Bishop Henri de
                   Lorraine-Vaudémont. He became a monk at the Abbey of Saint-Bertin and, from 1493
                   onwards, served there as archivist and prior. He studied at the Faculty of Arts in
@@ -766,6 +765,34 @@
                      Rostock, Wiesbaden, 2001, 33–36</bibl>
                   <bibl>A. Panzica, Entre musique et philosophie: Nouvelles sources sur Georgius
                      Erber (Paris, 1460-1463).</bibl>
+               </listBibl>
+            </person>
+            <person xml:id="GerardusArnhem">
+               <persName>
+                  <forename type="preferred">Gerardus</forename>
+                  <surname type="preferred">Arnhem</surname>
+               </persName>
+               <persName type="sort">Arnhem, Gerardus</persName>
+               <note>
+                  <p>A Gerardus de Harlem, from the diocese of Maastricht (Traiectensis diocesis),
+                     is mentioned as a student of Arts in the matriculation registers of the
+                     University of Cologne in September 1467. He presented himself for the degree of
+                     baccalaureus in 1468 and incepted under the master Thomas de Leudis in 1470. He
+                     was active at the Bursa Montis between 1473 and 1477 and served as dean of the
+                     Faculty of Arts in 1476.</p>
+                  <p>Because of the similarity of the name, the correspondence of dates, and the
+                     affiliation with the Bursa Montis, it is very likely that this Gerardus de
+                     Harlem may be identified with the Gerardus Arnhem who signed the colophons in
+                     the Graz manuscript. However, this identification remains a hypothesis that
+                     still requires confirmation.</p>
+               </note>
+               <!-- fl. unique case ? -->
+               <floruit from="1467" to="1476">fl. ca. 1467-1476</floruit>
+               <occupation role="scr" ref="#Graz_UB_Ms853"/>
+               <listBibl>
+                  <bibl>H. Keussen, Die Matrikel der Universität Köln, Erster Band. 1389-1475, Bonn,
+                     1928, p. 758, nr. 29.</bibl>
+                  <bibl>Tewes, Die Bursen, 37, 578.</bibl>
                </listBibl>
             </person>
             <person xml:id="GerardusDeWatrumwilla">
@@ -994,10 +1021,10 @@
                   (copied in Paris), Ms 162 and Boulogne-sur-Mer, Bibliothèque Municipale, Ms. 28
                   (both of them copied in Cologne). The first manuscript, which contains Versoris's
                   commentary on the natural philosophical corpus, bears the following possession
-                  mark: <quote n="2v marg-sup">Hunc librum acquisivit frater Jacobus Pol,
-                     tempore quo fuit scolaris Parisiensis</quote>. The second manuscript,
-                  containing Iohannes Tinctoris's commentary on the first and third parts of Thomas
-                  Aquinas's Summa theologiae, includes two relevant notes. The first reads: <quote
+                  mark: <quote n="2v marg-sup">Hunc librum acquisivit frater Jacobus Pol, tempore
+                     quo fuit scolaris Parisiensis</quote>. The second manuscript, containing
+                  Iohannes Tinctoris's commentary on the first and third parts of Thomas Aquinas's
+                  Summa theologiae, includes two relevant notes. The first reads: <quote
                      source="1r, marg. sup.">pro fratre Iacobo Pol, monacho sancti Bertini in sancto
                      Audomaro</quote>. The second, partially damaged by water, appears as follows:
                      <quote n="2v marg-sup">Incipit quedam lectura <damage agent="water">
@@ -1007,16 +1034,16 @@
                         damage</note> partem beati Thome de Aquino, ad pennam pronunciata ab egregio
                      viro, magistro Iohanne Tinctoris, artium magistro ac sacre theologie doctore
                      famosissimo eiusdemque divine cultore precipuo</quote> to which another hand
-                  (the same as in the first ownership mark) adds: <quote n="2v marg-sup"
-                     >quam fecit scribi frater Iacobus, religiosus sancti Bertini, tempore quo
-                     mansit Colonie</quote>. The third manuscript, containing Iohannes de
-                  Mechelinis's Commentary on De divinis nominibus, contains the following ex-libris:
-                     <quote n="217r marg-inf">Hunc librum fecit scribi fr. Jacobus Pol
-                     Colonie, pro monasterio Sancti Bertini, et fuit compositus per magistrum
-                     Iohannem de Mechelinia, professorem in theologia, tunc temporis in ipsa
-                     facultate regentem atque legente</quote>. Iacobus Pol entered the Benedictine
-                  monastery of Saint-Bertin before 1447. He served as prior twice: first between
-                  1450 and 1473, and again from 1474 to 1481. He died in 1500.</note>
+                  (the same as in the first ownership mark) adds: <quote n="2v marg-sup">quam fecit
+                     scribi frater Iacobus, religiosus sancti Bertini, tempore quo mansit
+                     Colonie</quote>. The third manuscript, containing Iohannes de Mechelinis's
+                  Commentary on De divinis nominibus, contains the following ex-libris: <quote
+                     n="217r marg-inf">Hunc librum fecit scribi fr. Jacobus Pol Colonie, pro
+                     monasterio Sancti Bertini, et fuit compositus per magistrum Iohannem de
+                     Mechelinia, professorem in theologia, tunc temporis in ipsa facultate regentem
+                     atque legente</quote>. Iacobus Pol entered the Benedictine monastery of
+                  Saint-Bertin before 1447. He served as prior twice: first between 1450 and 1473,
+                  and again from 1474 to 1481. He died in 1500.</note>
                <occupation role="fmo"
                   ref="#SaintOmer_BibliothèquedAgglomérationduPaysdeSaintOmer_586"/>
                <listBibl>
@@ -1096,8 +1123,8 @@
                   <surname type="variant">Zei</surname>
                </persName>
                <persName type="sort">Ceyll, Iohannes</persName>
-               <occupation role="scr" ref="#Nürnberg_StadtbibliothekimBildungscampusNürnberg_CentV47"
-               />
+               <occupation role="scr"
+                  ref="#Nürnberg_StadtbibliothekimBildungscampusNürnberg_CentV47"/>
             </person>
             <person xml:id="IohannesCoromines">
                <persName>
@@ -1709,16 +1736,16 @@
                   <surname type="preferred">Hawindorn aus Dingolfing</surname>
                </persName>
                <persName type="sort">Hawindorn aus Dingolfing, Peter</persName>
-               <note>Copied seven other manuscripts, from 1456 to 1476, in which he presents
-                  himself as persecutor rusticorum. He was Kaplan in Dingolfing a.d. Isar.</note>
+               <note>Copied seven other manuscripts, from 1456 to 1476, in which he presents himself
+                  as persecutor rusticorum. He was Kaplan in Dingolfing a.d. Isar.</note>
                <occupation role="scr"
                   ref="#SanktGallen_KantonsbibliothekVadianischeSammlung_VadSlgMs839"/>
                <listBibl>
                   <bibl>Geschichte der Stadt Dingolfing und ihrer Umgebung. Cover · Josef Wolfgang
                      Eberl. Detterer, 1856, p. 151.</bibl>
                   <bibl>Vatikan, Biblioteca Apostolica Vaticana, Pal. lat. 722. Beschreibung von:
-                     Dr. Wolfgang Metzger (Universitätsbibliothek Heidelberg), 2024.
-                     <ref target="https://digi.ub.uni-heidelberg.de/de/bpd/beschreibungen/bav_pal_lat_722.html"
+                     Dr. Wolfgang Metzger (Universitätsbibliothek Heidelberg), 2024. <ref
+                        target="https://digi.ub.uni-heidelberg.de/de/bpd/beschreibungen/bav_pal_lat_722.html"
                         >https://digi.ub.uni-heidelberg.de/de/bpd/beschreibungen/bav_pal_lat_722.html</ref>
                   </bibl>
                </listBibl>
@@ -1851,11 +1878,10 @@
                   following year. In 1437, he served as rector of the University. He participated in
                   several diplomatic missions: for instance, in 1438 he was a delegate of the
                   University at the Assembly of Bourges, where the Pragmatic Sanction was drawn up;
-                  in the same year, he acted as ambassador of Charles VII at the Council of Basel. In
-                  1452, he cooperated with the king and the cardinal legate Guillaume d'Estouteville
-                  in the reform of the University.</note>
-               <occupation role="tch"
-                  ref="#Laon_BibliothèquemunicipaleSuzanneMartinet_MS436"/>
+                  in the same year, he acted as ambassador of Charles VII at the Council of Basel.
+                  In 1452, he cooperated with the king and the cardinal legate Guillaume
+                  d'Estouteville in the reform of the University.</note>
+               <occupation role="tch" ref="#Laon_BibliothèquemunicipaleSuzanneMartinet_MS436"/>
                <note type="role">Master mentioned in the colophon as the lecturer of the commentary
                   transmitted.</note>
                <listBibl>
@@ -1866,8 +1892,7 @@
                   <bibl>Sullivan, Parisian Licentiates, II, p. 156–161 <note type="biblio">listing
                         the QsPol as Cybollus's work, based on the first version of Lohr's
                         inventory: C. Lohr, "Medieval Latin Aristotle Commentaries. Authors:
-                        Robertus–Wilgelmus", Traditio 29 (1973), p. 93–197, at p.
-                     100</note>.</bibl>
+                        Robertus–Wilgelmus", Traditio 29 (1973), p. 93–197, at p. 100</note>.</bibl>
                </listBibl>
             </person>
 
@@ -2062,7 +2087,8 @@
                   <surname type="preferred">Monaco</surname>
                </persName>
                <persName type="sort">Albeg de Monaco, Wolfgang</persName>
-               <note>This Dominican friar from the convent of Znojmo, Moravia, copied the QsY in 1497.</note>
+               <note>This Dominican friar from the convent of Znojmo, Moravia, copied the QsY in
+                  1497.</note>
                <affiliation type="religiousOrder" subtype="OP">Dominican</affiliation>
                <occupation role="scr fmo" ref="#LaHaye_KoninklijkeBibliotheek_ms169C3"/>
                <listBibl>
