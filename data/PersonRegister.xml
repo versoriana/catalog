@@ -616,6 +616,19 @@
                   <bibl>Sullivan, Parisian Licentiates II, 123-125.</bibl>
                </listBibl>
             </person>
+            <person xml:id="GallusDePraga">
+               <persName>
+                  <forename type="preferred">Gallus</forename>
+                  <nameLink type="preferred">de</nameLink>
+                  <surname type="preferred">Praga</surname>
+               </persName>
+               <persName type="sort">Praga, Gallus de</persName>
+               <note>In 1474–1475, he studied at the school of Letovice, in South Moravia, under the direction of Duchko de Mělník.</note>
+               <occupation role="scr" ref="#Brno_UniverzitníKnihovna_Mk66"/>
+               <listBibl>
+                  <bibl>V. Dokoupil, Soupisy rukopisných fondů Universitní knihovny v Brně, Praha, 1958, p. 113-115.</bibl>
+               </listBibl>
+            </person>
             <person xml:id="GaltherusDeWalma">
                <persName>
                   <forename type="preferred">Galtherus</forename>

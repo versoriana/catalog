@@ -1985,6 +1985,64 @@
 
 
 
+            <!-- Brno, Univerzitní Knihovna, Mk 66 issue#151 -->
+            <msDesc xml:id="Brno_UniverzitníKnihovna_Mk66">
+               <msIdentifier>
+                  <settlement>Brno</settlement>
+                  <repository>Univerzitní Knihovna</repository>
+                  <idno>Mk 66</idno>
+                  <idno type="URI"
+                     >https://www.digitalniknihovna.cz/mzk/uuid/uuid:0bd068fe-0d4c-488f-9382-4f78124544a3</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     <ab type="explicit_attribution" cert="0">none</ab>
+                  </summary>
+                  <msItem xml:id="Brno_UniverzitníKnihovna_Mk66_QsexP">
+                     <locus from="144r" to="153r"/>
+                     <title ref="workID">QsexP</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <handNote scope="major" scribeRef="#GallusDePraga"/>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate from="1474" to="1475">1474–1475. No date appears in the colophon of
+                        Versoris's commentary, but the other texts in the volume contain colophons
+                        with these dates.</origDate>
+                     <origPlace>Letovice</origPlace>
+                     <p>The colophons indicate that the manuscript was copied in Letovice, South
+                        Moravia, by a student named <persName ref="#GallusDePraga">Gallus from
+                           Prague</persName>, writing under the supervision of Duchko de Mielnik
+                        (Duchko Mělnický). The latter is described as a bachelor (with a play on his
+                        name —duch, "spirit," in Czech) in the colophon written in 1474, and as a
+                        master in the colophon written in 1475, which suggests that he obtained the
+                        master's degree in the meantime: <q n="30v">Finita est hec Spera per me,
+                           Gallum de Praga, sub anno incarnationis Domini M°CCCC°lXXIIII, feria
+                           tertia ante Simonis et Jude, reportata tunc temporis post dominum
+                           baccalarium spiritum nomine</q>; <q n="79r">Et sic est finis huius
+                           operis, sub anno incarnationis Jesu Christi M CCCC LXXV, feria secunda in
+                           die Donati, sub magistro Duchkone de Mielnik, tunc temporis scolam
+                           regentem ante letam curiam</q>; <q n="136r">anno Domini M CCCC LXXIIII,
+                           feria sexta post Mathei, reportata in scola letocuriensi</q>; <q n="205r"
+                           >Explicit tractatulus de excerptis verbis ab auctoribus, anno
+                           incarnacionis Jesu Christi M° CCCC° LXXV°, per me, Gallum de Praga,
+                           currente anno mee etatis vigesimo tertio, tunc temporis memet
+                           percunctante circa dominum Sserlink, feria sexta ante festum Sancti
+                           Galli, etc.</q>.</p>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>V. Dokoupil, Soupisy rukopisných fondů Universitní knihovny v Brně,
+                        Praha, 1958, p. 113-115.</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+
             <msDesc xml:id="Colmar_BM_223">
                <msIdentifier>
                   <settlement>Colmar</settlement>
@@ -2435,7 +2493,8 @@
                         scribe sketched a human face labeled "Gerardus", which could represent
                         either a self-portrait or a depiction of the master Gerardus de Monte.
                         Gerardus Arnhem also signed the colophons of other texts contained within
-                        the same codex: QdC, f. 198v; QdG, f. 237r; QdSen, f. 257r; QdLon, Final colophon, f. 272v:</p>
+                        the same codex: QdC, f. 198v; QdG, f. 237r; QdSen, f. 257r; QdLon, Final
+                        colophon, f. 272v:</p>
                   </origin>
                   <provenance>
                      <p>The codex later came into the possession of the Dominican convent of Ptuj
