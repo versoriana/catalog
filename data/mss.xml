@@ -2805,6 +2805,156 @@
                </additional>
             </msDesc>
 
+
+            <!-- Köln, Historisches Archiv der Stadt Köln, Best. 7002 issue#153 -->
+            <msDesc
+               xml:id="Köln_HistorischesArchivderStadtKölnRheinischemBildarchiv_Best7002GBfol200">
+               <msIdentifier>
+                  <settlement>Köln</settlement>
+                  <repository>Historisches Archiv der Stadt Köln – Rheinischem
+                     Bildarchiv</repository>
+                  <idno>Best. 7002 (GB fol., 200)</idno>
+                  <idno type="URI"
+                     >https://historischesarchivkoeln.de/document/Vz_EB579621-C6D1-41DC-A230-BD521EEA6D2A</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     <ab type="explicit_attribution" cert="1">The texts are ascribed to Versoris in
+                        the colophons of the QsMeta (f. 54v) and QsE (f. 154v), as well as in the
+                        table of contents on the inner front cover: <q n="inner-front-cover">Hii
+                           sunt libri qui in hoc opusculo continentur: questiones Versoris super
+                           Metaphysicam; liber causarum; Commentum sancti Thome super libro
+                           causarum; Questiones Versoris super Ethicorum; Concordantie quorundam
+                           doctorum in quibus videtur Sanctus Thomas sibi ipsi contradicere;
+                           Concordantie problematum inter sanctum Thomam et dominum Albertum;
+                           Invective cuiusdam albertiste super Concordantias</q>.</ab>
+                     <ab type="general_remarks">The codex, which is of great importance for the
+                        history of Thomism, also transmits the Liber de causis (ff. 57r–60r);
+                        Thomas Aquinas's commentary on it (ff. 60va–77rb); an incunable of Peter
+                        of Bergamo's Concordantie, printed in Cologne in 1480 (ff. 158r–212r);
+                        Gerard of Monte's Concordantie (ff. 213r–226r); Gerard of Monte's Tractatus
+                        ostendens (ff. 227r–238r); and Gerard of Monte's Apologia (ff. 239r–250v).</ab>
+                  </summary>
+                  <msItem
+                     xml:id="Köln_HistorischesArchivderStadtKölnRheinischemBildarchiv_Best7002GBfol200_QsMeta">
+                     <locus from="1r" to="54v"/>
+                     <title ref="workID">QsMeta I–XI, XII</title>
+                     <colophon n="final">
+                        <locus from="54v"/>Et sic finiuntur questiones super Metapysicam Aristotelis
+                        ab venerabili viri artium <del>et sacre theologie professoris eximii</del>
+                        Universitatis Parisiensis magistri nostri Iohannis Versoris, per me,
+                        Everhardum Dinslaken de Wesalia, anno Domini 1480, nona die mensis Augustus
+                        in profesto Laurentii infra sextam et septimam de sero, de quo sit
+                        benedictus omnipotens Deus eternaliter vivens et regnans. In Colonia et hoc
+                        in bursa de Monte </colophon>
+                  </msItem>
+                  <msItem
+                     xml:id="Köln_HistorischesArchivderStadtKölnRheinischemBildarchiv_Best7002GBfol200_LiberCausis">
+                     <locus from="57r" to="60r"/>
+                     <author>Anonymus</author>
+                     <title ref="xx">Liber de causis</title>
+                  </msItem>
+                  <msItem
+                     xml:id="Köln_HistorischesArchivderStadtKölnRheinischemBildarchiv_Best7002GBfol200_ThomasAquinas">
+                     <locus from="60va" to="77rb"/>
+                     <author>Thomas Aquinas</author>
+                     <title ref="XX">Commentum super Librum de causis</title>
+                     <colophon n="final">
+                        <locus from="77r"/>Explicit etc. per me, Everhardum de Dinslaken de Wesalia,
+                        artis magister licet immeritum, anno Domini 1482, in festo beate Appolonie
+                     </colophon>
+                  </msItem>
+                  <msItem
+                     xml:id="Köln_HistorischesArchivderStadtKölnRheinischemBildarchiv_Best7002GBfol200_QsE">
+                     <locus from="81ra" to="154va"/>
+                     <title ref="workID">QsE I–X</title>
+                     <colophon n="final">
+                        <locus from="154v"/>Iste sunt questiones magistri Johannis Versoris,
+                        <del>facultatis</del> artium magistri <del>et sacre theologie
+                        professoris</del> universitatis
+                        Parisiensis. Finite hee questiones per me Erhardum de Wesalia in Colonia, in
+                        bursa venerandi magistri nostri Lamperti de Monte, sacre theologie
+                        professoris eximii, anno Domini 1480, in festo beati Andree apostoli. Deo
+                        gratias </colophon>
+                  </msItem>
+                  <msItem
+                     xml:id="Köln_HistorischesArchivderStadtKölnRheinischemBildarchiv_Best7002GBfol200_Inc1">
+                     <locus from="158r" to="212r"/>
+                     <author>Petrus de Bergamo</author>
+                     <title ref="xx">Concordantiae</title>
+                     <note>Printed in Cologne in 1480</note>
+                  </msItem>
+                  <msItem
+                     xml:id="Köln_HistorischesArchivderStadtKölnRheinischemBildarchiv_Best7002GBfol200_GerardMonteConcordantie">
+                     <locus from="213r" to="226r"/>
+                     <author>Gerardus de Monte</author>
+                     <title ref="xxx">Concordantiae Sancti Thomae</title>
+                     <colophon n="final">
+                        <locus from="226r"/>Hee sunt descisionum sancti Thome in diversis que a
+                        quibusdam famantur contrarie concordancie edite per me Gherardum de Monte a.
+                        d. MCCCC quinquagesimo sexto. Et suppliciter obsecro quod sanctus Thomas
+                        michi dignetur impetrare perfectam concordiam voluntatis mee cum divina
+                        voluntate Amen </colophon>
+                  </msItem>
+                  <msItem
+                     xml:id="Köln_HistorischesArchivderStadtKölnRheinischemBildarchiv_Best7002GBfol200_GerardMonteTractatus">
+                     <locus from="227r" to="238r"/>
+                     <author>Gerardus de Monte</author>
+                     <title ref="XX">Tractatus ostendens</title>
+                  </msItem>
+                  <msItem
+                     xml:id="Köln_HistorischesArchivderStadtKölnRheinischemBildarchiv_Best7002GBfol200_GerardMonteApologia">
+                     <locus from="239r" to="250v"/>
+                     <author>Gerardus de Monte</author>
+                     <title ref="xx">Responsio ad quaedam invectiva</title>
+                     <colophon n="final">
+                        <locus from="250v"/>Et in hoc finitur responsio magistri Gerardi de Monte,
+                        sacre theologie professoris eximii ad quaedam invectiva, per me, Everhardum
+                        Wesalie, artis magister licet indignum </colophon>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <handNote scope="major" scribeRef="#EverardusDinslakenDeWesalia"/>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate from="1480" to="1482">1480–1482, as evidenced by the colophons:
+                        QsMeta, f. 54v; f. 77r; QsE, f. 154v; f. 226r; f. 250v.</origDate>
+                     <origPlace ref="#place_cologne">Cologne</origPlace>
+                     <p>The texts contained in this manuscript were copied by <persName
+                           ref="#EverardusDinslakenDeWesalia">Everardus Dinslaken de
+                           Wesalia</persName> in Cologne, at the bursa of the master Lambertus de
+                        Monte.</p>
+                  </origin>
+                  <provenance>
+                     <p>On the inner front cover, we find the following ownership mark: <q
+                           n="inner-front-cover">Liber Magistri Everhardi Dinslaken de Wesalia</q>;
+                        on f. 1r: <q n="1r">Liber Gymnasÿ Montani</q>. The manuscript is listed
+                        under the number "1558" in the catalogue of the Gymnasium Montanum, dated to
+                        the end of the 16th century.</p>
+                  </provenance>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source cert="high" resp="#">
+                           <p>Ms directly examined.</p>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+                  <listBibl>
+                     <bibl>G. G. Meersseman, Decisionum Sancti Thomae quae ad invicem oppositae quae
+                        a quibusdam dicuntur Concordantiae, anno 1456 editae per Gerardum de Monte
+                        ad codicum fidem, Roma, 1934.</bibl>
+                     <bibl>G. G. Meersseman, Geschichte des Albertismus, 2 vols., vol. 2: Die ersten
+                        Kölner Kontroversen, Roma, 1935, p. 109-128.</bibl>
+                     <bibl>Kristeller, Iter III, p. 592b.</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+
             <msDesc xml:id="Kraków_BibliotekaJagiellońska_cod504">
                <msIdentifier>
                   <settlement>Kraków</settlement>
@@ -4941,6 +5091,99 @@
                         400.</bibl>
                      <bibl>B. Koll, Katalog der Handschriften des Benediktinerstiftes Michaelbeuern
                         bis 1600, Wien 2000, 246-249.</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+
+            <!-- Modena, Biblioteca Estense Universitaria, Camp. 88 issue#152 -->
+            <msDesc xml:id="Modena_BibliotecaEstenseUniversitaria_Camp88GammaDI21">
+               <msIdentifier>
+                  <settlement>Modena</settlement>
+                  <repository>Biblioteca Estense Universitaria</repository>
+                  <idno>Camp. 88 (Gamma D I 21)</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     <ab type="explicit_attribution" cert="1">The QdA are ascribed to Versoris in
+                        the initial rubric, written by the hand of the copyist: <q n="1r marg-sup"
+                           >Incipiunt questiones Iohannis Verosoris [sic], doctoris eximii
+                           parisiensis, super libros De anima</q>; likely based on this rubric, a
+                        later hand added at the beginning of the second book: <q n="NA">Eximii
+                           doctoris Iohannis Versoris in secundum librum De anima</q>.</ab>
+                     <ab type="general_remarks">Between the two texts, we find a commentary on
+                        Aquinas's De quidditatibus rerum (ff. 46r–74va). Interestingly, QdA, Book
+                        II, contains a colophon (f. 32va), stating that the text follows the "common
+                        interpretation", which is neither that of Thomas nor Albert the Great.</ab>
+                  </summary>
+                  <msItem xml:id="Modena_BibliotecaEstenseUniversitaria_Camp88GammaDI21_QdA">
+                     <locus from="1r" to="45v"/>
+                     <title ref="workID">QdA</title>
+                     <colophon n="book II">
+                        <locus from="32va"/>Et de toto libro secundo De anima secundum communem
+                        modum exponendi, et non secundum modum exponendi Thome vel Alberti
+                     </colophon>
+                  </msItem>
+                  <msItem xml:id="Modena_BibliotecaEstenseUniversitaria_Camp88GammaDI21_Anon">
+                     <locus from="46r" to="74va"/>
+                     <author>Anonymus</author>
+                     <title ref="XX">De quidditatibus rerum</title>
+                     <incipit><locus from="46r"/>interpres doctor sanctus, nedum adultos provehere,
+                        verum etiam novitios <note type="editorial">cf. Gerard de Monte’s commentary
+                           on Thomas Aquinas’s De ente et essentia</note></incipit>
+                     <explicit><locus from="74va"/>nec ipsa lux non eclipsibilis, sed lucens
+                        eternaliter</explicit>
+                     <colophon n="final">
+                        <locus from="74va"/>Et in hoc terminetur presens commentatio, compilata
+                        circa compendium de quidditatibus rerum quod edidit sanctus Thomas, insignis
+                        interpres peripatetice veritatis </colophon>
+                  </msItem>
+                  <msItem xml:id="Modena_BibliotecaEstenseUniversitaria_Camp88GammaDI21_QdSen">
+                     <locus from="78r" to="90v"/>
+                     <title ref="workID">QdSen</title>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate from="1464" to="1467">ca. 1464-1467. In the absence of colophons
+                        providing information on the date of the texts, it cannot be affirmed with
+                        certainty when the manuscript was copied. The codex contains a
+                           <watermark>griffon watermark (particularly visible at f. 76), which I
+                           could not identify in any inventory; however, very similar specimina can
+                           be found in Piccard II, 704–723, all attested in Ferrara between 1464 and
+                           1467</watermark>.</origDate>
+                     <origPlace cert="medium">Ferrara</origPlace>
+                     <p>In the absence of colophons providing information on the origin of the
+                        texts, it cannot be affirmed with certainty whether the manuscript was also
+                        copied in the convent Santa Maria degli Angeli in Ferrara, see provenance,
+                        but an origin in Ferrara seems very likely, See the dating information. On
+                        f. 45vb, the scribe signed: <q n="45vb">Corne Rotter</q>.</p>
+                     <p/>
+                     <note type="msRelationship">
+                        <p><ref target="#Mantova_BibliotecacomunaleTeresiana_740FIV9" type="ms"
+                              >Mantova, Biblioteca comunale Teresiana, 740 (F IV 9)</ref>, which
+                           also contains, on f. 228r, the same statement found at the end of Book II
+                           of QdA.</p>
+                     </note>
+                  </origin>
+                  <provenance>
+                     <p>A note on the last folio dated 31 Augusti 1475 states that the manuscript
+                        belonged to the Dominican convent of Santa Maria degli Angeli in Ferrara: <q
+                           n="91va">Iste liber est conventus sancte Marie de Angelis apud Ferrariam
+                           fratrum predicatorum observantie</q>.</p>
+                  </provenance>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source cert="high" resp="#">
+                           <p>Ms directly examined.</p>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+                  <listBibl>
+                     <bibl>L. Lodi, Catalogo dei codici e degli autografi posseduti dal marchese
+                        Giuseppe Campori. Parte prima (sec. XIII-XV), Modena 1875, p. 63.</bibl>
+                     <bibl>Kristeller, Iter I, p. 386.</bibl>
                   </listBibl>
                </additional>
             </msDesc>

@@ -503,6 +503,23 @@
                   <bibl>Sheffeld, Schools and Schooling, 44, 317.</bibl>
                </listBibl>
             </person>
+            
+            <person xml:id="EverardusDinslakenDeWesalia">
+               <persName>
+                  <forename type="preferred">Everardus</forename>
+                  <surname type="preferred">Dinslaken</surname>
+                  <nameLink type="preferred">de</nameLink>
+                  <surname type="preferred">Wesalia</surname>
+               </persName>
+               <persName type="sort">Dinslaken, Everardus</persName>
+               <note>He enrolled in the Faculty of Arts at Cologne in 1478, in the bursa of Lambertus de Monte. He received his bachelor's degree in 1479 and his master's degree in 1481. He subsequently studied theology, obtaining the degree of baccalaureus formatus in 1489.</note>
+               <occupation role="scr fmo" ref="#Köln_HistorischesArchivderStadtKölnRheinischemBildarchiv_Best7002GBfol200"/>
+               <listBibl>
+                  <bibl>Keussen, Matrikel II, p. 38, l. 49.</bibl>
+                  <bibl>Tewes, Die Bursen, p. 38, 116, 262, 267, 530, 612, 676, 707.</bibl>
+               </listBibl>
+            </person>
+            
             <person xml:id="FolpardusDeAmeronghen">
                <persName>
                   <forename type="preferred">Folpardus</forename>
