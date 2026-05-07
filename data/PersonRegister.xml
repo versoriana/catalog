@@ -1419,6 +1419,27 @@
                   <bibl>Sheffler, Schools and Schooling, 43, 111, 190-191, 338-339.</bibl>
                </listBibl>
             </person>
+            <person xml:id="IohannesWeisse">
+               <persName>
+                  <forename type="preferred">Iohannes</forename>
+                  <surname type="preferred">Weiße</surname>
+               </persName>
+               <persName type="sort">Weiße, Iohannes</persName>
+               <death when="1486"/>
+               <note>He matriculated at the University of Rostock in 1423, where he obtained the
+                  degree of Master of Arts in 1431. He arrived at the University of Leipzig in
+                  1440, where he took an active part in academic life. In 1443, he became rector
+                  of the university. At the same time, he pursued studies in theology, obtaining
+                  his licentiate in 1460.</note>
+               <occupation role="fmo" ref="#Leipzig_Universitätsbibliothek_Ms1445"/>
+               <listBibl>
+                  <bibl>A. Hofmesister, Die Matrikel der Universität Rostock, 1: Mich. 1419 -
+                     Mich. 1499, Rostock, 1889, I, p. 15, 30, 39, 62.</bibl>
+                  <bibl>Erle, Matrikel II, 17, 126, 132, 134-135, 14-145, 147-148, 151-152, 159,
+                     162, 164, 173, 170,177.</bibl>
+                  <bibl>Kusche, Ego collegiatus, II, p. 669-671.</bibl>
+               </listBibl>
+            </person>
             <person xml:id="IudicellusRouyant">
                <persName>
                   <forename type="preferred">Iudicellus</forename>
@@ -1661,6 +1682,30 @@
                         target="http://cac.historia.uj.edu.pl/osoba/2022187_Micha%C5%82_Falkener_z_Wroc%C5%82awia"
                         >http://cac.historia.uj.edu.pl/osoba/2022187_Micha%C5%82_Falkener_z_Wroc%C5%82awia</ref>
                      (accessed 14.09.2025).</bibl>
+               </listBibl>
+            </person>
+            <person xml:id="NicholasBernauer">
+               <persName>
+                  <forename type="preferred">Nicholas</forename>
+                  <forename type="variant">Nikolaus</forename>
+                  <surname type="preferred">Bernauer</surname>
+                  <surname type="variant">Bernawer</surname>
+               </persName>
+               <persName type="sort">Bernauer, Nicholas</persName>
+               <death when="1531"/>
+               <note>He matriculated at the University of Ingolstadt in 1479, where he obtained a
+                  bachelor's degree in 1489 and a master's degree in 1483. By 1489, he had entered
+                  the Benedictine monastery of St. Emmeram in Regensburg.</note>
+               <affiliation type="religiousOrder" subtype="OSB">Benedictine</affiliation>
+               <occupation role="scr" ref="#München_BSB_Clm14088"/>
+               <listBibl>
+                  <bibl>Freiherrn von Pölnitz, Matrikel I, col. 88, l. 31.</bibl>
+                  <bibl>Bischoff, Studien zur Geschichte des Klosters St. Emmeram im
+                     Spätmittelalter, 134-137.</bibl>
+                  <bibl>Wunderle, Katalog der lateinischen Handschriften der Bayerischen
+                     Staatsbibliothek München, vol. 1, Clm 14000 –14130, 14, 186, 203, 209,
+                     261.</bibl>
+                  <bibl>Sheffler, Schools and Schooling, 261-262.</bibl>
                </listBibl>
             </person>
             <person xml:id="NicolausUnbehuen">
