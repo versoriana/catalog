@@ -2263,7 +2263,7 @@
                <msContents>
                   <summary>
                      <!-- Achtung entry needs revision bc books seem to have different attribution. different books in msItem are not modelled. Only this case -->
-                     <ab type="explicit_attribution" cert="0">Books VII–X and XII (ff. 224r–245v)
+                     <ab type="explicit_attribution" cert="1">Books VII–X and XII (ff. 224r–245v)
                         correspond to the text ascribed to Versoris in part of the manuscript
                         tradition as well as in the Cologne editions.</ab>
                      <ab type="general_remarks">Books I–II and IV–VI (ff. 192r–224r) differ from
@@ -2274,17 +2274,17 @@
                         basis of the authorities cited (William of Ockham, John Buridan, Marsilius
                         of Inghen), can be ascribed to the via moderna.</ab>
                   </summary>
+                  <msItem xml:id="Gießen_Universitätsbibliothek_Hs618_Anon">
+                     <locus from="3r" to="191v"/>
+                     <author>Anonymus</author>
+                     <title ref="XXX">Questions on Aristotle's Metaphysics</title>
+                  </msItem>
                   <msItem xml:id="Gießen_Universitätsbibliothek_Hs618_QsMeta">
                      <locus from="192r" to="245v"/>
                      <title ref="workID">QsMeta</title>
                      <colophon n="final"><locus from="inner-back-cover"/>Perfectum est opusculum
                         quarto (?) vicesima mensis septembris, anno 1449; constatque 5 florenos
                         aureos / Gabriel Byel</colophon>
-                  </msItem>
-                  <msItem xml:id="Gießen_Universitätsbibliothek_Hs618_Anon">
-                     <locus from="3r" to="191v"/>
-                     <author>Anonymus</author>
-                     <title ref="XXX">Questions on Aristotle's Metaphysics</title>
                   </msItem>
                </msContents>
                <physDesc>
@@ -2843,7 +2843,7 @@
                   <msItem xml:id="Köln_BibliothekStAlbertusMagnus_MS11_VocabulariusIuris">
                      <locus from="92" to="276"/>
                      <title ref="xx">Vocabularius utriusque iuris</title>
-                     <note>Printed in Cologne in 1483.</note>
+                     <note type="desc">Printed in Cologne in 1483.</note>
                   </msItem>
                   <msItem xml:id="Köln_BibliothekStAlbertusMagnus_MS11_Anon">
                      <locus from="279r" to="284r"/>
