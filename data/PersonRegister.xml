@@ -280,9 +280,9 @@
                      exempti Ordinis Cisterciensis archiducalis Monasterii B. V. Mariae et S. Joann.
                      Bapt. in Stams 1272–1898. Salisburgi 1898, 22, Nr. 261</bibl>
                   <bibl>Toepke, Matrikel, I, 379 [1485]</bibl>
-                  <bibl>K. Walsh, “Zwei Stamser Zisterzienser an der Universität Heidelberg:
+                  <bibl>K. Walsh, "Zwei Stamser Zisterzienser an der Universität Heidelberg:
                      Melchior und Balthasar Bosch aus Imst als Besitzer von Innsbruck,
-                     Universitätsbibliothek Cod. 220, und ihr Freundeskreis”, in Kulturerbe und
+                     Universitätsbibliothek Cod. 220, und ihr Freundeskreis", in Kulturerbe und
                      Bibliotheksmanagement. Festschrift für Walter Neuhauser (Biblos-Schriften 170).
                      Innsbruck 1998, 89–122.</bibl>
                </listBibl>
@@ -309,7 +309,7 @@
                </note>
                <occupation role="scr" ref="#Paris_BnF_latin6691"/>
                <listBibl>
-                  <bibl>Ouy, “Un catalogue d’un type nouveau”, 288</bibl>
+                  <bibl>Ouy, "Un catalogue d’un type nouveau", 288</bibl>
                   <bibl>K. Rebmeister-Klein, Les livres des petits collèges à Paris aux XIVe et XVe
                      siècles, Doct. Paris 1, 2005, III, 834-835</bibl>
                   <bibl>Bakker, Kok, Secundum intentionem Doctoris Subtilis, 264, n. 3</bibl>
@@ -418,10 +418,41 @@
                         target="http://studium-parisiense.univ-paris1.fr/individus/1628-christianuslupi"
                         >http://studium-parisiense.univ-paris1.fr/individus/1628-christianuslupi</ref>
                      (accessed 04.10.2025)</bibl>
-                  <bibl>“Christianus Lupi” (GSN: 002-04366-002), in: Germania Sacra, <ref
+                  <bibl>"Christianus Lupi" (GSN: 002-04366-002), in: Germania Sacra, <ref
                         target="https://personendatenbank.germania-sacra.de/index/gsn/002-04366-002"
                         >https://personendatenbank.germania-sacra.de/index/gsn/002-04366-002</ref>
                      (accessed 04.10.2025).</bibl>
+               </listBibl>
+            </person>
+            <person xml:id="ChristoferusDeAcuistes">
+               <persName>
+                  <forename type="preferred">Christoferus</forename>
+                  <forename type="variant">Christoforus</forename>
+                  <forename type="variant">Christopferus</forename>
+                  <nameLink type="preferred">de</nameLink>
+                  <surname type="preferred">Acuistes</surname>
+                  <surname type="variant">Acuistris</surname>                  
+               </persName>
+               <persName type="sort">Acuistes, Christoferus de</persName>
+               <note>The identification of the master who copied the texts ascribed to Versoris and
+                  Landulphus Caracciolo's Commentary on Book IV of the Sentences in the manuscript
+                  Köln, Bibliothek St. Albertus Magnus (olim Bornheim-Walberberg, Bibliothek St.
+                  Albert), MS 11 is doubtful. In fact, although this master presents himself as
+                  being originally from Utrecht in several colophons written at the Collège de
+                  Lisieux in Paris in 1457 and in Utrecht in 1464, no master with this exact name
+                  appears in the registers of the Anglo-German Nation of the University of Paris. A
+                  master with a similar name from the diocese of Utrecht is Christophorus Amstel,
+                  who obtained the degree of bachelor in 1455 and served as proctor of the
+                  Anglo-German Nation in 1457, when he is mentioned as having obtained the degree of
+                  master. Since his place of origin corresponds to that of the scribe of the Cologne
+                  manuscript, his name is very similar, and he was active as a master in Paris at
+                  the same time, it is very likely that Christoferus de Acuistes and Christophorus
+                  Amstel were one and the same person.</note>
+               <occupation role="scr"
+                  ref="#Köln_BibliothekStAlbertusMagnus_MS11"/>
+               <listBibl>
+                  <bibl>Auctarium II, col. 905, l. 39, col. 912, l. 40, 914 22, 916 14; VI, 262 29
+                     n. 16, 279 17, 280 14, 286 34 n. 6, 291 36, 292 8 28 n. 8.</bibl>
                </listBibl>
             </person>
             <person xml:id="CruxDeTelcz">
@@ -950,8 +981,8 @@
                   <bibl>Erle, Matrikel, I, 203.</bibl>
                   <bibl>Bischoff, Studien zur Geschichte des Klosters St. Emmeram im
                      Spätmittelalter, 130.</bibl>
-                  <bibl>F. Rumbold, “The Library of Hermann Pötzlinger (ca. 1415–1469), Rector
-                     Scolarium at the Monastery of St. Emmeram, Regensburg”, Gutenberg Jahrbuch 60
+                  <bibl>F. Rumbold, "The Library of Hermann Pötzlinger (ca. 1415–1469), Rector
+                     Scolarium at the Monastery of St. Emmeram, Regensburg", Gutenberg Jahrbuch 60
                      (1985): 337–40.</bibl>
                   <bibl>Sheffler, Schools and Schooling, 42-43, 116, 125, 133, 138, 140, 249,
                      308.</bibl>
@@ -1034,7 +1065,7 @@
                <occupation role="fmo" ref="#Basel_UB_FI13"/>
                <occupation role="fmo" ref="#Basel_UB_FV9"/>
                <listBibl>
-                  <bibl>M. Burckhardt, “Aus dem Umkreis der ersten Basler Universitätsbibliothek”,
+                  <bibl>M. Burckhardt, "Aus dem Umkreis der ersten Basler Universitätsbibliothek",
                      Basler Zeitschrift für Geschichte und Altertumskunde 58/59 (1959), 155-191, at
                      176-179</bibl>
                </listBibl>
@@ -1114,8 +1145,8 @@
                   <bibl>U. Winter, K. Heydeck, Die Manuscripta Magdeburgica der Staatsbibliothek zu
                      Berlin Preußischer Kulturbesitz, Teil 3: Ms. Magdeb. 170–286, Wiesbaden 2007,
                      33–36, 189 (with indication of other manuscripts copied by him)</bibl>
-                  <bibl>S. Masolini, “Two Commentaries on the De sensu et sensato from
-                     Fifteenth-Century Louvain,” in M. Mantovani, R. Zambiasi, and G. Zuccolin
+                  <bibl>S. Masolini, "Two Commentaries on the De sensu et sensato from
+                     Fifteenth-Century Louvain," in M. Mantovani, R. Zambiasi, and G. Zuccolin
                      (eds.), Aristotle’s De sensu in the Latin Tradition, 1250–1650, Firenze 2023,
                      227–269, at 239–240.</bibl>
                </listBibl>
@@ -1295,16 +1326,16 @@
                      l. 34; col. 328, l. 31; col. 329, l. 5; col. 336, l. 21, n.4, l. 28; col. 337,
                      l. 17, l. 40; col. 341, l. 6; col. 349, l. 33; col. 378, l. 15; col. 434, n. 6;
                      col. 456, l. 17, n. 6, l. 40; col. 460, l. 4; col. col. 474, l. 12</bibl>
-                  <bibl>M. Hossfeld, “Johannes Heynlin aus Stein”, Basler Zeitschrift für Geschichte
+                  <bibl>M. Hossfeld, "Johannes Heynlin aus Stein", Basler Zeitschrift für Geschichte
                      und Altertumskunde 6 (1907), 309–356</bibl>
-                  <bibl>M. Hossfeld, “Johannes Heynlin aus Stein. Ein Kapitel aus der Frühzeit des
-                     deutschen Humanismus”, Basler Zeitschrift für Geschichte und Altertumskunde 6
+                  <bibl>M. Hossfeld, "Johannes Heynlin aus Stein. Ein Kapitel aus der Frühzeit des
+                     deutschen Humanismus", Basler Zeitschrift für Geschichte und Altertumskunde 6
                      (1907), 309–356; 7 (1908) 79–219 and 235–431</bibl>
-                  <bibl>“Die Büchersammlung des Johannes de Lapide (gest. 1496). Eine
+                  <bibl>"Die Büchersammlung des Johannes de Lapide (gest. 1496). Eine
                      ausserordentliche Bibliothek als einziger Spiegel einer ausserordentlichen
-                     Person”, Gazette du livre médiéval 34 (1999), 37–43</bibl>
-                  <bibl>B. von Scarpatetti, “Weltverachtung an der Schwelle der Neuzeit. Zu den
-                     Glossen in der Bibliothek Heynlins von Stein (ca. 1430–1496)”, Basler
+                     Person", Gazette du livre médiéval 34 (1999), 37–43</bibl>
+                  <bibl>B. von Scarpatetti, "Weltverachtung an der Schwelle der Neuzeit. Zu den
+                     Glossen in der Bibliothek Heynlins von Stein (ca. 1430–1496)", Basler
                      Zeitschrift für Geschichte und Altertumskunde 110 (2010), 107–126</bibl>
                   <bibl>Sullivan, Parisian Licentiates II, 281–284</bibl>
                   <bibl>B. von Scarpatetti, Bücherliebe und Weltverachtung. Die Bibliothek des
@@ -1469,7 +1500,7 @@
                <listBibl>
                   <bibl>Auctarium V, col. 479, l. 39; col. 526, l. 5; col. 529, l. 4</bibl>
                   <bibl>Rouse, Manuscripts II, 140</bibl>
-                  <bibl>Deuffic, “Une diaspora”, 179, 283.</bibl>
+                  <bibl>Deuffic, "Une diaspora", 179, 283.</bibl>
                </listBibl>
             </person>
             <person xml:id="LaurentiusSartorisDeSweydnitcz">
@@ -1495,8 +1526,8 @@
                </persName>
                <persName type="sort">Schroter, Leonhardus</persName>
                <note>The identification of the scribe who, in the manuscript Nürnberg,
-                  Stadtbibliothek im Bildungscampus Nürnberg, Cent. VII 86, signs “Leonhardus
-                  Schroter conventus Ratisponensis” remains uncertain, since no friar bearing this
+                  Stadtbibliothek im Bildungscampus Nürnberg, Cent. VII 86, signs "Leonhardus
+                  Schroter conventus Ratisponensis" remains uncertain, since no friar bearing this
                   exact name is mentioned in either Bischoff’s or Scheffler’s studies on education
                   in Regensburg. The only scholar named Leonhard attested in this period appears to
                   be the Augustinian hermit Leonhardus (Mühlhauser) de Ratispona, lector and doctor
@@ -1522,8 +1553,8 @@
                <occupation role="fmo" ref="#Mainz_WissenschaftlicheStadtbibliothekMainz_HsI541"/>
                <listBibl>
                   <bibl>Toepke, Matrikel I 245.</bibl>
-                  <bibl>A. Fiamma, “O quam bona est solitaria vita! Marcellus Geist († 1469) as a
-                     reader of Petrarch and Nicholas of Cusa“, Freiburger Zeitschrift für
+                  <bibl>A. Fiamma, "O quam bona est solitaria vita! Marcellus Geist († 1469) as a
+                     reader of Petrarch and Nicholas of Cusa", Freiburger Zeitschrift für
                      Philosophie und Theologie, 72/1 (2025), 63-88.</bibl>
                </listBibl>
             </person>
@@ -1674,7 +1705,7 @@
                   <bibl>Polski Słownik Biograficzny (PSB), vol. 6, 357</bibl>
                   <bibl>Filozofia w Polsce. Słownik Pisarzy, 140–143</bibl>
                   <bibl>J. Domański, Michała Falkenera z Wrocławia (ok. 1460–1534) prolog do
-                     “Wykładu hymnów kościelnych”, Przegląd tomistyczny 15 (2009), 223–246</bibl>
+                     "Wykładu hymnów kościelnych", Przegląd tomistyczny 15 (2009), 223–246</bibl>
                   <bibl>Knoll, A Pearl of Powerful Learning, 214, 318, 336, 361, 400, 528, 630,
                      632</bibl>
                   <bibl>Michał Falkener z Wrocławia (Id: 2022187), in: Corpus Academicum Cracoviense
@@ -1795,7 +1826,7 @@
                   <surname type="preferred">Iuterbuck</surname>
                </persName>
                <persName type="sort">Doleatoris de Iuterbuck, Petrus</persName>
-               <note>The scribe who names himself as “Petrus Juterbog” can probably be identified
+               <note>The scribe who names himself as "Petrus Juterbog" can probably be identified
                   with Petrus Doleatoris de Iuterbuck, who obtained the degree of Bachelor at the
                   University of Leipzig in 1446.</note>
                <occupation role="scr" ref="#Greifswald_GeistlichesMinisterium_26DI"/>
@@ -1931,8 +1962,8 @@
                      xxiii, col. 257, n. 3</bibl>
                   <bibl>Vielliard, Registre de prêt, 403–406, 675–76</bibl>
                   <bibl>Marichal, Le livre des prieurs, 119, 154, 227</bibl>
-                  <bibl>Kałuza, “Débuts,” 281</bibl>
-                  <bibl>Kałuza, “Crise,” 312</bibl>
+                  <bibl>Kałuza, "Débuts," 281</bibl>
+                  <bibl>Kałuza, "Crise," 312</bibl>
                   <bibl>Sullivan, Parisian Licentiates II, 119-121.</bibl>
                </listBibl>
             </person>
@@ -2008,8 +2039,8 @@
                <occupation role="scr" ref="#Praha_NK_VE12"/>
                <listBibl>
                   <bibl>Monumenta I, Liber decanorum I, 21; II, 16. 25, 29, 37, 60.</bibl>
-                  <bibl>J. B. Korolec, “Stanisław z Gniezna. Stan badań [Stanislaus von Gniezna.
-                     State of the art]”, Materiały i studia Zakładu Historii Filozofii Starożytnej i
+                  <bibl>J. B. Korolec, "Stanisław z Gniezna. Stan badań [Stanislaus von Gniezna.
+                     State of the art]", Materiały i studia Zakładu Historii Filozofii Starożytnej i
                      Średniowiecznej 7 (1967), 14–34.</bibl>
                   <bibl>Lohr, Medieval Authors I, 164–165.</bibl>
                </listBibl>

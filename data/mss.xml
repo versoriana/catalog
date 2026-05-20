@@ -2806,6 +2806,117 @@
             </msDesc>
 
 
+            <!-- Köln, Bibliothek St. Albertus Magnus, MS 11 issue#154 -->
+            <msDesc xml:id="Köln_BibliothekStAlbertusMagnus_MS11">
+               <msIdentifier>
+                  <settlement>Köln</settlement>
+                  <repository>Bibliothek St. Albertus Magnus</repository>
+                  <idno>MS 11</idno>
+                  <idno type="URI">https://nbn-resolving.org/urn:nbn:de:hbz:kn28-3-16352</idno>
+                  <altIdentifier>
+                     <settlement>Bornheim-Walberberg</settlement>
+                     <repository>Bibliothek St. Albert</repository>
+                     <idno/>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     <ab type="explicit_attribution" cert="0">none</ab>
+                     <ab type="general_remarks">Besides Landulphus Caracciolo’s Commentary on book
+                        IV of the Sentences, and the incunable of the Vocabularius utriusque iuris,
+                        the codex also contains a set of anonymous QsY (ff. 279r-284r) which closely
+                        follow Bartholemy of Bruges’s commentary <note type="biblio">Flüeler,
+                           Rezeption und Interpretation der Aristotelischen Politica, vol. 2, p. 89
+                           and p. 178-179 (list of questions).</note></ab>
+                  </summary>
+                  <msItem xml:id="Köln_BibliothekStAlbertusMagnus_MS11_LandulphusCaracciolo">
+                     <locus from="1r" to="86r"/>
+                     <author>Landulphus Caracciolo</author>
+                     <title ref="xx">Scriptum super IV Sententiarum</title>
+                     <colophon n="final">
+                        <locus from="85rb"/>Explicit Scriptum magistri Landulphi, ordinis fratrum
+                        minorum, super IV Sententiarum, finitum et completum in Traiecto inferiori,
+                        quartadecima die mensis decembris anni 1464, per me, Christopferum de
+                        Acuistes, oriundum ex Traiecto inferiori, alme matris universitatis
+                        Parisiensis, </colophon>
+                  </msItem>
+                  <msItem xml:id="Köln_BibliothekStAlbertusMagnus_MS11_VocabulariusIuris">
+                     <locus from="92" to="276"/>
+                     <title ref="xx">Vocabularius utriusque iuris</title>
+                     <note>Printed in Cologne in 1483.</note>
+                  </msItem>
+                  <msItem xml:id="Köln_BibliothekStAlbertusMagnus_MS11_Anon">
+                     <locus from="279r" to="284r"/>
+                     <author>Anonymus</author>
+                     <title ref="xx">QsY</title>
+                     <note type="content">Closely follows Bartholemy of Bruges's commentary.</note>
+                     <colophon n="final">
+                        <locus from="284r"/>Explicit liber Yconomicorum, scriptus et completus per
+                        magistrum Christoforum de Acuistes, Parisius, in collegio Lisieux, anno
+                        Domini 1457, die nona mensis julii </colophon>
+                  </msItem>
+                  <msItem xml:id="Köln_BibliothekStAlbertusMagnus_MS11_QsPol">
+                     <locus from="285ra" to="319va"/>
+                     <title ref="workID">QsPol I–III</title>
+                     <colophon n="book I">
+                        <locus from="299v"/>Et sic est finis primi libri Politicorum, completi per
+                        me, magistrum Christoferum de Acuistes, anno Domini 1457, ultima die mensis
+                        julii, in venerabili collegio Lisieux Parisius </colophon>
+                  </msItem>
+                  <msItem xml:id="Köln_BibliothekStAlbertusMagnus_MS11_QsE">
+                     <locus from="321r" to="358r"/>
+                     <title ref="workID">QsE I–VI</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <handNote scope="major" scribeRef="#ChristoferusDeAcuistes"/>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate from="1457" to="1464">Christoferus de Acuistes copied Versoris’s text
+                        in 1457 and Landulphus’s Caracciolo Commentary on book IV of the Sentences
+                        in 1464.</origDate>
+                     <origPlace/>
+                     <p>The codex consists of three parts. The oldest one (ff. 279–358) was copied
+                        in Paris around 1457 by the master <persName ref="#ChristoferusDeAcuistes"
+                           >Christoferus de Acuistes</persName>, as is evident from the colophon of
+                        the anonymous QsY (f. 284r) and the colophon of the first book of QsPol (f.
+                        299v). The same master copied later in Utrecht book IV of Landulphus
+                        Caracciolo's commentary on the Sentences, as evident from the colophon (f.
+                        85rb). Between these two manuscript parts, there is an edition of the
+                        Vocabularius utriusque iuris printed in Cologne in 1483 (ff. 92–276).</p>
+                  </origin>
+                  <provenance>
+                     <p>The manuscript belonged to a Dominican friar (<q n="91r">Liber fratris
+                           Iohannis de Houdren(?), ordinis Predicatorum</q>, f. 91r), to the Wesel
+                        Dominican convent (f. 2r, marg sup, <q n="2r marg-sup">Bibliotheca
+                           Wesaliensis fratrum Predicatorum</q>), and to the Düsseldorf Dominican
+                        convent.</p>
+                  </provenance>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source cert="high" resp="#">
+                           <p>Ms directly examined.</p>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+                  <listBibl>
+                     <bibl>Flüeler, Rezeption und Interpretation der Aristotelischen Politica, vol.
+                        2, p. 89 and p. 178-179 (list of questions).</bibl>
+                     <bibl>P. von Löe, Verzeichnis der alten Handschriften und Drucke in der
+                        Bibliothek des Dominikanerklosters zu Düsseldorf, Köln 1904, p. 16.</bibl>
+                     <bibl>G. Gattermann et. al., Handschriftencensus Rheinland 1, Wiesbaden 1993,
+                        p. 209.</bibl>
+                     <bibl>C. D. Schabel, "The Sentences commentary of Landulphus Caracciolus, OFM",
+                        Bulletin de Philosophie Medievale 51 (2009), p. 145–219, at p. 168.</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+
             <!-- Köln, Historisches Archiv der Stadt Köln, Best. 7002 issue#153 -->
             <msDesc
                xml:id="Köln_HistorischesArchivderStadtKölnRheinischemBildarchiv_Best7002GBfol200">
@@ -2829,11 +2940,12 @@
                            Concordantie problematum inter sanctum Thomam et dominum Albertum;
                            Invective cuiusdam albertiste super Concordantias</q>.</ab>
                      <ab type="general_remarks">The codex, which is of great importance for the
-                        history of Thomism, also transmits the Liber de causis (ff. 57r–60r);
-                        Thomas Aquinas's commentary on it (ff. 60va–77rb); an incunable of Peter
-                        of Bergamo's Concordantie, printed in Cologne in 1480 (ff. 158r–212r);
-                        Gerard of Monte's Concordantie (ff. 213r–226r); Gerard of Monte's Tractatus
-                        ostendens (ff. 227r–238r); and Gerard of Monte's Apologia (ff. 239r–250v).</ab>
+                        history of Thomism, also transmits the Liber de causis (ff. 57r–60r); Thomas
+                        Aquinas's commentary on it (ff. 60va–77rb); an incunable of Peter of
+                        Bergamo's Concordantie, printed in Cologne in 1480 (ff. 158r–212r); Gerard
+                        of Monte's Concordantie (ff. 213r–226r); Gerard of Monte's Tractatus
+                        ostendens (ff. 227r–238r); and Gerard of Monte's Apologia (ff.
+                        239r–250v).</ab>
                   </summary>
                   <msItem
                      xml:id="Köln_HistorischesArchivderStadtKölnRheinischemBildarchiv_Best7002GBfol200_QsMeta">
@@ -2870,12 +2982,11 @@
                      <title ref="workID">QsE I–X</title>
                      <colophon n="final">
                         <locus from="154v"/>Iste sunt questiones magistri Johannis Versoris,
-                        <del>facultatis</del> artium magistri <del>et sacre theologie
-                        professoris</del> universitatis
-                        Parisiensis. Finite hee questiones per me Erhardum de Wesalia in Colonia, in
-                        bursa venerandi magistri nostri Lamperti de Monte, sacre theologie
-                        professoris eximii, anno Domini 1480, in festo beati Andree apostoli. Deo
-                        gratias </colophon>
+                           <del>facultatis</del> artium magistri <del>et sacre theologie
+                           professoris</del> universitatis Parisiensis. Finite hee questiones per me
+                        Erhardum de Wesalia in Colonia, in bursa venerandi magistri nostri Lamperti
+                        de Monte, sacre theologie professoris eximii, anno Domini 1480, in festo
+                        beati Andree apostoli. Deo gratias </colophon>
                   </msItem>
                   <msItem
                      xml:id="Köln_HistorischesArchivderStadtKölnRheinischemBildarchiv_Best7002GBfol200_Inc1">
