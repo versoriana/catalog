@@ -433,15 +433,17 @@ class VersorisSearch {
                     e.preventDefault();
                     input._activeSuggestionIndex = Math.max(input._activeSuggestionIndex - 1, -1);
                     this.updateActiveSuggestion(suggestions, input._activeSuggestionIndex);
-                } else if (e.key === 'Enter' && open) {
+                } else if (e.key === 'Enter') {
                     e.preventDefault();
                     e.stopPropagation();
                     const active = document.querySelector('#search-suggestions .search-suggestion-active');
+                    this.hideSearchSuggestions();
+                    input._activeSuggestionIndex = -1;
                     if (active) {
                         active.click();
-                    } else {
-                        this.hideSearchSuggestions();
-                        if (input.value.trim()) this.performSearch(input.value.trim());
+                        input.value = '';
+                    } else if (input.value.trim()) {
+                        this.performSearch(input.value.trim());
                     }
                 } else if (e.key === 'Escape') {
                     this.hideSearchSuggestions();

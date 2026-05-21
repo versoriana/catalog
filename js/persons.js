@@ -5,6 +5,8 @@ document.addEventListener("DOMContentLoaded", () => {
 	const headers     = document.querySelectorAll("#person-table thead th");
 	let currentRow    = null;
 	const sortState   = { col: -1, dir: 1 };
+	let dataReady     = false;
+	let pendingHash   = null;
 
 	function selectEntry(row) {
 		if (currentRow === row) {
@@ -55,6 +57,21 @@ document.addEventListener("DOMContentLoaded", () => {
 			tableBody.appendChild(row._detailRow);
 		});
 	}
+
+	function navigateToHash(hash) {
+		if (!hash) return;
+		const id  = decodeURIComponent(hash.substring(1));
+		const row = tableBody.querySelector(`tr[data-id="${id}"]`);
+		if (row) selectEntry(row);
+	}
+
+	window.addEventListener("hashchange", () => {
+		if (dataReady) {
+			navigateToHash(window.location.hash);
+		} else {
+			pendingHash = window.location.hash;
+		}
+	});
 
 	headers.forEach((th, i) => th.addEventListener("click", () => sortTable(i)));
 
@@ -122,11 +139,9 @@ document.addEventListener("DOMContentLoaded", () => {
 			});
 		});
 
-		if (window.location.hash) {
-			const id  = decodeURIComponent(window.location.hash.substring(1));
-			const row = tableBody.querySelector(`tr[data-id="${id}"]`);
-			if (row) selectEntry(row);
-		}
+		dataReady = true;
+		navigateToHash(pendingHash || window.location.hash);
+		pendingHash = null;
 
 		if (window.textHighlighter) {
 			const highlightTerms = new URLSearchParams(window.location.search).get("highlight");
