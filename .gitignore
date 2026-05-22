@@ -54,4 +54,7 @@ env/
 env.bak/
 venv.bak/
 
+# Claude Code
+.claude/
+
 
