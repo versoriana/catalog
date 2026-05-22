@@ -313,6 +313,45 @@
                </additional>
             </msDesc>
 
+            <!-- Augsburg, Staats- und Stadtbibliothek Augsburg, 2° Cod. 146 issue#155-->
+            <msDesc xml:id="Augsburg_StaatsundStadtbibliothekAugsburg_2Cod146">
+               <msIdentifier>
+                  <settlement>Augsburg</settlement>
+                  <repository>Staats- und Stadtbibliothek Augsburg</repository>
+                  <idno>2° Cod. 146</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary><ab type="explicit_attribution" cert="0">none</ab></summary>
+                  <msItem xml:id="Augsburg_StaatsundStadtbibliothekAugsburg_2Cod146_QsP">
+                     <locus from="1r" to="52v"/>
+                     <title ref="QsP">QsP</title>
+                     <note type="content">interrupted at Book II</note>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate from="1464" to="1470">ca. 1464–1470, dated by watermarks.</origDate>
+                     <p><watermark>Oxhead, Piccard XII 858, attested in Tyrol and Bayern between
+                           1457 and 1470</watermark>; <watermark>Piccard XIII 244, attested in
+                           Bayern in 1464–1470</watermark>.</p>
+                  </origin>
+                  <provenance>
+                     <p>Belonged to the library of the Chorherrenstift Hl. Kreuz in Augsburg, which
+                        received it from Friederik Kraus, as stated in the ex dono on the first
+                        guard-leaf: <q n="first-guard-leaf">Bibliothecae Augustanae hunc codicem
+                           manuscriptum dono dedit Frieredicus Krauss, sacr[arii] orator in aedibus
+                           fr[atrum] discalceatorum quartus</q>.</p>
+                  </provenance>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>H. Spilling, Die Handschriften der Staats- und Stadtbibliothek Augsburg.
+                        2° Cod 101-250 (Handschriftenkataloge der Staats- und Stadtbibliothek
+                        Augsburg III), Wiesbaden 1984, 75-77.</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+
             <!-- Augsburg, Universitätsbibliothek Augsburg, Cod. II.1.2º 220 issue#32-->
             <msDesc xml:id="Augsburg_UniversitätsbibliothekAugsburg_CodII12220">
                <msIdentifier>
@@ -2262,8 +2301,7 @@
                </msIdentifier>
                <msContents>
                   <summary>
-                     <!-- Achtung entry needs revision bc books seem to have different attribution. different books in msItem are not modelled. Only this case -->
-                     <ab type="explicit_attribution" cert="1">Books VII–X and XII (ff. 224r–245v)
+                     <ab type="explicit_attribution" cert="0">Books VII–X and XII (ff. 224r–245v)
                         correspond to the text ascribed to Versoris in part of the manuscript
                         tradition as well as in the Cologne editions.</ab>
                      <ab type="general_remarks">Books I–II and IV–VI (ff. 192r–224r) differ from
@@ -2841,7 +2879,7 @@
                         Parisiensis, </colophon>
                   </msItem>
                   <msItem xml:id="Köln_BibliothekStAlbertusMagnus_MS11_VocabulariusIuris">
-                     <locus from="92" to="276"/>
+                     <locus from="92r" to="276v"/>
                      <title ref="xx">Vocabularius utriusque iuris</title>
                      <note type="desc">Printed in Cologne in 1483.</note>
                   </msItem>
