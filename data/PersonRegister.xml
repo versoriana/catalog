@@ -513,6 +513,21 @@
                   the QsP in Colmar, Bibliothèque des Dominicains, ms. 223.</note>
                <occupation role="scr" ref="#Colmar_BM_223"/>
             </person>
+            <person xml:id="EgidiusKaterine">
+               <persName>
+                  <forename type="preferred">Egidius</forename>
+                  <surname type="preferred">Katerine</surname>
+               </persName>
+               <persName type="sort">Katerine, Egidius</persName>
+               <occupation role="fmo"
+                  ref="#AmiensBibliothèqueLouisAragonBibliothèquemunicipale_405"/>
+               <note>In the ownership mark that attests Egidius Katerine's acquisition of
+                  manuscript Amiens, Bibliothèque Louis Aragon (Bibliothèque municipale), 405 in
+                  1460, he is presented as a scholar from Albi: <q n="202rb">Iste liber pertinet
+                     domino Egidio Katerine, et emptus fuit anno LX° cuidam clerico de villa Albi,
+                     qui quidem liber scriptus fuit a quodam defuncto cognomine Lupi, anima eius
+                     et omnium defunctorum requiescat in pace, amen</q>, f. 202rb.</note>
+            </person>
             <person xml:id="ErasmusDaum">
                <persName>
                   <forename type="preferred">Erasmus</forename>
@@ -1823,8 +1838,8 @@
                   <bibl>R. Schmidt, Reichenau und S. Gallen. Ihre literarische Überlieferung
                         zur Zeit des Klosterhumanismus in St. Ulrich und Afra zu Augsburg um
                         1500 (Vorträge und Forschungen, Sonderband 33), 1985,
-                     pp. 50–51 <note type="biblio">(including a reconstruction of Berkenmayr's
-                        library)</note>.</bibl>
+                     pp. 50–51. <note type="biblio">(including a reconstruction of Berkenmayr's
+                        library)</note></bibl>
                </listBibl>
             </person>
             <person xml:id="PetrusBriçonnet">
