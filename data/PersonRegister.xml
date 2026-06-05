@@ -1802,6 +1802,31 @@
                   <bibl>Kądzielski, Mrozowicz, Catalogus, p. 72-73.</bibl>
                </listBibl>
             </person>
+            <person xml:id="PetrusBerkenmayr">
+               <persName>
+                  <forename type="preferred">Petrus</forename>
+                  <surname type="preferred">Berkenmayr</surname>
+                  <surname type="variant">Perkenmair de
+                  Augusta</surname>
+               </persName>
+               <persName type="sort">Berkenmayr, Petrus</persName>
+               <death when="1505"/>
+               <affiliation type="religiousOrder" subtype="OSB">Benedictine</affiliation>
+               <occupation role="fmo"
+                  ref="#Augsburg_StaatsundStadtbibliothekAugsburg_Cod419"/>
+               <note>He entered the monastery of Saint Ulrich and Afra in Augsburg in 1497 and
+                  owned a rich library. He should probably be identified with Petrus Perkenmair de
+                  Augusta, who matriculated at the University of Ingolstadt in 1472.</note>
+               <listBibl>
+                  <bibl>G. Wolff, Die Matrikel der Ludwig-Maximilians-Universität
+                        Ingolstadt–Landshut–München, Bd. I, col. 10, l. 5.</bibl>
+                  <bibl>R. Schmidt, Reichenau und S. Gallen. Ihre literarische Überlieferung
+                        zur Zeit des Klosterhumanismus in St. Ulrich und Afra zu Augsburg um
+                        1500 (Vorträge und Forschungen, Sonderband 33), 1985,
+                     pp. 50–51 <note type="biblio">(including a reconstruction of Berkenmayr's
+                        library)</note>.</bibl>
+               </listBibl>
+            </person>
             <person xml:id="PetrusBriçonnet">
                <persName>
                   <forename type="preferred">Petrus</forename>
