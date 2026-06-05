@@ -272,6 +272,126 @@
                </additional>
             </msDesc>
 
+            <!-- Amiens, Bibliothèque Louis Aragon (Bibliothèque municipale), 405* issue#157-->
+            <msDesc xml:id="AmiensBibliothèqueLouisAragonBibliothèquemunicipale_405">
+               <msIdentifier>
+                  <settlement>Amiens</settlement>
+                  <repository ref="#org_0002">Bibliothèque Louis Aragon (Bibliothèque municipale)</repository>
+                  <idno>405</idno>
+                  <idno type="URI">https://ccfr.bnf.fr/portailccfr/jsp/index_view_direct_anonymous.jsp?record=eadcgm:EADC:D24012053</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     <ab type="explicit_attribution" cert="0">none</ab>
+                  </summary>
+                  <msItem xml:id="AmiensBibliothèqueLouisAragonBibliothèquemunicipale_405_QsPor">
+                     <locus from="2r" to="27v"/>
+                     <title ref="QsPor">QsPor</title>
+                  </msItem>
+                  <msItem xml:id="AmiensBibliothèqueLouisAragonBibliothèquemunicipale_405_QsPre">
+                     <locus from="28r" to="50r"/>
+                     <title ref="QsPre">QsPre</title>
+                  </msItem>
+                  <msItem xml:id="AmiensBibliothèqueLouisAragonBibliothèquemunicipale_405_QdInt">
+                     <locus from="50v" to="68v"/>
+                     <title ref="QdInt">QdInt</title>
+                  </msItem>
+                  <msItem xml:id="AmiensBibliothèqueLouisAragonBibliothèquemunicipale_405_QsPri">
+                     <locus from="69r" to="100v"/>
+                     <title ref="QsPri">QsPri</title>
+                  </msItem>
+                  <msItem xml:id="AmiensBibliothèqueLouisAragonBibliothèquemunicipale_405_QsPos">
+                     <locus from="101r" to="139r"/>
+                     <title ref="QsPos">QsPos</title>
+                     <colophon n="final"><locus from="139r"/>Et in hoc finitur sententia huius
+                        secundi Posteriorum, septima die Januarii, in qua die determinavi in vico
+                        Straminis sub venerabili viro magistro Iacobo Tsuaden, anno LVIII°, cum
+                        Johanne Griselet, Johanne de Frigidomonte. Johannes Lupi, oriundus
+                        Albini</colophon>
+                  </msItem>
+                  <msItem xml:id="AmiensBibliothèqueLouisAragonBibliothèquemunicipale_405_QsTop">
+                     <locus from="143r" to="165v"/>
+                     <title ref="QsTop">QsTop I–IV</title>
+                  </msItem>
+                  <msItem xml:id="AmiensBibliothèqueLouisAragonBibliothèquemunicipale_405_QsSE">
+                     <locus from="165v" to="187r"/>
+                     <title ref="QsSE">QsSE</title>
+                     <colophon n="book I"><locus from="184rb"/>Et hoc de primo Elencorum
+                        Aristotelis, finito per me, Iohannem Lupi, octava die ianuarii, anno Domini
+                        M° IIII° LVIII°</colophon>
+                     <colophon n="book II"><locus from="187rb"/>Et in hoc finitur tota sententia
+                        secundi Elencorum Aristotelis, scripta per me, Iohannem Lupi, anno Domini
+                        IIII° LVIII°, nona die mensis januarii. Iohannes Lupi</colophon>
+                  </msItem>
+                  <msItem xml:id="AmiensBibliothèqueLouisAragonBibliothèquemunicipale_405_QsSex">
+                     <locus from="187v" to="197r"/>
+                     <title ref="QsSex">QsSex</title>
+                     <colophon n="final"><locus from="197r"/>Et hec de questione dicta sufficiant,
+                        et per consequens de toto libro Sex principiorum Guilberti Porretani, finito
+                        per me, Johannem Lupi, in nocte beatissimi martiris Firmini, anno, mense
+                        quibus supra. Lupi</colophon>
+                  </msItem>
+                  <msItem xml:id="AmiensBibliothèqueLouisAragonBibliothèquemunicipale_405_QdDiv">
+                     <locus from="197v" to="202r"/>
+                     <title ref="QdDiv">QdDiv</title>
+                     <colophon n="final"><locus from="202rb"/>Et hoc de toto libro Divisionum
+                        Boetii Severini, completo per Iohannem Lupi, anno Domini M° IIII°
+                        quinquagesimo VIII°, in die beatissimi martiris Firmini. Lupi, oriundus
+                        Albini</colophon>
+                  </msItem>
+                  <msItem xml:id="AmiensBibliothèqueLouisAragonBibliothèquemunicipale_405_Qdente">
+                     <locus from="203v" to="208r"/>
+                     <title ref="Qdente">Qdente</title>
+                     <note type="gap">ending interrupted at q. 6</note>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <handNote scope="major" scribeRef="#IohannesLupi"/>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate from="1458" to="1458">1458</origDate>
+                     <p>The texts were copied by <persName ref="#IohannesLupi">Iohannes
+                           Lupi</persName>, a student at the Paris Faculty of Arts, who in 1458
+                        determined under the master Iacobus Suaden, as is evident from the following colophons: QsPos
+                        (f. 139r), QsSE, Book I (f. 184rb), QsSE, Book II, (f. 187rb), QsSex (f. 197r), and QdDiv
+                        (f. 202rb).</p>
+                  </origin>
+                  <provenance>
+                     <p>After the death of <persName ref="#IohannesLupi">Iohannes Lupi</persName>,
+                        the codex was acquired by <persName
+                           ref="#IacobusDabencourt">Iacobus d'Abencourt</persName>, a scholar from
+                        Albi, and in 1460 it was acquired from him by <persName
+                           ref="#EgidiusKaterine">Egidius Katerine</persName>, as stated in the
+                        following ownership marks: <q n="156vb">Egidius Katerine emit hunc librum
+                           domino Iacobo d'Abencourt, anno sexagesimo. Orate pro eo</q>; <q
+                           n="202rb">Iste liber pertinet domino Egidio Katerine, et emptus fuit
+                           anno LX° cuidam clerico de villa Albi, qui quidem liber scriptus fuit a
+                           quodam defuncto cognomine Lupi, anima eius et omnium defunctorum
+                           requiescat in pace, amen. Et dictus Egidius soluit scutum cum dimidio,
+                           demptis tribus albis et ligamento pretium quatuor solidorum
+                           parisiensium. Orate etiam pro anima eius, ut Deus parcat ei et faciat
+                           eam in die iudicii ressucitari [sic] in vitam eternam.
+                        Amen</q>.</p>
+                  </provenance>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source cert="high">Ms directly examined.</source>
+                     </recordHist>
+                  </adminInfo>
+                  <listBibl>
+                     <bibl>Lohr, Gallica, 227.</bibl>
+                     <bibl>Green-Pedersen, The Tradition of the Topics in the Middle Ages,
+                        400.</bibl>
+                     <bibl>Lohr I, 342.</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+
 
             <msDesc xml:id="Angers_MédiathèqueToussaintBibliothèquemunicipale_437">
                <msIdentifier>
