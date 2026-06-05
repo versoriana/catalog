@@ -1046,6 +1046,19 @@
                      Encyclopedia of Renaissance Philosophy, Cham 2022, 1526–1527.</bibl>
                </listBibl>
             </person>
+            <person xml:id="IacobusDabencourt">
+               <persName>
+                  <forename type="preferred">Iacobus</forename>
+                  <surname type="preferred">d'Abencourt</surname>
+               </persName>
+               <persName type="sort">d'Abencourt, Iacobus</persName>
+               <occupation role="fmo"
+                  ref="#AmiensBibliothèqueLouisAragonBibliothèquemunicipale_405"/>
+               <note>In 1460 he sold manuscript Amiens, Bibliothèque Louis Aragon (Bibliothèque
+                  municipale), 405 to Egidius Katerine, as stated in the ownership mark: <q
+                     n="156vb">Egidius Katerine emit hunc librum domino Iacobo d'Abencourt, anno
+                     sexagesimo. Orate pro eo</q>, 156vb.</note>
+            </person>
             <person xml:id="IacobusBorkemanMariaeburgo">
                <persName>
                   <forename type="preferred">Iacobus</forename>
