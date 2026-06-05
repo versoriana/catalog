@@ -352,6 +352,78 @@
                </additional>
             </msDesc>
 
+            <!-- Augsburg, Staats- und Stadtbibliothek Augsburg, Cod. 4° 19 issue#156-->
+            <msDesc xml:id="Augsburg_StaatsundStadtbibliothekAugsburg_Cod419">
+               <msIdentifier>
+                  <settlement>Augsburg</settlement>
+                  <repository ref="#org_0004">Staats- und Stadtbibliothek Augsburg</repository>
+                  <idno>Cod. 4° 19</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     <ab type="explicit_attribution" cert="0">none</ab>
+                     <ab type="general_remarks">The commentary forms part of a collection of
+                        grammatical texts, including Iohannes Iosse de Marvilla's De modis
+                           significandi with commentary (ff. 222r–272v).</ab>
+                  </summary>
+                  <msItem xml:id="Augsburg_StaatsundStadtbibliothekAugsburg_Cod419_CsD">
+                     <locus from="165r" to="220v"/>
+                     <title ref="#work_DC">CsDon</title>
+                  </msItem>
+                  <msItem xml:id="Augsburg_StaatsundStadtbibliothekAugsburg_Cod419_Marvilla">
+                     <locus from="222r" to="272v"/>
+                     <author>Iohannes Iosse de Marvilla</author>
+                     <title ref="xx">De modis significandi</title>
+                     <incipit>Ut flos grammaticae pingatur corde minorum</incipit>
+                     <note type="content">Commentary incipit: Circa initium modorum significandi et
+                        notandi, sicut dicit philosophus…</note>
+                     <colophon><locus from="272v"/>Et sic est finis sub anno domini M°
+                        CCCCL° VIII in die Crucis ante prandium in medio septime et octve horarum
+                        diei, per me, Andream Schrautham de Sweinfordia, tunc temporis scolarem
+                        existens in nova civitate circa Orlam finivit librum istum. Requiescat, etc.
+                        Finis letificat, incepcio sepe molestat</colophon>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate from="1458" to="1481">The section containing the CsDon (ff. 165r–220v)
+                        presents <watermark>an oxhead watermark (Piccard XII 803, attested in
+                           Bavaria between 1477 and 1481)</watermark> and <watermark>a crown
+                              watermark (Piccard XII 27, attested in Bavaria between 1474 and
+                              1482)</watermark>.</origDate>
+                     <p>This is a miscellaneous volume. The colophon of the commentary on Iohannes
+                        Iosse de Marvilla's De modis significandi (ff. 222r–272v)
+                        states that the text was completed in 1458 in Neustadt an der Orla,
+                        Thuringia, by a student named Andreas Schrautha from Schweinfurt, Bavaria
+                        (f. 272v).</p>
+                  </origin>
+                  <provenance>
+                     <p>Possibly through this scribe, the manuscript later reached Bavaria, where it
+                        was bound together with other grammatical texts and came into the possession
+                        of the Benedictine monk <persName ref="#PetrusBerkenmayr">Petrus
+                           Berkenmayr</persName>, as stated on f. 1v: <q n="1v">frater Petrus
+                           Berkenmayr monachus et professus huius loci hunc eidem donavit libellum
+                           continentem grammaticalia, anno 1496</q>. From him, the codex entered
+                        the library of the monastery of SS. Ulrich and Afra in Augsburg.</p>
+                  </provenance>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Bursill-Hall, A Census of Medieval Latin Grammatical Manuscripts, p. 23,
+                        nr. 9.1.</bibl>
+                     <bibl>G. L. Bursill-Hall, "Medieval Donatus Commentaries",
+                        Historiographia Linguistica, Volume 8/1 (1981), p. 69-97, at
+                        p. 82 <note type="biblio">(who mentions the commentary on Donatus as
+                           anonymous and does not identify it with that transmitted in manuscript
+                           Wrocław, Biblioteka Uniwersytecka, IV Q 77)</note>.</bibl>
+                     <bibl>W. Gehrt, Die Handschriften der Staats- und Stadtbibliothek
+                           Augsburg 4o Cod 1–150, Wiesbaden: Harrassowitz, 1999
+                        (Handschriftenkataloge der Staats- und Stadtbibliothek
+                           Augsburg, Bd. 6), p. 29–31.</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+
             <!-- Augsburg, Universitätsbibliothek Augsburg, Cod. II.1.2º 220 issue#32-->
             <msDesc xml:id="Augsburg_UniversitätsbibliothekAugsburg_CodII12220">
                <msIdentifier>
