@@ -368,6 +368,7 @@
                   </summary>
                   <msItem xml:id="Augsburg_StaatsundStadtbibliothekAugsburg_Cod419_CsD">
                      <locus from="165r" to="220v"/>
+                     <author>Johannes Versoris</author>
                      <title ref="#work_DC">CsDon</title>
                   </msItem>
                   <msItem xml:id="Augsburg_StaatsundStadtbibliothekAugsburg_Cod419_Marvilla">
@@ -2678,7 +2679,7 @@
                   </msItem>
                   <msItem xml:id="Greifswald_GeistlichesMinisterium_26DI_QsMeta">
                      <locus from="263r" to="292v"/>
-                     <author>Versoris</author>
+                     <author>Johannes Versoris</author>
                      <title ref="workID">QsMeta VII–X and XII</title>
                      <note type="attribution">QsMeta VII–X and XII (ff. 263r–292v) correspond to the
                         text ascribed to Versoris in part of the manuscript tradition as well as in
@@ -3395,7 +3396,7 @@
                      <!-- Incunabulum 1: Versoris on Ars nova and De ente et essentia -->
                      <msItem xml:id="Kraków_BJ_908_Inc1">
                         <locus from="1r" to="128r"/>
-                        <author>Joannes Versoris</author>
+                        <author>Johannes Versoris</author>
                         <title ref="ID">Questions on the Ars nova; De ente et essentia</title>
                         <note>Printed in Cologne by Heinrich Quentell before 1489</note>
                      </msItem>
@@ -3405,7 +3406,7 @@
                            <locus from="129r" to="204r" scheme="#bound"/>
                            <locus from="1r" to="76r" scheme="#unbound"/>
                         </locusGrp>
-                        <author>Joannes Versoris</author>
+                        <author>Johannes Versoris</author>
                         <title ref="ID">Questions on the Ars vetus (Isagoge, Predicamenta, De
                            interpretatione, De sex principiis)</title>
                         <note>Printed in Cologne around 1487</note>
@@ -9856,7 +9857,7 @@
                   <msItem xml:id="Warszawa_BibliotekaNarodowa_BOZ81_QsMeta">
                      <locus from="1r" to="326v"/>
                      <title ref="workID">QsMeta I–XII </title>
-                     <author>Versoris</author>
+                     <author>Johannes Versoris</author>
                   </msItem>
                </msContents>
                <history>
@@ -10543,12 +10544,12 @@
                   <msItem xml:id="Wrocław_BibliotekaUniwersyteckaweWrocławiu_MilII70_QsE">
                      <locus from="1r" to="193r"/>
                      <title ref="workID">QsE I-X</title>
-                     <author>Versoris</author>
+                     <author>Johannes Versoris</author>
                   </msItem>
                   <msItem xml:id="Wrocław_BibliotekaUniwersyteckaweWrocławiu_MilII70_QsPol">
                      <locus from="216" to="341v"/>
                      <title ref="workID">QsPol</title>
-                     <author>Versoris</author>
+                     <author>Johannes Versoris</author>
                      <colophon><locus from="341v"/>Et tantum de isto octavo, et per consequens de
                         toto libro Politicorum Aristotelis, 1468</colophon>
                   </msItem>
