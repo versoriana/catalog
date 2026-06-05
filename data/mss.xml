@@ -54,7 +54,7 @@
             <msDesc xml:id="Aarau_AKB_MsWettF42">
                <msIdentifier>
                   <settlement>Aarau</settlement>
-                  <repository>Aargauer Kantonsbibliothek</repository>
+                  <repository ref="#org_0001">Aargauer Kantonsbibliothek</repository>
                   <idno>MsWettF 42</idno>
                </msIdentifier>
                <msContents>
@@ -180,7 +180,7 @@
             <msDesc xml:id="AmiensBibliothèqueLouisAragonBibliothèquemunicipale_402">
                <msIdentifier>
                   <settlement>Amiens</settlement>
-                  <repository>Bibliothèque Louis Aragon (Bibliothèque municipale)</repository>
+                  <repository ref="#org_0002">Bibliothèque Louis Aragon (Bibliothèque municipale)</repository>
                   <idno>402</idno>
                   <idno type="URI">https://arca.irht.cnrs.fr/ark:/63955/md65v692t912</idno>
                </msIdentifier>
@@ -276,7 +276,7 @@
             <msDesc xml:id="Angers_MédiathèqueToussaintBibliothèquemunicipale_437">
                <msIdentifier>
                   <settlement>Angers</settlement>
-                  <repository>Médiathèque Toussaint (Bibliothèque municipale)</repository>
+                  <repository ref="#org_0003">Médiathèque Toussaint (Bibliothèque municipale)</repository>
                   <idno>437</idno>
                   <idno type="URI">https://commulysse.angers.fr/ark:/54380/70fqz53kh89s</idno>
                </msIdentifier>
@@ -317,7 +317,7 @@
             <msDesc xml:id="Augsburg_StaatsundStadtbibliothekAugsburg_2Cod146">
                <msIdentifier>
                   <settlement>Augsburg</settlement>
-                  <repository>Staats- und Stadtbibliothek Augsburg</repository>
+                  <repository ref="#org_0004">Staats- und Stadtbibliothek Augsburg</repository>
                   <idno>2° Cod. 146</idno>
                </msIdentifier>
                <msContents>
@@ -356,7 +356,7 @@
             <msDesc xml:id="Augsburg_UniversitätsbibliothekAugsburg_CodII12220">
                <msIdentifier>
                   <settlement>Augsburg</settlement>
-                  <repository>Universitätsbibliothek Augsburg</repository>
+                  <repository ref="#org_0005">Universitätsbibliothek Augsburg</repository>
                   <idno>Cod. II.1.2º 220</idno>
                </msIdentifier>
                <msContents>
@@ -407,7 +407,7 @@
             <msDesc xml:id="Bamberg_StaatsbibliothekBamberg_class584HJIC29">
                <msIdentifier>
                   <settlement>Bamberg</settlement>
-                  <repository>Staatsbibliothek Bamberg</repository>
+                  <repository ref="#org_0007">Staatsbibliothek Bamberg</repository>
                   <idno>class 58/4 (HJ.IC.29)</idno>
                </msIdentifier>
                <msContents>
@@ -457,7 +457,7 @@
             <msDesc xml:id="Bamberg_StaatsbibliothekBamberg_MscPatr150">
                <msIdentifier>
                   <settlement>Bamberg</settlement>
-                  <repository>Staatsbibliothek Bamberg</repository>
+                  <repository ref="#org_0007">Staatsbibliothek Bamberg</repository>
                   <idno>Msc.Patr.150</idno>
                   <idno type="URI"
                      >https://resolver.staatsbibliothek-berlin.de/HSP0004E85D00000000</idno>
@@ -527,7 +527,7 @@
             <msDesc xml:id="Basel_UB_FI13">
                <msIdentifier>
                   <settlement>Basel</settlement>
-                  <repository>Universitätsbibliothek</repository>
+                  <repository ref="#org_0010">Universitätsbibliothek</repository>
                   <idno>F I 13</idno>
                </msIdentifier>
                <msContents>
@@ -640,7 +640,7 @@
             <msDesc xml:id="Basel_UB_FII14">
                <msIdentifier>
                   <settlement>Basel</settlement>
-                  <repository>Universitätsbibliothek</repository>
+                  <repository ref="#org_0010">Universitätsbibliothek</repository>
                   <idno>F II 14</idno>
                </msIdentifier>
                <msContents>
@@ -732,7 +732,7 @@
             <msDesc xml:id="Basel_UB_FIV4">
                <msIdentifier>
                   <settlement>Basel</settlement>
-                  <repository>Universitätsbibliothek</repository>
+                  <repository ref="#org_0010">Universitätsbibliothek</repository>
                   <idno>F IV 4</idno>
                </msIdentifier>
                <msContents>
@@ -765,7 +765,7 @@
             <msDesc xml:id="Basel_UB_FIII10">
                <msIdentifier>
                   <settlement>Basel</settlement>
-                  <repository>Universitätsbibliothek</repository>
+                  <repository ref="#org_0010">Universitätsbibliothek</repository>
                   <idno>F III 10</idno>
                </msIdentifier>
                <msContents>
@@ -917,7 +917,7 @@
             <msDesc xml:id="Basel_UB_FIII11">
                <msIdentifier>
                   <settlement>Basel</settlement>
-                  <repository>Universitätsbibliothek</repository>
+                  <repository ref="#org_0010">Universitätsbibliothek</repository>
                   <idno>F III 11</idno>
                </msIdentifier>
                <msContents>
@@ -1046,7 +1046,7 @@
             <msDesc xml:id="Basel_UB_FIII12">
                <msIdentifier>
                   <settlement>Basel</settlement>
-                  <repository>Universitätsbibliothek</repository>
+                  <repository ref="#org_0010">Universitätsbibliothek</repository>
                   <idno>F III 12</idno>
                </msIdentifier>
                <msContents>
@@ -1141,7 +1141,7 @@
             <msDesc xml:id="Basel_UB_FV9">
                <msIdentifier>
                   <settlement>Basel</settlement>
-                  <repository>Universitätsbibliothek</repository>
+                  <repository ref="#org_0010">Universitätsbibliothek</repository>
                   <idno>F V 9</idno>
                </msIdentifier>
                <msContents>
@@ -1228,7 +1228,7 @@
             <msDesc xml:id="Basel_UB_FVI4">
                <msIdentifier>
                   <settlement>Basel</settlement>
-                  <repository>Universitätsbibliothek</repository>
+                  <repository ref="#org_0010">Universitätsbibliothek</repository>
                   <idno>F VI 4</idno>
                </msIdentifier>
                <msContents>
@@ -1304,7 +1304,7 @@
             <msDesc xml:id="Basel_UB_FVI16">
                <msIdentifier>
                   <settlement>Basel</settlement>
-                  <repository>Universitätsbibliothek</repository>
+                  <repository ref="#org_0010">Universitätsbibliothek</repository>
                   <idno>F VI 16</idno>
                </msIdentifier>
                <msContents>
@@ -1402,7 +1402,7 @@
             <msDesc xml:id="Basel_UB_FVI67">
                <msIdentifier>
                   <settlement>Basel</settlement>
-                  <repository>Universitätsbibliothek</repository>
+                  <repository ref="#org_0010">Universitätsbibliothek</repository>
                   <idno>F VI 67</idno>
                </msIdentifier>
                <msContents>
@@ -1496,7 +1496,7 @@
             <msDesc xml:id="Basel_UB_FVII11">
                <msIdentifier>
                   <settlement>Basel</settlement>
-                  <repository>Universitätsbibliothek</repository>
+                  <repository ref="#org_0010">Universitätsbibliothek</repository>
                   <idno>F VII 11</idno>
                </msIdentifier>
                <msContents>
@@ -1597,7 +1597,7 @@
             <msDesc xml:id="Berlin_SBPK_Hdschr435">
                <msIdentifier>
                   <settlement>Berlin</settlement>
-                  <repository>SB – PK</repository>
+                  <repository ref="#org_0013">SB – PK</repository>
                   <idno>Hdschr. 435</idno>
                   <idno type="URI"
                      >https://resolver.staatsbibliothek-berlin.de/HSP00038DF400000000</idno>
@@ -1718,7 +1718,7 @@
             <msDesc xml:id="Berlin_SBPK_latfol402">
                <msIdentifier>
                   <settlement>Berlin</settlement>
-                  <repository>Staatsbibliothek, Preußischer Kulturbesitz</repository>
+                  <repository ref="#org_0013">Staatsbibliothek, Preußischer Kulturbesitz</repository>
                   <idno>lat. fol. 402</idno>
                </msIdentifier>
                <msContents>
@@ -1868,7 +1868,7 @@
             <msDesc xml:id="Berlin_StaatsbibliotheekPreußischerKulturbesitz_Mslatqu87">
                <msIdentifier>
                   <settlement>Berlin</settlement>
-                  <repository>Staatsbibliotheek, Preußischer Kulturbesitz</repository>
+                  <repository ref="#org_0013">Staatsbibliotheek, Preußischer Kulturbesitz</repository>
                   <idno>Ms. lat. qu. 87</idno>
                </msIdentifier>
                <msContents>
@@ -1933,7 +1933,7 @@
             <msDesc xml:id="Bonn_ULB_S67IV">
                <msIdentifier>
                   <settlement>Bonn</settlement>
-                  <repository>Universitäts- und Landesbibliothek</repository>
+                  <repository ref="#org_0014">Universitäts- und Landesbibliothek</repository>
                   <idno>S 67 IV</idno>
                </msIdentifier>
                <msContents>
@@ -2028,7 +2028,7 @@
             <msDesc xml:id="Brno_UniverzitníKnihovna_Mk66">
                <msIdentifier>
                   <settlement>Brno</settlement>
-                  <repository>Univerzitní Knihovna</repository>
+                  <repository ref="#org_0016">Univerzitní Knihovna</repository>
                   <idno>Mk 66</idno>
                   <idno type="URI"
                      >https://www.digitalniknihovna.cz/mzk/uuid/uuid:0bd068fe-0d4c-488f-9382-4f78124544a3</idno>
@@ -2085,7 +2085,7 @@
             <msDesc xml:id="Colmar_BM_223">
                <msIdentifier>
                   <settlement>Colmar</settlement>
-                  <repository>Bibliothèque des dominicains (Bibliothèque municipale)</repository>
+                  <repository ref="#org_0017">Bibliothèque des dominicains (Bibliothèque municipale)</repository>
                   <idno>223</idno>
                </msIdentifier>
                <msContents>
@@ -2122,9 +2122,9 @@
                      <locus from="276r" to="291r"/>
                      <title ref="ID">QsSens</title>
                   </msItem>
-                  <msItem xml:id="Colmar_BM_223_QdeMem">
+                  <msItem xml:id="Colmar_BM_223_QdMem">
                      <locus from="292r" to="297r"/>
-                     <title ref="ID">QdeMem</title>
+                     <title ref="ID">QdMem</title>
                   </msItem>
                   <msItem xml:id="Colmar_BM_223_QSom">
                      <locus from="298r" to="340v"/>
@@ -2183,7 +2183,7 @@
             <msDesc xml:id="Eichstätt_Universitätsbibliothek_CodSt476">
                <msIdentifier>
                   <settlement>Eichstätt</settlement>
-                  <repository>Universitätsbibliothek</repository>
+                  <repository ref="#org_0020">Universitätsbibliothek</repository>
                   <idno>Cod. St. 476</idno>
                </msIdentifier>
                <msContents>
@@ -2236,7 +2236,7 @@
             <msDesc xml:id="Gießen_UniversitätsbibliothekGießen_Hs52">
                <msIdentifier>
                   <settlement>Gießen</settlement>
-                  <repository>Universitätsbibliothek Gießen</repository>
+                  <repository ref="#org_0028">Universitätsbibliothek Gießen</repository>
                   <idno>Hs 52</idno>
                   <idno type="URI"
                      >https://digisam.ub.uni-giessen.de/ubg-ihd-fb/content/pageview/3912755</idno>
@@ -2294,7 +2294,7 @@
             <msDesc xml:id="Gießen_Universitätsbibliothek_Hs618">
                <msIdentifier>
                   <settlement>Gießen</settlement>
-                  <repository>Universitätsbibliothek</repository>
+                  <repository ref="#org_0028">Universitätsbibliothek</repository>
                   <idno>Hs 618</idno>
                   <idno type="URI"
                      >https://digisam.ub.uni-giessen.de/urn/urn:nbn:de:hebis:26-digisam-123987</idno>
@@ -2384,7 +2384,7 @@
             <msDesc xml:id="Gotha_ForschungsbibliothekGotha_ChartA775">
                <msIdentifier>
                   <settlement>Gotha</settlement>
-                  <repository>Forschungsbibliothek Gotha</repository>
+                  <repository ref="#org_0029">Forschungsbibliothek Gotha</repository>
                   <idno>Chart. A 775</idno>
                   <idno type="URI">https://dhb.thulb.uni-jena.de/receive/ufb_cbu_00028704</idno>
                </msIdentifier>
@@ -2445,7 +2445,7 @@
             <msDesc xml:id="Graz_UB_Ms853">
                <msIdentifier>
                   <settlement>Graz</settlement>
-                  <repository>Universitätsbibliothek</repository>
+                  <repository ref="#org_0030">Universitätsbibliothek</repository>
                   <idno>Ms. 853</idno>
                   <idno type="URI"
                      >https://unipub.uni-graz.at/obvugrscript/content/titleinfo/11239407</idno>
@@ -2565,7 +2565,7 @@
             <msDesc xml:id="Greifswald_GeistlichesMinisterium_26DI">
                <msIdentifier>
                   <settlement>Greifswald</settlement>
-                  <repository>Geistliches Ministerium</repository>
+                  <repository ref="#org_0031">Geistliches Ministerium</repository>
                   <idno>26 D I</idno>
                   <idno type="URI"> https://resolver.staatsbibliothek-berlin.de/HSP0006765200000000
                   </idno>
@@ -2672,7 +2672,7 @@
             <msDesc xml:id="Heidelberg_UBH_CodSalVIII109">
                <msIdentifier>
                   <settlement>Heidelberg</settlement>
-                  <repository>Universitätsbibliothek Heidelberg</repository>
+                  <repository ref="#org_0032">Universitätsbibliothek Heidelberg</repository>
                   <idno>Cod. Sal. VIII 109</idno>
                   <idno type="DOI">https://doi.org/10.11588/diglit.7321</idno>
                </msIdentifier>
@@ -2724,7 +2724,7 @@
             <msDesc xml:id="Innsbruck_UniversitätsundLandesbibliothekTirol_Cod220">
                <msIdentifier>
                   <settlement>Innsbruck</settlement>
-                  <repository>Universitäts- und Landesbibliothek Tirol</repository>
+                  <repository ref="#org_0034">Universitäts- und Landesbibliothek Tirol</repository>
                   <idno>Cod. 220</idno>
                   <idno type="URI">https://resolver.obvsg.at/urn:nbn:at:at-ubi:5-5021</idno>
                </msIdentifier>
@@ -2848,7 +2848,7 @@
             <msDesc xml:id="Köln_BibliothekStAlbertusMagnus_MS11">
                <msIdentifier>
                   <settlement>Köln</settlement>
-                  <repository>Bibliothek St. Albertus Magnus</repository>
+                  <repository ref="#org_0037">Bibliothek St. Albertus Magnus</repository>
                   <idno>MS 11</idno>
                   <idno type="URI">https://nbn-resolving.org/urn:nbn:de:hbz:kn28-3-16352</idno>
                   <altIdentifier>
@@ -3107,7 +3107,7 @@
             <msDesc xml:id="Kraków_BibliotekaJagiellońska_cod504">
                <msIdentifier>
                   <settlement>Kraków</settlement>
-                  <repository>Biblioteka Jagiellońska</repository>
+                  <repository ref="#org_0039">Biblioteka Jagiellońska</repository>
                   <idno>cod. 504</idno>
                   <idno type="URI">https://jbc.bj.uj.edu.pl/publication/609065</idno>
                </msIdentifier>
@@ -3154,7 +3154,7 @@
             <msDesc xml:id="Kraków_BibliotekaJagiellońska_cod511">
                <msIdentifier>
                   <settlement>Kraków</settlement>
-                  <repository>Biblioteka Jagiellońska</repository>
+                  <repository ref="#org_0039">Biblioteka Jagiellońska</repository>
                   <idno>cod. 511</idno>
                   <idno type="URI">https://jbc.bj.uj.edu.pl/publication/600082</idno>
                </msIdentifier>
@@ -3209,7 +3209,7 @@
             <msDesc xml:id="Kraków_BibliotekaJagiellońska_cod623">
                <msIdentifier>
                   <settlement>Kraków</settlement>
-                  <repository>Biblioteka Jagiellońska</repository>
+                  <repository ref="#org_0039">Biblioteka Jagiellońska</repository>
                   <idno>cod. 623</idno>
                   <idno type="URI">https://jbc.bj.uj.edu.pl/publication/608560</idno>
                </msIdentifier>
@@ -3248,7 +3248,7 @@
             <msDesc xml:id="Kraków_BibliotekaJagiellońska_cod740">
                <msIdentifier>
                   <settlement>Kraków</settlement>
-                  <repository>Biblioteka Jagiellońska</repository>
+                  <repository ref="#org_0039">Biblioteka Jagiellońska</repository>
                   <idno>cod. 740</idno>
                   <idno type="URI">https://jbc.bj.uj.edu.pl/publication/601611</idno>
                </msIdentifier>
@@ -3310,7 +3310,7 @@
             <msDesc xml:id="Kraków_BJ_908">
                <msIdentifier>
                   <settlement>Kraków</settlement>
-                  <repository>Biblioteka Jagiellońska</repository>
+                  <repository ref="#org_0039">Biblioteka Jagiellońska</repository>
                   <idno>908</idno>
                   <idno type="URI">https://jbc.bj.uj.edu.pl/publication/638126</idno>
                </msIdentifier>
@@ -3436,7 +3436,7 @@
             <msDesc xml:id="Kraków_BibliotekaJagiellońska_cod1893">
                <msIdentifier>
                   <settlement>Kraków</settlement>
-                  <repository>Biblioteka Jagiellońska</repository>
+                  <repository ref="#org_0039">Biblioteka Jagiellońska</repository>
                   <idno>cod. 1893</idno>
                </msIdentifier>
                <msContents>
@@ -3514,7 +3514,7 @@
             <msDesc xml:id="Kraków_BibliotekaJagiellońska_cod2002">
                <msIdentifier>
                   <settlement>Kraków</settlement>
-                  <repository>Biblioteka Jagiellońska</repository>
+                  <repository ref="#org_0039">Biblioteka Jagiellońska</repository>
                   <idno>cod. 2002</idno>
                </msIdentifier>
                <msContents>
@@ -3589,7 +3589,7 @@
             <msDesc xml:id="Kraków_BibliotekaJagiellońska_cod2007">
                <msIdentifier>
                   <settlement>Kraków</settlement>
-                  <repository>Biblioteka Jagiellońska</repository>
+                  <repository ref="#org_0039">Biblioteka Jagiellońska</repository>
                   <idno>cod. 2007</idno>
                </msIdentifier>
                <msContents>
@@ -3718,7 +3718,7 @@
             <msDesc xml:id="Kraków_BibliotekaJagiellońska_cod2008">
                <msIdentifier>
                   <settlement>Kraków</settlement>
-                  <repository>Biblioteka Jagiellońska</repository>
+                  <repository ref="#org_0039">Biblioteka Jagiellońska</repository>
                   <idno>cod. 2008</idno>
                </msIdentifier>
                <msContents>
@@ -3800,7 +3800,7 @@
             <msDesc xml:id="Kraków_BibliotekaJagiellońska_cod2016">
                <msIdentifier>
                   <settlement>Kraków</settlement>
-                  <repository>Biblioteka Jagiellońska</repository>
+                  <repository ref="#org_0039">Biblioteka Jagiellońska</repository>
                   <idno>cod. 2016</idno>
                </msIdentifier>
                <msContents>
@@ -3898,7 +3898,7 @@
             <msDesc xml:id="Kraków_BibliotekaJagiellońska_cod2018">
                <msIdentifier>
                   <settlement>Kraków</settlement>
-                  <repository>Biblioteka Jagiellońska</repository>
+                  <repository ref="#org_0039">Biblioteka Jagiellońska</repository>
                   <idno>cod. 2018</idno>
                </msIdentifier>
                <msContents>
@@ -3950,7 +3950,7 @@
             <msDesc xml:id="Kraków_BibliotekaJagiellońska_cod2024">
                <msIdentifier>
                   <settlement>Kraków</settlement>
-                  <repository>Biblioteka Jagiellońska</repository>
+                  <repository ref="#org_0039">Biblioteka Jagiellońska</repository>
                   <idno>cod. 2024</idno>
                </msIdentifier>
                <msContents>
@@ -4042,7 +4042,7 @@
             <msDesc xml:id="Kraków_BibliotekaJagiellońska_cod2072">
                <msIdentifier>
                   <settlement>Kraków</settlement>
-                  <repository>Biblioteka Jagiellońska</repository>
+                  <repository ref="#org_0039">Biblioteka Jagiellońska</repository>
                   <idno>cod. 2072</idno>
                </msIdentifier>
                <msContents>
@@ -4137,7 +4137,7 @@
             <msDesc xml:id="Kraków_BibliotekaJagiellońska_cod2076">
                <msIdentifier>
                   <settlement>Kraków</settlement>
-                  <repository>Biblioteka Jagiellońska</repository>
+                  <repository ref="#org_0039">Biblioteka Jagiellońska</repository>
                   <idno>cod. 2076</idno>
                </msIdentifier>
                <msContents>
@@ -4208,7 +4208,7 @@
             <msDesc xml:id="Kraków_BibliotekaJagiellońska_cod2085">
                <msIdentifier>
                   <settlement>Kraków</settlement>
-                  <repository>Biblioteka Jagiellońska</repository>
+                  <repository ref="#org_0039">Biblioteka Jagiellońska</repository>
                   <idno>cod. 2085</idno>
                </msIdentifier>
                <msContents>
@@ -4268,7 +4268,7 @@
             <msDesc xml:id="Kraków_BibliotekaJagiellońska_cod2087">
                <msIdentifier>
                   <settlement>Kraków</settlement>
-                  <repository>Biblioteka Jagiellońska</repository>
+                  <repository ref="#org_0039">Biblioteka Jagiellońska</repository>
                   <idno>cod. 2087</idno>
                   <idno type="URI">https://jbc.bj.uj.edu.pl/publication/339711</idno>
                </msIdentifier>
@@ -4344,7 +4344,7 @@
             <msDesc xml:id="Kraków_BibliotekaJagiellońska_cod2118">
                <msIdentifier>
                   <settlement>Kraków</settlement>
-                  <repository>Biblioteka Jagiellońska</repository>
+                  <repository ref="#org_0039">Biblioteka Jagiellońska</repository>
                   <idno>cod. 2118</idno>
                   <idno type="URI">https://jbc.bj.uj.edu.pl/publication/339703</idno>
                </msIdentifier>
@@ -4470,7 +4470,7 @@
             <msDesc xml:id="Kraków_BibliotekaJagiellońska_cod2524">
                <msIdentifier>
                   <settlement>Kraków</settlement>
-                  <repository>Biblioteka Jagiellońska</repository>
+                  <repository ref="#org_0039">Biblioteka Jagiellońska</repository>
                   <idno>cod. 2524</idno>
                </msIdentifier>
                <msContents>
@@ -4542,7 +4542,7 @@
             <msDesc xml:id="Kraków_BibliotekaJagiellońska_cod2599">
                <msIdentifier>
                   <settlement>Kraków</settlement>
-                  <repository>Biblioteka Jagiellońska</repository>
+                  <repository ref="#org_0039">Biblioteka Jagiellońska</repository>
                   <idno>cod. 2599</idno>
                </msIdentifier>
                <msContents>
@@ -4615,7 +4615,7 @@
             <msDesc xml:id="LaHaye_KoninklijkeBibliotheek_ms169C3">
                <msIdentifier>
                   <settlement>La Haye</settlement>
-                  <repository>Koninklijke Bibliotheek</repository>
+                  <repository ref="#org_0040">Koninklijke Bibliotheek</repository>
                   <idno>ms. 169 C 3</idno>
                </msIdentifier>
                <msContents>
@@ -4681,7 +4681,7 @@
             <msDesc xml:id="Laon_BibliothèquemunicipaleSuzanneMartinet_MS436">
                <msIdentifier>
                   <settlement>Laon</settlement>
-                  <repository>Bibliothèque municipale Suzanne Martinet</repository>
+                  <repository ref="#org_0041">Bibliothèque municipale Suzanne Martinet</repository>
                   <idno>MS 436</idno>
                </msIdentifier>
                <msContents>
@@ -4756,7 +4756,7 @@
             <msDesc xml:id="Leipzig_UB_Ms1419">
                <msIdentifier>
                   <settlement>Leipzig</settlement>
-                  <repository>UB</repository>
+                  <repository ref="#org_0043">UB</repository>
                   <idno>Ms 1419</idno>
                   <idno type="URI">https://katalog.ub.uni-leipzig.de/Record/159-31582093</idno>
                </msIdentifier>
@@ -4868,7 +4868,7 @@
             <msDesc xml:id="Liège_Bibliothèqueuniversitaire_339">
                <msIdentifier>
                   <settlement>Liège</settlement>
-                  <repository>Bibliothèque universitaire</repository>
+                  <repository ref="#org_0044">Bibliothèque universitaire</repository>
                   <idno>339</idno>
                   <idno type="URI">https://hdl.handle.net/2268.1/4006</idno>
                </msIdentifier>
@@ -4941,7 +4941,7 @@
             <msDesc xml:id="Mainz_WissenschaftlicheStadtbibliothek_HsI530b">
                <msIdentifier>
                   <settlement>Mainz</settlement>
-                  <repository>Wissenschaftliche Stadtbibliothek</repository>
+                  <repository ref="#org_0048">Wissenschaftliche Stadtbibliothek</repository>
                   <idno>Hs. I 530 b</idno>
                </msIdentifier>
                <msContents>
@@ -5011,7 +5011,7 @@
             <msDesc xml:id="Mainz_WissenschaftlicheStadtbibliothekMainz_HsI541">
                <msIdentifier>
                   <settlement>Mainz</settlement>
-                  <repository>Wissenschaftliche Stadtbibliothek Mainz</repository>
+                  <repository ref="#org_0048">Wissenschaftliche Stadtbibliothek Mainz</repository>
                   <idno>Hs. I 541</idno>
                   <idno type="URI"
                      >https://digi.ub.uni-heidelberg.de/diglit/mzstb_hs_i_541/0530</idno>
@@ -5079,7 +5079,7 @@
             <msDesc xml:id="Mantova_BibliotecacomunaleTeresiana_740FIV9">
                <msIdentifier>
                   <settlement>Mantova</settlement>
-                  <repository>Biblioteca comunale Teresiana</repository>
+                  <repository ref="#org_0049">Biblioteca comunale Teresiana</repository>
                   <idno>740 (F IV 9)</idno>
                </msIdentifier>
                <msContents>
@@ -5171,7 +5171,7 @@
             <msDesc xml:id="Michaelbeuern_Benediktinerstift_mancart57">
                <msIdentifier>
                   <settlement>Michaelbeuern</settlement>
-                  <repository>Benediktinerstift</repository>
+                  <repository ref="#org_0051">Benediktinerstift</repository>
                   <idno>man. cart. 57</idno>
                </msIdentifier>
                <msContents>
@@ -5248,7 +5248,7 @@
             <msDesc xml:id="Modena_BibliotecaEstenseUniversitaria_Camp88GammaDI21">
                <msIdentifier>
                   <settlement>Modena</settlement>
-                  <repository>Biblioteca Estense Universitaria</repository>
+                  <repository ref="#org_0052">Biblioteca Estense Universitaria</repository>
                   <idno>Camp. 88 (Gamma D I 21)</idno>
                </msIdentifier>
                <msContents>
@@ -5340,7 +5340,7 @@
             <msDesc xml:id="München_BSB_Clm6694">
                <msIdentifier>
                   <settlement>München</settlement>
-                  <repository>BSB</repository>
+                  <repository ref="#org_0054">BSB</repository>
                   <idno>Clm 6694</idno>
                   <idno type="URI">https://www.digitale-sammlungen.de/view/bsb00103276</idno>
                </msIdentifier>
@@ -5484,7 +5484,7 @@
             <msDesc xml:id="München_BSB_Clm14088">
                <msIdentifier>
                   <settlement>München</settlement>
-                  <repository>BSB</repository>
+                  <repository ref="#org_0054">BSB</repository>
                   <idno>Clm 14088</idno>
                   <idno type="URI">https://www.digitale-sammlungen.de/view/bsb00034244</idno>
                </msIdentifier>
@@ -5619,7 +5619,7 @@
             <msDesc xml:id="München_BSB_Clm14133">
                <msIdentifier>
                   <settlement>München</settlement>
-                  <repository>BSB</repository>
+                  <repository ref="#org_0054">BSB</repository>
                   <idno>Clm 14133</idno>
                   <idno type="URI">https://www.digitale-sammlungen.de/view/bsb00035478</idno>
                </msIdentifier>
@@ -5718,7 +5718,7 @@
             <msDesc xml:id="München_BSB_Clm14518">
                <msIdentifier>
                   <settlement>München</settlement>
-                  <repository>BSB</repository>
+                  <repository ref="#org_0054">BSB</repository>
                   <idno>Clm 14518</idno>
                   <idno type="URI">https://www.digitale-sammlungen.de/view/bsb00109490</idno>
                </msIdentifier>
@@ -5790,7 +5790,7 @@
             <msDesc xml:id="München_BSB_Clm14647">
                <msIdentifier>
                   <settlement>München</settlement>
-                  <repository>BSB</repository>
+                  <repository ref="#org_0054">BSB</repository>
                   <idno>Clm 14647</idno>
                   <idno type="URI">https://www.digitale-sammlungen.de/view/bsb00108561</idno>
                </msIdentifier>
@@ -6130,7 +6130,7 @@
 
                <msIdentifier>
                   <settlement>Nürnberg</settlement>
-                  <repository>Stadtbibliothek im Bildungscampus Nürnberg</repository>
+                  <repository ref="#org_0057">Stadtbibliothek im Bildungscampus Nürnberg</repository>
                   <idno>Cent. V 47</idno>
                </msIdentifier>
                <msContents>
@@ -6257,7 +6257,7 @@
             <msDesc xml:id="NürnbergStadtbibliothekimBildungscampusNürnberg_CentVII86">
                <msIdentifier>
                   <settlement>Nürnberg</settlement>
-                  <repository>Stadtbibliothek im Bildungscampus Nürnberg</repository>
+                  <repository ref="#org_0057">Stadtbibliothek im Bildungscampus Nürnberg</repository>
                   <idno>Cent VII 86</idno>
                </msIdentifier>
                <msContents>
@@ -6299,7 +6299,7 @@
             <msDesc xml:id="Oxford_BodleianLibrary_CanonMisc211">
                <msIdentifier>
                   <settlement>Oxford</settlement>
-                  <repository>Bodleian Library</repository>
+                  <repository ref="#org_0060">Bodleian Library</repository>
                   <idno>Canon. Misc. 211</idno>
                </msIdentifier>
                <msContents>
@@ -6353,7 +6353,7 @@
                   </msItem>
                   <msItem xml:id="Oxford_BodleianLibrary_CanonMisc211_Qdmem">
                      <locus from="246ra" to="248vb"/>
-                     <title ref="workID">Qdmem</title>
+                     <title ref="workID">QdMem</title>
                   </msItem>
                   <msItem xml:id="Oxford_BodleianLibrary_CanonMisc211_Qdsom">
                      <locus from="249rb" to="253va"/>
@@ -6433,7 +6433,7 @@
             <msDesc xml:id="Oxford_BodleianLibrary_Digby44">
                <msIdentifier>
                   <settlement>Oxford</settlement>
-                  <repository>Bodleian Library</repository>
+                  <repository ref="#org_0060">Bodleian Library</repository>
                   <idno>Digby 44</idno>
                </msIdentifier>
                <msContents>
@@ -6516,7 +6516,7 @@
             <msDesc xml:id="Paris_BibliothèqueinteruniversitairedelaSorbonne_MS1033">
                <msIdentifier>
                   <settlement>Paris</settlement>
-                  <repository>Bibliothèque interuniversitaire de la Sorbonne</repository>
+                  <repository ref="#org_0061">Bibliothèque interuniversitaire de la Sorbonne</repository>
                   <idno>MS 1033</idno>
                </msIdentifier>
                <msContents>
@@ -6584,7 +6584,7 @@
             <msDesc xml:id="Paris_BnF_latin6455">
                <msIdentifier>
                   <settlement>Paris</settlement>
-                  <repository>BnF</repository>
+                  <repository ref="#org_0062">BnF</repository>
                   <idno>latin 6455</idno>
                   <idno type="URI">https://gallica.bnf.fr/ark:/12148/btv1b100389122</idno>
                </msIdentifier>
@@ -6654,7 +6654,7 @@
             <msDesc xml:id="Paris_BnF_latin6691">
                <msIdentifier>
                   <settlement>Paris</settlement>
-                  <repository>BnF</repository>
+                  <repository ref="#org_0062">BnF</repository>
                   <idno>latin 6691</idno>
                   <idno type="URI">https://gallica.bnf.fr/ark:/12148/btv1b9078362v/f430.item</idno>
                </msIdentifier>
@@ -6874,7 +6874,7 @@
             <msDesc xml:id="Paris_BnF_latin16136">
                <msIdentifier>
                   <settlement>Paris</settlement>
-                  <repository>BnF</repository>
+                  <repository ref="#org_0062">BnF</repository>
                   <idno>latin 16136</idno>
                </msIdentifier>
                <msContents>
@@ -7038,7 +7038,7 @@
             <msDesc xml:id="Poitiers_BibliothèqueFrançoisMitterrand_Ms138236">
                <msIdentifier>
                   <settlement>Poitiers</settlement>
-                  <repository>Bibliothèque François Mitterrand</repository>
+                  <repository ref="#org_0064">Bibliothèque François Mitterrand</repository>
                   <idno>Ms 138 (236)</idno>
                   <idno type="URI"
                      >https://patrimoine.mediatheques-grandpoitiers.fr/PATRIMOINE/digital-viewer/c-1034112</idno>
@@ -7117,7 +7117,7 @@
             <msDesc xml:id="Praha_KMK_B49">
                <msIdentifier>
                   <settlement>Praha</settlement>
-                  <repository>KMK</repository>
+                  <repository ref="#org_0066">KMK</repository>
                   <idno>B 49</idno>
                </msIdentifier>
                <msContents>
@@ -7171,7 +7171,7 @@
             <msDesc xml:id="Praha_KMK_L37">
                <msIdentifier>
                   <settlement>Praha</settlement>
-                  <repository>KMK</repository>
+                  <repository ref="#org_0066">KMK</repository>
                   <idno>L 37</idno>
                </msIdentifier>
                <msContents>
@@ -7274,7 +7274,7 @@
             <msDesc xml:id="Praha_KMK_M35">
                <msIdentifier>
                   <settlement>Praha</settlement>
-                  <repository>KMK</repository>
+                  <repository ref="#org_0066">KMK</repository>
                   <idno>M 35</idno>
                </msIdentifier>
                <msContents>
@@ -7346,7 +7346,7 @@
             <msDesc xml:id="Praha_KMK_M37">
                <msIdentifier>
                   <settlement>Praha</settlement>
-                  <repository>KMK</repository>
+                  <repository ref="#org_0066">KMK</repository>
                   <idno>M 37</idno>
                </msIdentifier>
                <msContents>
@@ -7389,7 +7389,7 @@
             <msDesc xml:id="Praha_KMK_M402">
                <msIdentifier>
                   <settlement>Praha</settlement>
-                  <repository>KMK</repository>
+                  <repository ref="#org_0066">KMK</repository>
                   <idno>M 40/2</idno>
                </msIdentifier>
                <msContents>
@@ -7497,7 +7497,7 @@
             <msDesc xml:id="Praha_NK_IE38">
                <msIdentifier>
                   <settlement>Praha</settlement>
-                  <repository>NK</repository>
+                  <repository ref="#org_0068">NK</repository>
                   <idno>I E 38</idno>
                </msIdentifier>
                <msContents>
@@ -7642,7 +7642,7 @@
             <msDesc xml:id="Praha_NK_IF25">
                <msIdentifier>
                   <settlement>Praha</settlement>
-                  <repository>NK</repository>
+                  <repository ref="#org_0068">NK</repository>
                   <idno>I F 25</idno>
                </msIdentifier>
                <msContents>
@@ -7745,7 +7745,7 @@
             <msDesc xml:id="Praha_NK_IVE25">
                <msIdentifier>
                   <settlement>Praha</settlement>
-                  <repository>NK</repository>
+                  <repository ref="#org_0068">NK</repository>
                   <idno>IV E 25</idno>
                </msIdentifier>
                <msContents>
@@ -7799,7 +7799,7 @@
             <msDesc xml:id="Praha_NK_IVG18">
                <msIdentifier>
                   <settlement>Praha</settlement>
-                  <repository>NK</repository>
+                  <repository ref="#org_0068">NK</repository>
                   <idno>IV G 18</idno>
                </msIdentifier>
                <msContents>
@@ -7871,7 +7871,7 @@
             <msDesc xml:id="Praha_NK_VE8">
                <msIdentifier>
                   <settlement>Praha</settlement>
-                  <repository>NK</repository>
+                  <repository ref="#org_0068">NK</repository>
                   <idno>V E 8</idno>
                </msIdentifier>
                <msContents>
@@ -8001,7 +8001,7 @@
             <msDesc xml:id="Praha_NK_VE12">
                <msIdentifier>
                   <settlement>Praha</settlement>
-                  <repository>NK</repository>
+                  <repository ref="#org_0068">NK</repository>
                   <idno>V E 12</idno>
                </msIdentifier>
                <msContents>
@@ -8075,7 +8075,7 @@
             <msDesc xml:id="Praha_NK_VG22">
                <msIdentifier>
                   <settlement>Praha</settlement>
-                  <repository>NK</repository>
+                  <repository ref="#org_0068">NK</repository>
                   <idno>V G 22</idno>
                   <idno type="URI"
                      >https://www.manuscriptorium.com/apis/resolver-api/cs/catalog/default/detail/manuscriptorium%7CAIPDIG-NKCR__V_G_22______0224105-cs</idno>
@@ -8212,7 +8212,7 @@
             <msDesc xml:id="Praha_NK_XG16">
                <msIdentifier>
                   <settlement>Praha</settlement>
-                  <repository>NK</repository>
+                  <repository ref="#org_0068">NK</repository>
                   <idno>X G 16</idno>
                </msIdentifier>
                <msContents>
@@ -8303,7 +8303,7 @@
             <msDesc xml:id="Praha_KnihovnaNárodníhoMuzea_XE4">
                <msIdentifier>
                   <settlement>Praha</settlement>
-                  <repository>Knihovna Národního Muzea</repository>
+                  <repository ref="#org_0067">Knihovna Národního Muzea</repository>
                   <idno>X E 4</idno>
                </msIdentifier>
                <msContents>
@@ -8384,7 +8384,7 @@
             <msDesc xml:id="Praha_KnihovnaNárodníhoMuzea_XE5">
                <msIdentifier>
                   <settlement>Praha</settlement>
-                  <repository>Knihovna Národního Muzea</repository>
+                  <repository ref="#org_0067">Knihovna Národního Muzea</repository>
                   <idno>X E 5</idno>
                </msIdentifier>
                <msContents>
@@ -8464,7 +8464,7 @@
             <msDesc xml:id="Praha_NK_XH21">
                <msIdentifier>
                   <settlement>Praha</settlement>
-                  <repository>NK</repository>
+                  <repository ref="#org_0068">NK</repository>
                   <idno>X H 21</idno>
                </msIdentifier>
                <msContents>
@@ -8576,7 +8576,7 @@
             <msDesc xml:id="Praha_NK_IVF8">
                <msIdentifier>
                   <settlement>Praha</settlement>
-                  <repository>NK</repository>
+                  <repository ref="#org_0068">NK</repository>
                   <idno>IV F 8</idno>
                   <idno type="URI"
                      >https://www.manuscriptorium.com/apis/resolver-api/en/catalog/default/detail/manuscriptorium%7CAIPDIG-NKCR__IV_F_8______1A778W1-cs</idno>
@@ -8690,7 +8690,7 @@
             <msDesc xml:id="Reims_BibliothèqueCarnegieBibliothèquemunicipale_897I678">
                <msIdentifier>
                   <settlement>Reims</settlement>
-                  <repository>Bibliothèque Carnegie (Bibliothèque municipale)</repository>
+                  <repository ref="#org_0069">Bibliothèque Carnegie (Bibliothèque municipale)</repository>
                   <idno>897 (I. 678)</idno>
                   <idno type="URI">https://arca.irht.cnrs.fr/ark:/63955/md021c18gd4p</idno>
                </msIdentifier>
@@ -8798,7 +8798,7 @@
             <msDesc xml:id="Siena_Intronati_HVI7">
                <msIdentifier>
                   <settlement>Siena</settlement>
-                  <repository>Biblioteca Comunale degli Intronati</repository>
+                  <repository ref="#org_0076">Biblioteca Comunale degli Intronati</repository>
                   <idno>H.VI.7</idno>
                </msIdentifier>
                <msContents>
@@ -9332,7 +9332,7 @@
             <msDesc xml:id="SanktGallen_KantonsbibliothekVadianischeSammlung_VadSlgMs839">
                <msIdentifier>
                   <settlement>St. Gallen</settlement>
-                  <repository>Kantonsbibliothek, Vadianische Sammlung</repository>
+                  <repository ref="#org_0074">Kantonsbibliothek, Vadianische Sammlung</repository>
                   <idno>VadSlg Ms. 839</idno>
                </msIdentifier>
                <msContents>
@@ -9428,7 +9428,7 @@
             <msDesc xml:id="StGallen_Stiftsbibliothek_cod822">
                <msIdentifier>
                   <settlement>St. Gallen</settlement>
-                  <repository>Stiftsbibliothek</repository>
+                  <repository ref="#org_0078">Stiftsbibliothek</repository>
                   <idno>cod. 822</idno>
                </msIdentifier>
                <msContents>
@@ -9489,7 +9489,7 @@
             <msDesc xml:id="Stuttgart_WürttembergischeLandesbibliothek_HBX2">
                <msIdentifier>
                   <settlement>Stuttgart</settlement>
-                  <repository>Württembergische Landesbibliothek</repository>
+                  <repository ref="#org_0080">Württembergische Landesbibliothek</repository>
                   <idno>HB X 2</idno>
                </msIdentifier>
                <msContents>
@@ -9603,7 +9603,7 @@
             <msDesc xml:id="Stuttgart_WürttembergischeLandesbibliothek_Codtheoletphil27">
                <msIdentifier>
                   <settlement>Stuttgart</settlement>
-                  <repository>Württembergische Landesbibliothek</repository>
+                  <repository ref="#org_0080">Württembergische Landesbibliothek</repository>
                   <idno>Cod. theol. et phil. 2° 7</idno>
                </msIdentifier>
                <msContents>
@@ -9645,7 +9645,7 @@
             <msDesc xml:id="Stuttgart_WürttembergischeLandesbibliothek_HBX28">
                <msIdentifier>
                   <settlement>Stuttgart</settlement>
-                  <repository>Württembergische Landesbibliothek</repository>
+                  <repository ref="#org_0080">Württembergische Landesbibliothek</repository>
                   <idno>HB X 28</idno>
                </msIdentifier>
                <msContents>
@@ -9711,7 +9711,7 @@
             <msDesc xml:id="VaticanoCittàdel_BibliotecaApostolicaVaticana_Pallat1050">
                <msIdentifier>
                   <settlement>Vaticano (Città del)</settlement>
-                  <repository>Biblioteca Apostolica Vaticana</repository>
+                  <repository ref="#org_0085">Biblioteca Apostolica Vaticana</repository>
                   <idno>Pal. lat. 1050</idno>
                   <idno type="DOI">https://doi.org/10.11588/diglit.10912</idno>
                </msIdentifier>
@@ -9771,7 +9771,7 @@
             <msDesc xml:id="Warszawa_BibliotekaNarodowa_BOZ81">
                <msIdentifier>
                   <settlement>Warszawa</settlement>
-                  <repository>Biblioteka Narodowa</repository>
+                  <repository ref="#org_0089">Biblioteka Narodowa</repository>
                   <idno>BOZ 81</idno>
                   <idno type="URI"
                      >https://academica.edu.pl/reading/readSingle?cid=9484751&amp;uid=9483079</idno>
@@ -9820,7 +9820,7 @@
             <msDesc xml:id="Wien_Dominikanerkonvent_Cod71295">
                <msIdentifier>
                   <settlement>Wien</settlement>
-                  <repository>Dominikanerkonvent</repository>
+                  <repository ref="#org_0091">Dominikanerkonvent</repository>
                   <idno>Cod. 71/295</idno>
                </msIdentifier>
                <msContents>
@@ -9876,7 +9876,7 @@
             <msDesc xml:id="Wien_Dominikanerkonvent_Cod149119">
                <msIdentifier>
                   <settlement>Wien</settlement>
-                  <repository>Dominikanerkonvent</repository>
+                  <repository ref="#org_0091">Dominikanerkonvent</repository>
                   <idno>Cod. 149/119</idno>
                   <idno type="URI">https://manuscripta.at/diglit/AT8000-149/0001</idno>
                </msIdentifier>
@@ -10007,7 +10007,7 @@
             <msDesc xml:id="Wien_ÖNB_cod2335">
                <msIdentifier>
                   <settlement>Wien</settlement>
-                  <repository>ÖNB</repository>
+                  <repository ref="#org_0092">ÖNB</repository>
                   <idno>cod. 2335</idno>
                </msIdentifier>
                <msContents>
@@ -10068,7 +10068,7 @@
             <msDesc xml:id="Wrocław_BibliotekaUniwersytecka_MsIVF1">
                <msIdentifier>
                   <settlement>Wrocław</settlement>
-                  <repository>Biblioteka Uniwersytecka</repository>
+                  <repository ref="#org_0094">Biblioteka Uniwersytecka</repository>
                   <idno>Ms. IV F 1</idno>
                </msIdentifier>
                <msContents>
@@ -10211,7 +10211,7 @@
             <msDesc xml:id="Wrocław_BibliotekaUniwersytecka_IVF4">
                <msIdentifier>
                   <settlement>Wrocław</settlement>
-                  <repository>Biblioteka Uniwersytecka</repository>
+                  <repository ref="#org_0094">Biblioteka Uniwersytecka</repository>
                   <idno>IV F 4</idno>
                   <idno type="URI">https://bibliotekacyfrowa.pl/publication/158877</idno>
                </msIdentifier>
@@ -10303,7 +10303,7 @@
             <msDesc xml:id="Wrocław_BibliotekaUniwersytecka_MsIVQ14">
                <msIdentifier>
                   <settlement>Wrocław</settlement>
-                  <repository>Biblioteka Uniwersytecka</repository>
+                  <repository ref="#org_0094">Biblioteka Uniwersytecka</repository>
                   <idno>Ms. IV Q 14</idno>
                   <idno type="URI"
                      >https://glam.uni.wroc.pl/index.php?s=RKP_IV_Q_14_48463&amp;view=thumbnails</idno>
@@ -10393,7 +10393,7 @@
             <msDesc xml:id="Wrocław_BibliotekaUniwersytecka_MS6121MilII69">
                <msIdentifier>
                   <settlement>Wrocław</settlement>
-                  <repository>Biblioteka Uniwersytecka</repository>
+                  <repository ref="#org_0094">Biblioteka Uniwersytecka</repository>
                   <idno>MS 6121 (Mil. II 69)</idno>
                   <idno type="URI">https://bibliotekacyfrowa.pl/publication/39385</idno>
                </msIdentifier>
@@ -10456,7 +10456,7 @@
             <msDesc xml:id="Wrocław_BibliotekaUniwersyteckaweWrocławiu_MilII70">
                <msIdentifier>
                   <settlement>Wrocław</settlement>
-                  <repository>Biblioteka Uniwersytecka we Wrocławiu</repository>
+                  <repository ref="#org_0094">Biblioteka Uniwersytecka we Wrocławiu</repository>
                   <idno>Mil. II 70</idno>
                   <idno type="URI">https://bibliotekacyfrowa.pl/publication/84164</idno>
                </msIdentifier>
