@@ -10106,6 +10106,94 @@
                </additional>
             </msDesc>
 
+            <!-- Toledo, Archivo y Biblioteca Capitular, 95-3 -->
+            <msDesc xml:id="Toledo_ArchivoyBibliotecaCapitular_953">
+               <msIdentifier>
+                  <settlement>Toledo</settlement>
+                  <repository ref="#org_0081">Archivo y Biblioteca Capitular</repository>
+                  <idno>95-3</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     <ab type="explicit_attribution" cert="1">The text is ascribed to Versoris in
+                        the colophon.</ab>
+                     <ab type="general_remarks">At the end of the eighteenth century, Angelo
+                        Battaglini (1759–1842) compiled a catalogue of the manuscripts bequeathed by
+                        Cardinal Zelada to the University Library of Bologna (Latinorum, Italorum,
+                        Gallorum, Hispanorum manuscriptorum codicum Zeladianae Bibliothecae
+                        catalogus, now preserved under the shelfmark Bologna, Biblioteca
+                        Universitaria, 4256, 2 vols.). Under the shelfmark 1665, Battaglini mentions
+                        a manuscript containing John Versoris’s commentary on Peter of Spain’s
+                        Summule logicales. In the first volume of his Iter, Paul O. Kristeller noted
+                        that most of Zelada’s manuscript collection had been transferred to the
+                        Capitular Library in Toledo, but that he had not been able to identify this
+                        particular manuscript there. Consequently, in his inventory of manuscripts
+                        containing works by Peter of Spain, José Meirinhos—who listed the Toledo
+                        copy—treated the Bologna codex as a distinct witness and referred to it under
+                        the shelfmark Bologna, Biblioteca Universitaria, Battaglini, 1665. This
+                        shelfmark does not in fact exist, since the manuscripts from the Battaglini
+                        collection now preserved at the University Library of Bologna fall within the
+                        shelfmark range 4246–4303.</ab>
+                  </summary>
+                  <msItem xml:id="Toledo_ArchivoyBibliotecaCapitular_953_CsPH">
+                     <locus from="1r" to="349v"/>
+                     <title ref="workID">CsPH</title>
+                     <colophon><locus/>Et in hoc finiuntur scripta summularum magistri Iohannis
+                        Versoris, sacre pagine professoris</colophon>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate from="1450" to="1452">The watermark specimen is similar to
+                           <watermark>Briquet 3532, attested in Genoa between 1450 and
+                        1452</watermark>.</origDate>
+                     <origPlace cert="medium">Fabriano</origPlace>
+                     <p>The manuscript contains a <watermark>cart watermark, a motif that was used in
+                           the paper produced in Fabriano from 1424 to 1470 (Briquet, Les filigranes,
+                           vol. 2, Char à deux roues, p. 228)</watermark>. This may indicate that the
+                        manuscript was copied in the Dominican convent of Fabriano.</p>
+                     <note type="msRelationship">
+                        <p><ref target="#Roma_BibliotecaCasanatense_Ms100" type="ms">Roma, Biblioteca
+                              Casanatense, Ms. 100</ref>, which was also purchased in Ferrara by
+                           Cherubinus de Fabriano from Matheo de Barchinone.</p>
+                     </note>
+                  </origin>
+                  <provenance>
+                     <p>The codex belonged to the Dominican convent of Santa Lucia in Fabriano and
+                        was purchased in Ferrara by the Dominican friar <persName
+                           ref="#CherubinusDeFabriano">Cherubinus de Fabriano</persName> from a
+                        confrater named Matteo de Barchinone, as indicated by the following ownership
+                        mark: <q n="349v">Iste liber est conventus sancte Lucie de Fabriano, ordinis
+                           predicatorum, quem frater Cherubinus de Fabriano emit Ferrarie a Matheo de
+                           Barchinone eiusdem ordinis</q>, f. 349v.</p>
+                     <p>At the end of the eighteenth century, Angelo
+                        Battaglini (1759–1842) compiled a catalogue of the manuscripts bequeathed by
+                        Cardinal Zelada to the University Library of Bologna (Latinorum, Italorum,
+                        Gallorum, Hispanorum manuscriptorum codicum Zeladianae Bibliothecae
+                        catalogus, now preserved under the shelfmark Bologna, Biblioteca
+                        Universitaria, 4256, 2 vols.). Under the shelfmark 1665, Battaglini mentions
+                        a manuscript containing John Versoris’s commentary on Peter of Spain’s
+                        Summule logicales. In the first volume of his Iter, Paul O. Kristeller noted
+                        that most of Zelada’s manuscript collection had been transferred to the
+                        Capitular Library in Toledo, but that he had not been able to identify this
+                        particular manuscript there. Consequently, in his inventory of manuscripts
+                        containing works by Peter of Spain, José Meirinhos—who listed the Toledo
+                        copy—treated the Bologna codex as a distinct witness and referred to it under
+                        the shelfmark Bologna, Biblioteca Universitaria, Battaglini, 1665. This
+                        shelfmark does not in fact exist, since the manuscripts from the Battaglini
+                        collection now preserved at the University Library of Bologna fall within the
+                        shelfmark range 4246–4303.</p>
+                  </provenance>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Kristeller, Iter I, p. 26.</bibl>
+                     <bibl>Meirinhos, Bibliotheca manuscripta Petri Hispani, p. 54-55, 409-410.
+                        <note type="biblio">Mentioning this manuscript as Bologna, Biblioteca
+                           Universitaria, Battaglini, 1665.</note></bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
             <msDesc xml:id="VaticanoCittàdel_BibliotecaApostolicaVaticana_Pallat1050">
                <msIdentifier>
                   <settlement>Vaticano (Città del)</settlement>
