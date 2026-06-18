@@ -300,6 +300,19 @@
                      Innsbruck 1998, 89–122.</bibl>
                </listBibl>
             </person>
+
+            <person xml:id="BenedictusFabregues">
+               <persName>
+                  <forename type="preferred">Benedictus</forename>
+                  <surname type="preferred">Fabregues</surname>
+               </persName>
+               <persName type="sort">Fabregues, Benedictus</persName>
+               <affiliation type="religiousOrder" subtype="OP">Dominican</affiliation>
+               <note>In 1465, this friar of the Dominican convent of Valencia copied Versoris’s
+                  commentaries on the natural philosophical corpus.</note>
+               <occupation role="scr" ref="#Madrid_BibliotecaNacionaldeEspaña_Ms9018"/>
+            </person>
+
             <person xml:id="CherubinusDeFabriano">
                <persName>
                   <forename type="preferred">Cherubinus</forename>
