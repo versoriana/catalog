@@ -5332,6 +5332,109 @@
                </additional>
             </msDesc>
 
+            <!-- Madrid, Biblioteca Nacional de España, Ms. 9018 -->
+            <msDesc xml:id="Madrid_BibliotecaNacionaldeEspaña_Ms9018">
+               <msIdentifier>
+                  <settlement>Madrid</settlement>
+                  <repository ref="#org_0047">Biblioteca Nacional de España</repository>
+                  <idno>Ms. 9018</idno>
+                  <idno type="URI">https://catalogo.bne.es/permalink/34BNE_INST/95vni4/alma991034269819708606</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     <ab type="explicit_attribution" cert="0">none</ab>
+                     <ab type="general_remarks">The books of the different works are followed by
+                        summaries (recapitulationes) and definitions (definitiones). Indications of
+                        lections (lectiones) occur throughout the codex. Usually one lectio
+                        corresponds to one questio (for example, at f. 41vb, <q n="41vb">lectio
+                           11</q> in Book VI of the QsP), although one questio can also correspond to
+                        two lections (for example, at f. 42ra, <q n="42ra">lectio 12 et
+                        13</q>).</ab>
+                  </summary>
+                  <msItem xml:id="Madrid_BibliotecaNacionaldeEspaña_Ms9018_QsP">
+                     <locus from="1r" to="56v"/>
+                     <title ref="workID">QsP</title>
+                     <note type="content">Beginning acephalously with the final lines of question
+                        I.2.</note>
+                  </msItem>
+                  <msItem xml:id="Madrid_BibliotecaNacionaldeEspaña_Ms9018_QdC">
+                     <locus from="57r" to="75r"/>
+                     <title ref="workID">QdC</title>
+                  </msItem>
+                  <msItem xml:id="Madrid_BibliotecaNacionaldeEspaña_Ms9018_QdG">
+                     <locus from="75v" to="90v"/>
+                     <title ref="workID">QdG</title>
+                  </msItem>
+                  <msItem xml:id="Madrid_BibliotecaNacionaldeEspaña_Ms9018_QsMete">
+                     <locus from="90v" to="107v"/>
+                     <title ref="workID">QsMete</title>
+                  </msItem>
+                  <msItem xml:id="Madrid_BibliotecaNacionaldeEspaña_Ms9018_QdA">
+                     <locus from="107v" to="130v"/>
+                     <title ref="workID">QdA</title>
+                  </msItem>
+                  <msItem xml:id="Madrid_BibliotecaNacionaldeEspaña_Ms9018_QdSen">
+                     <locus from="130v" to="137r"/>
+                     <title ref="workID">QdSen</title>
+                  </msItem>
+                  <msItem xml:id="Madrid_BibliotecaNacionaldeEspaña_Ms9018_QdMem">
+                     <locus from="137r" to="139r"/>
+                     <title ref="workID">QdMem</title>
+                  </msItem>
+                  <msItem xml:id="Madrid_BibliotecaNacionaldeEspaña_Ms9018_QdSom">
+                     <locus from="139v" to="142r"/>
+                     <title ref="workID">QdSom</title>
+                  </msItem>
+                  <msItem xml:id="Madrid_BibliotecaNacionaldeEspaña_Ms9018_QdLon">
+                     <locus from="142r" to="144v"/>
+                     <title ref="workID">QdLon</title>
+                     <colophon n="final"><locus from="143ra" to="143rb"/>Istud opus fere totum
+                        scripsit Benedictus Fabregues in monasterio Predicatorum Valencie et multis
+                        cum laboribus et quam plurimis erumnis finem ad usque prope perduxit anno M
+                        CCCC LX quinto […]. Ut gaudere solet fessus iam nauta labore / desiderata diu
+                        litora videns / haudaliter [sic] scriptor obtato [sic] fine libelli / exultat
+                        viso lassus et ipse quidem. / Scribere qui nescit nullum putat esse labore. /
+                        Tres digiti scribunt, cetera membra dolent</colophon>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate from="1465" to="1465">1465</origDate>
+                     <origPlace>Valencia</origPlace>
+                     <p>The manuscript was copied almost entirely by <persName
+                           ref="#BenedictusFabregues">Benedictus Fabregues</persName> in the
+                        Dominican convent of Valencia, as is evident from the final colophon (f.
+                        143ra–b).</p>
+                     <note type="msRelationship">
+                        <p><ref target="#Reims_BibliothèqueCarnegieBibliothèquemunicipale_897I678"
+                              type="ms">Reims, Bibliothèque Carnegie (Bibliothèque municipale), MS
+                              897 (I.678)</ref>, which also contains the formula: <q n="138ra">Scribere
+                              qui nescit nullum putat esse labore. Tres digiti scribunt, cetera membra
+                              dolent</q> (f. 138ra).</p>
+                     </note>
+                  </origin>
+                  <provenance>
+                     <p>The manuscript later belonged to the Dominican convent of Santo Tomás de
+                        Ávila.</p>
+                  </provenance>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source cert="high" resp="#">
+                           <p>Ms directly examined</p>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+                  <listBibl>
+                     <bibl>Robles, “Aristóteles Latinus”, n. 440-448.</bibl>
+                     <bibl>Lohr, Matritensia, p. 282–284.</bibl>
+                     <bibl>Not mentioned in H. F. Dondaine, H. V. Schooner, Codices manuscripti
+                        operum Thomae de Aquino, vol. 2: Bibliothecae Gdans, Rome, 1967.</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+
             <msDesc xml:id="Mainz_WissenschaftlicheStadtbibliothek_HsI530b">
                <msIdentifier>
                   <settlement>Mainz</settlement>
