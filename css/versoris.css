@@ -667,70 +667,60 @@ tei-idno {
 }
 
 
-tei-idno[type="VIAF"] {
-    background: none;
-    padding: 0;
-}
-
-tei-idno[type="VIAF"]::before {
-    content: "VIAF: ";
-    background-color: #6c757d;
-    color: white;
-    padding: 2px 6px;
-    border-radius: 3px;
-    margin-right: 5px;
-}
-
-tei-idno[type="GND"] {
-    background: none;
-    padding: 0;
-}
-
-tei-idno[type="GND"]::before {
-    content: "GND: ";
-    background-color: #6c757d;
-    color: white;
-    padding: 2px 6px;
-    border-radius: 3px;
-    margin-right: 5px;
-}
-
-tei-idno[type="CERL"] {
-    background: none;
-    padding: 0;
-}
-
-tei-idno[type="CERL"]::before {
-    content: "CERL: ";
-    background-color: #6c757d;
-    color: white;
-    padding: 2px 6px;
-    border-radius: 3px;
-    margin-right: 5px;
-}
-
-
-tei-idno[type="CAC"]::before {
-    content: "CAC: ";
-    background-color: #6c757d;
-    color: white;
-    padding: 2px 6px;
-    border-radius: 3px;
-    margin-right: 5px;
-}
-
+/* Authority identifiers are rendered as "double buttons" by the idno
+   behavior (persons.html); strip the default badge box from the host element. */
+tei-idno[type="VIAF"],
+tei-idno[type="GND"],
+tei-idno[type="CERL"],
 tei-idno[type="CAC"] {
     background: none;
     padding: 0;
+    margin: 0;
 }
 
-tei-idno[type="CAC"]::before {
-    content: "CAC: ";
+/* Two-part identifier button: linked label + colored value */
+.double-button {
+    display: inline-flex;
+    align-items: stretch;
+    vertical-align: middle;
+    margin: 3px 6px 3px 0;
+    font-size: 0.9em;
+    line-height: 1.4;
+    border: 1px solid #6c757d;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.double-button-l {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    padding: 3px 9px;
+    background-color: #fff;
+    color: #495057;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.double-button-l:hover {
+    background-color: #f1f3f5;
+    color: #212529;
+    text-decoration: none;
+}
+
+.double-button-l .bi {
+    font-size: 0.85em;
+    opacity: 0.7;
+}
+
+.double-button-r {
+    display: inline-flex;
+    align-items: center;
+    padding: 3px 9px;
     background-color: #6c757d;
-    color: white;
-    padding: 2px 6px;
-    border-radius: 3px;
-    margin-right: 5px;
+    color: #fff;
+    font-weight: 600;
+    white-space: nowrap;
 }
 
 /* Override tei-idno styles when it contains URI content */
@@ -754,15 +744,35 @@ tei-msPart > tei-msIdentifier tei-idno {
     position: absolute;
     top: 10px;
     right: 12px;
-    color: #adb5bd;
-    font-size: 1.2em;
-    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    padding: 3px 10px 3px 8px;
+    font-family: inherit;
+    font-size: 0.8rem;
     line-height: 1;
+    color: #6c757d;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+    border-radius: 50rem;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.entry-link .bi {
+    font-size: 1.15em;
 }
 
 .entry-link:hover {
-    color: #6c757d;
+    color: #495057;
+    background-color: #f8f9fa;
+    border-color: #ced4da;
     text-decoration: none;
+}
+
+.entry-link.copied {
+    color: #198754;
+    border-color: #198754;
 }
 
 .uri-link-container {

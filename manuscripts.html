@@ -181,7 +181,37 @@
 
 	<script>
 		var CETEIcean = new CETEI();
-	  
+
+		// Copy an entry's permalink (the link's existing href) to the clipboard,
+		// with brief "Copied!" feedback on the button.
+		function copyEntryLink(link) {
+			const url = link.href;
+			const flash = function() {
+				const lbl = link.querySelector('.copy-link-label');
+				if (lbl) {
+					lbl.textContent = 'Copied!';
+					link.classList.add('copied');
+					setTimeout(function() {
+						lbl.textContent = 'Copy link';
+						link.classList.remove('copied');
+					}, 1500);
+				}
+			};
+			if (navigator.clipboard && navigator.clipboard.writeText) {
+				navigator.clipboard.writeText(url).then(flash).catch(flash);
+			} else {
+				const ta = document.createElement('textarea');
+				ta.value = url;
+				ta.style.position = 'fixed';
+				ta.style.opacity = '0';
+				document.body.appendChild(ta);
+				ta.select();
+				try { document.execCommand('copy'); } catch (err) { /* ignore */ }
+				document.body.removeChild(ta);
+				flash();
+			}
+		}
+
 		// Define global behaviors for all TEI elements
 		let behaviors = {
           "tei": {
@@ -433,10 +463,14 @@
         if (id) {
           const base = window.location.origin + window.location.pathname;
           const link = document.createElement('a');
-          link.className = 'entry-link';
+          link.className = 'entry-link copy-link';
           link.href = `${base}#${id}`;
           link.title = `${base}#${id}`;
-          link.innerHTML = '<i class="bi bi-link-45deg"></i>';
+          link.innerHTML = '<i class="bi bi-link-45deg"></i><span class="copy-link-label">Copy link</span>';
+          link.addEventListener('click', function(ev) {
+            ev.preventDefault();
+            copyEntryLink(link);
+          });
           e.appendChild(link);
         }
 
