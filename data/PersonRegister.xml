@@ -611,6 +611,20 @@
                </listBibl>
             </person>
 
+            <person xml:id="FranciscusVich">
+               <persName>
+                  <forename type="preferred">Franciscus</forename>
+                  <surname type="preferred">Vich</surname>
+               </persName>
+               <persName type="sort">Vich, Franciscus</persName>
+               <note>This student, about whom no other information is known, was the copyist and
+                  owner of manuscript Barcelona, Biblioteca de Catalunya, MS 574, completed in 1463,
+                  probably at the University of Barcelona, and containing commentaries on natural
+                  philosophy by Johannes Versor.</note>
+               <occupation role="scr" ref="#Barcelona_BibliotecadeCatalunya_Ms574"/>
+               <occupation role="fmo" ref="#Barcelona_BibliotecadeCatalunya_Ms574"/>
+            </person>
+
             <person xml:id="GabrielBiel">
                <persName>
                   <forename type="preferred">Gabriel</forename>
