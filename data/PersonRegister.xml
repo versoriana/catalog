@@ -211,6 +211,19 @@
                </listBibl>
             </person>
 
+            <person xml:id="AndreuBuera">
+               <persName>
+                  <forename type="preferred">Andreu</forename>
+                  <surname type="preferred">Buera</surname>
+               </persName>
+               <persName type="sort">Buera, Andreu</persName>
+               <note>This student, about whom no other information is known, copied in 1503, in
+                  manuscript Barcelona, Biblioteca de Catalunya, Ms. 587, probably at the University
+                  of Barcelona, the Questions on Books I–X of the Ethics ascribed to Versoris in the
+                  printed editions.</note>
+               <occupation role="scr" ref="#Barcelona_BibliotecadeCatalunya_Ms587"/>
+            </person>
+
             <person xml:id="ArnoldusFoyckin">
                <persName>
                   <forename type="preferred">Arnoldus</forename>
