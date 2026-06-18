@@ -300,6 +300,29 @@
                      Innsbruck 1998, 89–122.</bibl>
                </listBibl>
             </person>
+            <person xml:id="CherubinusDeFabriano">
+               <persName>
+                  <forename type="preferred">Cherubinus</forename>
+                  <nameLink type="preferred">de</nameLink>
+                  <surname type="preferred">Fabriano</surname>
+               </persName>
+               <persName type="sort">Fabriano, Cherubinus de</persName>
+               <affiliation type="religiousOrder" subtype="OP">Dominican</affiliation>
+               <note>He was a member of the Dominican Congregation of Lombardy. In 1465, he
+                  delivered lectures on the Bible at the Dominican convent in Bologna. Interestingly,
+                  he was named after Peter of Bergamo. He is recorded as a bachelor of theology in
+                  1470.</note>
+               <occupation role="fmo" ref="#Roma_BibliotecaCasanatense_Ms100"/>
+               <occupation role="fmo" ref="#Toledo_ArchivoyBibliotecaCapitular_953"/>
+               <listBibl>
+                  <bibl>Acta capitulorum generalium Ordinis Praedicatorum, Roma 1898, vol. 8, pp.
+                     300–301, 327.</bibl>
+                  <bibl>A. D’Amato, “Vicende dell’osservanza regolare nella congregazione domenicana
+                     di Lombardia negli anni 1469–72”, Archivum Fratrum Praedicatorum 15 (1945), p.
+                     52–101, at 66.</bibl>
+               </listBibl>
+            </person>
+
             <person xml:id="ClaudiusVerneti">
                <persName>
                   <forename type="preferred">Claudius</forename>
