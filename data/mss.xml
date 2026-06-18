@@ -716,6 +716,62 @@
                </additional>
             </msDesc>
 
+            <!-- Barcelona BC Ms. 587 -->
+            <msDesc xml:id="Barcelona_BibliotecadeCatalunya_Ms587">
+               <msIdentifier>
+                  <settlement>Barcelona</settlement>
+                  <repository ref="#org_0009">Biblioteca de Catalunya</repository>
+                  <idno>Ms. 587</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     <ab type="explicit_attribution" cert="0">none, the questions are only
+                        described as “parisienses” in the colophon of the list of questions.</ab>
+                     <ab type="general_remarks">A table of contents is transmitted at ff.
+                        66r–68v.</ab>
+                  </summary>
+                  <msItem xml:id="Barcelona_BibliotecadeCatalunya_Ms587_QsE">
+                     <locus from="1r" to="65v"/>
+                     <title ref="QsE">QsE I–X</title>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate from="1503" to="1503">1503</origDate>
+                     <p>The manuscript was copied by <persName ref="#AndreuBuera">Andreu
+                           Buera</persName>, as stated in the colophon of the table of contents: <q
+                           n="68v">Expliciunt tituli questionum super libros Ethicorum perfecti a
+                           manu mea, Andree Buera, studens in artibus, in octava beate Caterine, anno
+                           Domini millesimo quinquagesimo tertio. Detur pro pena scriptori gloria
+                           eterna. Amen. Deo gratias. Questiones parisienses super libros
+                           Ethicorum</q>, f. 68v. The name of the copyist, who still remains to be
+                        identified, as well as its attribution to Biblioteca Dalmases, suggests an origin in
+                        Barcelona.</p>
+                  </origin>
+                  <provenance>
+                     <p>The manuscript belonged to the Biblioteca Dalmases, assembled by Pau Ignasi
+                        de Dalmases i Ros (1670–1718) in the palace of the carrer Montcada in
+                        Barcelona.</p>
+                  </provenance>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>J. Domínguez Bordona, Manuscritos con pinturas: notas para un inventario
+                        de los conservados en colecciones públicas y particulares de España, Madrid:
+                        Centro de Estudios Históricos, 1933, vol. 1, p. 43, no. 59.</bibl>
+                     <bibl>P. Bohigas, “Inventario de códices miniaturados o iluminados de
+                        procedencia catalana o existentes en bibliotecas catalanas”, in La
+                        ilustración y la decoración del libro manuscrito en Cataluña, Barcelona:
+                        Asociación de Bibliófilos, 1960–1967, vol. III, pp. 145–223 (no. 837) (reed.
+                        Barcelona, Biblioteca de Catalunya, 2000, p. 88).</bibl>
+                     <bibl>L. Robles, “Aristóteles Latinus. Repertorio de manuscritos españoles”, in
+                        Actas del V Congreso de Filosofía medieval, Madrid, 1979, pp. 333–460, at p.
+                        368.</bibl>
+                     <bibl>Kristeller, Iter II, p. 485.</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+
             <!-- Basel UB F I 13 -->
             <msDesc xml:id="Basel_UB_FI13">
                <msIdentifier>
