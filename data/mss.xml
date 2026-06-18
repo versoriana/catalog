@@ -716,6 +716,74 @@
                </additional>
             </msDesc>
 
+            <!-- Barcelona BC Ms. 574 -->
+            <msDesc xml:id="Barcelona_BibliotecadeCatalunya_Ms574">
+               <msIdentifier>
+                  <settlement>Barcelona</settlement>
+                  <repository ref="#org_0009">Biblioteca de Catalunya</repository>
+                  <idno>Ms. 574</idno>
+                  <idno type="URI"
+                     >https://mdc.csuc.cat/digital/collection/manuscritBC/id/254836</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     <ab type="explicit_attribution" cert="0">The commentaries have been copied
+                        anonymously. A modern hand wrote on the guard leaf: “Divi Thomae Quaestiones
+                        in libros Aristotelis De anima”, which was repeated on the spine. This
+                        concerns, however, only Thomas Aquinas’s Questiones de anima, which envelop
+                        Versoris’s commentaries at the beginning (ff. 5r–9r) and at the end of the
+                        volume (ff. 259r–282v).</ab>
+                     <ab type="general_remarks">ff. 1v–3r contain a divisio textus and a summary of
+                        the chapters of Aristotle’s Physics.</ab>
+                  </summary>
+                  <msItem xml:id="Barcelona_BibliotecadeCatalunya_Ms574_QsP">
+                     <locus from="13r" to="148v"/>
+                     <title ref="QsP">QsP</title>
+                  </msItem>
+                  <msItem xml:id="Barcelona_BibliotecadeCatalunya_Ms574_QdC">
+                     <locus from="150r" to="186v"/>
+                     <title ref="QdC">QdC</title>
+                  </msItem>
+                  <msItem xml:id="Barcelona_BibliotecadeCatalunya_Ms574_QsDg">
+                     <locus from="187r" to="209v"/>
+                     <title ref="QsDg">QsDg</title>
+                  </msItem>
+                  <msItem xml:id="Barcelona_BibliotecadeCatalunya_Ms574_QsDan">
+                     <locus from="211r" to="258v"/>
+                     <title ref="QsDan">QsDan</title>
+                     <colophon><locus from="258va"/>Explicit totus liber sive volumen De anima, in
+                        quo continentur quinquaginta questiones, perfectus VI mensis martii, anno
+                        incarnationis Domini millesimo quadringentesimo sexagesimo tertio. Deo
+                        gratias. Franciscus Vich me scripssit [sic], cuius est possessor atque in
+                        tempore erit omnium, si Deo nostro benedicto placens erit</colophon>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate from="1463" to="1463">1463</origDate>
+                     <p>The manuscript likely originated at the University of Barcelona, or at least
+                        in Catalonia, as it was copied by a scholar named <persName
+                           ref="#FranciscusVich">Franciscus Vich</persName> (colophon of the QsDan,
+                        f. 258va).</p>
+                  </origin>
+                  <provenance>
+                     <p>The codex belonged to the Biblioteca Dalmases.</p>
+                  </provenance>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source cert="high" resp="#">
+                           <p>Ms directly examined</p>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+                  <listBibl>
+                     <bibl>Robles, “Aristóteles Latinus”, p. 485.</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+
             <!-- Barcelona BC Ms. 587 -->
             <msDesc xml:id="Barcelona_BibliotecadeCatalunya_Ms587">
                <msIdentifier>
