@@ -1795,7 +1795,7 @@
                   <surname type="variant">Lublina i Turobina</surname>
                </persName>
                <persName type="sort">Turobin, Michael de</persName>
-               <idno type="CAC">2020390</idno>
+               <idno type="CAC">2036466</idno>
                <death when="1528"/>
                <note>Michael de Turobin studied at the University of Krakow, where he obtained the
                   degree of Bachelor of Arts in 1477 and subsequently that of Doctor of Law. In
@@ -1804,11 +1804,10 @@
                <occupation role="fmo" ref="#Kraków_BibliotekaJagiellońska_cod2085"/>
                <listBibl>
                   <bibl>Polski Słownik Biograficzny, vol. 20, Wrocław, 1975, 624–625</bibl>
-                  <bibl>Michał z Lublina i Turobina (Id: 2020390), in: Corpus Academicum Cracoviense
-                     (CAC), URL: <ref
-                        target="http://cac.historia.uj.edu.pl/osoba/2020390_Micha%C5%82_z_Lublina_i_Turobina"
-                        >http://cac.historia.uj.edu.pl/osoba/2020390_Micha%C5%82_z_Lublina_i_Turobina</ref>
-                     (Dostęp: 31.08.2025).</bibl>
+                  <bibl>Michał z Lublina i Turobina, syn Jana (Id: 2036466), w: Corpus Academicum Cracoviense (CAC), URL:<ref
+                     target="http://cac.historia.uj.edu.pl/osoba/2036466_Micha%C5%82_z_Lublina_i_Turobina_syn_Jana"
+                     >http://cac.historia.uj.edu.pl/osoba/2036466_Micha%C5%82_z_Lublina_i_Turobina_syn_Jana</ref>
+                     (Dostęp: 18.06.2026).</bibl>
                </listBibl>
             </person>
             <person xml:id="MichaelFalknerDeWratislavia">
