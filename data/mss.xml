@@ -180,7 +180,8 @@
             <msDesc xml:id="AmiensBibliothèqueLouisAragonBibliothèquemunicipale_402">
                <msIdentifier>
                   <settlement>Amiens</settlement>
-                  <repository ref="#org_0002">Bibliothèque Louis Aragon (Bibliothèque municipale)</repository>
+                  <repository ref="#org_0002">Bibliothèque Louis Aragon (Bibliothèque
+                     municipale)</repository>
                   <idno>402</idno>
                   <idno type="URI">https://arca.irht.cnrs.fr/ark:/63955/md65v692t912</idno>
                </msIdentifier>
@@ -276,9 +277,11 @@
             <msDesc xml:id="AmiensBibliothèqueLouisAragonBibliothèquemunicipale_405">
                <msIdentifier>
                   <settlement>Amiens</settlement>
-                  <repository ref="#org_0002">Bibliothèque Louis Aragon (Bibliothèque municipale)</repository>
+                  <repository ref="#org_0002">Bibliothèque Louis Aragon (Bibliothèque
+                     municipale)</repository>
                   <idno>405</idno>
-                  <idno type="URI">https://ccfr.bnf.fr/portailccfr/jsp/index_view_direct_anonymous.jsp?record=eadcgm:EADC:D24012053</idno>
+                  <idno type="URI"
+                     >https://ccfr.bnf.fr/portailccfr/jsp/index_view_direct_anonymous.jsp?record=eadcgm:EADC:D24012053</idno>
                </msIdentifier>
                <msContents>
                   <summary>
@@ -334,10 +337,9 @@
                   <msItem xml:id="AmiensBibliothèqueLouisAragonBibliothèquemunicipale_405_QdDiv">
                      <locus from="197v" to="202r"/>
                      <title ref="QdDiv">QdDiv</title>
-                     <colophon n="final"><locus from="202rb"/>Et hoc de toto libro Divisionum
-                        Boetii Severini, completo per Iohannem Lupi, anno Domini M° IIII°
-                        quinquagesimo VIII°, in die beatissimi martiris Firmini. Lupi, oriundus
-                        Albini</colophon>
+                     <colophon n="final"><locus from="202rb"/>Et hoc de toto libro Divisionum Boetii
+                        Severini, completo per Iohannem Lupi, anno Domini M° IIII° quinquagesimo
+                        VIII°, in die beatissimi martiris Firmini. Lupi, oriundus Albini</colophon>
                   </msItem>
                   <msItem xml:id="AmiensBibliothèqueLouisAragonBibliothèquemunicipale_405_Qdente">
                      <locus from="203v" to="208r"/>
@@ -355,26 +357,24 @@
                      <origDate from="1458" to="1458">1458</origDate>
                      <p>The texts were copied by <persName ref="#IohannesLupi">Iohannes
                            Lupi</persName>, a student at the Paris Faculty of Arts, who in 1458
-                        determined under the master Iacobus Suaden, as is evident from the following colophons: QsPos
-                        (f. 139r), QsSE, Book I (f. 184rb), QsSE, Book II, (f. 187rb), QsSex (f. 197r), and QdDiv
-                        (f. 202rb).</p>
+                        determined under the master Iacobus Suaden, as is evident from the following
+                        colophons: QsPos (f. 139r), QsSE, Book I (f. 184rb), QsSE, Book II, (f.
+                        187rb), QsSex (f. 197r), and QdDiv (f. 202rb).</p>
                   </origin>
                   <provenance>
                      <p>After the death of <persName ref="#IohannesLupi">Iohannes Lupi</persName>,
-                        the codex was acquired by <persName
-                           ref="#IacobusDabencourt">Iacobus d'Abencourt</persName>, a scholar from
-                        Albi, and in 1460 it was acquired from him by <persName
-                           ref="#EgidiusKaterine">Egidius Katerine</persName>, as stated in the
-                        following ownership marks: <q n="156vb">Egidius Katerine emit hunc librum
-                           domino Iacobo d'Abencourt, anno sexagesimo. Orate pro eo</q>; <q
-                           n="202rb">Iste liber pertinet domino Egidio Katerine, et emptus fuit
+                        the codex was acquired by <persName ref="#IacobusDabencourt">Iacobus
+                           d'Abencourt</persName>, a scholar from Albi, and in 1460 it was acquired
+                        from him by <persName ref="#EgidiusKaterine">Egidius Katerine</persName>, as
+                        stated in the following ownership marks: <q n="156vb">Egidius Katerine emit
+                           hunc librum domino Iacobo d'Abencourt, anno sexagesimo. Orate pro eo</q>;
+                           <q n="202rb">Iste liber pertinet domino Egidio Katerine, et emptus fuit
                            anno LX° cuidam clerico de villa Albi, qui quidem liber scriptus fuit a
                            quodam defuncto cognomine Lupi, anima eius et omnium defunctorum
                            requiescat in pace, amen. Et dictus Egidius soluit scutum cum dimidio,
-                           demptis tribus albis et ligamento pretium quatuor solidorum
-                           parisiensium. Orate etiam pro anima eius, ut Deus parcat ei et faciat
-                           eam in die iudicii ressucitari [sic] in vitam eternam.
-                        Amen</q>.</p>
+                           demptis tribus albis et ligamento pretium quatuor solidorum parisiensium.
+                           Orate etiam pro anima eius, ut Deus parcat ei et faciat eam in die
+                           iudicii ressucitari [sic] in vitam eternam. Amen</q>.</p>
                   </provenance>
                </history>
                <additional>
@@ -396,7 +396,8 @@
             <msDesc xml:id="Angers_MédiathèqueToussaintBibliothèquemunicipale_437">
                <msIdentifier>
                   <settlement>Angers</settlement>
-                  <repository ref="#org_0003">Médiathèque Toussaint (Bibliothèque municipale)</repository>
+                  <repository ref="#org_0003">Médiathèque Toussaint (Bibliothèque
+                     municipale)</repository>
                   <idno>437</idno>
                   <idno type="URI">https://commulysse.angers.fr/ark:/54380/70fqz53kh89s</idno>
                </msIdentifier>
@@ -484,7 +485,7 @@
                      <ab type="explicit_attribution" cert="0">none</ab>
                      <ab type="general_remarks">The commentary forms part of a collection of
                         grammatical texts, including Iohannes Iosse de Marvilla's De modis
-                           significandi with commentary (ff. 222r–272v).</ab>
+                        significandi with commentary (ff. 222r–272v).</ab>
                   </summary>
                   <msItem xml:id="Augsburg_StaatsundStadtbibliothekAugsburg_Cod419_CsD">
                      <locus from="165r" to="220v"/>
@@ -498,25 +499,24 @@
                      <incipit>Ut flos grammaticae pingatur corde minorum</incipit>
                      <note type="content">Commentary incipit: Circa initium modorum significandi et
                         notandi, sicut dicit philosophus…</note>
-                     <colophon><locus from="272v"/>Et sic est finis sub anno domini M°
-                        CCCCL° VIII in die Crucis ante prandium in medio septime et octve horarum
-                        diei, per me, Andream Schrautham de Sweinfordia, tunc temporis scolarem
-                        existens in nova civitate circa Orlam finivit librum istum. Requiescat, etc.
-                        Finis letificat, incepcio sepe molestat</colophon>
+                     <colophon><locus from="272v"/>Et sic est finis sub anno domini M° CCCCL° VIII
+                        in die Crucis ante prandium in medio septime et octve horarum diei, per me,
+                        Andream Schrautham de Sweinfordia, tunc temporis scolarem existens in nova
+                        civitate circa Orlam finivit librum istum. Requiescat, etc. Finis letificat,
+                        incepcio sepe molestat</colophon>
                   </msItem>
                </msContents>
                <history>
                   <origin>
-                     <origDate from="1458" to="1481">The section containing the CsDon (ff. 165r–220v)
-                        presents <watermark>an oxhead watermark (Piccard XII 803, attested in
-                           Bavaria between 1477 and 1481)</watermark> and <watermark>a crown
-                              watermark (Piccard XII 27, attested in Bavaria between 1474 and
-                              1482)</watermark>.</origDate>
+                     <origDate from="1458" to="1481">The section containing the CsDon (ff.
+                        165r–220v) presents <watermark>an oxhead watermark (Piccard XII 803,
+                           attested in Bavaria between 1477 and 1481)</watermark> and <watermark>a
+                           crown watermark (Piccard XII 27, attested in Bavaria between 1474 and
+                           1482)</watermark>.</origDate>
                      <p>This is a miscellaneous volume. The colophon of the commentary on Iohannes
-                        Iosse de Marvilla's De modis significandi (ff. 222r–272v)
-                        states that the text was completed in 1458 in Neustadt an der Orla,
-                        Thuringia, by a student named Andreas Schrautha from Schweinfurt, Bavaria
-                        (f. 272v).</p>
+                        Iosse de Marvilla's De modis significandi (ff. 222r–272v) states that the
+                        text was completed in 1458 in Neustadt an der Orla, Thuringia, by a student
+                        named Andreas Schrautha from Schweinfurt, Bavaria (f. 272v).</p>
                   </origin>
                   <provenance>
                      <p>Possibly through this scribe, the manuscript later reached Bavaria, where it
@@ -524,23 +524,22 @@
                         of the Benedictine monk <persName ref="#PetrusBerkenmayr">Petrus
                            Berkenmayr</persName>, as stated on f. 1v: <q n="1v">frater Petrus
                            Berkenmayr monachus et professus huius loci hunc eidem donavit libellum
-                           continentem grammaticalia, anno 1496</q>. From him, the codex entered
-                        the library of the monastery of SS. Ulrich and Afra in Augsburg.</p>
+                           continentem grammaticalia, anno 1496</q>. From him, the codex entered the
+                        library of the monastery of SS. Ulrich and Afra in Augsburg.</p>
                   </provenance>
                </history>
                <additional>
                   <listBibl>
                      <bibl>Bursill-Hall, A Census of Medieval Latin Grammatical Manuscripts, p. 23,
                         nr. 9.1.</bibl>
-                     <bibl>G. L. Bursill-Hall, "Medieval Donatus Commentaries",
-                        Historiographia Linguistica, Volume 8/1 (1981), p. 69-97, at
-                        p. 82. <note type="biblio">(who mentions the commentary on Donatus as
-                           anonymous and does not identify it with that transmitted in manuscript
-                           Wrocław, Biblioteka Uniwersytecka, IV Q 77).</note></bibl>
-                     <bibl>W. Gehrt, Die Handschriften der Staats- und Stadtbibliothek
-                           Augsburg 4o Cod 1–150, Wiesbaden: Harrassowitz, 1999
-                        (Handschriftenkataloge der Staats- und Stadtbibliothek
-                           Augsburg, Bd. 6), p. 29–31.</bibl>
+                     <bibl>G. L. Bursill-Hall, "Medieval Donatus Commentaries", Historiographia
+                        Linguistica, Volume 8/1 (1981), p. 69-97, at p. 82. <note type="biblio">(who
+                           mentions the commentary on Donatus as anonymous and does not identify it
+                           with that transmitted in manuscript Wrocław, Biblioteka Uniwersytecka, IV
+                           Q 77).</note></bibl>
+                     <bibl>W. Gehrt, Die Handschriften der Staats- und Stadtbibliothek Augsburg 4o
+                        Cod 1–150, Wiesbaden: Harrassowitz, 1999 (Handschriftenkataloge der Staats-
+                        und Stadtbibliothek Augsburg, Bd. 6), p. 29–31.</bibl>
                   </listBibl>
                </additional>
             </msDesc>
@@ -793,8 +792,8 @@
                </msIdentifier>
                <msContents>
                   <summary>
-                     <ab type="explicit_attribution" cert="0">none, the questions are only
-                        described as “parisienses” in the colophon of the list of questions.</ab>
+                     <ab type="explicit_attribution" cert="0">none, the questions are only described
+                        as “parisienses” in the colophon of the list of questions.</ab>
                      <ab type="general_remarks">A table of contents is transmitted at ff.
                         66r–68v.</ab>
                   </summary>
@@ -809,12 +808,12 @@
                      <p>The manuscript was copied by <persName ref="#AndreuBuera">Andreu
                            Buera</persName>, as stated in the colophon of the table of contents: <q
                            n="68v">Expliciunt tituli questionum super libros Ethicorum perfecti a
-                           manu mea, Andree Buera, studens in artibus, in octava beate Caterine, anno
-                           Domini millesimo quinquagesimo tertio. Detur pro pena scriptori gloria
-                           eterna. Amen. Deo gratias. Questiones parisienses super libros
+                           manu mea, Andree Buera, studens in artibus, in octava beate Caterine,
+                           anno Domini millesimo quinquagesimo tertio. Detur pro pena scriptori
+                           gloria eterna. Amen. Deo gratias. Questiones parisienses super libros
                            Ethicorum</q>, f. 68v. The name of the copyist, who still remains to be
-                        identified, as well as its attribution to Biblioteca Dalmases, suggests an origin in
-                        Barcelona.</p>
+                        identified, as well as its attribution to Biblioteca Dalmases, suggests an
+                        origin in Barcelona.</p>
                   </origin>
                   <provenance>
                      <p>The manuscript belonged to the Biblioteca Dalmases, assembled by Pau Ignasi
@@ -2035,7 +2034,8 @@
             <msDesc xml:id="Berlin_SBPK_latfol402">
                <msIdentifier>
                   <settlement>Berlin</settlement>
-                  <repository ref="#org_0013">Staatsbibliothek, Preußischer Kulturbesitz</repository>
+                  <repository ref="#org_0013">Staatsbibliothek, Preußischer
+                     Kulturbesitz</repository>
                   <idno>lat. fol. 402</idno>
                </msIdentifier>
                <msContents>
@@ -2185,7 +2185,8 @@
             <msDesc xml:id="Berlin_StaatsbibliotheekPreußischerKulturbesitz_Mslatqu87">
                <msIdentifier>
                   <settlement>Berlin</settlement>
-                  <repository ref="#org_0013">Staatsbibliotheek, Preußischer Kulturbesitz</repository>
+                  <repository ref="#org_0013">Staatsbibliotheek, Preußischer
+                     Kulturbesitz</repository>
                   <idno>Ms. lat. qu. 87</idno>
                </msIdentifier>
                <msContents>
@@ -2246,94 +2247,169 @@
             </msDesc>
 
 
-            <!-- Bonn, Universitäts- und Landesbibliothek, S 67 IV -->
-            <msDesc xml:id="Bonn_ULB_S67IV">
+            <!-- Bonn, Universitäts- und Landesbibliothek, S 67 -->
+            <!-- TODO (Aurora Panzica): examine the monograms in situ; confirm whether the QsMeta
+               comprises twelve books and whether book XI matches the printed editions; verify the
+               explicit of the QsMeta introduction (may be that of the Nuremberg copy) -->
+            <msDesc xml:id="Bonn_UniversitätsundLandesbibliothek_S67">
                <msIdentifier>
                   <settlement>Bonn</settlement>
                   <repository ref="#org_0014">Universitäts- und Landesbibliothek</repository>
-                  <idno>S 67 IV</idno>
+                  <idno>S 67</idno>
                </msIdentifier>
                <msContents>
-                  <summary><ab type="explicit_attribution" cert="1">See f. 73ra,
-                     281va.</ab></summary>
-                  <msItem xml:id="Bonn_ULB_S67IV_QsP">
+                  <summary>
+                     <ab type="explicit_attribution" cert="1">The ascription to Iohannes Versoris
+                        appears in the colophon of the QsP (f. 73ra) and in the table of contents of
+                        the QsMeta (f. 281va).</ab>
+                     <ab type="general_remarks">The QsMeta are preceded by an introduction, at ff.
+                        187ra-va. The QsMete are followed by an incunable of Thomas Aquinas’s
+                        Questiones disputate de anima printed in Venice by Franz Renner in 1472
+                        (Hain 1522). The QsMeta are followed by Iohannes Tinctoris’s Copulata super
+                        Metaphysicam (ff. 282r–307r).</ab>
+                  </summary>
+                  <msItem xml:id="Bonn_UniversitätsundLandesbibliothek_S67_QsP">
                      <locus from="2ra" to="73vb"/>
-                     <title ref="ID">QsP</title>
+                     <title ref="QsP">QsP</title>
                      <note type="content"><q n="34ra">secundo nonas febriarii. Da waß Dietherus
                            aller morchin frij</q>
                         <q n="45va">Deo gratias, per manus Dietheri de Darmstad scriptum perhenniter
-                           prima die Martii suo cognoomine Billynger</q>
+                           prima die Martii suo cognomine Billynger</q>
                         <q n="50vb">Octavo nonas Martii</q>
                         <q n="58rb">Hunc de Wormacia / plena gracia / conserva Maria. Septima ydus
                            Martii</q>
-                        <q n="62vb">Per me fratrem Dietherum Billinger de Darmstad filium conventus
-                           Wormaciensis in Colonia, tertie idus Martii</q></note>
+                        <q n="62vb">Per me, fratrem Dietherum Billinger de Darmstad, filium
+                           conventus Wormaciensis in Colonia, tertie [sic] idus Martii</q></note>
                      <colophon><locus from="73ra"/>Et in hac finitur summa octavi Phisicorum …
-                        Johannis Versoris Parisiensis … Ego frater Dietherus Billinger de Darmstad
-                        alias dictus de Wormacia scripsi et cum magno labore finivi Colonie in
-                        nostro convent subditusque studii … anno domini MCCCC sexagesimo, finis
-                        octavo datur Apprilis secundo:</colophon>
+                        Johannis Versoris Parisiensis … Ego, frater Dietherus Billinger de Darmstad,
+                        alias dictus de Wormacia, scripsi et cum magno labore finivi Colonie in
+                        nostro conventu subditusque studii … anno domini MCCCC sexagesimo, finis
+                        octavo datur Apprilis secundo</colophon>
+                     <colophon><locus from="73ra" to="73vb"/>Explicit per Wendellinum Hyrzhornensem
+                        tunc temporis Erffordie degentem circa transcessum ab universitate anno
+                        1491</colophon>
                   </msItem>
-                  <msItem xml:id="Bonn_ULB_S67IV_QdC">
+                  <msItem xml:id="Bonn_UniversitätsundLandesbibliothek_S67_QdC">
                      <locus from="77ra" to="89rb"/>
-                     <title ref="ID">QdC</title>
+                     <title ref="QdC">QdC</title>
+                     <colophon><locus from="89rb">Frater Wendellinus Byschoffsheym de Cornu Cervino
+                           pres codicis anno reconciliacionis 1490</locus></colophon>
                   </msItem>
-                  <msItem xml:id="Bonn_ULB_S67IV_QdG">
+                  <msItem xml:id="Bonn_UniversitätsundLandesbibliothek_S67_QdG">
                      <locus from="91ra" to="115ra"/>
-                     <title ref="ID">QdG</title>
+                     <title ref="QdG">QsDg</title>
                   </msItem>
-                  <msItem xml:id="Bonn_ULB_S67IV_QsM">
+                  <msItem xml:id="Bonn_UniversitätsundLandesbibliothek_S67_QsMete">
                      <locus from="116ra" to="139vb"/>
-                     <title ref="ID">QsM</title>
+                     <title ref="QsMete">QsMete</title>
                   </msItem>
-                  <msItem xml:id="Bonn_ULB_S67IV_QdA">
+                  <msItem xml:id="Bonn_UniversitätsundLandesbibliothek_S67_QdA">
                      <locus from="141ra" to="171ra"/>
-                     <title ref="ID">QdA</title>
+                     <title ref="QdA">QdA</title>
+                     <colophon n="book I"><locus from="143vb"/>Et sic est finis huius primi De
+                        anima. Scripta ex adverso per manus fratris Johannis Dinck
+                        completa</colophon>
+                     <colophon n="final"><locus from="171ra"/>Ex hec de libro De anima, per manum
+                        fratris Wernheri de Hirczhorn, septimadecima die Kalendas Februarii anno
+                        1471. Got waltes, got gebe, got grusse</colophon>
                   </msItem>
-                  <msItem xml:id="Bonn_ULB_S67IV_QsSens">
+                  <msItem xml:id="Bonn_UniversitätsundLandesbibliothek_S67_QdSens">
                      <locus from="171va" to="178vb"/>
-                     <title ref="ID">QdSens</title>
+                     <title ref="QdSens">QdSens</title>
                   </msItem>
-                  <msItem xml:id="Bonn_ULB_S67IV_QdSom">
+                  <msItem xml:id="Bonn_UniversitätsundLandesbibliothek_S67_QsSom">
                      <locus from="182ra" to="185rb"/>
-                     <title ref="ID">QdSom</title>
+                     <title ref="QsSom">QsSom</title>
+                     <colophon n="final"><locus from="185rb"/>Et in hoc finitur Summa libri De
+                        sompno et vigilia, etc. in vigilia annunciationis Marie, anno Domini
+                        1472</colophon>
                   </msItem>
-                  <msItem xml:id="Bonn_ULB_S67IV_QdLong">
+                  <msItem xml:id="Bonn_UniversitätsundLandesbibliothek_S67_QdLon">
                      <locus from="185vb" to="186vb"/>
-                     <title ref="ID">QdLong</title>
-                     <colophon><locus from="186vb"/>per manus fratris Werhneri de Hirczhorn anno
-                        domini 1472 in die cene infra vesperas</colophon>
+                     <title ref="QdLon">QdLon</title>
+                     <colophon n="final"><locus from="186vb"/>Explicit igitur liber iste Parvorum
+                        naturalium per manus fratris Werhneri de Hirczhorn, anno Domini 1472 in die
+                        cene infra vesperas</colophon>
                   </msItem>
-                  <msItem xml:id="Bonn_ULB_S67IV_QsMetaph">
+                  <msItem xml:id="Bonn_UniversitätsundLandesbibliothek_S67_QsMeta">
                      <locus from="187ra" to="281va"/>
-                     <title ref="ID">QsMetaph</title>
-                     <colophon><locus from="281vb"/>Et in hoc finitur tabula super XII libros
-                        Metaphysice extracta de questionibus Versoris per manus fratris Werneri de
-                        Hircrzhorn, ordinis carmelitarum anno Domini 1473, et fui tunc temporis
-                        magister studentium conventus Treverensis, licet immeritus</colophon>
+                     <title ref="QsMeta">QsMeta I–XII</title>
+                     <incipit><locus from="187ra" to="187va"/>Gyrum celi circuivi (Ecl 24, 8).
+                        Doctrinalibus et naturalibus iuxta et corporis et ingenii</incipit>
+                     <explicit>regnator Olimpi, Olimpus pater Deus, Amen</explicit>
+                     <colophon n="final"><locus from="279ra"/>1473</colophon>
+                     <colophon n="table of contents"><locus from="280ra" to="281va"/>Et in hoc
+                        finitur tabula super duodecim libros Metaphysice extracta de questionibus
+                        Versoris, per manus fratris Werneri de Hircrzhorn, ordinis carmelitarum,
+                        anno Domini 1473, et fui tunc temporis magister studentium conventus
+                        Treverensis, licet immeritus</colophon>
+                  </msItem>
+                  <msItem xml:id="Bonn_UniversitätsundLandesbibliothek_S67_Tinctoris">
+                     <locus from="282r" to="307r"/>
+                     <author>Iohannes Tinctoris</author>
+                     <title ref="xx">Copulata super Metaphysicam</title>
                   </msItem>
                </msContents>
                <history>
                   <origin>
-                     <origDate from="1460" to="1473">1460-1473</origDate>
-                     <origPlace ref="placeID">Cologne</origPlace>
-                     <p>The texts in this manuscript have been copied in Cologne and Trier by three
-                        scribes: <persName ref="ID">Werner Wacker de Welstatt de
-                           Hirschhorn</persName>, Carmelite, student in Cologne from 1464 to 1472
-                        and from 1474 to 1476, lector in Trier from 1473 to 1474 (<bibl
-                           corresp="biblID">Lickteig, German Carmelites, p. 454, 484</bibl>);
-                           <persName ref="ID">Theodericus Billinger de Darmstadt</persName>,
-                        Carmelite, studied in Cologne in 1463-1464 and 1467-1468 (<bibl
-                           corresp="biblID">Lickteig, German Carmelites, p. 453</bibl>); <persName
-                           ref="ID">Johannes Dinck</persName>.</p>
+                     <origDate from="1460" to="1473">Theodericus Billinger de Darmstadt copied the
+                        QsP in 1460; Werner Wacker de Welstatt de Hirschhorn copied the remaining
+                        texts between 1471 and 1473, as evidenced by the colophons: QsP, f. 73ra;
+                        QdA, f. 171ra; QdSom, f. 185rb; QdLon, f. 186vb; QsMeta, f. 279ra; QsMeta,
+                        table of contents, ff. 280ra–281va. In 1490–1491, Wendelinus Bischofsheim
+                        added table of questions of QsP, QdC, and QdG: QsP, ff. 73ra–73vb; QdC, f.
+                        89rb; QdG, f. 115ra (without colophon; the identification of the scribe is
+                        based on a comparison of the handwriting).</origDate>
+                     <origPlace ref="#place_cologne">Cologne</origPlace>
+                     <origPlace>Trier</origPlace>
+                     <p>The texts in this manuscript were copied in Cologne and Trier, mainly by two
+                        scribes: <persName ref="#TheodericusBillingerDeDarmstadt">Theodericus
+                           Billinger de Darmstadt</persName>, Carmelite (ff. 1r–76v), and <persName
+                           ref="#WernerWackerDeWelstattDeHirschhorn">Werner Wacker de Welstatt de
+                           Hirschhorn</persName>, Carmelite (ff. 77r–139v; 140r–307v). Another
+                        Carmelite friar, Johannes Dinck, signed the colophon of Book I of the QdA
+                        (f. 143vb).</p>
                   </origin>
+                  <provenance>
+                     <p>The manuscript was owned by <persName
+                           ref="#WernerWackerDeWelstattDeHirschhorn">Werner Wacker de
+                           Welstatt</persName> (f. 73ra: <q n="73ra">Frater Wernherus est possessor
+                           huius libri</q>), who brought it to the library of the Carmelite convent
+                        in Boppard during his activity as lector there. He later gave the codex to
+                        the Carmelite student <persName ref="#JacobusBonnerDeKerlich">Jacobus Bonner
+                           de Kerlich</persName>, as indicated by a barely legible ex dono note at
+                        f. 1r: <q n="1r">Notandum quod ego, frater Wernherus de Hirzhorn, pro
+                           tempore anno LXXVI lector conventus Bopardiensis, promisi me concessurum
+                           (?) librum istum phisicalem fratri Jacobo Bonner de Kerlich Juniori, eo
+                           […] studens in Colonia cum […] conventus (?) concessione</q>.</p>
+                     <p> The codex subsequently came into the possession of the Carmelite friar
+                           <persName ref="#WendelinusBischofsheimDeHirschhorn">Wendelinus
+                           Bischofsheim de Hirschhorn</persName>, who compiled a table of contents
+                        of Versoris’s commentaries on natural philosophy during his studies in
+                        Erfurt. Wendelinus had the parts copied by Billinger and Wacker bound
+                        together with an incunable of Thomas Aquinas’s Questiones disputate de
+                        anima. </p>
+                     <p> The manuscript was later owned by a certain Michael (f. IVv), probably the
+                        Carmelite friar <persName ref="#MichaelBekeDeBoppardia">Michael Beke de
+                           Boppardia</persName>, and subsequently by the Carmelite friar <persName
+                           ref="#HerbordusDeWormatia">Herbordus de Wormatia</persName>, as attested
+                        by a faint ownership mark at f. IIr: <q n="IIr">Anno Domini millesimo
+                           quingentesimo tertio […], ego, frater Herbordus, veni Colonia in ipso die
+                           […]</q>, and at f. 73vb: <q n="73vb">Frater Herbordus Wormacie, licet
+                           tunc temporis indignus, studens Coloniensis, 1503</q>. Around 1510, the
+                        codex entered the library of the Carmelite convent in Boppard. After the
+                        dissolution of the convent, it passed to the Gymnasialbibliothek Koblenz and
+                        subsequently to the University Library of Bonn. </p><p>Theodericus Billinger
+                        de Darmstadt signed at the end of the books of QsP: f. 34ra; f. 45va; f.
+                        58rb; f. 62vb.</p>
+                  </provenance>
                </history>
                <additional>
                   <listBibl>
-                     <bibl>Ch. Lohr, “Aristotelica Germanica I: Bonn, Darmstadt, Koblenz,
+                     <bibl>Ch. Lohr, “Aristotelica Germanica I: Bonn, Darmstadt, Koblenz,
                         Paderborn”, in Studia mediewistyczne 34/35 (2000) p. 289–299, at p.
-                        289–290</bibl>
-                     <bibl>J. Geiß, Katalog der mittelalterlichen Handschriften der Universitäts-
+                        289–290.</bibl>
+                     <bibl>J. Geiß, Katalog der mittelalterlichen Handschriften der Universitäts-
                         und Landesbibliothek Bonn, Berlin, 2015, p. 2–5.</bibl>
                   </listBibl>
                </additional>
@@ -2402,7 +2478,8 @@
             <msDesc xml:id="Colmar_BM_223">
                <msIdentifier>
                   <settlement>Colmar</settlement>
-                  <repository ref="#org_0017">Bibliothèque des dominicains (Bibliothèque municipale)</repository>
+                  <repository ref="#org_0017">Bibliothèque des dominicains (Bibliothèque
+                     municipale)</repository>
                   <idno>223</idno>
                </msIdentifier>
                <msContents>
@@ -6447,7 +6524,8 @@
 
                <msIdentifier>
                   <settlement>Nürnberg</settlement>
-                  <repository ref="#org_0057">Stadtbibliothek im Bildungscampus Nürnberg</repository>
+                  <repository ref="#org_0057">Stadtbibliothek im Bildungscampus
+                     Nürnberg</repository>
                   <idno>Cent. V 47</idno>
                </msIdentifier>
                <msContents>
@@ -6574,7 +6652,8 @@
             <msDesc xml:id="NürnbergStadtbibliothekimBildungscampusNürnberg_CentVII86">
                <msIdentifier>
                   <settlement>Nürnberg</settlement>
-                  <repository ref="#org_0057">Stadtbibliothek im Bildungscampus Nürnberg</repository>
+                  <repository ref="#org_0057">Stadtbibliothek im Bildungscampus
+                     Nürnberg</repository>
                   <idno>Cent VII 86</idno>
                </msIdentifier>
                <msContents>
@@ -6833,7 +6912,8 @@
             <msDesc xml:id="Paris_BibliothèqueinteruniversitairedelaSorbonne_MS1033">
                <msIdentifier>
                   <settlement>Paris</settlement>
-                  <repository ref="#org_0061">Bibliothèque interuniversitaire de la Sorbonne</repository>
+                  <repository ref="#org_0061">Bibliothèque interuniversitaire de la
+                     Sorbonne</repository>
                   <idno>MS 1033</idno>
                </msIdentifier>
                <msContents>
@@ -9007,7 +9087,8 @@
             <msDesc xml:id="Reims_BibliothèqueCarnegieBibliothèquemunicipale_897I678">
                <msIdentifier>
                   <settlement>Reims</settlement>
-                  <repository ref="#org_0069">Bibliothèque Carnegie (Bibliothèque municipale)</repository>
+                  <repository ref="#org_0069">Bibliothèque Carnegie (Bibliothèque
+                     municipale)</repository>
                   <idno>897 (I. 678)</idno>
                   <idno type="URI">https://arca.irht.cnrs.fr/ark:/63955/md021c18gd4p</idno>
                </msIdentifier>
