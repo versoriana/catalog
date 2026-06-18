@@ -421,11 +421,8 @@ tei-adminInfo {
     margin-left: 20px;
 }
 
-tei-recordHist > tei-source[cert="high"] > tei-p::after {
-    content: " ✓";
-    font-weight: bold;
-    color: green;
-}
+/* The "Ms directly examined" status is surfaced as a pill badge in the
+   top-right toolbar (see .examined-badge), so the inline tick is omitted. */
 
 
 tei-additional > tei-listBibl::before {
@@ -773,6 +770,41 @@ tei-msPart > tei-msIdentifier tei-idno {
 .entry-link.copied {
     color: #198754;
     border-color: #198754;
+}
+
+/* Top-right toolbar holding the examined badge + copy link */
+.entry-toolbar {
+    position: absolute;
+    top: 10px;
+    right: 12px;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+}
+
+/* Inside the toolbar, the link is a flex child, not self-positioned */
+.entry-toolbar .entry-link {
+    position: static;
+    top: auto;
+    right: auto;
+}
+
+/* "Ms directly examined" pill — same shape as Copy link, green accent */
+.examined-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    padding: 3px 10px 3px 8px;
+    font-size: 0.8rem;
+    line-height: 1;
+    color: #198754;
+    background-color: #fff;
+    border: 1px solid #198754;
+    border-radius: 50rem;
+    cursor: default;
+}
+.examined-badge .bi {
+    font-size: 1.05em;
 }
 
 .uri-link-container {

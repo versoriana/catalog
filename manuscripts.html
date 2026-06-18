@@ -458,9 +458,32 @@
           }
         }
 
-        // Entry permalink icon (top-right of card)
+        // Top-right toolbar: "examined" badge + permalink
         const id = e.id;
         if (id) {
+          const toolbar = document.createElement('div');
+          toolbar.className = 'entry-toolbar';
+
+          // Surface the "Ms directly examined" status as a pill, if present
+          const examined = e.querySelector('tei-recordHist > tei-source[cert="high"]');
+          if (examined) {
+            const badge = document.createElement('span');
+            badge.className = 'entry-badge examined-badge';
+            badge.title = examined.textContent.trim() || 'Manuscript directly examined';
+            badge.innerHTML = '<i class="bi bi-check-circle-fill"></i><span>Ms. examined</span>';
+            toolbar.appendChild(badge);
+
+            // The status now lives in the badge, so remove it from its
+            // original position to avoid showing it twice (like the moves above).
+            const recordHist = examined.closest('tei-recordHist');
+            const adminInfo = recordHist ? recordHist.closest('tei-adminInfo') : null;
+            if (recordHist) recordHist.remove();
+            // Drop the wrapper too if nothing else is left inside it.
+            if (adminInfo && !adminInfo.querySelector('*') && !adminInfo.textContent.trim()) {
+              adminInfo.remove();
+            }
+          }
+
           const base = window.location.origin + window.location.pathname;
           const link = document.createElement('a');
           link.className = 'entry-link copy-link';
@@ -471,7 +494,9 @@
             ev.preventDefault();
             copyEntryLink(link);
           });
-          e.appendChild(link);
+          toolbar.appendChild(link);
+
+          e.appendChild(toolbar);
         }
 
         // Return undefined to use default rendering for msDesc itself
