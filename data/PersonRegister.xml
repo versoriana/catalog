@@ -1003,6 +1003,25 @@
                   <bibl>Sheffler, Schools and Schooling, p. 35, 224, 267-268.</bibl>
                </listBibl>
             </person>
+
+            <person xml:id="HerbordusDeWormatia">
+               <persName>
+                  <forename type="preferred">Herbordus</forename>
+                  <nameLink type="preferred">de</nameLink>
+                  <surname type="preferred">Wormatia</surname>
+               </persName>
+               <persName type="sort">Wormatia, Herbordus de</persName>
+               <affiliation type="religiousOrder" subtype="OCarm">Carmelite</affiliation>
+               <note>He was a Carmelite who studied in Cologne in the years 1503–1506; in Toulouse
+                  in the years 1506–1507; and in Erfurt in the years 1507–1509, obtaining the degree
+                  of arts bachelor in 1508/09.</note>
+               <occupation role="fmo" ref="#Bonn_UniversitätsundLandesbibliothek_S67"/>
+               <listBibl>
+                  <bibl>F.-B. Lickteig, The German Carmelites at the medieval universities, Roma
+                     1981, p. 462, 496, 507.</bibl>
+               </listBibl>
+            </person>
+
             <person xml:id="HermannPötzlinger">
                <persName>
                   <forename type="preferred">Hermann</forename>
@@ -1073,6 +1092,23 @@
                      Encyclopedia of Renaissance Philosophy, Cham 2022, 1526–1527.</bibl>
                </listBibl>
             </person>
+            <person xml:id="JacobusBonnerDeKerlich">
+               <persName>
+                  <forename type="preferred">Jacobus</forename>
+                  <surname type="preferred">Bonner</surname>
+                  <nameLink type="preferred">de</nameLink>
+                  <surname type="preferred">Kerlich</surname>
+               </persName>
+               <persName type="sort">Bonner de Kerlich, Jacobus</persName>
+               <affiliation type="religiousOrder" subtype="OCarm">Carmelite</affiliation>
+               <note>He was a Carmelite who studied in Cologne from 1486 to 1488 and again in 1494,
+                  as well as in Mainz from 1495 to 1496.</note>
+               <occupation role="fmo" ref="#Bonn_UniversitätsundLandesbibliothek_S67"/>
+               <listBibl>
+                  <bibl>Lickteig, German Carmelites, p. 459, 490.</bibl>
+               </listBibl>
+            </person>
+
             <person xml:id="IacobusDabencourt">
                <persName>
                   <forename type="preferred">Iacobus</forename>
@@ -1709,6 +1745,23 @@
                      89–122.</bibl>
                </listBibl>
             </person>
+            <person xml:id="MichaelBekeDeBoppardia">
+               <persName>
+                  <forename type="preferred">Michael</forename>
+                  <surname type="preferred">Beke</surname>
+                  <nameLink type="preferred">de</nameLink>
+                  <surname type="preferred">Boppardia</surname>
+               </persName>
+               <persName type="sort">Beke de Boppardia, Michael</persName>
+               <affiliation type="religiousOrder" subtype="OCarm">Carmelite</affiliation>
+               <note>He was a Carmelite who studied in Cologne from 1482 to 1488 and again from 1491
+                  to 1492, as well as in Trier from 1488 to 1489.</note>
+               <occupation role="fmo" ref="#Bonn_UniversitätsundLandesbibliothek_S67"/>
+               <listBibl>
+                  <bibl>Lickteig, German Carmelites, p. 458, 486.</bibl>
+               </listBibl>
+            </person>
+
             <person xml:id="MichaelDeTurobin">
                <persName>
                   <forename type="preferred">Michael</forename>
@@ -2206,6 +2259,23 @@
                </listBibl>
             </person>
 
+            <person xml:id="TheodericusBillingerDeDarmstadt">
+               <persName>
+                  <forename type="preferred">Theodericus</forename>
+                  <surname type="preferred">Billinger</surname>
+                  <nameLink type="preferred">de</nameLink>
+                  <surname type="preferred">Darmstadt</surname>
+               </persName>
+               <persName type="sort">Billinger de Darmstadt, Theodericus</persName>
+               <affiliation type="religiousOrder" subtype="OCarm">Carmelite</affiliation>
+               <note>He was a Carmelite who studied in Cologne from 1463 to 1464 and again from 1467
+                  to 1468.</note>
+               <occupation role="scr" ref="#Bonn_UniversitätsundLandesbibliothek_S67"/>
+               <listBibl>
+                  <bibl>Lickteig, German Carmelites, p. 454.</bibl>
+               </listBibl>
+            </person>
+
             <person xml:id="TheodericusSteffaniDeColberg">
                <persName>
                   <forename type="preferred">Theodericus</forename>
@@ -2265,6 +2335,45 @@
                   <bibl>Gabriel, "The House of Poor German Students", 184–185</bibl>
                </listBibl>
             </person>
+            <person xml:id="WendelinusBischofsheimDeHirschhorn">
+               <persName>
+                  <forename type="preferred">Wendelinus</forename>
+                  <surname type="preferred">Bischofsheim</surname>
+                  <nameLink type="preferred">de</nameLink>
+                  <surname type="preferred">Hirschhorn</surname>
+               </persName>
+               <persName type="sort">Bischofsheim de Hirschhorn, Wendelinus</persName>
+               <affiliation type="religiousOrder" subtype="OCarm">Carmelite</affiliation>
+               <note>He was a Carmelite friar who studied at the University of Cologne from 1485 to
+                  1488 and again in 1496, at the University of Heidelberg from 1488 to 1489, and at
+                  the University of Erfurt from 1489 to 1492, where he obtained a Bachelor of Arts
+                  degree in 1492. He studied at the University of Trier from 1492 to 1495.</note>
+               <occupation role="fmo" ref="#Bonn_UniversitätsundLandesbibliothek_S67"/>
+               <listBibl>
+                  <bibl>Lickteig, German Carmelites, p. 459, 486, 491, 495, 497.</bibl>
+               </listBibl>
+            </person>
+
+            <person xml:id="WernerWackerDeWelstattDeHirschhorn">
+               <persName>
+                  <forename type="preferred">Werner</forename>
+                  <surname type="preferred">Wacker</surname>
+                  <nameLink type="preferred">de</nameLink>
+                  <surname type="preferred">Welstatt</surname>
+                  <nameLink type="preferred">de</nameLink>
+                  <surname type="preferred">Hirschhorn</surname>
+               </persName>
+               <persName type="sort">Wacker de Welstatt de Hirschhorn, Werner</persName>
+               <affiliation type="religiousOrder" subtype="OCarm">Carmelite</affiliation>
+               <note>He was a Carmelite and a student in Cologne from 1464 to 1472 and again from
+                  1474 to 1476. He was also a lecturer in Trier from 1473 to 1474.</note>
+               <occupation role="scr" ref="#Bonn_UniversitätsundLandesbibliothek_S67"/>
+               <occupation role="fmo" ref="#Bonn_UniversitätsundLandesbibliothek_S67"/>
+               <listBibl>
+                  <bibl>Lickteig, German Carmelites, p. 454, 484.</bibl>
+               </listBibl>
+            </person>
+
             <person xml:id="WolfgangAlbegDeMonaco">
                <persName>
                   <forename type="preferred">Wolfgang</forename>
