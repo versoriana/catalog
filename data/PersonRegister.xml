@@ -309,9 +309,9 @@
                <persName type="sort">Fabriano, Cherubinus de</persName>
                <affiliation type="religiousOrder" subtype="OP">Dominican</affiliation>
                <note>He was a member of the Dominican Congregation of Lombardy. In 1465, he
-                  delivered lectures on the Bible at the Dominican convent in Bologna. Interestingly,
-                  he was named after Peter of Bergamo. He is recorded as a bachelor of theology in
-                  1470.</note>
+                  delivered lectures on the Bible at the Dominican convent in Bologna.
+                  Interestingly, he was named after Peter of Bergamo. He is recorded as a bachelor
+                  of theology in 1470.</note>
                <occupation role="fmo" ref="#Roma_BibliotecaCasanatense_Ms100"/>
                <occupation role="fmo" ref="#Toledo_ArchivoyBibliotecaCapitular_953"/>
                <listBibl>
@@ -467,7 +467,7 @@
                   <forename type="variant">Christopferus</forename>
                   <nameLink type="preferred">de</nameLink>
                   <surname type="preferred">Acuistes</surname>
-                  <surname type="variant">Acuistris</surname>                  
+                  <surname type="variant">Acuistris</surname>
                </persName>
                <persName type="sort">Acuistes, Christoferus de</persName>
                <note>The identification of the master who copied the texts ascribed to Versoris and
@@ -484,8 +484,7 @@
                   manuscript, his name is very similar, and he was active as a master in Paris at
                   the same time, it is very likely that Christoferus de Acuistes and Christophorus
                   Amstel were one and the same person.</note>
-               <occupation role="scr"
-                  ref="#Köln_BibliothekStAlbertusMagnus_MS11"/>
+               <occupation role="scr" ref="#Köln_BibliothekStAlbertusMagnus_MS11"/>
                <listBibl>
                   <bibl>Auctarium II, col. 905, l. 39, col. 912, l. 40, 914 22, 916 14; VI, 262 29
                      n. 16, 279 17, 280 14, 286 34 n. 6, 291 36, 292 8 28 n. 8.</bibl>
@@ -555,14 +554,13 @@
                   <surname type="preferred">Katerine</surname>
                </persName>
                <persName type="sort">Katerine, Egidius</persName>
-               <occupation role="fmo"
-                  ref="#AmiensBibliothèqueLouisAragonBibliothèquemunicipale_405"/>
-               <note>In the ownership mark that attests Egidius Katerine's acquisition of
-                  manuscript Amiens, Bibliothèque Louis Aragon (Bibliothèque municipale), 405 in
-                  1460, he is presented as a scholar from Albi: <q n="202rb">Iste liber pertinet
-                     domino Egidio Katerine, et emptus fuit anno LX° cuidam clerico de villa Albi,
-                     qui quidem liber scriptus fuit a quodam defuncto cognomine Lupi, anima eius
-                     et omnium defunctorum requiescat in pace, amen</q>, f. 202rb.</note>
+               <occupation role="fmo" ref="#AmiensBibliothèqueLouisAragonBibliothèquemunicipale_405"/>
+               <note>In the ownership mark that attests Egidius Katerine's acquisition of manuscript
+                  Amiens, Bibliothèque Louis Aragon (Bibliothèque municipale), 405 in 1460, he is
+                  presented as a scholar from Albi: <q n="202rb">Iste liber pertinet domino Egidio
+                     Katerine, et emptus fuit anno LX° cuidam clerico de villa Albi, qui quidem
+                     liber scriptus fuit a quodam defuncto cognomine Lupi, anima eius et omnium
+                     defunctorum requiescat in pace, amen</q>, f. 202rb.</note>
             </person>
             <person xml:id="ErasmusDaum">
                <persName>
@@ -585,7 +583,7 @@
                   <bibl>Sheffeld, Schools and Schooling, 44, 317.</bibl>
                </listBibl>
             </person>
-            
+
             <person xml:id="EverardusDinslakenDeWesalia">
                <persName>
                   <forename type="preferred">Everardus</forename>
@@ -594,14 +592,18 @@
                   <surname type="preferred">Wesalia</surname>
                </persName>
                <persName type="sort">Dinslaken, Everardus</persName>
-               <note>He enrolled in the Faculty of Arts at Cologne in 1478, in the bursa of Lambertus de Monte. He received his bachelor's degree in 1479 and his master's degree in 1481. He subsequently studied theology, obtaining the degree of baccalaureus formatus in 1489.</note>
-               <occupation role="scr fmo" ref="#Köln_HistorischesArchivderStadtKölnRheinischemBildarchiv_Best7002GBfol200"/>
+               <note>He enrolled in the Faculty of Arts at Cologne in 1478, in the bursa of
+                  Lambertus de Monte. He received his bachelor's degree in 1479 and his master's
+                  degree in 1481. He subsequently studied theology, obtaining the degree of
+                  baccalaureus formatus in 1489.</note>
+               <occupation role="scr fmo"
+                  ref="#Köln_HistorischesArchivderStadtKölnRheinischemBildarchiv_Best7002GBfol200"/>
                <listBibl>
                   <bibl>Keussen, Matrikel II, p. 38, l. 49.</bibl>
                   <bibl>Tewes, Die Bursen, p. 38, 116, 262, 267, 530, 612, 676, 707.</bibl>
                </listBibl>
             </person>
-            
+
             <person xml:id="FolpardusDeAmeronghen">
                <persName>
                   <forename type="preferred">Folpardus</forename>
@@ -736,10 +738,12 @@
                   <surname type="preferred">Praga</surname>
                </persName>
                <persName type="sort">Praga, Gallus de</persName>
-               <note>In 1474–1475, he studied at the school of Letovice, in South Moravia, under the direction of Duchko de Mělník.</note>
+               <note>In 1474–1475, he studied at the school of Letovice, in South Moravia, under the
+                  direction of Duchko de Mělník.</note>
                <occupation role="scr" ref="#Brno_UniverzitníKnihovna_Mk66"/>
                <listBibl>
-                  <bibl>V. Dokoupil, Soupisy rukopisných fondů Universitní knihovny v Brně, Praha, 1958, p. 113-115.</bibl>
+                  <bibl>V. Dokoupil, Soupisy rukopisných fondů Universitní knihovny v Brně, Praha,
+                     1958, p. 113-115.</bibl>
                </listBibl>
             </person>
             <person xml:id="GaltherusDeWalma">
@@ -834,7 +838,7 @@
                </persName>
                <persName type="sort">Brabantia, Georgius de</persName>
                <birth when="1448"/>
-               <death when="1505"/>               
+               <death when="1505"/>
                <note>Born in 1448 in Bourbourg, he was tonsured in 1456 under Bishop Henri de
                   Lorraine-Vaudémont. He became a monk at the Abbey of Saint-Bertin and, from 1493
                   onwards, served there as archivist and prior. He studied at the Faculty of Arts in
@@ -1138,8 +1142,7 @@
                   <surname type="preferred">d'Abencourt</surname>
                </persName>
                <persName type="sort">d'Abencourt, Iacobus</persName>
-               <occupation role="fmo"
-                  ref="#AmiensBibliothèqueLouisAragonBibliothèquemunicipale_405"/>
+               <occupation role="fmo" ref="#AmiensBibliothèqueLouisAragonBibliothèquemunicipale_405"/>
                <note>In 1460 he sold manuscript Amiens, Bibliothèque Louis Aragon (Bibliothèque
                   municipale), 405 to Egidius Katerine, as stated in the ownership mark: <q
                      n="156vb">Egidius Katerine emit hunc librum domino Iacobo d'Abencourt, anno
@@ -1572,14 +1575,14 @@
                <persName type="sort">Weiße, Iohannes</persName>
                <death when="1486"/>
                <note>He matriculated at the University of Rostock in 1423, where he obtained the
-                  degree of Master of Arts in 1431. He arrived at the University of Leipzig in
-                  1440, where he took an active part in academic life. In 1443, he became rector
-                  of the university. At the same time, he pursued studies in theology, obtaining
-                  his licentiate in 1460.</note>
+                  degree of Master of Arts in 1431. He arrived at the University of Leipzig in 1440,
+                  where he took an active part in academic life. In 1443, he became rector of the
+                  university. At the same time, he pursued studies in theology, obtaining his
+                  licentiate in 1460.</note>
                <occupation role="fmo" ref="#Leipzig_Universitätsbibliothek_Ms1445"/>
                <listBibl>
-                  <bibl>A. Hofmesister, Die Matrikel der Universität Rostock, 1: Mich. 1419 -
-                     Mich. 1499, Rostock, 1889, I, p. 15, 30, 39, 62.</bibl>
+                  <bibl>A. Hofmesister, Die Matrikel der Universität Rostock, 1: Mich. 1419 - Mich.
+                     1499, Rostock, 1889, I, p. 15, 30, 39, 62.</bibl>
                   <bibl>Erle, Matrikel II, 17, 126, 132, 134-135, 14-145, 147-148, 151-152, 159,
                      162, 164, 173, 170,177.</bibl>
                   <bibl>Kusche, Ego collegiatus, II, p. 669-671.</bibl>
@@ -1804,10 +1807,9 @@
                <occupation role="fmo" ref="#Kraków_BibliotekaJagiellońska_cod2085"/>
                <listBibl>
                   <bibl>Polski Słownik Biograficzny, vol. 20, Wrocław, 1975, 624–625</bibl>
-                  <bibl>Michał z Lublina i Turobina, syn Jana (Id: 2036466), w: Corpus Academicum Cracoviense (CAC), URL:<ref
-                     target="http://cac.historia.uj.edu.pl/osoba/2036466_Micha%C5%82_z_Lublina_i_Turobina_syn_Jana"
-                     >http://cac.historia.uj.edu.pl/osoba/2036466_Micha%C5%82_z_Lublina_i_Turobina_syn_Jana</ref>
-                     (Dostęp: 18.06.2026).</bibl>
+                  <bibl>Michał z Lublina i Turobina, syn Jana (Id: 2036466), w: Corpus Academicum
+                     Cracoviense (CAC), URL: <ref
+                        target="http://cac.historia.uj.edu.pl/osoba/2036466_Micha%C5%82_z_Lublina_i_Turobina_syn_Jana">http://cac.historia.uj.edu.pl/osoba/2036466_Micha%C5%82_z_Lublina_i_Turobina_syn_Jana</ref> (Dostęp: 18.06.2026).</bibl>
                </listBibl>
             </person>
             <person xml:id="MichaelFalknerDeWratislavia">
@@ -1936,25 +1938,22 @@
                <persName>
                   <forename type="preferred">Petrus</forename>
                   <surname type="preferred">Berkenmayr</surname>
-                  <surname type="variant">Perkenmair de
-                  Augusta</surname>
+                  <surname type="variant">Perkenmair de Augusta</surname>
                </persName>
                <persName type="sort">Berkenmayr, Petrus</persName>
                <death when="1505"/>
                <affiliation type="religiousOrder" subtype="OSB">Benedictine</affiliation>
-               <occupation role="fmo"
-                  ref="#Augsburg_StaatsundStadtbibliothekAugsburg_Cod419"/>
-               <note>He entered the monastery of Saint Ulrich and Afra in Augsburg in 1497 and
-                  owned a rich library. He should probably be identified with Petrus Perkenmair de
+               <occupation role="fmo" ref="#Augsburg_StaatsundStadtbibliothekAugsburg_Cod419"/>
+               <note>He entered the monastery of Saint Ulrich and Afra in Augsburg in 1497 and owned
+                  a rich library. He should probably be identified with Petrus Perkenmair de
                   Augusta, who matriculated at the University of Ingolstadt in 1472.</note>
                <listBibl>
                   <bibl>G. Wolff, Die Matrikel der Ludwig-Maximilians-Universität
-                        Ingolstadt–Landshut–München, Bd. I, col. 10, l. 5.</bibl>
-                  <bibl>R. Schmidt, Reichenau und S. Gallen. Ihre literarische Überlieferung
-                        zur Zeit des Klosterhumanismus in St. Ulrich und Afra zu Augsburg um
-                        1500 (Vorträge und Forschungen, Sonderband 33), 1985,
-                     pp. 50–51. <note type="biblio">(including a reconstruction of Berkenmayr's
-                        library)</note></bibl>
+                     Ingolstadt–Landshut–München, Bd. I, col. 10, l. 5.</bibl>
+                  <bibl>R. Schmidt, Reichenau und S. Gallen. Ihre literarische Überlieferung zur
+                     Zeit des Klosterhumanismus in St. Ulrich und Afra zu Augsburg um 1500 (Vorträge
+                     und Forschungen, Sonderband 33), 1985, pp. 50–51. <note type="biblio"
+                        >(including a reconstruction of Berkenmayr's library)</note></bibl>
                </listBibl>
             </person>
             <person xml:id="PetrusBriçonnet">
