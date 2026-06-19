@@ -503,6 +503,26 @@
                      n. 16, 279 17, 280 14, 286 34 n. 6, 291 36, 292 8 28 n. 8.</bibl>
                </listBibl>
             </person>
+
+            <person xml:id="ChristophorusAbbatis">
+               <persName>
+                  <forename type="preferred">Christophorus</forename>
+                  <surname type="preferred">Abbatis</surname>
+               </persName>
+               <persName type="sort">Abbatis, Christophorus</persName>
+               <note>He studied at the Collège de Lisieux of the University of Paris and was a
+                  Master of Arts there in 1458, as stated in notes written in his own hand. However,
+                  he cannot be identified in the registers of the Faculty of Arts of Paris. Since
+                  the manuscript eventually came to Reims, as did another manuscript transmitting a
+                  text by Versoris and copied by Iohannes Abbatis (possibly a relative of
+                  Christophorus), he may have originated from that region.</note>
+               <occupation role="scr" ref="#Reims_BibliothèqueCarnegie_Ms898I660"/>
+               <occupation role="fmo" ref="#Reims_BibliothèqueCarnegie_Ms898I660"/>
+               <listBibl>
+                  <bibl>Rebmeister-Klein, Les livres des petits collèges, vol. 3, p. 1083.</bibl>
+               </listBibl>
+            </person>
+
             <person xml:id="CruxDeTelcz">
                <persName>
                   <forename type="preferred">Crux</forename>
@@ -984,6 +1004,20 @@
                   <bibl>Rouse &amp; Rouse, Illiterati et uxorati, 34</bibl>
                </listBibl>
             </person>
+
+            <person xml:id="GundisalinusDeOviedo">
+               <persName>
+                  <forename type="preferred">Gundisalinus</forename>
+                  <nameLink type="preferred">de</nameLink>
+                  <surname type="preferred">Oviedo</surname>
+               </persName>
+               <persName type="sort">Oviedo, Gundisalinus de</persName>
+               <note>Nothing is known about the scribe, who copied Versor’s commentaries on natural
+                  philosophy and the Metaphysics in manuscript Salamanca, Biblioteca Universitaria,
+                  MS 2463.</note>
+               <occupation role="scr" ref="#Salamanca_BibliotecaUniversitaria_Ms2463"/>
+            </person>
+
             <person xml:id="HeinrichBreuVonWaischenfeld">
                <persName>
                   <forename type="preferred">Heinrich</forename>
@@ -1538,6 +1572,47 @@
                      Immatrikulationen von 1409-1559, Leipzig 1895, 228, nr. 63.</bibl>
                </listBibl>
             </person>
+
+            <person xml:id="IohannesDeRabenstein">
+               <idno type="VIAF">56967769</idno>
+               <persName>
+                  <forename type="preferred">Iohannes</forename>
+                  <forename type="variant">Jan</forename>
+                  <nameLink type="preferred">de</nameLink>
+                  <surname type="preferred">Rabenstein</surname>
+                  <nameLink type="variant">z</nameLink>
+                  <surname type="variant">Rabštejna</surname>
+               </persName>
+               <persName type="sort">Rabenstein, Iohannes de</persName>
+               <birth when="1437"/>
+               <death when="1473"/>
+               <note>Born into a Bohemian noble family, he was destined by his relatives for an
+                  ecclesiastical career. In 1447, he became provost of the collegiate chapter in
+                  Leitmeritz, and from 1453 he served as provost of the Royal Collegiate Chapter at
+                  Vyšehrad. In 1454, he enrolled in the University of Bologna to study canon law. He
+                  returned to Bohemia in 1457 to succeed his brother as burggrave of Vyšehrad. The
+                  following year, George of Poděbrady sent him to Rome on a diplomatic mission to
+                  Pope Pius II. In 1461, Rabenstein was awarded the degree of doctor decretorum at
+                  the University of Pavia. In 1462, he was appointed papal protonotary in Rome and
+                  attempted to mediate the conflict between King George of Poděbrady and the Pope.
+                  The failure of this mission prompted his withdrawal from public life. Between 1464
+                  and 1467, he resided in Pavia before returning to Bohemia, where he aligned
+                  himself with the Hungarian king Matthias Corvinus, who sought to strengthen the
+                  Catholic party in the kingdom.</note>
+               <occupation role="fmo" ref="#Schlägl_Prämonstratenserstift_Cpl170"/>
+               <occupation role="fmo" ref="#Schlägl_Prämonstratenserstift_Cpl169"/>
+               <occupation role="tch" ref="#Schlägl_Prämonstratenserstift_Cpl169">Master teaching
+                  Versor’s commentaries in ms. Cpl. 169.</occupation>
+               <listBibl>
+                  <bibl>F. J. Worstbrock, “Johannes von Rabenstein”, Verfasserlexikon der Literatur
+                     des Mittelalters, 4 (1983), p. 712–715.</bibl>
+                  <bibl>S. Cerrini, “Giovanni di Rabenstein (1437–1473) tra Bologna e Pavia:
+                     l’iniziazione umanistica di un giovane prelato boemo”, in G. Billanovich, G.
+                     Frasso (eds.), Petrarca, Verona e l’Europa. Atti del Convegno internazionale di
+                     studi (Verona, 19–23 sett. 1991), Padua 1997, p. 495–518.</bibl>
+               </listBibl>
+            </person>
+
             <person xml:id="IohannesRun">
                <persName>
                   <forename type="preferred">Iohannes</forename>
@@ -1822,7 +1897,9 @@
                   <bibl>Polski Słownik Biograficzny, vol. 20, Wrocław, 1975, 624–625</bibl>
                   <bibl>Michał z Lublina i Turobina, syn Jana (Id: 2036466), w: Corpus Academicum
                      Cracoviense (CAC), URL: <ref
-                        target="http://cac.historia.uj.edu.pl/osoba/2036466_Micha%C5%82_z_Lublina_i_Turobina_syn_Jana">http://cac.historia.uj.edu.pl/osoba/2036466_Micha%C5%82_z_Lublina_i_Turobina_syn_Jana</ref> (Dostęp: 18.06.2026).</bibl>
+                        target="http://cac.historia.uj.edu.pl/osoba/2036466_Micha%C5%82_z_Lublina_i_Turobina_syn_Jana"
+                        >http://cac.historia.uj.edu.pl/osoba/2036466_Micha%C5%82_z_Lublina_i_Turobina_syn_Jana</ref>
+                     (Dostęp: 18.06.2026).</bibl>
                </listBibl>
             </person>
             <person xml:id="MichaelFalknerDeWratislavia">
@@ -1947,6 +2024,21 @@
                   <bibl>Kądzielski, Mrozowicz, Catalogus, p. 72-73.</bibl>
                </listBibl>
             </person>
+
+            <person xml:id="PereManuel">
+               <persName>
+                  <forename type="preferred">Pere</forename>
+                  <forename type="variant">Pedro</forename>
+                  <surname type="preferred">Manuel</surname>
+               </persName>
+               <persName type="sort">Manuel, Pere</persName>
+               <note>This scholar, about whom no other information is known, studied at the
+                  University of Barcelona and owned Versoris’s commentary on Peter of Spain’s
+                  Summule logicales, transmitted in manuscript Vic, Museo y Biblioteca Episcopal, MS
+                  185.</note>
+               <occupation role="fmo" ref="#Vic_MuseoyBibliotecaEpiscopal_185"/>
+            </person>
+
             <person xml:id="PetrusBerkenmayr">
                <persName>
                   <forename type="preferred">Petrus</forename>
