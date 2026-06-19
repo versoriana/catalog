@@ -1574,7 +1574,9 @@
             </person>
 
             <person xml:id="IohannesDeRabenstein">
-               <idno type="VIAF">56967769</idno>
+               <idno type="VIAF">94245561</idno>
+               <idno type="GND">10094924X</idno>
+               <idno type="CERL">cnp00166271</idno>
                <persName>
                   <forename type="preferred">Iohannes</forename>
                   <forename type="variant">Jan</forename>
