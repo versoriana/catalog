@@ -10958,11 +10958,12 @@
                      <ab type="explicit_attribution" cert="1">The text is ascribed to Versoris in a
                         rubric on the upper margin, written by the copyist: <q n="1r marg-sup"
                            >Lectura Versoris Parisiensis super librum De celo et mondo</q>.</ab>
-                     <ab type="general_remarks">These texts are followed by medical treatises, namely
-                        Gentile de Foligno’s Lectura super XIII distinctionem Avicenna de stomacho
-                        (ff. 24r–83r), Mondino de’ Liuzzi’s Anathomia (ff. 85r–100r), a treatise De
-                        fluxu ventris probably by Iohannes de Archole (ff. 103r–128r), and a
-                        Phlebotomia in French (ff. 130r–131r, inc.: “Isidores dist selonc lauctorite de Iparcas”; expl.: “du plus noble”).</ab>
+                     <ab type="general_remarks">These texts are followed by medical treatises,
+                        namely Gentile de Foligno’s Lectura super XIII distinctionem Avicenna de
+                        stomacho (ff. 24r–83r), Mondino de’ Liuzzi’s Anathomia (ff. 85r–100r), a
+                        treatise De fluxu ventris probably by Iohannes de Archole (ff. 103r–128r),
+                        and a Phlebotomia in French (ff. 130r–131r, inc.: “Isidores dist selonc
+                        lauctorite de Iparcas”; expl.: “du plus noble”).</ab>
                   </summary>
                   <msItem xml:id="Torino_BibliotecaNazionaleUnivesitaria_HII30_QdC">
                      <locus from="1r" to="23r"/>
@@ -10971,18 +10972,16 @@
                         mondo [sic], qui ipsum scripsit et compilavit regnare cum Deo possit,
                         scilicet magistri Versoris et Bartholomei Sicardis doctoris, in Secusia, die
                         vigesima octava iulii, 1462, hora decima nona</colophon>
-                     <note type="content">
-                        The QdC are followed by a question from Versoris’s commentary on the
-                        Physics, copied by the same hand but previously unnoticed: Utrum motus
-                        localis sit primus omnium motuum, which is transmitted anonymously. The
-                        belonging of this question to a Physics commentary is made explicit in
-                        the colophon: <q n="NA">Et sic est finis huius questionis que movetur in octavum
-                        Physicorum</q>.                         
-                     </note>
+                     <note type="content"> The QdC are followed by a question from Versoris’s
+                        commentary on the Physics, copied by the same hand but previously unnoticed:
+                        Utrum motus localis sit primus omnium motuum, which is transmitted
+                        anonymously. The belonging of this question to a Physics commentary is made
+                        explicit in the colophon: <q n="NA">Et sic est finis huius questionis que
+                           movetur in octavum Physicorum</q>. </note>
                   </msItem>
                   <msItem xml:id="Torino_BibliotecaNazionaleUnivesitaria_HII30_QsP">
                      <locus from="23rb" to="23vb"/>
-                     <title ref="workID">QsP VIII.10</title>                                         
+                     <title ref="workID">QsP VIII.10</title>
                   </msItem>
                   <msItem xml:id="Torino_BibliotecaNazionaleUnivesitaria_HII30_Foligno">
                      <locus from="24r" to="83r"/>
@@ -11002,7 +11001,7 @@
                   <msItem xml:id="Torino_BibliotecaNazionaleUnivesitaria_HII30_Anon">
                      <locus from="130r" to="131r"/>
                      <author>Anonymus</author>
-                     <title ref="XX">Phlebotomia</title>                     
+                     <title ref="XX">Phlebotomia</title>
                      <incipit>Isidores dist selonc lauctorite de Iparcas</incipit>
                      <explicit>du plus noble</explicit>
                   </msItem>
@@ -11044,9 +11043,10 @@
                      <bibl>M. Crespi, art. “Arcolano, Giovanni”, in Dizionario biografico degli
                         Italiani 3 (1961), 797-798.</bibl>
                      <bibl>I. Naso (ed.), Alma felix universitas studii taurinensis. Lo studio
-                        generale dalle origini al primo Cinquecento, Torino 2004, 296-297. <note type="biblio">[with a
-                        reproduction of f. 24r, the beginning of Gentile de Foligno’s Lectura super
-                        XIII distinctionem Avicenna de stomacho]</note></bibl>
+                        generale dalle origini al primo Cinquecento, Torino 2004, 296-297. <note
+                           type="biblio">with a reproduction of f. 24r, the beginning of Gentile de
+                           Foligno’s Lectura super XIII distinctionem Avicenna de
+                        stomacho</note></bibl>
                   </listBibl>
                </additional>
             </msDesc>
