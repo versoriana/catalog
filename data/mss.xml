@@ -3126,13 +3126,12 @@
                   <summary>
                      <ab type="explicit_attribution" cert="0">none</ab>
                   </summary>
-                  <msItem
-                     xml:id="msItem_HildesheSummuleim_DombibliothekHildesheim_HsStGod27_Summule">
+                  <msItem xml:id="Hildesheim_DombibliothekHildesheim_HsStGod27_Summule">
                      <locus from="53r" to="104r"/>
                      <author>Peter of Spain</author>
-                     <title ref="Summule">Summule</title>
+                     <title ref="Summule">Summule Books I–IV</title>
                   </msItem>
-                  <msItem xml:id="HildesheSummuleim_DombibliothekHildesheim_HsStGod27_CsPH">
+                  <msItem xml:id="Hildesheim_DombibliothekHildesheim_HsStGod27_CsPH">
                      <locus from="105r" to="202v"/>
                      <title ref="workID">CsPH I–III</title>
                      <note type="content">The commentary is preceded by Books I–IV of Peter of
@@ -10944,6 +10943,110 @@
                      <bibl>Meirinhos, Bibliotheca manuscripta Petri Hispani, p. 54-55, 409-410.
                            <note type="biblio">Mentioning this manuscript as Bologna, Biblioteca
                            Universitaria, Battaglini, 1665.</note></bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+            <!-- Torino, Biblioteca Nazionale Univesitaria, H.II.30 -->
+            <msDesc xml:id="Torino_BibliotecaNazionaleUnivesitaria_HII30">
+               <msIdentifier>
+                  <settlement>Torino</settlement>
+                  <repository ref="#org_0082">Biblioteca Nazionale Univesitaria</repository>
+                  <idno>H.II.30</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     <ab type="explicit_attribution" cert="1">The text is ascribed to Versoris in a
+                        rubric on the upper margin, written by the copyist: <q n="1r marg-sup"
+                           >Lectura Versoris Parisiensis super librum De celo et mondo</q>.</ab>
+                     <ab type="general_remarks">These texts are followed by medical treatises, namely
+                        Gentile de Foligno’s Lectura super XIII distinctionem Avicenna de stomacho
+                        (ff. 24r–83r), Mondino de’ Liuzzi’s Anathomia (ff. 85r–100r), a treatise De
+                        fluxu ventris probably by Iohannes de Archole (ff. 103r–128r), and a
+                        Phlebotomia in French (ff. 130r–131r).</ab>
+                  </summary>
+                  <msItem xml:id="Torino_BibliotecaNazionaleUnivesitaria_HII30_QdC">
+                     <locus from="1r" to="23r"/>
+                     <title ref="workID">QdC</title>
+                     <colophon><locus from="23r"/>Et sic est finis huius quarti libri De celo et
+                        mondo [sic], qui ipsum scripsit et compilavit regnare cum Deo possit,
+                        scilicet magistri Versoris et Bartholomei Sicardis doctoris, in Secusia, die
+                        vigesima octava iulii, 1462, hora decima nona</colophon>
+                     <note type="content">
+                        The QdC are followed by a question from Versoris’s commentary on the
+                        Physics, copied by the same hand but previously unnoticed: Utrum motus
+                        localis sit primus omnium motuum, which is transmitted anonymously. The
+                        belonging of this question to a Physics commentary is made explicit in
+                        the colophon: <q n="NA">Et sic est finis huius questionis que movetur in octavum
+                        Physicorum</q>.                         
+                     </note>
+                  </msItem>
+                  <msItem xml:id="Torino_BibliotecaNazionaleUnivesitaria_HII30_QsP">
+                     <locus from="23rb" to="23vb"/>
+                     <title ref="workID">QsP VIII.10</title>                                         
+                  </msItem>
+                  <msItem xml:id="Torino_BibliotecaNazionaleUnivesitaria_HII30_Foligno">
+                     <locus from="24r" to="83r"/>
+                     <author>Gentile de Foligno</author>
+                     <title ref="XX">Lectura super XIII distinctionem Avicenna de stomacho</title>
+                  </msItem>
+                  <msItem xml:id="Torino_BibliotecaNazionaleUnivesitaria_HII30_Mondino">
+                     <locus from="85r" to="100r"/>
+                     <author>Mondino de’ Liuzzi</author>
+                     <title ref="XX">Anathomia</title>
+                  </msItem>
+                  <msItem xml:id="Torino_BibliotecaNazionaleUnivesitaria_HII30_Archole">
+                     <locus from="103r" to="128r"/>
+                     <author cert="medium">Iohannes de Archole</author>
+                     <title ref="XX">De fluxu ventris</title>
+                  </msItem>
+                  <msItem xml:id="Torino_BibliotecaNazionaleUnivesitaria_HII30_Anon">
+                     <locus from="130r" to="131r"/>
+                     <author>Anonymus</author>
+                     <title ref="XX">Phlebotomia</title>                     
+                     <incipit>Isidores dist selonc lauctorite de Iparcas</incipit>
+                     <explicit>du plus noble</explicit>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate from="1462" to="1462">Versoris’s commentary dates back to 1462, but
+                        other texts in the same manuscript were copied later. In the colophon of
+                        Mondinus de Bologna’s Anathomia, we read: <q n="NA">die primo aprilis
+                           1471</q>; and the treatise De fluxu ventris, as we have seen, was copied
+                        in 1459.</origDate>
+                     <origPlace>Susa</origPlace>
+                     <p>Versoris’s commentary was copied in Susa (Latin Secusia), Piedmont, by the
+                        master Bartholomeus Sicardus, as stated in the colophon (f. 23r). The same
+                        master is mentioned in the colophon of a treatise De fluxu ventris,
+                        contained in this codex and copied in Pavia in 1459: <q n="128rb">Finitus
+                           est tractatus iste difficilis de fluxu ventris et utillimus et
+                           necessarius, cuius eterne magestatis [sic], ut me, Bartolomeum Sicardum
+                           de Clavaxio, artium doctorem cunctasque actiones et gressos meos dirrigat
+                           [sic] in sui contemplationem et custodiam vite eterne, qui per infinita
+                           secula sit benedictus […]. Anno Domini 1459, die tredecima septembris,
+                           hora secunda noctis, Papie, Iohannis de Archole Ferrariensis, magister …
+                           et practicantium princeps, opusculum est completum. Laudemus itaque Deus
+                           trinus</q>, f. 128rb. The codex presents water damage that in some places
+                        makes it difficult or impossible to read. This was probably caused by the
+                        water used to extinguish the library fire in 1904.</p>
+                     <p/>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>G. Pasini, Codices manuscripti bibliothecae regii Taurinensis Athenaei
+                        per linguas digesti, et binas in partes distributi, in quarum prima Hebraei,
+                        et Graeci, in altera Latini, Italici, et Gallici, Taurini, 1749, p.
+                        110.</bibl>
+                     <bibl>P. Giacosa, Magistri Salernitani nondum editi: catalogo ragionato della
+                        Esposizione di storia della medicina aperta in Torino nel 1898, Torino,
+                        1901, p. 499-501.</bibl>
+                     <bibl>M. Crespi, art. “Arcolano, Giovanni”, in Dizionario biografico degli
+                        Italiani 3 (1961), 797-798.</bibl>
+                     <bibl>I. Naso (ed.), Alma felix universitas studii taurinensis. Lo studio
+                        generale dalle origini al primo Cinquecento, Torino 2004, 296-297. <note type="biblio">[with a
+                        reproduction of f. 24r, the beginning of Gentile de Foligno’s Lectura super
+                        XIII distinctionem Avicenna de stomacho]</note></bibl>
                   </listBibl>
                </additional>
             </msDesc>
