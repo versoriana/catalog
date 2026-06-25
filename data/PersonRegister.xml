@@ -11,8 +11,7 @@
             <title ref="ID">Versoris manuscript inventory</title>
             <editor>Aurora Panzica</editor>
             <respStmt>
-               <resp>TEI modelling and encoding</resp>
-               <persName ref="ID">Elena Spadini</persName>
+               <resp>TEI modelling and encoding</resp>               
                <persName ref="ID">José Luis Losada</persName>
             </respStmt>
          </titleStmt>
@@ -930,6 +929,24 @@
                      Erber (Paris, 1460-1463).</bibl>
                </listBibl>
             </person>
+
+            <person xml:id="GeorgiusKelnerDeCzwickavia">
+               <persName>
+                  <forename type="preferred">Georgius</forename>
+                  <surname type="preferred">Kelner</surname>
+                  <nameLink type="preferred">de</nameLink>
+                  <surname type="preferred">Czwickavia</surname>
+               </persName>
+               <persName type="sort">Kelner de Czwickavia, Georgius</persName>
+               <note>Matriculated at Leipzig University in 1479 and obtained the degree of bachelor
+                  in 1480.</note>
+               <occupation role="fmo" ref="#Zwickau_Ratsschulbibliothek_MsXXXIIII14"/>
+               <listBibl>
+                  <bibl>Erler, Matrikel, I, p. 317; II, p. 269.</bibl>
+                  <bibl>Fernandez Walker, “A 15th-Century Handbook,” p. 185–186.</bibl>
+               </listBibl>
+            </person>
+
             <person xml:id="GerardusArnhem">
                <persName>
                   <forename type="preferred">Gerardus</forename>
@@ -1726,6 +1743,30 @@
                </listBibl>
             </person>
 
+            <person xml:id="LeonhardusDeNuremberga">
+               <persName>
+                  <forename type="preferred">Leonhardus</forename>
+                  <nameLink type="preferred">de</nameLink>
+                  <surname type="preferred">Nuremberga</surname>
+               </persName>
+               <persName type="sort">Nuremberga, Leonhardus de</persName>
+               <death when="1504"/>
+               <note>He matriculated at the University of Erfurt in 1469 and obtained the bachelor’s
+                  and master’s degrees there in 1470 (according to the Erfurt registers; however,
+                  1469 is given in a note in his own hand) and 1471, respectively. He served as
+                  rector of the University of Trier in 1477 and died in 1504.</note>
+               <occupation role="scr" ref="#Luxembourg_BibliothèquenationaleduLuxembourgRéserveprécieuse_53"/>
+               <occupation role="fmo" ref="#Luxembourg_BibliothèquenationaleduLuxembourgRéserveprécieuse_53"/>
+               <listBibl>
+                  <bibl>R. C. Schwinges, K. Wriedt, Das Bakkalarenregister der Artistenfakultät der
+                     Universität Erfurt 1392–1521, Jena/Stuttgart, 1995, p. 159.</bibl>
+                  <bibl>S. Irrgang, Peregrinatio academica. Wanderungen und Karrieren von Gelehrten
+                     der Universitäten Rostock, Greifswald, Trier und Mainz im 15. Jahrhundert,
+                     Stuttgart, 2002, p. 227–228.</bibl>
+                  <bibl>Falmagne, Deitz, Die Echternacher Handschriften, p. 178.</bibl>
+               </listBibl>
+            </person>
+
             <person xml:id="LeonhardusSchroter">
                <persName>
                   <forename type="preferred">Leonhardus</forename>
@@ -1739,6 +1780,23 @@
                   in Regensburg. The only scholar named Leonhard attested in this period appears to
                   be the Augustinian hermit Leonhardus (Mühlhauser) de Ratispona, lector and doctor
                   of theology, who died in 1500 (Scheffler, School and Schooling, 266).</note>
+            </person>
+
+            <person xml:id="LudolfVonEnscheringen">
+               <persName>
+                  <forename type="preferred">Ludolf</forename>
+                  <nameLink type="preferred">von</nameLink>
+                  <surname type="preferred">Enscheringen</surname>
+               </persName>
+               <persName type="sort">Enscheringen, Ludolf von</persName>
+               <death when="1504"/>
+               <note>He obtained the degree of Master of Arts at Erfurt in 1466. In 1476, he served
+                  as rector of the University of Trier.</note>
+               <occupation role="fmo" ref="#Luxembourg_BibliothèquenationaleduLuxembourgRéserveprécieuse_53"/>
+               <listBibl>
+                  <bibl>S. Irrgang, Peregrinatio academica, pp. 227–228.</bibl>
+                  <bibl>Falmagne, Deitz, Die Echternacher Handschriften, p. 178.</bibl>
+               </listBibl>
             </person>
 
             <person xml:id="MarcellusGeistOfAtzenheim">
