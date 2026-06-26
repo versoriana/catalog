@@ -1551,6 +1551,51 @@
                   <bibl>Lohr, Commentaries I, 304.</bibl>
                </listBibl>
             </person>
+
+            <person xml:id="IohannesLupi">
+               <persName>
+                  <forename type="preferred">Iohannes</forename>
+                  <surname type="preferred">Lupi</surname>
+               </persName>
+               <persName type="sort">Lupi, Iohannes</persName>
+               <note>The identification of the scribe who signs the colophons of manuscript Amiens,
+                  Bibliothèque Louis Aragon (Bibliothèque municipale), MS 405 is rather problematic.
+                  In fact, he specifies that he is “oriundus Albini”, that is, originally from Albi
+                  (or from the Albini family, although the history of the manuscript, acquired by
+                  scholars from Albi, makes it clear that the town is meant), and that he determined
+                  under the master Iacobus Suaden together with two other students named Johannes
+                  Griselet and Johannes de Frigidomonte in 1458.<note type="editorial">Iacobus Suaden, licensed in
+                     theology in 1472. See Auctarium III, col. 206, l. 29-30 and Sullivan,
+                     Licentiates II, p. 509-510. I cannot identify Johannes Griselet and Johannes de
+                     Frigidomonte in the registers of the University of Paris.</note> However, the
+                  registers of the French Nation of the Paris Faculty of Arts do not mention any
+                  student named Iohannes Lupi from Albi. Instead, they mention a student named
+                  Iohannes Albi from the diocese of Lyon (diocesis Lugdunensis), who was licensed in
+                  the arts in 1453 (Auctarium V, col. 475; col. 526, l. 31; col. 529, l. 7), and a
+                  student named Iohannes Albini from the diocese of Angers (diocesis Andegavensis),
+                  who obtained the bachelor’s degree in 1456. While the date of inception of the
+                  first student is too early, the date of inception of the second fits perfectly with
+                  the cursus of the scribe of the Amiens manuscript, who determined two years later.
+                  Yet two problems impede the identification: namely, the different origins of the
+                  two students (Albi, in Occitania, for the scribe, and Angers for Iohannes Albini),
+                  and the fact that the registers of the French Nation do not mention the
+                  determination of Iohannes Albini. In this sense, the similarity between the names
+                  Iohannes Lupi, the scribe, and Iohannes Albini, together with the correspondence of
+                  dates, could simply be coincidental, and they may in fact be two distinct persons.
+                  If this is the case, the scribe of the Amiens manuscript still remains to be
+                  identified. According to the ownership mark that attests the acquisition of the
+                  volume by Egidius Katerine in 1460, the copyist of the manuscript had already died
+                  by that year: <q n="202rb">Iste liber pertinet domino Egidio Katerine, et emptus fuit anno LX°
+                  cuidam clerico de villa Albi, qui quidem liber scriptus fuit a quodam defuncto
+                  cognomine Lupi, anima eius et omnium defunctorum requiescat in pace, amen</q>, f.
+                  202rb.</note>
+               <occupation role="scr" ref="#AmiensBibliothèqueLouisAragonBibliothèquemunicipale_405"/>
+               <occupation role="fmo" ref="#AmiensBibliothèqueLouisAragonBibliothèquemunicipale_405"/>
+               <listBibl>
+                  <bibl>Auctarium V, col. 707, l. 31 (Iohannes Albi from Angers).</bibl>
+               </listBibl>
+            </person>
+
             <person xml:id="IohannesQuarreti">
                <persName>
                   <forename type="preferred">Iohannes</forename>
