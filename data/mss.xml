@@ -5647,6 +5647,122 @@
             </msDesc>
 
             <!-- Madrid, Biblioteca Nacional de España, Ms. 9018 -->
+            <!-- Luxembourg, Bibliothèque nationale du Luxembourg, Réserve précieuse, 53 -->
+            <msDesc xml:id="Luxembourg_BibliothèquenationaleduLuxembourgRéserveprécieuse_53">
+               <msIdentifier>
+                  <settlement>Luxembourg</settlement>
+                  <repository ref="#org_0045">Bibliothèque nationale du Luxembourg, Réserve
+                     précieuse</repository>
+                  <idno>53</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     <ab type="explicit_attribution" cert="1">An attribution to Versoris appears in
+                        the colophon of the QdA (f. 103va).</ab>
+                     <ab type="general_remarks">The manuscript also transmits several other texts,
+                        such as the Questions on De anima printed under the name of Iohannes de
+                        Magistris (ff. 2ra–56va), Albertus de Orlamünde’s Summa naturalium (ff.
+                        105r–163r), and Johannes Cronisbenus’s Compendium Parvorum naturalium.</ab>
+                  </summary>
+                  <msItem
+                     xml:id="Luxembourg_BibliothèquenationaleduLuxembourgRéserveprécieuse_53_Magistris">
+                     <locus from="2ra" to="56va"/>
+                     <author>Iohannes de Magistris</author>
+                     <title ref="XX">Questions on De anima</title>
+                  </msItem>
+                  <msItem
+                     xml:id="Luxembourg_BibliothèquenationaleduLuxembourgRéserveprécieuse_53_QdA">
+                     <locus from="57r" to="103v"/>
+                     <title ref="workID">QdA</title>
+                     <colophon><locus from="103va"/>Et hoc dicitur de questione, et per consequens
+                        de toto libro De anima secundum mentem Versoris super Aristotelem dicta
+                        sufficiunt</colophon>
+                     <colophon n="final"><locus from="103va"/>Finitum in Hainis in die Bartholomey,
+                        precise hora quinta, anno incarnationis Christi 1468</colophon>
+                  </msItem>
+                  <msItem
+                     xml:id="Luxembourg_BibliothèquenationaleduLuxembourgRéserveprécieuse_53_Orlamünde">
+                     <locus from="105r" to="163r"/>
+                     <author>Albertus de Orlamünde</author>
+                     <title ref="XX">Summa naturalium</title>
+                  </msItem>
+                  <msItem
+                     xml:id="Luxembourg_BibliothèquenationaleduLuxembourgRéserveprécieuse_53_QdSen">
+                     <locus from="229r" to="241r"/>
+                     <title ref="workID">QdSen</title>
+                     <colophon n="final"><locus from="241r"/>Et est finis Czwikavie, feria quarta
+                        ante vincula Petri, anno domini M cccc lxvii</colophon>
+                  </msItem>
+                  <msItem
+                     xml:id="Luxembourg_BibliothèquenationaleduLuxembourgRéserveprécieuse_53_QdMem">
+                     <locus from="241v" to="244v"/>
+                     <title ref="workID">QdMem</title>
+                     <colophon n="final"><locus from="244va"/>Et est finitus in vigilia vincula
+                        [sic] Petri, Czwikawie, per me, Leonhardum de Nuremberga, anno Domini
+                        1467</colophon>
+                  </msItem>
+                  <msItem
+                     xml:id="Luxembourg_BibliothèquenationaleduLuxembourgRéserveprécieuse_53_QdSom">
+                     <locus from="244v" to="249v"/>
+                     <title ref="workID">QdSom</title>
+                     <colophon n="final"><locus from="249vb"/>Et hec de questione, et per consequens
+                        de toto libro de sompno et vigilia, per me, Leonhardum de Nuremberga. Et est
+                        finitus Czwikavie, in die vincula [sic] Petri, hora septima, 1467</colophon>
+                  </msItem>
+                  <msItem
+                     xml:id="Luxembourg_BibliothèquenationaleduLuxembourgRéserveprécieuse_53_QdLon">
+                     <locus from="250ra" to="250rb"/>
+                     <title ref="workID">QdLon</title>
+                     <colophon n="final"><locus from="251rb"/>Finitus Czwikavie, proxima die post
+                        vincula Petri, per me, Leonhardum de Nuremberga, anno 1467</colophon>
+                  </msItem>
+                  <msItem
+                     xml:id="Luxembourg_BibliothèquenationaleduLuxembourgRéserveprécieuse_53_QsMete">
+                     <locus from="271r" to="292vb"/>
+                     <title ref="workID">QsMete</title>
+                     <colophon n="book II"><locus from="288rb"/>Et hec de secundo libro Metheororum
+                        dicta sufficiant. In vigilia Egidii 1467</colophon>
+                     <colophon n="final"><locus from="292vb"/>Et hec de questione, et per consequens
+                        de tertio libro Metheororum dicta sufficiunt. Die proxima post vestum [sic]
+                        crucis in Czwickavia 1467</colophon>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate from="1467" to="1468">1467-1468, as is evident from the colophons:
+                        QdSen, f. 241r; QdMem, f. 244va; QdSom, f. 249vb; QdLon, f. 251rb; QsMete,
+                        ff. 288rb and 292vb; QdA, f. 103va.</origDate>
+                     <origPlace>Zwickau</origPlace>
+                     <origPlace>Großenhain bei Dresden</origPlace>
+                     <p>Versoris’s commentaries were copied in Zwickau and Großenhain bei Dresden by
+                           <persName ref="#LeonhardusDeNuremberga">Leonhardus de
+                           Nuremberga</persName>. Annotations at f. 377r attest to events in
+                        Leonhardus’s academic cursus: <q n="377r">Item transivit ad studium alme
+                           universitatis Erffordensis dominica ante Michaelis 1469; item expositus
+                           eodem anno fuit immatriculatus quarta feria ante Galli; item promotus in
+                           baccalarium artium feria quarta post Annunciationem Marie, 1471</q>. The
+                        codex later arrived in Echternach through <persName
+                           ref="#LudolfVonEnscheringen">Ludolf von Enscheringen</persName>, master
+                        of Arts in Erfurt in 1466.</p>
+                  </origin>
+                  <provenance>
+                     <p> A possession mark on the inner front cover, dated around 1506–1508, shows
+                        that at this time the manuscript belonged to the Convent of Echternach
+                        (Luxembourg): <q n="inner-front-cover">Codex monasterii sancti Willibrordi
+                           Epternacensis</q>.</p>
+                  </provenance>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Kristeller, Iter IV, p. 322–323.</bibl>
+                     <bibl>T. Falmagne, L. Deitz, Die Echternacher Handschriften bis zum Jahr 1628
+                        in den Beständen der Bibliothèque nationale de Luxembourg sowie der Archives
+                        diocésaines de Luxembourg, der Archives nationales, der Section historique
+                        de l’Institut grand-ducal und des Grand Séminaire de Luxembourg, Teil 2:
+                        Beschreibungen und Register, 2009, Wiesbaden, p. 176–188.</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
             <msDesc xml:id="Madrid_BibliotecaNacionaldeEspaña_Ms9018">
                <msIdentifier>
                   <settlement>Madrid</settlement>
@@ -11903,6 +12019,85 @@
                   <listBibl>
                      <bibl>AL, 75, 163.</bibl>
                      <bibl>Kądzielski, Mrozowicz I, 227-230.</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+            <!-- Zwickau, Ratschulbibliothek, Ms. XXXIII I, 14 -->
+            <msDesc xml:id="Zwickau_Ratsschulbibliothek_MsXXXIIII14">
+               <msIdentifier>
+                  <settlement>Zwickau</settlement>
+                  <repository ref="#org_0096">Ratsschulbibliothek</repository>
+                  <idno>Ms. XXXIII I, 14</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     <ab type="explicit_attribution" cert="0">none</ab>
+                     <ab type="general_remarks">All these commentaries rely, to varying degrees, on
+                        the texts of Versoris, although none can be identified exactly with his
+                        works. Apart from the first three, the remaining commentaries share the same
+                        structure: an expositio of the text, the formulation of a single question,
+                        four argumenta, an argumentum in oppositum, and four further questions.
+                        Versoris’s commentaries constitute one of the principal sources, alongside
+                        those of Radulphus Brito and John Buridan.</ab>
+                  </summary>
+                  <msItem xml:id="Zwickau_Ratsschulbibliothek_MsXXXIIII14_QsPor">
+                     <locus from="3r" to="35v"/>
+                     <title ref="workID">QsPor</title>
+                  </msItem>
+                  <msItem xml:id="Zwickau_Ratsschulbibliothek_MsXXXIIII14_QsPre">
+                     <locus from="36r" to="66r"/>
+                     <title ref="workID">QsPre</title>
+                  </msItem>
+                  <msItem xml:id="Zwickau_Ratsschulbibliothek_MsXXXIIII14_QsSex">
+                     <locus from="66r" to="70v"/>
+                     <title ref="workID">QsSex</title>
+                  </msItem>
+                  <msItem xml:id="Zwickau_Ratsschulbibliothek_MsXXXIIII14_QdInt">
+                     <locus from="70r" to="92r"/>
+                     <title ref="workID">QdInt</title>
+                  </msItem>
+                  <msItem xml:id="Zwickau_Ratsschulbibliothek_MsXXXIIII14_QsPri">
+                     <locus from="93r" to="129r"/>
+                     <title ref="workID">QsPri</title>
+                  </msItem>
+                  <msItem xml:id="Zwickau_Ratsschulbibliothek_MsXXXIIII14_QsPos">
+                     <locus from="129v" to="169v"/>
+                     <title ref="workID">QsPos</title>
+                  </msItem>
+                  <msItem xml:id="Zwickau_Ratsschulbibliothek_MsXXXIIII14_QsTop">
+                     <locus from="170r" to="200r"/>
+                     <title ref="workID">QsTop I–IV</title>
+                  </msItem>
+                  <msItem xml:id="Zwickau_Ratsschulbibliothek_MsXXXIIII14_QsSE">
+                     <locus from="200v" to="223v"/>
+                     <title ref="workID">QsSE</title>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate from="1479" to="1480" cert="medium">Probably 1479–1480, corresponding
+                        to the period during which Georgius Kelner studied at Leipzig
+                        University.</origDate>
+                     <origPlace cert="medium">Leipzig</origPlace>
+                     <p>The manuscript was copied at Leipzig University, as evidenced by a note on
+                        f. 385v: <q n="385v">Magister Martinus de Gorlicz hodie, hora duodecima, has
+                           questiones extraordinarie disputabit … sub venerabili meo magistro,
+                           Martino de Gorlicz, hodie, hora duodecima, Valentinus Pegaw, Georgius
+                           Kelner de Czwickavia</q>. Since <persName
+                           ref="#GeorgiusKelnerDeCzwickavia">Georgius Kelner de
+                           Czwickavia</persName> studied at Leipzig University, it may be inferred
+                        that the codex originated in Leipzig. It likely reached Zwickau, Georgius
+                        Kelner’s hometown, as he returned there.</p>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>R. Schipke, Die mittelalterlichen Handschriften der Ratsschulbibliothek
+                        Zwickau: Bestandsverzeichnis aus dem Zentralinventar mittelalterlicher
+                        Handschriften, Berlin, 1990, p. 140–141.</bibl>
+                     <bibl>G. Fernandez Walker, “A 15th-Century Handbook on Aristotelian Logic: The
+                        Anonymous Logica Quadrupliciter”, Bulletin de philosophie médiévale 61
+                        (2019), p. 183–205.</bibl>
                   </listBibl>
                </additional>
             </msDesc>
