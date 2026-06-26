@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<title>Opera - Bibliotheca Manuscripta Versoriana</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Work-centred index for the Versoris collection — each work ascribed to Johannes Versoris with the manuscripts that transmit it">
+	<meta name="author" content="Aurora Panzica">
+	<!-- Dublin Core tags for better indexing, for example, Zotero connector -->
+	<meta name="DC.Title" content="Opera - Bibliotheca Manuscripta Versoriana" />
+	<meta name="DC.Description" content="Work-centred index of the Bibliotheca Manuscripta Versoriana — each work ascribed to Johannes Versoris listed with the manuscripts that witness it, derived from the TEI manuscript descriptions." />
+	<meta name="DC.Creator" content="Aurora Panzica" />
+	<meta name="DC.Date" content="2025-01-30" />
+	<meta name="DC.Rights" content="CC BY-NC 4.0 Attribution-NonCommercial 4.0 International" />
+	<meta name="DC.Format" content="text/html" />
+	<meta name="DC.Type" content="webpage" />
+	<meta name="DC.Publisher" content="RISE. University of Basel" />
+	<meta name="DC.Language" content="en" />
+	<!-- Dublin Core Terms (refined vocabulary) -->
+	<meta name="DCTERMS.identifier" content="https://versoriana.github.io/catalog/opera.html" />
+	<meta name="DCTERMS.created" content="2025-01-30" />
+	<meta name="DCTERMS.modified" content="2026-06-26" />
+	<meta name="DCTERMS.license" content="https://creativecommons.org/licenses/by-nc/4.0/" />
+	<meta name="DCTERMS.abstract" content="The opera section of the Bibliotheca Manuscripta Versoriana provides a work-centred index: each work ascribed to Johannes Versor is listed together with the manuscripts that transmit it, inverting the manuscript-first descriptions. The mapping is built in the browser from the TEI P5 manuscript descriptions, where every msItem title is keyed to a canonical work code. The catalog is part of the SNSF Ambizione project Transferts des savoirs et création d'autorité: La diffusion européenne des ouvrages de Jean Versoris (ca. 1440–1500), led by Dr. Aurora Panzica at the University of Basel (Grant 216086, 2024–2027)." />
+	<meta name="DCTERMS.language" content="en" />
+	<meta name="DCTERMS.subject" content="works; medieval philosophy; Johannes Versoris; digital catalog; TEI" />
+
+	<!-- Highwire Press / Google Scholar citation tags -->
+	<meta name="citation_title" content="Opera - Bibliotheca Manuscripta Versoriana" />
+	<meta name="citation_author" content="Panzica, Aurora" />
+	<meta name="citation_publication_date" content="2025/01/30" />
+	<meta name="citation_abstract" content="The opera section of the Bibliotheca Manuscripta Versoriana provides a work-centred index: each work ascribed to Johannes Versor is listed together with the manuscripts that transmit it, inverting the manuscript-first descriptions. The mapping is built in the browser from the TEI P5 manuscript descriptions, where every msItem title is keyed to a canonical work code. The catalog is part of the SNSF Ambizione project Transferts des savoirs et création d'autorité: La diffusion européenne des ouvrages de Jean Versoris (ca. 1440–1500), led by Dr. Aurora Panzica at the University of Basel (Grant 216086, 2024–2027)." />
+	<meta name="citation_language" content="en" />
+	<meta name="citation_keywords" content="works" />
+	<meta name="citation_keywords" content="medieval philosophy" />
+	<meta name="citation_keywords" content="Johannes Versoris" />
+	<meta name="citation_keywords" content="digital catalog" />
+	<meta name="citation_keywords" content="TEI" />
+	<!-- CETEIan scripts and css -->
+	<script type="text/javascript" src="js/CETEI.js"></script>
+	<!-- MiniSearch for full-text search -->
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/minisearch@7.1.0/dist/umd/index.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/CETEIcean.css" />
+	<!-- Own VErsoris CSS. It may overlap with CETEIcean.css -->
+	<link rel="stylesheet" type="text/css" href="css/versoris.css" />
+	<!-- Bootstrap core CSS -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+	<style>
+		.bd-placeholder-img {
+			font-size: 1.125rem;
+			text-anchor: middle;
+			-webkit-user-select: none;
+			-moz-user-select: none;
+			user-select: none;
+		}
+
+		@media (min-width: 768px) {
+			.bd-placeholder-img-lg {
+				font-size: 3.5rem;
+			}
+		}
+
+		/* Custom styles for this template */
+		/* Custom be added in any css */
+		body {
+			padding-top: 5rem;
+		}
+
+		/* Person link styling */
+		.person-link {
+			color: #0d6efd;
+			text-decoration: underline;
+			cursor: pointer;
+		}
+
+		.person-link:hover {
+			color: #0a58ca;
+		}
+
+		/* Search highlighting styles */
+		.search-highlight {
+			background-color: #fff3cd;
+			color: #856404;
+			padding: 2px 4px;
+			border-radius: 3px;
+			font-weight: 500;
+			box-shadow: 0 0 0 1px rgba(255, 193, 7, 0.3);
+		}
+
+		/* Animation for highlighted terms */
+		@keyframes highlight-pulse {
+			0% { background-color: #fff3cd; }
+			50% { background-color: #ffeaa7; }
+			100% { background-color: #fff3cd; }
+		}
+
+		.search-highlight:first-of-type {
+			animation: highlight-pulse 2s ease-in-out 3;
+		}
+
+	</style>
+
+</head>
+
+<body>
+
+	<!-- navigation -->
+
+	<nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+		<div class="container-fluid">
+			<a class="navbar-brand" href="index.html">Bibliotheca Manuscripta Versoriana</a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+				data-bs-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false"
+				aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarsExampleDefault">
+				<ul class="navbar-nav me-auto mb-2 mb-md-0">
+					<li class="nav-item">
+						<a class="nav-link" href="manuscripts.html">Manuscripts</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="persons.html">Persons</a>
+					</li>
+					<li class="nav-item active">
+						<a class="nav-link" aria-current="page" href="opera.html">Opera</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="index.html">About</a>
+					</li>
+				</ul>
+				<form class="d-flex" id="search-form">
+					<input class="form-control me-2" type="search" placeholder="Search mss and persons..." aria-label="Search" id="search-input">
+					<button class="btn btn-outline-light" type="submit">Search</button>
+				</form>
+			</div>
+		</div>
+	</nav>
+
+	<!-- Container -->
+
+	<main class="container">
+		<div class="py-5 px-3">
+			<h1>Opera</h1>
+			<p class="lead">Works ascribed to Johannes Versoris and the manuscripts that transmit them</p>
+
+			<input type="text" id="opera-filter" class="form-control mb-3" placeholder="Filter works…">
+
+			<div class="table-responsive">
+				<table class="table table-sm table-hover" id="opera-table">
+					<thead class="table-light">
+						<tr>
+							<th>Work</th>
+							<th>Code</th>
+							<th># mss</th>
+						</tr>
+					</thead>
+					<tbody id="opera-table-body"></tbody>
+				</table>
+			</div>
+
+			<section id="Versoris" style="display:none" aria-hidden="true"></section>
+
+		</div>
+	</main>
+
+	<!-- /.container -->
+
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+		crossorigin="anonymous"></script>
+
+	<!-- Search functionality -->
+	<script type="text/javascript" src="js/search.js"></script>
+
+	<!-- Script CETEI -->
+	<script>
+		// The opera page renders its own table from the raw TEI data, so no
+		// element behaviors are needed here — just an instance for getHTML5().
+		var CETEIcean = new CETEI();
+	</script>
+
+	<!-- Page-specific JS: builds the work -> manuscripts index -->
+	<script type="text/javascript" src="js/opera.js"></script>
+
+</body>
+
+</html>

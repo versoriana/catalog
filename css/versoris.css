@@ -1081,3 +1081,70 @@ tei-acquisition::before {
     --bs-table-bg-state: white;
     --bs-table-color-state: inherit;
 }
+
+/* === Opera (works) table === */
+
+#opera-filter {
+    max-width: 400px;
+}
+
+#opera-table {
+    font-size: 0.9em;
+}
+
+#opera-table thead th {
+    white-space: nowrap;
+    cursor: pointer;
+    user-select: none;
+}
+
+#opera-table thead th.sort-asc::after  { content: " ↑"; }
+#opera-table thead th.sort-desc::after { content: " ↓"; }
+
+#opera-table tbody tr {
+    cursor: pointer;
+}
+
+#opera-table tbody tr.ms-selected:hover > * {
+    --bs-table-bg-state: transparent;
+    --bs-table-color-state: inherit;
+}
+
+#opera-table tbody tr:focus {
+    outline: 2px solid #0d6efd;
+    outline-offset: -2px;
+}
+
+#opera-table tbody tr.ms-detail-row,
+#opera-table tbody tr.ms-detail-row:hover > td {
+    cursor: default;
+}
+
+#opera-table tbody tr.ms-detail-row:hover > * {
+    --bs-table-bg-state: white;
+    --bs-table-color-state: inherit;
+}
+
+/* Muted placeholder row for items not by Versoris, pinned to the bottom */
+#opera-table tbody tr.opera-nonversoris td {
+    color: #6c757d;
+    font-style: italic;
+}
+
+/* List of witnessing manuscripts inside an expanded work row */
+.opera-witnesses {
+    columns: 2;
+    column-gap: 30px;
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+.opera-witnesses li {
+    break-inside: avoid;
+    margin-bottom: 4px;
+}
+
+@media (max-width: 575.98px) {
+    .opera-witnesses { columns: 1; }
+}
