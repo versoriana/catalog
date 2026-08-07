@@ -11,7 +11,7 @@
             <title ref="ID">Versoris manuscript inventory</title>
             <editor>Aurora Panzica</editor>
             <respStmt>
-               <resp>TEI modelling and encoding</resp>               
+               <resp>TEI modelling and encoding</resp>
                <persName ref="ID">José Luis Losada</persName>
             </respStmt>
          </titleStmt>
@@ -1570,31 +1570,31 @@
                   (or from the Albini family, although the history of the manuscript, acquired by
                   scholars from Albi, makes it clear that the town is meant), and that he determined
                   under the master Iacobus Suaden together with two other students named Johannes
-                  Griselet and Johannes de Frigidomonte in 1458.<note type="editorial">Iacobus Suaden, licensed in
-                     theology in 1472. See Auctarium III, col. 206, l. 29-30 and Sullivan,
-                     Licentiates II, p. 509-510. I cannot identify Johannes Griselet and Johannes de
-                     Frigidomonte in the registers of the University of Paris.</note> However, the
-                  registers of the French Nation of the Paris Faculty of Arts do not mention any
-                  student named Iohannes Lupi from Albi. Instead, they mention a student named
-                  Iohannes Albi from the diocese of Lyon (diocesis Lugdunensis), who was licensed in
-                  the arts in 1453 (Auctarium V, col. 475; col. 526, l. 31; col. 529, l. 7), and a
-                  student named Iohannes Albini from the diocese of Angers (diocesis Andegavensis),
-                  who obtained the bachelor’s degree in 1456. While the date of inception of the
-                  first student is too early, the date of inception of the second fits perfectly with
-                  the cursus of the scribe of the Amiens manuscript, who determined two years later.
-                  Yet two problems impede the identification: namely, the different origins of the
-                  two students (Albi, in Occitania, for the scribe, and Angers for Iohannes Albini),
-                  and the fact that the registers of the French Nation do not mention the
-                  determination of Iohannes Albini. In this sense, the similarity between the names
-                  Iohannes Lupi, the scribe, and Iohannes Albini, together with the correspondence of
-                  dates, could simply be coincidental, and they may in fact be two distinct persons.
-                  If this is the case, the scribe of the Amiens manuscript still remains to be
-                  identified. According to the ownership mark that attests the acquisition of the
-                  volume by Egidius Katerine in 1460, the copyist of the manuscript had already died
-                  by that year: <q n="202rb">Iste liber pertinet domino Egidio Katerine, et emptus fuit anno LX°
-                  cuidam clerico de villa Albi, qui quidem liber scriptus fuit a quodam defuncto
-                  cognomine Lupi, anima eius et omnium defunctorum requiescat in pace, amen</q>, f.
-                  202rb.</note>
+                  Griselet and Johannes de Frigidomonte in 1458.<note type="editorial">Iacobus
+                     Suaden, licensed in theology in 1472. See Auctarium III, col. 206, l. 29-30 and
+                     Sullivan, Licentiates II, p. 509-510. I cannot identify Johannes Griselet and
+                     Johannes de Frigidomonte in the registers of the University of Paris.</note>
+                  However, the registers of the French Nation of the Paris Faculty of Arts do not
+                  mention any student named Iohannes Lupi from Albi. Instead, they mention a student
+                  named Iohannes Albi from the diocese of Lyon (diocesis Lugdunensis), who was
+                  licensed in the arts in 1453 (Auctarium V, col. 475; col. 526, l. 31; col. 529, l.
+                  7), and a student named Iohannes Albini from the diocese of Angers (diocesis
+                  Andegavensis), who obtained the bachelor’s degree in 1456. While the date of
+                  inception of the first student is too early, the date of inception of the second
+                  fits perfectly with the cursus of the scribe of the Amiens manuscript, who
+                  determined two years later. Yet two problems impede the identification: namely,
+                  the different origins of the two students (Albi, in Occitania, for the scribe, and
+                  Angers for Iohannes Albini), and the fact that the registers of the French Nation
+                  do not mention the determination of Iohannes Albini. In this sense, the similarity
+                  between the names Iohannes Lupi, the scribe, and Iohannes Albini, together with
+                  the correspondence of dates, could simply be coincidental, and they may in fact be
+                  two distinct persons. If this is the case, the scribe of the Amiens manuscript
+                  still remains to be identified. According to the ownership mark that attests the
+                  acquisition of the volume by Egidius Katerine in 1460, the copyist of the
+                  manuscript had already died by that year: <q n="202rb">Iste liber pertinet domino
+                     Egidio Katerine, et emptus fuit anno LX° cuidam clerico de villa Albi, qui
+                     quidem liber scriptus fuit a quodam defuncto cognomine Lupi, anima eius et
+                     omnium defunctorum requiescat in pace, amen</q>, f. 202rb.</note>
                <occupation role="scr" ref="#AmiensBibliothèqueLouisAragonBibliothèquemunicipale_405"/>
                <occupation role="fmo" ref="#AmiensBibliothèqueLouisAragonBibliothèquemunicipale_405"/>
                <listBibl>
@@ -1808,8 +1808,10 @@
                   and master’s degrees there in 1470 (according to the Erfurt registers; however,
                   1469 is given in a note in his own hand) and 1471, respectively. He served as
                   rector of the University of Trier in 1477 and died in 1504.</note>
-               <occupation role="scr" ref="#Luxembourg_BibliothèquenationaleduLuxembourgRéserveprécieuse_53"/>
-               <occupation role="fmo" ref="#Luxembourg_BibliothèquenationaleduLuxembourgRéserveprécieuse_53"/>
+               <occupation role="scr"
+                  ref="#Luxembourg_BibliothèquenationaleduLuxembourgRéserveprécieuse_53"/>
+               <occupation role="fmo"
+                  ref="#Luxembourg_BibliothèquenationaleduLuxembourgRéserveprécieuse_53"/>
                <listBibl>
                   <bibl>R. C. Schwinges, K. Wriedt, Das Bakkalarenregister der Artistenfakultät der
                      Universität Erfurt 1392–1521, Jena/Stuttgart, 1995, p. 159.</bibl>
@@ -1845,7 +1847,8 @@
                <death when="1504"/>
                <note>He obtained the degree of Master of Arts at Erfurt in 1466. In 1476, he served
                   as rector of the University of Trier.</note>
-               <occupation role="fmo" ref="#Luxembourg_BibliothèquenationaleduLuxembourgRéserveprécieuse_53"/>
+               <occupation role="fmo"
+                  ref="#Luxembourg_BibliothèquenationaleduLuxembourgRéserveprécieuse_53"/>
                <listBibl>
                   <bibl>S. Irrgang, Peregrinatio academica, pp. 227–228.</bibl>
                   <bibl>Falmagne, Deitz, Die Echternacher Handschriften, p. 178.</bibl>
@@ -2378,6 +2381,40 @@
                         the QsPol as Cybollus's work, based on the first version of Lohr's
                         inventory: C. Lohr, "Medieval Latin Aristotle Commentaries. Authors:
                         Robertus–Wilgelmus", Traditio 29 (1973), p. 93–197, at p. 100</note>.</bibl>
+               </listBibl>
+            </person>
+
+            <person xml:id="SimonBatzDeHomburg">
+               <persName>
+                  <forename type="preferred">Simon</forename>
+                  <surname type="preferred">Batz</surname>
+                  <nameLink type="preferred">de</nameLink>
+                  <surname type="preferred">Homburg</surname>
+               </persName>
+               <persName type="sort">Batz de Homburg, Simon</persName>
+               <idno type="GND">103100024</idno>
+               <idno type="VIAF">34860011</idno>
+               <birth when="1420" cert="medium"/>
+               <death when="1464"/>
+               <note>originally from the diocese of Metz, he matriculated at the University of
+                  Erfurt in 1438 and obtained the bachelor’s and master’s degrees there in 1440/1441
+                  and 1444, respectively. In the same year, he began studying law and, in 1457, was
+                  awarded the degree of doctor utriusque iuris. That same year, he also served as
+                  rector. In 1458, he left the university and became syndic of Lübeck, a position he
+                  held until the end of his life, travelling in this capacity throughout Italy,
+                  Germany, and Austria. He owned a rich library which, after his death, came into
+                  the possession of the Lübeck council, forming the nucleus of today’s
+                  Stadtbibliothek.</note>
+               <occupation role="fmo" ref="#Lubeck_BHL_MsPhilos23"/>
+               <listBibl>
+                  <bibl>R. Schweitzer, U. Simon, “Boeke, gude unde böse... Die Bibliothek des
+                     Lübecker Syndikus Simon Batz von Homburg: Rekonstruktionsversuch anhand seines
+                     Testaments und der Nachweise aus dem Bestand der ehemaligen Ratsbibliothek in
+                     der Stadtbibliothek Lübeck”, in R. Hammel-Kiesow, M. Hundt (eds.), Das
+                     Gedächtnis der Hansestadt Lübeck. Festschrift für Antjekathrin Graßmann zum 65.
+                     Geburtstag, Lübeck, 2005, p. 127-158.</bibl>
+                  <bibl>T. Haye, “Simon Batz von Homburg (ca. 1420-1464). Ein Frühhumanist in
+                     Lübeck?”, in Zeitschrift für Lübeckische Geschichte 93 (2013), p. 9-34.</bibl>
                </listBibl>
             </person>
 
