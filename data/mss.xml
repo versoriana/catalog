@@ -6855,6 +6855,99 @@
                     </additional>
                 </msDesc>
 
+                <!-- Mühlhausen, Stadtarchiv, 60/19 issue#178 -->
+                <msDesc xml:id="Muhlhausen_StA_6019">
+                    <msIdentifier>
+                        <settlement>Mühlhausen</settlement>
+                        <repository ref="#org_0053">Stadtarchiv</repository>
+                        <idno>60/19</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <ab type="explicit_attribution" subtype="spuria" cert="0">José Meirinhos tentatively
+                                ascribes both the questions on the Parva naturalia and the Questions
+                                on the Physics to Iohannes Versoris. However, the dating of the
+                                texts alone is sufficient to invalidate this attribution. Moreover,
+                                a comparison of the texts demonstrates that they differ from
+                                Versoris’s commentaries. The incipit of the Questions on the De
+                                sensu reads: <q n="NA">Circa initium Parvorum naturalium querendum
+                                    primo est utrum de passionibus et operationibus animatorum sit
+                                    scientia distincta a scientia De anima et a scientia de
+                                    animalibus et a scientia de plantis</q>. Likewise, the Questions
+                                on the Physics begin: <q n="108ra">Queritur primo utrum de rebus
+                                    naturalibus sit scientia. Et arguitur primo quod non: de
+                                    singularibus corruptibilibus contingentibus et non perpetuis et
+                                    possibilibus aliter se habere non est scientia</q>. </ab>
+                            <ab type="general_remarks">The codex contains several texts, chiefly on
+                                natural philosophy, including Iohannes Cronisbenus’s Compendium
+                                naturalis philosophie, Albertus de Orlamunde’s Philosophia pauperum,
+                                a set of questions on the Parva naturalia (ff. 48r–82r), a set of
+                                Questions on the Physics (ff. 107va–161r), and Peter of Spain’s
+                                Problemata (ff. 232r–246v). </ab>
+                        </summary>
+                        <msItem xml:id="Muhlhausen_StA_6019_QsPN">
+                            <locus from="48r" to="82r"/>
+                            <title ref="#QsPN">Questions on the Parva naturalia</title>
+                            <incipit>Circa initium Parvorum naturalium querendum primo est utrum de
+                                passionibus et operationibus animatorum sit scientia distincta a
+                                scientia De anima et a scientia de animalibus et a scientia de
+                                plantis</incipit>
+                            <colophon n="final">
+                                <locus from="82rb"/>Hec questiones edite sunt a reverendo magistro
+                                Nicolao de Monte Parysiensis, scripte in Mulhusen, sub anno Domini
+                                1430, sabbato die post festum sancti Iacobi apostuli maioris</colophon>
+                        </msItem>
+                        <msItem xml:id="Muhlhausen_StA_6019_QsP_Anon">
+                            <locus from="107va" to="161r"/>
+                            <author>Anonymus</author>
+                            <title ref="#QsP">Questions on the Physics</title>
+                            <incipit>Queritur primo utrum de rebus naturalibus sit scientia. Et
+                                arguitur primo quod non: de singularibus corruptibilibus
+                                contingentibus et non perpetuis et possibilibus aliter se habere non
+                                est scientia</incipit>
+                        </msItem>
+                        <msItem xml:id="Muhlhausen_StA_6019_Problemata">
+                            <locus from="232r" to="246v"/>
+                            <author>Peter of Spain</author>
+                            <title ref="#nonVersoris">Problemata</title>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate from="1396" to="1431"/>
+                            <p>Iohannes Cronisbenus’s Compendium naturalis philosophie was copied in
+                                1431 (f. 46v). The anonymous Questions on the De sensu were copied
+                                in 1396 (f. 58ra). The Questions on De longitudine et brevitate
+                                vite, part of the set of questions on the Parva naturalia, end with
+                                a colophon stating that the text was completed in 1430 (colophon of
+                                the Parva naturalia questions, f. 82rb). The Questions on the
+                                Physics were copied in the same year, as stated in their colophon:
+                                <q n="NA">Et sic est finis istius libri, feria secunda ante
+                                    Michaelis, anno Domini M°CCCC°XXX°</q>. </p>
+                            <origPlace cert="medium">Mühlhausen</origPlace>
+                            <p>The colophon of the Parva naturalia questions (f. 82rb) states that
+                                (at least this part of) the manuscript was copied in Mühlhausen.
+                            </p>
+                        </origin>
+                    </history>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source cert="high" resp="#">
+                                    <p>Ms directly examined</p>
+                                </source>
+                            </recordHist>
+                        </adminInfo>
+                        <listBibl>
+                            <bibl>F. Stephan, Neue Stofflieferungen für die deutsche Geschichte,
+                                Part II, Mühlhausen, 1847, p. 109–148, esp. p. 125–126.</bibl>
+                            <bibl>Kristeller, Iter Italicum, VI, p. 527b.</bibl>
+                            <bibl>José Meirinhos, Bibliotheca manuscripta Petri Hispani, p.
+                                246–247.</bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+
                 <msDesc xml:id="München_BSB_Clm6694">
                     <msIdentifier>
                         <settlement>München</settlement>
