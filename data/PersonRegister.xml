@@ -1234,6 +1234,22 @@
                   <bibl>Liber prom. 139.</bibl>
                </listBibl>
             </person>
+            <person xml:id="IacobusGuntesbergerDeMonacho">
+               <persName>
+                  <forename type="preferred">Iacobus</forename>
+                  <surname type="preferred">Guntesberger</surname>
+                  <nameLink type="preferred">de</nameLink>
+                  <surname type="preferred">Monacho</surname>
+               </persName>
+               <persName type="sort">Guntesberger de Monacho, Iacobus</persName>
+               <note>He matriculated at the University of Leipzig as a member of the Bavarian Nation
+                  in 1487 and obtained the bachelor’s degree in 1489.</note>
+               <occupation role="scr fmo" ref="#Munchen_BSB_Clm8401"/>
+               <listBibl>
+                  <bibl>Erler, Matrikel, I, p. 358, l. 54; II, p. 311, l. 25.</bibl>
+               </listBibl>
+            </person>
+
             <person xml:id="IacobusLouber">
                <persName>
                   <forename type="preferred">Iacobus</forename>

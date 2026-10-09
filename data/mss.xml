@@ -2911,6 +2911,382 @@
                     </additional>
                 </msDesc>
 
+                <!-- Frankfurt am Main, UB Johann Christian Senckenberg, Praed. 56 issue#179 -->
+                <msDesc xml:id="Frankfurt_UB_Praed56">
+                    <msIdentifier>
+                        <settlement>Frankfurt am Main</settlement>
+                        <repository ref="#org_0025">Universitätsbibliothek Johann Christian
+                            Senckenberg</repository>
+                        <idno>Praed. 56</idno>
+                        <idno type="URI">https://nbn-resolving.org/urn:nbn:de:hebis:30:2-17192</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <ab type="explicit_attribution" cert="0">none</ab>
+                            <ab type="general_remarks">The commentary is preceded by the text of the
+                                Summule (ff. 1r–51v) and followed by Book VII (ff. 207r–251v) from
+                                the Copulata tractatuum parvorum logicalium iuxta processum
+                                magistrorum regentium in domo magistri Lamberti de Monte (Köln:
+                                Theodoricus Molner, ca. 1486). </ab>
+                        </summary>
+                        <msItem xml:id="Frankfurt_UB_Praed56_CsPH">
+                            <locus from="53r" to="198v"/>
+                            <title ref="#CsPH">CsPH I–VI</title>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate from="1481" to="1481">1481, as stated in the colophon on f.
+                                251vb: <q n="251vb">Et tantum de tractatu consequentiarum, et ex
+                                    consequente de septem tractatulis Petri Hyspani. Deo gratias.
+                                    Anno Domini 1481</q>. </origDate>
+                            <origPlace cert="medium">Mainz</origPlace>
+                            <p>The manuscript was probably copied in Mainz, as suggested by the fact
+                                that it was bound there and by its close relationship to codex
+                                Praed. 63, which contains the coat of arms of Archbishop Erzbischof
+                                Dieter von Isenburg, the founding patron of the university. </p>
+                            <note type="msRelationship">
+                                <p><ref target="#Frankfurt_UB_Praed63" type="ms">Frankfurt am Main,
+                                        Universitätsbibliothek Johann Christian Senckenberg, Praed.
+                                        63</ref>, copied largely by the same scribe and sharing the
+                                    same format, decoration, and similar watermarks. Both
+                                    manuscripts were bound in the same Mainz workshop, belonged to
+                                    Petrus von Seligenstadt, and entered the Dominican convent in
+                                    Frankfurt in 1518. </p>
+                            </note>
+                        </origin>
+                        <provenance>
+                            <p>Like codex Praed. 63, the manuscript came into the possession of the
+                                Dominican convent in Frankfurt after having belonged to Petrus von
+                                Seligenstadt. In the upper margin of the first guard leaf appears
+                                the inscription: <q n="first-guard-leaf">Anno Domini M° 5° 18 in
+                                    octava dominici hunc librum recepit conventus noster a domino
+                                    venerabili Petro de Silgenstadt, conscriptum a se quandoque</q>.
+                                On f. 1r, another ownership inscription reads: <q n="1r">Conventus
+                                    Frankfordensis ordinis predicatorum</q>. </p>
+                        </provenance>
+                    </history>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source cert="high" resp="#">
+                                    <p>Ms directly examined</p>
+                                </source>
+                            </recordHist>
+                        </adminInfo>
+                        <listBibl>
+                            <bibl>Powitz, Die Handschriften des Dominikanerklosters und des
+                                Leonhardstifts in Frankfurt am Main, p. 133-135.</bibl>
+                            <bibl>Powitz, Datierte Handschriften in Bibliotheken der Bundesrepublik
+                                Deutschland, Band I: Stadt- und Universitätsbibliothek Frankfurt am
+                                Main, p. 67.</bibl>
+                            <bibl>Meirinhos, Bibliotheca Manuscripta Petri Hispani, p.
+                                121-122.</bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+
+                <!-- Frankfurt am Main, UB Johann Christian Senckenberg, Praed. 63 issue#179 -->
+                <msDesc xml:id="Frankfurt_UB_Praed63">
+                    <msIdentifier>
+                        <settlement>Frankfurt am Main</settlement>
+                        <repository ref="#org_0025">Universitätsbibliothek Johann Christian
+                            Senckenberg</repository>
+                        <idno>Praed. 63</idno>
+                        <idno type="URI">https://nbn-resolving.org/urn:nbn:de:hebis:30:2-17387</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <ab type="explicit_attribution" cert="0">none</ab>
+                        </summary>
+                        <msItem xml:id="Frankfurt_UB_Praed63_QsPor">
+                            <locus from="257r" to="277r"/>
+                            <title ref="#QsPor">QsPor</title>
+                        </msItem>
+                        <msItem xml:id="Frankfurt_UB_Praed63_QsPre">
+                            <locus from="278r" to="291v"/>
+                            <title ref="#QsPre">QsPre</title>
+                        </msItem>
+                        <msItem xml:id="Frankfurt_UB_Praed63_QsSex">
+                            <locus from="292r" to="296v"/>
+                            <title ref="#QsSex">QsSex</title>
+                        </msItem>
+                        <msItem xml:id="Frankfurt_UB_Praed63_QdInt">
+                            <locus from="297r" to="310v"/>
+                            <title ref="#Qdint">QdInt</title>
+                        </msItem>
+                        <msItem xml:id="Frankfurt_UB_Praed63_QsPri">
+                            <locus from="317r" to="333v"/>
+                            <title ref="#QsPri">QsPri</title>
+                        </msItem>
+                        <msItem xml:id="Frankfurt_UB_Praed63_QsPos">
+                            <locus from="335r" to="367r"/>
+                            <title ref="#QsPos">QsPos</title>
+                        </msItem>
+                        <msItem xml:id="Frankfurt_UB_Praed63_QsTop">
+                            <locus from="372r" to="414v"/>
+                            <title ref="#QsTop">QsTop I–IV</title>
+                        </msItem>
+                        <msItem xml:id="Frankfurt_UB_Praed63_QsSE">
+                            <locus from="416r" to="450r"/>
+                            <title ref="#QsSE">QsSE</title>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate from="1479" to="1479">1479, as indicated by the inscription on
+                                f. 133r: <q n="133r">Laus Deo omnipotenti. 1479</q>. </origDate>
+                            <origPlace cert="medium">Mainz</origPlace>
+                            <p>The manuscript was probably copied at the University of Mainz, as
+                                suggested by the presence of the coat of arms of Archbishop Dieter
+                                von Isenburg, founder of the University of Mainz. </p>
+                            <note type="msRelationship">
+                                <p><ref target="#Frankfurt_UB_Praed56" type="ms">Frankfurt am Main,
+                                        Universitätsbibliothek Johann Christian Senckenberg, Praed.
+                                        56</ref>, copied largely by the same scribe and sharing the
+                                    same format, decoration, and similar watermarks. Both
+                                    manuscripts were bound in the same Mainz workshop, belonged to
+                                    Petrus von Seligenstadt, and entered the Dominican convent in
+                                    Frankfurt in 1518. </p>
+                            </note>
+                        </origin>
+                        <provenance>
+                            <p>The manuscript was donated to the Dominican convent in Frankfurt by
+                                Petrus von Seligenstadt, as recorded on the first guard leaf: <q
+                                    n="first-guard-leaf">Orate pro domino Petro de Selgenstadt,
+                                    pastori et sacerdoti. Ex dono venerabilis domini Petri de
+                                    Selgenstadt, anno 1518 in octava dominici recepi ego, frater
+                                    Ambrosius Storchii, hunc librum cum duobus aliis, scilicet
+                                    questiones super Petro Hispano [alia manu et alium quendam
+                                    librum bonum et pulchrum, et michi fratri Georgio concessus ad
+                                    usum incertum]</q>. </p>
+                        </provenance>
+                    </history>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source cert="high" resp="#">
+                                    <p>Ms directly examined</p>
+                                </source>
+                            </recordHist>
+                        </adminInfo>
+                        <listBibl>
+                            <bibl>Powitz, Die Handschriften des Dominikanerklosters und des
+                                Leonhardstifts in Frankfurt am Main, p. 155-159.</bibl>
+                            <bibl>Lohr I, p. 342.</bibl>
+                            <bibl>not in Green-Pedersen.</bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+
+                <!-- Frankfurt am Main, UB Johann Christian Senckenberg, Praed. 98 issue#180 -->
+                <msDesc xml:id="Frankfurt_UB_Praed98">
+                    <msIdentifier>
+                        <settlement>Frankfurt am Main</settlement>
+                        <repository ref="#org_0025">Universitätsbibliothek Johann Christian
+                            Senckenberg</repository>
+                        <idno>Praed. 98</idno>
+                        <idno type="URI">https://nbn-resolving.org/urn:nbn:de:hebis:30:2-18067</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <ab type="explicit_attribution" cert="0">none</ab>
+                            <ab type="general_remarks">The text is preceded by an anonymous set of
+                                questions on De generatione et corruptione (ff. 86r–116r). </ab>
+                        </summary>
+                        <msItem xml:id="Frankfurt_UB_Praed98_Anon">
+                            <locus from="86r" to="116r"/>
+                            <author>Anonymus</author>
+                            <title ref="#nonVersoris">Questions on De generatione et
+                                corruptione</title>
+                            <incipit>Circa primum librum de generatione et corruptione queritur
+                                utrum de generationibus seu de generabilibus et corruptibilibus sit
+                                scientia naturalis</incipit>
+                        </msItem>
+                        <msItem xml:id="Frankfurt_UB_Praed98_QdA">
+                            <locus from="122r" to="183v"/>
+                            <title ref="#QdA">QdA</title>
+                            <colophon n="final">
+                                <locus from="183v"/>Et sic est finis anno Domini 1463, feria quinta
+                                post Margarete</colophon>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate from="1463" to="1463">The QdA were copied in 1463, as
+                                indicated by the colophon (f. 183v). </origDate>
+                            <origPlace>Leipzig</origPlace>
+                            <p>The texts contained in this manuscript were copied by different
+                                students at the University of Leipzig. </p>
+                        </origin>
+                    </history>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source cert="high" resp="#">
+                                    <p>Ms directly examined</p>
+                                </source>
+                            </recordHist>
+                        </adminInfo>
+                        <listBibl>
+                            <bibl>Powitz, Die Handschriften des Dominikanerklosters und des
+                                Leonhardstifts in Frankfurt am Main, p. 228-231.</bibl>
+                            <bibl>Powitz, Datierte Handschriften in Bibliotheken der Bundesrepublik
+                                Deutschland, Band I: Stadt- und Universitätsbibliothek Frankfurt am
+                                Main, p. 73-74.</bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+
+                <!-- Frankfurt am Main, UB Johann Christian Senckenberg, Praed. 111 issue#181 — SPURIA -->
+                <msDesc xml:id="Frankfurt_UB_Praed111">
+                    <msIdentifier>
+                        <settlement>Frankfurt am Main</settlement>
+                        <repository ref="#org_0025">Universitätsbibliothek Johann Christian
+                            Senckenberg</repository>
+                        <idno>Praed. 111</idno>
+                        <idno type="URI">https://nbn-resolving.org/urn:nbn:de:hebis:30:2-16616</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <ab type="explicit_attribution" subtype="spuria" cert="0">José Meirinhos
+                                tentatively attributes the CsPH to Iohannes Versoris or Iohannes
+                                Magistri. According to Gerhardt Powitz, the incipit and several
+                                parts of the text indeed correspond to Glossulae summularum Petri
+                                Hispani by Iohannes Magistri ([Heidelberg], F. Misch, after 1
+                                January 1490; Hain 10456). By contrast, the end of the text and
+                                other sections resemble the Copulata tractatuum Petri Hispani iuxta
+                                frequenter exercitium magistrorum Coloniensium gymnasii in bursa
+                                montis regentium (Cologne, H. Quentell, 1496; Hain 8706). Meirinhos
+                                may therefore have been misled by the wide dissemination of
+                                Versoris’s CsPH and possibly by a 17th-/18th-century handwritten
+                                note in the upper margin of the front flyleaf, in which Versoris is
+                                mentioned: <q n="first-guard-leaf">... Quodlibeto [...] Joannes
+                                    Versor In Metaphysicam 173</q>. </ab>
+                        </summary>
+                        <msItem xml:id="Frankfurt_UB_Praed111_GerardusDeMonte">
+                            <locus from="1r" to="46r"/>
+                            <author>Gerardus de Monte</author>
+                            <title ref="#nonVersoris">Commentary on De ente et essentia</title>
+                        </msItem>
+                        <msItem xml:id="Frankfurt_UB_Praed111_CsPH">
+                            <locus from="47r" to="84v"/>
+                            <title ref="#CsPH">CsPH</title>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate from="1495" to="1505">Around 1500</origDate>
+                            <origPlace cert="medium">Cologne</origPlace>
+                            <p>An origin in Cologne is possible, though not certain, as the
+                                manuscript contains texts that were widely disseminated there, such
+                                as Gerardus de Monte’s Commentary on De ente et essentia (ff.
+                                1r–46r). </p>
+                        </origin>
+                    </history>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source cert="high" resp="#">
+                                    <p>Ms directly examined</p>
+                                </source>
+                            </recordHist>
+                        </adminInfo>
+                        <listBibl>
+                            <bibl>Powitz, Die Handschriften des Dominikanerklosters und des
+                                Leonhardstifts in Frankfurt am Main, p. 251–252.</bibl>
+                            <bibl>José Meirinhos, Bibliotheca Manuscripta Petri Hispani, p.
+                                122.</bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+
+                <!-- Gdańsk, PAN, Biblioteka Gdańska, Ms. 2314 issue#182 -->
+                <msDesc xml:id="Gdansk_BGPAN_Ms2314">
+                    <msIdentifier>
+                        <settlement>Gdańsk</settlement>
+                        <repository ref="#org_0027">PAN, Biblioteka Gdańska</repository>
+                        <idno>Ms. 2314</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <ab type="explicit_attribution" cert="0">none</ab>
+                            <ab type="general_remarks">This commentary is transmitted in the context
+                                of medical texts and is preceded by an anonymous set of commentaries
+                                on the Parva naturalia: De sensu et sensato (ff. 226r–248r), De
+                                memoria (ff. 248v–252r), De somno (ff. 252r–265r), De inspiratione
+                                et respiratione (ff. 267r–269r), De iuventute (ff. 269r–270v), De
+                                motu cordis (ff. 270v–271v), and the Physiognomonica (ff.
+                                271v–279v). </ab>
+                        </summary>
+                        <msItem xml:id="Gdansk_BGPAN_Ms2314_Anon">
+                            <locus from="226r" to="279v"/>
+                            <author>Anonymus</author>
+                            <title ref="#nonVersoris">Commentaries on the Parva naturalia</title>
+                            <msItem xml:id="Gdansk_BGPAN_Ms2314_Anon_DeSensu">
+                                <locus from="226r" to="248r"/>
+                                <title ref="#nonVersoris">De sensu et sensato</title>
+                            </msItem>
+                            <msItem xml:id="Gdansk_BGPAN_Ms2314_Anon_DeMemoria">
+                                <locus from="248v" to="252r"/>
+                                <title ref="#nonVersoris">De memoria</title>
+                            </msItem>
+                            <msItem xml:id="Gdansk_BGPAN_Ms2314_Anon_DeSomno">
+                                <locus from="252r" to="265r"/>
+                                <title ref="#nonVersoris">De somno</title>
+                            </msItem>
+                            <msItem xml:id="Gdansk_BGPAN_Ms2314_Anon_DeInspiratione">
+                                <locus from="267r" to="269r"/>
+                                <title ref="#nonVersoris">De inspiratione et respiratione</title>
+                            </msItem>
+                            <msItem xml:id="Gdansk_BGPAN_Ms2314_Anon_DeIuventute">
+                                <locus from="269r" to="270v"/>
+                                <title ref="#nonVersoris">De iuventute</title>
+                            </msItem>
+                            <msItem xml:id="Gdansk_BGPAN_Ms2314_Anon_DeMotuCordis">
+                                <locus from="270v" to="271v"/>
+                                <title ref="#nonVersoris">De motu cordis</title>
+                            </msItem>
+                            <msItem xml:id="Gdansk_BGPAN_Ms2314_Anon_Physiognomonica">
+                                <locus from="271v" to="279v"/>
+                                <title ref="#nonVersoris">Physiognomonica</title>
+                            </msItem>
+                        </msItem>
+                        <msItem xml:id="Gdansk_BGPAN_Ms2314_QsMeter">
+                            <locus from="280r" to="301v"/>
+                            <title ref="#QsMete">QsMeter</title>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate from="1480" to="1484"/>
+                            <origPlace cert="medium">southern Germany</origPlace>
+                            <p>The manuscript does not contain any explicit information about its
+                                origin. However, the watermarks suggest that it was produced in
+                                southern Germany in the early 1480s. Two watermarks can be
+                                distinguished in particular: <watermark>an ox-head watermark similar
+                                    to Piccard XII, 744 (especially visible on ff. 33, 54, 65–66,
+                                    84, and 156), attested at Ansbach in 1482</watermark>; and
+                                    <watermark>an ox-head watermark similar to Piccard XI, 403
+                                    (especially visible on f. 302), attested at Stuttgart, Tübingen,
+                                    and Wemding in 1482</watermark>. </p>
+                        </origin>
+                    </history>
+                    <additional>
+                        <listBibl>
+                            <bibl>O. Günther, Katalog der Handschriften der Danziger
+                                Stadtbibliothek. Vol. 3: Juristische Handschriften. Theologische
+                                Handschriften. Philosophische Handschriften. Naturwissenschaftliche
+                                und mathematische Handschriften. Handschriften über Technologie,
+                                Kriegswesen, Landwirtschaft, Handels- und Staatswissenschaften.
+                                Medizinische Handschriften. Handschriften zur Philologie, Literatur-
+                                und Gelehrtengeschichte. Nachträge zu den in Teil 1 und 2
+                                beschriebenen Handschriftengruppen, Danzig, 1909, p.
+                                247–250.</bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+
                 <msDesc xml:id="Gießen_UniversitätsbibliothekGießen_Hs52">
                     <msIdentifier>
                         <settlement>Gießen</settlement>
@@ -7098,6 +7474,79 @@
                                 Bayerischen Staatsbibliothek München. Clm 6473-6787 und
                                 Streubestände gleicher Provenienz sowie Handschriften aus weiteren
                                 Freisinger Klöstern und Stiften, Wiesbaden 2021, 350–354. </bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+
+                <!-- München, Bayerische Staatsbibliothek, Clm 8401 issue#183 -->
+                <msDesc xml:id="Munchen_BSB_Clm8401">
+                    <msIdentifier>
+                        <settlement>München</settlement>
+                        <repository ref="#org_0054">Bayerische Staatsbibliothek</repository>
+                        <idno>Clm 8401</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <ab type="explicit_attribution" cert="1">The colophon to Book V (f.
+                                328vb) attributes the text to Iohannes Versoris. </ab>
+                        </summary>
+                        <msItem xml:id="Munchen_BSB_Clm8401_CsPH">
+                            <locus from="225r" to="342r"/>
+                            <title ref="#CsPH">CsPH, Books I–VI</title>
+                            <colophon n="book II">
+                                <locus from="270vb"/>In die sancte Katherine, anno 1476</colophon>
+                            <colophon n="book IV">
+                                <locus from="310rb"/>Finit quartus tractatus Summularum Petri
+                                Hyspani, anno Domini 1476, feria tertia ante festum sancti
+                                Laurenty</colophon>
+                            <colophon n="book V">
+                                <locus from="328vb"/>Finit quintus tractatus magistri Versoris,
+                                feria secunda post diem sancte Crucis ante festum Michaelis, anno
+                                Domini 1476 in universitate Ingolstatis</colophon>
+                            <colophon n="final">
+                                <locus from="342rb"/>Et sic ante festum Palmarum, sabatino die,
+                                finit tractatus iste, anno 1477</colophon>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <handDesc>
+                            <handNote scope="major" scribeRef="#IacobusGuntesbergerDeMonacho"/>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origDate from="1476" to="1477">The CsPH was copied between 1476 and
+                                1477, as indicated by the colophons: colophon of Book II, f. 270vb;
+                                colophon of Book IV, f. 310rb; colophon of Book V, f. 328vb; final
+                                colophon of Book VI, f. 342rb. </origDate>
+                            <origPlace>Ingolstadt</origPlace>
+                            <origPlace>Leipzig</origPlace>
+                            <p>The codex was copied by the friar <persName
+                                    ref="#IacobusGuntesbergerDeMonacho">Iacobus
+                                    Guntesberger</persName> between Ingolstadt and Leipzig. On the
+                                verso of the first flyleaf, a note concerning the manuscript’s
+                                origin has been almost entirely obscured by black ink. It may
+                                tentatively be reconstructed as follows: <q n="first-guard-leaf">Hic
+                                    liber fuit conscriptus a <persName
+                                        ref="#IacobusGuntesbergerDeMonacho">Iacobo Guntesberger de
+                                        Monaco</persName> in studio Lipzici Universitatis manu
+                                    propria colligendo comparavit. Anno salutis 1489</q>. Below
+                                this, one reads: <q n="first-guard-leaf">Frater <persName
+                                        ref="#IacobusGuntesbergerDeMonacho">Iacobus
+                                        Guntesberger</persName>. Liber conventus Monacensis fratrum
+                                    heremitarum sancti Augustini</q>. </p>
+                        </origin>
+                        <provenance>
+                            <p>It subsequently belonged to the library of the Augustinian Hermits’s
+                                convent in Munich. </p>
+                        </provenance>
+                    </history>
+                    <additional>
+                        <listBibl>
+                            <bibl>K. Halm, Catalogus codicum Latinorum Bibliothecae Regiae
+                                Monacensis, vol. IV, part 1, Codices num. 8101–10930 complectens,
+                                Monachii, 1874, p. 24.</bibl>
+                            <bibl>Meirinhos, Bibliotheca manuscripta Petri Hispani, p. 266.</bibl>
                         </listBibl>
                     </additional>
                 </msDesc>
