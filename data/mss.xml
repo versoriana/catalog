@@ -627,7 +627,6 @@
                         </summary>
                         <msItem xml:id="Augsburg_StaatsundStadtbibliothekAugsburg_Cod419_CsD">
                             <locus from="165r" to="220v"/>
-                            <author>Johannes Versoris</author>
                             <title ref="#CsDon">CsDon</title>
                         </msItem>
                         <msItem xml:id="Augsburg_StaatsundStadtbibliothekAugsburg_Cod419_Marvilla">
@@ -4423,7 +4422,6 @@
                         </msItem>
                         <msItem xml:id="Greifswald_GeistlichesMinisterium_26DI_QsMeta">
                             <locus from="263r" to="292v"/>
-                            <author>Johannes Versoris</author>
                             <title ref="#QsMeta">QsMeta VII–X and XII</title>
                             <note type="attribution">QsMeta VII–X and XII (ff. 263r–292v) correspond
                                 to the text ascribed to Versoris in part of the manuscript tradition
@@ -5331,7 +5329,6 @@
                             <!-- Incunabulum 1: Versoris on Ars nova and De ente et essentia -->
                             <msItem xml:id="Kraków_BJ_908_Inc1">
                                 <locus from="1r" to="128r"/>
-                                <author>Johannes Versoris</author>
                                 <title ref="#ArsNova">Questions on the Ars nova; De ente et
                                     essentia</title>
                                 <note>Printed in Cologne by Heinrich Quentell before 1489</note>
@@ -5342,7 +5339,6 @@
                                     <locus from="129r" to="204r" scheme="#bound"/>
                                     <locus from="1r" to="76r" scheme="#unbound"/>
                                 </locusGrp>
-                                <author>Johannes Versoris</author>
                                 <title ref="#ArsVetus">Questions on the Ars vetus (Isagoge,
                                     Predicamenta, De interpretatione, De sex principiis) </title>
                                 <note>Printed in Cologne around 1487</note>
@@ -5761,7 +5757,6 @@
                         </summary>
                         <msItem xml:id="Kraków_BibliotekaJagiellońska_cod2008_Qdente">
                             <locus from="2v" to="24r"/>
-                            <author>Johannes Versoris</author>
                             <title ref="#Qdente">Qdente</title>
                             <note type="content">Versoris’s questions are followed by some anonymous
                                 QdC (ff. 25r–40v); QdG (ff. 40v–53r); QsE (ff. 53r–107r); Puncta on
@@ -7111,7 +7106,6 @@
                         </summary>
                         <msItem xml:id="Leipzig_UB_Ms1419_QsP">
                             <locus from="1r" to="108v"/>
-                            <author>Johannes Versoris</author>
                             <title ref="#QsP">QsP</title>
                             <colophon><locus from="47rb"/>in die conversionis sancti Pauli, anno
                                 LXII° </colophon>
@@ -7134,17 +7128,14 @@
                         </msItem>
                         <msItem xml:id="Leipzig_UB_Ms1419_QdSens">
                             <locus from="193ra" to="204rb"/>
-                            <author>Johannes Versoris</author>
                             <title ref="#QdSen">QdSens</title>
                         </msItem>
                         <msItem xml:id="Leipzig_UB_Ms1419_QdMem">
                             <locus from="204rb" to="206vb"/>
-                            <author>Johannes Versoris</author>
                             <title ref="#QdMem">QdMem</title>
                         </msItem>
                         <msItem xml:id="Leipzig_UB_Ms1419_QdSom">
                             <locus from="206vb" to="210vb"/>
-                            <author>Johannes Versoris</author>
                             <title ref="#QdSom">QdSom</title>
                         </msItem>
                         <msItem xml:id="Leipzig_UB_Ms1419_QdC">
@@ -7155,7 +7146,6 @@
                         </msItem>
                         <msItem xml:id="Leipzig_UB_Ms1419_QsMete">
                             <locus from="251ra" to="280va"/>
-                            <author>Johannes Versoris</author>
                             <title ref="#QsMete">QsMete</title>
                         </msItem>
                         <msItem xml:id="Leipzig_UB_Ms1419_QsMeta">
@@ -8175,18 +8165,18 @@
                             <title ref="#QsPor">QsPor</title>
                         </msItem>
                         <msItem xml:id="Michaelbeuern_Benediktinerstift_mancart57_QsPre">
-                            <locus from="26r" to="‌53r"/>
+                            <locus from="26r" to="53r"/>
                             <title ref="#QsPre">QsPre</title>
                         </msItem>
                         <msItem xml:id="Michaelbeuern_Benediktinerstift_mancart57_QsSex">
-                            <locus from="53v" to="‌61r"/>
+                            <locus from="53v" to="61r"/>
                             <title ref="#QsSex">QsSex</title>
                             <colophon><locus from="61rb"/>Materia sex principiorum Gilberti
                                 Porretani explicit feliciter, anno Domini M CCCC LXVII, feria sexta
                                 ante Occuli, per me, Laurentium Sartoris de Sweydnitcz </colophon>
                         </msItem>
                         <msItem xml:id="Michaelbeuern_Benediktinerstift_mancart57_QdInt">
-                            <locus from="62r" to="‌83r"/>
+                            <locus from="62r" to="83r"/>
                             <title ref="#Qdint">QdInt</title>
                             <colophon><locus from="83rb"/>Questiones collecte super Peryarmenias
                                 Aristotelis, per reverendum magistrum Iohannem Versoris Parisiensis.
@@ -8195,11 +8185,11 @@
                                 Lipcziensis, feria quarta ante Reminiscere </colophon>
                         </msItem>
                         <msItem xml:id="Michaelbeuern_Benediktinerstift_mancart57_QsPri">
-                            <locus from="85r" to="‌108r"/>
+                            <locus from="85r" to="108r"/>
                             <title ref="#QsPri">QsPri</title>
                         </msItem>
                         <msItem xml:id="Michaelbeuern_Benediktinerstift_mancart57_QsPos">
-                            <locus from="108r" to="‌147r"/>
+                            <locus from="108r" to="147r"/>
                             <title ref="#QsPos">QsPos</title>
                         </msItem>
                         <msItem xml:id="Michaelbeuern_Benediktinerstift_mancart57_QsTop">
@@ -8207,7 +8197,7 @@
                             <title ref="#QsTop">QsTop I–IV</title>
                         </msItem>
                         <msItem xml:id="Michaelbeuern_Benediktinerstift_mancart57_QsSE">
-                            <locus from="186r" to="‌209r"/>
+                            <locus from="186r" to="209r"/>
                             <title ref="#QsSE">QsSE</title>
                             <colophon><locus from="209rb"/>Et hec de ista materia, collecta per
                                 magistrum Hiohannem [sic] Versoris Parisiensem, conscripta et finita
@@ -14287,7 +14277,6 @@
                         <msItem xml:id="Warszawa_BibliotekaNarodowa_BOZ81_QsMeta">
                             <locus from="1r" to="326v"/>
                             <title ref="#QsMeta">QsMeta I–XII</title>
-                            <author>Johannes Versoris</author>
                         </msItem>
                     </msContents>
                     <history>
@@ -15313,12 +15302,10 @@
                         <msItem xml:id="Wrocław_BibliotekaUniwersyteckaweWrocławiu_MilII70_QsE">
                             <locus from="1r" to="193r"/>
                             <title ref="#QsE">QsE I-X</title>
-                            <author>Johannes Versoris</author>
                         </msItem>
                         <msItem xml:id="Wrocław_BibliotekaUniwersyteckaweWrocławiu_MilII70_QsPol">
                             <locus from="216" to="341v"/>
                             <title ref="#QsPol">QsPol</title>
-                            <author>Johannes Versoris</author>
                             <colophon><locus from="341v"/>Et tantum de isto octavo, et per
                                 consequens de toto libro Politicorum Aristotelis, 1468 </colophon>
                         </msItem>
