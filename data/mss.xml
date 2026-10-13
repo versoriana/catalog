@@ -50,37 +50,58 @@
                 <taxonomy xml:id="versoris_opera">
                     <desc>Codes for the works ascribed to Iohannes Versoris, used as the @ref value
                         on msItem titles. The title text keeps the source spelling; @ref points here
-                        to the canonical work. </desc>
-                    <category xml:id="QsTop">
+                        to the canonical work. Three codes — QsPN, ArsVetus, ArsNova — are
+                        umbrellas: they name a curriculum grouping rather than a single work, and
+                        are used only where a source described the group as an undivided block
+                        instead of itemising it. The works belonging to a group carry
+                        @corresp="#umbrella", so counts can be rolled up. </desc>
+                    <!-- Umbrella codes and their members (see data_generated/opera_codes.csv):
+                         QsPN      Parva naturalia — the short Aristotelian treatises on
+                                   perception, memory, sleep and the length of life, taught as one
+                                   block in the arts curriculum: QdSen, QdMem, QdSom, QdLon.
+                         ArsVetus  Ars vetus — the "old logic", the part of the logical corpus
+                                   known before the twelfth century: QsPor (Isagoge), QsPre
+                                   (Categories), Qdint (De interpretatione), QdDiv (De divisione),
+                                   QsSex (Liber sex principiorum).
+                         ArsNova   Ars nova — the "new logic", the Aristotelian logic recovered in
+                                   the twelfth century: QsPri and QsPos (Prior and Posterior
+                                   Analytics), QsTop (Topics), QsSE (Sophistici Elenchi).
+                         A manuscript is normally itemised work by work, so the umbrella codes are
+                         rare: one witness each. Do not read their witness count as the
+                         transmission of the group — roll up the members instead. -->
+                    <category xml:id="QsTop" corresp="#ArsNova">
                         <catDesc>Questiones super Topica</catDesc>
                     </category>
-                    <category xml:id="QsSex">
+                    <category xml:id="QsSex" corresp="#ArsVetus">
                         <catDesc>Questiones super Sex Principiorum</catDesc>
                     </category>
-                    <category xml:id="QsSE">
+                    <category xml:id="QsSE" corresp="#ArsNova">
                         <catDesc>Questiones super Sophistici Elenchi</catDesc>
                     </category>
-                    <category xml:id="QsPri">
+                    <category xml:id="QsPri" corresp="#ArsNova">
                         <catDesc>Questiones super Analytica priora</catDesc>
                     </category>
-                    <category xml:id="QsPre">
+                    <category xml:id="QsPre" corresp="#ArsVetus">
                         <catDesc>Questiones super Predicamenta</catDesc>
                     </category>
-                    <category xml:id="QsPos">
+                    <category xml:id="QsPos" corresp="#ArsNova">
                         <catDesc>Questiones super Analytica posteriora</catDesc>
                     </category>
-                    <category xml:id="QsPor">
+                    <category xml:id="QsPor" corresp="#ArsVetus">
                         <catDesc>Questiones super Porphyrium</catDesc>
                     </category>
                     <category xml:id="QsPol">
                         <catDesc>Questiones super Politica</catDesc>
                     </category>
+                    <!-- umbrella: Parva naturalia as an undivided block; members carry corresp="#QsPN" -->
                     <category xml:id="QsPN">
                         <catDesc>Parva naturalia</catDesc>
                     </category>
+                    <!-- umbrella: the Ars vetus as an undivided block; members carry corresp="#ArsVetus" -->
                     <category xml:id="ArsVetus">
                         <catDesc>Ars Vetus</catDesc>
                     </category>
+                    <!-- umbrella: the Ars nova as an undivided block; members carry corresp="#ArsNova" -->
                     <category xml:id="ArsNova">
                         <catDesc>Ars Nova</catDesc>
                     </category>
@@ -99,25 +120,25 @@
                     <category xml:id="Qdente">
                         <catDesc>Questiones super De ente et essentia</catDesc>
                     </category>
-                    <category xml:id="QdSom">
+                    <category xml:id="QdSom" corresp="#QsPN">
                         <catDesc>Questiones super De somno et vigilia</catDesc>
                     </category>
-                    <category xml:id="QdSen">
+                    <category xml:id="QdSen" corresp="#QsPN">
                         <catDesc>Questiones super De sensu et sensato</catDesc>
                     </category>
-                    <category xml:id="QdMem">
+                    <category xml:id="QdMem" corresp="#QsPN">
                         <catDesc>Questiones super De Memoria et Reminiscentia</catDesc>
                     </category>
-                    <category xml:id="QdLon">
+                    <category xml:id="QdLon" corresp="#QsPN">
                         <catDesc>Questiones super De longitudine et brevitate vite</catDesc>
                     </category>
-                    <category xml:id="Qdint">
+                    <category xml:id="Qdint" corresp="#ArsVetus">
                         <catDesc>Questiones super De interpretatione</catDesc>
                     </category>
                     <category xml:id="QdG">
                         <catDesc>Questiones super De generatione et corruptione</catDesc>
                     </category>
-                    <category xml:id="QdDiv">
+                    <category xml:id="QdDiv" corresp="#ArsVetus">
                         <catDesc>Questiones super De divisione</catDesc>
                     </category>
                     <category xml:id="QdC">
