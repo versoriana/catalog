@@ -314,6 +314,50 @@
                <occupation role="scr" ref="#Madrid_BibliotecaNacionaldeEspaña_Ms9018"/>
             </person>
 
+            <person xml:id="CasparWittolf">
+               <persName>
+                  <forename type="preferred">Caspar</forename>
+                  <forename type="variant">Kaspar</forename>
+                  <surname type="preferred">Wittolf</surname>
+                  <surname type="variant">Wittolff</surname>
+               </persName>
+               <persName type="sort">Wittolf, Caspar</persName>
+               <death notBefore="1503"/>
+               <affiliation type="religiousOrder" subtype="OP">Dominican</affiliation>
+               <note>He entered the Basel Dominican convent in 1452. He studied in Cologne from 1480
+                  to 1493 and served as lector in Mainz in 1482 and lector in Frankfurt am Main in
+                  1483. In 1486, he became prior of the Basel Dominican convent, and in 1490, 1502
+                  and 1503, he was lector there.</note>
+               <occupation role="scr fmo" ref="#Basel_UB_AX67"/>
+               <occupation role="fmo" ref="#Basel_UB_FIII12"/>
+               <listBibl>
+                  <bibl>F. Egger, Beiträge zur Geschichte des Predigerordens, Bern, 1991,
+                     240-241.</bibl>
+                  <bibl>B. Neidiger, “Selbstverständnis und Erfolgschancen der
+                     Dominikanerobservanten”, Rottenburger Jahrbuch für Kirchengeschichte 17 (1998),
+                     67-122, p. 114-116.</bibl>
+                  <bibl>Scarpatetti, Katalog I, 254.</bibl>
+               </listBibl>
+            </person>
+
+            <person xml:id="CasparusBrandstetterDeRatisbona">
+               <persName>
+                  <forename type="preferred">Casparus</forename>
+                  <surname type="preferred">Brandstetter</surname>
+                  <nameLink type="preferred">de</nameLink>
+                  <surname type="preferred">Ratisbona</surname>
+               </persName>
+               <persName type="sort">Brandstetter de Ratisbona, Casparus</persName>
+               <affiliation type="religiousOrder" subtype="OP">Dominican</affiliation>
+               <note>studied in Cologne in the years 1461-1462.</note>
+               <occupation role="scr fmo" ref="#Munchen_BSB_Clm26878"/>
+               <listBibl>
+                  <bibl>Keussen, Matrikel, 1389–1559, III, 1461/2 Ntr. 720.</bibl>
+                  <bibl>Sheffler, Schools and schooling in late medieval Germany, p. 64, 66,
+                     262.</bibl>
+               </listBibl>
+            </person>
+
             <person xml:id="CherubinusDeFabriano">
                <persName>
                   <forename type="preferred">Cherubinus</forename>
@@ -582,6 +626,22 @@
                   the QsP in Colmar, Bibliothèque des Dominicains, ms. 223.</note>
                <occupation role="scr" ref="#Colmar_BM_223"/>
             </person>
+            <person xml:id="EgidiusBononiensis">
+               <persName>
+                  <forename type="preferred">Egidius</forename>
+                  <surname type="preferred">Bononiensis</surname>
+               </persName>
+               <persName type="sort">Bononiensis, Egidius</persName>
+               <note>This friar, of whom nothing else is known, owned the copy of Versoris’s Qdente
+                  preserved in the manuscript Bergamo, Biblioteca Civica Angelo Mai, MA 92 (olim
+                  Delta 3, 1), before the even more mysterious Grosuptinus and a friar Vincentius
+                  Ariminensis. The order to which he belonged is unknown, but his ownership of a
+                  commentary on Aquinas’s De ente et essentia, together with the fact that
+                  Versoris’s works were particularly (though not exclusively) widespread within
+                  Dominican circles, makes the Dominican order a plausible candidate.</note>
+               <occupation role="fmo" ref="#Bergamo_BCAM_MA92"/>
+            </person>
+
             <person xml:id="EgidiusKaterine">
                <persName>
                   <forename type="preferred">Egidius</forename>
@@ -617,6 +677,33 @@
                   <bibl>Bischoff, Studien zur Geschichte des Klosters St. Emmeram im
                      Spätmittelalter, p. 134, 139-142.</bibl>
                   <bibl>Sheffeld, Schools and Schooling, 44, 317.</bibl>
+               </listBibl>
+            </person>
+
+            <person xml:id="EugeniusDeSalutiis">
+               <persName>
+                  <forename type="preferred">Eugenius</forename>
+                  <forename type="variant">Eugenio</forename>
+                  <nameLink type="preferred">de</nameLink>
+                  <surname type="preferred">Salutiis</surname>
+                  <nameLink type="variant">di</nameLink>
+                  <surname type="variant">Saluzzo</surname>
+               </persName>
+               <persName type="sort">Salutiis, Eugenius de</persName>
+               <affiliation type="religiousOrder" subtype="OP">Dominican</affiliation>
+               <note>A friar named Eugenius de Salutiis is documented as baccalaureus biblicus at
+                  the Dominican convent of Perugia in 1474. In 1481, the General Chapter held in
+                  Rome assigned him to lecture on Peter Lombard’s Sentences at the Dominican studium
+                  of Santa Maria Novella in Florence. He can very likely be identified with the
+                  scholar of the same name who, in 1472, copied (probably in Bologna) Dominicus de
+                  Flandria’s Expositio on De anima and Versoris’s Quaestiones on De ente.</note>
+               <occupation role="scr" ref="#Berlin_SBPK_latqu946"/>
+               <listBibl>
+                  <bibl>Acta Capitulorum generalium ordinis Praedicatorum, vol. III, p. 363.</bibl>
+                  <bibl>P. Rosso, “Fratres omnes bene vadant ad scolas ». Lo Studium conventuale di
+                     San Giovanni Battista di Saluzzo fra Tre e Quattrocento”, in R. Comba, San
+                     Giovanni di Saluzzo. Settecento anni di storia, Cuneo, 2009, p. 97-132, at p.
+                     113, 120-121.</bibl>
                </listBibl>
             </person>
 
@@ -1024,6 +1111,45 @@
                      l. 14; col. 638, l. 12, l. 29-36, l. 44; col. 717, l. 35</bibl>
                   <bibl>Rouse &amp; Rouse, Illiterati et uxorati, 34</bibl>
                </listBibl>
+            </person>
+
+            <person xml:id="GregoriusBredekopfDeKonitcz">
+               <persName>
+                  <forename type="preferred">Gregorius</forename>
+                  <surname type="preferred">Bredekopf</surname>
+                  <surname type="variant">Breydtkopff</surname>
+                  <surname type="variant">Predicoph</surname>
+                  <nameLink type="preferred">de</nameLink>
+                  <surname type="preferred">Konitcz</surname>
+               </persName>
+               <persName type="sort">Bredekopf de Konitcz, Gregorius</persName>
+               <note>Matriculated at Leipzig University in 1490 as a member of the Polish Nation. He
+                  obtained the degree of bachelor in 1493 and the degree of master in 1497. He
+                  served as vice-chancellor in 1503, 1506, 1511, 1521, and 1523. He was dean of the
+                  Faculty of Arts in 1505 and 1519. He also studied theology and was promoted to
+                  bachelor cursorius in 1505 and bachelor sententiarius in 1506.</note>
+               <occupation role="fmo" ref="#Leipzig_UB_Ms1364"/>
+               <listBibl>
+                  <bibl>Erle, Matrikel, I, p. 379; II, pp. 18, 340, 359.</bibl>
+               </listBibl>
+            </person>
+
+            <person xml:id="Grosuptinus">
+               <persName>
+                  <surname type="preferred">Grosuptinus</surname>
+               </persName>
+               <persName type="sort">Grosuptinus</persName>
+               <note>This mysterious scholar owned the copy of Versoris’s Qdente preserved in the
+                  manuscript Bergamo, Biblioteca Civica Angelo Mai, MA 92 (olim Delta 3, 1), after
+                  friar Egidius Bononiensis and before friar Vincentius Ariminensis. In the
+                  ownership note mentioning the three scholars, it is not stated whether Grosuptinus
+                  was also a friar, but the fact that the other two owners were friars makes this
+                  hypothesis very plausible. The order to which he may have belonged remains
+                  unknown; however, his ownership of a commentary on Aquinas’s De ente et essentia,
+                  together with the fact that Versoris’s works were particularly (though not
+                  exclusively) widespread within Dominican circles, makes the Dominican order a
+                  plausible candidate.</note>
+               <occupation role="fmo" ref="#Bergamo_BCAM_MA92"/>
             </person>
 
             <person xml:id="GundisalinusDeOviedo">
@@ -1618,6 +1744,20 @@
                </listBibl>
             </person>
 
+            <person xml:id="IohannesDeNamslavia">
+               <persName>
+                  <forename type="preferred">Iohannes</forename>
+                  <nameLink type="preferred">de</nameLink>
+                  <surname type="preferred">Namslavia</surname>
+               </persName>
+               <persName type="sort">Namslavia, Iohannes de</persName>
+               <note>From the colophon of manuscript Berlin, Staatsbibliothek, Preußischer
+                  Kulturbesitz, lat. qu. 439, we learn that a scholar named Iohannes de Namslavia
+                  copied Versoris’s text in Bautzen between 1457 and 1458. Namslavia is the
+                  Latinized form of Namysłów (German Namslau), a town in Upper Silesia.</note>
+               <occupation role="scr" ref="#Berlin_SBPK_latqu439"/>
+            </person>
+
             <person xml:id="IohannesQuarreti">
                <persName>
                   <forename type="preferred">Iohannes</forename>
@@ -1755,7 +1895,7 @@
                   where he took an active part in academic life. In 1443, he became rector of the
                   university. At the same time, he pursued studies in theology, obtaining his
                   licentiate in 1460.</note>
-               <occupation role="fmo" ref="#Leipzig_Universitätsbibliothek_Ms1445"/>
+               <occupation role="fmo" ref="#Leipzig_UB_Ms1445"/>
                <listBibl>
                   <bibl>A. Hofmesister, Die Matrikel der Universität Rostock, 1: Mich. 1419 - Mich.
                      1499, Rostock, 1889, I, p. 15, 30, 39, 62.</bibl>
@@ -1764,6 +1904,29 @@
                   <bibl>Kusche, Ego collegiatus, II, p. 669-671.</bibl>
                </listBibl>
             </person>
+            <person xml:id="IordanusDeTraiecto">
+               <persName>
+                  <forename type="preferred">Iordanus</forename>
+                  <forename type="variant">Jordanus</forename>
+                  <nameLink type="preferred">de</nameLink>
+                  <surname type="preferred">Traiecto</surname>
+               </persName>
+               <persName type="sort">Traiecto, Iordanus de</persName>
+               <death notBefore="1552" notAfter="1553" cert="medium"/>
+               <affiliation type="religiousOrder" subtype="OCR">Order of the Crucifers</affiliation>
+               <note>Matriculated in 1499 at the University of Cologne as a member of the Bursa
+                  Laurentiana; in 1500, he was promoted to bachelor. In 1505, he was ordained a
+                  priest. From 1511, he is attested as a scribe in the Canons Regular in Düsseldorf;
+                  from 1542/43, he is attested as subprior.</note>
+               <occupation role="scr" ref="#Dusseldorf_ULB_MsFVI"/>
+               <listBibl>
+                  <bibl>Keussen, Matrikel, II, nr. 441, 13.</bibl>
+                  <bibl>Müller, Janz-Wenig, Die mittelalterlichen Handschriften der
+                     Signaturengruppen E, F, G, N und P in der Universitäts- und Landesbibliothek
+                     Düsseldorf, p. 122-123.</bibl>
+               </listBibl>
+            </person>
+
             <person xml:id="IudicellusRouyant">
                <persName>
                   <forename type="preferred">Iudicellus</forename>
@@ -2400,6 +2563,55 @@
                </listBibl>
             </person>
 
+            <person xml:id="RupertusKasrerVonSalzburg">
+               <persName>
+                  <forename type="preferred">Rupertus</forename>
+                  <forename type="variant">Rudpertus</forename>
+                  <forename type="variant">Rudbertus</forename>
+                  <surname type="preferred">Kasrer</surname>
+                  <surname type="variant">Käsrer</surname>
+                  <nameLink type="preferred">von</nameLink>
+                  <surname type="preferred">Salzburg</surname>
+                  <nameLink type="variant">ex</nameLink>
+                  <surname type="variant">Salczburga</surname>
+               </persName>
+               <persName type="sort">Kasrer von Salzburg, Rupertus</persName>
+               <death when="1495"/>
+               <affiliation type="religiousOrder" subtype="OP">Dominican</affiliation>
+               <note>incepted as master of arts in 1479. He served as lector in the Dominican
+                  convent in Vienna. In 1488 obtained the permission to exit the convent. In 1492
+                  was at the Dominican convent in Leoben. Shortly after became prior of Retz, where
+                  he died in 1495.</note>
+               <occupation role="scr" ref="#Wien_DK_Cod88"/>
+               <listBibl>
+                  <bibl>AFA III, f. 281v.</bibl>
+                  <bibl>I. W. Frank, Hausstudium und Universitätsstudium der Wiener Dominikaner bis
+                     1500, Wien 1968, 267-269.</bibl>
+               </listBibl>
+            </person>
+
+            <person xml:id="SebastianZimmermannDeBranburg">
+               <persName>
+                  <forename type="preferred">Sebastian</forename>
+                  <surname type="preferred">Zimmermann</surname>
+                  <surname type="variant">Czymmerman</surname>
+                  <surname type="variant">Czymmermann</surname>
+                  <nameLink type="preferred">de</nameLink>
+                  <surname type="preferred">Branburg</surname>
+               </persName>
+               <persName type="sort">Zimmermann de Branburg, Sebastian</persName>
+               <note>Matriculated at Leipzig University in 1457 as a member of the Saxon Nation. He
+                  obtained the degree of bachelor in 1460 and the degree of master in 1476. He also
+                  studied theology and was promoted to bachelor cursorius in 1495 and bachelor
+                  sententiarius in 1501. In the same year, he served as rector.</note>
+               <occupation role="fmo" ref="#Leipzig_UB_Ms1364"/>
+               <listBibl>
+                  <bibl>Erle, Matrikel, I, p. 209; II, pp. 15, 16, 178, 251, 306, 310, 323, 332,
+                     342, 343, 348, 349, 354, 356, 357, 359, 363, 374, 381, 383, 386, 387, 389, 398,
+                     447, 536.</bibl>
+               </listBibl>
+            </person>
+
             <person xml:id="SimonBatzDeHomburg">
                <persName>
                   <forename type="preferred">Simon</forename>
@@ -2597,6 +2809,22 @@
                      Greifswald; Bd. 1. 1456-1645, Leipzig 1873, I, col. 10b, l. 33; p. 57, l. 14;
                      II, p. 244, l. 21-24.</bibl>
                </listBibl>
+            </person>
+
+            <person xml:id="VincentiusAriminensis">
+               <persName>
+                  <forename type="preferred">Vincentius</forename>
+                  <surname type="preferred">Ariminensis</surname>
+               </persName>
+               <persName type="sort">Ariminensis, Vincentius</persName>
+               <note>This friar, of whom nothing else is known, owned the copy of Versoris’s Qdente
+                  preserved in the manuscript Bergamo, Biblioteca Civica Angelo Mai, MA 92 (olim
+                  Delta 3, 1), after the even more mysterious Grosuptinus and a friar Egidius
+                  Bononiensis. The order to which he belonged is unknown, but his ownership of a
+                  commentary on Aquinas’s De ente et essentia, together with the fact that
+                  Versoris’s works were particularly (though not exclusively) widespread within
+                  Dominican circles, makes the Dominican order a plausible candidate.</note>
+               <occupation role="fmo" ref="#Bergamo_BCAM_MA92"/>
             </person>
 
             <person xml:id="WenceslausDeWrben">
