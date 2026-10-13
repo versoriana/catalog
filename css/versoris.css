@@ -1148,3 +1148,62 @@ tei-acquisition::before {
 @media (max-width: 575.98px) {
     .opera-witnesses { columns: 1; }
 }
+
+/* Witness groups: Versoris's own witnesses vs. related material carrying the same
+   opera code (anonymous copies, other authors, rejected ascriptions).
+   See docs/opera_versoris_filter.md */
+.opera-witness-heading {
+    margin: 0 0 6px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #495057;
+}
+
+.opera-witness-groups > .opera-witnesses + .opera-witness-heading,
+.opera-witness-groups p.opera-witness-heading ~ .opera-witnesses + .opera-witness-heading {
+    margin-top: 14px;
+}
+
+.opera-witness-note {
+    color: #6c757d;
+    font-style: italic;
+    font-size: 0.85em;
+}
+
+/* A work whose only surviving witnesses are rejected or not by Versoris (currently QsPN) */
+#opera-table tbody tr.opera-no-witness td:nth-child(3) {
+    color: #6c757d;
+}
+
+/* Umbrella works (Parva naturalia, Ars vetus, Ars nova): curriculum groupings whose count is
+   rolled up from the member works named by @corresp in the taxonomy. Members keep their own
+   rows, so the figures overlap by design. */
+#opera-table tbody tr.opera-umbrella td:first-child {
+    font-weight: 600;
+}
+
+/* Explanatory note above the opera table. Spans the full table width; the paragraphs are set
+   in columns so the measure stays readable on wide screens. */
+.opera-intro {
+    margin-bottom: 1.25rem;
+    font-size: 0.925rem;
+    color: #495057;
+    columns: 3;
+    column-gap: 36px;
+}
+
+.opera-intro p {
+    break-inside: avoid;
+}
+
+@media (max-width: 991.98px) {
+    .opera-intro { columns: 2; }
+}
+
+@media (max-width: 575.98px) {
+    .opera-intro { columns: 1; }
+}
+
+.opera-intro p:last-child {
+    margin-bottom: 0;
+}
