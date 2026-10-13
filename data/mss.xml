@@ -4956,7 +4956,7 @@
                     xml:id="Köln_HistorischesArchivderStadtKölnRheinischemBildarchiv_Best7002GBfol200">
                     <msIdentifier>
                         <settlement>Köln</settlement>
-                        <repository>Historisches Archiv der Stadt Köln – Rheinischem Bildarchiv </repository>
+                        <repository ref="#org_0038">Historisches Archiv der Stadt Köln – Rheinischem Bildarchiv </repository>
                         <idno>Best. 7002 (GB fol., 200)</idno>
                         <idno type="URI"
                             >https://historischesarchivkoeln.de/document/Vz_EB579621-C6D1-41DC-A230-BD521EEA6D2A
@@ -9085,7 +9085,7 @@
                     xml:id="München_LudwigMaximiliansUniversitätMünchenUniversitätsbibliothek_2Codms568">
                     <msIdentifier>
                         <settlement>München</settlement>
-                        <repository>Ludwig-Maximilians-Universität München, Universitätsbibliothek </repository>
+                        <repository ref="#org_0055">Ludwig-Maximilians-Universität München, Universitätsbibliothek </repository>
                         <idno>2 Cod. ms. 568</idno>
                     </msIdentifier>
                     <msContents>
@@ -9174,7 +9174,7 @@
                     xml:id="München_LudwigMaximiliansUniversitätMünchenUniversitätsbibliothek_2Codms557">
                     <msIdentifier>
                         <settlement>München</settlement>
-                        <repository>Ludwig-Maximilians-Universität München, Universitätsbibliothek </repository>
+                        <repository ref="#org_0055">Ludwig-Maximilians-Universität München, Universitätsbibliothek </repository>
                         <idno>2 Cod. ms. 557</idno>
                     </msIdentifier>
                     <msContents>
@@ -9290,7 +9290,7 @@
                     xml:id="München_LudwigMaximiliansUniversitätMünchenUniversitätsbibliothek_4649">
                     <msIdentifier>
                         <settlement>München</settlement>
-                        <repository>Ludwig-Maximilians-Universität München, Universitätsbibliothek </repository>
+                        <repository ref="#org_0055">Ludwig-Maximilians-Universität München, Universitätsbibliothek </repository>
                         <idno>4° 649</idno>
                         <idno type="DOI">https://doi.org/10.5282/ubm/digi.5910</idno>
                     </msIdentifier>
@@ -9932,8 +9932,8 @@
                 <msDesc xml:id="Pamplona_BCCP_Ms24">
                     <msIdentifier>
                         <settlement>Pamplona</settlement>
-                        <repository>Biblioteca Capitular de la Catedral de Pamplona</repository>
-                        <!-- TODO: not in OrgRegister — add to OpenRefine -->
+                        <repository ref="#org_0098">Biblioteca Capitular de la Catedral de
+                            Pamplona</repository>
                         <idno>Ms. 24</idno>
                     </msIdentifier>
                     <msContents>
@@ -10303,7 +10303,7 @@
                     xml:id="Pelplin_BibliotekaDiecezjalnaimBiskupaJanaBernardaSzlagiwPelplinie_23621">
                     <msIdentifier>
                         <settlement>Pelplin</settlement>
-                        <repository>Biblioteka Diecezjalna im. Biskupa Jana Bernarda Szlagi w
+                        <repository ref="#org_0063">Biblioteka Diecezjalna im. Biskupa Jana Bernarda Szlagi w
                             Pelplinie </repository>
                         <idno>236/21</idno>
                     </msIdentifier>
@@ -12578,10 +12578,9 @@
                         </msItem>
                         <msItem xml:id="Siena_Intronati_HVI7_FranciscusPratoLiberIntentionibus">
                             <locus from="59ra" to="65vb"/>
-                            <author ref="persID">Franciscus de Prato</author>
-                            <title ref="#nonVersoris">Incipit liber de intentionibus,<persName
-                                    ref="ID"><!-- fl. 1330-1345 -->fratris Francisci de
-                                    Pratris</persName>, ordinis predicatorum </title>
+                            <author>Franciscus de Prato</author>
+                            <title ref="#nonVersoris">Incipit liber de intentionibus,<!-- fl. 1330-1345 -->fratris Francisci de
+                                    Pratris, ordinis predicatorum </title>
 
                             <!-- other cases of authors in this place? -->
                             <incipit>Que est necessitas ponenda speciem, secundum Philosophum in
@@ -12747,7 +12746,7 @@
                 <msDesc xml:id="SaintOmer_BibliothèquedAgglomérationduPaysdeSaintOmer_586">
                     <msIdentifier>
                         <settlement>Saint Omer</settlement>
-                        <repository>Bibliothèque d'Agglomération du Pays de Saint-Omer (Bibliothèque
+                        <repository ref="#org_0071">Bibliothèque d'Agglomération du Pays de Saint-Omer (Bibliothèque
                             municipale) </repository>
                         <idno>586</idno>
                         <idno type="URI"
@@ -12975,7 +12974,7 @@
                     xml:id="SaintOmer_BibliothèquedAgglomérationduPaysdeSaintOmerBibliothèquemunicipale_597">
                     <msIdentifier>
                         <settlement>Saint Omer</settlement>
-                        <repository>Bibliothèque d'Agglomération du Pays de Saint-Omer (Bibliothèque
+                        <repository ref="#org_0071">Bibliothèque d'Agglomération du Pays de Saint-Omer (Bibliothèque
                             municipale) </repository>
                         <idno>597</idno>
                         <idno type="URI"
@@ -14143,7 +14142,7 @@
                         </msItem>
                         <msItem xml:id="Torino_BibliotecaNazionaleUnivesitaria_HII30_Archole">
                             <locus from="103r" to="128r"/>
-                            <author cert="medium">Iohannes de Archole</author>
+                            <author>Iohannes de Archole</author>
                             <title ref="#nonVersoris">De fluxu ventris</title>
                         </msItem>
                         <msItem xml:id="Torino_BibliotecaNazionaleUnivesitaria_HII30_Anon">
