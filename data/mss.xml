@@ -4177,7 +4177,7 @@
                                         >Greifswald, Geistliches Ministerium, 26 D I</ref>; <ref
                                         target="#Leipzig_Universitätsbibliothek_Ms1384" type="ms"
                                         >Leipzig, Universitätsbibliothek, Ms 1384</ref>; <ref
-                                        target="#Leipzig_Universitätsbibliothek_Ms1419" type="ms"
+                                        target="#Leipzig_UB_Ms1419" type="ms"
                                         >Leipzig, Universitätsbibliothek, Ms 1419</ref>; and <ref
                                         target="#Zeitz_Domherrenbibliothek_LIX24" type="ms">Zeitz,
                                         Domherrenbibliothek, LIX (24)</ref>, which contain the same
@@ -4477,7 +4477,7 @@
                                         >Gießen, Universitätsbibliothek, Hs. 618</ref>; <ref
                                         target="#Leipzig_Universitätsbibliothek_Ms1384" type="ms"
                                         >Leipzig, Universitätsbibliothek, Ms 1384</ref>; <ref
-                                        target="#Leipzig_Universitätsbibliothek_Ms1419" type="ms"
+                                        target="#Leipzig_UB_Ms1419" type="ms"
                                         >Leipzig, Universitätsbibliothek, Ms 1419</ref>; <ref
                                         target="#Zeitz_Domherrenbibliothek_LIX24" type="ms">Zeitz,
                                         Domherrenbibliothek, LIX (24)</ref>, which contain the same
@@ -7124,6 +7124,9 @@
                                 but are rather colonienses. However, the collation shows that QdC
                                 and QdG also do not correspond to the commentaries ascribed to
                                 Versoris. </ab>
+                            <ab type="general_remarks">This corpus was completed with the usual
+                                commentaries associated with it, namely: QdA (ff. 111r–169r), QdC
+                                (ff. 215r–248r), QdG (ff. 171r–192v). </ab>
                         </summary>
                         <msItem xml:id="Leipzig_UB_Ms1419_QsP">
                             <locus from="1r" to="108v"/>
@@ -7136,14 +7139,14 @@
                         </msItem>
                         <msItem xml:id="Leipzig_UB_Ms1419_QdA">
                             <locus from="111ra" to="169ra"/>
-                            <author>Not specified</author>
+                            <author>Anonymus</author>
                             <title ref="#QdA">QdA</title>
                             <colophon><locus from="168va"/>in vigilia sancti Martini anno LXII°,
                                 libri De anima explicunt in studio Lipczensi per M. de B </colophon>
                         </msItem>
                         <msItem xml:id="Leipzig_UB_Ms1419_QdG">
                             <locus from="171ra" to="192vb"/>
-                            <author>Not specified</author>
+                            <author>Anonymus</author>
                             <title ref="#QdG">QdG</title>
 
                         </msItem>
@@ -7161,7 +7164,7 @@
                         </msItem>
                         <msItem xml:id="Leipzig_UB_Ms1419_QdC">
                             <locus from="215ra" to="248rb"/>
-                            <author>Not specified</author>
+                            <author>Anonymus</author>
                             <title ref="#QdC">QdC</title>
 
                         </msItem>
@@ -7170,9 +7173,12 @@
                             <title ref="#QsMete">QsMete</title>
                         </msItem>
                         <msItem xml:id="Leipzig_UB_Ms1419_QsMeta">
-                            <locus/>
-                            <author>Not specified</author>
-                            <title ref="#QsMeta">QsMeta I, II, IV–X, XII</title>
+                            <locus from="307v" to="331v"/>
+                            <title ref="#QsMeta">QsMeta VII–X and XII</title>
+                            <note type="attribution">QsMeta VII–X and XII (ff. 307v–331v)
+                                correspond to the text ascribed to Versoris in part of the
+                                manuscript tradition as well as in the Cologne editions. Books
+                                I–II, IV–VI (ff. 283r–307v) differ from Versoris’s text. </note>
                         </msItem>
                     </msContents>
                     <history>
@@ -7188,6 +7194,15 @@
                                     Metaphysicorum Coloniensium</q>. The layout makes clear that the
                                 qualification “Coloniensium” applies only to the last two texts.
                             </p>
+                            <note type="msRelationship">
+                                <p><ref target="#Gießen_Universitätsbibliothek_Hs618" type="ms">Gießen,
+                                        Universitätsbibliothek, Hs. 618</ref>; <ref
+                                        target="#Greifswald_GeistlichesMinisterium_26DI" type="ms"
+                                        >Greifswald, Geistliches Ministerium, 26 D I</ref>; Leipzig,
+                                    Universitätsbibliothek, Ms 1384; and Zeitz,
+                                    Domherrenbibliothek, LIX (24), which contain the same Cologne
+                                    questions on Aristotle’s Metaphysics. </p>
+                            </note>
                         </origin>
                         <provenance>
                             <p>The codex was transferred to the holdings of the Leipzig University
