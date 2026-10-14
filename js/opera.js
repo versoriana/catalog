@@ -148,14 +148,12 @@ document.addEventListener("DOMContentLoaded", () => {
     const a = item.querySelector(":scope > tei-author")?.textContent?.trim();
     if (!a)                    return "versoris";
     if (a === "Anonymus")      return "anonymous";
-    if (a === "Not specified") return "undetermined"; // Leipzig Ms 1419; meaning unconfirmed
     return "other";
   }
 
   const CLASS_LABEL = {
     anonymous:    "anonymous",
     other:        "by another author",
-    undetermined: "author not determined",
     rejected:     "ascription rejected"
   };
 
