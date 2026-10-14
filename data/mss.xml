@@ -14471,6 +14471,52 @@
                     </additional>
                 </msDesc>
 
+                <!-- Weimar, Herzogin Anna Amalia Bibliothek (olim Zentralbibliothek der
+                     deutschen Klassik, Thüringische Landesbibliothek) Q 76 issue#207 -->
+                <msDesc xml:id="Weimar_HerzoginAnnaAmaliaBibliothek_Q76">
+                    <msIdentifier>
+                        <settlement>Weimar</settlement>
+                        <repository ref="#org_0090">Herzogin Anna Amalia
+                            Bibliothek</repository>
+                        <idno>Q 76</idno>
+                        <altIdentifier>
+                            <settlement>Weimar</settlement>
+                            <repository>Zentralbibliothek der deutschen Klassik, Thüringische
+                                Landesbibliothek</repository>
+                            <idno>Q 76</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <ab type="explicit_attribution" cert="0">none</ab>
+                        </summary>
+                        <msItem xml:id="Weimar_HerzoginAnnaAmaliaBibliothek_Q76_QdA">
+                            <locus from="114r" to="193v"/>
+                            <title ref="#QdA">QdA</title>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate from="1495" to="1495">1495, as indicated by a rubric on f.
+                                193v. </origDate>
+                            <origPlace cert="medium">Leipzig</origPlace>
+                            <p>Based on the content and the scribal-linguistic evidence, the
+                                catalogue description suggests a university origin in Leipzig or
+                                Erfurt. Since Erfurt adhered to the nominalist tradition, while
+                                Versoris’s commentaries were very widespread in Leipzig, an origin
+                                in Leipzig seems more plausible. </p>
+                        </origin>
+                    </history>
+                    <additional>
+                        <listBibl>
+                            <bibl>M. Eifler, Bibliographien und Kataloge der Herzogin Anna Amalia
+                                Bibliothek zu Weimar. Die lateinischen Handschriften bis 1600. 2:
+                                Quarthandschriften (Q), Wiesbaden 2012, pp. 434–440.</bibl>
+                            <bibl>not mentioned by Lohr.</bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+
                 <!-- Wien, Dominikanerkonvent, Cod. 8/8 issue#195 -->
                 <msDesc xml:id="Wien_DK_Cod88">
                     <msIdentifier>
