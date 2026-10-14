@@ -106,19 +106,20 @@ tei-msItem tei-msItem tei-msItem {
 .msitem-locus::before { content: "("; }
 .msitem-locus::after  { content: ")"; }
 
-/* Opera code on Versoris's own items, linking to the work on opera.html. Kept quiet: small,
-   grey, no underline until hovered. */
+/* Opera code on Versoris's own items, linking to the work on opera.html. Small, no underline
+   until hovered. A darker shade of the person-name orange: plain `orange` is too faint for
+   text on white. */
 .msitem-opus {
     margin-left: 8px;
     font-size: 0.8em;
-    color: #6c757d;
+    color: #c25e00;
     text-decoration: none;
 }
 
 .msitem-opus::after { content: " ↗"; }
 
 .msitem-opus:hover {
-    color: #0a58ca;
+    color: #8f4500;
     text-decoration: underline;
 }
 
@@ -1168,6 +1169,10 @@ tei-acquisition::before {
 /* Witness groups: Versoris's own witnesses vs. related material carrying the same
    opera code (anonymous copies, other authors, rejected ascriptions).
    See docs/opera_catalog.md */
+.opera-witness-groups {
+    padding: 4px 0 6px 24px;  /* indent so the open list does not read as the next table row */
+}
+
 .opera-witness-heading {
     margin: 0 0 6px;
     font-size: 0.9rem;
@@ -1186,7 +1191,7 @@ tei-acquisition::before {
     font-size: 0.85em;
 }
 
-/* A work whose only surviving witnesses are rejected or not by Versoris (currently QsPN) */
+/* A work whose only surviving witnesses are rejected or not by Versoris (none at present) */
 #opera-table tbody tr.opera-no-witness td:nth-child(3) {
     color: #6c757d;
 }
