@@ -14479,11 +14479,10 @@
                         <repository ref="#org_0090">Herzogin Anna Amalia
                             Bibliothek</repository>
                         <idno>Q 76</idno>
-                        <altIdentifier>
-                            <settlement>Weimar</settlement>
+                        <altIdentifier>                            
                             <repository>Zentralbibliothek der deutschen Klassik, Thüringische
                                 Landesbibliothek</repository>
-                            <idno>Q 76</idno>
+                            <idno/>
                         </altIdentifier>
                     </msIdentifier>
                     <msContents>
