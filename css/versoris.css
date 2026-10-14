@@ -106,6 +106,22 @@ tei-msItem tei-msItem tei-msItem {
 .msitem-locus::before { content: "("; }
 .msitem-locus::after  { content: ")"; }
 
+/* Opera code on Versoris's own items, linking to the work on opera.html. Kept quiet: small,
+   grey, no underline until hovered. */
+.msitem-opus {
+    margin-left: 8px;
+    font-size: 0.8em;
+    color: #6c757d;
+    text-decoration: none;
+}
+
+.msitem-opus::after { content: " ↗"; }
+
+.msitem-opus:hover {
+    color: #0a58ca;
+    text-decoration: underline;
+}
+
 .msitem-header tei-title {
     display: inline;
     font-weight: bold;
@@ -1151,7 +1167,7 @@ tei-acquisition::before {
 
 /* Witness groups: Versoris's own witnesses vs. related material carrying the same
    opera code (anonymous copies, other authors, rejected ascriptions).
-   See docs/opera_versoris_filter.md */
+   See docs/opera_catalog.md */
 .opera-witness-heading {
     margin: 0 0 6px;
     font-size: 0.9rem;

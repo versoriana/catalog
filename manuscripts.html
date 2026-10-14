@@ -180,6 +180,9 @@
 	<!-- Search functionality -->
 	<script type="text/javascript" src="js/search.js"></script>
 
+	<!-- Shared Versoris-witness classifier (also used by the opera page) -->
+	<script type="text/javascript" src="js/opera-witness.js"></script>
+
 	<!-- Script CETEI -->
 
 	<script>
@@ -424,6 +427,23 @@
 						locusSpan.className = "msitem-locus";
 						locusSpan.textContent = locusText;
 						header.appendChild(locusSpan);
+					}
+					// Versoris's own witness to an opus: link to that work on the opera page.
+					// Same rule as the opera counts, so anonymous, other-author and rejected
+					// items (and the #nonVersoris placeholder) get no link. Nested items are cloned
+					// before they are attached, so closest() finds no msDesc and they get no link
+					// either — fine, as the only keyed one (Nürnberg Cent V 47, "QsMeta Intro")
+					// repeats its parent's code.
+					const code   = operaCode(e);
+					const msDesc = e.closest("tei-msdesc");
+					if (code && code !== "nonVersoris" && msDesc && witnessClass(e, msDesc) === "versoris") {
+						const opus = document.createElement("a");
+						opus.className = "msitem-opus";
+						opus.href = `opera.html#${encodeURIComponent(code)}`;
+						const catDesc = document.querySelector(`tei-category[id="${code}"] > tei-catdesc`);
+						opus.title = `All witnesses of ${catDesc ? catDesc.textContent.trim() : code}`;
+						opus.textContent = code;
+						header.appendChild(opus);
 					}
 					container.appendChild(header);
 

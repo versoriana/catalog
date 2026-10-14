@@ -7,7 +7,7 @@
 // That is said by the ABSENCE of <author>. So each msItem is classified (see witnessClass)
 // and the "# mss" count reports Versoris's own witnesses; anonymous copies, copies by named
 // authors and rejected ascriptions are kept visible as "related" rather than counted or
-// dropped. See docs/opera_versoris_filter.md.
+// dropped. See docs/opera_catalog.md.
 document.addEventListener("DOMContentLoaded", () => {
   const pool        = document.getElementById("Versoris");
   const tableBody   = document.getElementById("opera-table-body");
@@ -128,29 +128,7 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   // --- Classifying a witness ------------------------------------------------
-  // Mirrors the encoding rule in MssVersoris/plan_new_ms.md:
-  //   opera code + no <author>  =  Versoris's
-  //   an <author> appears ONLY to say the item is NOT his
-  // `subtype="spuria"` on the msDesc's explicit_attribution overrides everything: the
-  // ascription to Versoris has been examined and rejected (e.g. Frankfurt Praed. 111, whose
-  // CsPH item carries no author yet is argued not to be his).
-  const spuriaCache = new Map();
-  function isSpuria(msDesc) {
-    if (!spuriaCache.has(msDesc)) {
-      spuriaCache.set(msDesc, !!msDesc.querySelector(
-        'tei-ab[type="explicit_attribution"][subtype="spuria"]'));
-    }
-    return spuriaCache.get(msDesc);
-  }
-
-  function witnessClass(item, msDesc) {
-    if (isSpuria(msDesc)) return "rejected";
-    const a = item.querySelector(":scope > tei-author")?.textContent?.trim();
-    if (!a)                    return "versoris";
-    if (a === "Anonymus")      return "anonymous";
-    return "other";
-  }
-
+  // operaCode / witnessClass live in js/opera-witness.js, shared with manuscripts.html.
   const CLASS_LABEL = {
     anonymous:    "anonymous",
     other:        "by another author",
@@ -309,10 +287,8 @@ document.addEventListener("DOMContentLoaded", () => {
     // a ms counts as a witness if ANY of its items for that code is Versoris's.
     const witnessesByCode = new Map(); // code -> Map<msDescId, {id,label,repository,classes,flags}>
     Array.from(pool.querySelectorAll("tei-msitem")).forEach(item => {
-      const title = item.querySelector(":scope > tei-title[ref]");
-      if (!title) return;
-      const code = title.getAttribute("ref").replace(/^#/, "");
-      if (!code || code === "questionID") return;
+      const code = operaCode(item);
+      if (!code) return;
       const msDesc = item.closest("tei-msdesc");
       if (!msDesc || !msDesc.id) return;
 
