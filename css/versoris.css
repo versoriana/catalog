@@ -1175,33 +1175,32 @@ tei-acquisition::before {
     color: #6c757d;
 }
 
-/* Umbrella works (Parva naturalia, Ars vetus, Ars nova): curriculum groupings whose count is
-   rolled up from the member works named by @corresp in the taxonomy. Members keep their own
-   rows, so the figures overlap by design. */
-#opera-table tbody tr.opera-umbrella td:first-child {
-    font-weight: 600;
-}
+/* Umbrella works (Parva naturalia, Ars vetus, Ars nova): groupings whose count is rolled up
+   from the member works named by @corresp in the taxonomy. Members keep their own rows, so the
+   figures overlap by design. They sit at the end of the table and are not emphasised. */
 
-/* Explanatory note above the opera table. Spans the full table width; the paragraphs are set
-   in columns so the measure stays readable on wide screens. */
+/* Explanatory note above the opera table. Grid rather than CSS columns: multicol balances a
+   continuous flow and will not align the paragraph tops, which is what is wanted here. */
 .opera-intro {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem 36px;
+    align-items: start;
     margin-bottom: 1.25rem;
     font-size: 0.925rem;
     color: #495057;
-    columns: 3;
-    column-gap: 36px;
 }
 
 .opera-intro p {
-    break-inside: avoid;
+    margin-bottom: 0;
 }
 
 @media (max-width: 991.98px) {
-    .opera-intro { columns: 2; }
+    .opera-intro { grid-template-columns: repeat(2, 1fr); }
 }
 
 @media (max-width: 575.98px) {
-    .opera-intro { columns: 1; }
+    .opera-intro { grid-template-columns: 1fr; }
 }
 
 .opera-intro p:last-child {
