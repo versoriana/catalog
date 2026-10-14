@@ -816,7 +816,6 @@ tei-msPart > tei-msIdentifier tei-idno {
     line-height: 1;
     color: #198754;
     background-color: #fff;
-    border: 1px solid #198754;
     border-radius: 50rem;
     cursor: default;
 }
