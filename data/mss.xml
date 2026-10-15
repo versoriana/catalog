@@ -3631,6 +3631,11 @@
                             <origDate from="1440" to="1456">The codex was copied in Leipzig before
                                 its acquisition by Georg Schwarz, that is, before 1456. </origDate>
                             <origPlace>Leipzig</origPlace>
+                            <note type="msRelationship">
+                                <p><ref target="#Eichstätt_Universitätsbibliothek_CodSt686" type="ms">Eichstätt,
+                                        Universitätsbibliothek, Cod. St. 686</ref>, which was also
+                                    acquired by Georg Schwarz during his studies in Leipzig. </p>
+                            </note>
                         </origin>
                         <provenance>
                             <p>The codex was purchased by <persName ref="#GeorgSchwarz">Georg
@@ -3658,6 +3663,75 @@
                             <bibl>K. H. Keller, Die mittelalterlichen Handschriften der
                                 Universitätsbibliothek Eichstätt: Bd. 2. Aus Cod. st 276-Cod. st
                                 470, Wiesbaden 2004, 20–23. </bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+
+                <!-- Eichstätt, Universitätsbibliothek, Cod. St. 686 issue#208 -->
+                <msDesc xml:id="Eichstätt_Universitätsbibliothek_CodSt686">
+                    <msIdentifier>
+                        <settlement>Eichstätt</settlement>
+                        <repository ref="#org_0020">Universitätsbibliothek</repository>
+                        <idno>Cod. St. 686</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <ab type="explicit_attribution" cert="1">The text is attributed to
+                                Versoris in a title inscription on the front cover, written by a
+                                fifteenth-century hand: <q n="front-cover">Commentarii magistri
+                                    Iohannis Versoris super logicam s&lt;ummatam&gt; fratris Petri
+                                    Hispani ordinis Predicatorum</q>. </ab>
+                            <ab type="general_remarks">The text is followed and completed by a commentary on the Syncategoreumata (ff. 165r–174v; </ab>
+                        </summary>
+                        <msItem xml:id="Eichstätt_Universitätsbibliothek_CodSt686_CsPH">
+                            <locus from="1r" to="164v"/>
+                            <title ref="#CsPH">CsPH</title>
+                        </msItem>
+                        <msItem xml:id="Eichstätt_Universitätsbibliothek_CodSt686_Syncategoreumata">
+                            <locus from="165r" to="174v"/>
+                            <title ref="#nonVersoris">Commentary on the
+                                Syncategoreumata</title>
+                            <incipit>Circa tractatum octavum, qui est de
+                                sinkategoreumatibus</incipit>
+                            <explicit>perfectionem completivam dantem esse rei separando et
+                                distinguendo ipsam rem, etc.</explicit>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate from="1450" to="1459">According to the catalogue description,
+                                the watermarks have been attested to the 1450s. </origDate>
+                            <origPlace cert="medium">Leipzig</origPlace>
+                            <p>No explicit information on the origin can be found in the manuscript.
+                                However, since it was owned and partially copied by the Dominican
+                                    <persName ref="#GeorgSchwarz">Georg Schwarz</persName> during
+                                his studies in Leipzig (1456–1458), and since its watermarks have
+                                been attested to the 1450s, a period during which Versoris’s corpus
+                                was disseminated there, an origin in Leipzig seems plausible. </p>
+                            <note type="msRelationship">
+                                <p><ref target="#Eichstätt_Universitätsbibliothek_CodSt476" type="ms"
+                                        >Eichstätt, Universitätsbibliothek, Cod. St. 476</ref>, which
+                                    was also acquired by Georg Schwarz during his studies in
+                                    Leipzig. </p>
+                            </note>
+                        </origin>
+                        <provenance>
+                            <p>From <persName ref="#GeorgSchwarz">Georg Schwarz</persName>, the
+                                codex passed into the possession of the Dominican convent of
+                                Eichstätt. On f. 1r, two ownership marks are found: <q n="1r">Iste
+                                    liber pertinet Georgio Swarcz</q>; <q n="1r">Iste liber est
+                                    conventus Eyestetensis provincie Theutunie</q>. </p>
+                        </provenance>
+                    </history>
+                    <additional>
+                        <listBibl>
+                            <bibl>Kristeller, Iter III, p. 524a.</bibl>
+                            <bibl>Hoenen, Speculum, p. 10, 73–84, 133–134.</bibl>
+                            <bibl>H. Hilg, Die mittelalterlichen Handschriften der
+                                Universitätsbibliothek Eichstätt, Band 3. Aus Cod. st 471-Cod. st
+                                699, Wiesbaden 2004, p. 403–406. </bibl>
+                            <bibl>Meirinhos, Bibliotheca manuscripta Petri Hispani, p.
+                                81–82.</bibl>
                         </listBibl>
                     </additional>
                 </msDesc>
@@ -14479,7 +14553,7 @@
                         <repository ref="#org_0090">Herzogin Anna Amalia
                             Bibliothek</repository>
                         <idno>Q 76</idno>
-                        <altIdentifier>                            
+                        <altIdentifier>
                             <repository>Zentralbibliothek der deutschen Klassik, Thüringische
                                 Landesbibliothek</repository>
                             <idno/>

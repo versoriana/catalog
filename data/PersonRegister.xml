@@ -927,9 +927,9 @@
             </person>
             <person xml:id="GeorgSchwarz">
                <persName>
-                  <forename type="preferred">Georg</forename>
-                  <surname type="variant">Nigri</surname>
+                  <forename type="preferred">Georg</forename>                  
                   <surname type="preferred">Schwarz</surname>
+                  <surname type="variant">Nigri</surname>
                </persName>
                <persName type="sort">Schwarz, Georg</persName>
                <idno type="GND">11919998X</idno>
