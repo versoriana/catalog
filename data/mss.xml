@@ -3740,8 +3740,7 @@
                 <msDesc xml:id="Erlangen_UniversitätsbibliothekErlangenNürnberg_MS498">
                     <msIdentifier>
                         <settlement>Erlangen</settlement>
-                        <repository ref="#org_0099">Universitätsbibliothek
-                            Erlangen-Nürnberg</repository>
+                        <repository ref="#org_0099">Universitätsbibliothek Erlangen-Nürnberg</repository>
                         <idno>MS 498</idno>
                         <idno type="URI">https://nbn-resolving.org/urn:nbn:de:bvb:29-bv040876869-5</idno>
                     </msIdentifier>
