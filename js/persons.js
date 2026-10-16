@@ -15,7 +15,11 @@ document.addEventListener("DOMContentLoaded", () => {
 	CETEIcean.getHTML5("data/PersonRegister.xml", function(data) {
 		pool.appendChild(data);
 
-		Array.from(pool.querySelectorAll("tei-person")).forEach(tei => {
+		const persons = Array.from(pool.querySelectorAll("tei-person"));
+		persons.forEach(layoutPerson);          // js/person-panel.js
+		labelPersonManuscripts(persons);        // shelfmarks for the Role: links, async
+
+		persons.forEach(tei => {
 			const id = tei.id;
 			if (!id) return;
 

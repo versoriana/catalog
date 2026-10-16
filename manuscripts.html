@@ -110,6 +110,9 @@
 	<!-- Search functionality -->
 	<script type="text/javascript" src="js/search.js"></script>
 
+	<!-- Shared <note> rendering (types: MssVersoris/docs/note_types.md) -->
+	<script type="text/javascript" src="js/tei-notes.js"></script>
+
 	<!-- Shared Versoris-witness classifier (also used by the opera page) -->
 	<script type="text/javascript" src="js/opera-witness.js"></script>
 
@@ -152,25 +155,7 @@
 		let behaviors = {
           "tei": {
 			 // "teiHeader": null, // No specific behavior for teiHeader
-                "note": function(e) {
-					const type = e.getAttribute('type');
-					if (type === 'editorial' || type === 'gap') {
-						const details = document.createElement('details');
-						details.className = 'note-inline';
-						const summary = document.createElement('summary');
-						summary.textContent = 'note';
-						details.appendChild(summary);
-						const content = document.createElement('span');
-						content.className = 'note-content';
-						content.innerHTML = e.innerHTML;
-						details.appendChild(content);
-						return details;
-					}
-					let container = document.createElement('span');
-					container.className = 'note-content';
-					container.innerHTML = e.innerHTML;
-					return container;
-				},
+                "note": renderTeiNote,   // js/tei-notes.js
 				"persName": function(e) {
 					const ref = e.getAttribute('ref');
 					if (ref && ref.startsWith('#')) {

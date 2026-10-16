@@ -108,6 +108,9 @@
 	<!-- Search functionality -->
 	<script type="text/javascript" src="js/search.js"></script>
 
+	<!-- Shared <note> rendering (types: MssVersoris/docs/note_types.md) -->
+	<script type="text/javascript" src="js/tei-notes.js"></script>
+
 	<!-- Script CETEI -->
 	<script>
 		var CETEIcean = new CETEI();
@@ -157,25 +160,7 @@
 		let behaviors = {
 			"tei": {
 				// "teiHeader": null,
-				"note": function(e) {
-					const type = e.getAttribute('type');
-					if (type === 'editorial' || type === 'gap') {
-						const details = document.createElement('details');
-						details.className = 'note-inline';
-						const summary = document.createElement('summary');
-						summary.textContent = 'note';
-						details.appendChild(summary);
-						const content = document.createElement('span');
-						content.className = 'note-content';
-						content.innerHTML = e.innerHTML;
-						details.appendChild(content);
-						return details;
-					}
-					let container = document.createElement('span');
-					container.className = 'note-content';
-					container.innerHTML = e.innerHTML;
-					return container;
-				},
+				"note": renderTeiNote,   // js/tei-notes.js
 				"birth": function(e) {
 					const when = e.getAttribute('when');
 					const notBefore = e.getAttribute('notBefore');
@@ -188,11 +173,11 @@
 					if (when) {
 						container.textContent = `${ca}${when}`;
 					} else if (notBefore && notAfter) {
-						container.textContent = `${ca}${notBefore}-${notAfter}`;
+						container.textContent = `${ca}${notBefore}–${notAfter}`;
 					} else if (notBefore) {
-						container.textContent = `${ca}not Before ${notBefore}`;
+						container.textContent = `${ca}not before ${notBefore}`;
 					} else if (notAfter) {
-						container.textContent = `${ca}not After ${notAfter}`;
+						container.textContent = `${ca}not after ${notAfter}`;
 					}
 
 					return container;
@@ -209,11 +194,11 @@
 					if (when) {
 						container.textContent = `${ca}${when}`;
 					} else if (notBefore && notAfter) {
-						container.textContent = `${ca}${notBefore}-${notAfter}`;
+						container.textContent = `${ca}${notBefore}–${notAfter}`;
 					} else if (notBefore) {
 						container.textContent = `${ca}post ${notBefore}`;
 					} else if (notAfter) {
-						container.textContent = `${ca}not After ${notAfter}`;
+						container.textContent = `${ca}not after ${notAfter}`;
 					}
 
 					return container;
@@ -230,7 +215,7 @@
                     if (when) {
                         container.textContent = `${ca}${when}`;
                     } else if (from && to) {
-                        container.textContent = `${ca}${from}-${to}`;
+                        container.textContent = `${ca}${from}–${to}`;
                     } else if (from) {
                         container.textContent = `${ca}from ${from}`;
                     } else if (to) {
@@ -240,108 +225,52 @@
                     return container;
                 },
 				"occupation": function(e) {
-					// Check if we've already processed occupations for this person
-					const personElement = e.closest('tei-person') || e.parentElement;
-					if (personElement._occupationProcessed) {
-						return null; // Don't render subsequent occupation elements
-					}
-					
-					// Mark this person as processed
-					personElement._occupationProcessed = true;
-					
-					// Get all occupation elements for this person
-					const allOccupations = Array.from(personElement.querySelectorAll('tei-occupation') || 
-													  personElement.children).filter(child => 
-													  child.tagName && child.tagName.toLowerCase().includes('occupation'));
-					
-					// Group occupations by role and collect notes
-					const roleGroups = {};
-					const occupationNotes = [];
-					
-					allOccupations.forEach(occupation => {
-						const role = occupation.getAttribute('role');
-						const ref = occupation.getAttribute('ref');
-						
-						// Extract notes from this occupation element
-						const notes = occupation.querySelectorAll('tei-note') || occupation.querySelectorAll('note');
-						notes.forEach(note => {
-							occupationNotes.push(note);
+					// All <occupation>s of a person are rendered once, as one "Role:" line, in the
+					// first occupation; the others render nothing. Grouped by role in document order:
+					//   Scribe of mss. <a data-ms>…</a>, <a data-ms>…</a>; Former owner of ms. <a data-ms>…</a>
+					// The links carry the ms id; js/person-panel.js replaces it with the shelfmark.
+					const person = e.closest('tei-person') || e.parentElement;
+					if (person._occupationProcessed) return null;
+					person._occupationProcessed = true;
+
+					const occupations = Array.from(person.children)
+						.filter(c => c.localName === 'tei-occupation');
+
+					// role -> [ms ids]. <occupation> is always empty (role + ref); any prose about
+					// the role is in note[@type="role"], which continues this line (versoris.css)
+					const groups = new Map();
+					occupations.forEach(occ => {
+						const ms = (occ.getAttribute('ref') || '').replace(/^#/, '');
+						(occ.getAttribute('role') || '').split(/\s+/).filter(Boolean).forEach(role => {
+							if (!groups.has(role)) groups.set(role, []);
+							groups.get(role).push(ms);
 						});
-						
-						if (role) {
-							const roles = role.split(' ').map(r => r.trim());
-							roles.forEach(singleRole => {
-								if (!roleGroups[singleRole]) {
-									roleGroups[singleRole] = [];
-								}
-								if (ref) {
-									const msId = ref.replace('#', '');
-									roleGroups[singleRole].push(msId);
-								}
-							});
-						}
 					});
-					
-					// Create new element with consolidated role information
+
 					const container = document.createElement('div');
-					container.className = 'tei-occupation'; // Use same class as CETEIcean would create
-					
-					// Create role display
-					const roleParts = [];
-					Object.keys(roleGroups).forEach(role => {
-						const refs = roleGroups[role];
-						const roleLabel = roleMapping[role] || role;
-						
-						if (refs.length > 0) {
-							const roleSpan = document.createElement('span');
-							roleSpan.textContent = `${roleLabel} related to mss. `;
-							
-							refs.forEach((msId, index) => {
-								const link = document.createElement('span');
-								link.className = 'ms-link';
-								link.textContent = `${msId}`;
-								link.onclick = function() {
-									window.location.href = `manuscripts.html#${msId}`;
-								};
-								roleSpan.appendChild(link);
-								
-								// Add comma separator if not the last item
-								if (index < refs.length - 1) {
-									roleSpan.appendChild(document.createTextNode(', '));
-								}
-							});
-							
-							roleParts.push(roleSpan);
+					container.className = 'tei-occupation';
+					let first = true;
+					groups.forEach((entries, role) => {
+						if (!first) container.appendChild(document.createTextNode('; '));
+						first = false;
+						const label = roleMapping[role] || role;
+						const withMs = entries.filter(Boolean);
+						if (!withMs.length) {
+							container.appendChild(document.createTextNode(label));
 						} else {
-							const roleSpan = document.createElement('span');
-							roleSpan.textContent = roleLabel;
-							roleParts.push(roleSpan);
+							container.appendChild(document.createTextNode(
+								`${label} of ${withMs.length > 1 ? 'mss.' : 'ms.'} `));
+							withMs.forEach((ms, i) => {
+								if (i) container.appendChild(document.createTextNode(', '));
+								const link = document.createElement('a');
+								link.className = 'ms-link';
+								link.dataset.ms = ms;
+								link.href = `manuscripts.html#${encodeURIComponent(ms)}`;
+								link.textContent = ms;
+								container.appendChild(link);
+							});
 						}
 					});
-					
-					if (roleParts.length > 0) {
-						roleParts.forEach((part, index) => {
-							container.appendChild(part);
-							// Add semicolon separator if not the last item
-							if (index < roleParts.length - 1) {
-								container.appendChild(document.createTextNode('; '));
-							}
-						});
-					}
-					
-					// Add notes if they exist
-					if (occupationNotes.length > 0) {
-						occupationNotes.forEach(noteElement => {
-							const noteContainer = document.createElement('tei-note');
-							// Copy the type attribute if it exists
-							if (noteElement.hasAttribute('type')) {
-								noteContainer.setAttribute('type', noteElement.getAttribute('type'));
-							}
-							noteContainer.innerHTML = noteElement.innerHTML;
-							container.appendChild(noteContainer);
-						});
-					}
-					
 					return container;
 				},
 				"idno": function(e) {
@@ -367,27 +296,14 @@
 							return null; // Use default behavior for other types
 					}
 
-					// Two-part "double button": a label segment that links out
-					// to the authority, plus a colored segment showing the id value.
-					const container = document.createElement('span');
-					container.className = `double-button db-${type}`;
-
-					const label = document.createElement('a');
-					label.className = 'double-button-l';
-					label.href = url;
-					label.target = '_blank';
-					label.rel = 'noopener';
-					label.title = `${type}: ${idno}`;
-					label.innerHTML = `${type} <i class="bi bi-box-arrow-up-right"></i>`;
-
-					const value = document.createElement('span');
-					value.className = 'double-button-r';
-					value.textContent = idno;
-
-					container.appendChild(label);
-					container.appendChild(value);
-
-					return container;
+					// Plain link "GND 119011700"; js/person-panel.js gathers these at the end of the record
+					const link = document.createElement('a');
+					link.className = 'authority-link';
+					link.href = url;
+					link.target = '_blank';
+					link.rel = 'noopener';
+					link.innerHTML = `<span class="authority-type">${type}</span> ${idno}`;
+					return link;
 				},
 				"persName": function(e) {
 					// Don't display sort persName
@@ -609,6 +525,7 @@
 		CETEIcean.addBehaviors(behaviors);
 	</script>
 
+	<script type="text/javascript" src="js/person-panel.js"></script>
 	<script type="text/javascript" src="js/catalog-table.js"></script>
 	<script type="text/javascript" src="js/persons.js"></script>
 

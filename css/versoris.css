@@ -202,80 +202,82 @@ tei-colophon tei-locus::before,
 tei-colophon tei-locus::after { font-weight: normal; }
 
 
-/* Notes */
-tei-note[type="editorial"],
-tei-note[type="gap"] {
-    display: inline;
-}
-
+/* Notes — one rule per @type; vocabulary in MssVersoris/docs/note_types.md,
+   rendering in js/tei-notes.js. */
 tei-note {
     display: block;
-    margin: 10px 0;
+    margin: 0.4rem 0;
 }
 
+/* content: remarks on the text — plain prose, no label */
+
+/* attribution and paleo: short reader-facing labels */
 tei-note[type="attribution"]::before {
-    content: "Note (attribution): ";
-    font-weight: bold;
+    content: "Attribution: ";
+    font-weight: 600;
 }
 
-tei-note[type="content"]::before {
-    content: "Note (content): ";
-    font-weight: bold;
-}
-
-tei-note[type="msRelationship"]::before {
-    content: "Note (Mss relationships): ";
-    font-weight: bold;
+tei-note[type="attribution"][subtype="spuria"]::before {
+    content: "Attribution rejected: ";
 }
 
 tei-note[type="paleo"]::before {
-    content: "Note (paleo): ";
-    font-weight: bold;
+    content: "Hand: ";
+    font-weight: 600;
 }
 
-tei-note[type="desc"]::before {
-    content: "Note (description): ";
-    font-weight: bold;
+/* condition: always visible, flagged */
+.note-flag {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.3em;
+    margin-right: 0.5em;
+    padding: 0 0.55em;
+    border-radius: 999px;
+    font-size: 0.72rem;
+    font-weight: 600;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    vertical-align: 0.1em;
+    color: var(--person);
+    background: color-mix(in srgb, var(--person) 13%, transparent);
 }
 
-tei-note[type="biblio"]::before {
-    content: "Note (biblio): ";
-    font-weight: bold;
+/* biblio: a comment on the reference it sits in — inline, muted, in square brackets */
+tei-bibl > tei-note[type="biblio"] {
+    display: inline;
+    color: var(--muted);
 }
 
-details.note-inline {
+tei-bibl > tei-note[type="biblio"]::before { content: "["; }
+tei-bibl > tei-note[type="biblio"]::after  { content: "]"; }
+
+/* editorial: inline "ed." marker; opens in brackets without breaking the line */
+tei-note[type="editorial"] {
     display: inline;
 }
 
-details.note-inline summary {
-    display: inline;
+.note-marker {
+    border: 0;
+    background: none;
+    padding: 0 0.15em;
+    font: italic 0.72em var(--font-sans);
+    vertical-align: super;
+    line-height: 0;
+    color: var(--accent);
     cursor: pointer;
+}
+
+.note-marker:hover,
+.note-marker[aria-expanded="true"] { text-decoration: underline; }
+
+.note-editorial > .note-content {
     color: var(--muted);
-    font-size: 0.8em;
-    font-style: italic;
-    list-style: none;
+    font-size: 0.92em;
 }
 
-details.note-inline summary::-webkit-details-marker {
-    display: none;
-}
-
-details.note-inline[open] {
-    display: block;
-    border-left: 2px solid var(--rule);
-    padding-left: 8px;
-    margin: 4px 0;
-}
-
-details.note-inline[open] summary {
-    display: block;
-}
-
-details.note-inline[open] .note-content {
-    display: block;
-    font-size: 0.9em;
-    color: var(--muted);
-}
+.note-editorial > .note-content::before { content: " [ed.: "; font-style: italic; }
+.note-editorial > .note-content::after  { content: "] "; }
 
 tei-altIdentifier {
     display: inline;
@@ -590,100 +592,97 @@ tei-persname[type="sort"] {
     content: "";
 }
 
-tei-birth, tei-death, tei-floruit {
+/* Dates: shown as one line under the name (.person-dates, js/person-panel.js); the
+   elements themselves stay in the DOM because the table reads .birth-info/.death-info */
+#PersonRegister tei-birth,
+#PersonRegister tei-death,
+#PersonRegister tei-floruit {
+    display: none;
+}
+
+#PersonRegister .person-dates {
+    color: var(--muted);
+    font-variant-numeric: tabular-nums;
+    margin-bottom: 0.25rem;
+}
+
+#PersonRegister .person-dates-label { font-weight: 600; }
+
+/* Order (affiliation type="religiousOrder"): a fact line like "Role:" */
+#PersonRegister tei-affiliation {
     display: block;
+    margin: 0.3rem 0;
 }
 
-tei-birth::before {
-    content: "Born: ";
-    font-weight: bold;
+#PersonRegister tei-affiliation[type="religiousOrder"]::before {
+    content: "Order: ";
+    font-weight: 600;
 }
 
-tei-death::before {
-    content: "Died: ";
-    font-weight: bold;
+/* bio: the biography, read as ordinary prose across the full width */
+#PersonRegister tei-note[type="bio"] {
+    display: block;
+    margin: 0.9rem 0;
+    line-height: 1.65;
 }
 
-tei-floruit::before {
-    content: "Floruit: ";
-    font-weight: bold;
-}
-
-
-
-tei-affiliation {
-    display: inline-block;
-    background-color: var(--accent-soft);
-    color: var(--accent);
-    padding: 2px 10px;
-    border-radius: 999px;
-    font-size: 0.9em;
-    margin: 5px 0;
-}
-
-
-#PersonRegister tei-note[type="editorial"],
-#PersonRegister tei-note[type="gap"] {
+/* role: always follows the <occupation>s, so it continues the "Role: …" line after the refs */
+#PersonRegister tei-occupation > div.tei-occupation,
+#PersonRegister tei-note[type="role"] {
     display: inline;
 }
 
-#PersonRegister tei-note {
-    display: block;
-    margin: 15px 0;
-    padding: 10px;
-    background-color: var(--paper);
-    border-left: 3px solid var(--accent);
-    line-height: 1.6;
-}
-
-tei-note[type="biblio"]::before {
-    content: "Note (biblio): ";
-    font-weight: bold;
-}
+#PersonRegister tei-note[type="role"]::before { content: ". "; }
 
 tei-occupation {
 
 }
 
-#PersonRegister tei-note[type="role"]::before {
-    content: "Note (role): ";
-    font-weight: bold;
-    margin-left: 20px;
-}
-
-#PersonRegister tei-note[type="role"] {
-    margin-left: 20px;
-    border: none;
-    background: none;
-}
-
-#PersonRegister tei-note[type="biblio"] {
-    margin-left: 20px;
-    border: none;
-    background: none;
-}
-
-#PersonRegister tei-note[type="attribution"] {
-    margin-left: 40px;
-    border: none;
-    background: none;
-}
-
 div.tei-occupation::before {
     content: "Role: ";
-    font-weight: bold;
+    font-weight: 600;
+}
+
+/* A ref to an id that is not in mss.xml: plain text, not a dead link */
+.ms-unresolved { color: var(--muted); }
+
+/* Bibliography: same section label as the manuscript record */
+#PersonRegister tei-listBibl {
+    display: block;
+    margin: 1.4rem 0 0;
 }
 
 #PersonRegister tei-listBibl::before {
     content: "Bibliography";
     display: block;
-    font-weight: bold;
-    margin-bottom: 10px;
+    font-size: 0.72rem;
+    font-weight: 600;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--accent);
+    padding-bottom: 0.35rem;
+    border-bottom: 1px solid var(--rule);
+    margin-bottom: 0.9rem;
 }
 
-#PersonRegister tei-listBibl {
-    margin-left: 0px;
+/* Empty <bibl/> and a listBibl with nothing in it are not shown */
+tei-bibl[data-empty],
+tei-listBibl:not(:has(> tei-bibl:not([data-empty]))),
+#PersonRegister tei-listBibl:not(:has(> tei-bibl:not([data-empty]))) {
+    display: none;
 }
+
+/* Authority files: one quiet line at the end of the record (js/person-panel.js) */
+#PersonRegister .person-authority {
+    margin-top: 1.2rem;
+    padding-top: 0.8rem;
+    border-top: 1px solid var(--rule);
+    color: var(--muted);
+    font-size: 0.875rem;
+}
+
+.authority-link { white-space: nowrap; }
+.authority-type { font-weight: 600; }
 
 /* Plain text: in the record title the shelfmark reads as part of the heading */
 tei-idno {
@@ -695,63 +694,6 @@ tei-idno {
     font: inherit;
 }
 
-
-/* Authority identifiers are rendered as "double buttons" by the idno
-   behavior (persons.html); strip the default badge box from the host element. */
-tei-idno[type="VIAF"],
-tei-idno[type="GND"],
-tei-idno[type="CERL"],
-tei-idno[type="CAC"] {
-    background: none;
-    padding: 0;
-    margin: 0;
-}
-
-/* Two-part identifier button: linked label + colored value */
-.double-button {
-    display: inline-flex;
-    align-items: stretch;
-    vertical-align: middle;
-    margin: 3px 6px 3px 0;
-    font-size: 0.9em;
-    line-height: 1.4;
-    border: 1px solid var(--rule);
-    border-radius: var(--radius);
-    overflow: hidden;
-}
-
-.double-button-l {
-    display: inline-flex;
-    align-items: center;
-    gap: 4px;
-    padding: 3px 9px;
-    background-color: var(--surface);
-    color: var(--muted);
-    text-decoration: none;
-    white-space: nowrap;
-}
-
-.double-button-l:hover {
-    background-color: var(--accent-soft);
-    color: var(--ink);
-    text-decoration: none;
-}
-
-.double-button-l .bi {
-    font-size: 0.85em;
-    opacity: 0.7;
-}
-
-.double-button-r {
-    display: inline-flex;
-    align-items: center;
-    padding: 3px 9px;
-    background-color: var(--paper);
-    color: var(--ink);
-    border-left: 1px solid var(--rule);
-    font-weight: 600;
-    white-space: nowrap;
-}
 
 /* Override tei-idno styles when it contains URI content */
 tei-idno:has(.uri-link-container) {
