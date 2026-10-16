@@ -419,12 +419,14 @@ tei-ref {
     text-decoration: underline;
 }
 
+/* When the ref is rendered as a link, the link carries the underline */
+tei-ref:has(a) { text-decoration: none; }
+
 /* Styling for anchor tags inside ref elements */
 tei-ref a {
     color: var(--accent);
     text-decoration: underline;
     cursor: pointer;
-    margin-right: 4px;
 }
 
 tei-ref a:hover {

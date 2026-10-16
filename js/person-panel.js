@@ -52,6 +52,12 @@
   }
 
   window.layoutPerson = function (person) {
+    // The XML line breaks between a person's children would show as spaces where children run
+    // inline (the role note after the Role line: "Misc486 . In ms.")
+    Array.from(person.childNodes)
+      .filter(n => n.nodeType === Node.TEXT_NODE && !n.textContent.trim())
+      .forEach(n => n.remove());
+
     const name = person.querySelector(":scope > tei-persName:not([type='sort'])");
     const dates = datesLine(person);
     if (dates && name) name.after(dates);

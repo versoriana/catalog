@@ -161,6 +161,23 @@
 			"tei": {
 				// "teiHeader": null,
 				"note": renderTeiNote,   // js/tei-notes.js
+				"ref": function(e) {
+					// A ref to a manuscript id ("#Oxford_…") points into manuscripts.html, not into
+					// this page; external URLs open in a new tab.
+					const target = e.getAttribute('target') || '';
+					const link = document.createElement('a');
+					link.innerHTML = e.innerHTML || target;
+					if (target.startsWith('#')) {
+						link.href = `manuscripts.html#${encodeURIComponent(target.slice(1))}`;
+					} else if (/^https?:\/\//.test(target)) {
+						link.href = target;
+						link.target = '_blank';
+						link.rel = 'noopener';
+					} else {
+						return null;
+					}
+					return link;
+				},
 				"birth": function(e) {
 					const when = e.getAttribute('when');
 					const notBefore = e.getAttribute('notBefore');
