@@ -893,6 +893,72 @@
                     </additional>
                 </msDesc>
 
+                <!-- Barcelona, Archivo de la Corona de Aragón, Sant Cugat, cod. 75 issue#212 -->
+                <msDesc xml:id="Barcelona_ArchivodelaCoronadeAragónSantCugat_cod75">
+                    <msIdentifier>
+                        <settlement>Barcelona</settlement>
+                        <repository ref="#org_0008">Archivo de la Corona de Aragón, Sant
+                            Cugat</repository>
+                        <idno>cod. 75</idno>
+                        <idno type="URI">https://pares.mcu.es/ParesBusquedas20/catalogo/show/2345636</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <ab type="explicit_attribution" cert="0">none</ab>
+                            <ab type="general_remarks">An error occurred during the binding in the
+                                eighteenth century: the last folio of the QdG was bound after the
+                                blank leaf 112v, at the end of the QdA. </ab>
+                        </summary>
+                        <msItem xml:id="Barcelona_ArchivodelaCoronadeAragónSantCugat_cod75_QdA">
+                            <locus from="1r" to="112r"/>
+                            <title ref="#QdA">QdA</title>
+                            <colophon n="book II"><locus from="81r"/>Perfectus octava mensis
+                                febroarii [sic], anno a nativitate Domini M°CCCC IIII</colophon>
+                            <colophon n="final"><locus from="112r"/>qui quidem fuit perfectus XXIII
+                                mensis martii anno a nativitate Domini MCCCCXXXXIIII</colophon>
+                        </msItem>
+                        <msItem xml:id="Barcelona_ArchivodelaCoronadeAragónSantCugat_cod75_QdG">
+                            <locusGrp>
+                                <locus from="114r" to="159v"/>
+                                <locus from="113r" to="113v"/>
+                            </locusGrp>
+                            <title ref="#QdG">QdG</title>
+                            <colophon><locus from="112r"/>Perfectus fuit XXVIII septembris anno a
+                                nativitate Domini M°CCCC IIII</colophon>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate from="1444" to="1444">1444, as stated in the colophons: QdA,
+                                book II, f. 81r; QdA, f. 112r; QdG, f. 112r. </origDate>
+                            <origPlace cert="medium">Catalonia</origPlace>
+                            <p>The codex contains no explicit information about its provenance, but
+                                its former belonging to the monastery of Sant Cugat, the Spanish
+                                handwriting, and the watermarks make an origin in Catalonia very
+                                likely. Two watermarks can be distinguished: <watermark>a
+                                    crown</watermark> and <watermark>a cart, the latter very similar
+                                    to no. 1330 in O. Valls i Subirà, Paper and Watermarks in
+                                    Catalonia, Amsterdam, 1970, vol. 2</watermark>. </p>
+                            <note type="msRelationship">
+                                <p>Escorial, Biblioteca Real, M II; <ref
+                                        target="#Pamplona_BCCP_Ms24" type="ms">Pamplona, Biblioteca
+                                        Capitular de la Catedral de Pamplona, Ms. 24</ref>; and <ref
+                                        target="#Vic_MuseoyBibliotecaEpiscopal_185" type="ms">Vic,
+                                        Museo y Biblioteca Episcopal, 185</ref>, which contain
+                                    similar same <watermark>cart watermarks</watermark>. </p>
+                            </note>
+                        </origin>
+                    </history>
+                    <additional>
+                        <listBibl>
+                            <bibl>F. X. Miquel Rosell, Cataleg dels llibres manuscrits de la
+                                Biblioteca del Monestir de San Cugat del Vallès existents al’Arxiu
+                                de la Corona d’Arago, Barcelona 1937, p. 124-125. </bibl>
+                            <bibl>Flüeler, “Terminologie”, p. 84, fn. 16. </bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+
                 <!-- Barcelona, Arxiu de la Corona d’Aragó, San Cugat, cod. 82 issue#211 -->
                 <msDesc xml:id="Barcelona_ArxiudelaCoronadAragóSanCugat_cod82">
                     <msIdentifier>
@@ -10195,10 +10261,13 @@
                                     places, in Perpignan in the first half of the fifteenth
                                     century</watermark>. </p>
                             <note type="msRelationship">
-                                <p>Escorial, Biblioteca Real, M II and <ref
-                                        target="#Vic_MuseoyBibliotecaEpiscopal_185" type="ms">Vic,
-                                        Museo y Biblioteca Episcopal, 185</ref> which contain a
-                                    similar (but not identical) <watermark>cart
+                                <p><ref
+                                        target="#Barcelona_ArchivodelaCoronadeAragónSantCugat_cod75"
+                                        type="ms">Barcelona, Archivo de la Corona de Aragón, Sant
+                                        Cugat, cod. 75</ref>; Escorial, Biblioteca Real, M II and
+                                        <ref target="#Vic_MuseoyBibliotecaEpiscopal_185" type="ms"
+                                        >Vic, Museo y Biblioteca Episcopal, 185</ref> which contain
+                                    a similar (but not identical) <watermark>cart
                                     watermark</watermark>. </p>
                             </note>
                         </origin>
