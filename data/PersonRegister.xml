@@ -1383,7 +1383,7 @@
                <persName>
                   <forename type="preferred">Iacobus</forename>
                   <surname type="preferred">Borkeman</surname>
-                  <nameLink type="preferred">Mariaeburgo</nameLink>
+                  <nameLink type="preferred">de</nameLink>
                   <surname type="preferred">Mariaeburgo</surname>
                </persName>
                <persName type="sort">Borkeman de Mariaeburgo, Iacobus</persName>
@@ -2616,30 +2616,47 @@
                </listBibl>
             </person>
 
-            <person xml:id="RupertusKasrerVonSalzburg">
+            <person xml:id="RupertusKaisererVonSalzburg">
                <persName>
                   <forename type="preferred">Rupertus</forename>
                   <forename type="variant">Rudpertus</forename>
                   <forename type="variant">Rudbertus</forename>
-                  <surname type="preferred">Kasrer</surname>
+                  <surname type="preferred">Kaiserer</surname>
+                  <surname type="variant">Kaiser</surname>
+                  <surname type="variant">Kaysrer</surname>
+                  <surname type="variant">Kchsrer</surname>
+                  <surname type="variant">Kasrer</surname>
                   <surname type="variant">Käsrer</surname>
                   <nameLink type="preferred">von</nameLink>
-                  <surname type="preferred">Salzburg</surname>
                   <nameLink type="variant">ex</nameLink>
-                  <surname type="variant">Salczburga</surname>
+                  <surname type="preferred">Salzburg</surname>
+                  <surname type="variant">Salczeburga</surname>
                </persName>
-               <persName type="sort">Kasrer von Salzburg, Rupertus</persName>
+               <persName type="sort">Kaiserer von Salzburg, Rupertus</persName>
                <death when="1495"/>
                <affiliation type="religiousOrder" subtype="OP">Dominican</affiliation>
-               <note>incepted as master of arts in 1479. He served as lector in the Dominican
-                  convent in Vienna. In 1488 obtained the permission to exit the convent. In 1492
-                  was at the Dominican convent in Leoben. Shortly after became prior of Retz, where
-                  he died in 1495.</note>
+               <note>Matriculated at the Arts Faculty of the University of Vienna in 1469;
+                  obtained a bachelor’s degree at another, unidentified university in 1472; and
+                  incepted as Master of Arts in Vienna in 1479. By the time of his inception, he
+                  had entered the Dominican Order. He served as a lector at the Dominican convent
+                  in Vienna. In 1488, he obtained permission to leave the convent. In 1492, he was
+                  at the Dominican convent in Leoben. Shortly thereafter, he became prior of the
+                  Dominican convent in Retz, where he died in 1495.</note>
                <occupation role="scr" ref="#Wien_DK_Cod88"/>
                <listBibl>
+                  <bibl>Acta Universitatis seu Rectoratus II (R 2), vol. 5, f. 21r (1476); f. 281v
+                     (1479).</bibl>
                   <bibl>AFA III, f. 281v.</bibl>
+                  <bibl>F. Gall, W. Szaivert, Die Matrikel der Universität Wien. Band II:
+                     1451–1518 ( Publikationen des Instituts für Österreichische
+                     Geschichtsforschung, VI. Reihe .Quellen zur Geschichte della Universität Wien,
+                     1. Abteilung), Wien/Köln/Graz, 1967, p. 112.</bibl>
                   <bibl>I. W. Frank, Hausstudium und Universitätsstudium der Wiener Dominikaner bis
                      1500, Wien 1968, 267-269.</bibl>
+                  <bibl>Rupert Kaiserer (RAG-ID: ngND5c274NF04cjJhMWcwLzE), <ref
+                        target="https://resource.database.rag-online.org/ngND5c274NF04cjJhMWcwLzE"
+                        >https://resource.database.rag-online.org/ngND5c274NF04cjJhMWcwLzE</ref>,
+                     21.09.2026.</bibl>
                </listBibl>
             </person>
 

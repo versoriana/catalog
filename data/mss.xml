@@ -14889,25 +14889,25 @@
                             <title ref="#QsE">QsE I–X</title>
                             <colophon n="book I">
                                 <locus from="17r"/>Explicit liber Ethicorum primus per manus fratris
-                                    <persName ref="#RupertusKasrerVonSalzburg">Rudberti Käsrer ex
+                                    <persName ref="#RupertusKaisererVonSalzburg">Rudberti Käsrer ex
                                     Salczeburga</persName> ordinis fratrum predicatorum, anno verbi
                                 humanati 1487, penultima die mensis Mai</colophon>
                             <colophon n="book II">
                                 <locus from="27v"/>Explicit secundus liber Ethicorum per manus
-                                fratris <persName ref="#RupertusKasrerVonSalzburg">Rudberti Käsrer
+                                fratris <persName ref="#RupertusKaisererVonSalzburg">Rudberti Käsrer
                                     ex Salczeburga</persName> ordinis fratrum predicatorum, anno
                                 Domini 1487, die octava mensis Iunii</colophon>
                             <colophon n="final">
                                 <locus from="171r"/>Et hec de questionibus Versoris decem librorum
                                 dicta sufficiant. Explicit liber Ethicorum per manus fratris
-                                    <persName ref="#RupertusKasrerVonSalzburg">Rudberti Käsrer ex
+                                    <persName ref="#RupertusKaisererVonSalzburg">Rudberti Käsrer ex
                                     Salczeburga</persName> ordinis fratrum predicatorum, anno verbi
                                 humanati 1488, ipso die conversionis apostoli Pauli</colophon>
                         </msItem>
                     </msContents>
                     <physDesc>
                         <handDesc>
-                            <handNote scope="major" scribeRef="#RupertusKasrerVonSalzburg"/>
+                            <handNote scope="major" scribeRef="#RupertusKaisererVonSalzburg"/>
                         </handDesc>
                     </physDesc>
                     <history>
@@ -14916,7 +14916,7 @@
                                 and 1488, as indicated by the colophons: colophon of Book I, f. 17r;
                                 colophon of Book II, f. 27v; final colophon, f. 171r. </origDate>
                             <p>The manuscript was copied by the Dominican friar <persName
-                                    ref="#RupertusKasrerVonSalzburg">Rupert Käsrer of
+                                    ref="#RupertusKaisererVonSalzburg">Rupert Käsrer of
                                     Salzburg</persName>. </p>
                         </origin>
                         <provenance>
