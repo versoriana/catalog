@@ -177,39 +177,40 @@
                     </msIdentifier>
                     <msContents>
                         <summary>
-                            <ab type="explicit_attribution" cert="0">No</ab>
+                            <ab type="explicit_attribution" cert="0">none</ab>
                         </summary>
                         <msItem xml:id="Aarau_AKB_MsWettF42_QsP">
-                            <locus from="1ra" to="99va"/>
+                            <locus from="1r" to="99v"/>
                             <title ref="#QsP">QsP</title>
                         </msItem>
-                        <msItem xml:id="Aarau_AKB_MsWettF42_DC">
+                        <msItem xml:id="Aarau_AKB_MsWettF42_QdC">
                             <locus from="100ra" to="102ra"/>
-                            <title ref="#nonVersoris">Fragment of a commentary on DC</title>
+                            <title ref="#QdC">Fragment of a commentary on QdC</title>
                             <!-- use note -->
 
-                            <note type="attribution">According to <ref target="biblID" type="bibl"
-                                    >Lohr</ref>, the fragment of a commentary on DC at ff.
-                                100ra-102ra is Versoris's text. However, neither the titles of the
-                                questions nor their content correspond to Versoris'commentary. The
-                                structure of these questions is indeed similar to that of Versoris’s
-                                commentary, with notabilia, conclusions and doubts. </note>
-                            <msItem xml:id="Aarau_AKB_MsWettF42_DC_q1" class="question" n="1">
+                            <note type="attribution" subtype="spuria">According to Charles Lohr, the fragment of a commentary on
+                                QdC at ff.
+                                100ra–102ra is drawn from Versoris’s text. However, neither the
+                                titles of the questions nor their content correspond to Versoris’s
+                                commentary. The structure of these questions is indeed similar to
+                                that of Versoris’s commentary, with notabilia, conclusions, and
+                                doubts.</note>
+                            <msItem xml:id="Aarau_AKB_MsWettF42_QdC_q1" class="question" n="1">
                                 <locus from="100ra"/>
                                 <title ref="questionID">Utrum corpus mobile ad locum sit subiectum
                                     scientie libri De celo et mundo </title>
                             </msItem>
-                            <msItem xml:id="Aarau_AKB_MsWettF42_DC_q2" class="question" n="2">
+                            <msItem xml:id="Aarau_AKB_MsWettF42_QdC_q2" class="question" n="2">
                                 <locus from="100vb"/>
                                 <title ref="questionID">Utrum totum, omne et perfectum sint
                                     determinata tribus vicibus: principio, medio et fine </title>
                             </msItem>
-                            <msItem xml:id="Aarau_AKB_MsWettF42_DC_q3" class="question" n="3">
+                            <msItem xml:id="Aarau_AKB_MsWettF42_QdC_q3" class="question" n="3">
                                 <locus from="101va"/>
                                 <title ref="questionID">Utrum corpus sit magnitudo perfecta</title>
                             </msItem>
-                            <msItem xml:id="Aarau_AKB_MsWettF42_DC_q4" class="question" n="4">
-                                <locus from="101va"/>
+                            <msItem xml:id="Aarau_AKB_MsWettF42_QdC_q4" class="question" n="4">
+                                <locus from="102ra"/>
                                 <title ref="questionID">Utrum mundus sit magnitudo perfecta</title>
                                 <note type="content">Only the title was copied, but not the
                                     question</note>
@@ -217,7 +218,8 @@
                         </msItem>
                         <msItem xml:id="Aarau_AKB_MsWettF42_AnonExpositio">
                             <locus from="103ra" to="106vb"/>
-                            <note type="desc">Expositio cum questionibus</note>
+                            <note type="content">An anonymous expositio cum
+                                questionibus.</note>
                             <msItem xml:id="Aarau_AKB_MsWettF42_AnonExpositio_q1" class="question"
                                 n="1">
                                 <locus from="102ra"/>
@@ -237,51 +239,49 @@
                                     difficiliorum </title>
                                 <note type="content">Incomplete</note>
                             </msItem>
-                            <note type="paleo">Copied by a different hand than <ref type="msItem"
-                                    target="#Aarau_AKB_MsWettF42_QdA"> following text</ref>. </note>
+                            <note type="paleo">Copied by a different hand than the QdA (ff.
+                                107–134vb).</note>
                         </msItem>
 
-                        <msItem xml:id="Aarau_AKB_MsWettF42_QdA">
-                            <locus from="107" to="134vb"/>
+                        <msItem xml:id="Aarau_AKB_MsWettF42_QdA" defective="true">
+                            <locus from="107r" to="134vb"/>
                             <title ref="#QdA">QdA</title>
                             <explicit>circa colores, et hoc est percipere plures <gap/>
-                                <note type="gap">The other leaves have been ripped off. </note>
+                                <note type="condition">The other leaves have been ripped.</note>
                             </explicit>
-                            <note type="paleo">Copied by a different hand than <ref type="msItem"
-                                    target="#Aarau_AKB_MsWettF42_AnonExpositio"> previous
-                                text</ref>. </note>
-                            <note type="content">Unfinished, up to q. II <q>Utrum sensus tactus sit
-                                    unus vel plures </q>
-                            </note>
+                            <note type="paleo">Copied by a different hand than the Expositio cum
+                                questionibus (ff. 103ra–106vb).</note>
+                            <note type="content">Unfinished, up to q. II.24, <q>Utrum sensus tactus sit
+                                    unus vel plures</q>.</note>
                             <!-- add list of questions, they are not in the docx but could be reconstructed -->
                         </msItem>
 
 
-                        <msItem xml:id="Aarau_AKB_MsWettF42_LdMCop" class="#Aarau_AKB_MsWettF42">
+                        <msItem xml:id="Aarau_AKB_MsWettF42_LdMCop">
                             <locus>After QdA</locus>
                             <author>Lambertus de Monte</author>
                             <title ref="#nonVersoris">Copulata super tres libros De anima
                                 Aristotelis iuxta doctrinam Thomae Aquinatis </title>
-                            <note type="content">QdA is followed by the edition of Lambertus de
-                                Monte's Questions on the same text (Hain 11583) </note>
+                            <note type="content">QdA is followed by the edition of Lambertus de Monte’s
+                                Copulata super libros De anima printed around 1484 (GW M16775; Hain
+                                1713).</note>
                         </msItem>
 
                         <msItem xml:id="Aarau_AKB_MsWettF42_varia">
-                            <locus>Before QdC</locus>
-                            <note type="content">Cologne editions of QdC, QsM, QdG and QPN printed
-                                by Molner in 1485. </note>
+                            <locus>Between the QdC fragment and the QdA</locus>
+                            <note type="content">Between the beginning of the anonymous fragment of
+                                QdC and Versoris’s QdA we find the Cologne editions of Versoris’s
+                                QdC, QsMete, QdG, and QPN, printed by Dietrich Molner around
+                                1486.</note>
                         </msItem>
                     </msContents>
                     <history>
                         <origin>
-                            <origDate from="1486" to="1486">1486</origDate>
-                            <p>The <watermark>watermark P</watermark> is similar to <ref type="bibl"
-                                    target="biblID">Piccard </ref> XII 81 and 155, both used in
-                                Cologne in 1486. This dating and origin could be confirmed a) by the
-                                date of the editions inserted in the codex, all printed in 1485; b)
-                                by the fact that the ms. contains, above Versoris’s text, Lambertus
-                                de Monte’s Questions on De anima, a thomistic commentary used in
-                                Cologne. </p>
+                            <origDate from="1487" to="1488">1487–1488</origDate>
+                            <p>The <watermark>watermark P, similar to Piccard XII 71, 81, used in Cologne in
+                                    1487 and 1488</watermark>. This dating is confirmed by the fact
+                                that the incunabula inserted in the codex were published around 1486
+                                (GW M50226; Hain 1485).</p>
                             <origPlace ref="#place_cologne">Cologne</origPlace>
                             <note type="msRelationship">
                                 <p>
@@ -298,6 +298,24 @@
                         </origin>
 
                     </history>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source cert="high" resp="#">
+                                    <p>Ms directly examined</p>
+                                </source>
+                            </recordHist>
+                        </adminInfo>
+                        <listBibl>
+                            <bibl>Kristeller, Iter V, p. 39a.</bibl>
+                            <bibl>C. Bretscher-Gisiger, R. Gamper, Katalog der mittelalterlichen
+                                Handschriften des Klosters Wettingen. Katalog der mittelalterlichen
+                                Handschriften in Aarau, Laufenburg, Lenzburg, Rheinfelden und
+                                Zofingen, Dietikon, 2009, p. 151.</bibl>
+                            <bibl>C. Lohr, Aristotelica Helvetica, Fribourg en Suisse, 1994, p.
+                                5.</bibl>
+                        </listBibl>
+                    </additional>
                     <!-- add bibl -->
                 </msDesc>
 
@@ -489,10 +507,11 @@
                                 oriundus Albini </colophon>
                         </msItem>
                         <msItem
-                            xml:id="AmiensBibliothèqueLouisAragonBibliothèquemunicipale_405_Qdente">
+                            xml:id="AmiensBibliothèqueLouisAragonBibliothèquemunicipale_405_Qdente"
+                            defective="true">
                             <locus from="203v" to="208r"/>
                             <title ref="#Qdente">Qdente</title>
-                            <note type="gap">ending interrupted at q. 6</note>
+                            <note type="condition">ending interrupted at q. 6</note>
                         </msItem>
                     </msContents>
                     <physDesc>
@@ -773,10 +792,10 @@
                         <summary>
                             <ab type="explicit_attribution" cert="0">No</ab>
                         </summary>
-                        <msItem xml:id="Bamberg_StaatsbibliothekBamberg_class584HJIC29_QsE">
+                        <msItem xml:id="Bamberg_StaatsbibliothekBamberg_class584HJIC29_QsE" defective="true">
                             <locus from="157" to="264v"/>
                             <title ref="#QsE">QsE</title>
-                            <note type="desc">The text ends unfinished at book IX, question <title
+                            <note type="condition">The text ends unfinished at book IX, question <title
                                     ref="w_ID">Utrum amare seipsum secundum rationem sit
                                     laudabile</title>, with the words: <q>Nam loco bonorum
                                     exteriorum eligit bonum virtutis, quod est maximum, et sic</q>.
@@ -838,7 +857,7 @@
                         <msItem xml:id="Bamberg_StaatsbibliothekBamberg_MscPatr150_QsDente">
                             <locus from="106r" to="124"/>
                             <title ref="#Qdente">QsDente</title>
-                            <note type="desc">The commentary is preceded by Thomas’s text
+                            <note type="content">The commentary is preceded by Thomas’s text
                                 (88v-106r). The manuscript also contains a literal commentary on
                                 Thomas’s text (137r-170r). </note>
                             <colophon><locus/>Explicit scriptum Versoris super De ente et essentia
@@ -1148,7 +1167,7 @@
                         <msItem xml:id="Basel_UB_AX67_Qdente" defective="true">
                             <locus/>
                             <title ref="#Qdente">Qdente</title>
-                            <note type="gap">Versoris’s Qdente, announced in the table of contents
+                            <note type="condition">Versoris’s Qdente, announced in the table of contents
                                 on f. 1v, are not transmitted, since the last part of the volume is
                                 missing. </note>
                         </msItem>
@@ -1163,7 +1182,7 @@
                             <author>Anonymus</author>
                             <title ref="#nonVersoris">Commentary on Aristotle’s Nicomachean
                                 Ethics</title>
-                            <note type="gap">Incomplete. </note>
+                            <note type="condition">Incomplete. </note>
                         </msItem>
                         <msItem xml:id="Basel_UB_AX67_GerardusDeMonte">
                             <locus from="95r" to="106v"/>
@@ -1692,8 +1711,9 @@
                         <msItem xml:id="Basel_UB_FIII11_QsSex">
                             <locus from="63r" to="73v"/>
                             <title ref="#QsSex">QsSex</title>
-                            <note type="paleo">At the end of QsSex, the scribe's signum appears,
-                                accompanied by the initials "I S" ("Iohannes Scolaris"). </note>
+                            <note type="paleo">At the end of the QsSex (f. 73v), the scribe's
+                                signum appears, accompanied by the initials "I S" ("Iohannes
+                                Scolaris").</note>
                         </msItem>
                         <msItem xml:id="Basel_UB_FIII11_QsInt">
                             <locus from="74r" to="98v"/>
@@ -2041,7 +2061,8 @@
                         <msItem xml:id="Basel_UB_FVI4_QsDiv_AliaManu">
                             <locus from="125v" to="130v"/>
                             <title ref="#QdDiv">QsDiv</title>
-                            <note type="paleo">QsDiv again, alia manu.</note>
+                            <note type="paleo">QsDiv again (cf. ff. 64rb–69rb), alia
+                                manu.</note>
                         </msItem>
                     </msContents>
                     <history>
@@ -2853,7 +2874,7 @@
                         <msItem xml:id="Berlin_SBPK_latfol776_QsPre" defective="true">
                             <locus from="20r" to="26v"/>
                             <title ref="#QsPre">QsPre</title>
-                            <note type="gap">Ending abruptly at the question <q n="NA">Utrum
+                            <note type="condition">Ending abruptly at the question <q n="NA">Utrum
                                     quantitas a logico convenientius distinctione quam diffinitione
                                     notificetur</q>. </note>
                         </msItem>
@@ -2870,7 +2891,7 @@
                                 <locus from="86r" to="99v"/>
                             </locusGrp>
                             <title ref="#QsTop">QsTop I–IV</title>
-                            <note type="gap">Ending abruptly in III.1 with the words: <q n="71v">et
+                            <note type="condition">Ending abruptly in III.1 with the words: <q n="71v">et
                                     ista consideration</q>. Following Burley’s commentary on the Sex
                                 principiorum, the text resumes on f. 86r with the question <q
                                     n="86r">Utrum numerus et oratio sint species quantitatis
@@ -2887,7 +2908,7 @@
                         <msItem xml:id="Berlin_SBPK_latfol776_QsSE" defective="true">
                             <locus from="132r" to="140r"/>
                             <title ref="#QsSE">QsSE</title>
-                            <note type="gap">With several questions missing and the text ending
+                            <note type="condition">With several questions missing and the text ending
                                 abruptly in II.4. </note>
                         </msItem>
                     </msContents>
@@ -2968,7 +2989,7 @@
                             xml:id="Berlin_StaatsbibliotheekPreußischerKulturbesitz_Mslatqu87_CsPH">
                             <locus from="65r" to="292v"/>
                             <title ref="#CsPH">CsPH</title>
-                            <note type="desc">Versoris’s commentary is preceded by the text of the
+                            <note type="content">Versoris’s commentary is preceded by the text of the
                                 Summule logicales (ff. 1r–63r). </note>
                             <colophon><locus from="292v"/>finitius est liber Parisius, anno Domini
                                 incarnationis 1463, per me, Christianum Lupi </colophon>
@@ -3423,82 +3444,83 @@
                     </msIdentifier>
                     <msContents>
                         <summary>
-                            <ab type="explicit_attribution" cert="0">No. All the texts in this codex
+                            <ab type="explicit_attribution" cert="0">none. All the texts in this codex
                                 are transmitted anonymously and copied by different hands. </ab>
                         </summary>
                         <msItem xml:id="Colmar_BM_223_guardLeaf">
                             <locus>First paper guard-leaf</locus>
                             <note type="content">
-                                <q n="first-guard-leaf">De libris † … † ordinis predicatorum † … †
-                                    1491. Presens liber pertinet conventui Gewilerensis ordinis
-                                    fratrum predicatorum. </q>
+                                <q n="first-guard-leaf">De libris fratris † … † ordinis predicatorum
+                                    conventus Gewilerensis [the last two words have been erased and
+                                    are almost unreadable; I reconstructed them based on the
+                                    following statement]. Comparatus de libris [almost unreadable, my
+                                    conjecture] † … † [two unreadable words] 1491. [alia manu]
+                                    Presens liber pertinet conventui Gewilerensi ordinis fratrum
+                                    predicatorum, et est [eight unreadable words]</q>
                             </note>
                         </msItem>
-                        <msItem xml:id="Colmar_BM_223_QsM">
+                        <msItem xml:id="Colmar_BM_223_QsMeta">
                             <locus from="1r" to="102v"/>
-                            <title ref="#QsMeta">QsM</title>
+                            <title ref="#QsMeta">QsMeta I–XII</title>
                         </msItem>
                         <msItem xml:id="Colmar_BM_223_QsP">
                             <locus from="103r" to="220r"/>
                             <title ref="#QsP">QsP</title>
-                            <colophon><locus from="220r"/>scriptus per me Eberhardum Saltzmann de
-                                valle masonis, anno M° CCCC° quinquagesimo nono, feria quarta ante
-                                Simonis et Iude festum beatorum apostolorum </colophon>
+                            <colophon><locus from="220r"/>Scriptus per me, <persName
+                                    ref="#EberhardusSaltzmanndeValleMasonis">Eberhardum Saltzmann de
+                                    valle masonis</persName>, anno <date when="1459">M° CCCC°
+                                    quinquagesimo nono</date>, feria quarta ante Simonis et Iude
+                                festum beatorum apostolorum </colophon>
                         </msItem>
                         <msItem xml:id="Colmar_BM_223_QdA">
                             <locus from="222r" to="273r"/>
                             <title ref="#QdA">QdA</title>
-                            <note type="desc">Anonymous QdA. The first folio, probably containing an
-                                eluminure, has been ripped out. The collation of the QdA and the QPN
-                                with Johannes de Magistris’s commentaries enabled to identify the
-                                anonymous texts in the Colmar manuscript with them. </note>
-                            <incipit>animam esse nobiliorem aut honorabiliorem. Altera autem, quia
-                                est certior … </incipit>
+                            <note type="attribution" subtype="spuria">Should be attributed to another
+                                Parisian master, John of Caulaincourt.</note>
                         </msItem>
                         <msItem xml:id="Colmar_BM_223_QsSens">
                             <locus from="276r" to="291r"/>
                             <title ref="#QdSen">QsSens</title>
+                            <note type="attribution" subtype="spuria">Should be attributed to another
+                                Parisian master, John of Caulaincourt.</note>
                         </msItem>
                         <msItem xml:id="Colmar_BM_223_QdMem">
                             <locus from="292r" to="297r"/>
                             <title ref="#QdMem">QdMem</title>
+                            <note type="attribution" subtype="spuria">Should be attributed to another
+                                Parisian master, John of Caulaincourt.</note>
                         </msItem>
                         <msItem xml:id="Colmar_BM_223_QSom">
                             <locus from="298r" to="340v"/>
                             <title ref="#QdSom">QSom</title>
-                            <note type="desc">Should be attribute to another Parisian master, John
-                                of Caulaincourt. </note>
+                            <note type="attribution" subtype="spuria">Should be attributed to another
+                                Parisian master, John of Caulaincourt.</note>
                         </msItem>
 
                     </msContents>
                     <history>
                         <origin>
                             <origDate from="1459" to="1459">1459</origDate>
-                            <p>The texts were copied by <persName ref="ID">Eberhardum Saltzmann de
-                                    valle masonis</persName>, <placeName ref="ID"
-                                    >Masevaux</placeName>, diocese of <placeName ref="ID"
-                                    >Basel</placeName>. </p>
+                            <p>The <ref target="#Colmar_BM_223_QsP">QsP</ref> were signed by <persName
+                                    ref="#EberhardusSaltzmanndeValleMasonis">Eberhardus Saltzmann de
+                                    Valle Masonis</persName> (<placeName ref="ID"
+                                    >Masevaux</placeName>, in the diocese of <placeName ref="ID"
+                                    >Basel</placeName>) in 1459. </p>
                             <p>1459, as stated in the <ref target="#Colmar_BM_223_QsP">colophon of
                                     QsP</ref>. Although, at the end of book I (f. 12v), we read (by
                                 a different hand) the date 1491, the previous dating is confirmed by
-                                the watermak: <watermark>a P similar to Briquet 8593 (widespread,
-                                    among other places, in Basel, 1461-1464, and in Strasbourg,
-                                    1463)</watermark>. </p>
-                            <p>the volume consists of three parts (Metaph; Phy; QdA, PN) copied by
-                                different hands and presenting different watermarks. The QsM/QsP and
-                                the QdA/QPN are separated by a guard leaf. The QdA/QPN contain a
-                                    <watermark>watermark similar to Piccard Lilie I 683-686
-                                    (Frankfurt a.M., Aachen Cologne, Brugge, 1478-1481)</watermark>.
-                                Their origin seems therefore to be different from the parts
-                                containing the QsM and the QsP. </p>
-                            <p>Many of the enluminures at the beginning of the books have been
-                                ripped out. </p>
-                            <note type="msRelationship">The <ref target="#Colmar_BM_223_QsP">section
-                                    transmitting the QsP </ref> contains the same
-                                    <watermark>watermark (Frucht similar to Piccard I 393-398)
-                                </watermark> of <ref target="#Basel_UB_F-VI-4">ms. Basel, UB F VI 4
-                                </ref>
-                            </note>
+                                the watermark: <watermark>a P similar to Briquet 8593 (particularly
+                                    visible on f. 13), widespread, among other places, in Basel
+                                    (1461–1464) and in Strasbourg (1463)</watermark>. </p>
+                            <p>The volume consists of three parts, copied by different hands and
+                                containing different watermarks. The first part contains Versoris’s
+                                QsMeta; the second part contains Versoris’s QsP; the third part
+                                contains some anonymous QdA and QPN. The second and the third parts
+                                are separated by a guard leaf. The part transmitting the QdA and the
+                                QPN contains a <watermark>watermark similar to Piccard Lilie I
+                                    683–686 (Frankfurt a.M., Aachen, Cologne, Bruges,
+                                    1478–1481)</watermark>. Their origin therefore seems to differ
+                                from that of the parts containing the QsM and the QsP. </p>
                         </origin>
                         <provenance>
                             <p>The manuscript belonged to the <orgName>convent of the Dominicans
@@ -3515,10 +3537,12 @@
                             </recordHist>
                         </adminInfo>
                         <listBibl>
-                            <bibl>Bibliography: Catalogue général des manuscrits des bibliothèques
-                                publiques de France. Départements. Tome 56. Bibliothèque de Colmar,
-                                Paris 1969, pp. 144-145 </bibl>
-                            <bibl>Lohr, “Aristotelica Gallica: Bibliothecae A-L”, pp. 250-251</bibl>
+                            <bibl>Catalogue général des manuscrits des bibliothèques publiques de
+                                France. Départements. Tome 56. Bibliothèque de Colmar, Paris 1969,
+                                pp. 144–145.</bibl>
+                            <bibl>Lohr, “Aristotelica Gallica: Bibliothecae A-L”, pp. 250–251.</bibl>
+                            <bibl>Panzica, “News from fifteenth-century university philosophy”, pp.
+                                170–171.</bibl>
                         </listBibl>
                     </additional>
                 </msDesc>
@@ -4736,7 +4760,7 @@
                         <msItem xml:id="Heidelberg_UniversitätsbibliothekHeidelberg_CodSalVIII_QdA">
                             <locus from="1r" to="53r"/>
                             <title ref="#QdA">QdA</title>
-                            <note type="desc">Second item in the volume.</note>
+                            <note type="content">Second item in the volume.</note>
                         </msItem>
                     </msContents>
                     <history>
@@ -5602,7 +5626,7 @@
                                     <locus from="1r" to="12v" scheme="#unbound"/>
                                 </locusGrp>
                                 <title ref="#QsPor">QsPor</title>
-                                <note type="desc">These questions are preceded by two incunabula: 1.
+                                <note type="content">These questions are preceded by two incunabula: 1.
                                     Versoris’s Questions on the Ars nova and De ente et essentia; 2.
                                     Versoris’s Questions on the Ars vetus (Isagoge, Predicamenta, De
                                     interpretatione, De sex principiis) and followed by two
@@ -5725,7 +5749,7 @@
                         <msItem xml:id="Kraków_BibliotekaJagiellońska_cod1893_QsSE">
                             <locus from="254r" to="286v"/>
                             <title ref="#QsSE">QsSE</title>
-                            <note type="desc">The manuscript also contains Laurentius de Poznania’s
+                            <note type="content">The manuscript also contains Laurentius de Poznania’s
                                 literal commentaries on Aristotle’s Prior Analytics (ff. 1r–75r),
                                 Posterior Analytics (ff. 79r–135r), and De anima (ff. 148r–158r), as
                                 well as a fragment from his literal commentary on the Sophistical
@@ -5878,7 +5902,7 @@
                                 <title ref="questionID">Utrum elementa secundum se tota sint
                                     generabilia et corruptibilia </title>
                             </msItem>
-                            <note type="desc">
+                            <note type="content">
                                 <p>Versoris’s QdC I–II, IV are completed by some questions on Book
                                     III, copied without codicological discontinuity between Book II
                                     and Book IV of Versoris’s commentary. The questions are as
@@ -6872,10 +6896,10 @@
                             <locus from="92v" to="98r"/>
                             <title ref="#QdSom">QdSom</title>
                         </msItem>
-                        <msItem xml:id="Kraków_BibliotekaJagiellońska_cod2599_QdLon">
+                        <msItem xml:id="Kraków_BibliotekaJagiellońska_cod2599_QdLon" defective="true">
                             <locus from="98r"/>
                             <title ref="#QdLon">QdLon</title>
-                            <note type="desc">only the beginning of q. 1; ends interrupted after the
+                            <note type="condition">only the beginning of q. 1; ends interrupted after the
                                 oppositum, with the words: <q n="98r">Pro responsione est primo
                                     sciendum quod </q>
                             </note>
@@ -10090,7 +10114,7 @@
                     </msIdentifier>
                     <msContents>
                         <summary>
-                            <ab type="explicit_attribution" cert="0">The copyist ascribes the QsSen
+                            <ab type="explicit_attribution" subtype="spuria" cert="0">The copyist ascribes the QsSen
                                 to a certain Iohannes Parisiensis, called Spengen: <q n="77v"
                                     >Expliciunt questiones super libros De sensu et sensato secundum
                                     magistrum Iohannem Parisiensem, dictum Spengen, scripte a domino
@@ -10389,10 +10413,10 @@
                                 artium facultati, anno Domini millesimo quadrigentesimo quadragesimo
                                 sexto </colophon>
                         </msItem>
-                        <msItem xml:id="Paris_BnF_latin6455_QsE">
+                        <msItem xml:id="Paris_BnF_latin6455_QsE" defective="true">
                             <locus from="91v" to="169v"/>
                             <title ref="#QsE">QsE I–VI</title>
-                            <note type="desc">The QsE stops unfinished at f. 169v, question VI.7,
+                            <note type="condition">The QsE stops unfinished at f. 169v, question VI.7,
                                 Utrum synesis et gnomin sunt virtutes distincte adiuncte prudentie,
                                 with the words: <q n="169v">sciendum est tertio, pro ampliori</q>.
                             </note>
@@ -10452,10 +10476,9 @@
                             <ab type="explicit_attribution" cert="1">The text is ascribed to
                                 Versoris in a note on the upper margin of f. 152r, written by the
                                 copyist: <q n="152r marg-sup">Questiones Versoris super sex libros
-                                    Ethicorum</q>. <ref type="bibl" target="ID">Bénédicte Sère</ref>
+                                    Ethicorum</q>. Bénédicte Sère
                                 tentatively ascribes the Questions on the Ethics transmitted at ff.
-                                152r–215v to the master Wilhelm of Walma. However, <ref type="bibl"
-                                    target="ID">Gauthier</ref> attributes these Questions to
+                                152r–215v to the master Wilhelm of Walma. However, Gauthier attributes these Questions to
                                 Versoris, suggesting that Wilhelm of Walma merely used Versoris’s
                                 Questions for his lectures. </ab>
                         </summary>
@@ -10481,7 +10504,7 @@
                                     secunde, questio 26, articulo tertio. […]</q>, f. 215va; <q
                                     n="215vb">In octavo huius. Amicitia est benivolentia qua bonum
                                     alteri voluimus […] Amicitia propter honestum est perfecta</q>,
-                                f. 215vb. See <ref type="bibl" target="ID">Seńko</ref>, Repertorium,
+                                f. 215vb. See Seńko, Repertorium,
                                 vol. 1, p. 108–111. </note>
                             <incipit>Circa primum librum Ethicorum Aristotelis movetur talis questio
                                 primo, utrum de virtutibus moralibus sit scientia. Et arguitur primo
@@ -10560,7 +10583,7 @@
                             defective="true">
                             <locus from="1r" to="82v"/>
                             <title ref="#QsP">QsP</title>
-                            <note type="desc">Beginning at q.II.8 with the words <q n="1r">vel motus
+                            <note type="condition">Beginning at q.II.8 with the words <q n="1r">vel motus
                                     ad formam, sed est causa per accidens </q>
                             </note>
                             <note type="content">The beginning of the QsP is missing</note>
@@ -10571,10 +10594,10 @@
                             <title ref="#QdC">QdC</title>
                         </msItem>
                         <msItem
-                            xml:id="Pelplin_BibliotekaDiecezjalnaimBiskupaJanaBernardaSzlagiwPelplinie_23621_QdG">
+                            xml:id="Pelplin_BibliotekaDiecezjalnaimBiskupaJanaBernardaSzlagiwPelplinie_23621_QdG" defective="true">
                             <locus from="121r" to="140r"/>
                             <title ref="#QdG">QdG</title>
-                            <note type="desc">Some folios have been ripped</note>
+                            <note type="condition">Some folios have been ripped</note>
                         </msItem>
                         <msItem
                             xml:id="Pelplin_BibliotekaDiecezjalnaimBiskupaJanaBernardaSzlagiwPelplinie_23621_QdA">
@@ -10597,10 +10620,10 @@
                             <title ref="#QdMem">QdMem</title>
                         </msItem>
                         <msItem
-                            xml:id="Pelplin_BibliotekaDiecezjalnaimBiskupaJanaBernardaSzlagiwPelplinie_23621_QsSom">
+                            xml:id="Pelplin_BibliotekaDiecezjalnaimBiskupaJanaBernardaSzlagiwPelplinie_23621_QsSom" defective="true">
                             <locus from="241r" to="245v"/>
                             <title ref="#QdSom">QsSom</title>
-                            <note type="desc">It ends interrupted with the words <q n="245v">apparet
+                            <note type="condition">It ends interrupted with the words <q n="245v">apparet
                                     nobis sit vere </q>
                             </note>
                         </msItem>
@@ -12802,7 +12825,16 @@
                     </msIdentifier>
                     <msContents>
                         <summary>
-                            <ab type="explicit_attribution" cert="1"/>
+                            <ab type="explicit_attribution" cert="1">The Qdente are presented as
+                                having been “composed” by Versoris: <q n="115v">Explicit liber utilis
+                                    de ente et essentia compositus a magistro Iohanne Versoris supra
+                                    textum sancti Thome de Aquino ordinis predicatorum</q>, f. 115v.
+                                The CsPH and the QdA are transmitted anonymously, but notes specify
+                                their Parisian origin: <q n="25ra">Secundum est de predicamentis
+                                    Aristotelis, secundum lecturam parisiensem</q>, CsPH, f. 25ra;
+                                    <q n="251ra">Explicit tertius liber De anima secundum lecturam
+                                    parisiensem</q>, QdA, f. 251ra. The QsP are transmitted
+                                anonymously.</ab>
                         </summary>
                         <msItem xml:id="Siena_Intronati_HVI7_CsPH">
                             <locus from="1r" to="56r"/>
@@ -12813,33 +12845,33 @@
                                     non rende / non se l’abia amare se poverta lo prende</q>. After
                                 this list, we find a note on Albert the Great’s conception of
                                 universals: <q>nota, secundum Albertum, quod universale est triplex,
-                                    scilicet ante rem, post re et in re. Universale ante rem est
-                                    ipsa prima causa, comprehendens omnia tanta potentialiter in se
+                                    scilicet ante rem, post rem et in re. Universale ante rem est
+                                    ipsa prima causa, comprehendens omnia tota potentialiter in se
                                     ipsa; universale in re est ipsa natura communis induta aliqua
                                     materia et quantitate, particularizata in hoc et in hoc
-                                    subiecto; universale post rem est ipsa natura terminis denudata
-                                    a tali materia et quantitate subiecti que, postea apprehenditur
+                                    subiecto; universale post rem est ipsa natura termini denudata
+                                    a tali materia et quantitate subiecti, que, postquam apprehenditur
                                     ab intellectu per conceptum generis et speciei, habet formare de
                                     ipso qui postea conceptus, iunctis primis vocatur ‘secunda
                                     intentio’. Nota etiam: universale habet duplex esse, scilicet
                                     formale et materiale. Esse formale et obiective est quando habet
                                     esse in intellectu tantum; esse materiale et fundamentale est
-                                    esse in suius singularibus</q>. </note>
+                                    esse in suis singularibus</q>. </note>
                             <colophon><locus from="25ra"/>Et sic est finis Antepredicamentorum
-                                Aristotelis secundum lecturam parisiensem scriptam per me, <persName
+                                Aristotelis secundum lecturam parisiensem, scriptum per me, <persName
                                     ref="#PetrusIohannesBalbi">fratrem Petrum Iohannem Balbum Ianuensem
-                                </persName> [scripsit: Ianuenses, sed correx.], ordinis
-                                predicatorum, in die Epiphanie, <date when="1458"
+                                </persName> [correx. ex Ianuenses], ordinis
+                                Predicatorum, in die Epiphanie, <date when="1458"
                                     >M°CCCC°LVIII°</date>, hora XVIII </colophon>
                             <note type="content">On f. 56rb, a short sentence schematically
                                 represents the Aristotelian categories: <q>Aristoteles (sup. lin.:
                                     id est, substantia), magnus (quantitas), Philosophus (qualitas),
                                     Sifronici filius (relatio), disputando (actio), fatigatus
-                                    (passio), in scolis (ubi), hodie (quando), sedet (situatus)
+                                    (passio), in scolis (ubi), hodie (quando), sedet (situatus),
                                     coronatus (habitus)</q>. </note>
                             <note type="attribution">Transmitted anonymously, but the colophon at f.
                                 25ra specifies its Parisian origin. Versoris’s
-                                QsPH<!-- is this correct or a typo for CsPH? --> are not identified
+                                CsPH are not identified
                                 in <bibl corresp="ID">Meirinhos, Bibliotheca, 399-400</bibl>.
                             </note>
                         </msItem>
@@ -12855,33 +12887,34 @@
                             <explicit>secundum predictam deffendi possunt</explicit>
                         </msItem>
                         <msItem xml:id="Siena_Intronati_HVI7_QsApos">
-                            <locus from="65v" to="93r"/>
+                            <locus from="66r" to="93r"/>
+                            <author>Richaldus de Bovilla</author>
                             <title ref="#QsPos">QsApos</title>
-                            <incipit>Circa primum librum Posteriorum Aristotilis movetur question
-                                talis, que est in forma talis, videlicet utrum de demonstration sit
+                            <incipit>Circa primum librum Posteriorum Aristotilis movetur questio
+                                talis, que est in forma talis, videlicet utrum de demonstratione sit
                                 scientia tamquam de subiecto huius libri Posteriorum. Et arguitur
                                 primo quod non contra primum punctum tituli questionis, quia
-                                scientia est ingenerabilium et incorruptibilium, sed demonstrations
-                                sunt generabils est corruptibiles </incipit>
+                                scientia est ingenerabilium et incorruptibilium, sed demonstrationes
+                                sunt generabiles et corruptibiles </incipit>
                             <colophon><locus from="65v"/>Questiones sequentes super libro
                                 Posteriorum fuerunt composite per reverendum <persName ref="ID"
                                     >magistrum Richaldum de Bovillia </persName> ordinis
                                 predicatorum, artium et theologie doctorem </colophon>
-                            <colophon><locus from="87"/>Et hec sufficiant de isto primo libro
+                            <colophon><locus from="87r"/>Et hec sufficiant de isto primo libro
                                 Posteriorum, quem composuit <persName ref="ID">magister Richaldus de
-                                    Bovilla</persName>, artium doctor eggregius [sic] et scripsit
-                                eum <persName ref="#PetrusIohannesBalbi">fratrer Petrus Iohannes Balbus </persName>
+                                    Bovilla</persName>, artium doctor egregius [sic], et scripsit
+                                eum <persName ref="#PetrusIohannesBalbi">frater Petrus Iohannes Balbus </persName>
                                 ordinis predicatorum cum magna festinatione, <date when="1458"
                                     >M°CCCC°LVIII°</date>, die XXI° Iunii, hora decima, cui domino
                                 sit merces hic per gratiam et in futuro per gloriam. Amen, in
                                 conventu nostro Papiensi </colophon>
-                            <colophon><locus from="93"/>Et hec de questione, et per consequens de
+                            <colophon><locus from="93r"/>Et hec de questione, et per consequens de
                                 toto libro primo Posteriorum et secundo, lectis a <persName ref="ID"
                                     >magistro Richaldo de Bovilla</persName>, regente in facultate
                                 artium studii <placeName ref="placeID"
                                     >Dolanensis<!-- The University of Dole was founded in 1422 --></placeName>
                                 procuratorisque eiusdem </colophon>
-                            <note type="attribution">The introduction and the colophon of book I
+                            <note type="attribution" subtype="spuria">The introduction and the colophon of book I
                                 qualifie them as “composed” (<q>composite</q>) by the <persName
                                     ref="ID">master Richaldus de Bovilla</persName>. They are
                                 presented as “thaught” (<q>lecte</q>) by this master in the colophon
@@ -12893,15 +12926,15 @@
                             <locus from="93rb" to="98vb"/>
                             <title ref="#nonVersoris">de demonstratione secundum sanctum
                                 Thomam</title>
-                            <note type="desc">Treatise on demonstration</note>
                             <incipit>restat nunc dicere de demonstratione, cum enim scientia sit
                                 habitus conclusionis demonstate acquisitus ex ipsius speculatione
                             </incipit>
                         </msItem>
                         <msItem xml:id="Siena_Intronati_HVI7_tractatusReali">
                             <locus from="99ra" to="100rb"/>
+                            <author>Stephanus de Reate</author>
                             <title ref="#nonVersoris">Incipit tractatus de reali et ente rationis
-                                secundum sacntum Thomam de Aquino ordinis predicatorum </title>
+                                secundum sanctum Thomam de Aquino ordinis predicatorum </title>
                             <incipit>Ut scias quid sit ens rationis et quid ens reale</incipit>
                         </msItem>
                         <msItem xml:id="Siena_Intronati_HVI7_Qdente">
@@ -12917,7 +12950,7 @@
                         <msItem xml:id="Siena_Intronati_HVI7_QsP">
                             <locus from="116r" to="193r"/>
                             <title ref="#QsP">QsP I-VI</title>
-                            <note type="content">At the end of book VII of the QsP, the scribe wrote
+                            <note type="content">At the end of book VI of the QsP, the scribe wrote
                                 that no copy of books VII-VIII was available to him: <q>Et hec de
                                     questione, et per consequens de libro sexto Phisicorum finis
                                     omnibus. Et notetis quod non scribo alios duos libros, scilicet
@@ -12929,47 +12962,56 @@
                         <msItem xml:id="Siena_Intronati_HVI7_QdA">
                             <locus from="209r" to="251r"/>
                             <title ref="#QdA">QdA</title>
-                            <colophon><locus from="238va"/>Et sic est finis secundi libri De anima
-                                [erasit: per me <persName ref="#FranciscusDeRipaDeMediolano">fratrem Francischum de
-                                    Rippa</persName>] ordinis predicatorum [erasit: conventus
-                                Mediolani, in secunda] die mensis octobris </colophon>
+                            <colophon><locus from="238va"/>Et sic est finis secundi libri De anima in …
+                                [erasum: per me, <persName ref="#FranciscusDeRipaDeMediolano">fratrem Francischum de
+                                    Rippa</persName>] ordinis Predicatorum [erasum: conventus
+                                Mediolani, in scola] die mensis octobris </colophon>
                             <colophon><locus from="251ra"/>Explicit tertius liber De anima secundum
-                                lecturam parisiensem, scripte [erasit: a me, <persName ref="#FranciscusDeRipaDeMediolano"
-                                    >fratre Francischo de Rippa</persName>, ordinis] predicatorum
-                                [erasit: conventus] Mediolani, provincie Lombardie ??] studente ibi
-                                ?? decima mensis octobris </colophon>
+                                lecturam parisiensem, scriptus [erasum: a me, <persName ref="#FranciscusDeRipaDeMediolano"
+                                    >fratre Francischo de Rippa</persName>, ordinis] Predicatorum
+                                [erasum: conventus Mediolani], provincie Lombardie [erasum: in monte
+                                Pessulano] studente in … decima mensis octobris </colophon>
                             <note type="attribution">Transmitted anonymously, but the colophon at f.
                                 251ra specifies its Parisian origin. </note>
+                        </msItem>
+                        <msItem xml:id="Siena_Intronati_HVI7_ToC">
+                            <locus from="251ra" to="251vb"/>
+                            <note type="content">ff. 251ra–vb contain a table of questions of the
+                                QdA.</note>
                         </msItem>
                     </msContents>
                     <history>
                         <origin>
                             <origDate from="1458" to="1458">1458</origDate>
-                            <p>Composite manuscript, copied in the Dominican convents of Pavia and
-                                Milan, as evident from the colophons of the friars <persName
-                                    ref="#PetrusIohannesBalbi">Petrus Iohannes Balbus </persName> (<ref
-                                    target="#Siena_Intronati_H-VI-7_CsPH">f.25ra</ref>) and
-                                    <persName ref="#FranciscusDeRipaDeMediolano">Franciscus de Rippa</persName> (<ref
-                                    target="#Siena_Intronati_H-VI-7_QdA">f.238va</ref> and <ref
-                                    target="#Siena_Intronati_H-VI-7_QdA">f.251ra</ref>). These
-                                colophons are difficult to read because some important information
-                                about the scribes and the location of the copy has been erased. </p>
+                            <p>This is a miscellaneous manuscript of Dominican origin, some parts of
+                                which were copied by the friar <persName
+                                    ref="#FranciscusDeRipaDeMediolano">Franciscus de Rippa</persName>, from the convent of Milan,
+                                while studying at the convent of Montpellier (<q n="NA">in monte
+                                    Pessulano</q>), and others by the friar <persName
+                                    ref="#PetrusIohannesBalbi">Petrus Iohannes Balbus </persName> in
+                                Pavia. Some of the colophons contain rich information concerning the
+                                scribes and the place of copying but are difficult to read because
+                                they have been erased: <ref
+                                    target="#Siena_Intronati_HVI7_CsPH">f. 25ra</ref>, <ref
+                                    target="#Siena_Intronati_HVI7_QdA">f. 238va</ref> and <ref
+                                    target="#Siena_Intronati_HVI7_QdA">f. 251ra</ref>. </p>
                             <p>The Dominican provenance of the codex is confirmed by the
                                 illumination at the beginning of the second treatise of the
                                 commentary on Petrus Hispanus (f. 2r), where St. Dominic is
-                                portrayed with a black mantle and a white tunic. </p>
+                                portrayed with a black mantle and a white tunic, as well as by the
+                                presence of works by Dominican authors (see below, Content). </p>
                             <p>Most of the texts in this manuscript are of Parisian origin.</p>
                             <p>For the Italian didactic context of the confection of the volume, see
-                                    <ref target="#Siena_Intronati_H-VI-7_CsPH">f.1v</ref>. </p>
+                                    <ref target="#Siena_Intronati_HVI7_CsPH">f. 1v</ref>. </p>
                             <p>The possession mark, on a piece of parchment from the original lost
                                 guard, states that the part of the volume containing the logical
                                 commentaries belonged to Petrus Iohannes Balbus, who copied it in
-                                1458: <q>Hoc commentum super artem veterem et philosofiam est mei,
+                                1458: <q n="NA">Hoc commentum super artem veterem et philosphiam est mei,
                                         <persName ref="#PetrusIohannesBalbi">fratris Petri Iohannis Balbi Ianuensis
                                     </persName> ordinis Predicatorum, quod scripsi in diversis
-                                    temporibus et ipsum finivi anno Domini M°CCCCLVIII° die Va
+                                    temporibus et ipsum finivi anno Domini M°CCCCLVIII° die quinta
                                     iulii. Et omnia que in ipso continentur fuerunt extracta a
-                                    libello valde incorrepto </q> . On other old fragments, now
+                                    libello valde incorrecto </q> . On other old fragments, now
                                 pasted on the inner front cover, we read: <q>Iohannis Balbi.
                                         <supplied>C</supplied>ommentum supra
                                         philos<supplied>ophiam</supplied> Aristotelis </q> ;
@@ -12977,10 +13019,7 @@
                                         <supplied>phi</supplied>losophiam
                                     <supplied>Iohan</supplied>nis Balbi <supplied>fra</supplied>tris
                                     ordinis predicatorum. [a. m.] 1458 </q> . </p>
-                            <p>The <watermark>watermark</watermark>, a flower, is similar to <ref
-                                    target="biblID" type="bibl">Piccard XII, II 967 </ref> (Pavia,
-                                1448). </p>
-                            <origPlace>Milan, Dominican convent</origPlace>
+                            <origPlace>Montpellier, Dominican convent</origPlace>
                             <origPlace>Pavia, Dominican convent</origPlace>
                         </origin>
                     </history>
