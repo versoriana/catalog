@@ -11315,6 +11315,11 @@
                                     were also copied at the Reczek College and used by <persName
                                         ref="#StanislausDeVelvary">Stanislaus de Velvary</persName>
                                     for teaching. </p>
+                                <p><ref target="#Praha_NK_VE12" type="ms">Praha, NK, V E 12</ref>,
+                                    and <ref target="#SanktFlorian_SSF_XI626" type="ms">Sankt
+                                        Florian, Augustiner-Chorherrenstift, XI 626</ref>, in which
+                                    the term <q n="NA">resumptio</q> also occurs, probably referring
+                                    to an academic exercise at the Faculty of Arts. </p>
                             </note>
                         </origin>
                     </history>
@@ -12564,6 +12569,14 @@
                                 <p><ref target="#Wien_Dominikanerkonvent_Cod149119" type="ms">Wien,
                                         Dominikanerkonvent, Cod. 149/119</ref>, bought by Martinus
                                     de Glatovia. </p>
+                                <p><ref target="#Kraków_BibliotekaJagiellońska_cod2599" type="ms"
+                                        >Kraków, Biblioteka Jagiellońska, cod. 2599</ref>; <ref
+                                        target="#Wien_ÖNB_cod2335" type="ms">Wien, Österreichische
+                                        Nationalbibliothek, cod. 2335</ref>; and <ref
+                                        target="#Wien_ONB_Cod5214" type="ms">Wien, Österreichische
+                                        Nationalbibliothek, Cod. 5214</ref>, which also contain
+                                        <watermark>a cross watermark similar to specimina attested
+                                        in Bavaria in 1457 (Briquet 5550; Piccard II 473)</watermark>. </p>
                             </note>
                         </origin>
                     </history>
@@ -12679,6 +12692,16 @@
                                 attested by the numerous colophons. Dating attested by the numerous
                                 colophons providing rich information on the place, date and identity
                                 of the copyist. </p>
+                            <note type="msRelationship">
+                                <p><ref target="#Madrid_BibliotecaNacionaldeEspaña_Ms9018" type="ms"
+                                        >Madrid, Biblioteca nacional, ms. 9018</ref>, which also
+                                    contains the formula: <q n="143rb">Scribere qui nescit nullum
+                                        putat esse labore. Tres digiti scribunt, cetera membra
+                                        dolent</q> (f. 143rb). </p>
+                                <p>Oxford, Bodleian Library, Canon. Misc. 486, which also contains
+                                    the formula <q n="66vb">Heu male finivi, quia non bene scribere
+                                        scivi</q> (f. 66vb). </p>
+                            </note>
                         </origin>
                         <provenance>
                             <p>On a guard-leaf pasted to the inner front cover we read: "Abbatis",
@@ -14605,6 +14628,13 @@
                                 <p><ref target="#ElEscorial_BibliotecaReal_MII1" type="ms">El
                                         Escorial, Biblioteca Real, M II 1</ref>, which contains the
                                     same cart watermark. </p>
+                                <p><ref
+                                        target="#Barcelona_ArchivodelaCoronadeAragónSantCugat_cod75"
+                                        type="ms">Barcelona, Archivo de la Corona de Aragón, Sant
+                                        Cugat, cod. 75</ref>; and <ref target="#Pamplona_BCCP_Ms24"
+                                        type="ms">Pamplona, Biblioteca Capitular de la Catedral de
+                                        Pamplona, Ms. 24</ref>, which contain similar <watermark
+                                        >cart watermarks</watermark>. </p>
                             </note>
                         </origin>
                         <provenance>
@@ -14976,9 +15006,11 @@
                                         ref="#StanislausDeVelvary">Stanislaus de Velvary</persName>
                                     for teaching. </p>
                                 <p><ref target="#LawrenceKA_KennethSpencerLibrary_MSC210" type="ms"
-                                        >Lawrence (KA), Kenneth Spencer Library, MS C 210</ref> and
-                                        <ref target="#Vodnany_MMG_G11R" type="ms">Vodňany, Městské
-                                        muzeuma galerie Vodňany, G 11 R</ref>, also copied in Prague
+                                        >Lawrence (KA), Kenneth Spencer Library, MS C 210</ref>;
+                                        <ref target="#Praha_KMK_L37" type="ms">Praha, KMK, L
+                                        37</ref>; and <ref target="#Vodnany_MMG_G11R" type="ms"
+                                        >Vodňany, Městské muzeuma galerie Vodňany, G 11 R</ref>,
+                                    also copied in Prague
                                     around the same time, in which the texts are presented as
                                     "Parisian glosses". </p>
                             </note>
