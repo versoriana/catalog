@@ -592,10 +592,7 @@
                   in 1463 and joined the Augustinian canonry in Třeboň (Wittingau in German).</note>
                <affiliation subtype="OESA" type="religiousOrder">Augustinian</affiliation>
                <occupation role="scr fmo" ref="#Praha-NK-I-E-38"/>
-               <occupation role="scr fmo" ref="#IF25"/>
-               <listBibl>
-                  <bibl/>
-               </listBibl>
+               <occupation role="scr fmo" ref="#IF25"/>               
             </person>
 
             <person xml:id="DonatusKlugeDeRosswein">
