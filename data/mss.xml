@@ -345,10 +345,10 @@
                             <title ref="#QdG">QdG</title>
                         </msItem>
                         <msItem
-                            xml:id="AmiensBibliothèqueLouisAragonBibliothèquemunicipale_402_QsMete">
+                            xml:id="AmiensBibliothèqueLouisAragonBibliothèquemunicipale_402_QsMete" defective="true">
                             <locus from="189ra" to="203vb"/>
                             <title ref="#QsMete">QsMete</title>
-                            <note type="content">The QsMete is interrupted at question II.1. They
+                            <note type="condition">The QsMete is interrupted at question II.1. They
                                 are followed by nineteen blank numbered leaves, after which the QdA
                                 begin. </note>
                         </msItem>
@@ -618,10 +618,10 @@
                         <summary>
                             <ab type="explicit_attribution" cert="0">none</ab>
                         </summary>
-                        <msItem xml:id="Augsburg_StaatsundStadtbibliothekAugsburg_2Cod146_QsP">
+                        <msItem xml:id="Augsburg_StaatsundStadtbibliothekAugsburg_2Cod146_QsP" defective="true">
                             <locus from="1r" to="52v"/>
                             <title ref="#QsP">QsP</title>
-                            <note type="content">interrupted at Book II</note>
+                            <note type="condition">interrupted at Book II</note>
                         </msItem>
                     </msContents>
                     <history>
@@ -993,7 +993,7 @@
                         <msItem xml:id="Barcelona_ArxiudelaCoronadAragóSanCugat_cod82_CsPH" defective="true">
                             <locus from="1r" to="156r"/>
                             <title ref="#CsPH">CsPH</title>
-                            <note type="content">Acephalous and unfinished.</note>
+                            <note type="condition">Acephalous and unfinished.</note>
                         </msItem>
                     </msContents>
                     <history>
@@ -1805,13 +1805,8 @@
                             <bibl>Schmidt, "Die Bibliothek", p. 238, n. 445.</bibl>
                             <bibl>Kristeller, Iter V, 67a.</bibl>
                             <bibl>Lohr, Aristotelica Helvetica, 60–61.</bibl>
-                            <bibl>
-                                <note type="biblio">not mentioned in Scarpatetti, Bücherliebe.
-                                </note>
-                            </bibl>
-                            <bibl>
-                                <note type="biblio">not in Green-Pedersen.</note>
-                            </bibl>
+                            <bibl>Not mentioned in Scarpatetti, Bücherliebe.</bibl>
+                            <bibl>Not in Green-Pedersen.</bibl>
                         </listBibl>
                     </additional>
                 </msDesc>
@@ -1915,10 +1910,7 @@
                             <bibl>Meirinhos, Bibliotheca manuscripta, 27–28. <note type="biblio"
                                     >(ascribed to Guillelmus de Curis) </note>
                             </bibl>
-                            <bibl>
-                                <note type="biblio">not mentioned in Scarpatetti, Bücherliebe.
-                                </note>
-                            </bibl>
+                            <bibl>Not mentioned in Scarpatetti, Bücherliebe.</bibl>
                         </listBibl>
                     </additional>
                 </msDesc>
@@ -2048,10 +2040,10 @@
                             <locus from="69vb" to="91va"/>
                             <title ref="#Qdint">QsInt</title>
                         </msItem>
-                        <msItem xml:id="Basel_UB_FVI4_QsPos">
+                        <msItem xml:id="Basel_UB_FVI4_QsPos" defective="true">
                             <locus from="92r" to="113r"/>
                             <title ref="#QsPos">QsPos</title>
-                            <note type="content">The last 14 questions of the first book are
+                            <note type="condition">The last 14 questions of the first book are
                                 missing. </note>
                         </msItem>
                         <msItem xml:id="Basel_UB_FVI4_Qdente">
@@ -2768,9 +2760,7 @@
                             </recordHist>
                         </adminInfo>
                         <listBibl>
-                            <bibl>
-                                <note type="biblio">The manuscript has never been described. </note>
-                            </bibl>
+                            <bibl>The manuscript has never been described.</bibl>
                         </listBibl>
                     </additional>
                 </msDesc>
@@ -4461,7 +4451,7 @@
                         <summary>
                             <ab type="explicit_attribution" cert="0">none</ab>
                         </summary>
-                        <msItem xml:id="Gotha_ForschungsbibliothekGotha_ChartA775_QsE">
+                        <msItem xml:id="Gotha_ForschungsbibliothekGotha_ChartA775_QsE" defective="true">
                             <locusGrp>
                                 <locus from="1ra" to="107vb"/>
                                 <locus from="182ra" to="193rb"/>
@@ -4469,7 +4459,7 @@
                             <title ref="#QsE">QsE</title>
                             <colophon><locus from="193rb"/>In vigilia nativitatis Marie virginis,
                                 anno IIII etc. LX quinto </colophon>
-                            <note type="content">The beginning is missing due to the loss of a leaf.
+                            <note type="condition">The beginning is missing due to the loss of a leaf.
                                 The text begins at q. I.2 with the words <q n="1ra">omnis ars et
                                     doctrina, actus et electio appetent bonum</q>. </note>
                         </msItem>
@@ -5110,10 +5100,7 @@
                                 book IV of the Sentences, and the incunable of the Vocabularius
                                 utriusque iuris, the codex also contains a set of anonymous QsY (ff.
                                 279r-284r) which closely follow Bartholemy of Bruges’s commentary
-                                    <note type="biblio">Flüeler, Rezeption und Interpretation der
-                                    Aristotelischen Politica, vol. 2, p. 89 and p. 178-179 (list of
-                                    questions). </note>
-                            </ab>
+                                    </ab>
                         </summary>
                         <msItem xml:id="Köln_BibliothekStAlbertusMagnus_MS11_LandulphusCaracciolo">
                             <locus from="1r" to="86r"/>
@@ -5129,7 +5116,7 @@
                         <msItem xml:id="Köln_BibliothekStAlbertusMagnus_MS11_VocabulariusIuris">
                             <locus from="92r" to="276v"/>
                             <title ref="#nonVersoris">Vocabularius utriusque iuris</title>
-                            <note type="desc">Printed in Cologne in 1483.</note>
+                            <note type="content">Printed in Cologne in 1483.</note>
                         </msItem>
                         <msItem xml:id="Köln_BibliothekStAlbertusMagnus_MS11_Anon">
                             <locus from="279r" to="284r"/>
@@ -5289,7 +5276,7 @@
                             <locus from="158r" to="212r"/>
                             <author>Petrus de Bergamo</author>
                             <title ref="#nonVersoris">Concordantiae</title>
-                            <note>Printed in Cologne in 1480</note>
+                            <note type="content">Printed in Cologne in 1480</note>
                         </msItem>
                         <msItem
                             xml:id="Köln_HistorischesArchivderStadtKölnRheinischemBildarchiv_Best7002GBfol200_GerardMonteConcordantie">
@@ -5405,9 +5392,7 @@
                                 Latinorum, qui in Bibliotheca Jagellonica Cracoviae asservantur.
                                 Vol. III, Numeros continens inde a 445 usque ad 563, Wratislaviae,
                                 1984, 142–146. </bibl>
-                            <bibl>
-                                <note type="biblio">not in Markowski</note>
-                            </bibl>
+                            <bibl>Not in Markowski.</bibl>
                         </listBibl>
                     </additional>
                 </msDesc>
@@ -5591,7 +5576,7 @@
                                 <locus from="1r" to="128r"/>
                                 <title ref="#ArsNova">Questions on the Ars nova; De ente et
                                     essentia</title>
-                                <note>Printed in Cologne by Heinrich Quentell before 1489</note>
+                                <note type="content">Printed in Cologne by Heinrich Quentell before 1489</note>
                             </msItem>
                             <!-- Incunabulum 2: Versoris on Ars vetus -->
                             <msItem xml:id="Kraków_BJ_908_Inc2">
@@ -5601,7 +5586,7 @@
                                 </locusGrp>
                                 <title ref="#ArsVetus">Questions on the Ars vetus (Isagoge,
                                     Predicamenta, De interpretatione, De sex principiis) </title>
-                                <note>Printed in Cologne around 1487</note>
+                                <note type="content">Printed in Cologne around 1487</note>
                             </msItem>
                         </msContents>
                         <additional>
@@ -6128,7 +6113,7 @@
                             <note type="content">These commentaries are preceded by two anonymous
                                 sets of questions on Aristotle’s De anima (ff. 2r–81v and ff.
                                 82r–111r). A set of Problemata (ff. 188r–218r) completes the volume. </note>
-                            <note type="desc">Versoris’s commentaries are accompanied by quite dense
+                            <note type="content">Versoris’s commentaries are accompanied by quite dense
                                 marginal glosses. </note>
                         </msItem>
                         <msItem xml:id="Kraków_BibliotekaJagiellońska_cod2016_QdMem">
@@ -6204,7 +6189,7 @@
                         <msItem xml:id="Kraków_BibliotekaJagiellońska_cod2018_QsE">
                             <locus from="1r" to="186r"/>
                             <title ref="#QsE">QsE I–X</title>
-                            <note type="desc">The commentary is accompanied by marginal notes in
+                            <note type="content">The commentary is accompanied by marginal notes in
                                 hands different from that of the main text. </note>
                             <colophon><locus from="186r"/>Finitus anno Domini 1469, per fratrem
                                 Johannem comparatus </colophon>
@@ -6387,14 +6372,19 @@
                         <msItem xml:id="Kraków_BibliotekaJagiellońska_cod2072_QsSom">
                             <locus from="157va" to="163vb"/>
                             <title ref="#QdSom">QsSom</title>
-                            <note type="content">The QdLong is announced at the end of the QsSom (<q
-                                    n="NA">Sequitur de longitudine et brevitate vite tractatus
-                                    Aristotelis</q>) but is missing from the manuscript. </note>
                         </msItem>
-                        <msItem xml:id="Kraków_BibliotekaJagiellońska_cod2072_QsE">
+                        <msItem xml:id="Kraków_BibliotekaJagiellońska_cod2072_QdLon" defective="true">
+                            <locus/>
+                            <title ref="#QdLon">QdLon</title>
+                            <note type="condition">The QdLon are announced at the end of the QdSom
+                                (ff. 157va–163vb): <q n="163vb">Sequitur de longitudine et brevitate
+                                    vite tractatus Aristotelis</q>, but are missing from the
+                                manuscript. </note>
+                        </msItem>
+                        <msItem xml:id="Kraków_BibliotekaJagiellońska_cod2072_QsE" defective="true">
                             <locus from="208r" to="230r"/>
                             <title ref="#QsE">QsE</title>
-                            <note type="content">Only part of the QsE is transmitted; the copy
+                            <note type="condition">Only part of the QsE is transmitted; the copy
                                 breaks off unfinished at question VII.8 (Utrum perseverantia sit
                                 virtus), ending with the words: <q n="230ra">aliquis ratione
                                     perseverans est laudabilior, ergo perseverantia non est virtus
@@ -6711,11 +6701,11 @@
                             <author>Anonymus</author>
                             <title ref="#QsPre">QsPred</title>
                         </msItem>
-                        <msItem xml:id="Kraków_BibliotekaJagiellońska_cod2118_QdInt_Anon2">
+                        <msItem xml:id="Kraków_BibliotekaJagiellońska_cod2118_QdInt_Anon2" defective="true">
                             <locus from="357v" to="358v"/>
                             <author>Anonymus</author>
                             <title ref="#Qdint">QdInt</title>
-                            <note type="content">Fragment</note>
+                            <note type="condition">Fragment</note>
                         </msItem>
                     </msContents>
                     <history>
@@ -6742,8 +6732,7 @@
                                     Thomas de Kamencz; 1. Andreas de Glogovia; 3. Troyanus de
                                     Chmyelow. Numerus autem scriptus penes eorum designat numerum
                                     eundem, qui fuit inter eos in examinare</q>. All these students
-                                attended the Kraków Arts Faculty between 1471 and 1474. <note
-                                    type="biblio">Album studiosorum, I, 204-216.</note>
+                                attended the Kraków Arts Faculty between 1471 and 1474. <bibl>Album studiosorum, I, 204–216.</bibl>
                             </p>
                             <p>On the inner back cover Paul of Warsaw recorded the classes he
                                 attended and the masters who taught them: <q n="inner-back-cover"
@@ -6760,8 +6749,7 @@
                                     Iohanne de Lublin, hyemali a magistro Andrea de Labyschyn;
                                     Yconomicorum, De causis, a magistro Martino de Cracovia,
                                     hyemali</q>. All these masters are documented as teaching at the
-                                Kraków Arts Faculty between 1470 and 1474. <note type="biblio"
-                                    >Statuta, 57-77.</note>
+                                Kraków Arts Faculty between 1470 and 1474. <bibl>Statuta, 57–77.</bibl>
                             </p>
                             <p>On f. 209r appears another possession mark: <q n="209r">Andreas istum
                                     librum comparavit, infra caniculam, de Lonczycza</q>. At f. 1r
@@ -7637,10 +7625,10 @@
                         <summary>
                             <ab type="explicit_attribution" cert="0">No</ab>
                         </summary>
-                        <msItem xml:id="Liège_Bibliothèqueuniversitaire_QsE">
+                        <msItem xml:id="Liège_Bibliothèqueuniversitaire_QsE" defective="true">
                             <locus from="85ra" to="132rb"/>
                             <title ref="#QsE">QsE I-VI</title>
-                            <note type="content">The QsE are interrupted at the beginning of the
+                            <note type="condition">The QsE are interrupted at the beginning of the
                                 response to question VI.3 (Utrum ars et prudentia sint duae virtutes
                                 ab invicem et ab aliis distinctae), with the words: <q n="NA">non
                                     considerantur contingere</q>. </note>
@@ -7659,10 +7647,10 @@
                             <explicit>et sic concluditur quod malum in ratione mali est infinitum
                             </explicit>
                         </msItem>
-                        <msItem xml:id="Liège_Bibliothèqueuniversitaire_QsMeta">
+                        <msItem xml:id="Liège_Bibliothèqueuniversitaire_QsMeta" defective="true">
                             <locus from="161ra" to="207ra"/>
                             <title ref="#QsMeta">QsMeta I-VI</title>
-                            <note type="content">The QsMeta break off at question VI.2 (Utrum de
+                            <note type="condition">The QsMeta break off at question VI.2 (Utrum de
                                 ente per accidens sit scientia), with the words: <q n="NA">et non
                                     semper sequitur quod deficit ut in paucioribus et</q>. </note>
                             <note type="content">The manuscript also contains texts stemming from
@@ -7941,10 +7929,10 @@
                                 one questio can also correspond to two lections (for example, at f.
                                 42ra, <q n="42ra">lectio 12 et 13</q>). </ab>
                         </summary>
-                        <msItem xml:id="Madrid_BibliotecaNacionaldeEspaña_Ms9018_QsP">
+                        <msItem xml:id="Madrid_BibliotecaNacionaldeEspaña_Ms9018_QsP" defective="true">
                             <locus from="1r" to="56v"/>
                             <title ref="#QsP">QsP</title>
-                            <note type="content">Beginning acephalously with the final lines of
+                            <note type="condition">Beginning acephalously with the final lines of
                                 question I.2. </note>
                         </msItem>
                         <msItem xml:id="Madrid_BibliotecaNacionaldeEspaña_Ms9018_QdC">
@@ -8936,7 +8924,7 @@
                                 but reworkings containing parts of Versoris's questions with extra
                                 materials, such as literal commentaries on the same texts. </ab>
                         </summary>
-                        <msItem xml:id="München_BSB_Clm14088_CsPH">
+                        <msItem xml:id="München_BSB_Clm14088_CsPH" defective="true">
                             <locus from="1ra" to="113rb"/>
                             <title ref="#CsPH">CsPH</title>
                             <colophon n="book I"><locus from="28va"/>Et tantum de primo tractatu,
@@ -8947,7 +8935,7 @@
                             <colophon><locus from="40rb"/>Anno etc. 1478, in profesto sancti Albani
                                 martiris, a baccalaureo Iohanne Scherding mee parvitati transmissa,
                                 etc. </colophon>
-                            <note type="content">Book III of CsPH, announced in the colophon of Book
+                            <note type="condition">Book III of CsPH, announced in the colophon of Book
                                 II (<q n="39rb">Et tantum de predicabilibus et secundo tractatu;
                                     sequitur nunc tertius de predicamentis tractans</q>), is
                                 missing. In its place, the same hand copied a question: <q n="39va"
@@ -8955,7 +8943,7 @@
                                     ydemptitate reali possit stare distinctio ex natura rei aut
                                     formalis </q> (ff. 39va–40rb). After some blank leaves,
                                 Versoris's commentary resumes with Book IV. </note>
-                            <note type="content">Book VI of CsPH is missing. In its place, another
+                            <note type="condition">Book VI of CsPH is missing. In its place, another
                                 text was copied (inc.: <q n="NA">Circa puritates loye prima michi
                                     occurrit suppositio de qua per ordinem quatuor investigabo.
                                     Primum: &lt;utrum&gt; scientiae libri suppositionum sit
@@ -9185,14 +9173,14 @@
                                 text of Peter of Spain’s Summule, which is copied in larger
                                 characters with increased interlinear spacing. </ab>
                         </summary>
-                        <msItem xml:id="München_BSB_Clm14518_CsPH">
+                        <msItem xml:id="München_BSB_Clm14518_CsPH" defective="true">
                             <locus from="16r" to="274v"/>
                             <title ref="#CsPH">CsPH</title>
                             <colophon n="book IV"><locus from="181v"/>frater Henricus ordinis divi
                                 Benedicti </colophon>
                             <colophon n="final"><locus from="274v"/>Heinricus Erlbach, tunc temporis
                                 scolaris veteris cappelle Ratisbonensis </colophon>
-                            <note type="content">Book I ends unfinished on f. 62v with the treatment
+                            <note type="condition">Book I ends unfinished on f. 62v with the treatment
                                 of modal propositions (<q n="62v">bene variantur specie accidentali
                                     et ex parte affirmationis et negationis</q>). The scribe wrote
                                 afterwards: <q n="62v">require in fine libri †</q>. Book VII is
@@ -9358,10 +9346,10 @@
                             <ab type="explicit_attribution" cert="0">none</ab>
                         </summary>
                         <msItem
-                            xml:id="München_LudwigMaximiliansUniversitätMünchenUniversitätsbibliothek_2Codms568_QsP">
+                            xml:id="München_LudwigMaximiliansUniversitätMünchenUniversitätsbibliothek_2Codms568_QsP" defective="true">
                             <locus from="1r" to="92r"/>
                             <title ref="#QsP">QsP</title>
-                            <note type="content">Ending interrupted at the question Utrum omne quod
+                            <note type="condition">Ending interrupted at the question Utrum omne quod
                                 reflectitur in puncto necesse sit quiescere </note>
                         </msItem>
                         <msItem
@@ -9700,11 +9688,11 @@
                             xml:id="Nürnberg_StadtbibliothekimBildungscampusNürnberg_CentV47_QsMeta">
                             <locus from="86ra" to="155vb"/>
                             <title ref="#QsMeta">QsMeta</title>
-                            <note type="desc">The <title ref="#QsMeta">QsMeta</title> are preceded
+                            <note type="content">The <title ref="#QsMeta">QsMeta</title> are preceded
                                 by an introduction, at ff. 86ra-va (inc.: “Girum celi circuitui sola
                                 Ecclesiastici 24. Doctrinalibus et naturalibus iuxta et corporis et
                                 ingenii ; expl.: regnator Olimpi, Olimpus pater Deus, Amen”. </note>
-                            <note type="desc">on f. 93rb, marg. inf., we find an indication on the
+                            <note type="content">on f. 93rb, marg. inf., we find an indication on the
                                 teaching practice: <q n="93rb">Non legitur primus tractatus
                                     Metaphysice, quia in ipso solum tractantur et reprobantur
                                     opiniones antiquorum de primis principiis et causis entium</q>. </note>
@@ -9837,9 +9825,9 @@
                             <ab type="explicit_attribution" cert="0">No</ab>
                         </summary>
                         <msItem
-                            xml:id="NürnbergStadtbibliothekimBildungscampusNürnberg_CentVII86_CsPH">
+                            xml:id="NürnbergStadtbibliothekimBildungscampusNürnberg_CentVII86_CsPH" defective="true">
                             <locus from="1ra" to="108vb">CsPH I-IV</locus>
-                            <note type="content">The text is acephalus and begins with the words:
+                            <note type="condition">The text is acephalus and begins with the words:
                                     <q>eius, sicut proprium consequitur speciem </q> (book I). It
                                 ends unfinished at book V with the words: <q>ergo quoddam corpus est
                                     ubique, quia</q>. </note>
@@ -10038,10 +10026,10 @@
                                 nationis venerabilis, et hoc septima die mensis septembris anno
                                 Domini millesimo CCCCmo XLIII° </colophon>
                         </msItem>
-                        <msItem xml:id="Oxford_BodleianLibrary_CanonMisc211_QsMeta">
+                        <msItem xml:id="Oxford_BodleianLibrary_CanonMisc211_QsMeta" defective="true">
                             <locus from="256ra" to="266vb"/>
                             <title ref="#QsMeta">QsMeta</title>
-                            <note type="content">only books I–II, unfinished</note>
+                            <note type="condition">only books I–II, unfinished</note>
                         </msItem>
                     </msContents>
                     <physDesc>
@@ -10128,11 +10116,10 @@
                                     non numerantur inter questiones huius libri, ut patet in tabula
                                     eiusdem</q>. Charles Lohr mentions this manuscript under
                                 Versoris's name, although he does not express himself unequivocally
-                                on its attribution <note type="biblio">Lohr, Medieval Latin
-                                    Aristotle Commentaries II, 348: <q n="348r">Several other MSS
-                                        which include the corpus of Versor’s physical works
-                                        occasionally show variant incipits reflecting possibly
-                                        different redactions or different authorship</q>. </note> . </ab>
+                                on its attribution: <q n="348r">Several other MSS which include
+                                the corpus of Versor’s physical works occasionally show variant
+                                incipits reflecting possibly different redactions or different
+                                authorship</q>. </ab>
                             <!-- 348r dont want to change the regex in odd ... -->
                             <ab type="general_remarks">The manuscript contains some question
                                 commentaries on the Parva naturalia, an anonymous literal commentary
@@ -10586,7 +10573,7 @@
                             <note type="condition">Beginning at q.II.8 with the words <q n="1r">vel motus
                                     ad formam, sed est causa per accidens </q>
                             </note>
-                            <note type="content">The beginning of the QsP is missing</note>
+                            <note type="condition">The beginning of the QsP is missing</note>
                         </msItem>
                         <msItem
                             xml:id="Pelplin_BibliotekaDiecezjalnaimBiskupaJanaBernardaSzlagiwPelplinie_23621_QdC">
@@ -10632,7 +10619,7 @@
                             defective="true">
                             <locus/>
                             <title ref="#QdLon">QdLon</title>
-                            <note type="content">The QdLon are missing</note>
+                            <note type="condition">The QdLon are missing</note>
                         </msItem>
                     </msContents>
                     <physDesc>
@@ -10988,15 +10975,14 @@
                             <p>Around 1465 as the manuscript contains a disputatio held in that year
                                 by Hilarius de Litomericz against the head of the Utraquists, Jan
                                 Rokycana (<q n="335r-348v">Disputatio capituli Pragensis cum
-                                    Rokycana habita coram rege anno 1465</q>, f. 335r-348v) <note
-                                    type="biblio">Hilarii Litomericensis Sancte Ecclesiae Pragensis
+                                    Rokycana habita coram rege anno 1465</q>, f. 335r-348v) <bibl>Hilarii Litomericensis Sancte Ecclesiae Pragensis
                                     Decani Disputatio cum Ioanne Rokyczana coram Georgio rege
                                     Bohemiae per quinque dies habita anno MCCCCLXV. Nunc cum
                                     manuscripto codice coaevo archivi metropolitani capituli
                                     Pragensis diligenter collata et emendata novisque post Henricum
                                     Canisium et Iacobum Basnagium observationibus illustrata,
                                     Litteris Ioannis Caroli Hraba, Inclyti regni Bohemiae D.D.
-                                    Statuum Typographi, Pragae, 1775. </note>
+                                    Statuum Typographi, Pragae, 1775.</bibl>
                             </p>
                             <origPlace>Prague</origPlace>
                         </origin>
@@ -12061,11 +12047,9 @@
                                 vocatus, pro quo pane vite sit saciatus, de Normannia nacione,
                                 fruatur divina consolacione. Et hec sub anno domini mille‹simo
                                 CCCCLIII feria› sexta in vigilia Epiphanie [5 I 1453] </colophon>
-                            <note type="colophon">Leaf f. 266r is torn; the missing words were
+                            <note type="editorial">Leaf f. 266r is torn; the missing words were
                                 completed based on the colophon of manuscript Schlägl,
-                                Prämonstratenserstift Cpl. 170, f. 187r, which was also copied in
-                                1453 and contains the same sequence of Versoris's commentaries on
-                                logic. </note>
+                                Prämonstratenserstift, Cpl. 170, f. 187r.</note>
                         </msItem>
                     </msContents>
                     <history>
@@ -12083,10 +12067,13 @@
                                 manuscript belonged to the second one, as we read on f. 237v: <q
                                     n="237v">Logica magistri Simonis de Chrudim</q>. </p>
                             <note type="msRelationship">
-                                <p>Schlägl, Prämonstratenserstift, 116 Cpl. f. 187r and <ref
-                                        target="#Wien_Dominikanerkonvent_Cod149119" type="ms">Wien,
-                                        Dominikanerkonvent, Cod. 149/119</ref>, f. 210vb which
-                                    contain the same colophon of f. 266r. </p>
+                                <p><ref target="#Schlägl_Prämonstratenserstift_Cpl170" type="ms"
+                                        >Schlägl, Prämonstratenserstift, Cpl. 170</ref>, f. 187r and
+                                        <ref target="#Wien_Dominikanerkonvent_Cod149119" type="ms"
+                                        >Wien, Dominikanerkonvent, Cod. 149/119</ref>, f. 210vb
+                                    contain the same colophon as f. 266r. Cpl. 170 was also copied
+                                    in 1453 and contains the same sequence of Versoris's
+                                    commentaries on logic. </p>
                             </note>
                         </origin>
                         <provenance>
@@ -13261,10 +13248,7 @@
 
                     <additional>
                         <listBibl>
-                            <bibl>
-                                <note type="biblio">Suprisingly not in Lohr, Aristotelica
-                                    gallica</note>
-                            </bibl>
+                            <bibl>Surprisingly not in Lohr, Aristotelica gallica.</bibl>
                             <bibl>Livesey, Science in the Monastery. Texts, Manuscripts and Learning
                                 at Saint-Bertin, Turnhout 2020, 189-192 <note type="biblio">The
                                     texts are here presented as Questiones naturales of Aristotle
@@ -13509,10 +13493,10 @@
                         <summary>
                             <ab type="explicit_attribution" cert="0">none</ab>
                         </summary>
-                        <msItem xml:id="Salamanca_BibliotecaUniversitaria_ms1945_CsPH">
+                        <msItem xml:id="Salamanca_BibliotecaUniversitaria_ms1945_CsPH" defective="true">
                             <locus from="1ra" to="150vb"/>
                             <title ref="#CsPH">CsPH</title>
-                            <note type="content">Interrupted in treatise VI, in the chapter on the
+                            <note type="condition">Interrupted in treatise VI, in the chapter on the
                                 fallacia petitionis, with the words <q>debet negari consequens, cum
                                     sit eque vel minus certum quam consequens [sic] prius n… </q>
                             </note>
@@ -14005,10 +13989,10 @@
                         <summary>
                             <ab type="explicit_attribution" cert="0">none</ab>
                         </summary>
-                        <msItem xml:id="StGallen_Stiftsbibliothek_cod822_QsP">
+                        <msItem xml:id="StGallen_Stiftsbibliothek_cod822_QsP" defective="true">
                             <locus from="1" to="133"/>
                             <title ref="#QsP">QsP</title>
-                            <note type="content">Books IV–VII missing: several leaves torn.</note>
+                            <note type="condition">Books IV–VII missing: several leaves torn.</note>
                         </msItem>
                         <msItem xml:id="StGallen_Stiftsbibliothek_cod822_QdC">
                             <locus from="135" to="223"/>
@@ -14018,10 +14002,10 @@
                             <locus from="225" to="293"/>
                             <title ref="#QdG">QdG</title>
                         </msItem>
-                        <msItem xml:id="StGallen_Stiftsbibliothek_cod822_QsMete">
+                        <msItem xml:id="StGallen_Stiftsbibliothek_cod822_QsMete" defective="true">
                             <locus from="295" to="353"/>
                             <title ref="#QsMete">QsMete</title>
-                            <note type="content">Ends abruptly at the responsio ad rationes of q.
+                            <note type="condition">Ends abruptly at the responsio ad rationes of q.
                                 III.5 with the words: <q n="NA">in loco superioris iridis est</q>;
                                 subsequent leaves have been torn. </note>
                         </msItem>
@@ -14097,7 +14081,7 @@
                             <author>Anonymus</author>
                             <title ref="#nonVersoris">Commentary on the pseudo-Aristotelian
                                 Economics</title>
-                            <note type="desc">Influenced by Albert of Saxony. </note>
+                            <note type="content">Influenced by Albert of Saxony. </note>
                         </msItem>
                         <msItem xml:id="Stockholm_KungligaBiblioteketStockholm_Va2_Economics">
                             <locus from="248r" to="253v"/>
@@ -14744,10 +14728,10 @@
                         <summary>
                             <ab type="explicit_attribution" cert="0">none</ab>
                         </summary>
-                        <msItem xml:id="Vic_MuseoyBibliotecaEpiscopal_185_CsPH">
+                        <msItem xml:id="Vic_MuseoyBibliotecaEpiscopal_185_CsPH" defective="true">
                             <locus from="1" to="144"/>
                             <title ref="#CsPH">CsPH</title>
-                            <note type="content">Ending abruptly in the passage beginning <q n="NA"
+                            <note type="condition">Ending abruptly in the passage beginning <q n="NA"
                                     >Divisionum quaedam sit </q> and and breaking off with the words
                                     <q n="NA">mediorum immediatorum ab aliquo inferiori divisi nec
                                     non ponitur </q>
@@ -15506,9 +15490,7 @@
                                 Universitätsbibliothek Breslau, Wrocław, ca. 1920–1944 T. 8: IV F
                                 1-59, 1-5. </bibl>
                             <bibl>Seńko, De ente, 18.</bibl>
-                            <bibl>
-                                <note type="biblio">not in Green-Pedersen</note>
-                            </bibl>
+                            <bibl>Not in Green-Pedersen.</bibl>
                         </listBibl>
                     </additional>
                 </msDesc>
@@ -15528,16 +15510,16 @@
                             <locus from="1r" to="35r"/>
                             <title ref="#QsMeta">QsMeta Books I–VI</title>
                         </msItem>
-                        <msItem xml:id="Wrocław_BibliotekaUniwersytecka_IVF4_QsP">
+                        <msItem xml:id="Wrocław_BibliotekaUniwersytecka_IVF4_QsP" defective="true">
                             <locus from="37r" to="72v"/>
                             <title ref="#QsP">QsP</title>
-                            <note type="content">Ends unfinished at book IV, q. 9, with the words:
+                            <note type="condition">Ends unfinished at book IV, q. 9, with the words:
                                     <q n="72v">et in tempore, ergo motus factus per</q>. </note>
                         </msItem>
-                        <msItem xml:id="Wrocław_BibliotekaUniwersytecka_IVF4_QdC">
+                        <msItem xml:id="Wrocław_BibliotekaUniwersytecka_IVF4_QdC" defective="true">
                             <locus from="73r" to="84v"/>
                             <title ref="#QdC">QdC</title>
-                            <note type="content">Ends unfinished at book II, q. 2, with the words:
+                            <note type="condition">Ends unfinished at book II, q. 2, with the words:
                                     <q n="84v">et de aliis differentiis</q>. </note>
                         </msItem>
                         <msItem xml:id="Wrocław_BibliotekaUniwersytecka_IVF4_QdA">
