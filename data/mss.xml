@@ -4682,7 +4682,7 @@
                             <p>The manuscript was copied in its entirety by the Leipzig student
                                     <persName ref="PetrusDoleatorisDeIuterbuck">Petrus
                                     Juterbog</persName>, writing for (or under the supervision of)
-                                the master <persName ref="#TheodericusSteffanideColberg">Theodericus
+                                the master <persName ref="#TheodericusSteffaniDeColberg">Theodericus
                                     Steffani de Colberg</persName>, as stated in the colophon on f.
                                 12vb. Theodericus Steffani moved to the University of Greifswald in
                                 1457, bringing the codex with him. </p>
@@ -12827,7 +12827,7 @@
                                     esse in suius singularibus</q>. </note>
                             <colophon><locus from="25ra"/>Et sic est finis Antepredicamentorum
                                 Aristotelis secundum lecturam parisiensem scriptam per me, <persName
-                                    ref="persID">fratrem Petrum Iohannem Balbum Ianuensem
+                                    ref="#PetrusIohannesBalbi">fratrem Petrum Iohannem Balbum Ianuensem
                                 </persName> [scripsit: Ianuenses, sed correx.], ordinis
                                 predicatorum, in die Epiphanie, <date when="1458"
                                     >M°CCCC°LVIII°</date>, hora XVIII </colophon>
@@ -12870,7 +12870,7 @@
                             <colophon><locus from="87"/>Et hec sufficiant de isto primo libro
                                 Posteriorum, quem composuit <persName ref="ID">magister Richaldus de
                                     Bovilla</persName>, artium doctor eggregius [sic] et scripsit
-                                eum <persName ref="ID">fratrer Petrus Iohannes Balbus </persName>
+                                eum <persName ref="#PetrusIohannesBalbi">fratrer Petrus Iohannes Balbus </persName>
                                 ordinis predicatorum cum magna festinatione, <date when="1458"
                                     >M°CCCC°LVIII°</date>, die XXI° Iunii, hora decima, cui domino
                                 sit merces hic per gratiam et in futuro per gloriam. Amen, in
@@ -12930,11 +12930,11 @@
                             <locus from="209r" to="251r"/>
                             <title ref="#QdA">QdA</title>
                             <colophon><locus from="238va"/>Et sic est finis secundi libri De anima
-                                [erasit: per me <persName ref="ID">fratrem Francischum de
+                                [erasit: per me <persName ref="#FranciscusDeRipaDeMediolano">fratrem Francischum de
                                     Rippa</persName>] ordinis predicatorum [erasit: conventus
                                 Mediolani, in secunda] die mensis octobris </colophon>
                             <colophon><locus from="251ra"/>Explicit tertius liber De anima secundum
-                                lecturam parisiensem, scripte [erasit: a me, <persName ref="ID"
+                                lecturam parisiensem, scripte [erasit: a me, <persName ref="#FranciscusDeRipaDeMediolano"
                                     >fratre Francischo de Rippa</persName>, ordinis] predicatorum
                                 [erasit: conventus] Mediolani, provincie Lombardie ??] studente ibi
                                 ?? decima mensis octobris </colophon>
@@ -12947,9 +12947,9 @@
                             <origDate from="1458" to="1458">1458</origDate>
                             <p>Composite manuscript, copied in the Dominican convents of Pavia and
                                 Milan, as evident from the colophons of the friars <persName
-                                    ref="persID">Petrus Iohannes Balbus </persName> (<ref
+                                    ref="#PetrusIohannesBalbi">Petrus Iohannes Balbus </persName> (<ref
                                     target="#Siena_Intronati_H-VI-7_CsPH">f.25ra</ref>) and
-                                    <persName ref="persID">Franciscus de Rippa</persName> (<ref
+                                    <persName ref="#FranciscusDeRipaDeMediolano">Franciscus de Rippa</persName> (<ref
                                     target="#Siena_Intronati_H-VI-7_QdA">f.238va</ref> and <ref
                                     target="#Siena_Intronati_H-VI-7_QdA">f.251ra</ref>). These
                                 colophons are difficult to read because some important information
@@ -12965,7 +12965,7 @@
                                 guard, states that the part of the volume containing the logical
                                 commentaries belonged to Petrus Iohannes Balbus, who copied it in
                                 1458: <q>Hoc commentum super artem veterem et philosofiam est mei,
-                                        <persName ref="ID">fratris Petri Iohannis Balbi Ianuensis
+                                        <persName ref="#PetrusIohannesBalbi">fratris Petri Iohannis Balbi Ianuensis
                                     </persName> ordinis Predicatorum, quod scripsi in diversis
                                     temporibus et ipsum finivi anno Domini M°CCCCLVIII° die Va
                                     iulii. Et omnia que in ipso continentur fuerunt extracta a

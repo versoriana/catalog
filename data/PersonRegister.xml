@@ -759,6 +759,41 @@
                </listBibl>
             </person>
 
+            <person xml:id="FranciscusDeRipaDeMediolano">
+               <persName>
+                  <forename type="preferred">Franciscus</forename>
+                  <forename type="variant">Francesco</forename>
+                  <nameLink type="preferred">de</nameLink>
+                  <nameLink type="variant">della</nameLink>
+                  <surname type="preferred">Ripa</surname>
+                  <surname type="variant">Riva</surname>
+                  <nameLink type="preferred">de</nameLink>
+                  <nameLink type="variant">da</nameLink>
+                  <surname type="preferred">Mediolano</surname>
+                  <surname type="variant">Milano</surname>
+               </persName>
+               <persName type="sort">Ripa de Mediolano, Franciscus de</persName>
+               <floruit from="1451" to="1483"/>
+               <affiliation type="religiousOrder" subtype="OP">Dominican</affiliation>
+               <note>A Dominican friar from the convent of Milan, Franciscus de Ripa was already a
+                  master of theology when the General Chapter of Rome, held in 1468, appointed him
+                  regent master at the studium generale of the convent of Sant’Eustorgio in Milan
+                  for the academic year 1469–1470. By mid-1477, he was serving as inquisitor of
+                  Milan and Lodi. His appointment was confirmed on 22 August 1481 and again on 22
+                  May 1483. Before this better-documented phase of his career, Franciscus had
+                  pursued philosophical studies, as was customary among medieval scholars. This
+                  activity is documented by MS Bergamo, Biblioteca Civica «Angelo Mai», MA 394
+                  (Sigma II 15), copied in 1451, and by MS Siena, Biblioteca Comunale degli
+                  Intronati, H.VI.7, in which Franciscus copied Versoris’s Questions on the Soul
+                  (QdA) while studying at Montpellier.</note>
+               <occupation role="scr" ref="#Siena_Intronati_HVI7"/>
+               <listBibl>
+                  <bibl>M. Tavuzzi, Renaissance Inquisitors. Dominican Inquisitors and
+                     Inquisitorial Districts in Northern Italy, 1474-1527, Leiden, Brill, 2007, p.
+                     58, 167, 226.</bibl>
+               </listBibl>
+            </person>
+
             <person xml:id="FranciscusVich">
                <persName>
                   <forename type="preferred">Franciscus</forename>
@@ -2336,6 +2371,24 @@
                   Summule logicales, transmitted in manuscript Vic, Museo y Biblioteca Episcopal, MS
                   185.</note>
                <occupation role="fmo" ref="#Vic_MuseoyBibliotecaEpiscopal_185"/>
+            </person>
+
+            <person xml:id="PetrusIohannesBalbi">
+               <persName>
+                  <forename type="preferred">Petrus</forename>
+                  <forename type="preferred">Iohannes</forename>
+                  <surname type="preferred">Balbi</surname>
+                  <surname type="variant">Balbus</surname>
+                  <surname type="preferred">Ianuensis</surname>
+               </persName>
+               <persName type="sort">Balbi Ianuensis, Petrus Iohannes</persName>
+               <floruit when="1458"/>
+               <affiliation type="religiousOrder" subtype="OP">Dominican</affiliation>
+               <note>According to several colophons in the manuscript Siena, Biblioteca Comunale
+                  degli Intronati, H.VI.7, Petrus Iohannes Balbi, a Dominican friar from Genoa,
+                  copied several logical texts in Padua in 1458, including Versoris’s commentary
+                  on Peter of Spain’s Summule.</note>
+               <occupation role="scr" ref="#Siena_Intronati_HVI7"/>
             </person>
 
             <person xml:id="PetrusBerkenmayr">
