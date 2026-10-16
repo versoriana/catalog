@@ -893,6 +893,42 @@
                     </additional>
                 </msDesc>
 
+                <!-- Barcelona, Arxiu de la Corona d’Aragó, San Cugat, cod. 82 issue#211 -->
+                <msDesc xml:id="Barcelona_ArxiudelaCoronadAragóSanCugat_cod82">
+                    <msIdentifier>
+                        <settlement>Barcelona</settlement>
+                        <repository ref="#org_0008">Arxiu de la Corona d’Aragó, San
+                            Cugat</repository>
+                        <idno>cod. 82</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <ab type="explicit_attribution" cert="0">none</ab>
+                        </summary>
+                        <msItem xml:id="Barcelona_ArxiudelaCoronadAragóSanCugat_cod82_CsPH" defective="true">
+                            <locus from="1r" to="156r"/>
+                            <title ref="#CsPH">CsPH</title>
+                            <note type="content">Acephalous and unfinished.</note>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origPlace cert="medium">Catalonia</origPlace>
+                            <p>Due to its poor state of preservation, the manuscript cannot
+                                currently be consulted. However, its provenance from the monastery
+                                of Sant Cugat and the presence of a Catalan translation (fols.
+                                157r–163r) make an origin in Catalonia likely. </p>
+                        </origin>
+                    </history>
+                    <additional>
+                        <listBibl>
+                            <bibl>Miquel Rosell, Catàleg, p. 130–131.</bibl>
+                            <bibl>Kristeller, Iter Italicum, IV, p. 483b.</bibl>
+                            <bibl>Meirinhos, Bibliotheca Manuscripta Petri Hispani, p. 21.</bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+
                 <!-- Barcelona BC Ms. 574 -->
                 <msDesc xml:id="Barcelona_BibliotecadeCatalunya_Ms574">
                     <msIdentifier>
