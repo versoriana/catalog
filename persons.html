@@ -38,111 +38,52 @@
 	<meta name="citation_keywords" content="TEI" />
 	<title>Persons - Bibliotheca Manuscripta Versoriana</title>
 
-	<!-- CETEIan scripts and css -->
+	<!-- CETEIcean script -->
 	<script type="text/javascript" src="js/CETEI.js"></script>
 	<!-- MiniSearch for full-text search -->
 	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/minisearch@7.1.0/dist/umd/index.min.js"></script>
+	<!-- Shared navbar, footer and theme (must load before search.js) -->
+	<script type="text/javascript" src="js/layout.js"></script>
+	<!-- Fonts -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..600;1,400..600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+	<!-- Styles: CETEIcean → Bootstrap → project → theme -->
 	<link rel="stylesheet" type="text/css" href="css/CETEIcean.css" />
-	<!-- Own CSS It may overlap with CETEIcean.css -->
-	<link rel="stylesheet" type="text/css" href="css/versoris.css" />
-	<!-- Bootstrap core CSS -->
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
 		integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
-	<style>
-		.bd-placeholder-img {
-			font-size: 1.125rem;
-			text-anchor: middle;
-			-webkit-user-select: none;
-			-moz-user-select: none;
-			user-select: none;
-		}
-
-		@media (min-width: 768px) {
-			.bd-placeholder-img-lg {
-				font-size: 3.5rem;
-			}
-		}
-
-		/* Custom styles for this template */
-		/* Custom be added in any css */
-		body {
-			padding-top: 5rem;
-		}
-
-		/* Search highlighting styles */
-		.search-highlight {
-			background-color: #fff3cd;
-			color: #856404;
-			padding: 2px 4px;
-			border-radius: 3px;
-			font-weight: 500;
-			box-shadow: 0 0 0 1px rgba(255, 193, 7, 0.3);
-		}
-
-		/* Animation for highlighted terms */
-		@keyframes highlight-pulse {
-			0% { background-color: #fff3cd; }
-			50% { background-color: #ffeaa7; }
-			100% { background-color: #fff3cd; }
-		}
-
-		.search-highlight:first-of-type {
-			animation: highlight-pulse 2s ease-in-out 3;
-		}
-
-	</style>
-
+	<link rel="stylesheet" type="text/css" href="css/versoris.css" />
+	<link rel="stylesheet" type="text/css" href="css/theme.css" />
 </head>
 
 <body>
 
-	<!-- navigation -->
-
-	<nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
-		<div class="container-fluid">
-			<a class="navbar-brand" href="index.html">Bibliotheca Manuscripta Versoriana</a>
-			<button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-				data-bs-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false"
-				aria-label="Toggle navigation">
-				<span class="navbar-toggler-icon"></span>
-			</button>
-			<div class="collapse navbar-collapse" id="navbarsExampleDefault">
-				<ul class="navbar-nav me-auto mb-2 mb-md-0">
-					<li class="nav-item">
-						<a class="nav-link" href="manuscripts.html">Manuscripts</a>
-					</li>
-					<li class="nav-item active">
-						<a class="nav-link" aria-current="page" href="persons.html">Persons</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="opera.html">Opera</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="index.html">About</a>
-					</li>
-				</ul>
-				<form class="d-flex" id="search-form">
-					<input class="form-control me-2" type="search" placeholder="Search mss and persons..." aria-label="Search" id="search-input">
-					<button class="btn btn-outline-light" type="submit">Search</button>
-				</form>
-			</div>
-		</div>
-	</nav>
+	<header id="site-header">
+		<noscript><nav class="container py-3"><a href="manuscripts.html">Manuscripts</a> · <a href="persons.html">Persons</a> · <a href="opera.html">Opera</a> · <a href="about.html">About</a></nav></noscript>
+	</header>
 
 	<!-- Container -->
 
 	<main class="container">
-		<div class="py-5 px-3">
-			<h1>Person Register</h1>
-			<p class="lead">Individuals associated with the Versoris manuscript collection</p>
+		<div class="pb-4">
+			<header class="page-header">
+				<p class="eyebrow">Register</p>
+				<h1>Persons</h1>
+				<p class="lead">Individuals associated with the Versoris manuscript collection</p>
+			</header>
 
-			<input type="text" id="person-filter" class="form-control mb-3" placeholder="Filter persons…">
+			<div class="filter-bar">
+				<div class="input-wrap">
+					<i class="bi bi-funnel" aria-hidden="true"></i>
+					<input type="text" id="person-filter" class="form-control" placeholder="Filter persons…" aria-label="Filter persons">
+				</div>
+			</div>
 
 			<section id="PersonRegister">
 				<div class="table-responsive">
-					<table class="table table-sm table-hover" id="person-table">
-						<thead class="table-light">
+					<table class="table table-hover catalog-table" id="person-table">
+						<thead>
 							<tr>
 								<th>Name</th>
 								<th>Birth</th>
@@ -158,7 +99,7 @@
 		</div>
 	</main>
 
-	<!-- /.container -->
+	<footer id="site-footer"></footer>
 
 	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
 		integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
@@ -668,6 +609,7 @@
 		CETEIcean.addBehaviors(behaviors);
 	</script>
 
+	<script type="text/javascript" src="js/catalog-table.js"></script>
 	<script type="text/javascript" src="js/persons.js"></script>
 
 </body>

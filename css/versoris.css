@@ -1,32 +1,36 @@
-/* Simple CSS for TEI manuscript catalog */
+/* TEI record rendering for the manuscript catalogue (CETEIcean tei-* elements).
+   Colours and fonts come from the tokens in theme.css — no hard-coded colours here. */
 
 /* Base styles */
 tei-TEI {
     max-width: 1200px;
     margin: 0 auto;
-    font-family: Helvetica, Arial, sans-serif;
-    font-size: large;
-    line-height: 1.2;
+    font-family: var(--font-sans);
+    font-size: 1rem;
+    line-height: 1.6;
 }
 
 /* Manuscript container */
 tei-msDesc {
     display: block;
     position: relative;
-    margin: 20px 0;
-    padding: 20px;
-    border: 1px solid #e9ecef;
-    border-radius: 0.5rem;
-    background-color: #fff;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 0;
+    padding: 1.75rem 2rem;
+    border: 1px solid var(--rule);
+    border-radius: var(--radius);
+    background-color: var(--surface);
+    box-shadow: var(--shadow);
 }
 
-/* Manuscript identifier */
+/* Manuscript identifier: the record's title */
 tei-msIdentifier {
     display: block;
-    margin-bottom: 5px;
-    font-weight: bold;
-    font-size: 1.2em;
+    margin-bottom: 1rem;
+    padding-right: 12rem;   /* room for the top-right toolbar */
+    font-family: var(--font-serif);
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 1.25;
 }
 
 tei-msIdentifier > tei-settlement::after,
@@ -44,9 +48,14 @@ tei-msContents {
 tei-msContents::before {
     content: "Content";
     display: block;
-    font-weight: bold;
-    font-size: 1.1em;
-    margin-bottom: 10px;
+    font-size: 0.72rem;
+    font-weight: 600;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--accent);
+    padding-bottom: 0.35rem;
+    border-bottom: 1px solid var(--rule);
+    margin-bottom: 0.9rem;
 }
 
 /* Summary */
@@ -77,20 +86,17 @@ tei-msItem {
     display: block;
     margin-bottom: 15px;
     margin-top: 10px;
-    margin-left: 20px;
-    padding: 10px;
-    border: 1px solid #e9ecef;
-    border-radius: 0.25rem;
+    margin-left: 0;
+    padding: 2px 0 2px 16px;
+    border-left: 2px solid var(--rule);
 }
 
-/* Nested msItems - indent more */
+/* Nested msItems: the guide line does the indenting */
 tei-msItem tei-msItem {
-    margin-left: 20px;
+    margin-left: 4px;
+    border-left-width: 1px;
 }
 
-tei-msItem tei-msItem tei-msItem {
-    margin-left: 40px;
-}
 
 /* msItem header: locus + title on one line */
 .msitem-header {
@@ -112,14 +118,14 @@ tei-msItem tei-msItem tei-msItem {
 .msitem-opus {
     margin-left: 8px;
     font-size: 0.8em;
-    color: #c25e00;
+    color: var(--person);
     text-decoration: none;
 }
 
 .msitem-opus::after { content: " ↗"; }
 
 .msitem-opus:hover {
-    color: #8f4500;
+    color: color-mix(in srgb, var(--person) 75%, var(--ink));
     text-decoration: underline;
 }
 
@@ -244,7 +250,7 @@ details.note-inline {
 details.note-inline summary {
     display: inline;
     cursor: pointer;
-    color: #6c757d;
+    color: var(--muted);
     font-size: 0.8em;
     font-style: italic;
     list-style: none;
@@ -256,7 +262,7 @@ details.note-inline summary::-webkit-details-marker {
 
 details.note-inline[open] {
     display: block;
-    border-left: 2px solid #dee2e6;
+    border-left: 2px solid var(--rule);
     padding-left: 8px;
     margin: 4px 0;
 }
@@ -268,7 +274,7 @@ details.note-inline[open] summary {
 details.note-inline[open] .note-content {
     display: block;
     font-size: 0.9em;
-    color: #495057;
+    color: var(--muted);
 }
 
 tei-altIdentifier {
@@ -276,7 +282,7 @@ tei-altIdentifier {
 }
 
 .alt-identifier {
-    color: #6c757d;
+    color: var(--muted);
     font-size: 0.9em;
     font-weight: normal;
     margin-left: 6px;
@@ -392,7 +398,7 @@ tei-physDesc {
 /* Person names — orange underline only on clickable references, not on the person's own name */
 tei-persName.person-link {
     text-decoration: underline;
-    text-decoration-color: orange;
+    text-decoration-color: var(--person);
     cursor: pointer;
 }
 
@@ -407,20 +413,20 @@ tei-orgName {
 
 /* References */
 tei-ref {
-    color: #337ab7;
+    color: var(--accent);
     text-decoration: underline;
 }
 
 /* Styling for anchor tags inside ref elements */
 tei-ref a {
-    color: #0d6efd;
+    color: var(--accent);
     text-decoration: underline;
     cursor: pointer;
     margin-right: 4px;
 }
 
 tei-ref a:hover {
-    color: #0a58ca;
+    color: var(--accent-hover);
     text-decoration: underline;
 }
 
@@ -445,9 +451,14 @@ tei-adminInfo {
 tei-additional > tei-listBibl::before {
     content: "Bibliography";
     display: block;
-    font-weight: bold;
-    font-size: 1.1em;
-    margin-bottom: 10px;
+    font-size: 0.72rem;
+    font-weight: 600;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--accent);
+    padding-bottom: 0.35rem;
+    border-bottom: 1px solid var(--rule);
+    margin-bottom: 0.9rem;
 }
 
 tei-additional > tei-listBibl {
@@ -515,12 +526,12 @@ tei-colophon[n]::after {
 tei-person {
     display: block;
     position: relative;
-    margin: 30px 0;
-    padding: 20px;
-    border: 1px solid #e9ecef;
-    border-radius: 0.5rem;
-    background-color: #fff;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 0;                /* same spacing as tei-msDesc inside the detail panel */
+    padding: 1.75rem 2rem;
+    border: 1px solid var(--rule);
+    border-radius: var(--radius);
+    background-color: var(--surface);
+    box-shadow: var(--shadow);
 }
 
 /* Hide the sort persName from visual display */
@@ -545,18 +556,22 @@ tei-persname[type="sort"] {
 /* Preferred name group - bold, larger - only in PersonRegister */
 #PersonRegister .name-group-preferred {
     display: block;
-    font-size: 1.4em;
-    font-weight: bold;
-    color: #495057;
+    font-family: var(--font-serif);
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 1.25;
+    color: var(--ink);
     margin-bottom: 5px;
+    padding-right: 8rem;   /* room for the copy-link pill */
 }
 
 /* Variant name groups - italic, gray, smaller - only in PersonRegister */
 #PersonRegister .name-group-variant {
     display: block;
-    font-size: 1.2em;
+    font-family: var(--font-serif);
+    font-size: 1.15rem;
     font-style: italic;
-    color: #6c757d;
+    color: var(--muted);
     margin-bottom: 3px;
     margin-left: 5px;
 }
@@ -598,10 +613,10 @@ tei-floruit::before {
 
 tei-affiliation {
     display: inline-block;
-    background-color: #17a2b8;
-    color: white;
-    padding: 2px 8px;
-    border-radius: 3px;
+    background-color: var(--accent-soft);
+    color: var(--accent);
+    padding: 2px 10px;
+    border-radius: 999px;
     font-size: 0.9em;
     margin: 5px 0;
 }
@@ -616,8 +631,8 @@ tei-affiliation {
     display: block;
     margin: 15px 0;
     padding: 10px;
-    background-color: #f8f9fa;
-    border-left: 4px solid #007bff;
+    background-color: var(--paper);
+    border-left: 3px solid var(--accent);
     line-height: 1.6;
 }
 
@@ -670,14 +685,14 @@ div.tei-occupation::before {
     margin-left: 0px;
 }
 
+/* Plain text: in the record title the shelfmark reads as part of the heading */
 tei-idno {
     display: inline;
-    margin: 5px 10px 5px 0;
-    padding: 2px 6px;
-    background-color: #6c757d;
-    color: white;
-    border-radius: 3px;
-    font-size: 0.8em;
+    margin: 0;
+    padding: 0;
+    background: none;
+    color: inherit;
+    font: inherit;
 }
 
 
@@ -700,8 +715,8 @@ tei-idno[type="CAC"] {
     margin: 3px 6px 3px 0;
     font-size: 0.9em;
     line-height: 1.4;
-    border: 1px solid #6c757d;
-    border-radius: 4px;
+    border: 1px solid var(--rule);
+    border-radius: var(--radius);
     overflow: hidden;
 }
 
@@ -710,15 +725,15 @@ tei-idno[type="CAC"] {
     align-items: center;
     gap: 4px;
     padding: 3px 9px;
-    background-color: #fff;
-    color: #495057;
+    background-color: var(--surface);
+    color: var(--muted);
     text-decoration: none;
     white-space: nowrap;
 }
 
 .double-button-l:hover {
-    background-color: #f1f3f5;
-    color: #212529;
+    background-color: var(--accent-soft);
+    color: var(--ink);
     text-decoration: none;
 }
 
@@ -731,8 +746,9 @@ tei-idno[type="CAC"] {
     display: inline-flex;
     align-items: center;
     padding: 3px 9px;
-    background-color: #6c757d;
-    color: #fff;
+    background-color: var(--paper);
+    color: var(--ink);
+    border-left: 1px solid var(--rule);
     font-weight: 600;
     white-space: nowrap;
 }
@@ -765,9 +781,9 @@ tei-msPart > tei-msIdentifier tei-idno {
     font-family: inherit;
     font-size: 0.8rem;
     line-height: 1;
-    color: #6c757d;
-    background-color: #fff;
-    border: 1px solid #dee2e6;
+    color: var(--muted);
+    background-color: var(--surface);
+    border: 1px solid var(--rule);
     border-radius: 50rem;
     text-decoration: none;
     cursor: pointer;
@@ -778,15 +794,15 @@ tei-msPart > tei-msIdentifier tei-idno {
 }
 
 .entry-link:hover {
-    color: #495057;
-    background-color: #f8f9fa;
-    border-color: #ced4da;
+    color: var(--accent);
+    background-color: var(--accent-soft);
+    border-color: var(--accent);
     text-decoration: none;
 }
 
 .entry-link.copied {
-    color: #198754;
-    border-color: #198754;
+    color: var(--success);
+    border-color: var(--success);
 }
 
 /* Top-right toolbar holding the examined badge + copy link */
@@ -814,8 +830,8 @@ tei-msPart > tei-msIdentifier tei-idno {
     padding: 3px 10px 3px 8px;
     font-size: 0.8rem;
     line-height: 1;
-    color: #198754;
-    background-color: #fff;
+    color: var(--success);
+    background-color: var(--surface);
     border-radius: 50rem;
     cursor: default;
 }
@@ -823,34 +839,38 @@ tei-msPart > tei-msIdentifier tei-idno {
     font-size: 1.05em;
 }
 
+/* "See at: <url>" sits inside the serif record title, so reset to small body text */
 .uri-link-container {
     display: block;
-    margin: 10px 0 5px 0;
+    margin: 0.35rem 0 0;
+    font-family: var(--font-sans);
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 1.5;
 }
 
 .uri-link-label {
-    color: #333;
-    font-weight: bold;
+    color: var(--muted);
 }
 
 .uri-link-url {
-    color: #0d6efd;
+    color: var(--accent);
     text-decoration: underline;
 }
 
 .uri-link-url:hover {
-    color: #0a58ca;
+    color: var(--accent-hover);
 }
 
 
 .ms-link {
-    color: #007bff;
+    color: var(--accent);
     text-decoration: underline;
     cursor: pointer;
 }
 
 .ms-link:hover {
-    color: #0056b3;
+    color: var(--accent-hover);
 }
 
 .dates {
@@ -893,9 +913,14 @@ tei-hi[rend="superscript"] {
 .related-manuscripts-section::before {
     content: "Related Manuscripts";
     display: block;
-    font-weight: bold;
-    font-size: 1.1em;
-    margin-bottom: 10px;
+    font-size: 0.72rem;
+    font-weight: 600;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--accent);
+    padding-bottom: 0.35rem;
+    border-bottom: 1px solid var(--rule);
+    margin-bottom: 0.9rem;
 }
 
 /* Style filiation and note elements within the section */
@@ -963,187 +988,13 @@ tei-acquisition::before {
     content: "Acquisition: ";
 }
 
-/* === Search suggestions dropdown === */
-
-.search-suggestions {
-    position: absolute;
-    top: 100%;
-    left: 0;
-    right: 0;
-    background: white;
-    border: 1px solid #ccc;
-    border-top: none;
-    border-radius: 0 0 4px 4px;
-    max-height: 300px;
-    overflow-y: auto;
-    z-index: 1050;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.15);
-}
-
-.search-suggestion {
-    padding: 8px 12px;
-    cursor: pointer;
-    border-bottom: 1px solid #eee;
-}
-
-.search-suggestion:hover,
-.search-suggestion-active {
-    background-color: #e8f4fd;
-}
-
-.search-suggestion:last-child {
-    border-bottom: none;
-}
-
-.suggestion-title {
-    font-weight: bold;
-    color: #333;
-}
-
-.suggestion-type {
-    font-size: 0.8em;
-    color: #666;
-    text-transform: uppercase;
-}
-
-/* === Manuscript table index === */
-
-#ms-filter {
-    max-width: 400px;
-}
-
-#ms-table {
-    font-size: 0.9em;
-}
-
-#ms-table thead th {
-    white-space: nowrap;
-    cursor: pointer;
-    user-select: none;
-}
-
-#ms-table thead th.sort-asc::after  { content: " ↑"; }
-#ms-table thead th.sort-desc::after { content: " ↓"; }
-
-#ms-table tbody tr:focus {
-    outline: 2px solid #0d6efd;
-    outline-offset: -2px;
-}
-
-#ms-table tbody tr {
-    cursor: pointer;
-}
-
-#ms-table tbody tr.ms-selected:hover > * {
-    --bs-table-bg-state: transparent;
-    --bs-table-color-state: inherit;
-}
-
-.ms-detail-row td {
-    padding: 20px 20px 20px 30px;
-    border-top: none;
-    background-color: white;
-}
-
-#ms-table tbody tr.ms-detail-row,
-#ms-table tbody tr.ms-detail-row:hover > td {
-    cursor: default;
-}
-
-#ms-table tbody tr.ms-detail-row:hover > * {
-    --bs-table-bg-state: white;
-    --bs-table-color-state: inherit;
-}
-
-/* === Persons table === */
-
-#person-filter {
-    max-width: 400px;
-}
-
-#person-table {
-    font-size: 0.9em;
-}
-
-#person-table thead th {
-    white-space: nowrap;
-    cursor: pointer;
-    user-select: none;
-}
-
-#person-table thead th.sort-asc::after  { content: " ↑"; }
-#person-table thead th.sort-desc::after { content: " ↓"; }
-
-#person-table tbody tr {
-    cursor: pointer;
-}
-
-#person-table tbody tr.ms-selected:hover > * {
-    --bs-table-bg-state: transparent;
-    --bs-table-color-state: inherit;
-}
-
-#person-table tbody tr:focus {
-    outline: 2px solid #0d6efd;
-    outline-offset: -2px;
-}
-
-#person-table tbody tr.ms-detail-row,
-#person-table tbody tr.ms-detail-row:hover > td {
-    cursor: default;
-}
-
-#person-table tbody tr.ms-detail-row:hover > * {
-    --bs-table-bg-state: white;
-    --bs-table-color-state: inherit;
-}
+/* Search suggestions and the index tables (.catalog-table) are styled in theme.css */
 
 /* === Opera (works) table === */
 
-#opera-filter {
-    max-width: 400px;
-}
-
-#opera-table {
-    font-size: 0.9em;
-}
-
-#opera-table thead th {
-    white-space: nowrap;
-    cursor: pointer;
-    user-select: none;
-}
-
-#opera-table thead th.sort-asc::after  { content: " ↑"; }
-#opera-table thead th.sort-desc::after { content: " ↓"; }
-
-#opera-table tbody tr {
-    cursor: pointer;
-}
-
-#opera-table tbody tr.ms-selected:hover > * {
-    --bs-table-bg-state: transparent;
-    --bs-table-color-state: inherit;
-}
-
-#opera-table tbody tr:focus {
-    outline: 2px solid #0d6efd;
-    outline-offset: -2px;
-}
-
-#opera-table tbody tr.ms-detail-row,
-#opera-table tbody tr.ms-detail-row:hover > td {
-    cursor: default;
-}
-
-#opera-table tbody tr.ms-detail-row:hover > * {
-    --bs-table-bg-state: white;
-    --bs-table-color-state: inherit;
-}
-
 /* Muted placeholder row for items not by Versoris, pinned to the bottom */
 #opera-table tbody tr.opera-nonversoris td {
-    color: #6c757d;
+    color: var(--muted);
     font-style: italic;
 }
 
@@ -1176,7 +1027,7 @@ tei-acquisition::before {
     margin: 0 0 6px;
     font-size: 0.9rem;
     font-weight: 600;
-    color: #495057;
+    color: var(--muted);
 }
 
 .opera-witness-groups > .opera-witnesses + .opera-witness-heading,
@@ -1185,14 +1036,14 @@ tei-acquisition::before {
 }
 
 .opera-witness-note {
-    color: #6c757d;
+    color: var(--muted);
     font-style: italic;
     font-size: 0.85em;
 }
 
 /* A work whose only surviving witnesses are rejected or not by Versoris (none at present) */
 #opera-table tbody tr.opera-no-witness td:nth-child(3) {
-    color: #6c757d;
+    color: var(--muted);
 }
 
 /* Umbrella works (Parva naturalia, Ars vetus, Ars nova): groupings whose count is rolled up
@@ -1208,7 +1059,7 @@ tei-acquisition::before {
     align-items: start;
     margin-bottom: 1.25rem;
     font-size: 0.925rem;
-    color: #495057;
+    color: var(--muted);
 }
 
 .opera-intro p {
@@ -1225,4 +1076,8 @@ tei-acquisition::before {
 
 .opera-intro p:last-child {
     margin-bottom: 0;
+}
+@media (max-width: 575.98px) {
+    tei-msDesc { padding: 1.25rem 1rem; }
+    tei-msIdentifier { padding-right: 0; padding-top: 2.25rem; font-size: 1.35rem; }
 }

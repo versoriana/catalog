@@ -9,93 +9,16 @@
 // authors and rejected ascriptions are kept visible as "related" rather than counted or
 // dropped. See docs/opera_catalog.md.
 document.addEventListener("DOMContentLoaded", () => {
-  const pool        = document.getElementById("Versoris");
-  const tableBody   = document.getElementById("opera-table-body");
-  const filterInput = document.getElementById("opera-filter");
-  const headers     = document.querySelectorAll("#opera-table thead th");
-  const COUNT_COL   = 2; // the "# mss" column is sorted numerically
-  let currentRow    = null;
-  const sortState   = { col: -1, dir: 1 };
-  let dataReady     = false;
-  let pendingHash   = null;
+  const pool      = document.getElementById("Versoris");
+  const COUNT_COL = 2; // the "# mss" column is sorted numerically
 
-  function selectEntry(row) {
-    if (currentRow === row) {
-      currentRow.classList.remove("ms-selected");
-      currentRow._detailRow.style.display = "none";
-      currentRow = null;
-      return;
-    }
-    if (currentRow) {
-      currentRow.classList.remove("ms-selected");
-      currentRow._detailRow.style.display = "none";
-    }
-    row.classList.add("ms-selected");
-    row._detailRow.style.display = "";
-    currentRow = row;
-    row.focus();
-    const y = row.getBoundingClientRect().top + window.scrollY - 80;
-    window.scrollTo({ top: y, behavior: "smooth" });
-  }
-
-  // Re-append every row (and its detail row) in `rows` order, then pin the
-  // placeholder "not by Versoris" rows to the bottom regardless of sort.
-  function layoutRows(rows) {
-    const pinned = Array.from(tableBody.rows).filter(
-      r => !r.classList.contains("ms-detail-row") && r.dataset.pinned === "1"
-    );
-    rows.forEach(row => {
-      tableBody.appendChild(row);
-      tableBody.appendChild(row._detailRow);
-    });
-    pinned.forEach(row => {
-      tableBody.appendChild(row);
-      tableBody.appendChild(row._detailRow);
-    });
-  }
-
-  function sortTable(colIndex) {
-    if (sortState.col === colIndex) {
-      sortState.dir *= -1;
-    } else {
-      sortState.col = colIndex;
-      sortState.dir = 1;
-    }
-    headers.forEach((h, i) => {
-      h.classList.remove("sort-asc", "sort-desc");
-      if (i === colIndex) h.classList.add(sortState.dir === 1 ? "sort-asc" : "sort-desc");
-    });
-    const rows = Array.from(tableBody.rows).filter(
-      r => !r.classList.contains("ms-detail-row") && r.dataset.pinned !== "1"
-    );
-    rows.sort((a, b) => {
-      const aText = a.cells[colIndex]?.textContent?.trim() || "";
-      const bText = b.cells[colIndex]?.textContent?.trim() || "";
-      if (colIndex === COUNT_COL) {
-        return (parseInt(aText || "0", 10) - parseInt(bText || "0", 10)) * sortState.dir;
-      }
-      return aText.localeCompare(bText) * sortState.dir;
-    });
-    layoutRows(rows);
-  }
-
-  function navigateToHash(hash) {
-    if (!hash) return;
-    const id  = decodeURIComponent(hash.substring(1));
-    const row = tableBody.querySelector(`tr[data-id="${id}"]`);
-    if (row) selectEntry(row);
-  }
-
-  window.addEventListener("hashchange", () => {
-    if (dataReady) {
-      navigateToHash(window.location.hash);
-    } else {
-      pendingHash = window.location.hash;
-    }
-  });
-
-  headers.forEach((th, i) => {
-    th.addEventListener("click", () => sortTable(i));
+  // Table behaviour (expand, sort, filter, keyboard, #hash) lives in catalog-table.js.
+  // Placeholder and umbrella rows are pinned to the bottom regardless of sort.
+  const table = new CatalogTable({
+    table: "opera-table",
+    filter: "opera-filter",
+    label: "works",
+    sortValue: (col, text) => col === COUNT_COL ? parseInt(text || "0", 10) : text
   });
 
   // --- Read the work authority list (taxonomy) ----------------------------
@@ -207,19 +130,11 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   function addRow({ code, title, witnesses, isNonVersoris, members, group, complete }) {
-    const tr = document.createElement("tr");
-    tr.tabIndex = 0;
-    tr.dataset.id = code;
-    if (isNonVersoris) {
-      tr.classList.add("opera-nonversoris");
-      tr.dataset.pinned = "1";
-    }
+    const classes = [];
+    if (isNonVersoris) classes.push("opera-nonversoris");
     // Umbrellas sit at the end of the table: their figures are gathered from rows above and
     // would otherwise read as rivals to them.
-    if (members) {
-      tr.classList.add("opera-umbrella");
-      tr.dataset.pinned = "1";
-    }
+    if (members) classes.push("opera-umbrella");
 
     let displayTitle = isNonVersoris ? "Not by Versoris (placeholder)" : title;
     // An umbrella is a curriculum grouping: its count is rolled up from its members, which keep
@@ -234,46 +149,31 @@ document.addEventListener("DOMContentLoaded", () => {
       ? witnesses.size
       : Array.from(witnesses.values()).filter(w => w.classes.has("versoris")).length;
     const nRelated  = isNonVersoris ? 0 : witnesses.size - nVersoris;
-    const countText = nRelated ? `${nVersoris} (+${nRelated})` : String(nVersoris);
-    if (!isNonVersoris && nVersoris === 0) tr.classList.add("opera-no-witness");
+    if (!isNonVersoris && nVersoris === 0) classes.push("opera-no-witness");
 
-    [displayTitle, code, countText].forEach(text => {
-      const td = document.createElement("td");
-      td.textContent = text;
-      tr.appendChild(td);
+    // "# mss": Versoris's own witnesses; related copies (not his) follow as a muted "(+n)"
+    const count = document.createElement("span");
+    count.className = "opera-count";
+    count.textContent = String(nVersoris);
+    if (nRelated) {
+      const extra = document.createElement("span");
+      extra.className = "opera-related";
+      extra.title = `${nRelated} related manuscripts not by Versoris`;
+      extra.textContent = `(+${nRelated})`;
+      count.append(" ", extra);
+    }
+
+    const codeEl = document.createElement("code");
+    codeEl.className = "opera-code";
+    codeEl.textContent = code;
+
+    table.addRow({
+      id: code,
+      cells: [displayTitle, codeEl, count],
+      detail: buildWitnessList(witnesses, isNonVersoris),
+      classes,
+      pinned: isNonVersoris || !!members
     });
-
-    const detailTr = document.createElement("tr");
-    detailTr.className = "ms-detail-row";
-    detailTr.style.display = "none";
-    const detailTd = document.createElement("td");
-    detailTd.colSpan = headers.length;
-    detailTd.appendChild(buildWitnessList(witnesses, isNonVersoris));
-    detailTr.appendChild(detailTd);
-    tr._detailRow = detailTr;
-
-    tr.addEventListener("click", () => selectEntry(tr));
-    tr.addEventListener("keydown", e => {
-      if (e.key === "Enter" || e.key === " ") {
-        e.preventDefault();
-        selectEntry(tr);
-      } else if (e.key === "ArrowDown") {
-        e.preventDefault();
-        let next = detailTr.nextElementSibling;
-        while (next && (next.classList.contains("ms-detail-row") || next.style.display === "none")) next = next.nextElementSibling;
-        if (next) { next.focus(); selectEntry(next); }
-      } else if (e.key === "ArrowUp") {
-        e.preventDefault();
-        let prev = tr.previousElementSibling;
-        while (prev && (prev.classList.contains("ms-detail-row") || prev.style.display === "none")) prev = prev.previousElementSibling;
-        if (prev) { prev.focus(); selectEntry(prev); }
-      } else if (e.key === "Escape") {
-        if (currentRow === tr) selectEntry(tr);
-      }
-    });
-
-    tableBody.appendChild(tr);
-    tableBody.appendChild(detailTr);
   }
 
   CETEIcean.getHTML5("data/mss.xml", function(data) {
@@ -379,24 +279,8 @@ document.addEventListener("DOMContentLoaded", () => {
         addRow({ code: "nonVersoris", title: "", witnesses: nonVersoris, isNonVersoris: true });
       }
 
-      // Reflect the default ordering (count desc) in the header indicator.
-      sortState.col = COUNT_COL;
-      sortState.dir = -1;
-      headers[COUNT_COL]?.classList.add("sort-desc");
-
-      filterInput.addEventListener("input", () => {
-        const q = filterInput.value.toLowerCase();
-        Array.from(tableBody.rows).forEach(row => {
-          if (row.classList.contains("ms-detail-row")) return;
-          const match = row.textContent.toLowerCase().includes(q);
-          row.style.display = match ? "" : "none";
-          row._detailRow.style.display = (!match || row !== currentRow) ? "none" : "";
-        });
-      });
-
-      dataReady = true;
-      navigateToHash(pendingHash || window.location.hash);
-      pendingHash = null;
+      // Rows were emitted in count-descending order; reflect that in the header indicator.
+      table.ready({ sortCol: COUNT_COL, sortDir: -1 });
     });
   });
 });
