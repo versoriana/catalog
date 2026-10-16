@@ -33,7 +33,7 @@
                   <surname type="variant">Kernynyven</surname>
                </persName>
                <persName type="sort">Kerniniven, Alanus</persName>
-               <note>From the Diocese of Quimper (Diocesis Corisopitensis), he studied at the
+               <note type="bio">From the Diocese of Quimper (Diocesis Corisopitensis), he studied at the
                   Faculty of Arts in Paris. He obtained the degree of Bachelor of Arts in 1451; was
                   licensed and incepted in 1452.</note>
                <occupation role="scr" ref="#Poitiers_BibliothèqueFrançoisMitterrand_Ms138236"/>
@@ -53,7 +53,7 @@
                </persName>
                <persName type="sort">Szurkowo, Albertus de</persName>
                <idno type="CAC">819743</idno>
-               <note>From the Diocese of Poznań. He obtained the title of Baccalaureus at the
+               <note type="bio">From the Diocese of Poznań. He obtained the title of Baccalaureus at the
                   Faculty of Arts in Prague in 1457 under the master Wenceslaus de Krzizanow. In
                   1461, he received the license and degree of Magister Artium in Paris. The same
                   year he left Paris for Cracow, where, from 1462, he taught at the Faculty of
@@ -79,7 +79,7 @@
                <persName type="sort">Scriptoris de Doesborch, Albertus</persName>
                <death when="1466"/>
                <floruit from="1432" to="1464"/>
-               <note>From the diocese of Utrecht, he obtained the degree of Bachelor at the Paris
+               <note type="bio">From the diocese of Utrecht, he obtained the degree of Bachelor at the Paris
                   Faculty of Arts in 1432 and the degree of Master in 1436. He studied theology and
                   received the Bachelor of Theology in 1444. He served several times as procurator
                   and receptor of the German Nation between 1440 and 1446, and as Rector of the
@@ -126,7 +126,7 @@
                <idno type="VIAF">72206754</idno>
                <idno type="CERL">cnp01120126</idno>
                <death when="1505"/>
-               <note>He studied at Basel University. He entered the Clunian monastery of St. Alban
+               <note type="bio">He studied at Basel University. He entered the Clunian monastery of St. Alban
                   and later the chartustians in Christgarten, Nördlingen and Kleinbasel. Prior of
                   St. Mang in Füssen. He brought the manuscripts he had copied at Basel University
                   in Füssen (II.lat.1. folio.8, II.lat.1.folio.93, II.lat.1.folio.94,
@@ -151,7 +151,7 @@
                </persName>
                <persName type="sort">Gambyn, Andrea de</persName>
                <idno type="CAC">2015096</idno>
-               <note>Matriculated at Krakow in 1465; received a Bachelor’s degree in 1468; obtained
+               <note type="bio">Matriculated at Krakow in 1465; received a Bachelor’s degree in 1468; obtained
                   a Master’s degree in 1474.</note>
                <occupation role="fmo scr" ref="#Kraków_BibliotekaJagiellońska_cod2016"/>
                <listBibl>
@@ -176,7 +176,7 @@
                <persName type="sort">Paradiso, Andreas de</persName>
                <idno type="CAC">2016015</idno>
                <floruit from="1468" to="1470"/>
-               <note>He received the degree of Bachelor at the University of Kraków in 1468 and
+               <note type="bio">He received the degree of Bachelor at the University of Kraków in 1468 and
                   obtained the Master’s degree there in 1470.</note>
                <occupation role="fmo" ref="#Kraków_BibliotekaJagiellońska_cod2018"/>
                <listBibl>
@@ -199,7 +199,7 @@
                <idno type="GND">102421811</idno>
                <idno type="VIAF">2858655</idno>
                <death when="1496"/>
-               <note>He matriculated at the University of Leipzig as a member of the Natio
+               <note type="bio">He matriculated at the University of Leipzig as a member of the Natio
                   Misnensium in 1439 and obtained the degree of Master of Arts in 1442. While
                   teaching at the Faculty of Philosophy, he pursued studies in theology. In 1448 he
                   became baccalaureus cursorius, in 1451 sententiarius, and obtained his licentiate
@@ -218,7 +218,7 @@
                   <surname type="preferred">Buera</surname>
                </persName>
                <persName type="sort">Buera, Andreu</persName>
-               <note>This student, about whom no other information is known, copied in 1503, in
+               <note type="bio">This student, about whom no other information is known, copied in 1503, in
                   manuscript Barcelona, Biblioteca de Catalunya, Ms. 587, probably at the University
                   of Barcelona, the Questions on Books I–X of the Ethics ascribed to Versoris in the
                   printed editions.</note>
@@ -237,7 +237,7 @@
                   <surname type="variant">Foquini</surname>
                </persName>
                <persName type="sort">Foyckin, Arnoldus</persName>
-               <note>Originally from the diocese of Utrecht (diocesis Traiectensis), Arnoldus
+               <note type="bio">Originally from the diocese of Utrecht (diocesis Traiectensis), Arnoldus
                   Foyckin studied at the Faculty of Arts in Paris as a member of the Anglo-German
                   nation. He obtained the degree of Bachelor of Arts in 1448 and that of Master of
                   Arts in 1449. He later pursued studies in theology and began lecturing in 1456
@@ -266,7 +266,7 @@
                </persName>
                <persName type="sort">Poznania, Baltasar de</persName>
                <idno type="CAC">546396</idno>
-               <note>He is attested at the Crakow Arts Faculty in 1460, when he copied Versoris’s
+               <note type="bio">He is attested at the Crakow Arts Faculty in 1460, when he copied Versoris’s
                   text.</note>
                <occupation role="scr" ref="#Kraków_BibliotekaJagiellońska_cod2008"/>
                <listBibl>
@@ -286,7 +286,7 @@
                <idno type="GND">1075152763</idno>
                <idno type="VIAF">317058879</idno>
                <idno type="CERL">cnp02127865</idno>
-               <note>Originally from Imst, Tirol, he studied at Heidelberg University around 1485
+               <note type="bio">Originally from Imst, Tirol, he studied at Heidelberg University around 1485
                   and entered the Cistercian monastery of Stams, Tirol.</note>
                <occupation role="fmo" ref="#Innsbruck_UniversitätsundLandesbibliothekTirol_Cod220"/>
                <listBibl>
@@ -308,9 +308,9 @@
                   <surname type="preferred">Fabregues</surname>
                </persName>
                <persName type="sort">Fabregues, Benedictus</persName>
-               <affiliation type="religiousOrder" subtype="OP">Dominican</affiliation>
-               <note>In 1465, this friar of the Dominican convent of Valencia copied Versoris’s
+               <note type="bio">In 1465, this friar of the Dominican convent of Valencia copied Versoris’s
                   commentaries on the natural philosophical corpus.</note>
+               <affiliation type="religiousOrder" subtype="OP">Dominican</affiliation>
                <occupation role="scr" ref="#Madrid_BibliotecaNacionaldeEspaña_Ms9018"/>
             </person>
 
@@ -323,11 +323,11 @@
                </persName>
                <persName type="sort">Wittolf, Caspar</persName>
                <death notBefore="1503"/>
-               <affiliation type="religiousOrder" subtype="OP">Dominican</affiliation>
-               <note>He entered the Basel Dominican convent in 1452. He studied in Cologne from 1480
+               <note type="bio">He entered the Basel Dominican convent in 1452. He studied in Cologne from 1480
                   to 1493 and served as lector in Mainz in 1482 and lector in Frankfurt am Main in
                   1483. In 1486, he became prior of the Basel Dominican convent, and in 1490, 1502
                   and 1503, he was lector there.</note>
+               <affiliation type="religiousOrder" subtype="OP">Dominican</affiliation>
                <occupation role="scr fmo" ref="#Basel_UB_AX67"/>
                <occupation role="fmo" ref="#Basel_UB_FIII12"/>
                <listBibl>
@@ -348,8 +348,8 @@
                   <surname type="preferred">Ratisbona</surname>
                </persName>
                <persName type="sort">Brandstetter de Ratisbona, Casparus</persName>
+               <note type="bio">studied in Cologne in the years 1461-1462.</note>
                <affiliation type="religiousOrder" subtype="OP">Dominican</affiliation>
-               <note>studied in Cologne in the years 1461-1462.</note>
                <occupation role="scr fmo" ref="#Munchen_BSB_Clm26878"/>
                <listBibl>
                   <bibl>Keussen, Matrikel, 1389–1559, III, 1461/2 Ntr. 720.</bibl>
@@ -365,11 +365,11 @@
                   <surname type="preferred">Fabriano</surname>
                </persName>
                <persName type="sort">Fabriano, Cherubinus de</persName>
-               <affiliation type="religiousOrder" subtype="OP">Dominican</affiliation>
-               <note>He was a member of the Dominican Congregation of Lombardy. In 1465, he
+               <note type="bio">He was a member of the Dominican Congregation of Lombardy. In 1465, he
                   delivered lectures on the Bible at the Dominican convent in Bologna.
                   Interestingly, he was named after Peter of Bergamo. He is recorded as a bachelor
                   of theology in 1470.</note>
+               <affiliation type="religiousOrder" subtype="OP">Dominican</affiliation>
                <occupation role="fmo" ref="#Roma_BibliotecaCasanatense_Ms100"/>
                <occupation role="fmo" ref="#Toledo_ArchivoyBibliotecaCapitular_953"/>
                <listBibl>
@@ -387,7 +387,7 @@
                   <surname type="preferred">Verneti</surname>
                </persName>
                <persName type="sort">Verneti, Claudius</persName>
-               <note>
+               <note type="bio">
                   <p>From the diocese of Besançon (dyocesis Bisuntiensis), he studied as a member of
                      the French Nation at the Paris Faculty of Arts. In 1463, he was under the
                      supervision of Master Galterus de Walma at the Collège de Bourgogne. He later
@@ -419,7 +419,7 @@
                </persName>
                <persName type="sort">Gambycze, Clemens de</persName>
                <idno type="CAC">1998468</idno>
-               <note>He received the degree of Bachelor at the University of Kraków in 1455 and the
+               <note type="bio">He received the degree of Bachelor at the University of Kraków in 1455 and the
                   Master’s degree in 1462. He earned the Bachelor of Theology in 1474 and became
                   Provost of the Collegium Maius in 1477. He also served as a canon of St.
                   Florian.</note>
@@ -444,7 +444,7 @@
                </persName>
                <persName type="sort">Melnik, Clemens de</persName>
                <floruit when="1449"/>
-               <note>He studied at the Faculty of Arts in Paris, at the school of Albertus
+               <note type="bio">He studied at the Faculty of Arts in Paris, at the school of Albertus
                   Scriptoris in 1449, where he copied the commentaries on logic attributed to
                   Versoris. He identifies himself as originally from Mělník, Bohemia. I could not
                   find any record of him in volumes II and VI of the Auctarium, which concern the
@@ -471,7 +471,7 @@
                </persName>
                <persName type="sort">Parmentarii, Clemens</persName>
                <floruit from="1440" to="1466"/>
-               <note>Clémens Parmentier, a member of the Norman nation, taught at the Faculty of
+               <note type="bio">Clémens Parmentier, a member of the Norman nation, taught at the Faculty of
                   Arts in Paris from the 1440s onward and was appointed rector of the University in
                   October 1451. He studied theology under the direction of Petrus Richeri and
                   obtained his license in 1460. In April 1466, he competed for the position of
@@ -494,7 +494,7 @@
                   <surname type="preferred">Lupi</surname>
                </persName>
                <persName type="sort">Lupi, Christianus</persName>
-               <note>Studied at the Collège de Tournai of Paris University as a member of the
+               <note type="bio">Studied at the Collège de Tournai of Paris University as a member of the
                   Anglo-German Nation and obtained the degree of bachelor in 1465. His studies are
                   attested also in ms. Berlin, Staatsbibliotheek Preußischer Kulturbesitz, Ms.
                   theol. qu. 26. He later entered the franciscain convent in Brandeburg.</note>
@@ -528,7 +528,7 @@
                   <surname type="variant">Acuistris</surname>
                </persName>
                <persName type="sort">Acuistes, Christoferus de</persName>
-               <note>The identification of the master who copied the texts ascribed to Versoris and
+               <note type="bio">The identification of the master who copied the texts ascribed to Versoris and
                   Landulphus Caracciolo's Commentary on Book IV of the Sentences in the manuscript
                   Köln, Bibliothek St. Albertus Magnus (olim Bornheim-Walberberg, Bibliothek St.
                   Albert), MS 11 is doubtful. In fact, although this master presents himself as
@@ -555,7 +555,7 @@
                   <surname type="preferred">Abbatis</surname>
                </persName>
                <persName type="sort">Abbatis, Christophorus</persName>
-               <note>He studied at the Collège de Lisieux of the University of Paris and was a
+               <note type="bio">He studied at the Collège de Lisieux of the University of Paris and was a
                   Master of Arts there in 1458, as stated in notes written in his own hand. However,
                   he cannot be identified in the registers of the Faculty of Arts of Paris. Since
                   the manuscript eventually came to Reims, as did another manuscript transmitting a
@@ -583,7 +583,7 @@
                <birth when="1434"/>
                <death when="1504"/>
                <floruit from="1459" to="1472"/>
-               <note>Crux’s studies at King Wenceslas College at Prague University between April and
+               <note type="bio">Crux’s studies at King Wenceslas College at Prague University between April and
                   November 1459 are well documented by the large number of colophons he left. He did
                   not obtain any degree, which is not surprising, given that he was Catholic and the
                   situation at Prague University in the 1450s did not favor Catholics. He
@@ -606,7 +606,7 @@
                   <surname type="preferred">Rosswein</surname>
                </persName>
                <persName type="sort">Kluge de Rosswein, Donatus</persName>
-               <note>Matriculated at Leipzig University in 1442 as a member of the Natio Misnensium.
+               <note type="bio">Matriculated at Leipzig University in 1442 as a member of the Natio Misnensium.
                   He obtained the bachelor's degree in 1444 and the master's degree in 1451. He
                   later studied theology, becoming baccalaureus cursorius in 1453 and sententiarius
                   in 1460.</note>
@@ -622,7 +622,7 @@
                   <surname type="preferred">Saltzmann de Valle Masonis</surname>
                </persName>
                <persName type="sort">Saltzmann de Valle Masonis, Eberhardus</persName>
-               <note>This scribe, about whom I have not been able to find any information, signed
+               <note type="bio">This scribe, about whom I have not been able to find any information, signed
                   the QsP in Colmar, Bibliothèque des Dominicains, ms. 223.</note>
                <occupation role="scr" ref="#Colmar_BM_223"/>
             </person>
@@ -632,7 +632,7 @@
                   <surname type="preferred">Bononiensis</surname>
                </persName>
                <persName type="sort">Bononiensis, Egidius</persName>
-               <note>This friar, of whom nothing else is known, owned the copy of Versoris’s Qdente
+               <note type="bio">This friar, of whom nothing else is known, owned the copy of Versoris’s Qdente
                   preserved in the manuscript Bergamo, Biblioteca Civica Angelo Mai, MA 92 (olim
                   Delta 3, 1), before the even more mysterious Grosuptinus and a friar Vincentius
                   Ariminensis. The order to which he belonged is unknown, but his ownership of a
@@ -648,13 +648,13 @@
                   <surname type="preferred">Katerine</surname>
                </persName>
                <persName type="sort">Katerine, Egidius</persName>
-               <occupation role="fmo" ref="#AmiensBibliothèqueLouisAragonBibliothèquemunicipale_405"/>
-               <note>In the ownership mark that attests Egidius Katerine's acquisition of manuscript
+               <note type="bio">In the ownership mark that attests Egidius Katerine's acquisition of manuscript
                   Amiens, Bibliothèque Louis Aragon (Bibliothèque municipale), 405 in 1460, he is
                   presented as a scholar from Albi: <q n="202rb">Iste liber pertinet domino Egidio
                      Katerine, et emptus fuit anno LX° cuidam clerico de villa Albi, qui quidem
                      liber scriptus fuit a quodam defuncto cognomine Lupi, anima eius et omnium
                      defunctorum requiescat in pace, amen</q>, f. 202rb.</note>
+               <occupation role="fmo" ref="#AmiensBibliothèqueLouisAragonBibliothèquemunicipale_405"/>
             </person>
             <person xml:id="ErasmusDaum">
                <persName>
@@ -666,7 +666,7 @@
                <idno type="GND">1044875887</idno>
                <idno type="VIAF">305431230</idno>
                <death when="1504"/>
-               <note>Entered the monastery of St. Emmeram in Regensburg in 1470/1471. Matriculated
+               <note type="bio">Entered the monastery of St. Emmeram in Regensburg in 1470/1471. Matriculated
                   at Ingolstadt University in 1473. </note>
                <affiliation type="religiousOrder" subtype="OSB">Benedictine</affiliation>
                <occupation role="fmo" ref="#München_BSB_Clm14088"/>
@@ -690,13 +690,13 @@
                   <surname type="variant">Saluzzo</surname>
                </persName>
                <persName type="sort">Salutiis, Eugenius de</persName>
-               <affiliation type="religiousOrder" subtype="OP">Dominican</affiliation>
-               <note>A friar named Eugenius de Salutiis is documented as baccalaureus biblicus at
+               <note type="bio">A friar named Eugenius de Salutiis is documented as baccalaureus biblicus at
                   the Dominican convent of Perugia in 1474. In 1481, the General Chapter held in
                   Rome assigned him to lecture on Peter Lombard’s Sentences at the Dominican studium
                   of Santa Maria Novella in Florence. He can very likely be identified with the
                   scholar of the same name who, in 1472, copied (probably in Bologna) Dominicus de
                   Flandria’s Expositio on De anima and Versoris’s Quaestiones on De ente.</note>
+               <affiliation type="religiousOrder" subtype="OP">Dominican</affiliation>
                <occupation role="scr" ref="#Berlin_SBPK_latqu946"/>
                <listBibl>
                   <bibl>Acta Capitulorum generalium ordinis Praedicatorum, vol. III, p. 363.</bibl>
@@ -715,7 +715,7 @@
                   <surname type="preferred">Wesalia</surname>
                </persName>
                <persName type="sort">Dinslaken, Everardus</persName>
-               <note>He enrolled in the Faculty of Arts at Cologne in 1478, in the bursa of
+               <note type="bio">He enrolled in the Faculty of Arts at Cologne in 1478, in the bursa of
                   Lambertus de Monte. He received his bachelor's degree in 1479 and his master's
                   degree in 1481. He subsequently studied theology, obtaining the degree of
                   baccalaureus formatus in 1489.</note>
@@ -738,15 +738,13 @@
                </persName>
                <persName type="sort">Ameronghen, Folpardus de</persName>
                <floruit from="1448" to="1459"/>
-               <note>Native from the diocese of Utrecht. As a member of the German nation at the
-                  University of Paris, he obtained the degree of bachelor of Arts in 1448 and the
-                  degree of master of Arts in 1449. He later obtained a degree in civil law. He was
-                  and procurator of the German Nation in 1451. By 1459, we find him as of the bishop
-                  David de Bourgogne </note>
-               <note type="attribution">
-                  <ref target="biblID" type="bibl">Weijers</ref> (and <ref target="biblID"
-                     type="bibl">Lohr</ref>?) ascribe to him the commentaries on the logical
-                  corpus</note>
+               <note type="bio"><p>Native from the diocese of Utrecht. As a member of the German nation at the
+                     University of Paris, he obtained the degree of bachelor of Arts in 1448 and the
+                     degree of master of Arts in 1449. He later obtained a degree in civil law. He
+                     was and procurator of the German Nation in 1451. By 1459, we find him as of the
+                     bishop David de Bourgogne.</p><p>Interpreting the expression sub magistro as an
+                     attribution, Olga Weijers and Charles Lohr ascribe to him the commentaries on
+                     the logical corpus transmitted in the Avignon manuscript.</p></note>               
                <occupation role="tch"/>
                <note type="role">Master supervising the copy of the commentaries</note>
                <listBibl>
@@ -774,8 +772,7 @@
                </persName>
                <persName type="sort">Ripa de Mediolano, Franciscus de</persName>
                <floruit from="1451" to="1483"/>
-               <affiliation type="religiousOrder" subtype="OP">Dominican</affiliation>
-               <note>A Dominican friar from the convent of Milan, Franciscus de Ripa was already a
+               <note type="bio">A Dominican friar from the convent of Milan, Franciscus de Ripa was already a
                   master of theology when the General Chapter of Rome, held in 1468, appointed him
                   regent master at the studium generale of the convent of Sant’Eustorgio in Milan
                   for the academic year 1469–1470. By mid-1477, he was serving as inquisitor of
@@ -786,11 +783,12 @@
                   (Sigma II 15), copied in 1451, and by MS Siena, Biblioteca Comunale degli
                   Intronati, H.VI.7, in which Franciscus copied Versoris’s Questions on the Soul
                   (QdA) while studying at Montpellier.</note>
+               <affiliation type="religiousOrder" subtype="OP">Dominican</affiliation>
                <occupation role="scr" ref="#Siena_Intronati_HVI7"/>
                <listBibl>
-                  <bibl>M. Tavuzzi, Renaissance Inquisitors. Dominican Inquisitors and
-                     Inquisitorial Districts in Northern Italy, 1474-1527, Leiden, Brill, 2007, p.
-                     58, 167, 226.</bibl>
+                  <bibl>M. Tavuzzi, Renaissance Inquisitors. Dominican Inquisitors and Inquisitorial
+                     Districts in Northern Italy, 1474-1527, Leiden, Brill, 2007, p. 58, 167,
+                     226.</bibl>
                </listBibl>
             </person>
 
@@ -800,7 +798,7 @@
                   <surname type="preferred">Vich</surname>
                </persName>
                <persName type="sort">Vich, Franciscus</persName>
-               <note>This student, about whom no other information is known, was the copyist and
+               <note type="bio">This student, about whom no other information is known, was the copyist and
                   owner of manuscript Barcelona, Biblioteca de Catalunya, MS 574, completed in 1463,
                   probably at the University of Barcelona, and containing commentaries on natural
                   philosophy by Johannes Versor.</note>
@@ -818,7 +816,7 @@
                <idno type="GND">118510703</idno>
                <birth when="1410" cert="medium"/>
                <death when="1495"/>
-               <note>Born in Speyer, he matriculated at Heidelberg University in 1432, where he
+               <note type="bio">Born in Speyer, he matriculated at Heidelberg University in 1432, where he
                   obtained his bachelor's degree in 1435 and his master's degree in 1438. He was
                   active as a master at Heidelberg until 1444, except for the period 1442/1443, when
                   he attended the University of Erfurt for a short time. It is uncertain where he
@@ -849,7 +847,7 @@
                </persName>
                <persName type="sort">Benedicti, Galcerandus</persName>
                <floruit from="1447" to="1450"/>
-               <note>From the diocese of Lerida (diocesis Ilerdensis or Hilardensis), belonged to
+               <note type="bio">From the diocese of Lerida (diocesis Ilerdensis or Hilardensis), belonged to
                   the French Nation. He studied under Clémens Parmentier, obtained his bachelor
                   degree in 1447 and licensed in 1448 under the master Petrus Caroz. His activity at
                   the Arts Faculty is attested until 1450.</note>
@@ -869,7 +867,7 @@
                   <surname type="variant">Le Moal</surname>
                </persName>
                <persName type="sort">Calvi, Galfredus</persName>
-               <note>Originally from the diocese of Tours, he studied at the Faculty of Arts in
+               <note type="bio">Originally from the diocese of Tours, he studied at the Faculty of Arts in
                   Paris as a member of the French Nation and obtained his Master’s degree in 1445.
                   He served as proctor and receiver of his Nation in 1443 and 1448, respectively. He
                   was elected rector twice: in 1449, to replace John Versoris, who declined the
@@ -896,7 +894,7 @@
                   <surname type="preferred">Praga</surname>
                </persName>
                <persName type="sort">Praga, Gallus de</persName>
-               <note>In 1474–1475, he studied at the school of Letovice, in South Moravia, under the
+               <note type="bio">In 1474–1475, he studied at the school of Letovice, in South Moravia, under the
                   direction of Duchko de Mělník.</note>
                <occupation role="scr" ref="#Brno_UniverzitníKnihovna_Mk66"/>
                <listBibl>
@@ -912,7 +910,7 @@
                </persName>
                <persName type="sort">Walma, Galtherus de</persName>
                <floruit from="1442" to="1480"/>
-               <note>
+               <note type="bio">
                   <p>The colophon of manuscript Paris, BnF, latin 6691 informs us that Galtherus de
                      Walma was a regent master at the Collège de Bourgogne in 1463. According to
                      Paul Bakker, it is probable that this master should be identified with
@@ -962,7 +960,7 @@
             </person>
             <person xml:id="GeorgSchwarz">
                <persName>
-                  <forename type="preferred">Georg</forename>                  
+                  <forename type="preferred">Georg</forename>
                   <surname type="preferred">Schwarz</surname>
                   <surname type="variant">Nigri</surname>
                </persName>
@@ -971,7 +969,7 @@
                <idno type="CERL">cnp01342125</idno>
                <birth when="1434"/>
                <death notBefore="1484"/>
-               <note>Originally from Kaaden (Bohemia), he entered the Dominican Order in Brux in
+               <note type="bio">Originally from Kaaden (Bohemia), he entered the Dominican Order in Brux in
                   1452. He studied at the Dominican convent in Leipzig (1456–1458) and Bologna
                   (1459–1461). He lectured as cursor sententiarum in Eichstätt (1461) and was active
                   as a preacher there and in Buchenhüll (1464–1465). He pursued his theological
@@ -997,7 +995,7 @@
                <persName type="sort">Brabantia, Georgius de</persName>
                <birth when="1448"/>
                <death when="1505"/>
-               <note>Born in 1448 in Bourbourg, he was tonsured in 1456 under Bishop Henri de
+               <note type="bio">Born in 1448 in Bourbourg, he was tonsured in 1456 under Bishop Henri de
                   Lorraine-Vaudémont. He became a monk at the Abbey of Saint-Bertin and, from 1493
                   onwards, served there as archivist and prior. He studied at the Faculty of Arts in
                   Paris in 1471, as attested by his colophon in manuscript Saint-Omer, 597. Likely
@@ -1025,7 +1023,7 @@
                   <surname type="variant">Harbar de Aibling</surname>
                </persName>
                <persName type="sort">Erber de Aibling, Georgius</persName>
-               <note>After studying at the universities of Erfurt (1452) and Vienna (1455), Georgius
+               <note type="bio">After studying at the universities of Erfurt (1452) and Vienna (1455), Georgius
                   Erber moved to Paris, where he was affiliated with the Anglo-German Nation and was
                   a member of the Collège de la Marche (1460–1463). He obtained the degree of
                   Bachelor of Arts in 1461 and the degree of Master in 1463. During this period, he
@@ -1064,7 +1062,7 @@
                   <surname type="preferred">Czwickavia</surname>
                </persName>
                <persName type="sort">Kelner de Czwickavia, Georgius</persName>
-               <note>Matriculated at Leipzig University in 1479 and obtained the degree of bachelor
+               <note type="bio">Matriculated at Leipzig University in 1479 and obtained the degree of bachelor
                   in 1480.</note>
                <occupation role="fmo" ref="#Zwickau_Ratsschulbibliothek_MsXXXIIII14"/>
                <listBibl>
@@ -1079,7 +1077,8 @@
                   <surname type="preferred">Arnhem</surname>
                </persName>
                <persName type="sort">Arnhem, Gerardus</persName>
-               <note>
+               <floruit from="1467" to="1476" cert="medium">fl. ca. 1467-1476</floruit>
+               <note type="bio">
                   <p>A Gerardus de Harlem, from the diocese of Maastricht (Traiectensis diocesis),
                      is mentioned as a student of Arts in the matriculation registers of the
                      University of Cologne in September 1467. He presented himself for the degree of
@@ -1093,7 +1092,6 @@
                      still requires confirmation.</p>
                </note>
                <!-- fl. unique case ? -->
-               <floruit from="1467" to="1476" cert="medium">fl. ca. 1467-1476</floruit>
                <occupation role="scr" ref="#Graz_UB_Ms853"/>
                <listBibl>
                   <bibl>H. Keussen, Die Matrikel der Universität Köln, Erster Band. 1389-1475, Bonn,
@@ -1109,7 +1107,7 @@
                   <surname type="variant">Watrellet</surname>
                </persName>
                <persName type="sort">Watrumwilla, Gerardus de</persName>
-               <note>In the colophons of manuscript Paris, BnF, lat. 16136, which contains
+               <note type="bio">In the colophons of manuscript Paris, BnF, lat. 16136, which contains
                   Versoris’s commentaries on the logical corpus, the Breton student Yvo de Beisit
                   states that he copied the texts under the supervision of a master named Girardus
                   de Watrellet. Since the colophons are dated 1451, the identification of this
@@ -1132,7 +1130,7 @@
                   <surname type="variant">Armignac</surname>
                </persName>
                <persName type="sort">d'Auvergnat, Gilbertus</persName>
-               <note>From the diocese of Bourges (diocesis Bituricensis), bachelor in 1477, licensed
+               <note type="bio">From the diocese of Bourges (diocesis Bituricensis), bachelor in 1477, licensed
                   in 1448 under the master Petrus Caroz. After some years of absence, he was elected
                   procurator of the French nation from 1454 to 1456.</note>
                <occupation role="scr" ref="#Oxford_BodleianLibrary_CanonMisc211"/>
@@ -1158,7 +1156,7 @@
                   <surname type="preferred">Konitcz</surname>
                </persName>
                <persName type="sort">Bredekopf de Konitcz, Gregorius</persName>
-               <note>Matriculated at Leipzig University in 1490 as a member of the Polish Nation. He
+               <note type="bio">Matriculated at Leipzig University in 1490 as a member of the Polish Nation. He
                   obtained the degree of bachelor in 1493 and the degree of master in 1497. He
                   served as vice-chancellor in 1503, 1506, 1511, 1521, and 1523. He was dean of the
                   Faculty of Arts in 1505 and 1519. He also studied theology and was promoted to
@@ -1174,7 +1172,7 @@
                   <surname type="preferred">Grosuptinus</surname>
                </persName>
                <persName type="sort">Grosuptinus</persName>
-               <note>This mysterious scholar owned the copy of Versoris’s Qdente preserved in the
+               <note type="bio">This mysterious scholar owned the copy of Versoris’s Qdente preserved in the
                   manuscript Bergamo, Biblioteca Civica Angelo Mai, MA 92 (olim Delta 3, 1), after
                   friar Egidius Bononiensis and before friar Vincentius Ariminensis. In the
                   ownership note mentioning the three scholars, it is not stated whether Grosuptinus
@@ -1194,7 +1192,7 @@
                   <surname type="preferred">Oviedo</surname>
                </persName>
                <persName type="sort">Oviedo, Gundisalinus de</persName>
-               <note>Nothing is known about the scribe, who copied Versor’s commentaries on natural
+               <note type="bio">Nothing is known about the scribe, who copied Versor’s commentaries on natural
                   philosophy and the Metaphysics in manuscript Salamanca, Biblioteca Universitaria,
                   MS 2463.</note>
                <occupation role="scr" ref="#Salamanca_BibliotecaUniversitaria_Ms2463"/>
@@ -1214,9 +1212,9 @@
                </persName>
                <persName type="sort">Breu von Waischenfeld, Heinrich</persName>
                <death when="1472"/>
-               <affiliation type="religiousOrder" subtype="OSB">Benedictine</affiliation>
-               <note>Monck at the Benedictine monastery of St Emmeram in Regensburg, he matriculated
+               <note type="bio">Monck at the Benedictine monastery of St Emmeram in Regensburg, he matriculated
                   at the University of Leipzig in 1449 as a member of the Bavarian Nation.</note>
+               <affiliation type="religiousOrder" subtype="OSB">Benedictine</affiliation>
                <occupation role="scr" ref="#München_BSB_Clm14647"/>
                <listBibl>
                   <bibl>Erle, Matrikel I, 167.</bibl>
@@ -1233,7 +1231,7 @@
                   <surname type="preferred">Butzbach</surname>
                </persName>
                <persName type="sort">Stitz de Butzbach, Henricus</persName>
-               <note>He matriculated at Heidelberg in 1474; in 1477, he received the bachelor
+               <note type="bio">He matriculated at Heidelberg in 1474; in 1477, he received the bachelor
                   degree; in 1479, he obtained the master degree.</note>
                <occupation role="fmo" ref="#Gießen_UniversitätsbibliothekGießen_Hs52"/>
                <listBibl>
@@ -1248,7 +1246,7 @@
                </persName>
                <persName type="sort">Erlbach, Henricus</persName>
                <death when="1525"/>
-               <note>After studying in Ingolstadt, where he matriculated in 1486, he entered the
+               <note type="bio">After studying in Ingolstadt, where he matriculated in 1486, he entered the
                   Benedictine monastery of St. Emmeram in Regensburg.</note>
                <affiliation subtype="OSB" type="religiousOrder">Benedictine</affiliation>
                <occupation role="scr fmo" ref="#München_BSB_Clm14518"/>
@@ -1267,10 +1265,10 @@
                   <surname type="preferred">Wormatia</surname>
                </persName>
                <persName type="sort">Wormatia, Herbordus de</persName>
-               <affiliation type="religiousOrder" subtype="OCarm">Carmelite</affiliation>
-               <note>He was a Carmelite who studied in Cologne in the years 1503–1506; in Toulouse
+               <note type="bio">He was a Carmelite who studied in Cologne in the years 1503–1506; in Toulouse
                   in the years 1506–1507; and in Erfurt in the years 1507–1509, obtaining the degree
                   of arts bachelor in 1508/09.</note>
+               <affiliation type="religiousOrder" subtype="OCarm">Carmelite</affiliation>
                <occupation role="fmo" ref="#Bonn_UniversitätsundLandesbibliothek_S67"/>
                <listBibl>
                   <bibl>F.-B. Lickteig, The German Carmelites at the medieval universities, Roma
@@ -1288,13 +1286,13 @@
                <idno type="GND">122194845</idno>
                <idno type="VIAF">100729792</idno>
                <death when="1469"/>
-               <affiliation type="religiousOrder" subtype="OSB">Benedictine</affiliation>
-               <note>He studied at the University of Vienna, where he obtained a Bachelor of Arts in
+               <note type="bio">He studied at the University of Vienna, where he obtained a Bachelor of Arts in
                   1439. He was the first university-trained schoolmaster and rector scholarium at St
                   Emmeram. In 1456, he accompanied several sons of the Regensburg patriciate to
                   Leipzig (he is mentioned in the Leipzig matriculation register for that year as a
                   member of the Bavarian Nation). He owned a large library, which he bequeathed to
                   the monastery after his death.</note>
+               <affiliation type="religiousOrder" subtype="OSB">Benedictine</affiliation>
                <occupation role="fmo" ref="#München_BSB_Clm14133"/>
                <listBibl>
                   <bibl>Erle, Matrikel, I, 203.</bibl>
@@ -1325,7 +1323,7 @@
                <idno type="CERL">cnp00973696</idno>
                <birth when="1412"/>
                <death when="1468"/>
-               <note>He studied philosophy at Prague University, where he obtained the bachelor's
+               <note type="bio">He studied philosophy at Prague University, where he obtained the bachelor's
                   degree in 1447 and the master's degree in 1451. At that time, he supported the
                   Hussite movement. His position changed after Jan Rokycana, the head of the Hussite
                   clergy, sent him to study in Padua. Hilarius was promoted in canon law at the
@@ -1358,9 +1356,9 @@
                   <surname type="preferred">Kerlich</surname>
                </persName>
                <persName type="sort">Bonner de Kerlich, Jacobus</persName>
-               <affiliation type="religiousOrder" subtype="OCarm">Carmelite</affiliation>
-               <note>He was a Carmelite who studied in Cologne from 1486 to 1488 and again in 1494,
+               <note type="bio">He was a Carmelite who studied in Cologne from 1486 to 1488 and again in 1494,
                   as well as in Mainz from 1495 to 1496.</note>
+               <affiliation type="religiousOrder" subtype="OCarm">Carmelite</affiliation>
                <occupation role="fmo" ref="#Bonn_UniversitätsundLandesbibliothek_S67"/>
                <listBibl>
                   <bibl>Lickteig, German Carmelites, p. 459, 490.</bibl>
@@ -1373,11 +1371,11 @@
                   <surname type="preferred">d'Abencourt</surname>
                </persName>
                <persName type="sort">d'Abencourt, Iacobus</persName>
-               <occupation role="fmo" ref="#AmiensBibliothèqueLouisAragonBibliothèquemunicipale_405"/>
-               <note>In 1460 he sold manuscript Amiens, Bibliothèque Louis Aragon (Bibliothèque
+               <note type="bio">In 1460 he sold manuscript Amiens, Bibliothèque Louis Aragon (Bibliothèque
                   municipale), 405 to Egidius Katerine, as stated in the ownership mark: <q
                      n="156vb">Egidius Katerine emit hunc librum domino Iacobo d'Abencourt, anno
                      sexagesimo. Orate pro eo</q>, 156vb.</note>
+               <occupation role="fmo" ref="#AmiensBibliothèqueLouisAragonBibliothèquemunicipale_405"/>
             </person>
             <person xml:id="IacobusBorkemanMariaeburgo">
                <persName>
@@ -1387,7 +1385,7 @@
                   <surname type="preferred">Mariaeburgo</surname>
                </persName>
                <persName type="sort">Borkeman de Mariaeburgo, Iacobus</persName>
-               <note>He enrolled at the <orgName>University of Cracow</orgName> in 1497 and obtained
+               <note type="bio">He enrolled at the <orgName>University of Cracow</orgName> in 1497 and obtained
                   the degree of baccalarius in 1504.</note>
                <occupation role="fmo" ref="#Kraków_BJ_cod908"/>
                <listBibl>
@@ -1403,7 +1401,7 @@
                   <surname type="preferred">Monacho</surname>
                </persName>
                <persName type="sort">Guntesberger de Monacho, Iacobus</persName>
-               <note>He matriculated at the University of Leipzig as a member of the Bavarian Nation
+               <note type="bio">He matriculated at the University of Leipzig as a member of the Bavarian Nation
                   in 1487 and obtained the bachelor’s degree in 1489.</note>
                <occupation role="scr fmo" ref="#Munchen_BSB_Clm8401"/>
                <listBibl>
@@ -1422,7 +1420,7 @@
                <idno type="CERL">cnp02056146</idno>
                <birth when="1440"/>
                <death when="1513"/>
-               <note>He studied in Basel in 1476–1477 and served as rector of Basel University. He
+               <note type="bio">He studied in Basel in 1476–1477 and served as rector of Basel University. He
                   subsequently entered the Carthusian order and became prior in 1480. Under his
                   direction, the convent and the library were built.</note>
                <affiliation subtype="OCart" type="religiousOrder">Carthusian</affiliation>
@@ -1441,7 +1439,7 @@
                </persName>
                <persName type="sort">Pol, Iacobus</persName>
                <death when="1500"/>
-               <note>Iacobus Pol studied at the universities of Paris and Cologne, as attested by
+               <note type="bio">Iacobus Pol studied at the universities of Paris and Cologne, as attested by
                   manuscripts Saint-Omer, Bibliothèque d'Agglomération du Pays de Saint-Omer, Ms 586
                   (copied in Paris), Ms 162 and Boulogne-sur-Mer, Bibliothèque Municipale, Ms. 28
                   (both of them copied in Cologne). The first manuscript, which contains Versoris's
@@ -1451,12 +1449,12 @@
                   Iohannes Tinctoris's commentary on the first and third parts of Thomas Aquinas's
                   Summa theologiae, includes two relevant notes. The first reads: <quote
                      source="1r, marg. sup.">pro fratre Iacobo Pol, monacho sancti Bertini in sancto
-                     Audomaro</quote>. The second, partially damaged by water, appears as follows:
+                     Audomaro</quote>. The second, partially damaged by water, appears as follows (the
+                  supplied words are my conjecture; the text is unreadable due to water
+                  damage):
                      <quote n="2v marg-sup">Incipit quedam lectura <damage agent="water">
                         <supplied resp="#AP">super primam et secundam</supplied>
-                     </damage>
-                     <note type="editorial">my conjecture; the text is unreadable due to water
-                        damage</note> partem beati Thome de Aquino, ad pennam pronunciata ab egregio
+                     </damage> partem beati Thome de Aquino, ad pennam pronunciata ab egregio
                      viro, magistro Iohanne Tinctoris, artium magistro ac sacre theologie doctore
                      famosissimo eiusdemque divine cultore precipuo</quote> to which another hand
                   (the same as in the first ownership mark) adds: <quote n="2v marg-sup">quam fecit
@@ -1486,7 +1484,7 @@
                   <surname type="variant">Stendel</surname>
                </persName>
                <persName type="sort">Ungelink de Stendal, Iacobus</persName>
-               <note>From the Diocese of Halberstadt, he studied at the Faculty of Arts in Paris as
+               <note type="bio">From the Diocese of Halberstadt, he studied at the Faculty of Arts in Paris as
                   a member of the Anglo-German nation, obtaining the bachelor’s degree in 1465 and
                   the master’s degree in 1467. He subsequently moved to Magdeburg, where he is
                   attested at the Dominican convent between 1472 and 1486. In 1472 he lectured on
@@ -1523,7 +1521,7 @@
                   <surname type="variant">l'Abbé</surname>
                </persName>
                <persName type="sort">Abbatis, Iohannes</persName>
-               <note>From the diocese of Reims, he studied at the Faculty of Arts in Paris as a
+               <note type="bio">From the diocese of Reims, he studied at the Faculty of Arts in Paris as a
                   member of the French Nation. Between 1450 and 1452, he studied at the Collège de
                   la Marche, as attested by manuscript Reims, Bibliothèque Carnegie (Bibliothèque
                   municipale), 897 (I. 678). He was promoted baccalarius in 1452, and master in
@@ -1545,11 +1543,17 @@
                   <surname type="preferred">Ceyll</surname>
                   <surname type="variant">Kur</surname>
                   <nameLink type="variant">de</nameLink>
-                  <surname type="variant">Zei</surname>
+                  <surname type="variant">Zeil</surname>
                </persName>
                <persName type="sort">Ceyll, Iohannes</persName>
+               <note type="bio">The Iohannes Ceyll who copied Versoris’s texts at Heidelberg
+                  University in 1477 should probably be identified with Johannes Kur de Zeil, who
+                  matriculated at the same university in 1475.</note>
                <occupation role="scr"
                   ref="#Nürnberg_StadtbibliothekimBildungscampusNürnberg_CentV47"/>
+               <listBibl>
+                  <bibl>Toepke, Matrikel I, 349.</bibl>
+               </listBibl>
             </person>
             <person xml:id="IohannesCoromines">
                <persName>
@@ -1559,7 +1563,7 @@
                   <surname type="variant">Cormines</surname>
                </persName>
                <persName type="sort">Coromines, Iohannes</persName>
-               <note>Originally from the Diocese of Barcelona (Dioecesis Barchinonensis), he was a
+               <note type="bio">Originally from the Diocese of Barcelona (Dioecesis Barchinonensis), he was a
                   member of the French Nation at the Faculty of Arts in Paris. He incepted in the
                   Arts in 1444; studied theology under Robertus Ciboule and obtained his licentiate
                   in 1458. He served as procurator of the French Nation from August 1447.</note>
@@ -1587,7 +1591,7 @@
                   <surname type="preferred">Lamballe</surname>
                </persName>
                <persName type="sort">Lamballe, Iohannes de</persName>
-               <note>From the diocese of Tours (Turonensis diocesis), he belonged to the French
+               <note type="bio">From the diocese of Tours (Turonensis diocesis), he belonged to the French
                   Nation of the University of Paris. Bachelor in 1448, licensed and incepted in
                   1449.</note>
                <occupation role="scr" ref="#Berlin_SBPK_latfol402"/>
@@ -1601,7 +1605,7 @@
                   <surname type="preferred">Fleckel</surname>
                </persName>
                <persName type="sort">Fleckel, Iohannes</persName>
-               <note>Originally from Kitzbühel, he entered the dominican order in 1458.</note>
+               <note type="bio">Originally from Kitzbühel, he entered the dominican order in 1458.</note>
                <occupation role="scr fmo" ref="#Wien_Dominikanerkonvent_Cod71295"/>
                <listBibl>
                   <bibl>Frank, Hausstudium und Universitätsstudium, 243-245.</bibl>
@@ -1613,7 +1617,7 @@
                   <surname type="preferred">Gualteri</surname>
                </persName>
                <persName type="sort">Gualteri, Iohannes</persName>
-               <note>The identification of Iohannes Gualteri, the master of the anonymous bachelor
+               <note type="bio">The identification of Iohannes Gualteri, the master of the anonymous bachelor
                   who taught Versoris’s commentaries in 1447 and whose lectures were copied by
                   Iohannes de Lamballe in manuscript Berlin, SB–PK, lat. fol. 402, is particularly
                   problematic, since no master bearing this name is mentioned in the registers of
@@ -1634,7 +1638,7 @@
                   <surname type="preferred"> Memmingen</surname>
                </persName>
                <persName type="sort">Hecht from Memmingen, Iohannes</persName>
-               <note>He matriculated at Heidelberg in 1472.</note>
+               <note type="bio">He matriculated at Heidelberg in 1472.</note>
                <occupation role="scr" ref="#Gießen_UniversitätsbibliothekGießen_Hs52"/>
                <listBibl>
                   <bibl>Toepke, Matrikel I, 338.</bibl>
@@ -1653,7 +1657,7 @@
                <idno type="CERL">cnp01933916</idno>
                <birth when="1430" cert="medium"/>
                <death when="1496" cert="medium"/>
-               <note>Studied in Leipzig, where he obtained the bachelor degree in 1450, and shortly
+               <note type="bio">Studied in Leipzig, where he obtained the bachelor degree in 1450, and shortly
                   in Louvain, in 1453. Matriculated in Paris in 1454 and active there until 1473,
                   with some intervals when he stayed in Basel (1464-1466). Licensed in the Arts in
                   1455. He introduced the via antiqua at Basel University. In 1467, he come back to
@@ -1717,12 +1721,12 @@
                <idno type="GND">102545758</idno>
                <idno type="VIAF">64398697</idno>
                <death when="1495"/>
-               <affiliation type="religiousOrder" subtype="OCart">Carthusian</affiliation>
-               <note>He was from the diocese of Mainz; matriculated at Heidelberg in 1451 and
+               <note type="bio">He was from the diocese of Mainz; matriculated at Heidelberg in 1451 and
                   obtained the degree of bachelor in 1454 and that of master of arts in 1457. He
                   served as dean in 1466 and entered the Carthusian order in 1469. Between 1458 and
                   1463 he copied several manuscripts in Heidelberg, most of them containing texts
                   from the Faculty of Arts. </note>
+               <affiliation type="religiousOrder" subtype="OCart">Carthusian</affiliation>
                <occupation role="scr" ref="#Mainz_StB_HsI530b"/>
                <occupation role="tch" ref="#Mainz_StB_HsI541">Master in the school of which the
                   texts were copied.</occupation>
@@ -1741,17 +1745,17 @@
                   <surname type="preferred">Lupi</surname>
                </persName>
                <persName type="sort">Lupi, Iohannes</persName>
-               <note>The identification of the scribe who signs the colophons of manuscript Amiens,
+               <note type="bio">The identification of the scribe who signs the colophons of manuscript Amiens,
                   Bibliothèque Louis Aragon (Bibliothèque municipale), MS 405 is rather problematic.
                   In fact, he specifies that he is “oriundus Albini”, that is, originally from Albi
                   (or from the Albini family, although the history of the manuscript, acquired by
                   scholars from Albi, makes it clear that the town is meant), and that he determined
                   under the master Iacobus Suaden together with two other students named Johannes
-                  Griselet and Johannes de Frigidomonte in 1458.<note type="editorial">Iacobus
-                     Suaden, licensed in theology in 1472. See Auctarium III, col. 206, l. 29-30 and
-                     Sullivan, Licentiates II, p. 509-510. I cannot identify Johannes Griselet and
-                     Johannes de Frigidomonte in the registers of the University of Paris.</note>
-                  However, the registers of the French Nation of the Paris Faculty of Arts do not
+                  Griselet and Johannes de Frigidomonte in 1458 (Iacobus Suaden, licensed in
+                  theology in 1472. See Auctarium III, col. 206, l. 29-30 and Sullivan,
+                  Licentiates II, p. 509-510. I cannot identify Johannes Griselet and Johannes
+                  de Frigidomonte in the registers of the University of Paris). However, the
+                  registers of the French Nation of the Paris Faculty of Arts do not
                   mention any student named Iohannes Lupi from Albi. Instead, they mention a student
                   named Iohannes Albi from the diocese of Lyon (diocesis Lugdunensis), who was
                   licensed in the arts in 1453 (Auctarium V, col. 475; col. 526, l. 31; col. 529, l.
@@ -1786,7 +1790,7 @@
                   <surname type="preferred">Namslavia</surname>
                </persName>
                <persName type="sort">Namslavia, Iohannes de</persName>
-               <note>From the colophon of manuscript Berlin, Staatsbibliothek, Preußischer
+               <note type="bio">From the colophon of manuscript Berlin, Staatsbibliothek, Preußischer
                   Kulturbesitz, lat. qu. 439, we learn that a scholar named Iohannes de Namslavia
                   copied Versoris’s text in Bautzen between 1457 and 1458. Namslavia is the
                   Latinized form of Namysłów (German Namslau), a town in Upper Silesia.</note>
@@ -1799,7 +1803,7 @@
                   <surname type="preferred">Quarreti</surname>
                </persName>
                <persName type="sort">Quarreti, Iohannes</persName>
-               <note>From Bar-le-Duc, in the diocese of Toul (diocesis Tullensis), he enrolled in
+               <note type="bio">From Bar-le-Duc, in the diocese of Toul (diocesis Tullensis), he enrolled in
                   the Paris Faculty of Arts as a member of the French Nation. He obtained the degree
                   of baccalarius in 1446 and was licensed in the arts in 1447. He served as
                   procurator of the French Nation in 1454 (one of the intrantes who elected him was
@@ -1824,7 +1828,7 @@
                   <surname type="preferred">Oldernheim</surname>
                </persName>
                <persName type="sort">Nickel de Oldernheim, Iohannes</persName>
-               <note>Enrolled at Leipzig in 1461 (as a member of the Bavarian nation).</note>
+               <note type="bio">Enrolled at Leipzig in 1461 (as a member of the Bavarian nation).</note>
                <occupation role="scr fmo" ref="#VaticanoCittàdel_BAV_Pallat1050"/>
                <listBibl>
                   <bibl>G. Erler, Die Matrikel der Universität Leipzig, I. Band. Die
@@ -1833,9 +1837,6 @@
             </person>
 
             <person xml:id="IohannesDeRabenstein">
-               <idno type="VIAF">94245561</idno>
-               <idno type="GND">10094924X</idno>
-               <idno type="CERL">cnp00166271</idno>
                <persName>
                   <forename type="preferred">Iohannes</forename>
                   <forename type="variant">Jan</forename>
@@ -1845,9 +1846,12 @@
                   <surname type="variant">Rabštejna</surname>
                </persName>
                <persName type="sort">Rabenstein, Iohannes de</persName>
+               <idno type="VIAF">94245561</idno>
+               <idno type="GND">10094924X</idno>
+               <idno type="CERL">cnp00166271</idno>
                <birth when="1437"/>
                <death when="1473"/>
-               <note>Born into a Bohemian noble family, he was destined by his relatives for an
+               <note type="bio">Born into a Bohemian noble family, he was destined by his relatives for an
                   ecclesiastical career. In 1447, he became provost of the collegiate chapter in
                   Leitmeritz, and from 1453 he served as provost of the Royal Collegiate Chapter at
                   Vyšehrad. In 1454, he enrolled in the University of Bologna to study canon law. He
@@ -1880,7 +1884,7 @@
                   <surname type="preferred">Run</surname>
                </persName>
                <persName type="sort">Run, Iohannes</persName>
-               <note>Originally from the diocesis of Tréguier (Trecorensis) in Bretagne, he licensed
+               <note type="bio">Originally from the diocesis of Tréguier (Trecorensis) in Bretagne, he licensed
                   and incepted at the Arts Faculty of the University of Paris in Mai 1444.</note>
                <occupation role="scr" ref="#Oxford_BodleianLibrary_CanonMisc211"/>
                <occupation role="scr" ref="#Oxford_BodleianLibrary_CanonMisc486"/>
@@ -1903,7 +1907,7 @@
                <idno type="GND">137596693</idno>
                <idno type="VIAF">81767662</idno>
                <death when="1493"/>
-               <note> Already a monk, he matriculated at Leipzig in 1464 as a member of the Bavarian
+               <note type="bio"> Already a monk, he matriculated at Leipzig in 1464 as a member of the Bavarian
                   Nation and obtained a bachelor’s degree in 1466. He served as abbot of St. Emmeram
                   from 1471 to 1493. </note>
                <affiliation type="religiousOrder" subtype="OSB">Benedictine</affiliation>
@@ -1925,7 +1929,7 @@
                </persName>
                <persName type="sort">Weiße, Iohannes</persName>
                <death when="1486"/>
-               <note>He matriculated at the University of Rostock in 1423, where he obtained the
+               <note type="bio">He matriculated at the University of Rostock in 1423, where he obtained the
                   degree of Master of Arts in 1431. He arrived at the University of Leipzig in 1440,
                   where he took an active part in academic life. In 1443, he became rector of the
                   university. At the same time, he pursued studies in theology, obtaining his
@@ -1948,11 +1952,11 @@
                </persName>
                <persName type="sort">Traiecto, Iordanus de</persName>
                <death notBefore="1552" notAfter="1553" cert="medium"/>
-               <affiliation type="religiousOrder" subtype="OCR">Order of the Crucifers</affiliation>
-               <note>Matriculated in 1499 at the University of Cologne as a member of the Bursa
+               <note type="bio">Matriculated in 1499 at the University of Cologne as a member of the Bursa
                   Laurentiana; in 1500, he was promoted to bachelor. In 1505, he was ordained a
                   priest. From 1511, he is attested as a scribe in the Canons Regular in Düsseldorf;
                   from 1542/43, he is attested as subprior.</note>
+               <affiliation type="religiousOrder" subtype="OCR">Order of the Crucifers</affiliation>
                <occupation role="scr" ref="#Dusseldorf_ULB_MsFVI"/>
                <listBibl>
                   <bibl>Keussen, Matrikel, II, nr. 441, 13.</bibl>
@@ -1968,7 +1972,7 @@
                   <surname type="preferred">Rouyant</surname>
                </persName>
                <persName type="sort">Rouyant, Iudicellus</persName>
-               <note>In 1456, he pursued studies at the Faculty of Arts, University of Paris, under
+               <note type="bio">In 1456, he pursued studies at the Faculty of Arts, University of Paris, under
                   the supervision of Reginaldus de Brule.</note>
                <occupation role="fmo" ref="#Paris_BnF_latin16136"/>
                <listBibl>
@@ -1984,7 +1988,7 @@
                   <surname type="variant">Beizit</surname>
                </persName>
                <persName type="sort">Bezit, Ivo</persName>
-               <note>Originally from the diocese of Vannes, he studied at the Faculty of Arts in
+               <note type="bio">Originally from the diocese of Vannes, he studied at the Faculty of Arts in
                   Paris, where he obtained his Bachelor’s degree in 1452 and his Master’s degree in
                   1453.</note>
                <occupation role="scr" ref="#Paris_BnF_latin16136"/>
@@ -2002,7 +2006,7 @@
                   <surname type="preferred">Sweydnitcz</surname>
                </persName>
                <persName type="sort">Sartoris de Sweydnitcz, Laurentius</persName>
-               <note>He matriculated at Leipzig University as a member of the Polish Nation in 1465
+               <note type="bio">He matriculated at Leipzig University as a member of the Polish Nation in 1465
                   and obtained the bachelor degree in 1467.</note>
                <occupation role="scr" ref="#Michaelbeuern_Benediktinerstift_mancart57"/>
                <listBibl>
@@ -2018,7 +2022,7 @@
                </persName>
                <persName type="sort">Nuremberga, Leonhardus de</persName>
                <death when="1504"/>
-               <note>He matriculated at the University of Erfurt in 1469 and obtained the bachelor’s
+               <note type="bio">He matriculated at the University of Erfurt in 1469 and obtained the bachelor’s
                   and master’s degrees there in 1470 (according to the Erfurt registers; however,
                   1469 is given in a note in his own hand) and 1471, respectively. He served as
                   rector of the University of Trier in 1477 and died in 1504.</note>
@@ -2042,7 +2046,7 @@
                   <surname type="preferred">Schroter</surname>
                </persName>
                <persName type="sort">Schroter, Leonhardus</persName>
-               <note>The identification of the scribe who, in the manuscript Nürnberg,
+               <note type="bio">The identification of the scribe who, in the manuscript Nürnberg,
                   Stadtbibliothek im Bildungscampus Nürnberg, Cent. VII 86, signs "Leonhardus
                   Schroter conventus Ratisponensis" remains uncertain, since no friar bearing this
                   exact name is mentioned in either Bischoff’s or Scheffler’s studies on education
@@ -2059,7 +2063,7 @@
                </persName>
                <persName type="sort">Enscheringen, Ludolf von</persName>
                <death when="1504"/>
-               <note>He obtained the degree of Master of Arts at Erfurt in 1466. In 1476, he served
+               <note type="bio">He obtained the degree of Master of Arts at Erfurt in 1466. In 1476, he served
                   as rector of the University of Trier.</note>
                <occupation role="fmo"
                   ref="#Luxembourg_BibliothèquenationaleduLuxembourgRéserveprécieuse_53"/>
@@ -2078,13 +2082,13 @@
                </persName>
                <persName type="sort">Geist of Atzenheim, Marcellus</persName>
                <idno type="VIAF">8352155708726922580004</idno>
-               <affiliation type="religiousOrder" subtype="OCart">Carthusian</affiliation>
-               <note>He matriculated at Heidelberg University in 1445, during the second rectorate
+               <note type="bio">He matriculated at Heidelberg University in 1445, during the second rectorate
                   of John Wenck. He earned a bachelor’s degree in 1447 and a master’s degree in
                   1448. In 1452, he taught at the Heidelberg Arts Faculty. In 1454, he entered the
                   Carthusian Order in Mainz. Between 1459 and 1469, he served as prior of the
                   Charterhouse in Bern. In 1470, he was appointed prior in Mainz and was later
                   delegated for a visitation to Italy, where he died. </note>
+               <affiliation type="religiousOrder" subtype="OCart">Carthusian</affiliation>
                <occupation role="fmo" ref="#Mainz_WissenschaftlicheStadtbibliothekMainz_HsI541"/>
                <listBibl>
                   <bibl>Toepke, Matrikel I 245.</bibl>
@@ -2103,7 +2107,7 @@
                <idno type="VIAF">19830607</idno>
                <birth when="1432" cert="medium"/>
                <death when="1482" cert="medium"/>
-               <note>Originally from Tours, he studied at the University of Paris as a member of the
+               <note type="bio">Originally from Tours, he studied at the University of Paris as a member of the
                   French Nation. He obtained the degree of <hi rend="italics">baccalaureus</hi> in
                   the Arts in 1452 and the degree of Master the following year. He subsequently
                   studied theology and became a Master in 1474. He taught rhetoric at the Collège de
@@ -2150,7 +2154,7 @@
                <idno type="CAC">2019376</idno>
                <birth when="1460" cert="medium"/>
                <death when="1538"/>
-               <note>Matriculated at Cracow University in 1477. He obtained the master’s degree at
+               <note type="bio">Matriculated at Cracow University in 1477. He obtained the master’s degree at
                   the Faculty of Arts of the University of Kraków in 1489. He was active as magister
                   regens from 1490 to 1536. He also studied theology and obtained the title of
                   doctor in 1519. He remained active at the University until his death in Kraków in
@@ -2178,7 +2182,7 @@
                <idno type="GND">317058878</idno>
                <idno type="VIAF">1075152739</idno>
                <idno type="CERL">cnp02127864</idno>
-               <note>Originally from Imst, Tirol, he studied at Heidelberg University around 1472
+               <note type="bio">Originally from Imst, Tirol, he studied at Heidelberg University around 1472
                   and entered the Cistercian monastery of Stams, Tirol.</note>
                <occupation role="fmo" ref="#Innsbruck_UniversitätsundLandesbibliothekTirol_Cod220"/>
                <listBibl>
@@ -2199,9 +2203,9 @@
                   <surname type="preferred">Boppardia</surname>
                </persName>
                <persName type="sort">Beke de Boppardia, Michael</persName>
-               <affiliation type="religiousOrder" subtype="OCarm">Carmelite</affiliation>
-               <note>He was a Carmelite who studied in Cologne from 1482 to 1488 and again from 1491
+               <note type="bio">He was a Carmelite who studied in Cologne from 1482 to 1488 and again from 1491
                   to 1492, as well as in Trier from 1488 to 1489.</note>
+               <affiliation type="religiousOrder" subtype="OCarm">Carmelite</affiliation>
                <occupation role="fmo" ref="#Bonn_UniversitätsundLandesbibliothek_S67"/>
                <listBibl>
                   <bibl>Lickteig, German Carmelites, p. 458, 486.</bibl>
@@ -2220,7 +2224,7 @@
                <persName type="sort">Turobin, Michael de</persName>
                <idno type="CAC">2036466</idno>
                <death when="1528"/>
-               <note>Michael de Turobin studied at the University of Krakow, where he obtained the
+               <note type="bio">Michael de Turobin studied at the University of Krakow, where he obtained the
                   degree of Bachelor of Arts in 1477 and subsequently that of Doctor of Law. In
                   1527, he founded the Collegiate Church of Saint Anna in Krakow.</note>
                <occupation role="fmo" ref="#Kraków_BibliotekaJagiellońska_cod2007"/>
@@ -2251,7 +2255,7 @@
                <idno type="CERL">cnp00888506</idno>
                <idno type="CAC">2022187</idno>
                <death when="1534"/>
-               <note>Matriculated at Cracow University in 1478 and obtained the degree of Master of
+               <note type="bio">Matriculated at Cracow University in 1478 and obtained the degree of Master of
                   Arts in 1488. He lectured at the Faculty of Arts until 1512 while studying
                   theology; he became Doctor of Theology in 1517.</note>
                <occupation role="fmo" ref="#Kraków_BibliotekaJagiellońska_cod740"/>
@@ -2280,7 +2284,7 @@
                <idno type="GND">128983086</idno>
                <idno type="VIAF">5998962</idno>
                <death when="1531"/>
-               <note>He matriculated at the University of Ingolstadt in 1479, where he obtained a
+               <note type="bio">He matriculated at the University of Ingolstadt in 1479, where he obtained a
                   bachelor's degree in 1489 and a master's degree in 1483. By 1489, he had entered
                   the Benedictine monastery of St. Emmeram in Regensburg.</note>
                <affiliation type="religiousOrder" subtype="OSB">Benedictine</affiliation>
@@ -2304,7 +2308,7 @@
                   <surname type="preferred">Bamberga</surname>
                </persName>
                <persName type="sort">Unbehuen, Nicolaus</persName>
-               <note>Active in Ulm, probably at the Dominican convent, in the third quarter of the
+               <note type="bio">Active in Ulm, probably at the Dominican convent, in the third quarter of the
                   fifteenth century.</note>
                <affiliation subtype="OP" type="religiousOrder">Dominican</affiliation>
                <occupation role="scr" ref="#Bamberg_StaatsbibliothekBamberg_MscPatr150"/>
@@ -2323,7 +2327,7 @@
                </persName>
                <persName type="sort">Warszawa, Paulus de</persName>
                <idno type="CAC">2009626</idno>
-               <note>matriculated in Krakow in 1473 (if he is to be identified with Paul, son of
+               <note type="bio">matriculated in Krakow in 1473 (if he is to be identified with Paul, son of
                   Stanislaus) or 1474 (if he is to be identified with Paul, son of Ludwig). Both
                   obtained the degree of Arts bachelor in 1476.</note>
                <occupation role="fmo" ref="#Kraków_BibliotekaJagiellońska_cod2118"/>
@@ -2350,7 +2354,7 @@
                   <surname type="preferred">Görlitz</surname>
                </persName>
                <persName type="sort">Suoffheym de Görlitz, Paulus</persName>
-               <note>Matriculated at Leipzig University in 1468. Doctor and professor in Leipzig,
+               <note type="bio">Matriculated at Leipzig University in 1468. Doctor and professor in Leipzig,
                   rector in 1509 and 1524. Dead in 1539 as canon of Missnensis. </note>
                <occupation role="fmo" ref="#Wrocław_BibliotekaUniwersyteckaweWrocławiu_MilII70"/>
                <listBibl>
@@ -2366,7 +2370,7 @@
                   <surname type="preferred">Manuel</surname>
                </persName>
                <persName type="sort">Manuel, Pere</persName>
-               <note>This scholar, about whom no other information is known, studied at the
+               <note type="bio">This scholar, about whom no other information is known, studied at the
                   University of Barcelona and owned Versoris’s commentary on Peter of Spain’s
                   Summule logicales, transmitted in manuscript Vic, Museo y Biblioteca Episcopal, MS
                   185.</note>
@@ -2383,11 +2387,11 @@
                </persName>
                <persName type="sort">Balbi Ianuensis, Petrus Iohannes</persName>
                <floruit when="1458"/>
-               <affiliation type="religiousOrder" subtype="OP">Dominican</affiliation>
-               <note>According to several colophons in the manuscript Siena, Biblioteca Comunale
+               <note type="bio">According to several colophons in the manuscript Siena, Biblioteca Comunale
                   degli Intronati, H.VI.7, Petrus Iohannes Balbi, a Dominican friar from Genoa,
-                  copied several logical texts in Padua in 1458, including Versoris’s commentary
-                  on Peter of Spain’s Summule.</note>
+                  copied several logical texts in Padua in 1458, including Versoris’s commentary on
+                  Peter of Spain’s Summule.</note>
+               <affiliation type="religiousOrder" subtype="OP">Dominican</affiliation>
                <occupation role="scr" ref="#Siena_Intronati_HVI7"/>
             </person>
 
@@ -2399,11 +2403,11 @@
                </persName>
                <persName type="sort">Berkenmayr, Petrus</persName>
                <death when="1505"/>
-               <affiliation type="religiousOrder" subtype="OSB">Benedictine</affiliation>
-               <occupation role="fmo" ref="#Augsburg_StaatsundStadtbibliothekAugsburg_Cod419"/>
-               <note>He entered the monastery of Saint Ulrich and Afra in Augsburg in 1497 and owned
+               <note type="bio">He entered the monastery of Saint Ulrich and Afra in Augsburg in 1497 and owned
                   a rich library. He should probably be identified with Petrus Perkenmair de
                   Augusta, who matriculated at the University of Ingolstadt in 1472.</note>
+               <affiliation type="religiousOrder" subtype="OSB">Benedictine</affiliation>
+               <occupation role="fmo" ref="#Augsburg_StaatsundStadtbibliothekAugsburg_Cod419"/>
                <listBibl>
                   <bibl>G. Wolff, Die Matrikel der Ludwig-Maximilians-Universität
                      Ingolstadt–Landshut–München, Bd. I, col. 10, l. 5.</bibl>
@@ -2419,7 +2423,7 @@
                   <surname type="preferred">Briçonnet</surname>
                </persName>
                <persName type="sort">Briçonnet, Petrus</persName>
-               <note>Originally from the Diocese of Tours, he studied at the Faculty of Arts in
+               <note type="bio">Originally from the Diocese of Tours, he studied at the Faculty of Arts in
                   Paris as a member of the French Nation. He obtained the degree of baccalaureus in
                   1448 and the degree of master the following year. He later earned a license in
                   law. He served as a canon of Bayeux until 1463 and as a canon of Reims from 1463
@@ -2437,7 +2441,7 @@
                   <surname type="preferred">Iuterbuck</surname>
                </persName>
                <persName type="sort">Doleatoris de Iuterbuck, Petrus</persName>
-               <note>The scribe who names himself as "Petrus Juterbog" can probably be identified
+               <note type="bio">The scribe who names himself as "Petrus Juterbog" can probably be identified
                   with Petrus Doleatoris de Iuterbuck, who obtained the degree of Bachelor at the
                   University of Leipzig in 1446.</note>
                <occupation role="scr" ref="#Greifswald_GeistlichesMinisterium_26DI"/>
@@ -2453,7 +2457,7 @@
                   <surname type="preferred">Hawindorn aus Dingolfing</surname>
                </persName>
                <persName type="sort">Hawindorn aus Dingolfing, Peter</persName>
-               <note>Copied seven other manuscripts, from 1456 to 1476, in which he presents himself
+               <note type="bio">Copied seven other manuscripts, from 1456 to 1476, in which he presents himself
                   as persecutor rusticorum. He was Kaplan in Dingolfing a.d. Isar.</note>
                <occupation role="scr"
                   ref="#SanktGallen_KantonsbibliothekVadianischeSammlung_VadSlgMs839"/>
@@ -2476,7 +2480,7 @@
                   <surname type="preferred">Lindaw</surname>
                </persName>
                <persName type="sort">Huinlin de Lindaw, Petrus</persName>
-               <note>In 1494 he matriculated in Heidelberg, where he obtained the bachelor
+               <note type="bio">In 1494 he matriculated in Heidelberg, where he obtained the bachelor
                   degree.</note>
                <affiliation type="religiousOrder" subtype="OCart">Carthusian</affiliation>
                <occupation role="fmo" ref="#Heidelberg_UBH_CodSalVIII109"/>
@@ -2494,7 +2498,7 @@
                </persName>
                <persName type="sort">Nickel, Petrus</persName>
                <idno type="GND">120962852X</idno>
-               <note>The identification of this scholar and clergyman, a relative of Iohannes Nickel
+               <note type="bio">The identification of this scholar and clergyman, a relative of Iohannes Nickel
                   from Oldernheim and active in Heidelberg around 1525, remains uncertain.</note>
                <occupation role="fmo" ref="#VaticanoCittàdel_BAV_Pallat1050"/>
                <listBibl>
@@ -2516,7 +2520,7 @@
                <persName type="sort">Świętopełk de Zambrzecz, Petrus</persName>
                <idno type="CAC">2001033</idno>
                <death when="1497"/>
-               <note>He was enrolled at the University in 1446, became Master of Arts in 1460, was
+               <note type="bio">He was enrolled at the University in 1446, became Master of Arts in 1460, was
                   Provost of the Collegium Maius in 1479, Doctor of Theology in 1494, Canon of St.
                   Florian; he died on 14 June 1497. He donated many books to the University.</note>
                <occupation role="fmo" ref="#Kraków_BibliotekaJagiellońska_cod2018"/>
@@ -2541,7 +2545,7 @@
                </persName>
                <persName type="sort">Goupil,Philippe</persName>
                <death when="1503"/>
-               <note>Originally from Rouen (Rothomagentis dyocesis), he studied at the Faculty of
+               <note type="bio">Originally from Rouen (Rothomagentis dyocesis), he studied at the Faculty of
                   Arts in Paris under the Norman master Clément Parmentier in the years 1442–1444.
                   He was appointed abbot of Saint Eve in Toul in 1480 and died in 1503.</note>
                <affiliation subtype="OSB" type="religiousOrder">Benedictine</affiliation>
@@ -2564,7 +2568,7 @@
                   <surname type="preferred">Brule</surname>
                </persName>
                <persName type="sort">Brule, Reginaldus de</persName>
-               <note>A member of the Picard Nation at the Faculty of Arts in Paris, he was admitted
+               <note type="bio">A member of the Picard Nation at the Faculty of Arts in Paris, he was admitted
                   to the Collège de Sorbonne in 1452. He served as rector in 1454 and obtained his
                   licentiate in theology in 1464.</note>
                <occupation role="fmo" ref="#Paris_BnF_latin16136"/>
@@ -2592,7 +2596,7 @@
                <idno type="VIAF">71794413</idno>
                <birth when="1403"/>
                <death when="1458"/>
-               <note>He studied in Paris as a member of the French Nation, at the Collège de
+               <note type="bio">He studied in Paris as a member of the French Nation, at the Collège de
                   Harcourt, and obtained the degree of Master of Arts in 1421. He subsequently
                   studied theology, was licensed in 1437, and obtained the title of doctor the
                   following year. In 1437, he served as rector of the University. He participated in
@@ -2634,23 +2638,23 @@
                </persName>
                <persName type="sort">Kaiserer von Salzburg, Rupertus</persName>
                <death when="1495"/>
+               <note type="bio">Matriculated at the Arts Faculty of the University of Vienna in 1469; obtained
+                  a bachelor’s degree at another, unidentified university in 1472; and incepted as
+                  Master of Arts in Vienna in 1479. By the time of his inception, he had entered the
+                  Dominican Order. He served as a lector at the Dominican convent in Vienna. In
+                  1488, he obtained permission to leave the convent. In 1492, he was at the
+                  Dominican convent in Leoben. Shortly thereafter, he became prior of the Dominican
+                  convent in Retz, where he died in 1495.</note>
                <affiliation type="religiousOrder" subtype="OP">Dominican</affiliation>
-               <note>Matriculated at the Arts Faculty of the University of Vienna in 1469;
-                  obtained a bachelor’s degree at another, unidentified university in 1472; and
-                  incepted as Master of Arts in Vienna in 1479. By the time of his inception, he
-                  had entered the Dominican Order. He served as a lector at the Dominican convent
-                  in Vienna. In 1488, he obtained permission to leave the convent. In 1492, he was
-                  at the Dominican convent in Leoben. Shortly thereafter, he became prior of the
-                  Dominican convent in Retz, where he died in 1495.</note>
                <occupation role="scr" ref="#Wien_DK_Cod88"/>
                <listBibl>
                   <bibl>Acta Universitatis seu Rectoratus II (R 2), vol. 5, f. 21r (1476); f. 281v
                      (1479).</bibl>
                   <bibl>AFA III, f. 281v.</bibl>
-                  <bibl>F. Gall, W. Szaivert, Die Matrikel der Universität Wien. Band II:
-                     1451–1518 ( Publikationen des Instituts für Österreichische
-                     Geschichtsforschung, VI. Reihe .Quellen zur Geschichte della Universität Wien,
-                     1. Abteilung), Wien/Köln/Graz, 1967, p. 112.</bibl>
+                  <bibl>F. Gall, W. Szaivert, Die Matrikel der Universität Wien. Band II: 1451–1518
+                     ( Publikationen des Instituts für Österreichische Geschichtsforschung, VI.
+                     Reihe .Quellen zur Geschichte della Universität Wien, 1. Abteilung),
+                     Wien/Köln/Graz, 1967, p. 112.</bibl>
                   <bibl>I. W. Frank, Hausstudium und Universitätsstudium der Wiener Dominikaner bis
                      1500, Wien 1968, 267-269.</bibl>
                   <bibl>Rupert Kaiserer (RAG-ID: ngND5c274NF04cjJhMWcwLzE), <ref
@@ -2670,7 +2674,7 @@
                   <surname type="preferred">Branburg</surname>
                </persName>
                <persName type="sort">Zimmermann de Branburg, Sebastian</persName>
-               <note>Matriculated at Leipzig University in 1457 as a member of the Saxon Nation. He
+               <note type="bio">Matriculated at Leipzig University in 1457 as a member of the Saxon Nation. He
                   obtained the degree of bachelor in 1460 and the degree of master in 1476. He also
                   studied theology and was promoted to bachelor cursorius in 1495 and bachelor
                   sententiarius in 1501. In the same year, he served as rector.</note>
@@ -2694,7 +2698,7 @@
                <idno type="VIAF">34860011</idno>
                <birth when="1420" cert="medium"/>
                <death when="1464"/>
-               <note>originally from the diocese of Metz, he matriculated at the University of
+               <note type="bio">originally from the diocese of Metz, he matriculated at the University of
                   Erfurt in 1438 and obtained the bachelor’s and master’s degrees there in 1440/1441
                   and 1444, respectively. In the same year, he began studying law and, in 1457, was
                   awarded the degree of doctor utriusque iuris. That same year, he also served as
@@ -2723,7 +2727,7 @@
                   <surname type="preferred">Horreo</surname>
                </persName>
                <persName type="sort">Horreo, Simon de</persName>
-               <note>Manuscript Pelplin, Biblioteka Seminarium Duchownego 236/21, was copied by a
+               <note type="bio">Manuscript Pelplin, Biblioteka Seminarium Duchownego 236/21, was copied by a
                   student named Simon de Horreo, who wrote in the school of Master Iohannes Haneron.
                   No student by this name appears in the proctors’ and receivers’ books of the
                   Faculty of Arts in Paris. A student named Simon de Horth, from the diocese of
@@ -2749,7 +2753,7 @@
                <persName type="sort">Gnezna, Stanislaus de</persName>
                <idno type="GND">10310206X</idno>
                <idno type="VIAF">49630295</idno>
-               <note>He obtained the degree of Bachelor in 1442 and the degree of Master of Arts in
+               <note type="bio">He obtained the degree of Bachelor in 1442 and the degree of Master of Arts in
                   1446 at Prague University. Between 1448 and 1449, he served as dean of the Faculty
                   of Arts in Prague.</note>
                <occupation role="scr" ref="#Praha_NK_VE12"/>
@@ -2772,7 +2776,7 @@
                   <surname type="variant">Welwara</surname>
                </persName>
                <persName type="sort">Velvary, Stanislaus de</persName>
-               <note>He obtained a Bachelor of Arts degree from Prague University in 1445. He later
+               <note type="bio">He obtained a Bachelor of Arts degree from Prague University in 1445. He later
                   traveled to Paris, where he received minor orders from the Bishop of Paris and
                   studied under Albertus Scriptoris at the House of the Poor German Students. Likely
                   because his Prague degree was not recognized in Paris, he retook the bachelor
@@ -2786,7 +2790,7 @@
                <occupation role="tch" ref="#Praha_KMK_M81"/>
                <occupation role="scr" ref="#Praha_NK_XH21"/>
                <occupation role="tch" ref="#Wien_Dominikanerkonvent_Cod149119"/>
-               <note type="biblio">Mentioned in mss. Praha, KMK, M 40/2 and Praha, NK, X H 21 as the
+               <note type="role">Mentioned in mss. Praha, KMK, M 40/2 and Praha, NK, X H 21 as the
                   copyist who brought Versoris’s logical corpus from Paris to Prague; mentioned in
                   ms. Wien, Dominikanerkonvent, Cod. 149/119 as the master under whom the copyist
                   obtained his bachelor degree; using Versoris’s Ethics for teaching in ms. Praha,
@@ -2810,7 +2814,7 @@
                </persName>
                <persName type="sort">Petri de Byalkowicze, Stanislaus</persName>
                <death when="1527"/>
-               <note>Matriculated at the University of Kraków in 1488; obtained the degree of
+               <note type="bio">Matriculated at the University of Kraków in 1488; obtained the degree of
                   bachelor in 1491. He served as magister regens between 1511 and 1524.</note>
                <occupation role="fmo" ref="#Kraków_BibliotekaJagiellońska_cod2018"/>
                <listBibl>
@@ -2830,7 +2834,7 @@
                </persName>
                <persName type="sort">Czchowa, syn Macieja, Stanisław z</persName>
                <idno type="CAC">2007042</idno>
-               <note>matriculated at Cracow University in 1467.</note>
+               <note type="bio">matriculated at Cracow University in 1467.</note>
                <occupation role="scr" ref="#Kraków_BibliotekaJagiellońska_cod2002"/>
                <listBibl>
                   <bibl>Metryka, 321</bibl>
@@ -2850,9 +2854,9 @@
                   <surname type="preferred">Darmstadt</surname>
                </persName>
                <persName type="sort">Billinger de Darmstadt, Theodericus</persName>
-               <affiliation type="religiousOrder" subtype="OCarm">Carmelite</affiliation>
-               <note>He was a Carmelite who studied in Cologne from 1463 to 1464 and again from 1467
+               <note type="bio">He was a Carmelite who studied in Cologne from 1463 to 1464 and again from 1467
                   to 1468.</note>
+               <affiliation type="religiousOrder" subtype="OCarm">Carmelite</affiliation>
                <occupation role="scr" ref="#Bonn_UniversitätsundLandesbibliothek_S67"/>
                <listBibl>
                   <bibl>Lickteig, German Carmelites, p. 454.</bibl>
@@ -2869,7 +2873,7 @@
                <persName type="sort">Steffani de Colberg, Theodericus</persName>
                <birth when="1420"/>
                <death when="1474"/>
-               <note>Matriculated at Leipzig University in 1441 as a member of the natio Saxorum;
+               <note type="bio">Matriculated at Leipzig University in 1441 as a member of the natio Saxorum;
                   received a Bachelor’s degree in 1442 and a Master’s degree in 1445.</note>
                <occupation role="fmo" ref="#Greifswald_GeistlichesMinisterium_26DI"/>
                <listBibl>
@@ -2887,7 +2891,7 @@
                   <surname type="preferred">Ariminensis</surname>
                </persName>
                <persName type="sort">Ariminensis, Vincentius</persName>
-               <note>This friar, of whom nothing else is known, owned the copy of Versoris’s Qdente
+               <note type="bio">This friar, of whom nothing else is known, owned the copy of Versoris’s Qdente
                   preserved in the manuscript Bergamo, Biblioteca Civica Angelo Mai, MA 92 (olim
                   Delta 3, 1), after the even more mysterious Grosuptinus and a friar Egidius
                   Bononiensis. The order to which he belonged is unknown, but his ownership of a
@@ -2911,7 +2915,7 @@
                </persName>
                <persName type="sort">Wrben, Wenceslaus de</persName>
                <death when="1493"/>
-               <note>Originally from Bohemia, he traveled to Paris and studied at the College of the
+               <note type="bio">Originally from Bohemia, he traveled to Paris and studied at the College of the
                   German Nation in 1445. Shortly thereafter, he went to Prague, where he became a
                   Bachelor of Arts in November of the same year. He subsequently returned to Paris,
                   this time accompanied by two colleagues, Clemens de Melnik and Stanislaus de
@@ -2942,11 +2946,11 @@
                   <surname type="preferred">Hirschhorn</surname>
                </persName>
                <persName type="sort">Bischofsheim de Hirschhorn, Wendelinus</persName>
-               <affiliation type="religiousOrder" subtype="OCarm">Carmelite</affiliation>
-               <note>He was a Carmelite friar who studied at the University of Cologne from 1485 to
+               <note type="bio">He was a Carmelite friar who studied at the University of Cologne from 1485 to
                   1488 and again in 1496, at the University of Heidelberg from 1488 to 1489, and at
                   the University of Erfurt from 1489 to 1492, where he obtained a Bachelor of Arts
                   degree in 1492. He studied at the University of Trier from 1492 to 1495.</note>
+               <affiliation type="religiousOrder" subtype="OCarm">Carmelite</affiliation>
                <occupation role="fmo" ref="#Bonn_UniversitätsundLandesbibliothek_S67"/>
                <listBibl>
                   <bibl>Lickteig, German Carmelites, p. 459, 486, 491, 495, 497.</bibl>
@@ -2963,9 +2967,9 @@
                   <surname type="preferred">Hirschhorn</surname>
                </persName>
                <persName type="sort">Wacker de Welstatt de Hirschhorn, Werner</persName>
-               <affiliation type="religiousOrder" subtype="OCarm">Carmelite</affiliation>
-               <note>He was a Carmelite and a student in Cologne from 1464 to 1472 and again from
+               <note type="bio">He was a Carmelite and a student in Cologne from 1464 to 1472 and again from
                   1474 to 1476. He was also a lecturer in Trier from 1473 to 1474.</note>
+               <affiliation type="religiousOrder" subtype="OCarm">Carmelite</affiliation>
                <occupation role="scr" ref="#Bonn_UniversitätsundLandesbibliothek_S67"/>
                <occupation role="fmo" ref="#Bonn_UniversitätsundLandesbibliothek_S67"/>
                <listBibl>
@@ -2981,7 +2985,7 @@
                   <surname type="preferred">Monaco</surname>
                </persName>
                <persName type="sort">Albeg de Monaco, Wolfgang</persName>
-               <note>This Dominican friar from the convent of Znojmo, Moravia, copied the QsY in
+               <note type="bio">This Dominican friar from the convent of Znojmo, Moravia, copied the QsY in
                   1497.</note>
                <affiliation type="religiousOrder" subtype="OP">Dominican</affiliation>
                <occupation role="scr fmo" ref="#LaHaye_KoninklijkeBibliotheek_ms169C3"/>
@@ -2997,7 +3001,7 @@
                   <surname type="variant">Quengo</surname>
                </persName>
                <persName type="sort">Quentel, Yvo</persName>
-               <note>A master by this name is mentioned in a note written in 1456 by his nephew, the
+               <note type="bio">A master by this name is mentioned in a note written in 1456 by his nephew, the
                   Breton student Reginaldus de Brule, in manuscript Paris, BnF, lat. 16136. The
                   Breton master whose name most closely corresponds in this period at the Faculty of
                   Arts in Paris is Yvo de Quengo, from the diocese of Dol, who obtained his
