@@ -245,8 +245,9 @@
                   Bachelor in Theology in 1459. He served as rector in 1456 and again in 1460; he
                   was socius of the Collège de la Sorbonne in 1460 and prior of the Collège in
                   1462.</note>
-               <occupation role="tch" ref="#Basel_UB_FIII10">Master teaching Versoris’s
-                  commentaries.</occupation>
+               <occupation role="tch" ref="#Basel_UB_FIII10"/>
+               <note type="role">Master teaching Versoris’s commentaries in ms. Basel, UB, F III
+                  10.</note>
                <listBibl>
                   <bibl>Auctarium II, col. 713, l. 6; col. 763, l. 12; col. 764, l. 24; col. 916, l.
                      20; col. 930, l. 23; v III, col. 1, l. 6; col. 2, l. 1; VI, col. 155, l. 11, n.
@@ -423,7 +424,7 @@
                   Master’s degree in 1462. He earned the Bachelor of Theology in 1474 and became
                   Provost of the Collegium Maius in 1477. He also served as a canon of St.
                   Florian.</note>
-               <occupation role="fmo" ref="#Krakow_BibliotekaJagiellońska_cod2024"/>
+               <occupation role="fmo" ref="#Kraków_BibliotekaJagiellońska_cod2024"/>
                <listBibl>
                   <bibl>Metryka, 245</bibl>
                   <bibl>Klemens Zagajewski z Gębic (Id: 1998468), in: Corpus Academicum Cracoviense
@@ -591,8 +592,8 @@
                   Cathedral in Prague (1463–1466), and later in Plzeň (1468–1472). He was ordained
                   in 1463 and joined the Augustinian canonry in Třeboň (Wittingau in German).</note>
                <affiliation subtype="OESA" type="religiousOrder">Augustinian</affiliation>
-               <occupation role="scr fmo" ref="#Praha-NK-I-E-38"/>
-               <occupation role="scr fmo" ref="#IF25"/>               
+               <occupation role="scr fmo" ref="#Praha_NK_IE38"/>
+               <occupation role="scr fmo" ref="#Praha_NK_IF25"/>               
             </person>
 
             <person xml:id="DonatusKlugeDeRosswein">
@@ -667,7 +668,7 @@
                   at Ingolstadt University in 1473. </note>
                <affiliation type="religiousOrder" subtype="OSB">Benedictine</affiliation>
                <occupation role="fmo" ref="#München_BSB_Clm14088"/>
-               <occupation role="fmo" ref="#Clm14133"/>
+               <occupation role="fmo" ref="#München_BSB_Clm14133"/>
                <occupation role="fmo" ref="#München_BSB_Clm14647"/>
                <listBibl>
                   <bibl>Ingolstadt, Matrikel, 36, 21.</bibl>
@@ -977,7 +978,7 @@
                   of the Dominican Order in Bohemia. In this capacity, he participated in the
                   General Chapter of the Order in Rome in 1484.</note>
                <affiliation subtype="OP" type="religiousOrder">Dominican</affiliation>
-               <occupation role="fmo scr" ref="#Eichstätt_UB_Cod686"/>
+               <occupation role="fmo scr" ref="#Eichstätt_Universitätsbibliothek_CodSt686"/>
                <occupation role="fmo" ref="#Eichstätt_Universitätsbibliothek_CodSt476"/>
                <listBibl>
                   <bibl>Hoenen, Speculum.</bibl>
@@ -1027,8 +1028,8 @@
                   acquired two volumes containing commentaries attributed to Versoris – one on
                   natural philosophy and the other on logic – which he brought with him when,
                   shortly after completing his studies, he moved to Coburg</note>
-               <occupation role="fmo" ref="#Berlin_SB-PK_latfol402"/>
-               <occupation role="fmo" ref="#Berlin_SB-PK_Hdschr435"/>
+               <occupation role="fmo" ref="#Berlin_SBPK_latfol402"/>
+               <occupation role="fmo" ref="#Berlin_SBPK_Hdschr435"/>
                <listBibl>
                   <bibl>Auctarium II, col. 948, l. 19; VI, col. 360, l. 24; col. 375, l. 5; col.
                      377, l. 2.</bibl>
@@ -1384,7 +1385,7 @@
                <persName type="sort">Borkeman de Mariaeburgo, Iacobus</persName>
                <note type="bio">He enrolled at the <orgName>University of Cracow</orgName> in 1497 and obtained
                   the degree of baccalarius in 1504.</note>
-               <occupation role="fmo" ref="#Kraków_BJ_cod908"/>
+               <occupation role="fmo" ref="#Kraków_BJ_908"/>
                <listBibl>
                   <bibl>Album studiosorum II, 41.</bibl>
                   <bibl>Liber prom. 139.</bibl>
@@ -1724,9 +1725,10 @@
                   1463 he copied several manuscripts in Heidelberg, most of them containing texts
                   from the Faculty of Arts. </note>
                <affiliation type="religiousOrder" subtype="OCart">Carthusian</affiliation>
-               <occupation role="scr" ref="#Mainz_StB_HsI530b"/>
-               <occupation role="tch" ref="#Mainz_StB_HsI541">Master in the school of which the
-                  texts were copied.</occupation>
+               <occupation role="scr" ref="#Mainz_WissenschaftlicheStadtbibliothek_HsI530b"/>
+               <occupation role="tch" ref="#Mainz_WissenschaftlicheStadtbibliothekMainz_HsI541"/>
+               <note type="role">Master in the school of which the texts were copied, in ms. Mainz,
+                  Wissenschaftliche Stadtbibliothek, Hs. I 541.</note>
                <listBibl>
                   <bibl>Toepke, Matrikel I, 270.</bibl>
                   <bibl>II (1886), 396, 403.</bibl>
@@ -1826,7 +1828,7 @@
                </persName>
                <persName type="sort">Nickel de Oldernheim, Iohannes</persName>
                <note type="bio">Enrolled at Leipzig in 1461 (as a member of the Bavarian nation).</note>
-               <occupation role="scr fmo" ref="#VaticanoCittàdel_BAV_Pallat1050"/>
+               <occupation role="scr fmo" ref="#VaticanoCittàdel_BibliotecaApostolicaVaticana_Pallat1050"/>
                <listBibl>
                   <bibl>G. Erler, Die Matrikel der Universität Leipzig, I. Band. Die
                      Immatrikulationen von 1409-1559, Leipzig 1895, 228, nr. 63.</bibl>
@@ -1863,8 +1865,9 @@
                   Catholic party in the kingdom.</note>
                <occupation role="fmo" ref="#Schlägl_Prämonstratenserstift_Cpl170"/>
                <occupation role="fmo" ref="#Schlägl_Prämonstratenserstift_Cpl169"/>
-               <occupation role="tch" ref="#Schlägl_Prämonstratenserstift_Cpl169">Master teaching
-                  Versor’s commentaries in ms. Cpl. 169.</occupation>
+               <occupation role="tch" ref="#Schlägl_Prämonstratenserstift_Cpl169"/>
+               <note type="role">Master teaching Versor’s commentaries in ms. Schlägl,
+                  Prämonstratenserstift, Cpl. 169.</note>
                <listBibl>
                   <bibl>F. J. Worstbrock, “Johannes von Rabenstein”, Verfasserlexikon der Literatur
                      des Mittelalters, 4 (1983), p. 712–715.</bibl>
@@ -1885,7 +1888,7 @@
                   and incepted at the Arts Faculty of the University of Paris in Mai 1444.</note>
                <occupation role="scr" ref="#Oxford_BodleianLibrary_CanonMisc211"/>
                <occupation role="scr" ref="#Oxford_BodleianLibrary_CanonMisc486"/>
-               <note type="role">in <ref target="#Oxford_BodleianLibrary_Canon.Misc.211" type="ms"
+               <note type="role">in <ref target="#Oxford_BodleianLibrary_CanonMisc211" type="ms"
                      >ms. Canon.Misc.211</ref> he wrote for Iohannes de Colomines</note>
                <listBibl>
                   <bibl>Auctarium V, col. 44, l. 15; col. 48, l. 30</bibl>
@@ -2497,7 +2500,7 @@
                <idno type="GND">120962852X</idno>
                <note type="bio">The identification of this scholar and clergyman, a relative of Iohannes Nickel
                   from Oldernheim and active in Heidelberg around 1525, remains uncertain.</note>
-               <occupation role="fmo" ref="#VaticanoCittàdel_BAV_Pallat1050"/>
+               <occupation role="fmo" ref="#VaticanoCittàdel_BibliotecaApostolicaVaticana_Pallat1050"/>
                <listBibl>
                   <bibl>Walz, Die historischen und philosophischen Handschriften, p. 211. <note
                         type="biblio">it contains some hints for the identification of this
