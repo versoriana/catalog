@@ -14018,6 +14018,114 @@
                     </additional>
                 </msDesc>
 
+                <!-- Stockholm, Kungliga Biblioteket Stockholm, V a 2 issue#213 -->
+                <msDesc xml:id="Stockholm_KungligaBiblioteketStockholm_Va2">
+                    <msIdentifier>
+                        <settlement>Stockholm</settlement>
+                        <repository ref="#org_0079">Kungliga Biblioteket
+                            Stockholm</repository>
+                        <idno>V a 2</idno>
+                        <idno type="URI">https://manuscripta.se/ms/102902</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <ab type="explicit_attribution" cert="0">none</ab>
+                            <ab type="general_remarks">The commentary is preceded by a copy of
+                                Aristotle’s Nicomachean Ethics (ff. 8r–141v) and followed by an
+                                anonymous commentary on the pseudo-Aristotelian Economics,
+                                influenced by Albert of Saxony (ff. 237r–247v), as well as the
+                                text of the pseudo-Aristotelian Economics (ff. 248r–253v). </ab>
+                            <ab type="general_remarks">The codex also contains letters to
+                                Johannes de Wesalia from various correspondents, as well as some
+                                of his other writings, sermons, treatises, etc., of varying
+                                content and originating from different authors (ff. 283–313).
+                                Ff. 365–496 contain texts of a humanistic character, among them
+                                Cicero’s Oratio pro Tito Annio Milone, Terence’s Adria, Leonardo
+                                Bruni’s preface to Plato’s Phaedo, the Apologia Socratis, and
+                                Plato’s letters. </ab>
+                        </summary>
+                        <msItem xml:id="Stockholm_KungligaBiblioteketStockholm_Va2_NicomacheanEthics">
+                            <locus from="8r" to="141v"/>
+                            <title ref="#nonVersoris">Nicomachean Ethics</title>
+                        </msItem>
+                        <msItem xml:id="Stockholm_KungligaBiblioteketStockholm_Va2_QsPol">
+                            <locus from="152r" to="235v"/>
+                            <title ref="#QsPol">QsPol</title>
+                            <note type="content">Followed by the list of questions. </note>
+                        </msItem>
+                        <msItem xml:id="Stockholm_KungligaBiblioteketStockholm_Va2_Anon">
+                            <locus from="237r" to="247v"/>
+                            <author>Anonymus</author>
+                            <title ref="#nonVersoris">Commentary on the pseudo-Aristotelian
+                                Economics</title>
+                            <note type="desc">Influenced by Albert of Saxony. </note>
+                        </msItem>
+                        <msItem xml:id="Stockholm_KungligaBiblioteketStockholm_Va2_Economics">
+                            <locus from="248r" to="253v"/>
+                            <title ref="#nonVersoris">Pseudo-Aristotelian Economics</title>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate from="1466" to="1484">The watermarks therefore point to a date between the late 1460s and the early 1480s. </origDate>
+                            <origPlace cert="medium">Bohemia</origPlace>
+                            <p>The manuscript contains no information on its origin or date.
+                                However, it may reasonably be assumed that it belonged to the
+                                library booty taken in Bohemia during the Thirty Years’ War.
+                                This hypothesis seems to be supported by the watermarks, which
+                                are similar to inventoried specimens attested in Austria and
+                                above all Bavaria, a feature that is consistent with Bohemian
+                                paper, whose watermarks have not yet been properly inventoried.
+                                Several watermarks can be distinguished throughout the
+                                manuscript: <watermark>three mountains (particularly visible at
+                                f. 2), similar to Piccard VII, attested in South Germany in
+                                1474</watermark>; <watermark>two keys (particularly visible at
+                                f. 8), similar to Piccard IV 60, attested in Bavaria in
+                                1466</watermark>; <watermark>three mountains (particularly
+                                visible at f. 140), similar to Piccard VII 2338, attested in
+                                Bavaria in 1468</watermark>; <watermark>an ox-head (particularly
+                                visible at f. 152), similar to Piccard XIII 521 and 527,
+                                attested in Bavaria in the years 1463–1469 and
+                                1470–1472</watermark>; <watermark>an ox-head (particularly
+                                visible at f. 235), similar to Piccard XII 857, attested mainly
+                                in Bavaria in the years 1457–1470</watermark>; <watermark>an
+                                ox-head (particularly visible at f. 236), quite similar to
+                                Piccard XII 654, attested in Austria in 1472</watermark>;
+                                <watermark>an ox-head similar to Piccard XV 360–361, attested
+                                mainly in Austria and Bavaria in the years
+                                1478–1484</watermark>; <watermark>an ox-head (particularly
+                                visible at f. 260), similar to Piccard XI 326, also attested in
+                                Bavaria in 1480–1481</watermark>; <watermark>three mountains
+                                similar to Piccard VIII 2670, attested in Bavaria in
+                                1473</watermark>; <watermark>an ox-head similar to Piccard XVI
+                                132, attested mainly in Bavaria in the years
+                                1480–1482</watermark>. </p>
+                        </origin>
+                    </history>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source cert="high" resp="#">
+                                    <p>Ms directly examined</p>
+                                </source>
+                            </recordHist>
+                        </adminInfo>
+                        <listBibl>
+                            <bibl>G. Ritter, “Romantische und revolutionäre Elemente in der
+                                deutschen Theologie am Vorabend der Reformation”, in Deutsche
+                                Vierteljahrsschrift für Literaturwissenschaft und Geistesgeschichte
+                                5 (1927), p. 342–380, at p. 344. </bibl>
+                            <bibl>Festschrift Eugen Mogk zum 70. Geburtstag, Halle 1924, p. 259–260,
+                                fn. 60. </bibl>
+                            <bibl>AL posterior, p. 1155, n. 1700. </bibl>
+                            <bibl>not in Kristeller. </bibl>
+                            <bibl>Flüeler, Rezeption und Interpretation, vol. 2, p. 4, 31, 86 <note
+                                    type="biblio">on the anonymous commentary on the
+                                    pseudo-Aristotelian Economics</note>. </bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+
                 <msDesc xml:id="Stuttgart_WürttembergischeLandesbibliothek_HBX2">
                     <msIdentifier>
                         <settlement>Stuttgart</settlement>
