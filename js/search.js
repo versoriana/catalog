@@ -494,10 +494,13 @@ class VersorisSearch {
         results.forEach(result => {
             const suggestionDiv = document.createElement('div');
             suggestionDiv.className = 'search-suggestion';
-            suggestionDiv.innerHTML = `
-                <div class="suggestion-title">${result.name || result.title || result.id}</div>
-                <div class="suggestion-type">${result.type}</div>
-            `;
+            const title = document.createElement('div');
+            title.className = 'suggestion-title';
+            title.textContent = result.name || result.title || result.id;
+            const type = document.createElement('div');
+            type.className = 'suggestion-type';
+            type.textContent = result.type;
+            suggestionDiv.append(title, type);
             suggestionDiv.addEventListener('click', () => {
                 // Get base path for proper navigation on GitHub Pages
                 const basePath = window.location.pathname.substring(0, window.location.pathname.lastIndexOf('/') + 1);
@@ -548,13 +551,13 @@ class TextHighlighter {
             return;
         }
 
+        const terms = searchTerms.toLowerCase().split(/\s+/).filter(term => term.length > 2);
+        if (terms.length === 0) return;
+
         this.isHighlighting = true;
 
         // Clear any existing highlights
         this.clearHighlights();
-
-        const terms = searchTerms.toLowerCase().split(/\s+/).filter(term => term.length > 2);
-        if (terms.length === 0) return;
 
         // Use TreeWalker to find all text nodes
         const walker = document.createTreeWalker(
@@ -591,39 +594,29 @@ class TextHighlighter {
     }
 
     highlightInTextNode(textNode, terms) {
-        const originalText = textNode.textContent;
-        let foundTerms = false;
+        const text = textNode.textContent;
+        // One pattern for all terms, longest first, so overlapping terms do not nest marks
+        const pattern = new RegExp(
+            [...terms].sort((a, b) => b.length - a.length).map(t => this.escapeRegex(t)).join('|'), 'gi');
 
-        // Check if any terms match
-        terms.forEach(term => {
-            const regex = new RegExp(this.escapeRegex(term), 'gi');
-            if (regex.test(originalText)) {
-                foundTerms = true;
-            }
-        });
-
-        if (!foundTerms) return;
-
-        // Create highlighted HTML
-        let highlightedText = originalText;
-        terms.forEach(term => {
-            const regex = new RegExp(`(${this.escapeRegex(term)})`, 'gi');
-            highlightedText = highlightedText.replace(regex, '<mark class="search-highlight" data-term="$1">$1</mark>');
-        });
-
-        // Replace text node with highlighted content
-        const tempDiv = document.createElement('div');
-        tempDiv.innerHTML = highlightedText;
+        // Rebuild the text as text nodes and <mark> elements: page text is never parsed as HTML
+        const fragment = document.createDocumentFragment();
+        let last = 0;
+        let match;
+        while ((match = pattern.exec(text)) !== null) {
+            if (match.index > last) fragment.appendChild(document.createTextNode(text.slice(last, match.index)));
+            const mark = document.createElement('mark');
+            mark.className = 'search-highlight';
+            mark.dataset.term = match[0];
+            mark.textContent = match[0];
+            fragment.appendChild(mark);
+            last = pattern.lastIndex;
+        }
+        if (last === 0) return;   // no match
+        if (last < text.length) fragment.appendChild(document.createTextNode(text.slice(last)));
 
         const parent = textNode.parentNode;
-
-        // Insert all new nodes before the text node
-        while (tempDiv.firstChild) {
-            parent.insertBefore(tempDiv.firstChild, textNode);
-        }
-
-        // Remove the original text node
-        parent.removeChild(textNode);
+        parent.replaceChild(fragment, textNode);
 
         // Track the parent element for cleanup
         this.highlightedElements.push(parent);
@@ -646,42 +639,6 @@ class TextHighlighter {
         }
     }
 
-    highlightInElement(element, terms) {
-        const originalText = element.textContent;
-        let highlightedText = originalText;
-        let foundTerms = false;
-
-        terms.forEach(term => {
-            const regex = new RegExp(`(${this.escapeRegex(term)})`, 'gi');
-            if (regex.test(highlightedText)) {
-                highlightedText = highlightedText.replace(regex, '<mark class="search-highlight" data-term="$1">$1</mark>');
-                foundTerms = true;
-            }
-        });
-
-        if (foundTerms) {
-            element.innerHTML = highlightedText;
-            this.highlightedElements.push(element);
-
-            // Scroll to first highlight if this is the first one found
-            // BUT only if there's no URL fragment (user hasn't navigated to specific section)
-            if (this.highlightedElements.length === 1) {
-                setTimeout(() => {
-                    // Check if user navigated to a specific section (URL has fragment)
-                    if (window.location.hash) {
-                        // User clicked on a specific person/section, don't override their navigation
-                        return;
-                    }
-
-                    const firstHighlight = element.querySelector('.search-highlight');
-                    if (firstHighlight) {
-                        firstHighlight.scrollIntoView({ behavior: 'smooth', block: 'center' });
-                    }
-                }, 500);
-            }
-        }
-    }
-
     escapeRegex(string) {
         return string.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
     }
@@ -698,73 +655,9 @@ class TextHighlighter {
         });
 
         this.highlightedElements = [];
-        this.hideHighlightIndicator();
 
         // Reset highlighting flag when clearing
         this.isHighlighting = false;
-    }
-
-    showHighlightIndicator(searchTerms, count) {
-        // Remove existing indicator
-        this.hideHighlightIndicator();
-
-        const indicator = document.createElement('div');
-        indicator.id = 'search-highlight-indicator';
-        indicator.innerHTML = `
-            <div style="
-                position: fixed;
-                top: 80px;
-                right: 20px;
-                background: #0d6efd;
-                color: white;
-                padding: 10px 15px;
-                border-radius: 8px;
-                box-shadow: 0 4px 12px rgba(0,0,0,0.15);
-                z-index: 1050;
-                font-size: 0.9rem;
-                max-width: 300px;
-            ">
-                <div style="margin-bottom: 5px;">
-                    <strong>Search highlights:</strong> "${searchTerms}"
-                </div>
-                <div style="font-size: 0.8rem; opacity: 0.9;">
-                    Found ${count} highlighted section${count !== 1 ? 's' : ''}
-                </div>
-                <button id="clear-highlights" style="
-                    background: rgba(255,255,255,0.2);
-                    border: none;
-                    color: white;
-                    padding: 4px 8px;
-                    border-radius: 4px;
-                    font-size: 0.8rem;
-                    margin-top: 8px;
-                    cursor: pointer;
-                ">Clear highlights</button>
-            </div>
-        `;
-
-        document.body.appendChild(indicator);
-
-        // Add event listener for clear button
-        document.getElementById('clear-highlights').addEventListener('click', () => {
-            this.clearHighlights();
-            // Remove highlight parameter from URL
-            const url = new URL(window.location);
-            url.searchParams.delete('highlight');
-            window.history.replaceState({}, '', url);
-        });
-
-        // Auto-hide after 10 seconds
-        setTimeout(() => {
-            this.hideHighlightIndicator();
-        }, 10000);
-    }
-
-    hideHighlightIndicator() {
-        const existing = document.getElementById('search-highlight-indicator');
-        if (existing) {
-            existing.remove();
-        }
     }
 }
 

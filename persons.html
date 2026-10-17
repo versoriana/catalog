@@ -41,7 +41,9 @@
 	<!-- CETEIcean script -->
 	<script type="text/javascript" src="js/CETEI.js"></script>
 	<!-- MiniSearch for full-text search -->
-	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/minisearch@7.1.0/dist/umd/index.min.js"></script>
+	<!-- SRI hash pins this exact file: update integrity when changing the version -->
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/minisearch@7.2.0/dist/umd/index.js"
+		integrity="sha384-KuHy7eg9MqWBVrMXJC0WN6q4d3+KBquZ3Htgex79A4REptrDvGOXfAgZ0VOJ1Mdx" crossorigin="anonymous"></script>
 	<!-- Shared navbar, footer and theme (must load before search.js) -->
 	<script type="text/javascript" src="js/layout.js"></script>
 	<!-- Fonts -->
@@ -52,7 +54,8 @@
 	<link rel="stylesheet" type="text/css" href="css/CETEIcean.css" />
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
 		integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css" rel="stylesheet"
+		integrity="sha384-CK2SzKma4jA5H/MXDUU7i1TqZlCFaD4T01vtyDFvPlD97JQyS+IsSh1nI2EFbpyk" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="css/versoris.css" />
 	<link rel="stylesheet" type="text/css" href="css/theme.css" />
 </head>
@@ -307,7 +310,7 @@
 							url = `https://data.cerl.org/thesaurus/${idno}`;
 							break;
 						case 'CAC':
-							url = `http://cac.historia.uj.edu.pl/osoba/${idno}`;
+							url = `https://cac.historia.uj.edu.pl/osoba/${idno}`;
 							break;
 						default:
 							return null; // Use default behavior for other types
