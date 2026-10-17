@@ -8,7 +8,7 @@
 //   Order: …              (CSS on tei-affiliation)
 //   Role: … — role note   (occupation behavior + CSS)
 //   BIBLIOGRAPHY
-//   Authority files: …    ← tei-idno moved here
+//   [GND|…] [CERL|…]      ← tei-idno pills moved here
 //
 // Manuscript links (a.ms-link[data-ms]) get their shelfmark label from mss.xml; a link whose
 // id is not in mss.xml becomes plain text.
@@ -39,15 +39,11 @@
 
   function authorityLine(person) {
     const ids = Array.from(person.querySelectorAll(":scope > tei-idno"))
-      .filter(idno => idno.querySelector(".authority-link"));
+      .filter(idno => idno.querySelector(".double-button"));
     if (!ids.length) return null;
     const div = document.createElement("div");
     div.className = "person-authority";
-    div.appendChild(document.createTextNode("Authority files: "));
-    ids.forEach((idno, i) => {
-      if (i) div.appendChild(document.createTextNode(" · "));
-      div.appendChild(idno);          // already processed, so moving it does not re-render
-    });
+    ids.forEach(idno => div.appendChild(idno));   // already processed, so moving it does not re-render
     return div;
   }
 

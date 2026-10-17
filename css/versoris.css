@@ -603,9 +603,8 @@ tei-persname[type="sort"] {
 }
 
 #PersonRegister .person-dates {
-    color: var(--muted);
     font-variant-numeric: tabular-nums;
-    margin-bottom: 0.25rem;
+    margin: 0.3rem 0;
 }
 
 #PersonRegister .person-dates-label { font-weight: 600; }
@@ -674,17 +673,58 @@ tei-listBibl:not(:has(> tei-bibl:not([data-empty]))),
     display: none;
 }
 
-/* Authority files: one quiet line at the end of the record (js/person-panel.js) */
+/* Authority files: a row of pills at the end of the record (js/person-panel.js) */
 #PersonRegister .person-authority {
     margin-top: 1.2rem;
     padding-top: 0.8rem;
     border-top: 1px solid var(--rule);
-    color: var(--muted);
-    font-size: 0.875rem;
 }
 
-.authority-link { white-space: nowrap; }
-.authority-type { font-weight: 600; }
+/* Two-part identifier button (idno behavior, persons.html): linked label + value */
+.double-button {
+    display: inline-flex;
+    align-items: stretch;
+    vertical-align: middle;
+    margin: 2px 5px 2px 0;
+    font-size: 0.78em;
+    line-height: 1.3;
+    border: 1px solid var(--rule);
+    border-radius: var(--radius);
+    overflow: hidden;
+}
+
+.double-button-l {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    padding: 2px 7px;
+    background-color: var(--surface);
+    color: var(--muted);
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.double-button-l:hover {
+    background-color: var(--accent-soft);
+    color: var(--ink);
+    text-decoration: none;
+}
+
+.double-button-l .bi {
+    font-size: 0.85em;
+    opacity: 0.7;
+}
+
+.double-button-r {
+    display: inline-flex;
+    align-items: center;
+    padding: 2px 7px;
+    background-color: var(--paper);
+    color: var(--ink);
+    border-left: 1px solid var(--rule);
+    font-weight: 600;
+    white-space: nowrap;
+}
 
 /* Plain text: in the record title the shelfmark reads as part of the heading */
 tei-idno {

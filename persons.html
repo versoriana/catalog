@@ -313,14 +313,28 @@
 							return null; // Use default behavior for other types
 					}
 
-					// Plain link "GND 119011700"; js/person-panel.js gathers these at the end of the record
-					const link = document.createElement('a');
-					link.className = 'authority-link';
-					link.href = url;
-					link.target = '_blank';
-					link.rel = 'noopener';
-					link.innerHTML = `<span class="authority-type">${type}</span> ${idno}`;
-					return link;
+					// Two-part "double button": a label segment that links out
+					// to the authority, plus a colored segment showing the id value.
+					// js/person-panel.js gathers these at the end of the record.
+					const container = document.createElement('span');
+					container.className = `double-button db-${type}`;
+
+					const label = document.createElement('a');
+					label.className = 'double-button-l';
+					label.href = url;
+					label.target = '_blank';
+					label.rel = 'noopener';
+					label.title = `${type}: ${idno}`;
+					label.innerHTML = `${type} <i class="bi bi-box-arrow-up-right"></i>`;
+
+					const value = document.createElement('span');
+					value.className = 'double-button-r';
+					value.textContent = idno;
+
+					container.appendChild(label);
+					container.appendChild(value);
+
+					return container;
 				},
 				"persName": function(e) {
 					// Don't display sort persName
