@@ -119,7 +119,7 @@
 	<!-- Script CETEI -->
 
 	<script>
-		var CETEIcean = new CETEI();
+		var CETEIcean = new CETEI({ ignoreFragmentId: true });   // #hash scrolling is done by catalog-table.js
 
 		// Copy an entry's permalink (the link's existing href) to the clipboard,
 		// with brief "Copied!" feedback on the button.

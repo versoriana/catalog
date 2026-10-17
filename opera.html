@@ -122,7 +122,7 @@
 	<script>
 		// The opera page renders its own table from the raw TEI data, so no
 		// element behaviors are needed here — just an instance for getHTML5().
-		var CETEIcean = new CETEI();
+		var CETEIcean = new CETEI({ ignoreFragmentId: true });   // #hash scrolling is done by catalog-table.js
 	</script>
 
 	<!-- Page-specific JS: builds the work -> manuscripts index -->

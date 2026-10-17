@@ -4,7 +4,7 @@
 //   PersonRegister:   bio, role, biblio
 // CETEIcean keeps the <tei-note type="…"> host and puts the returned element inside it, so
 // labels and layout per type live in versoris.css (tei-note[type="…"]). This function only
-// builds what CSS cannot: the condition flag and the collapsible editorial aside.
+// builds what CSS cannot: the collapsible editorial aside.
 
 (function () {
   function contentSpan(e) {
@@ -37,22 +37,9 @@
     return wrap;
   }
 
-  // Condition: always visible, with a flag in front of the statement.
-  function condition(e) {
-    const wrap = document.createElement("span");
-    wrap.className = "note-condition";
-    const flag = document.createElement("span");
-    flag.className = "note-flag";
-    flag.innerHTML = '<i class="bi bi-exclamation-diamond" aria-hidden="true"></i> Condition';
-    wrap.appendChild(flag);
-    wrap.appendChild(contentSpan(e));
-    return wrap;
-  }
-
   window.renderTeiNote = function (e) {
     const type = e.getAttribute("type");
     if (type === "editorial") return editorial(e);
-    if (type === "condition") return condition(e);
     return contentSpan(e);
   };
 })();

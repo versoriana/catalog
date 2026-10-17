@@ -209,39 +209,39 @@ tei-note {
     margin: 0.4rem 0;
 }
 
-/* content: remarks on the text — plain prose, no label */
-
-/* attribution and paleo: short reader-facing labels */
-tei-note[type="attribution"]::before {
-    content: "Attribution: ";
-    font-weight: 600;
+/* Block notes (content, condition, attribution, paleo): always visible, indented and
+   led by a small uppercase label, so they read as notes. */
+tei-note:is([type="content"], [type="condition"], [type="attribution"], [type="paleo"]) {
+    margin: 0.6rem 0 0.6rem 1rem;
+    font-size: 0.94em;
+    line-height: 1.55;
 }
 
-tei-note[type="attribution"][subtype="spuria"]::before {
-    content: "Attribution rejected: ";
+/* Several notes in a row form one group */
+tei-note:is([type="content"], [type="condition"], [type="attribution"], [type="paleo"])
+  + tei-note:is([type="content"], [type="condition"], [type="attribution"], [type="paleo"]) {
+    margin-top: -0.35rem;
 }
 
-tei-note[type="paleo"]::before {
-    content: "Hand: ";
+tei-note[type="content"]::before,
+tei-note[type="attribution"]::before,
+tei-note[type="paleo"]::before,
+tei-note[type="condition"]::before {
+    margin-right: 0.6em;
+    font-family: var(--font-sans);
+    font-size: 0.7rem;
     font-weight: 600;
-}
-
-/* condition: always visible, flagged */
-.note-flag {
-    display: inline-flex;
-    align-items: center;
-    gap: 0.3em;
-    margin-right: 0.5em;
-    padding: 0 0.55em;
-    border-radius: 999px;
-    font-size: 0.72rem;
-    font-weight: 600;
-    letter-spacing: 0.06em;
+    letter-spacing: 0.1em;
     text-transform: uppercase;
-    vertical-align: 0.1em;
-    color: var(--person);
-    background: color-mix(in srgb, var(--person) 13%, transparent);
+    color: var(--muted);
 }
+
+tei-note[type="content"]::before     { content: "Note"; }
+tei-note[type="attribution"]::before { content: "Attribution"; }
+tei-note[type="attribution"][subtype="spuria"]::before { content: "Attribution rejected"; }
+tei-note[type="paleo"]::before       { content: "Hand"; }
+tei-note[type="condition"]::before   { content: "Condition"; }
+
 
 /* biblio: a comment on the reference it sits in — inline, muted, in square brackets */
 tei-bibl > tei-note[type="biblio"] {
@@ -491,10 +491,7 @@ tei-listBibl > tei-bibl::before {
     }
 }
 
-/* Scroll behavior */
-[id] {
-    scroll-margin-top: 56px;
-}
+/* Scroll behavior: anchor jumps clear the sticky header (scroll-padding-top in theme.css) */
 
 /* Custom styles for Bootstrap 4/5 multi-level dropdowns */
 .dropdown-submenu {

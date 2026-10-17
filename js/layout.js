@@ -93,7 +93,13 @@
 
     document.addEventListener('DOMContentLoaded', () => {
         const header = document.getElementById('site-header');
-        if (header) header.innerHTML = navHtml();
+        if (header) {
+            header.innerHTML = navHtml();
+            // Sticky header height as --header-h, so anchor jumps land below it (theme.css)
+            const setHeaderHeight = () => document.documentElement.style.setProperty('--header-h', header.offsetHeight + 'px');
+            setHeaderHeight();
+            if (window.ResizeObserver) new ResizeObserver(setHeaderHeight).observe(header);
+        }
 
         const footer = document.getElementById('site-footer');
         if (footer) {

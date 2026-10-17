@@ -69,7 +69,11 @@
 }
 
 /* Root size slightly under the browser default; everything in rem scales with it */
-html { font-size: 93.75%; }
+html {
+    font-size: 93.75%;
+    /* Anchor jumps and scrollIntoView stop below the sticky header (--header-h set by layout.js) */
+    scroll-padding-top: calc(var(--header-h, 72px) + 12px);
+}
 
 body {
     background: var(--paper);

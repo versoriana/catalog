@@ -115,7 +115,8 @@
     row._detailRow.style.display = "";
     this.current = row;
     row.focus();
-    const y = row.getBoundingClientRect().top + window.scrollY - 80;
+    const header = document.getElementById("site-header");
+    const y = row.getBoundingClientRect().top + window.scrollY - (header ? header.offsetHeight : 0) - 12;
     const reduce = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
     window.scrollTo({ top: y, behavior: reduce ? "auto" : "smooth" });
   };
