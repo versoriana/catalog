@@ -5359,10 +5359,9 @@
                     <msContents>
                         <summary>
                             <ab type="explicit_attribution" cert="0">none</ab>
-                            <ab type="general_remarks">
-                                <note type="content">Accompanying Aristotle's text in the form of
+                            <ab type="general_remarks">Accompanying Aristotle's text in the form of
                                     marginal glosses and transmitted together with other glossed
-                                    Aristotelian works. </note>
+                                    Aristotelian works. 
                             </ab>
                         </summary>
                         <msItem xml:id="Kraków_BibliotekaJagiellońska_cod504_CsY">
@@ -6790,11 +6789,10 @@
                     <msContents>
                         <summary>
                             <ab type="explicit_attribution" cert="0">none</ab>
-                            <ab type="general_remarks">
-                                <note type="content">Qdente is preceded by Antonius Andreae's QsMeta
+                            <ab type="general_remarks">Qdente is preceded by Antonius Andreae's QsMeta
                                     (ff. 4r–103r), followed by anonymous QsMeta (ff. 110r–185v) with
                                     marginal glosses, and then by Giles of Rome's Questions on De
-                                    ente et essentia (ff. 221v–243v). </note>
+                                    ente et essentia (ff. 221v–243v). 
                             </ab>
                         </summary>
                         <msItem xml:id="Kraków_BibliotekaJagiellońska_cod2524_QsMetaAntoniusAndreae">
@@ -13274,6 +13272,18 @@
                     <msContents>
                         <summary>
                             <ab type="explicit_attribution" cert="0">No</ab>
+                            <ab type="general_remarks">The questions on the Parva naturalia are again a
+                                    repertoire of arguments and replies (presented in separate blocks).
+                                    The arguments corresponds to those in the commentary ascribed to
+                                    Versoris, but they are adapted in the new structure. For instance,
+                                    in the first question, Utrum corpus animatum sit subiectum in libris
+                                    parvorum naturalium, the reply to the first argument contains, in
+                                    the commentary ascribed to Versoris, a reference to what has been
+                                    said in the body of the question (“patet solutio ex dictis”). Since
+                                    this part of the text is missing in the Saint-Omer manuscript, its
+                                    content is summarized in the reply to the arguments, which, as a
+                                    consequence, is much longer than in the commentary ascribed to
+                                    Versoris.</ab>
                         </summary>
                         <msItem
                             xml:id="SaintOmer_BibliothèquedAgglomérationduPaysdeSaintOmerBibliothèquemunicipale_597_QsP">
@@ -13350,19 +13360,6 @@
                             xml:id="SaintOmer_BibliothèquedAgglomérationduPaysdeSaintOmerBibliothèquemunicipale_597_QsLon">
                             <locus from="114ra" to="115ra"/>
                             <title ref="#QdLon">QsLon</title>
-                            <!-- Clarify where this note goes: Aurora: refer to all parva naturalia questions QsSen (ff. 110ra-112rb); QsMem (ff. 112va-vb); QsSom (ff. 113ra-114rb); QsLon (ff. 114ra-115ra. -->
-                            <note type="editorial">The questions on the Parva naturalia are again a
-                                repertoire of arguments and replies (presented in separate blocks).
-                                The arguments corresponds to those in the commentary ascribed to
-                                Versoris, but they are adapted in the new structure. For instance,
-                                in the first question, Utrum corpus animatum sit subiectum in libris
-                                parvorum naturalium, the reply to the first argument contains, in
-                                the commentary ascribed to Versoris, a reference to what has been
-                                said in the body of the question (“patet solutio ex dictis”). Since
-                                this part of the text is missing in the Saint-Omer manuscript, its
-                                content is summarized in the reply to the arguments, which, as a
-                                consequence, is much longer than in the commentary ascribed to
-                                Versoris. </note>
                         </msItem>
 
                     </msContents>
@@ -15602,11 +15599,10 @@
                     <msContents>
                         <summary>
                             <ab type="explicit_attribution" cert="0">none</ab>
-                            <ab type="general_remarks">
-                                <note type="content">This text is preceded by John of Glogovia's
+                            <ab type="general_remarks">This text is preceded by John of Glogovia's
                                     Questions on the Metaphysics (ff. 1r–124v) and on Aquinas's De
                                     ente et essentia (125r–183r), and followed by his Questions on
-                                    Aristotle's Sophistical Refutations (ff. 287–357v). </note>
+                                    Aristotle's Sophistical Refutations (ff. 287–357v). 
                             </ab>
                         </summary>
                         <msItem xml:id="Wrocław_BibliotekaUniwersytecka_MsIVQ14_QsMeta_Glogovia">
