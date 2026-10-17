@@ -13036,7 +13036,7 @@
 
                 <msDesc xml:id="SaintOmer_BibliothequedAgglomerationduPaysdeSaintOmer_586">
                     <msIdentifier>
-                        <settlement>Saint Omer</settlement>
+                        <settlement>Saint-Omer</settlement>
                         <repository ref="#org_0071">Bibliothèque d'Agglomération du Pays de Saint-Omer (Bibliothèque
                             municipale) </repository>
                         <idno>586</idno>
@@ -13261,7 +13261,7 @@
                 <msDesc
                     xml:id="SaintOmer_BibliothequedAgglomerationduPaysdeSaintOmerBibliothequemunicipale_597">
                     <msIdentifier>
-                        <settlement>Saint Omer</settlement>
+                        <settlement>Saint-Omer</settlement>
                         <repository ref="#org_0071">Bibliothèque d'Agglomération du Pays de Saint-Omer (Bibliothèque
                             municipale) </repository>
                         <idno>597</idno>
