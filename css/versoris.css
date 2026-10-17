@@ -181,25 +181,30 @@ tei-locus[to]:not([from])::before {
     font-weight: bold;
 }
 
-/* Locus inline inside colophon — specificity must beat tei-locus[from]:not([to])::before */
-tei-colophon tei-locus {
+/* Locus inline inside colophon, incipit and explicit: "(f. 186vb)" in the running text.
+   Specificity must beat tei-locus[from]:not([to])::before */
+:is(tei-colophon, tei-incipit, tei-explicit) tei-locus {
     display: inline;
     font-weight: normal;
     margin: 0;
 }
 
-tei-colophon tei-locus[from]:not([to])::before {
+:is(tei-colophon, tei-incipit, tei-explicit) tei-locus[from]:not([to])::before {
     content: " (f. " attr(from) ") ";
     font-weight: normal;
 }
 
-tei-colophon tei-locus[from][to]::before {
+:is(tei-colophon, tei-incipit, tei-explicit) tei-locus[to]:not([from])::before {
+    content: " (f. " attr(to) ") ";
+    font-weight: normal;
+}
+
+:is(tei-colophon, tei-incipit, tei-explicit) tei-locus[from][to]::before {
     content: " (ff. " attr(from) "–" attr(to) ") ";
     font-weight: normal;
 }
 
-tei-colophon tei-locus::before,
-tei-colophon tei-locus::after { font-weight: normal; }
+:is(tei-colophon, tei-incipit, tei-explicit) tei-locus::after { font-weight: normal; }
 
 
 /* Notes — one rule per @type; vocabulary in MssVersoris/docs/note_types.md,
