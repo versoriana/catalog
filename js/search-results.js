@@ -37,17 +37,19 @@ class SearchResultsPage {
 		const urlParams = new URLSearchParams(window.location.search);
 		const urlMode = urlParams.get('mode') || 'fuzzy';
 
-		const storedResults = sessionStorage.getItem('searchResults');
-		if (storedResults) {
-			const data = JSON.parse(storedResults);
-			if (Date.now() - data.timestamp < 60000 && (data.mode || 'fuzzy') === urlMode) {
-				this.displayResults(data.results, data.query);
-				return;
-			}
-		}
-
 		const query = urlParams.get('q');
 		const type = urlParams.get('type') || '';
+
+		// Results handed over by the navbar search: reuse only if they are for this exact search
+		let data = null;
+		try {
+			data = JSON.parse(sessionStorage.getItem('searchResults'));
+		} catch (e) { /* corrupted or unavailable: search again */ }
+		if (data && Date.now() - data.timestamp < 60000 && data.query === query
+			&& (data.mode || 'fuzzy') === urlMode && (data.type || '') === type) {
+			this.displayResults(data.results, data.query);
+			return;
+		}
 		if (query && window.versorisSearch && window.versorisSearch.isInitialized) {
 			this.performSearch(query, type, urlMode);
 		} else if (query) {
@@ -114,10 +116,10 @@ class SearchResultsPage {
 
 		this.updateSearchSummary(results, query);
 
+		// A new result list always starts unfiltered
+		document.getElementById('filter-all').checked = true;
 		const types = [...new Set(results.map(r => r.type))];
-		if (types.length > 1) {
-			document.getElementById('search-filters').style.display = 'block';
-		}
+		document.getElementById('search-filters').style.display = types.length > 1 ? 'block' : 'none';
 
 		this.renderResults(results);
 	}

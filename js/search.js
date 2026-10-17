@@ -349,10 +349,11 @@ class VersorisSearch {
             console.warn('Search not initialized');
             return [];
         }
+        // boost only when given: an empty {} would override the per-index boosts
         const searchOptions = {
             fuzzy: options.fuzzy !== undefined ? options.fuzzy : 1,
             prefix: options.prefix !== undefined ? options.prefix : true,
-            boost: options.boost || {}
+            ...(options.boost && { boost: options.boost })
         };
         return this._runSearch(query, searchOptions, options.type)
             .sort((a, b) => b.score - a.score);
@@ -363,14 +364,15 @@ class VersorisSearch {
             console.warn('Search not initialized');
             return [];
         }
-        const boost = options.boost || {};
+        // boost only when given: an empty {} would override the per-index boosts
+        const boost = options.boost && { boost: options.boost };
         const type = options.type;
 
         const exactIds = new Set(
-            this._runSearch(query, { fuzzy: false, prefix: false, boost }, type).map(r => r.id)
+            this._runSearch(query, { fuzzy: false, prefix: false, ...boost }, type).map(r => r.id)
         );
 
-        const all = this._runSearch(query, { fuzzy: 1, prefix: true, boost }, type);
+        const all = this._runSearch(query, { fuzzy: 1, prefix: true, ...boost }, type);
         all.forEach(r => { r.exact = exactIds.has(r.id); });
 
         return all.sort((a, b) => {
