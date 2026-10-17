@@ -122,7 +122,7 @@
 	<!-- Script CETEI -->
 
 	<script>
-		var CETEIcean = new CETEI({ ignoreFragmentId: true });   // #hash scrolling is done by catalog-table.js
+		const CETEIcean = new CETEI({ ignoreFragmentId: true });   // #hash scrolling is done by catalog-table.js
 
 		// Copy an entry's permalink (the link's existing href) to the clipboard,
 		// with brief "Copied!" feedback on the button.
@@ -139,18 +139,9 @@
 					}, 1500);
 				}
 			};
+			// Clipboard API only: available on https (GitHub Pages) and localhost
 			if (navigator.clipboard && navigator.clipboard.writeText) {
-				navigator.clipboard.writeText(url).then(flash).catch(flash);
-			} else {
-				const ta = document.createElement('textarea');
-				ta.value = url;
-				ta.style.position = 'fixed';
-				ta.style.opacity = '0';
-				document.body.appendChild(ta);
-				ta.select();
-				try { document.execCommand('copy'); } catch (err) { /* ignore */ }
-				document.body.removeChild(ta);
-				flash();
+				navigator.clipboard.writeText(url).then(flash).catch(function() { /* not copied: no feedback */ });
 			}
 		}
 

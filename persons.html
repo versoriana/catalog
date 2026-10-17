@@ -116,7 +116,7 @@
 
 	<!-- Script CETEI -->
 	<script>
-		var CETEIcean = new CETEI({ ignoreFragmentId: true });   // #hash scrolling is done by catalog-table.js
+		const CETEIcean = new CETEI({ ignoreFragmentId: true });   // #hash scrolling is done by catalog-table.js
 
 		// Copy an entry's permalink (the link's existing href) to the clipboard,
 		// with brief "Copied!" feedback on the button.
@@ -133,18 +133,9 @@
 					}, 1500);
 				}
 			};
+			// Clipboard API only: available on https (GitHub Pages) and localhost
 			if (navigator.clipboard && navigator.clipboard.writeText) {
-				navigator.clipboard.writeText(url).then(flash).catch(flash);
-			} else {
-				const ta = document.createElement('textarea');
-				ta.value = url;
-				ta.style.position = 'fixed';
-				ta.style.opacity = '0';
-				document.body.appendChild(ta);
-				ta.select();
-				try { document.execCommand('copy'); } catch (err) { /* ignore */ }
-				document.body.removeChild(ta);
-				flash();
+				navigator.clipboard.writeText(url).then(flash).catch(function() { /* not copied: no feedback */ });
 			}
 		}
 
@@ -381,21 +372,17 @@
 						return tag.includes('namelink');
 					}).length;
 
-					let hasParallelVariants = false;
-
-					// If no nameLink component exists at all, check forename:surname match
-					if (totalNameLinks === 0) {
-						hasParallelVariants = variantForenames.length > 0 &&
+					// No nameLink component at all: forename and surname counts must match.
+					// Otherwise all three must have matching variant counts.
+					const hasParallelVariants = totalNameLinks === 0
+						? variantForenames.length > 0 &&
 							variantSurnames.length > 0 &&
-							variantForenames.length === variantSurnames.length;
-					} else {
-						// If nameLink exists, all three must have matching variant counts
-						hasParallelVariants = variantForenames.length > 0 &&
+							variantForenames.length === variantSurnames.length
+						: variantForenames.length > 0 &&
 							variantNameLinks.length > 0 &&
 							variantSurnames.length > 0 &&
 							variantForenames.length === variantNameLinks.length &&
 							variantForenames.length === variantSurnames.length;
-					}
 
 					// PARALLEL MODE
 					if (hasParallelVariants) {

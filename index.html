@@ -117,9 +117,9 @@
 			const personsDoc = parser.parseFromString(personsXml, 'text/xml');
 			const opera = Array.from(mssDoc.getElementsByTagName('taxonomy'))
 				.find(t => t.getAttribute('xml:id') === 'versoris_opera');
-			document.getElementById('ms-count').textContent = mssDoc.querySelectorAll('msDesc').length;
-			document.getElementById('persons-count').textContent = personsDoc.querySelectorAll('person').length;
-			document.getElementById('opera-count').textContent = opera ? opera.getElementsByTagName('category').length : '';
+			document.getElementById('ms-count').textContent = String(mssDoc.getElementsByTagName('msDesc').length);
+			document.getElementById('persons-count').textContent = String(personsDoc.getElementsByTagName('person').length);
+			document.getElementById('opera-count').textContent = opera ? String(opera.getElementsByTagName('category').length) : '';
 		});
 		</script>
 
