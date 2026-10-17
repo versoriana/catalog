@@ -12,10 +12,10 @@
         <fileDesc>
             <titleStmt>
                 <title>Versoris manuscript inventory</title>
-                <editor ref="ID">Aurora Panzica</editor>
+                <editor ref="https://orcid.org/0000-0002-1708-1631">Aurora Panzica</editor>
                 <respStmt>
                     <resp>TEI modelling and encoding</resp>
-                    <persName ref="ID">José Luis Losada</persName>
+                    <persName ref="https://orcid.org/0000-0002-6530-1328">José Luis Losada</persName>
                 </respStmt>
             </titleStmt>
             <publicationStmt>
@@ -24,28 +24,9 @@
             <sourceDesc>
                 <p>Bibliography and direct anaylsis of the manuscipts</p>
             </sourceDesc>
-
         </fileDesc>
         <encodingDesc>
-            <!-- Define the different foliation schemes here -->
-
-            <p>persName, placeName and orgName can also be encoded as ref, so all references are in
-                ref. </p>
-            <p>persname with @role="attribution" when what is recorded is the attribution</p>
-            <p>Use summary for attribution/ascription</p>
-
-            <!-- add link to workIDs in ToC -->
-            <!-- per id usare sempre segnatura, non sigla -->
-            <!-- usare sempre versione completa of 'repository' -->
-            <!-- in some cases, use collection? -->
-            <!-- rendering of titles and abbreviations? Both in italic -->
-            <!-- is origDate an empty element? -->
-            <!-- remove @role attribution, don't need that -->
-
-            <p>When constructing the value of a xml:id for msDesc, use settlement, underscore,
-                abbreviation of the repository, underscore, shelfmark; use dashes only when
-                necessary (for example to divide two sequences of numbers), but not to replace
-                spaces. </p>
+            
             <classDecl>
                 <taxonomy xml:id="versoris_opera">
                     <desc>Codes for the works ascribed to Iohannes Versoris, used as the @ref value
@@ -185,8 +166,7 @@
                         </msItem>
                         <msItem xml:id="Aarau_AKB_MsWettF42_QdC">
                             <locus from="100ra" to="102ra"/>
-                            <title ref="#QdC">Fragment of a commentary on QdC</title>
-                            <!-- use note -->
+                            <title ref="#QdC">Fragment of a commentary on QdC</title>                            
 
                             <note type="attribution" subtype="spuria">According to Charles Lohr, the fragment of a commentary on
                                 QdC at ff.
@@ -252,8 +232,7 @@
                             <note type="paleo">Copied by a different hand than the Expositio cum
                                 questionibus (ff. 103ra–106vb).</note>
                             <note type="content">Unfinished, up to q. II.24, <q>Utrum sensus tactus sit
-                                    unus vel plures</q>.</note>
-                            <!-- add list of questions, they are not in the docx but could be reconstructed -->
+                                    unus vel plures</q>.</note>                            
                         </msItem>
 
 
