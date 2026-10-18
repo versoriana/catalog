@@ -82,7 +82,13 @@ body {
     font-size: 1rem;
     line-height: 1.6;
     -webkit-font-smoothing: antialiased;
+    /* Sticky footer: main grows so the footer sits at the bottom on short pages */
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
+
+body > main { flex: 1 0 auto; }
 
 h1, h2, h3, .serif {
     font-family: var(--font-serif);
@@ -264,7 +270,7 @@ a:hover { color: var(--accent-hover); }
 
 /* Home */
 .hero {
-    padding: 2.5rem 0 3.5rem;
+    padding: 2.5rem 0 1.75rem;
     text-align: center;
 }
 
@@ -278,7 +284,7 @@ a:hover { color: var(--accent-hover); }
     color: var(--muted);
     font-size: 1.2rem;
     max-width: 52ch;
-    margin: 0 auto 1.75rem;
+    margin: 0 auto;
 }
 
 .entry-card {
@@ -513,7 +519,7 @@ a:hover { color: var(--accent-hover); }
     .site-nav .navbar-brand { max-width: calc(100% - 64px); font-size: 1.1rem; }
     .site-footer .logos { justify-content: flex-start; margin-top: 1.5rem; }
     .nav-search { min-width: 0; margin-top: 0.5rem; }
-    .hero { padding: 1.75rem 0 2.5rem; }
+    .hero { padding: 1.75rem 0 1.25rem; }
 }
 
 /* Sortable index tables (manuscripts, persons, opera) — behaviour in js/catalog-table.js */
