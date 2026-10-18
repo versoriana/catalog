@@ -11673,9 +11673,9 @@
                             <locus from="192r" to="264r"/>
                             <title ref="#QdA">QdA</title>
                         </msItem>
-                        <msItem xml:id="Praha_NK_IVG18_QsM">
+                        <msItem xml:id="Praha_NK_IVG18_QsMete">
                             <locus from="265r" to="295v"/>
-                            <title ref="#QsMeta">QsM</title>
+                            <title ref="#QsMete">QsMete</title>
                         </msItem>
                         <msItem xml:id="Praha_NK_IVG18_QsSens">
                             <locus from="296r" to="311v"/>
@@ -13884,9 +13884,9 @@
                             <title ref="#QdG">QdG</title>
                         </msItem>
                         <msItem
-                            xml:id="SanktGallen_KantonsbibliothekVadianischeSammlung_VadSlgMs839_QsM">
+                            xml:id="SanktGallen_KantonsbibliothekVadianischeSammlung_VadSlgMs839_QsMete">
                             <locus from="268r" to="297r"/>
-                            <title ref="#QsMeta">QsM</title>
+                            <title ref="#QsMete">QsMete</title>
                         </msItem>
                         <msItem
                             xml:id="SanktGallen_KantonsbibliothekVadianischeSammlung_VadSlgMs839_QdSens">
