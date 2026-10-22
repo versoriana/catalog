@@ -312,7 +312,7 @@
                <note type="bio">In 1465, this friar of the Dominican convent of Valencia copied Versoris’s
                   commentaries on the natural philosophical corpus.</note>
                <affiliation type="religiousOrder" subtype="OP">Dominican</affiliation>
-               <occupation role="scr" ref="#Madrid_BibliotecaNacionaldeEspana_Ms9018"/>
+               <occupation role="scr" ref="#Madrid_BNE_Ms9018"/>
             </person>
 
             <person xml:id="CasparWittolf">

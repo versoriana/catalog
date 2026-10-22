@@ -7886,7 +7886,266 @@
                         </listBibl>
                     </additional>
                 </msDesc>
-                <msDesc xml:id="Madrid_BibliotecaNacionaldeEspana_Ms9018">
+                <msDesc xml:id="Madrid_BNE_Ms3058">
+                    <msIdentifier>
+                        <settlement>Madrid</settlement>
+                        <repository ref="#org_0047">Biblioteca Nacional de España</repository>
+                        <idno>Ms. 3058</idno>
+                        <idno type="URI">https://bnedigital.bne.es/bd/card?oid=0000023092</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <ab type="explicit_attribution" cert="0">none</ab>
+                            <ab type="general_remarks">Versoris’s commentary is followed, among other
+                                texts, by John of Sacrobosco’s De sphaera (ff. 52r–61v); a
+                                collection of medical texts; William of Moerbeke’s translation of
+                                Aristotle’s Meteorology (ff. 110r–133v); Giles of Rome’s commentary
+                                on De generatione et corruptione (ff. 134r–141v); and Robertus
+                                Anglicus’s commentary on Sacrobosco’s De sphaera (ff. 142r–152v). </ab>
+                        </summary>
+                        <msItem xml:id="Madrid_BNE_Ms3058_QsP" defective="true">
+                            <locus from="1r" to="51v"/>
+                            <title ref="#QsP">QsP</title>
+                            <note type="condition">Interrupted in Book VI, at question <q n="NA">Utrum
+                                    ad actionem et passionem sit per se motus</q>. </note>
+                        </msItem>
+                        <msItem xml:id="Madrid_BNE_Ms3058_Sacrobosco">
+                            <locus from="52r" to="61v"/>
+                            <author>John of Sacrobosco</author>
+                            <title ref="#nonVersoris">De sphaera</title>
+                        </msItem>
+                        <msItem xml:id="Madrid_BNE_Ms3058_Meteorology">
+                            <locus from="110r" to="133v"/>
+                            <title ref="#nonVersoris">Meteorology</title>
+                            <note type="content">William of Moerbeke’s translation.</note>
+                        </msItem>
+                        <msItem xml:id="Madrid_BNE_Ms3058_GilesRome">
+                            <locus from="134r" to="141v"/>
+                            <author>Giles of Rome</author>
+                            <title ref="#nonVersoris">Commentary on De generatione et
+                                corruptione</title>
+                        </msItem>
+                        <msItem xml:id="Madrid_BNE_Ms3058_RobertusAnglicus">
+                            <locus from="142r" to="152v"/>
+                            <author>Robertus Anglicus</author>
+                            <title ref="#nonVersoris">Commentary on Sacrobosco’s De sphaera</title>
+                            <colophon n="final"><locus from="152va"/>finite est ista compilatio
+                                super materiam de spera celesti ad maiorem introductionem scolarium,
+                                in monde Pesulano studentium, quam compilavit magister Robertus
+                                Anglicus et finivit anno Domini 1271 sole existente in primo gradu
+                                Tauri et Scoprione existente in ascendente </colophon>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origPlace cert="medium">Spain</origPlace>
+                            <p>The parts comprising this miscellany codex differ in content, origin,
+                                and date. Some texts were copied in Montpellier, as attested by the
+                                colophons of a treatise on epidemics (<q n="107ra">Et hec dicta per
+                                    me, Iohannem Iacobi, sufficient cum brevitate, anno Domini 1373,
+                                    in studio Montis Pesulani</q>, f. 107ra) and of Robertus
+                                Anglicus’s commentary on Sacrobosco’s De spera (dated 1271, f.
+                                152va). In the latter case, however, the
+                                date refers to the composition of the work, not to the copying of
+                                the commentary. The section containing Versoris’s commentary has no
+                                colophon providing information about its date or place of origin.
+                                Nevertheless, the handwriting suggests a Spanish origin. </p>
+                        </origin>
+                    </history>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source cert="high" resp="#">
+                                    <p>Ms directly examined</p>
+                                </source>
+                            </recordHist>
+                        </adminInfo>
+                        <listBibl>
+                            <bibl>H. V. Shooner, Codices manuscripti operum Thomae de Aquino, Romae,
+                                1973, p 271.</bibl>
+                            <bibl>L. Robles, “Aristóteles Latinus. Repertorio de manuscritos
+                                españoles”, in Actas del V Congreso de Filosofía medieval, Madrid,
+                                1979, p. 333–460, nos. 359–363.</bibl>
+                            <bibl>Inventario General de Manuscritos de la Biblioteca Nacional de
+                                España, vol. X (3027–3274), Madrid, 1984, p. 9.</bibl>
+                            <bibl>Kristeller, Iter IV, p. 546a.</bibl>
+                            <bibl>Ch. Lohr, “Aristotelica matritensia”, Traditio 53 (1998), p.
+                                251–308, at p. 264.</bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+                <msDesc xml:id="Madrid_BNE_Ms3086">
+                    <msIdentifier>
+                        <settlement>Madrid</settlement>
+                        <repository ref="#org_0047">Biblioteca Nacional de España</repository>
+                        <idno>Ms. 3086</idno>
+                        <idno type="URI">https://bnedigital.bne.es/bd/card?oid=0000118747</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <ab type="explicit_attribution" cert="0">none</ab>
+                        </summary>
+                        <msItem xml:id="Madrid_BNE_Ms3086_QsPor">
+                            <locus from="1r" to="27v"/>
+                            <title ref="#QsPor">QsPor</title>
+                        </msItem>
+                        <msItem xml:id="Madrid_BNE_Ms3086_QsPre">
+                            <locus from="28r" to="49r"/>
+                            <title ref="#QsPre">QsPre</title>
+                        </msItem>
+                        <msItem xml:id="Madrid_BNE_Ms3086_QsSex">
+                            <locus from="49r" to="58r"/>
+                            <title ref="#QsSex">QsSex</title>
+                        </msItem>
+                        <msItem xml:id="Madrid_BNE_Ms3086_QdInt" defective="true">
+                            <locus from="62r" to="72v"/>
+                            <title ref="#Qdint">QdInt</title>
+                            <note type="condition">The text breaks off unfinished at the question <q
+                                    n="NA">Utrum diffinitio orationis sit bene assignata</q>. </note>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origPlace cert="medium">Spain</origPlace>
+                            <p>The codex contains no information about its origin, but the
+                                handwriting suggests a Spanish provenance. </p>
+                        </origin>
+                    </history>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source cert="high" resp="#">
+                                    <p>Ms directly examined</p>
+                                </source>
+                            </recordHist>
+                        </adminInfo>
+                        <listBibl>
+                            <bibl>Kristeller, Iter IV, 525.</bibl>
+                            <bibl>Inventario General de Manuscritos de la Biblioteca Nacional de
+                                España, vol. X (3027–3274), p. 16.</bibl>
+                            <bibl>Lohr, “Aristotelica matritensia”, p. 265.</bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+                <msDesc xml:id="Madrid_BNE_Ms3091">
+                    <msIdentifier>
+                        <settlement>Madrid</settlement>
+                        <repository ref="#org_0047">Biblioteca Nacional de España</repository>
+                        <idno>Ms. 3091</idno>
+                        <idno type="URI">https://bnedigital.bne.es/bd/card?oid=0000118750</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <ab type="explicit_attribution" cert="1">The text itself contains no
+                                attribution, but the eighteenth-century leather spine bears the
+                                inscription <q n="NA">Versor, in Log. Pet. Hisp.</q> This attribution
+                                may reproduce one found on an earlier binding. </ab>
+                        </summary>
+                        <msItem xml:id="Madrid_BNE_Ms3091_CsPH" defective="true">
+                            <locus from="1r" to="130v"/>
+                            <title ref="#CsPH">CsPH</title>
+                            <note type="condition">The text breaks off unfinished in Book VII, chapter
+                                2 (De relativis), with the words <q n="NA">quomodo vero referuntur ad
+                                    nomina adiectiva specialium</q>. </note>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origPlace cert="medium">Spain</origPlace>
+                            <p>The codex contains no information about its origin, but the
+                                handwriting suggests a Spanish provenance. The ends of sections of
+                                the text are often marked by the words <q n="5v-10v">et hoc de
+                                    lectione</q> (see, for instance, ff. 5v–10v), suggesting that the
+                                text was used in classroom lectures. </p>
+                        </origin>
+                    </history>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source cert="high" resp="#">
+                                    <p>Ms directly examined</p>
+                                </source>
+                            </recordHist>
+                        </adminInfo>
+                        <listBibl>
+                            <bibl>Kristeller, Iter IV, p. 525b.</bibl>
+                            <bibl>Inventario General de Manuscritos de la Biblioteca Nacional de
+                                España, vol. X (3027–3274), p. 17.</bibl>
+                            <bibl>Lohr, “Aristotelica matritensia”, p. 265.</bibl>
+                            <bibl>Meirinhos, Bibliotheca manuscripta Petri Hispani, p. 223.</bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+                <msDesc xml:id="Madrid_BNE_Ms6253">
+                    <msIdentifier>
+                        <settlement>Madrid</settlement>
+                        <repository ref="#org_0047">Biblioteca Nacional de España</repository>
+                        <idno>Ms. 6253</idno>
+                        <idno type="URI"
+                            >https://bnedigital.bne.es/bd/es/card?id=69c9ba9c-defe-41f4-b510-3da1e2d4d525</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <ab type="explicit_attribution" cert="1">The text is attributed to
+                                Versoris in the upper margin of the first folio, where a medieval
+                                hand wrote: <q n="58r marg-sup">Incipiunt questiones Versoris supra
+                                    Phisicorum libros</q>, f. 58r. </ab>
+                            <ab type="general_remarks">The text is preceded by Thomas Aquinas’s
+                                Summa theologiae, Part I (ff. 1r–41v; q. 75, a. 1–2), and an
+                                anonymous commentary on Book III of Aristotle’s De anima (ff.
+                                42r–56r). </ab>
+                        </summary>
+                        <msItem xml:id="Madrid_BNE_Ms6253_ThomasAquinas">
+                            <locus from="1r" to="41v"/>
+                            <author>Thomas Aquinas</author>
+                            <title ref="#nonVersoris">Summa theologiae, Part I</title>
+                            <note type="content">q. 75, a. 1–2.</note>
+                        </msItem>
+                        <msItem xml:id="Madrid_BNE_Ms6253_Anon">
+                            <locus from="42r" to="56r"/>
+                            <author>Anonymus</author>
+                            <title ref="#nonVersoris">Commentary on Book III of Aristotle’s De
+                                anima</title>
+                            <incipit>De parte autem. Postquam Philosophus distinxit intellectum a
+                                sensu, in parte ista incipit determinare de ipso intellectu. Circa
+                                quod duo facit</incipit>
+                        </msItem>
+                        <msItem xml:id="Madrid_BNE_Ms6253_QsP">
+                            <locus from="58r" to="77v"/>
+                            <title ref="#QsP">QsP, Book I</title>
+                            <colophon n="final"><locus from="77v"/>die archangeli Michelis anno
+                                    <supplied>1</supplied>467 feci ego, Johannes Roderici scriba,
+                                scriptor atque tabellarius regis </colophon>
+                            <note type="content">The text concludes with a summary
+                                (recapitulatio).</note>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate from="1467" to="1467">1467, as stated in the colophon by
+                                Iohannes Roderici (f. 77v). </origDate>
+                        </origin>
+                        <provenance>
+                            <p>The manuscript belonged to the Dominican convent of Santo Tomás de
+                                Ávila. </p>
+                        </provenance>
+                    </history>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source cert="high" resp="#">
+                                    <p>Ms directly examined</p>
+                                </source>
+                            </recordHist>
+                        </adminInfo>
+                        <listBibl>
+                            <bibl>Inventario general de Manuscritos de la Biblioteca Nacional de
+                                España, vol. 11 (5700 a 7000), Madrid 1987, p. 144.</bibl>
+                            <bibl>Lohr, “Aristotelica Matritensia”, p. 276.</bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+                <msDesc xml:id="Madrid_BNE_Ms9018">
                     <msIdentifier>
                         <settlement>Madrid</settlement>
                         <repository ref="#org_0047">Biblioteca Nacional de España</repository>
@@ -7906,41 +8165,41 @@
                                 one questio can also correspond to two lections (for example, at f.
                                 42ra, <q n="42ra">lectio 12 et 13</q>). </ab>
                         </summary>
-                        <msItem xml:id="Madrid_BibliotecaNacionaldeEspana_Ms9018_QsP" defective="true">
+                        <msItem xml:id="Madrid_BNE_Ms9018_QsP" defective="true">
                             <locus from="1r" to="56v"/>
                             <title ref="#QsP">QsP</title>
                             <note type="condition">Beginning acephalously with the final lines of
                                 question I.2. </note>
                         </msItem>
-                        <msItem xml:id="Madrid_BibliotecaNacionaldeEspana_Ms9018_QdC">
+                        <msItem xml:id="Madrid_BNE_Ms9018_QdC">
                             <locus from="57r" to="75r"/>
                             <title ref="#QdC">QdC</title>
                         </msItem>
-                        <msItem xml:id="Madrid_BibliotecaNacionaldeEspana_Ms9018_QdG">
+                        <msItem xml:id="Madrid_BNE_Ms9018_QdG">
                             <locus from="75v" to="90v"/>
                             <title ref="#QdG">QdG</title>
                         </msItem>
-                        <msItem xml:id="Madrid_BibliotecaNacionaldeEspana_Ms9018_QsMete">
+                        <msItem xml:id="Madrid_BNE_Ms9018_QsMete">
                             <locus from="90v" to="107v"/>
                             <title ref="#QsMete">QsMete</title>
                         </msItem>
-                        <msItem xml:id="Madrid_BibliotecaNacionaldeEspana_Ms9018_QdA">
+                        <msItem xml:id="Madrid_BNE_Ms9018_QdA">
                             <locus from="107v" to="130v"/>
                             <title ref="#QdA">QdA</title>
                         </msItem>
-                        <msItem xml:id="Madrid_BibliotecaNacionaldeEspana_Ms9018_QdSen">
+                        <msItem xml:id="Madrid_BNE_Ms9018_QdSen">
                             <locus from="130v" to="137r"/>
                             <title ref="#QdSen">QdSen</title>
                         </msItem>
-                        <msItem xml:id="Madrid_BibliotecaNacionaldeEspana_Ms9018_QdMem">
+                        <msItem xml:id="Madrid_BNE_Ms9018_QdMem">
                             <locus from="137r" to="139r"/>
                             <title ref="#QdMem">QdMem</title>
                         </msItem>
-                        <msItem xml:id="Madrid_BibliotecaNacionaldeEspana_Ms9018_QdSom">
+                        <msItem xml:id="Madrid_BNE_Ms9018_QdSom">
                             <locus from="139v" to="142r"/>
                             <title ref="#QdSom">QdSom</title>
                         </msItem>
-                        <msItem xml:id="Madrid_BibliotecaNacionaldeEspana_Ms9018_QdLon">
+                        <msItem xml:id="Madrid_BNE_Ms9018_QdLon">
                             <locus from="142r" to="144v"/>
                             <title ref="#QdLon">QdLon</title>
                             <colophon n="final"><locus from="143ra" to="143rb"/>Istud opus fere
@@ -12680,7 +12939,7 @@
                                 colophons providing rich information on the place, date and identity
                                 of the copyist. </p>
                             <note type="msRelationship">
-                                <p><ref target="#Madrid_BibliotecaNacionaldeEspana_Ms9018" type="ms"
+                                <p><ref target="#Madrid_BNE_Ms9018" type="ms"
                                         >Madrid, Biblioteca nacional, ms. 9018</ref>, which also
                                     contains the formula: <q n="143rb">Scribere qui nescit nullum
                                         putat esse labore. Tres digiti scribunt, cetera membra
