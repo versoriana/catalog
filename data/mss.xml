@@ -1827,15 +1827,16 @@
                             <origDate from="1457" to="1457">1457, as stated in the colophon (f.
                                 151v). </origDate>
                             <origPlace ref="#place_paris">Paris</origPlace>
-                            <p>The manuscript belonged to Conradus Kümerlin, who studied in Paris,
-                                and was purchased from him by <persName
-                                    ref="#IohannesHeynlinDeLapide">Iohannes de Lapide</persName>, as
-                                stated in the ownership mark: <q n="214v">Item Cunradus Kümerlin de
-                                    Constancia concessit michi, Iohanni de Schaffhusen, XVIII scudis
-                                    parisiensibus, tempore cuius debet sibi concedere summulas
-                                    istas</q>, f. 214v. From this information, we may infer the
-                                Parisian origin of the codex. This fact is confirmed by the
-                                    <watermark>watermark, a shield with three fleur-de-lis crowned
+                            <p>The manuscript was purchased by <persName
+                                    ref="#IohannesHeynlinDeLapide">Iohannes de Lapide</persName>
+                                while he was in Paris. An ownership note indicates that it passed
+                                from him to Conradus Kümerlin before eventually returning to its
+                                original owner: <q n="214v">Item Cunradus Kümerlin de Constancia
+                                    concessit michi, Iohanni de Schaffhusen, XVIII solidos
+                                    parisienses, ratione cuius debeo sibi concedere summulas
+                                    istas</q>, f. 214v. The Parisian origin of the codex is
+                                confirmed by the <watermark>watermark, a shield with three
+                                    fleur-de-lis crowned
                                     with flowers (particularly visible on ff. 2 and 91), very
                                     similar to Briquet 1680, attested in Paris in 1451, with similar
                                     variants attested there in the years 1453–1482</watermark>. </p>
