@@ -28,9 +28,10 @@ tei-msIdentifier {
     margin-bottom: 1rem;
     padding-right: 12rem;   /* room for the top-right toolbar */
     font-family: var(--font-serif);
-    font-weight: 500;
+    font-weight: 400;
     font-size: 1.6rem;
     line-height: 1.25;
+    color: var(--heading);
 }
 
 tei-msIdentifier > tei-settlement::after,
@@ -113,8 +114,7 @@ tei-msItem tei-msItem {
 .msitem-locus::after  { content: ")"; }
 
 /* Opera code on Versoris's own items, linking to the work on opera.html. Small, no underline
-   until hovered. A darker shade of the person-name orange: plain `orange` is too faint for
-   text on white. */
+   until hovered. Same deep mint as person names. */
 .msitem-opus {
     margin-left: 8px;
     font-size: 0.8em;
@@ -564,9 +564,9 @@ tei-persname[type="sort"] {
     display: block;
     font-family: var(--font-serif);
     font-size: 1.6rem;
-    font-weight: 500;
+    font-weight: 400;
     line-height: 1.25;
-    color: var(--ink);
+    color: var(--heading);
     margin-bottom: 5px;
     padding-right: 8rem;   /* room for the copy-link pill */
 }
@@ -707,7 +707,7 @@ tei-listBibl:not(:has(> tei-bibl:not([data-empty]))),
 }
 
 .double-button-l:hover {
-    background-color: var(--accent-soft);
+    background-color: var(--brand-wash);
     color: var(--ink);
     text-decoration: none;
 }
@@ -721,7 +721,7 @@ tei-listBibl:not(:has(> tei-bibl:not([data-empty]))),
     display: inline-flex;
     align-items: center;
     padding: 2px 7px;
-    background-color: var(--paper);
+    background-color: var(--wash);
     color: var(--ink);
     border-left: 1px solid var(--rule);
     font-weight: 600;

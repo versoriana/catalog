@@ -1,53 +1,96 @@
 /* Design tokens and site chrome for the Bibliotheca Manuscripta Versoriana.
-   Loaded after Bootstrap and versoris.css. All colours live here. */
+   Loaded after Bootstrap and versoris.css. All colours live here.
+   Palette follows the University of Basel online corporate design
+   (Unibas Mint #A5D7D2 / Mint hell #D2EBE9, Unibas Rot #D20537,
+   Unibas Anthrazit #2D373C / #46505A, text greys #333 / #666);
+   type follows unibas.ch (PT Serif headings, Inter body). */
 
 :root {
-    --paper: #faf7f2;
+    --paper: #ffffff;
     --surface: #ffffff;
-    --ink: #1f1b16;
-    --muted: #6b6258;
-    --rule: #e6dfd3;
-    --accent: #7a1f2b;
-    --accent-hover: #5e1620;
-    --accent-soft: rgba(122, 31, 43, 0.07);
-    --person: #b5651d;
-    --highlight: #f6e7b8;
-    --success: #2e7d4f;
-    --shadow: 0 1px 2px rgba(31, 27, 22, 0.04), 0 4px 16px rgba(31, 27, 22, 0.05);
-    --radius: 8px;
-    --font-serif: "EB Garamond", Garamond, "Times New Roman", serif;
+    --wash: #f4f5f6;              /* quiet grey: count half of double buttons */
+    --ink: #333333;
+    --heading: #2d373c;
+    --muted: #666666;
+    --rule: #d9d9d9;
+    --accent: #d20537;            /* Unibas Rot: links, active states */
+    --accent-hover: #a5042b;
+    --accent-soft: rgba(210, 5, 55, 0.07);
+    --brand: #a5d7d2;             /* Unibas Mint: colour areas */
+    --brand-soft: #d2ebe9;        /* Unibas Mint hell: tags, icon tiles */
+    --brand-wash: #edf6f5;        /* row hover / selection */
+    --brand-ink: #2d373c;         /* text on mint */
+    --person: #2a7a72;            /* deep mint, readable as text on white */
+    --highlight: #a5d7d2;
+    --success: #457a1a;
+    --band-bg: #a5d7d2;           /* Unibas Mint page-header band */
+    --band-ink: #2d373c;
+    --band-muted: #46505a;
+    --footer-bg: #2d373c;
+    --footer-ink: #c9c9c9;
+    --footer-strong: #ffffff;
+    --footer-link: #a5d7d2;
+    --shadow: 0 1px 2px rgba(45, 55, 60, 0.05), 0 4px 16px rgba(45, 55, 60, 0.06);
+    --radius: 4px;
+    --font-serif: "PT Serif", Georgia, "Times New Roman", serif;
     --font-sans: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
 }
 
 @media (prefers-color-scheme: dark) {
     :root:not([data-theme="light"]) {
-        --paper: #16130f;
-        --surface: #1f1b16;
-        --ink: #ece6dc;
-        --muted: #a69c8f;
-        --rule: #3a332b;
-        --accent: #d27a86;
-        --accent-hover: #e59aa4;
-        --accent-soft: rgba(210, 122, 134, 0.1);
-        --person: #e0a065;
-        --highlight: #5a4a1c;
+        --paper: #1b2226;
+        --surface: #232b30;
+        --wash: #283136;
+        --ink: #e8eaeb;
+        --heading: #f4f5f6;
+        --muted: #9aa4aa;
+        --rule: #3a454c;
+        --accent: #ff6b87;
+        --accent-hover: #ff8fa4;
+        --accent-soft: rgba(255, 107, 135, 0.12);
+        --brand: #a5d7d2;
+        --brand-soft: rgba(165, 215, 210, 0.16);
+        --brand-wash: rgba(165, 215, 210, 0.08);
+        --brand-ink: #a5d7d2;
+        --person: #8fcfc7;
+        --highlight: #3f5f5d;
         --success: #7cc49a;
+        --band-bg: #26393b;
+        --band-ink: #f4f5f6;
+        --band-muted: #b9c2c7;
+        --footer-bg: #12181b;
+        --footer-ink: #9aa4aa;
+        --footer-strong: #e8eaeb;
+        --footer-link: #a5d7d2;
         --shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
     }
 }
 
 :root[data-theme="dark"] {
-    --paper: #16130f;
-    --surface: #1f1b16;
-    --ink: #ece6dc;
-    --muted: #a69c8f;
-    --rule: #3a332b;
-    --accent: #d27a86;
-    --accent-hover: #e59aa4;
-    --accent-soft: rgba(210, 122, 134, 0.1);
-    --person: #e0a065;
-    --highlight: #5a4a1c;
+    --paper: #1b2226;
+    --surface: #232b30;
+    --wash: #283136;
+    --ink: #e8eaeb;
+    --heading: #f4f5f6;
+    --muted: #9aa4aa;
+    --rule: #3a454c;
+    --accent: #ff6b87;
+    --accent-hover: #ff8fa4;
+    --accent-soft: rgba(255, 107, 135, 0.12);
+    --brand: #a5d7d2;
+    --brand-soft: rgba(165, 215, 210, 0.16);
+    --brand-wash: rgba(165, 215, 210, 0.08);
+    --brand-ink: #a5d7d2;
+    --person: #8fcfc7;
+    --highlight: #3f5f5d;
     --success: #7cc49a;
+    --band-bg: #26393b;
+    --band-ink: #f4f5f6;
+    --band-muted: #b9c2c7;
+    --footer-bg: #12181b;
+    --footer-ink: #9aa4aa;
+    --footer-strong: #e8eaeb;
+    --footer-link: #a5d7d2;
     --shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
 }
 
@@ -59,7 +102,7 @@
     --bs-secondary-color: var(--muted);
     --bs-border-color: var(--rule);
     --bs-link-color: var(--accent);
-    --bs-link-color-rgb: 122, 31, 43;
+    --bs-link-color-rgb: 210, 5, 55;
     --bs-link-hover-color: var(--accent-hover);
     --bs-body-font-family: var(--font-sans);
     --bs-font-sans-serif: var(--font-sans);
@@ -92,9 +135,9 @@ body > main { flex: 1 0 auto; }
 
 h1, h2, h3, .serif {
     font-family: var(--font-serif);
-    font-weight: 500;
+    font-weight: 400;
     letter-spacing: -0.01em;
-    color: var(--ink);
+    color: var(--heading);
 }
 
 a { color: var(--accent); text-underline-offset: 0.18em; }
@@ -169,8 +212,8 @@ a:hover { color: var(--accent-hover); }
 .site-nav .navbar-brand {
     font-family: var(--font-serif);
     font-size: 1.3rem;
-    font-weight: 500;
-    color: var(--ink);
+    font-weight: 400;
+    color: var(--heading);
     white-space: normal;
     line-height: 1.2;
 }
@@ -240,12 +283,26 @@ a:hover { color: var(--accent-hover); }
 
 .theme-toggle:hover { color: var(--ink); border-color: var(--muted); }
 
-/* Page header */
-.page-header {
-    padding: 3rem 0 1.5rem;
-    margin-bottom: 2rem;
-    border-bottom: 1px solid var(--rule);
+/* Page header and home hero: full-bleed mint band. Both stay inside .container; the
+   spread shadow paints the band out to the viewport edges and clip-path trims it
+   vertically, so there is no extra markup and no horizontal scroll. */
+.page-header,
+.hero {
+    background: var(--band-bg);
+    box-shadow: 0 0 0 100vmax var(--band-bg);
+    clip-path: inset(0 -100vmax);
+    color: var(--band-ink);
 }
+
+.page-header {
+    padding: 2.5rem 0 2rem;
+    margin-bottom: 2rem;
+}
+
+/* Red and #666 drop below AA on mint, so the band's text uses anthracite tones */
+.page-header .eyebrow,
+.page-header h1,
+.hero h1 { color: var(--band-ink); }
 
 .eyebrow {
     font-size: 0.72rem;
@@ -262,7 +319,7 @@ a:hover { color: var(--accent-hover); }
 }
 
 .page-header .lead {
-    color: var(--muted);
+    color: var(--band-muted);
     font-size: 1.1rem;
     max-width: 60ch;
     margin-bottom: 0;
@@ -270,7 +327,8 @@ a:hover { color: var(--accent-hover); }
 
 /* Home */
 .hero {
-    padding: 2.5rem 0 1.75rem;
+    padding: 3rem 0 2.75rem;
+    margin-bottom: 2.5rem;
     text-align: center;
 }
 
@@ -281,7 +339,7 @@ a:hover { color: var(--accent-hover); }
 }
 
 .hero .lead {
-    color: var(--muted);
+    color: var(--band-muted);
     font-size: 1.2rem;
     max-width: 52ch;
     margin: 0 auto;
@@ -348,8 +406,8 @@ a:hover { color: var(--accent-hover); }
     display: grid;
     place-items: center;
     border-radius: var(--radius);
-    background: var(--accent-soft);
-    color: var(--accent);
+    background: var(--brand-soft);
+    color: var(--brand-ink);
     font-size: 1.1rem;
 }
 
@@ -414,9 +472,9 @@ a:hover { color: var(--accent-hover); }
     --bs-table-bg: transparent;
     --bs-table-color: var(--ink);
     --bs-table-border-color: var(--rule);
-    --bs-table-hover-bg: var(--accent-soft);
+    --bs-table-hover-bg: var(--brand-wash);
     --bs-table-hover-color: var(--ink);
-    --bs-table-active-bg: var(--accent-soft);
+    --bs-table-active-bg: var(--brand-wash);
     --bs-table-active-color: var(--ink);
     margin-bottom: 0;
     font-size: 0.93rem;
@@ -452,8 +510,8 @@ a:hover { color: var(--accent-hover); }
 .badge.bg-success,
 .badge.bg-light,
 .pill {
-    background: var(--accent-soft) !important;
-    color: var(--accent) !important;
+    background: var(--brand-soft) !important;
+    color: var(--brand-ink) !important;
     font-weight: 500;
     border-radius: 999px;
     padding: 0.25em 0.65em;
@@ -478,20 +536,24 @@ a:hover { color: var(--accent-hover); }
 }
 
 /* Footer */
+/* Anthracite colour area, as on unibas.ch */
 .site-footer {
     margin-top: 5rem;
     padding: 2.5rem 0 2rem;
-    border-top: 1px solid var(--rule);
-    color: var(--muted);
+    background: var(--footer-bg);
+    color: var(--footer-ink);
     font-size: 0.9rem;
 }
 
 .site-footer strong {
     font-family: var(--font-serif);
     font-size: 1.05rem;
-    font-weight: 500;
-    color: var(--ink);
+    font-weight: 400;
+    color: var(--footer-strong);
 }
+
+.site-footer a { color: var(--footer-link); }
+.site-footer a:hover { color: var(--footer-strong); }
 
 .site-footer .logos {
     display: flex;
@@ -501,25 +563,21 @@ a:hover { color: var(--accent-hover); }
     flex-wrap: wrap;
 }
 
+/* Logos are transparent PNGs: knocked out to white on the dark footer in both themes */
 .site-footer .logos img {
     max-height: 48px;
-    filter: grayscale(1);
-    opacity: 0.75;
-    transition: filter 150ms, opacity 150ms;
+    filter: grayscale(1) brightness(0) invert(1);
+    opacity: 0.7;
+    transition: opacity 150ms;
 }
 
-.site-footer .logos a:hover img { filter: none; opacity: 1; }
-
-:root[data-theme="dark"] .site-footer .logos img { filter: grayscale(1) invert(1); }
-@media (prefers-color-scheme: dark) {
-    :root:not([data-theme="light"]) .site-footer .logos img { filter: grayscale(1) invert(1); }
-}
+.site-footer .logos a:hover img { opacity: 1; }
 
 @media (max-width: 767.98px) {
     .site-nav .navbar-brand { max-width: calc(100% - 64px); font-size: 1.1rem; }
     .site-footer .logos { justify-content: flex-start; margin-top: 1.5rem; }
     .nav-search { min-width: 0; margin-top: 0.5rem; }
-    .hero { padding: 1.75rem 0 1.25rem; }
+    .hero { padding: 2rem 0 1.75rem; margin-bottom: 1.75rem; }
 }
 
 /* Sortable index tables (manuscripts, persons, opera) — behaviour in js/catalog-table.js */
@@ -551,13 +609,13 @@ a:hover { color: var(--accent-hover); }
 .catalog-table tbody tr.ms-selected { outline: none; }
 
 .catalog-table tbody tr.ms-selected > td {
-    --bs-table-bg-state: var(--accent-soft);
-    box-shadow: inset 0 0 0 9999px var(--accent-soft);
+    --bs-table-bg-state: var(--brand-wash);
+    box-shadow: inset 0 0 0 9999px var(--brand-wash);
     border-bottom-color: transparent;
 }
 
 .catalog-table tbody tr.ms-selected > td:first-child {
-    box-shadow: inset 3px 0 0 var(--accent), inset 0 0 0 9999px var(--accent-soft);
+    box-shadow: inset 3px 0 0 var(--accent), inset 0 0 0 9999px var(--brand-wash);
 }
 
 .catalog-table tbody tr.ms-detail-row,
@@ -634,7 +692,7 @@ a:hover { color: var(--accent-hover); }
 .search-suggestion:last-child { border-bottom: none; }
 
 .search-suggestion:hover,
-.search-suggestion-active { background: var(--accent-soft); }
+.search-suggestion-active { background: var(--brand-wash); }
 
 .suggestion-title {
     font-weight: 500;
@@ -696,8 +754,8 @@ a:hover { color: var(--accent-hover); }
     display: block;
     font-family: var(--font-serif);
     font-size: 1.3rem;
-    font-weight: 500;
-    color: var(--ink);
+    font-weight: 400;
+    color: var(--heading);
     text-decoration: none;
     margin-bottom: 0.25rem;
 }
@@ -712,14 +770,14 @@ a:hover { color: var(--accent-hover); }
     font-weight: 600;
     letter-spacing: 0.08em;
     text-transform: uppercase;
-    background: var(--accent-soft);
-    color: var(--accent);
+    background: var(--brand-soft);
+    color: var(--brand-ink);
     margin-bottom: 0.4rem;
 }
 
 .result-type.person {
-    background: color-mix(in srgb, var(--person) 14%, transparent);
-    color: var(--person);
+    background: var(--accent-soft);
+    color: var(--accent);
 }
 
 .result-meta {
