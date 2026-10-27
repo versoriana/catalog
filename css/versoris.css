@@ -1021,6 +1021,10 @@ tei-acquisition::before {
     margin-top: 14px;
 }
 
+.opera-witness-locus {
+    color: var(--muted);
+}
+
 .opera-witness-note {
     color: var(--muted);
     font-style: italic;

@@ -38,3 +38,37 @@ function witnessClass(item, msDesc) {
   if (a === "Anonymus")      return "anonymous";
   return "other";
 }
+
+// An msItem's folio range as display text ("ff. 1r–99v"), or "". Reads the item's DIRECT
+// locus/locusGrp, for the same reason as operaCode: nested items and colophons carry their own.
+// A locusGrp is either a bound/unbound pair (Kraków incunabula: "ff. 129r–204r [1r–76r]") or
+// discontinuous ranges ("ff. 114r–159v, 113r–113v"); a locus with no @from may carry prose.
+function locusText(item) {
+  const range = l => {
+    const from = l.getAttribute("from");
+    const to   = l.getAttribute("to");
+    return from && to ? `${from}–${to}` : from || to || "";
+  };
+  const locusGrp = item.querySelector(":scope > tei-locusgrp");
+  if (locusGrp) {
+    const bound   = locusGrp.querySelector('tei-locus[scheme="#bound"]');
+    const unbound = locusGrp.querySelector('tei-locus[scheme="#unbound"]');
+    if (bound || unbound) {
+      let text = "";
+      if (bound && range(bound)) text = `${range(bound).includes("–") ? "ff." : "f."} ${range(bound)}`;
+      if (unbound && range(unbound)) text += ` [${range(unbound)}]`;
+      return text.trim();
+    }
+    const parts = Array.from(locusGrp.querySelectorAll("tei-locus:not([scheme])")).map(range).filter(Boolean);
+    if (!parts.length) return "";
+    const prefix = parts.length === 1 && !parts[0].includes("–") ? "f." : "ff.";
+    return `${prefix} ${parts.join(", ")}`;
+  }
+  const locus = item.querySelector(":scope > tei-locus");
+  if (!locus) return "";
+  const from = locus.getAttribute("from");
+  const to   = locus.getAttribute("to");
+  if (from && to) return `ff. ${from}–${to}`;
+  if (from || to) return `f. ${from || to}`;
+  return locus.textContent.trim();
+}

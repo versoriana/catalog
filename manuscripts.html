@@ -278,64 +278,21 @@
 					container.className = "msitem-container";
 
 					const title    = e.querySelector("tei-title");
-					const locusGrp = e.querySelector("tei-locusgrp");
-					const locus    = e.querySelector("tei-locus");
 					const otherElements = Array.from(e.childNodes).filter(node =>
 						node.nodeName !== "TEI-TITLE" &&
 						node.nodeName !== "TEI-LOCUS" &&
 						node.nodeName !== "TEI-LOCUSGRP"
 					);
-
-					// Build locus text
-					let locusText = "";
-					if (locusGrp) {
-						const boundLocus   = locusGrp.querySelector('tei-locus[scheme="#bound"]');
-						const unboundLocus = locusGrp.querySelector('tei-locus[scheme="#unbound"]');
-						if (boundLocus || unboundLocus) {
-							if (boundLocus) {
-								const from = boundLocus.getAttribute('from');
-								const to   = boundLocus.getAttribute('to');
-								if (from && to)   locusText = `ff. ${from}–${to}`;
-								else if (from)    locusText = `f. ${from}`;
-								else if (to)      locusText = `f. ${to}`;
-							}
-							if (unboundLocus) {
-								const from = unboundLocus.getAttribute('from');
-								const to   = unboundLocus.getAttribute('to');
-								if (from && to)   locusText += ` [${from}–${to}]`;
-								else if (from)    locusText += ` [${from}]`;
-								else if (to)      locusText += ` [${to}]`;
-							}
-						} else {
-							const parts = [];
-							locusGrp.querySelectorAll('tei-locus:not([scheme])').forEach(l => {
-								const from = l.getAttribute('from');
-								const to   = l.getAttribute('to');
-								if (from && to) parts.push(`${from}–${to}`);
-								else if (from)  parts.push(from);
-								else if (to)    parts.push(to);
-							});
-							if (parts.length) {
-								const prefix = parts.length === 1 && !parts[0].includes('–') ? 'f.' : 'ff.';
-								locusText = `${prefix} ${parts.join(', ')}`;
-							}
-						}
-					} else if (locus) {
-						const from = locus.getAttribute('from');
-						const to   = locus.getAttribute('to');
-						if (from && to)  locusText = `ff. ${from}–${to}`;
-						else if (from)   locusText = `f. ${from}`;
-						else             locusText = locus.textContent.trim();
-					}
+					const locus    = locusText(e);   // js/opera-witness.js, shared with opera.html
 
 					// Header: title then locus inline, no "Title:" label
 					const header = document.createElement("div");
 					header.className = "msitem-header";
 					if (title) header.appendChild(title.cloneNode(true));
-					if (locusText) {
+					if (locus) {
 						const locusSpan = document.createElement("span");
 						locusSpan.className = "msitem-locus";
-						locusSpan.textContent = locusText;
+						locusSpan.textContent = locus;
 						header.appendChild(locusSpan);
 					}
 					// Versoris's own witness to an opus: link to that work on the opera page.

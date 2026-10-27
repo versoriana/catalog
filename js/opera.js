@@ -68,7 +68,14 @@ document.addEventListener("DOMContentLoaded", () => {
     return { label, repository };
   }
 
-  function witnessItem(w, withClassNote) {
+  // A ms carries the work other than as Versoris's — whether or not it also has his text.
+  const isRelated = w => Object.keys(CLASS_LABEL).some(c => w.classes.has(c));
+
+  // mode: "versoris" (his own witnesses), "related" (not his) or "flat" (#nonVersoris).
+  // Loci are kept per class: one codex can hold Versoris's text AND another copy of the same
+  // work (Kraków BJ cod. 2087: his QsP at ff. 17r–191v, the anonymous Cracovian QsP after it).
+  // It is then listed in both groups, each entry with only its own ranges.
+  function witnessItem(w, mode) {
     const li = document.createElement("li");
     const a  = document.createElement("a");
     a.href = `manuscripts.html#${encodeURIComponent(w.id)}`;
@@ -76,14 +83,31 @@ document.addEventListener("DOMContentLoaded", () => {
     a.textContent = w.label;
     li.appendChild(a);
 
-    const notes = [];
-    if (withClassNote) {
-      // a ms may hold several items for one work; name every non-Versoris class present
-      Object.keys(CLASS_LABEL)
-        .filter(c => w.classes.has(c))
-        .forEach(c => notes.push(CLASS_LABEL[c]));
+    const lociOf  = cls => w.loci.filter(l => l.cls === cls).map(l => l.text).join("; ");
+    const others  = Object.keys(CLASS_LABEL).filter(c => w.classes.has(c));
+    const labeled = c => CLASS_LABEL[c] + (lociOf(c) ? `: ${lociOf(c)}` : "");
+    const notes   = [];
+    let locus;
+    if (mode === "flat") {
+      locus = w.loci.map(l => l.text).join("; ");
+    } else if (mode === "versoris") {
+      locus = lociOf("versoris");
+    } else if (others.length === 1) {
+      locus = lociOf(others[0]);
+      notes.push(CLASS_LABEL[others[0]]);
+    } else {
+      others.forEach(c => notes.push(labeled(c)));
     }
-    if (w.flags.has("defective")) notes.push("text incomplete or lost");
+    if (locus) {
+      const span = document.createElement("span");
+      span.className = "opera-witness-locus";
+      span.textContent = `, ${locus}`;
+      li.appendChild(span);
+    }
+
+    // flags are "defective:<class>", so each entry reports only its own copies
+    const shown = mode === "versoris" ? ["versoris"] : mode === "related" ? others : [...w.classes];
+    if (shown.some(c => w.flags.has(`defective:${c}`))) notes.push("text incomplete or lost");
     if (notes.length) {
       const span = document.createElement("span");
       span.className = "opera-witness-note";
@@ -93,7 +117,7 @@ document.addEventListener("DOMContentLoaded", () => {
     return li;
   }
 
-  function witnessGroup(heading, list, withClassNote) {
+  function witnessGroup(heading, list, mode) {
     const frag = document.createDocumentFragment();
     const h    = document.createElement("p");
     h.className = "opera-witness-heading";
@@ -102,7 +126,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const ul = document.createElement("ul");
     ul.className = "opera-witnesses";
     list.sort((a, b) => a.label.localeCompare(b.label))
-        .forEach(w => ul.appendChild(witnessItem(w, withClassNote)));
+        .forEach(w => ul.appendChild(witnessItem(w, mode)));
     frag.appendChild(ul);
     return frag;
   }
@@ -118,14 +142,14 @@ document.addEventListener("DOMContentLoaded", () => {
       const ul = document.createElement("ul");
       ul.className = "opera-witnesses";
       all.sort((a, b) => a.label.localeCompare(b.label))
-         .forEach(w => ul.appendChild(witnessItem(w, false)));
+         .forEach(w => ul.appendChild(witnessItem(w, "flat")));
       wrap.appendChild(ul);
       return wrap;
     }
     const versoris = all.filter(w => w.classes.has("versoris"));
-    const related  = all.filter(w => !w.classes.has("versoris"));
-    if (versoris.length) wrap.appendChild(witnessGroup("Witnesses", versoris, false));
-    if (related.length)  wrap.appendChild(witnessGroup("Related, not by Versoris", related, true));
+    const related  = all.filter(isRelated);
+    if (versoris.length) wrap.appendChild(witnessGroup("Witnesses", versoris, "versoris"));
+    if (related.length)  wrap.appendChild(witnessGroup("Related, not by Versoris", related, "related"));
     return wrap;
   }
 
@@ -148,7 +172,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const nVersoris = isNonVersoris
       ? witnesses.size
       : Array.from(witnesses.values()).filter(w => w.classes.has("versoris")).length;
-    const nRelated  = isNonVersoris ? 0 : witnesses.size - nVersoris;
+    const nRelated  = isNonVersoris ? 0 : Array.from(witnesses.values()).filter(isRelated).length;
     if (!isNonVersoris && nVersoris === 0) classes.push("opera-no-witness");
 
     // "# mss": Versoris's own witnesses; related copies (not his) follow as a muted "(+n)"
@@ -185,7 +209,7 @@ document.addEventListener("DOMContentLoaded", () => {
     // A manuscript can contribute several items for one code — e.g. Kraków BJ cod. 2087 holds
     // both Versoris's QsP and the anonymous Cracovian QsP — so classes accumulate per ms, and
     // a ms counts as a witness if ANY of its items for that code is Versoris's.
-    const witnessesByCode = new Map(); // code -> Map<msDescId, {id,label,repository,classes,flags}>
+    const witnessesByCode = new Map(); // code -> Map<msDescId, {id,label,repository,loci,classes,flags}>
     Array.from(pool.querySelectorAll("tei-msitem")).forEach(item => {
       const code = operaCode(item);
       if (!code) return;
@@ -197,12 +221,15 @@ document.addEventListener("DOMContentLoaded", () => {
       if (!witnesses.has(msDesc.id)) {
         const { label, repository } = msLabel(msDesc);
         witnesses.set(msDesc.id, {
-          id: msDesc.id, label, repository, classes: new Set(), flags: new Set()
+          id: msDesc.id, label, repository, loci: [], classes: new Set(), flags: new Set()
         });
       }
-      const w = witnesses.get(msDesc.id);
-      w.classes.add(witnessClass(item, msDesc));
-      if (item.getAttribute("defective") === "true") w.flags.add("defective");
+      const w   = witnesses.get(msDesc.id);
+      const cls = witnessClass(item, msDesc);
+      const locus = locusText(item);
+      if (locus) w.loci.push({ cls, text: locus });
+      w.classes.add(cls);
+      if (item.getAttribute("defective") === "true") w.flags.add(`defective:${cls}`);
     });
 
     readTaxonomy(pool).then(categories => {
@@ -224,7 +251,8 @@ document.addEventListener("DOMContentLoaded", () => {
       // An umbrella code (Parva naturalia, Ars vetus/nova) is used only where a source
       // described the group as an undivided block — one manuscript each. Counting only that
       // would report "Parva naturalia: 1" while its four works are in 33–37 manuscripts. So
-      // roll the members up, merging per manuscript so classes and flags survive.
+      // roll the members up, merging per manuscript so classes and flags survive. Loci are
+      // dropped: a grouping's entry would list every member work's folios.
       function rolledUp(code) {
         const own     = witnessesByCode.get(code) || new Map();
         const members = membersOf.get(code);
@@ -232,7 +260,7 @@ document.addEventListener("DOMContentLoaded", () => {
         const merged = new Map();
         const absorb = map => map.forEach((w, id) => {
           if (!merged.has(id)) {
-            merged.set(id, { ...w, classes: new Set(w.classes), flags: new Set(w.flags) });
+            merged.set(id, { ...w, loci: [], classes: new Set(w.classes), flags: new Set(w.flags) });
           } else {
             w.classes.forEach(c => merged.get(id).classes.add(c));
             w.flags.forEach(f => merged.get(id).flags.add(f));
