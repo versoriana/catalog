@@ -31,7 +31,9 @@ document.addEventListener("DOMContentLoaded", () => {
         code:    cat.id,
         title:   cat.querySelector(":scope > tei-catDesc")?.textContent?.trim() || cat.id,
         // @corresp names the umbrella this work belongs to (Parva naturalia, Ars vetus/nova)
-        corresp: (cat.getAttribute("corresp") || "").replace(/^#/, "")
+        corresp: (cat.getAttribute("corresp") || "").replace(/^#/, ""),
+        // @n gives the customary order of a group's members (the logic codes)
+        n:       parseInt(cat.getAttribute("n"), 10)
       }));
     if (fromDom.length) return Promise.resolve(fromDom);
 
@@ -43,7 +45,8 @@ document.addEventListener("DOMContentLoaded", () => {
           .map(cat => ({
             code:    cat.getAttribute("xml:id") || cat.id,
             title:   cat.querySelector("catDesc")?.textContent?.trim() || "",
-            corresp: (cat.getAttribute("corresp") || "").replace(/^#/, "")
+            corresp: (cat.getAttribute("corresp") || "").replace(/^#/, ""),
+            n:       parseInt(cat.getAttribute("n"), 10)
           }))
           .filter(c => c.code);
       })
@@ -242,7 +245,10 @@ document.addEventListener("DOMContentLoaded", () => {
       const membersOf = new Map();   // umbrella -> [member codes]
       const groupOf   = new Map();   // member   -> umbrella title
       const titleOf   = new Map(categories.map(c => [c.code, c.title]));
-      categories.filter(c => c.corresp).forEach(c => {
+      // Members are listed by @n where the taxonomy gives one (the logic codes), else in
+      // taxonomy order; the sort is stable, so codes without @n keep their order.
+      const orderOf = c => Number.isNaN(c.n) ? Infinity : c.n;
+      categories.filter(c => c.corresp).slice().sort((a, b) => orderOf(a) - orderOf(b)).forEach(c => {
         if (!membersOf.has(c.corresp)) membersOf.set(c.corresp, []);
         membersOf.get(c.corresp).push(c.code);
         groupOf.set(c.code, titleOf.get(c.corresp) || c.corresp);
