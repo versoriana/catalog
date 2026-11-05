@@ -36,16 +36,17 @@
                         are used only where a source described the group as an undivided block
                         instead of itemising it. The works belonging to a group carry
                         @corresp="#umbrella", so counts can be rolled up. The logic codes carry @n
-                        (1–9): their customary order in the manuscripts, Ars vetus before Ars nova,
-                        with Sex principiorum and De divisione right after the Predicamenta. </desc>
+                        (1–9): the order of the logic commentaries, Ars vetus (Porphyrius,
+                        Predicamenta, De interpretatione, Sex principia, De divisione) before Ars
+                        nova (Analytica priora and posteriora, Topica, Sophistici elenchi). </desc>
                     <!-- Umbrella codes and their members (see data_generated/opera_codes.csv):
                          QsPN      Parva naturalia — the short Aristotelian treatises on
                                    perception, memory, sleep and the length of life, taught as one
                                    block in the arts curriculum: QdSen, QdMem, QdSom, QdLon.
                          ArsVetus  Ars vetus — the "old logic", the part of the logical corpus
                                    known before the twelfth century: QsPor (Isagoge), QsPre
-                                   (Categories), QsSex (Liber sex principiorum), QdDiv (De
-                                   divisione), QdInt (De interpretatione).
+                                   (Categories), QdInt (De interpretatione), QsSex (Liber sex
+                                   principiorum), QdDiv (De divisione).
                          ArsNova   Ars nova — the "new logic", the Aristotelian logic recovered in
                                    the twelfth century: QsPri and QsPos (Prior and Posterior
                                    Analytics), QsTop (Topics), QsSE (Sophistici Elenchi).
@@ -58,14 +59,14 @@
                     <category xml:id="QsPre" n="2" corresp="#ArsVetus">
                         <catDesc>Questiones super Predicamenta</catDesc>
                     </category>
-                    <category xml:id="QsSex" n="3" corresp="#ArsVetus">
+                    <category xml:id="QdInt" n="3" corresp="#ArsVetus">
+                        <catDesc>Questiones super De interpretatione</catDesc>
+                    </category>
+                    <category xml:id="QsSex" n="4" corresp="#ArsVetus">
                         <catDesc>Questiones super Sex Principiorum</catDesc>
                     </category>
-                    <category xml:id="QdDiv" n="4" corresp="#ArsVetus">
+                    <category xml:id="QdDiv" n="5" corresp="#ArsVetus">
                         <catDesc>Questiones super De divisione</catDesc>
-                    </category>
-                    <category xml:id="QdInt" n="5" corresp="#ArsVetus">
-                        <catDesc>Questiones super De interpretatione</catDesc>
                     </category>
                     <category xml:id="QsPri" n="6" corresp="#ArsNova">
                         <catDesc>Questiones super Analytica priora</catDesc>
