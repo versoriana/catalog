@@ -163,7 +163,7 @@ document.addEventListener("DOMContentLoaded", () => {
     // would otherwise read as rivals to them.
     if (members) classes.push("opera-umbrella");
 
-    let displayTitle = isNonVersoris ? "Not by Versoris (placeholder)" : title;
+    let displayTitle = isNonVersoris ? "Not by Versoris" : title;
     // An umbrella is a curriculum grouping: its count is rolled up from its members, which keep
     // their own rows. A member says which group it belongs to — invisible in the data before
     // @corresp was added to the taxonomy.
