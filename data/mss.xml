@@ -35,41 +35,49 @@
                         umbrellas: they name a curriculum grouping rather than a single work, and
                         are used only where a source described the group as an undivided block
                         instead of itemising it. The works belonging to a group carry
-                        @corresp="#umbrella", so counts can be rolled up. </desc>
+                        @corresp="#umbrella", so counts can be rolled up. The logic codes carry @n
+                        (1–9): their customary order in the manuscripts, Ars vetus before Ars nova,
+                        with Sex principiorum and De divisione right after the Predicamenta. </desc>
                     <!-- Umbrella codes and their members (see data_generated/opera_codes.csv):
                          QsPN      Parva naturalia — the short Aristotelian treatises on
                                    perception, memory, sleep and the length of life, taught as one
                                    block in the arts curriculum: QdSen, QdMem, QdSom, QdLon.
                          ArsVetus  Ars vetus — the "old logic", the part of the logical corpus
                                    known before the twelfth century: QsPor (Isagoge), QsPre
-                                   (Categories), Qdint (De interpretatione), QdDiv (De divisione),
-                                   QsSex (Liber sex principiorum).
+                                   (Categories), QsSex (Liber sex principiorum), QdDiv (De
+                                   divisione), QdInt (De interpretatione).
                          ArsNova   Ars nova — the "new logic", the Aristotelian logic recovered in
                                    the twelfth century: QsPri and QsPos (Prior and Posterior
                                    Analytics), QsTop (Topics), QsSE (Sophistici Elenchi).
                          A manuscript is normally itemised work by work, so the umbrella codes are
                          rare: one witness each. Do not read their witness count as the
                          transmission of the group — roll up the members instead. -->
-                    <category xml:id="QsTop" corresp="#ArsNova">
-                        <catDesc>Questiones super Topica</catDesc>
+                    <category xml:id="QsPor" n="1" corresp="#ArsVetus">
+                        <catDesc>Questiones super Porphyrium</catDesc>
                     </category>
-                    <category xml:id="QsSex" corresp="#ArsVetus">
-                        <catDesc>Questiones super Sex Principiorum</catDesc>
-                    </category>
-                    <category xml:id="QsSE" corresp="#ArsNova">
-                        <catDesc>Questiones super Sophistici Elenchi</catDesc>
-                    </category>
-                    <category xml:id="QsPri" corresp="#ArsNova">
-                        <catDesc>Questiones super Analytica priora</catDesc>
-                    </category>
-                    <category xml:id="QsPre" corresp="#ArsVetus">
+                    <category xml:id="QsPre" n="2" corresp="#ArsVetus">
                         <catDesc>Questiones super Predicamenta</catDesc>
                     </category>
-                    <category xml:id="QsPos" corresp="#ArsNova">
+                    <category xml:id="QsSex" n="3" corresp="#ArsVetus">
+                        <catDesc>Questiones super Sex Principiorum</catDesc>
+                    </category>
+                    <category xml:id="QdDiv" n="4" corresp="#ArsVetus">
+                        <catDesc>Questiones super De divisione</catDesc>
+                    </category>
+                    <category xml:id="QdInt" n="5" corresp="#ArsVetus">
+                        <catDesc>Questiones super De interpretatione</catDesc>
+                    </category>
+                    <category xml:id="QsPri" n="6" corresp="#ArsNova">
+                        <catDesc>Questiones super Analytica priora</catDesc>
+                    </category>
+                    <category xml:id="QsPos" n="7" corresp="#ArsNova">
                         <catDesc>Questiones super Analytica posteriora</catDesc>
                     </category>
-                    <category xml:id="QsPor" corresp="#ArsVetus">
-                        <catDesc>Questiones super Porphyrium</catDesc>
+                    <category xml:id="QsTop" n="8" corresp="#ArsNova">
+                        <catDesc>Questiones super Topica</catDesc>
+                    </category>
+                    <category xml:id="QsSE" n="9" corresp="#ArsNova">
+                        <catDesc>Questiones super Sophistici Elenchi</catDesc>
                     </category>
                     <category xml:id="QsPol">
                         <catDesc>Questiones super Politica</catDesc>
@@ -113,14 +121,8 @@
                     <category xml:id="QdLon" corresp="#QsPN">
                         <catDesc>Questiones super De longitudine et brevitate vite</catDesc>
                     </category>
-                    <category xml:id="Qdint" corresp="#ArsVetus">
-                        <catDesc>Questiones super De interpretatione</catDesc>
-                    </category>
                     <category xml:id="QdG">
                         <catDesc>Questiones super De generatione et corruptione</catDesc>
-                    </category>
-                    <category xml:id="QdDiv" corresp="#ArsVetus">
-                        <catDesc>Questiones super De divisione</catDesc>
                     </category>
                     <category xml:id="QdC">
                         <catDesc>Questiones super De celo</catDesc>
@@ -432,7 +434,7 @@
                         <msItem
                             xml:id="AmiensBibliothequeLouisAragonBibliothequemunicipale_405_QdInt">
                             <locus from="50v" to="68v"/>
-                            <title ref="#Qdint">QdInt</title>
+                            <title ref="#QdInt">QdInt</title>
                         </msItem>
                         <msItem
                             xml:id="AmiensBibliothequeLouisAragonBibliothequemunicipale_405_QsPri">
@@ -1696,7 +1698,7 @@
                         </msItem>
                         <msItem xml:id="Basel_UB_FIII11_QsInt">
                             <locus from="74r" to="98v"/>
-                            <title ref="#Qdint">QsInt</title>
+                            <title ref="#QdInt">QsInt</title>
                         </msItem>
                         <msItem xml:id="Basel_UB_FIII11_QsPri">
                             <locus from="99r" to="132v"/>
@@ -2018,7 +2020,7 @@
                         </msItem>
                         <msItem xml:id="Basel_UB_FVI4_QsInt">
                             <locus from="69vb" to="91va"/>
-                            <title ref="#Qdint">QsInt</title>
+                            <title ref="#QdInt">QsInt</title>
                         </msItem>
                         <msItem xml:id="Basel_UB_FVI4_QsPos" defective="true">
                             <locus from="92r" to="113r"/>
@@ -2493,7 +2495,7 @@
                         </msItem>
                         <msItem xml:id="Berlin_SBPK_Hdschr435olimErfurt_QsInt">
                             <locus from="79ra" to="98rb"/>
-                            <title ref="#Qdint">QsInt</title>
+                            <title ref="#QdInt">QsInt</title>
                         </msItem>
                         <msItem xml:id="Berlin_SBPK_Hdschr435olimErfurt_QsPri">
                             <locus from="98va" to="127vb"/>
@@ -2869,7 +2871,7 @@
                         </msItem>
                         <msItem xml:id="Berlin_SBPK_latfol776_QdInt">
                             <locus from="100r" to="114v"/>
-                            <title ref="#Qdint">QdInt</title>
+                            <title ref="#QdInt">QdInt</title>
                         </msItem>
                         <msItem xml:id="Berlin_SBPK_latfol776_QsPri">
                             <locus from="115r" to="131ar"/>
@@ -3987,7 +3989,7 @@
                         </msItem>
                         <msItem xml:id="Frankfurt_UB_Praed63_QdInt">
                             <locus from="297r" to="310v"/>
-                            <title ref="#Qdint">QdInt</title>
+                            <title ref="#QdInt">QdInt</title>
                         </msItem>
                         <msItem xml:id="Frankfurt_UB_Praed63_QsPri">
                             <locus from="317r" to="333v"/>
@@ -4843,7 +4845,7 @@
                         </msItem>
                         <msItem xml:id="Innsbruck_UniversitatsundLandesbibliothekTirol_Cod220_QsInt">
                             <locus from="75r" to="108v"/>
-                            <title ref="#Qdint">QsInt</title>
+                            <title ref="#QdInt">QsInt</title>
                         </msItem>
                         <msItem xml:id="Innsbruck_UniversitatsundLandesbibliothekTirol_Cod220_QsPri">
                             <locus from="109r" to="140r"/>
@@ -5005,7 +5007,7 @@
                         </msItem>
                         <msItem xml:id="Koblenz_Landeshauptarchiv_Best701nr351_QdInt">
                             <locus from="53ra" to="74vb"/>
-                            <title ref="#Qdint">QdInt</title>
+                            <title ref="#QdInt">QdInt</title>
                         </msItem>
                         <msItem xml:id="Koblenz_Landeshauptarchiv_Best701nr351_QsPri">
                             <locus from="83ra" to="133va"/>
@@ -5791,7 +5793,7 @@
                         </msItem>
                         <msItem xml:id="Krakow_BibliotekaJagiellonska_cod2002_QsInt">
                             <locus from="174r" to="202r"/>
-                            <title ref="#Qdint">QsInt</title>
+                            <title ref="#QdInt">QsInt</title>
                         </msItem>
                     </msContents>
                     <history>
@@ -6454,7 +6456,7 @@
                         </msItem>
                         <msItem xml:id="Krakow_BibliotekaJagiellonska_cod2076_QdInt">
                             <locus from="244r" to="264v"/>
-                            <title ref="#Qdint">QdInt</title>
+                            <title ref="#QdInt">QdInt</title>
                         </msItem>
                     </msContents>
                     <history>
@@ -6673,7 +6675,7 @@
                         <msItem xml:id="Krakow_BibliotekaJagiellonska_cod2118_QdInt_Anon1">
                             <locus from="276r" to="291v"/>
                             <author>Anonymus</author>
-                            <title ref="#Qdint">QdInt</title>
+                            <title ref="#QdInt">QdInt</title>
                         </msItem>
                         <msItem xml:id="Krakow_BibliotekaJagiellonska_cod2118_QsPred_Anon2">
                             <locus from="339r" to="357v"/>
@@ -6683,7 +6685,7 @@
                         <msItem xml:id="Krakow_BibliotekaJagiellonska_cod2118_QdInt_Anon2" defective="true">
                             <locus from="357v" to="358v"/>
                             <author>Anonymus</author>
-                            <title ref="#Qdint">QdInt</title>
+                            <title ref="#QdInt">QdInt</title>
                             <note type="condition">Fragment</note>
                         </msItem>
                     </msContents>
@@ -8000,7 +8002,7 @@
                         </msItem>
                         <msItem xml:id="Madrid_BNE_Ms3086_QdInt" defective="true">
                             <locus from="62r" to="72v"/>
-                            <title ref="#Qdint">QdInt</title>
+                            <title ref="#QdInt">QdInt</title>
                             <note type="condition">The text breaks off unfinished at the question <q
                                     n="NA">Utrum diffinitio orationis sit bene assignata</q>. </note>
                         </msItem>
@@ -8677,7 +8679,7 @@
                         </msItem>
                         <msItem xml:id="Michaelbeuern_Benediktinerstift_mancart57_QdInt">
                             <locus from="62r" to="83r"/>
-                            <title ref="#Qdint">QdInt</title>
+                            <title ref="#QdInt">QdInt</title>
                             <colophon><locus from="83rb"/>Questiones collecte super Peryarmenias
                                 Aristotelis, per reverendum magistrum Iohannem Versoris Parisiensis.
                                 Explicit feliciter sub anno Domini M CCC LXVII, conscripta per me,
@@ -8949,7 +8951,7 @@
                         </msItem>
                         <msItem xml:id="Munchen_BSB_Clm6694_QsInt">
                             <locus from="74r" to="98v"/>
-                            <title ref="#Qdint">QsInt</title>
+                            <title ref="#QdInt">QsInt</title>
                         </msItem>
                         <msItem xml:id="Munchen_BSB_Clm6694_QsPri">
                             <locus from="99r" to="136r"/>
@@ -9216,7 +9218,7 @@
                         </msItem>
                         <msItem xml:id="Munchen_BSB_Clm14088_QdInt">
                             <locus from="164r" to="178r"/>
-                            <title ref="#Qdint">QdInt</title>
+                            <title ref="#QdInt">QdInt</title>
                             <colophon n="final"><locus from="178r"/>Finit feliciter secundus
                                 Peryarmenias Aristotelis et per consequens totalis liber veteris
                                 artis, anno 1474to, in vigilia sancti Mathei apostoli praeclarissimi
@@ -9684,7 +9686,7 @@
                         <msItem
                             xml:id="Munchen_LudwigMaximiliansUniversitatMunchenUniversitatsbibliothek_2Codms557_QsInt">
                             <locus from="70r" to="91r"/>
-                            <title ref="#Qdint">QsInt</title>
+                            <title ref="#QdInt">QsInt</title>
                         </msItem>
                         <msItem
                             xml:id="Munchen_LudwigMaximiliansUniversitatMunchenUniversitatsbibliothek_2Codms557_QsPri">
@@ -10137,7 +10139,7 @@
                         </msItem>
                         <msItem xml:id="Olomouc_KMK_CO354_QdInt">
                             <locus from="194v" to="228r"/>
-                            <title ref="#Qdint">QdInt</title>
+                            <title ref="#QdInt">QdInt</title>
                         </msItem>
                     </msContents>
                     <history>
@@ -10942,7 +10944,7 @@
                         </msItem>
                         <msItem xml:id="Paris_BnF_latin16136_QsInt">
                             <locus from="73r" to="96v"/>
-                            <title ref="#Qdint">QsInt</title>
+                            <title ref="#QdInt">QsInt</title>
                             <colophon n="book I"><locus from="96v"/>Et hec de questione, et per
                                 consequens de toto libro, in quo libro sunt septem lectiones […],
                                 sub venerabili magistro Girardo de Watrellet, actu regenti Parisius,
@@ -11383,7 +11385,7 @@
                         </msItem>
                         <msItem xml:id="Praha_KMK_M35_QsInt">
                             <locus from="124r" to="151r"/>
-                            <title ref="#Qdint">QsInt</title>
+                            <title ref="#QdInt">QsInt</title>
                         </msItem>
                         <msItem xml:id="Praha_KMK_M35_QsPri">
                             <locus from="153r" to="193r"/>
@@ -11511,7 +11513,7 @@
                         </msItem>
                         <msItem xml:id="Praha_KMK_M402_QsInt">
                             <locus from="112r" to="148r"/>
-                            <title ref="#Qdint">QsInt</title>
+                            <title ref="#QdInt">QsInt</title>
                         </msItem>
                         <msItem xml:id="Praha_KMK_M402_QdDiv">
                             <locus from="150r" to="157r"/>
@@ -12233,7 +12235,7 @@
                         </msItem>
                         <msItem xml:id="Praha_NK_VG22_QsInt">
                             <locus from="93v" to="123r-bis"/>
-                            <title ref="#Qdint">QsInt</title>
+                            <title ref="#QdInt">QsInt</title>
                             <colophon n="book I"><locus from="115v"/>Finis primi libri
                                 Perihermeneias, feria tertia post festum presentationis sancte Marie
                                 sub anno 1452 [22 XI 1452] </colophon>
@@ -12463,7 +12465,7 @@
                         </msItem>
                         <msItem xml:id="Praha_KnihovnaNarodnihoMuzea_XE4_QsInt">
                             <locus from="132r" to="155v"/>
-                            <title ref="#Qdint">QsInt</title>
+                            <title ref="#QdInt">QsInt</title>
                         </msItem>
                         <msItem xml:id="Praha_KnihovnaNarodnihoMuzea_XE4_QsPri">
                             <locus from="156r" to="188v"/>
@@ -12626,7 +12628,7 @@
                         </msItem>
                         <msItem xml:id="Praha_NK_XH21_QdInt">
                             <locus from="85r" to="109r"/>
-                            <title ref="#Qdint">QdInt</title>
+                            <title ref="#QdInt">QdInt</title>
                         </msItem>
                         <msItem xml:id="Praha_NK_XH21_QsPri">
                             <locus from="114r" to="147v"/>
@@ -12778,9 +12780,9 @@
                             <locus from="80v" to="85v"/>
                             <title ref="#QdDiv">QsDiv</title>
                         </msItem>
-                        <msItem xml:id="Praha_NK_IVF8_Qdint">
+                        <msItem xml:id="Praha_NK_IVF8_QdInt">
                             <locus from="86r" to="108v"/>
-                            <title ref="#Qdint">Qdint</title>
+                            <title ref="#QdInt">QdInt</title>
                             <colophon n="book I"><locus from="108v"/>finitus primus liber sexta
                                 feria ante Palmarum 1456 [19 III 1456] </colophon>
                         </msItem>
@@ -12804,7 +12806,7 @@
                     <history>
                         <origin>
                             <origDate from="1456" to="1458">1456–1458, as evident from the
-                                colophons: QsPre, f. 70v; QsSex, f. 80r; Qdint book I, f. 108v;
+                                colophons: QsPre, f. 70v; QsSex, f. 80r; QdInt book I, f. 108v;
                                 QsApri, f. 143v; QsTop, f. 212r. </origDate>
                             <origPlace>Praha</origPlace>
                             <p>The manuscript was copied at the College of King Charles by Martinus
@@ -13907,7 +13909,7 @@
                         </msItem>
                         <msItem xml:id="Schlagl_Pramonstratenserstift_Cpl170_QsPer">
                             <locus from="63r" to="85r"/>
-                            <title ref="#Qdint">QsPer</title>
+                            <title ref="#QdInt">QsPer</title>
                         </msItem>
                         <msItem xml:id="Schlagl_Pramonstratenserstift_Cpl170_QsSex">
                             <locus from="85v" to="94r"/>
@@ -14415,7 +14417,7 @@
                         </msItem>
                         <msItem xml:id="Stuttgart_WurttembergischeLandesbibliothek_HBX2_QsInt">
                             <locus from="79ra" to="98rb"/>
-                            <title ref="#Qdint">QsInt</title>
+                            <title ref="#QdInt">QsInt</title>
                         </msItem>
                         <msItem xml:id="Stuttgart_WurttembergischeLandesbibliothek_HBX2_QsPri">
                             <locus from="98va" to="127vb"/>
@@ -15295,7 +15297,7 @@
                         </msItem>
                         <msItem xml:id="Wien_Dominikanerkonvent_Cod149119_QsPeri">
                             <locus from="81ra" to="101va"/>
-                            <title ref="#Qdint">QsPeri</title>
+                            <title ref="#QdInt">QsPeri</title>
                             <colophon n="ars vetus"><locus from="101va"/>Terminantur sententie
                                 totius veteris artis in alma universitate studii Parisiensis
                                 questionatim collecte per Wenceslaum de Wrben, baccalarium artium,
@@ -15613,7 +15615,7 @@
                         </msItem>
                         <msItem xml:id="Wroclaw_BibliotekaUniwersytecka_MsIVF1_QsPer">
                             <locus from="88r" to="112v"/>
-                            <title ref="#Qdint">QsPer</title>
+                            <title ref="#QdInt">QsPer</title>
                         </msItem>
                         <msItem xml:id="Wroclaw_BibliotekaUniwersytecka_MsIVF1_QsDiv">
                             <locus from="113r" to="119v"/>
@@ -16065,7 +16067,7 @@
                         </msItem>
                         <msItem xml:id="Zwickau_Ratsschulbibliothek_MsXXXIIII14_QdInt">
                             <locus from="70r" to="92r"/>
-                            <title ref="#Qdint">QdInt</title>
+                            <title ref="#QdInt">QdInt</title>
                         </msItem>
                         <msItem xml:id="Zwickau_Ratsschulbibliothek_MsXXXIIII14_QsPri">
                             <locus from="93r" to="129r"/>
